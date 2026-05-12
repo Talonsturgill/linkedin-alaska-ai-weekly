@@ -32,9 +32,9 @@
     },
     {
       "name": "Readability (LinkedIn)",
-      "score": 8,
+      "score": 9,
       "weight": 0.10,
-      "notes": "667 words within the 500-700 window. The Juneau paragraph (HB 217 plus SB 111) runs five sentences covering six named entities across two bills, which will feel dense on mobile."
+      "notes": "v2 trim: 2773 chars total (under LinkedIn's 3000 cap), 475 body words. Juneau paragraph collapsed from 5 sentences to 4; opposition roster compressed. All five stories preserved. v1 was 3870 chars (870 over cap) and scored 8 here. Holds back from 10 only because the Juneau paragraph is still the densest block in the piece."
     },
     {
       "name": "Engagement question",
@@ -49,10 +49,11 @@
       "notes": "A CFO, program manager, or allocator can immediately revisit at least four decisions this week: bid/no-bid on the May 29 DAF lease, power-supply risk modeling, AV fleet planning against HB 217's May 20 cliff, and SB 111 compliance planning."
     }
   ],
-  "weighted_total": 9.30,
+  "weighted_total": 9.40,
   "threshold": 8.0,
   "hard_fail": null,
   "ship": true,
   "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the Juneau paragraph at the HB 217 / SB 111 boundary so each bill gets its own short paragraph, reducing the sentence count and named-entity load per block for mobile readers."
+  "one_sentence_fix": "Optional: shave one more sentence from the Juneau paragraph; current draft is mechanically clean and within all hard-fail thresholds.",
+  "_v2_note": "v1 scored 9.30 with Readability=8 against a 3870-char body that exceeded LinkedIn's 3000-char post cap. Operator-trimmed v2 is 2773 chars (475 words), Readability bumped to 9. Hard-fail rule for total_char_count_under_linkedin_cap (≤3000) was added to scoring_rubric.yaml in the same change; this draft passes it with 227 chars of margin."
 }
