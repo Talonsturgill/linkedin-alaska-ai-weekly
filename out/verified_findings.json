@@ -1,0 +1,93 @@
+{
+  "window": ["2026-05-05", "2026-05-12"],
+  "volume": "VOL. 01",
+  "validated_at": "2026-05-12",
+  "validator_summary": "7 of 7 stories verified. 5 clean (S1, S2, S3, S5, S6). 2 flagged needs_softening: S4 (factual discrepancy: FNN reports 26% decline, not 46%) and S7 (single-source op-ed, second URL 403). S6 minor: Nvidia attribution not in fetched sources; House hearing date is May 13 per AKLeg.gov (not May 15). Orchestrator action: drop S4 and S7 from final lineup; correct S6 date and remove Nvidia mention.",
+  "verified_findings": [
+    {
+      "id": "S1_data_center_power_crunch",
+      "beats": ["E", "B", "C", "D"],
+      "story_title": "Air Force AI Data Center Lease Proposals Due May 29 — Alaska Utilities Warn They Lack Gas to Power Them",
+      "summary_2_sentences": "The Anchorage Daily News reported May 5, 2026 that the Department of the Air Force's May 29 deadline for AI data center lease proposals on 4,700 acres across Joint Base Elmendorf-Richardson, Eielson Air Force Base, and Clear Space Force Station is colliding with a hard energy constraint: both Chugach Electric Association and Golden Valley Electric Association told the Air Force they currently cannot supply the natural gas needed to power a large data center. Under the Enhanced Use Lease model, winning bidders must self-fund power and water procurement, meaning any competitive proposal must include a credible energy solution at a moment when Cook Inlet gas is dwindling and Chugach Electric's gas supply contract with Hilcorp Alaska expires in 2028.",
+      "industry_consequence": "Chugach Electric Association and Golden Valley Electric Association face an immediate capital-planning decision by May 29, 2026: demonstrate a credible power path or risk being bypassed as lease winners source generation capacity from outside Alaska, foreclosing the state's near-term role as a military AI data center host.",
+      "sources": [
+        {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-05", "author": "Alex DeMarban", "_resolves": true, "_in_window": true},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": "Matthew Cox", "_resolves": true, "_background_context": true},
+        {"url": "https://www.af.mil/News/Article-Display/Article/4456660/daf-takes-steps-for-potential-alaskan-ai-data-centers/", "outlet": "U.S. Air Force (official)", "pub_date": "2026-04-10", "author": "Secretary of the Air Force Public Affairs", "_resolves": true, "_background_context": true}
+      ],
+      "confidence": "high",
+      "verified": true,
+      "needs_softening": false
+    },
+    {
+      "id": "S2_uaf_diu_mou",
+      "beats": ["E", "A"],
+      "story_title": "UAF Signs Three-Year Defense Innovation Unit MOU, Creating Pathway for Arctic Defense-Tech Hub in Fairbanks",
+      "summary_2_sentences": "The University of Alaska Fairbanks and the Defense Innovation Unit signed a three-year memorandum of understanding on May 8, 2026, announced by Senator Dan Sullivan, pairing UAF's Arctic research infrastructure (including Eielson Air Force Base, the 11th Airborne Division, Clear Space Force Station, Poker Flat Research Range, and the Alaska Center for Energy and Power) with DIU's mission to fast-track commercial technology for the Department of Defense. The agreement carries no initial capital but establishes UAF as a potential permanent DIU hub, with initial research phases focused on energy systems and drone operations.",
+      "industry_consequence": "UAF and the Defense Innovation Unit now have a formal three-year MOU, creating an opportunity for Fairbanks-area defense-tech contractors and UAF spin-outs to access DIU's rapid commercialization pathway and potentially anchoring a private-sector defense industrial base in Alaska by 2029.",
+      "sources": [
+        {"url": "https://www.uaf.edu/news/uaf-diu-launch-collaboration.php", "outlet": "UAF News (primary)", "pub_date": "2026-05-08", "author": "Marmian Grimes", "_resolves": true, "_in_window": true},
+        {"url": "https://www.newsminer.com/news/local_news/uaf-inks-research-agreement-with-federal-defense-innovation-unit/article_7939dbca-6a13-42fd-8a98-e18884ba9a7d.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-05-12", "author": "Jack Barnwell", "_resolves": true, "_in_window": true},
+        {"url": "https://www.alaskasnewssource.com/2026/05/09/fairbanks-university-partners-with-us-military-private-industry-research-technologies/", "outlet": "KTUU", "pub_date": "2026-05-08", "author": "Alex Bengel", "_resolves": true, "_in_window": true}
+      ],
+      "confidence": "high",
+      "verified": true,
+      "needs_softening": false
+    },
+    {
+      "id": "S3_hb217_av_bill",
+      "beats": ["D", "C", "A"],
+      "story_title": "Alaska Senate Hears HB 217 Mandating Human Safety Operators in Commercial Autonomous Vehicles — Session Deadline May 20",
+      "summary_2_sentences": "Alaska's House passed HB 217 on April 30, and the Senate Transportation Committee held a first hearing on May 5 and a second on May 12; the bill requires a physically present, credentialed human safety operator capable of intervention in any commercial autonomous vehicle weighing 10,000 pounds or under, a mandate industry groups call one of the most expansive AV operating restrictions in the United States. Teamsters Local 959 supported the bill as a job-protection measure; the Autonomous Vehicle Industry Association, the Alliance for Automotive Innovation, TechNet, and the R Street Institute testified in opposition before the May 20 session-end deadline.",
+      "industry_consequence": "Commercial AV operators and logistics primes face a binding legislative deadline by May 20, 2026: if HB 217 clears the Senate, commercial AV deployment in Alaska requires a credentialed human in every vehicle, foreclosing fully driverless freight in the state for the foreseeable future.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-04/alaska-house-advances-bill-regulating-autonomous-vehicles", "outlet": "Alaska Public Media", "pub_date": "2026-05-04", "author": "Haley Lehman", "_resolves": true, "_background_context": true, "_notes": "one day before window; near-window background"},
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB217", "outlet": "Alaska State Legislature (official record)", "pub_date": "2026-05-05", "author": "Alaska Legislature", "_resolves": true, "_in_window": true, "_notes": "primary source, May 12 Senate hearing entry in-window"},
+        {"url": "https://www.rstreet.org/outreach/r-street-testimony-in-opposition-to-ak-house-bill-217/", "outlet": "R Street Institute", "pub_date": "2026-05-12", "author": "R Street Institute", "_resolves": true, "_in_window": true},
+        {"url": "https://www.alaskasnewssource.com/2026/05/04/alaska-house-advances-bill-regulating-autonomous-vehicles/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-05-04", "author": "Not specified", "_resolves": true, "_background_context": true}
+      ],
+      "confidence": "high",
+      "verified": true,
+      "needs_softening": false
+    },
+    {
+      "id": "S5_information_sector_jobs",
+      "beats": ["A"],
+      "story_title": "Alaska Information Sector Loses 200 Jobs Year-Over-Year as Federal Civilian Cuts Erase Private-Sector Gains",
+      "summary_2_sentences": "Alaska Business Magazine reported May 8, 2026, citing Alaska Department of Labor and Workforce Development data, that the state's Information sector counted 4,100 workers in March, 200 fewer than a year earlier (a 4.7 percent annual decline), while federal civilian employment fell to 13,300, down 1,900 positions (-12.5 percent year-over-year). Combined government-sector losses nearly wiped out private-sector job gains statewide, holding Alaska's net nonfarm employment growth to just 0.3 percent.",
+      "industry_consequence": "Alaska-based employers and federal prime contractors planning to staff AI infrastructure or IT programs in 2026 face a documented 200-position gap in the Information sector workforce, compounded by 1,900 lost federal civilian positions, forcing decisions about whether to recruit outside Alaska or invest in accelerated local reskilling.",
+      "sources": [
+        {"url": "https://www.akbizmag.com/industry/government/alaska-employment-job-growth-trends-upward-in-march-unemployment-rate-flat-at-4-7/", "outlet": "Alaska Business Magazine", "pub_date": "2026-05-08", "author": "Not specified", "_resolves": true, "_in_window": true, "_notes": "cites Alaska DOLWD primary data"},
+        {"url": "https://federalnewsnetwork.com/federal-newscast/2026/05/federal-government-employment-continues-to-decline/", "outlet": "Federal News Network", "pub_date": "2026-05-11", "author": "Not specified", "_resolves": true, "_in_window": true, "_notes": "national trend context; Alaska-specific 1,900 figure rests on AKBizMag/DOLWD"}
+      ],
+      "confidence": "high",
+      "verified": true,
+      "needs_softening": false
+    },
+    {
+      "id": "S6_sb111_right_to_repair",
+      "beats": ["D"],
+      "story_title": "Alaska Senate Passes Consumer Digital Right to Repair Act 15-5",
+      "summary_2_sentences": "Alaska Senate Bill 111 passed the full Senate 15-5 on May 11, 2026, requiring electronics manufacturers including Apple, Amazon, and Google to supply replacement parts, repair tools, and technical documentation to independent repair shops and consumers at the same pricing and terms given to authorized service providers. The bill now goes to the House Labor and Commerce Committee with a hearing scheduled May 13 and a hard May 20 session-end deadline.",
+      "industry_consequence": "Major consumer technology manufacturers (via TechNet) must decide by June 2026 whether to comply with Alaska's repair-access mandate or challenge the law, while independent Alaska repair shops gain new legal footing to demand parts and documentation.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-11/alaska-senate-passed-bill-seeks-to-assert-right-to-repair-for-consumer-electronics", "outlet": "Alaska Public Media", "pub_date": "2026-05-11", "author": "Eric Stone", "_resolves": true, "_in_window": true},
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB111", "outlet": "Alaska State Legislature (official record)", "pub_date": "2026-05-11", "author": "Alaska Legislature", "_resolves": true, "_in_window": true}
+      ],
+      "confidence": "high",
+      "verified": true,
+      "needs_softening": false,
+      "_validator_notes_applied": "Removed Nvidia from named opponents (not in fetched sources). Corrected House hearing date from May 15 to May 13 per AKLeg.gov."
+    }
+  ],
+  "dropped_or_excluded_from_lineup": [
+    {
+      "id": "S4_anc_8a_contract_contraction",
+      "reason": "Validator flagged material factual discrepancy: merged_findings stated '46 percent decline' but the only in-window source (Federal News Network, 2026-05-08) reports '26 percent ($800M)'. Only one in-window source. Excluded from this week's lineup. Worth re-pitching next week with corrected figures and a second source."
+    },
+    {
+      "id": "S7_susitna_watana_revival",
+      "reason": "Validator flagged sourcing failure: single-source op-ed (Alaska Beacon resolves, Renewable Energy World 403s and is syndicated reprint anyway). Excluded as standalone. The energy-data-center tension is already carried by S1, so the substantive point survives in the package."
+    }
+  ]
+}
