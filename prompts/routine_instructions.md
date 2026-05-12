@@ -124,7 +124,7 @@ The writer picks one of two modes based on the week:
 - **Deep Dive (house default)**. One issue dominates with a real structural tension. Structure: 2-sentence hook (that stands alone for the LinkedIn "see more" cutoff), conventional framing, counter-framing, specifics with named entities and dollar amounts, optional bullet block, stakes or lock-in, engagement question, hashtag block.
 - **Weekly Brief**. Diffuse week, 3 to 5 stories that ladder up to one industry frame. Structure: 2-sentence hook, lead-story analytical thread, 2 supporting stories reinforcing the same frame, stakes, engagement question, hashtag block.
 
-Length: **500 to 700 words** (hashtags excluded from count).
+Length: **350 to 475 words AND ≤ 3000 characters total including the hashtag line** (LinkedIn's hard post cap is 3000 chars — anything over is truncated by the platform). The char cap is the binding constraint; word count is just a useful proxy. Aim for ~2900 chars body so the hashtag line fits under the cap.
 
 The writer returns the post inside `---POST---` / `---ENDPOST---` markers and the quotable headline inside `---HEADLINE---` / `---ENDHEADLINE---` markers. You persist the post to `out/draft_v{N}.md` (where N is the revision number, starting at 1).
 
@@ -137,7 +137,8 @@ Spawn the `editor` subagent. It reads `out/draft_v{N}.md`, `out/verified_finding
 - Any colon (`:`) or semicolon (`;`) anywhere in the body.
 - A contraction-friendly phrase written out (e.g. "do not" instead of "don't") that doesn't have a clear stylistic reason.
 - Any banned phrase or banned opener from `config/brand.yaml`.
-- Word count outside 500 to 700 (hashtags excluded from count).
+- Total post length (body + hashtag line) exceeds 3000 characters — LinkedIn's hard cap, the platform truncates anything over.
+- Body word count outside 350 to 475 (hashtags excluded from word count).
 - Hashtag block missing, hashtag count outside 3 to 5, hashtags placed inline rather than as the final line, or more than one off-whitelist hashtag.
 - First two lines (roughly the first ~210 chars) don't earn the "see more" click. They must carry a specific noun, verb, and stake on their own.
 - An assertion that can't be traced to `out/verified_findings.json`.
@@ -290,7 +291,7 @@ You may keep the un-contracted form when the sentence carries weight, e.g. "Alas
 - If a source can't be re-verified by `WebFetch` at Phase 3, the claim is dropped.
 - No stories outside the 7-day window unless flagged `background_context: true`.
 - If the validator returns fewer than 3 usable stories, broaden to **14 days**, re-run Phases 2 and 3 once, and flag in the email that the window was broadened.
-- If still fewer than 3 after broadening, ship a shorter "slow week" post (lead + 1 supporting + forward-look, still within 500 to 700 words by leaning on the forward-look) and say so honestly.
+- If still fewer than 3 after broadening, ship a shorter "slow week" post (lead + 1 supporting + forward-look, still within 350 to 475 words / ≤ 3000 chars total by leaning on the forward-look) and say so honestly.
 
 # OUTPUT SUCCESS CRITERIA (all must hold)
 
@@ -300,7 +301,7 @@ You may keep the un-contracted form when the sentence carries weight, e.g. "Alas
 4. `out/final_post.md` exists with the final post text.
 5. `out/final_post.md` body contains zero em-dashes (`—`, `–`, `--`), zero colons (`:`), and zero semicolons (`;`).
 6. `out/final_post.md` ends with a 3 to 5 hashtag line drawn from `brand.yaml` (one off-whitelist max).
-7. `out/final_post.md` body length is 500 to 700 words (hashtag line excluded from count).
+7. `out/final_post.md` total length (body + hashtag line) is ≤ 3000 characters, and body word count is 350 to 475 (hashtag line excluded from word count).
 8. `out/source_ledger.json` has at least 3 cited sources (or a documented "slow week" note).
 9. `out/score_report.json` weighted total is at or above threshold AND no hard-fail tripped, OR contains an explicit shortfall note.
 10. `claude/linkedin-weekly-{YYYY-MM-DD}` branch (or the disambiguated name from Phase 0) is pushed with all artifacts.

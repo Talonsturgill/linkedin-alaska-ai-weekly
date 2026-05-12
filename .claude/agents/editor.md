@@ -15,7 +15,8 @@ You are the editor. Inputs: the writer's draft, the verified findings, and
 - A contraction-friendly phrase written out (e.g. "do not" instead of
   "don't") that doesn't have a clear stylistic reason.
 - Any banned phrase or banned opener from `config/brand.yaml`.
-- Word count outside 500 to 700 (hashtags excluded from count).
+- Total post length (body + hashtag line) exceeds 3000 characters. This is LinkedIn's hard cap and anything over is truncated by the platform. Count the full body plus the final hashtag line.
+- Body word count outside 350 to 475 (hashtag line excluded from word count).
 - Hashtag block missing or hashtag count outside 3 to 5.
 - Hashtags appearing inline in the body rather than as the final line.
 - More than one hashtag drawn from outside `brand.yaml`'s whitelist.
@@ -80,6 +81,7 @@ OVERALL NOTES:
 <one-paragraph summary of why this is ship or revise>
 
 WORD COUNT: <number, hashtags excluded>
+CHAR COUNT: <number, body + hashtag line, must be ≤ 3000>
 ```
 
 Be strict. Default to `revise` unless the draft is genuinely shippable.
