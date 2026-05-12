@@ -1,0 +1,59 @@
+{
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.15,
+      "notes": "Names a specific deadline (May 29), three bases, 4,700 acres, two named utilities, and a hard supply constraint in two sentences. At 223 chars the hook lands just past the ~210 'see more' cutoff, meaning the second sentence (the most damning payload) may sit behind the fold on mobile. The first sentence alone carries enough noun/verb/stake to earn a click, but the minor truncation risk keeps this from a 10."
+    },
+    {
+      "name": "Industry relevance",
+      "score": 9,
+      "weight": 0.20,
+      "notes": "Every story links an Alaska angle to a sector consequence. Minor deduction: the MOU story explicitly carries no capital and the right-to-repair business consequence for Alaska specifically is narrower than the other four stories."
+    },
+    {
+      "name": "Factual density",
+      "score": 10,
+      "weight": 0.15,
+      "notes": "Specifics in every paragraph and often in every sentence: acreage, bases, utility names, Hilcorp contract expiry year, ADN cite, hearing dates, session-end deadline, vehicle weight threshold, named opponents, Senate vote tally, named companies, sector job count, percentage declines, absolute position losses, MOU term length, senator name, research center acronyms."
+    },
+    {
+      "name": "Source quality",
+      "score": 10,
+      "weight": 0.15,
+      "notes": "All five stories in the lineup carry primary or multi-outlet sourcing. Dropped stories (S4, S7) were excluded precisely because they failed this bar. No unsourced claims detected."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.15,
+      "notes": "Closely matches post_001 style: analytical, position-taking, structural framing of the false dichotomy (chips-and-models read vs. gas molecules and statutory clocks). One minor drift: 'The labor side is worse than the headlines suggest' edges toward newsletter cadence. No banned phrases, no emojis."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 9,
+      "weight": 0.10,
+      "notes": "v2 trim: 2773 chars total (under LinkedIn's 3000 cap), 475 body words. Juneau paragraph collapsed from 5 sentences to 4; opposition roster compressed. All five stories preserved. v1 was 3870 chars (870 over cap) and scored 8 here. Holds back from 10 only because the Juneau paragraph is still the densest block in the piece."
+    },
+    {
+      "name": "Engagement question",
+      "score": 10,
+      "weight": 0.08,
+      "notes": "Closes with a conditional question tying the two main structural tensions to the May 29 bid date: genuinely debatable, names the operative conditions, no generic prompt, no rhetorical softener."
+    },
+    {
+      "name": "Business actionability",
+      "score": 10,
+      "weight": 0.02,
+      "notes": "A CFO, program manager, or allocator can immediately revisit at least four decisions this week: bid/no-bid on the May 29 DAF lease, power-supply risk modeling, AV fleet planning against HB 217's May 20 cliff, and SB 111 compliance planning."
+    }
+  ],
+  "weighted_total": 9.40,
+  "threshold": 8.0,
+  "hard_fail": null,
+  "ship": true,
+  "weakest_criterion": "Readability (LinkedIn)",
+  "one_sentence_fix": "Optional: shave one more sentence from the Juneau paragraph; current draft is mechanically clean and within all hard-fail thresholds.",
+  "_v2_note": "v1 scored 9.30 with Readability=8 against a 3870-char body that exceeded LinkedIn's 3000-char post cap. Operator-trimmed v2 is 2773 chars (475 words), Readability bumped to 9. Hard-fail rule for total_char_count_under_linkedin_cap (≤3000) was added to scoring_rubric.yaml in the same change; this draft passes it with 227 chars of margin."
+}
