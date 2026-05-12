@@ -32,6 +32,8 @@ Subagent return contracts:
 - `editor` returns a verdict block (`VERDICT:`, `LINE EDITS:`, `RISK FLAGS:`, `AI-TELLS:`, `OVERALL NOTES:`, `WORD COUNT:`). You don't persist editor output, you act on it.
 - `scorer` returns a JSON object inside fenced ```` ```json ```` blocks. You persist it to `out/score_report.json`.
 
+**Transient-error retry (applies to every `Task` spawn, every phase).** If a subagent returns with a transient API failure rather than its contract output, re-spawn it once with an identical prompt before falling back. Transient failures are: a 5xx HTTP status (especially `529 Overloaded`), an "API Error" string in the result, a rate-limit / capacity message, or any result where the subagent never began tool use. Do NOT retry on contract failures (malformed JSON, missing markers, hallucinated facts) — those need a different prompt, not the same one. After one identical retry, if the failure repeats, fall back to that phase's stall-recovery rule (abandon the beat in Phase 2; manual promotion in Phase 3; best-available draft in Phases 5–7) and log "subagent X failed twice with transient error; recovered via <fallback>" in the Editor's note.
+
 # INPUTS YOU MUST READ BEFORE STARTING
 
 1. `config/brand.yaml`
