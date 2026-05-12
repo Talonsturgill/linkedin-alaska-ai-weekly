@@ -6,8 +6,10 @@ rubric:
       rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
     - name: "punctuation_bans_held"
       rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "total_char_count_under_linkedin_cap"
+      rule: "Total post length (body + hashtag line) is at most 3000 characters. This is LinkedIn's hard post cap; the platform truncates anything over. Failure automatically forces revise."
     - name: "word_count_in_range"
-      rule: "Body length 500 to 700 words (hashtags excluded from count). Failure automatically forces revise."
+      rule: "Body word count is 350 to 475 (hashtag line excluded from word count). Failure automatically forces revise."
   criteria:
     - name: "Hook strength"
       weight: 0.15
@@ -43,9 +45,9 @@ rubric:
     - name: "Readability (LinkedIn)"
       weight: 0.10
       descriptors:
-        10: "Tight paragraphs (2 to 4 sentences), 500 to 700 words, optional single bullet block with 3 to 5 single-clause items, easy to scan on desktop and mobile."
+        10: "Tight paragraphs (2 to 4 sentences), 350 to 475 words AND ≤ 3000 chars total (LinkedIn cap), optional single bullet block with 3 to 5 single-clause items, easy to scan on desktop and mobile."
         7:  "Slightly long or one wall-of-text paragraph."
-        4:  "Hard to scan, missed the 500 to 700 window."
+        4:  "Hard to scan, missed the 350 to 475 word / 3000 char window."
     - name: "Engagement question"
       weight: 0.08
       descriptors:
