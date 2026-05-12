@@ -1,0 +1,63 @@
+seed_sources:
+  alaska_news:
+    - {url: "https://www.adn.com",                    outlet: "Anchorage Daily News",                  credibility: "high"}
+    - {url: "https://alaskapublic.org",               outlet: "Alaska Public Media",                   credibility: "high"}
+    - {url: "https://www.alaskabeacon.com",           outlet: "Alaska Beacon",                         credibility: "high"}
+    - {url: "https://www.ktoo.org",                   outlet: "KTOO Public Media",                     credibility: "high"}
+    - {url: "https://knba.org",                       outlet: "KNBA",                                  credibility: "high"}
+    - {url: "https://www.alaskasnewssource.com",      outlet: "KTUU",                                  credibility: "medium"}
+    - {url: "https://www.alaskajournal.com",          outlet: "Alaska Journal of Commerce",            credibility: "high"}
+    - {url: "https://www.akbizmag.com",               outlet: "Alaska Business",                       credibility: "high"}
+    - {url: "https://www.alaska-native-news.com",     outlet: "Alaska Native News",                    credibility: "medium"}
+
+  research_orgs:
+    - {url: "https://news.uaf.edu",                   outlet: "UAF News",                              credibility: "primary"}
+    - {url: "https://www.uaa.alaska.edu/news",        outlet: "UAA News",                              credibility: "primary"}
+    - {url: "https://www.iarc.uaf.edu",               outlet: "International Arctic Research Center",  credibility: "primary"}
+    - {url: "https://www.sealaskaheritage.org/news",  outlet: "Sealaska Heritage Institute",           credibility: "primary"}
+    - {url: "https://www.ansep.net/news",             outlet: "ANSEP",                                 credibility: "primary"}
+
+  government:
+    - {url: "https://www.alaska.gov/news.html",       outlet: "State of Alaska",                       credibility: "primary"}
+    - {url: "https://www.muni.org/Departments/Mayor", outlet: "Muni of Anchorage",                     credibility: "primary"}
+    - {url: "https://www.fairbanksalaska.us/news",    outlet: "City of Fairbanks",                     credibility: "primary"}
+    - {url: "https://sam.gov",                        outlet: "SAM.gov (federal contract awards)",     credibility: "primary"}
+    - {url: "https://www.usaspending.gov",            outlet: "USAspending.gov",                       credibility: "primary"}
+
+  business_trade:
+    - {url: "https://www.petroleumnews.com",          outlet: "Petroleum News Alaska",                 credibility: "high"}
+    - {url: "https://www.eenews.net",                 outlet: "E&E News",                              credibility: "high"}
+    - {url: "https://www.defensenews.com",            outlet: "Defense News",                          credibility: "high"}
+    - {url: "https://breakingdefense.com",            outlet: "Breaking Defense",                      credibility: "high"}
+    - {url: "https://www.fiercehealthcare.com",       outlet: "Fierce Healthcare",                     credibility: "high"}
+    - {url: "https://www.healthcareitnews.com",       outlet: "Healthcare IT News",                    credibility: "high"}
+    - {url: "https://federalnewsnetwork.com",         outlet: "Federal News Network",                  credibility: "high"}
+    - {url: "https://www.seafoodsource.com",          outlet: "SeafoodSource",                         credibility: "high"}
+    - {url: "https://www.undercurrentnews.com",       outlet: "Undercurrent News",                     credibility: "high"}
+    - {url: "https://about.bgov.com",                 outlet: "Bloomberg Government",                  credibility: "high"}
+    - {url: "https://statescoop.com",                 outlet: "StateScoop",                            credibility: "high"}
+    - {url: "https://www.govtech.com",                outlet: "GovTech",                               credibility: "high"}
+    - {url: "https://www.fedscoop.com",               outlet: "FedScoop",                              credibility: "high"}
+    - {url: "https://news.crunchbase.com",            outlet: "Crunchbase News",                       credibility: "medium"}
+
+  national_with_ak_lens:
+    - {url: "https://www.nytimes.com",                outlet: "NYT",                                   credibility: "high"}
+    - {url: "https://www.washingtonpost.com",         outlet: "WaPo",                                  credibility: "high"}
+    - {url: "https://www.reuters.com",                outlet: "Reuters",                               credibility: "high"}
+    - {url: "https://apnews.com",                     outlet: "AP",                                    credibility: "high"}
+    - {url: "https://www.bloomberg.com",              outlet: "Bloomberg",                             credibility: "high"}
+    - {url: "https://www.wsj.com",                    outlet: "Wall Street Journal",                   credibility: "high"}
+
+discover:
+  enabled: true
+  guidance: |
+    Surface credible business and trade sources not in this seed list,
+    including industry newsletters, analyst firms (Gartner, Forrester, IDC
+    when they publish public commentary), federal program offices, court
+    dockets touching AK AI deployment, SEC filings from AK-relevant
+    companies, and tribal corporation investor communications. Put
+    candidates in researcher.new_sources_to_consider with a one-line
+    rationale. The maintainer promotes good ones into seed_sources weekly.
+    LinkedIn posts by named executives count as a primary source only when
+    they announce a contract, hire, deal, or material business event in the
+    first person.

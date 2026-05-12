@@ -1,0 +1,9 @@
+# The launch date drives the volume counter.
+# Volume N = floor((today - launch_date).days / 7) + 1
+launch_date: 2026-05-12        # YYYY-MM-DD, the date of VOL. 01. Update before first run.
+brand_name: "Alaska.Ai"
+surface: "LinkedIn"
+default_byline: "BY TALON"
+default_kicker: "WEEKLY BRIEF"
+default_motto: "what's moving in alaska ai, this week"
+default_coords: "61°13′N  ·  149°54′W"

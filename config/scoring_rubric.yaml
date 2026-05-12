@@ -1,0 +1,61 @@
+rubric:
+  ship_threshold: 8.0
+  max_revision_cycles: 2
+  hard_fail_checks:
+    - name: "hashtag_count_in_range"
+      rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
+    - name: "punctuation_bans_held"
+      rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "word_count_in_range"
+      rule: "Body length 500 to 700 words (hashtags excluded from count). Failure automatically forces revise."
+  criteria:
+    - name: "Hook strength"
+      weight: 0.15
+      descriptors:
+        10: "First two lines stand alone as a hook (LinkedIn 'see more' cutoff at ~210 chars). Names a specific deadline, contract, award, deployment, or live tension. Hints at a missing option or capital consequence."
+        7:  "Solid opener, no banned phrases, first lines work but lack a specific stake."
+        4:  "Generic LinkedIn-y / abstract. First lines could front any newsletter."
+        0:  "Banned opener, empty, or first lines bury the lead."
+    - name: "Industry relevance"
+      weight: 0.20
+      descriptors:
+        10: "Every story names an AK angle AND an industry consequence (sector, contract vehicle, procurement agency, dollar amount, capital flow, workforce impact)."
+        7:  "Most stories localize and name a sector consequence, one is thin on the business angle."
+        4:  "AK angle present but no clear business consequence, or business consequence with weak AK anchor."
+    - name: "Factual density"
+      weight: 0.15
+      descriptors:
+        10: "Specifics (names, places, dates, dollar amounts, contract numbers, agencies) every 1 to 2 sentences."
+        7:  "Specifics in lead, vaguer in supporting paragraphs."
+        4:  "Mostly vibes, few named facts or numbers."
+    - name: "Source quality"
+      weight: 0.15
+      descriptors:
+        10: "Every claim ties to a primary source (federal docket, SAM.gov award, agency PR, earnings call) or two independent credible outlets."
+        7:  "All claims sourced, mix of credible secondary."
+        4:  "At least one claim is single-sourced and not primary."
+    - name: "Voice match"
+      weight: 0.15
+      descriptors:
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural. Business-literate without LinkedIn-influencer cadence."
+        7:  "Mostly on voice, one drift moment into folksy or corporate."
+        4:  "Drifts into thought-leadership cadence, hype, or earnings-call boilerplate."
+    - name: "Readability (LinkedIn)"
+      weight: 0.10
+      descriptors:
+        10: "Tight paragraphs (2 to 4 sentences), 500 to 700 words, optional single bullet block with 3 to 5 single-clause items, easy to scan on desktop and mobile."
+        7:  "Slightly long or one wall-of-text paragraph."
+        4:  "Hard to scan, missed the 500 to 700 window."
+    - name: "Engagement question"
+      weight: 0.08
+      descriptors:
+        10: "Closes with a real, debatable industry question tied to a specific tension. No 'follow us', no rhetorical softener."
+        7:  "Question present and on-topic but slightly generic."
+        4:  "Generic prompt or LinkedIn-influencer-style rhetorical."
+        0:  "No closing question, or replaced with CTA."
+    - name: "Business actionability"
+      weight: 0.02
+      descriptors:
+        10: "After reading, a target reader (exec, allocator, program manager) can name one deal, contract, risk, or decision they'd revisit this week."
+        7:  "Reader gets a useful frame but no concrete revisit-this trigger."
+        4:  "Interesting commentary, no actionable signal."

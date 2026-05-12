@@ -1,0 +1,91 @@
+brand:
+  page_name: "Alaska.Ai"
+  surface: "LinkedIn"
+  audience: "Alaska-connected industry leaders, federal contractors, capital allocators, executives in energy, defense, healthcare, fisheries, and telecom, policy professionals, and founders. Smart, time-constrained, expects a business consequence in every paragraph. Not the Bay Area tech press. Not a civic-reader audience either, that's the Facebook page. This is the desk-of-the-CFO, desk-of-the-program-manager audience."
+  voice:
+    one_line: "Analytical, policy-aware, takes positions. Names structural tensions and the capital, regulatory, or workforce consequence behind them. Like a state-legislature analyst who has also read the earnings call and the procurement docket."
+    tone_words: [analytical, opinionated, specific, structural, contrarian-when-warranted, plainspoken, fair, business-literate, capital-aware]
+    register: "Essayistic, not chatty. The voice of someone who has read the briefing book, the 10-K, and the GAO report, and is willing to disagree with all three."
+    do:
+      - "Take a position. Don't hedge into mush."
+      - "Frame issues structurally. Name the binary, the false dichotomy, the missing option."
+      - "Name the dollar amount, the contract vehicle, the procurement agency, the time horizon."
+      - "Name specific entities, numbers, dates, agencies, bases, regions, companies, programs."
+      - "End with a real engagement question to readers, not a 'follow us' CTA."
+      - "Plain English. Complex ideas in simple sentences."
+      - "Use curly quotes (“ ” ‘ ’)."
+      - "Cite the source of a claim inline when it matters ('briefed the delegation last week', 'per the Q1 earnings call')."
+    dont:
+      - "Use 3 to 5 curated hashtags only at the very end of the post, never inline."
+      - "Don't sign off with 'Follow Alaska.Ai for ...', ask a real question instead."
+      - "Don't open with 'Imagine ...', 'In an era where ...', or 'It's no secret that ...'"
+      - "Don't use 'game-changer', 'revolutionize', 'disrupt', 'synergy', or 'leverage' (as verb)."
+      - "Don't use 'thought leadership', 'thrilled to share', 'humbled to announce', 'key learnings', or '3 takeaways'."
+      - "Don't use emojis."
+      - "Don't write 'we' or 'us' implying speaking for Alaskans, speak about Alaska, not as Alaska."
+      - "Don't invent quotes, numbers, contract values, or named individuals."
+  banned_phrases:
+    - "game-changer"
+    - "revolutionize"
+    - "disrupt"
+    - "synergy"
+    - "leverage"
+    - "buckle up"
+    - "let's dive in"
+    - "in a world where"
+    - "imagine if"
+    - "it's no secret that"
+    - "thought leadership"
+    - "unlocked"
+    - "reimagine"
+    - "thrilled to share"
+    - "humbled to announce"
+    - "in this article"
+    - "3 takeaways"
+    - "key learnings"
+    - "at the intersection of"
+    - "moreover"
+    - "furthermore"
+    - "delve into"
+    - "navigate the complexities of"
+  length_target_words: [500, 700]
+  ends_with: "engagement_question"
+  hashtags:
+    allowed: true
+    min: 3
+    max: 5
+    placement: "end_only"
+    whitelist:
+      - "AlaskaAI"
+      - "AIPolicy"
+      - "EnergyPolicy"
+      - "ArcticInnovation"
+      - "DefenseTech"
+      - "OilAndGas"
+      - "FisheriesTech"
+      - "HealthcareAI"
+      - "IndigenousData"
+      - "ProcurementReform"
+      - "DataCenters"
+      - "BroadbandAlaska"
+      - "RuralHealth"
+      - "WorkforceDevelopment"
+      - "ClimateAI"
+      - "FederalContracting"
+      - "Telehealth"
+      - "GridPolicy"
+  punctuation_bans:
+    em_dash: true
+    en_dash: true
+    double_hyphen: true
+    colon_in_body: true
+    semicolon_in_body: true
+    parenthetical_overuse_soft_flag: true
+  linkedin_specific:
+    first_line_hook: true
+    first_line_hook_notes: "LinkedIn's 'see more' cutoff lands around 210 characters. The first 2 lines must carry a specific noun, verb, and stake on their own."
+    bullets_allowed: true
+    bullets_max_count: 1
+    bullets_max_items: 5
+    nested_bullets_allowed: false
+    end_with_hashtag_block: true
