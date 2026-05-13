@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {"url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bills-s-98-and-s-1020-signed-into-law/", "outlet": "White House Office of the Press Secretary", "pub_date": "2026-05-11", "story_title": "President signs S. 98 Rural Broadband Protection Act"},
+    {"url": "https://www.govinfo.gov/app/details/BILLS-119s98enr", "outlet": "GovInfo — S. 98 Enrolled", "pub_date": "2026-04-22", "story_title": "S. 98 enrolled bill text"},
+    {"url": "https://www.usac.org/high-cost/funds/alaska-plan/", "outlet": "USAC — Alaska Plan", "pub_date": "2026-01-01", "story_title": "Alaska Plan 10-year support program, expires Dec 31, 2026"},
+    {"url": "https://www.gciliberty.com/news/detail/87/gci-liberty-reports-first-quarter-2026-financial-and-operating-results", "outlet": "GCI Liberty Investor Relations", "pub_date": "2026-05-07", "story_title": "GCI Liberty Q1 2026 results: $256M revenue, $290M capex, Quintillion pending, Liberty Capital rebrand"},
+    {"url": "https://www.businesswire.com/news/home/20260510125509/en/GCI-Liberty-Provides-Update-Following-Discussions-with-Chairman-John-Malone", "outlet": "BusinessWire / GCI Liberty", "pub_date": "2026-05-10", "story_title": "GCI Liberty terminates LLA strategy; $107M cash restored"},
+    {"url": "https://orangeslices.ai/koniag-subsidiary-wins-147m-usda-ocio-enterprise-it-network-services-support-contract/", "outlet": "Orange Slices AI (citing SAM.gov Award ID 12314426F0159)", "pub_date": "2026-05-09", "story_title": "Koniag Technology Solutions wins $147.5M USDA OCIO contract"},
+    {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-05-12/its-bill-passing-season-heres-what-to-expect-in-the-final-days-of-the-alaska-legislatures-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-12", "story_title": "HB 78 pension bill on Dunleavy's desk; May 20 deadline"},
+    {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-04-29/alaska-senate-passes-bill-offering-public-pensions-with-fate-at-dunleavys-desk-uncertain", "outlet": "Alaska Public Media", "pub_date": "2026-04-29", "story_title": "Alaska Senate passes HB 78 12-8 on April 29"},
+    {"url": "https://www.alaskabeacon.com/2026/04/29/alaska-legislature-approves-bill-to-revive-public-pension-system-now-headed-to-dunleavys-desk/", "outlet": "Alaska Beacon", "pub_date": "2026-04-29", "story_title": "Alaska Legislature approves HB 78, headed to Dunleavy"}
+  ]
+}

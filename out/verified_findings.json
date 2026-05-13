@@ -1,0 +1,228 @@
+{
+  "window": "2026-05-06 to 2026-05-13",
+  "_validation_note": "Validator ran successfully; 13 stories carried, 0 dropped. needs_softening flags on A2 (NSF blog source), A3 (H-1B blog/law-firm secondary), A4 (42.6/100 figure unverified, Dittman 60% unverified, Ivan Moore quote retained), A5 (41% NOAA cut and AFSC half-staff not in source; corrected to 17% overall + $77M fisheries + 1,450 positions agencywide), B1 (SAM.gov direct URL 404; aggregator source only), D3 (FCC ~Nov 8 deadline not in any verified source — drop the date).",
+  "verified_stories": [
+    {
+      "id": "A1",
+      "beat": "A",
+      "story_title": "HB 78 public pension bill on Dunleavy's desk; May 20 action deadline",
+      "summary_2_sentences": "The Alaska Legislature passed HB 78 on April 29, 2026, reviving a defined-benefit pension option for public employees after a 20-year gap, with the Senate voting 12-8 and the House 21-19. Governor Dunleavy has until May 20 to sign, veto, or allow the bill to become law without his signature, with razor-thin passage margins making a veto-override unlikely.",
+      "why_it_matters_to_alaskans": "Defined-benefit pensions directly affect state and municipal workers across Alaska; the outcome shapes public-sector recruitment and long-term state budget obligations, including talent for AI-adjacent regulatory and infrastructure roles.",
+      "industry_consequence": "Cross-sector workforce, decision: Governor Dunleavy must act by May 20, 2026; a veto kills near-term prospects for restoring defined-benefit retention incentives for state engineers and data professionals and cements a structural talent disadvantage for state agencies trying to staff AI-adjacent roles against private and federal employers.",
+      "sources": [
+        {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-05-12/its-bill-passing-season-heres-what-to-expect-in-the-final-days-of-the-alaska-legislatures-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-12", "author": "Alaska Public Media staff"},
+        {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-04-29/alaska-senate-passes-bill-offering-public-pensions-with-fate-at-dunleavys-desk-uncertain", "outlet": "Alaska Public Media", "pub_date": "2026-04-29", "author": "Alaska Public Media staff"},
+        {"url": "https://www.alaskabeacon.com/2026/04/29/alaska-legislature-approves-bill-to-revive-public-pension-system-now-headed-to-dunleavys-desk/", "outlet": "Alaska Beacon", "pub_date": "2026-04-29", "author": "Alaska Beacon staff"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "A2",
+      "beat": "A",
+      "story_title": "NSF TechAccess AI-Ready America: one Alaska hub eligible, Round 1 LOI due June 16",
+      "summary_2_sentences": "The NSF, in partnership with the Department of Labor, is offering up to $1 million per year for three years to a single State/Territory Coordination Hub per state under the NSF 26-508 TechAccess: AI-Ready America solicitation. Alaska institutions with statewide convening capacity can submit a Letter of Intent by June 16, 2026 for Round 1.",
+      "why_it_matters_to_alaskans": "A single Alaska institution could anchor statewide AI workforce training infrastructure, connecting residents to American Job Centers and apprenticeships as AI adoption accelerates across resource-extraction and public-sector industries.",
+      "industry_consequence": "Cross-sector workforce development, opportunity: A statewide convener (likely UAF or AVTEC) must submit a Letter of Intent by June 16, 2026 to compete for Round 1 of $3M; failure to act forces a 6-month wait to Round 2.",
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "National Science Foundation (primary)", "pub_date": "2026-04-02", "author": "NSF"},
+        {"url": "https://www.dol.gov/newsroom/releases/osec/osec20260402", "outlet": "U.S. Department of Labor (primary)", "pub_date": "2026-04-02", "author": "DOL"},
+        {"url": "https://grantedai.com/blog/nsf-techaccess-ai-ready-america-224-million-state-hubs-workforce-dol-strategy-2026", "outlet": "Granted AI (blog)", "pub_date": "2026-05-05", "author": "Granted AI staff"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": true,
+      "needs_softening": true
+    },
+    {
+      "id": "A3",
+      "beat": "A",
+      "story_title": "DOL H-1B prevailing wage NPRM: public comment window closes May 26, 2026",
+      "summary_2_sentences": "The Department of Labor published a proposed rule on March 27, 2026 that would raise H-1B prevailing wage floors from the 17th to 34th OES percentile for entry-level positions and from the 50th to 70th percentile for experienced workers. The 60-day public comment window closes May 26, 2026.",
+      "why_it_matters_to_alaskans": "Alaska's healthcare, university, and defense-contractor employers rely on H-1B workers; the proposed wage floor increases would raise sponsorship costs by an estimated $14,000 annually per role and could reduce the competitiveness of Alaska postings relative to Lower-48 alternatives.",
+      "industry_consequence": "Cross-sector technology workforce, risk: Alaska H-1B sponsors (University of Alaska system, defense contractors, healthcare systems) must decide by May 26, 2026 whether to submit formal comments to DOL; silence cedes the comment record to Lower-48 large-employer interests.",
+      "sources": [
+        {"url": "https://www.dol.gov/newsroom/releases/eta/eta20260326-0", "outlet": "U.S. Department of Labor (primary)", "pub_date": "2026-03-26", "author": "DOL ETA"},
+        {"url": "https://www.boundless.com/blog/dol-h1b-prevailing-wage-nprm-2026", "outlet": "Boundless (immigration blog)", "pub_date": "2026-03-27", "author": "Boundless staff"},
+        {"url": "https://www.alston.com/en/insights/publications/2026/04/dol-proposed-increase-wage-levels-h1b", "outlet": "Alston and Bird LLP", "pub_date": "2026-04", "author": "Alston and Bird"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": true,
+      "needs_softening": true
+    },
+    {
+      "id": "A4",
+      "beat": "A",
+      "story_title": "Alaska economic confidence falls below COVID-era lows, May 2026 surveys show",
+      "summary_2_sentences": "Two independent May 2026 surveys (Ivan Moore's Alaska Survey Research and Dittman Research) found Alaskan economic sentiment at its lowest in years. Ivan Moore stated the index is 'at a lower point than we were at any point during the COVID years — 2020, 2021, 2022,' per Alaska Public Media's May 7 report.",
+      "why_it_matters_to_alaskans": "Negative sentiment is a documented accelerant of out-migration; for AI and tech employers trying to retain engineers and data professionals in a state already losing net population, the reading compounds the non-wage retention argument.",
+      "industry_consequence": "Cross-sector workforce, risk: Capital allocators planning AI-capable workforces face a near-record-low retention environment that should inform location and hiring-incentive decisions for any multi-year staffing commitment.",
+      "sources": [
+        {"url": "https://www.alaskapublic.org/news/2026-05-07/alaskans-have-low-confidence-in-state-economy-survey-says", "outlet": "Alaska Public Media", "pub_date": "2026-05-07", "author": "Liz Ruskin"},
+        {"url": "https://www.alaskabeacon.com/2026/05/08/alaskans-are-more-pessimistic-about-the-states-economy-now-than-they-were-in-2020/", "outlet": "Alaska Beacon", "pub_date": "2026-05-08", "author": "James Brooks"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "needs_softening": true
+    },
+    {
+      "id": "A5",
+      "beat": "A",
+      "story_title": "Proposed FY2027 NOAA budget cuts: ~17% overall, $77M from fisheries, 1,450 positions at risk",
+      "summary_2_sentences": "Per National Fisherman (May 8, 2026), the Trump administration's FY2027 budget proposal would reduce NOAA funding by more than $1.1 billion overall (~17%) and cut fisheries management and science programs by $77 million, following the earlier loss of more than 400 NOAA Fisheries staff in 2026. An additional 1,450 positions agencywide are reportedly at risk.",
+      "why_it_matters_to_alaskans": "NOAA Fisheries and the Alaska Fisheries Science Center are the primary scientific authorities for Alaska's commercially critical groundfish, salmon, and crab stocks; further cuts threaten stock assessments and catch-limit science.",
+      "industry_consequence": "Fisheries sector, risk: Reduced NOAA capacity could delay stock assessments and quota-setting, creating regulatory uncertainty for Alaska's commercial fishing industry; the FY2027 cycle is the relevant decision window for the North Pacific Fishery Management Council and Alaska's delegation.",
+      "sources": [
+        {"url": "https://www.nationalfisherman.com/proposed-noaa-cuts-raise-questions", "outlet": "National Fisherman", "pub_date": "2026-05-08", "author": "National Fisherman staff"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "needs_softening": true
+    },
+    {
+      "id": "B1",
+      "beat": "B",
+      "story_title": "Koniag Technology Solutions wins $147.5M USDA OCIO enterprise IT network contract (May 9, 2026)",
+      "summary_2_sentences": "Koniag Technology Solutions, an Alaska Native Corporation subsidiary of Koniag, Inc. (Kodiak), was reported on May 9, 2026 to have received a five-year, $147,542,030 contract to provide enterprise network services consolidation and IT support for the USDA Office of the Chief Information Officer. The award is designated a Small Business Set-Aside on the GSA MAS vehicle, competed against three bidders, per Orange Slices AI citing SAM.gov Award ID 12314426F0159.",
+      "why_it_matters_to_alaskans": "Koniag is the ANCSA regional corporation for Kodiak; federal IT contract wins of this scale support dividends and operational employment for Alaska Native shareholders, and demonstrate that ANC federal services arms remain competitive at scale.",
+      "industry_consequence": "Federal IT services sector, opportunity / risk: Koniag Technology Solutions must execute a five-year, $147.5M USDA network consolidation program beginning in May 2026 while ANC sole-source contracting preferences remain under DoD and SBA review — a review that could constrain future pipeline growth for ANC federal IT subsidiaries.",
+      "sources": [
+        {"url": "https://orangeslices.ai/koniag-subsidiary-wins-147m-usda-ocio-enterprise-it-network-services-support-contract/", "outlet": "Orange Slices AI (citing SAM.gov Award ID 12314426F0159)", "pub_date": "2026-05-09", "author": "Orange Slices AI staff"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "needs_softening": true
+    },
+    {
+      "id": "B2",
+      "beat": "B",
+      "story_title": "GCI Liberty Q1 2026: $290M capex guidance, Quintillion acquisition pending, rebrand to Liberty Capital",
+      "summary_2_sentences": "GCI Liberty reported Q1 2026 results on May 7, with revenue of $256 million (down 4%), adjusted OIBDA of $93 million (down 18%), and full-year 2026 capex guidance of $290 million. The company confirmed a definitive agreement to acquire Quintillion for $310 million cash plus up to $50 million in capex reimbursements, and announced a rebrand of the parent company to Liberty Capital Corporation.",
+      "why_it_matters_to_alaskans": "GCI is Alaska's dominant broadband and wireless provider; the Quintillion fiber acquisition would significantly expand subsea and terrestrial fiber serving remote Alaska communities and Arctic connectivity.",
+      "industry_consequence": "Telecommunications and digital infrastructure sector, decision: GCI Liberty must close the Quintillion acquisition and sustain $290M in capital deployment through fiscal year 2026, exposing the company to execution risk if regulatory approval slips beyond Q3.",
+      "sources": [
+        {"url": "https://www.gciliberty.com/news/detail/87/gci-liberty-reports-first-quarter-2026-financial-and-operating-results", "outlet": "GCI Liberty Investor Relations (primary)", "pub_date": "2026-05-07", "author": "GCI Liberty"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "B3",
+      "beat": "B",
+      "story_title": "GCI Liberty terminates LLA investment strategy May 10; $107M cash restored",
+      "summary_2_sentences": "GCI Liberty announced May 10, 2026 that its board accepted Chairman John Malone's offer to purchase the company's 6% equity stake in Liberty Latin America at cost ($8.63/share), restoring approximately $107 million to the company's cash balance. CEO Ron Duncan confirmed the decision in the company's official release.",
+      "why_it_matters_to_alaskans": "The cash restoration strengthens GCI Liberty's balance sheet ahead of the Quintillion acquisition, reducing financing risk for infrastructure that will serve Alaska communities.",
+      "industry_consequence": "Telecommunications sector, opportunity: Terminating the LLA cross-holding simplifies GCI Liberty's capital structure and signals a focused Alaska-and-fiber strategy that could accelerate the Quintillion deal closing.",
+      "sources": [
+        {"url": "https://www.businesswire.com/news/home/20260510125509/en/GCI-Liberty-Provides-Update-Following-Discussions-with-Chairman-John-Malone", "outlet": "BusinessWire / GCI Liberty (primary press release)", "pub_date": "2026-05-10", "author": "GCI Liberty"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "C1",
+      "beat": "C",
+      "story_title": "Alaska Airlines signs Boeing Virtual Airplane AI-augmented pilot training license; in-window via Aviation Week May 6",
+      "summary_2_sentences": "Alaska Airlines signed a formal license agreement for Boeing's Virtual Airplane training platform, announced via Boeing's media room on May 5, 2026 and covered by Aviation Week on May 6. The device-agnostic, AI-augmented software lets pilots practice 737 MAX procedures on tablets and computers outside the full-flight simulator, with Alaska having served as a development partner.",
+      "why_it_matters_to_alaskans": "Alaska Airlines is one of the state's largest employers and its primary mainline carrier; adoption of AI-augmented training tools could compress pilot qualification timelines and influence training operations at Anchorage and Seattle bases.",
+      "industry_consequence": "Aviation sector, opportunity: As launch customer for Boeing's Virtual Airplane, Alaska Airlines establishes a precedent for AI-assisted pilot training that other carriers may follow, with Boeing planning extension to 737NG, 787, and 777X fleet types.",
+      "sources": [
+        {"url": "https://boeing.mediaroom.com/2026-05-05-Alaska-Airlines-signs-for-Boeing-Virtual-Airplane-Training-Platform", "outlet": "Boeing Media Room (primary)", "pub_date": "2026-05-05", "author": "Boeing"},
+        {"url": "https://aviationweek.com/air-transport/maintenance-training/alaska-airlines-adds-boeing-virtual-airplane-training", "outlet": "Aviation Week", "pub_date": "2026-05-06", "author": "Aviation Week staff"},
+        {"url": "https://www.prnewswire.com/news-releases/alaska-airlines-signs-for-boeing-virtual-airplane-training-platform-302762853.html", "outlet": "PR Newswire", "pub_date": "2026-05-05", "author": "Boeing / Alaska Airlines"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "C2",
+      "beat": "C",
+      "story_title": "11th Airborne Division conducts first-ever organic FPV strike drone company live-fire at JBER, May 2026",
+      "summary_2_sentences": "Over 700 paratroopers from the 2nd Infantry Brigade Combat Team, 11th Airborne Division completed the brigade's first company-level live-fire exercise incorporating organic first-person-view strike drones at Joint Base Elmendorf-Richardson from April 27 through May 8, 2026. Drones were built with components from 11th Airborne Innovations and operated by ground units, with adversarial sUAS in the exercise — a doctrinal milestone for Arctic light infantry.",
+      "why_it_matters_to_alaskans": "JBER is one of Alaska's largest employers and the Arctic hub for the Army's only active-duty Arctic division; institutionalizing FPV drone tactics signals sustained demand for FPV components, counter-UAS systems, and simulation software that Alaska-based defense contractors should be tracking.",
+      "industry_consequence": "Defense logistics sector, opportunity: The 11th Airborne's full incorporation of organic FPV drone strikes into JBER live-fire training, completed May 8, 2026, creates a near-term procurement and sustainment opportunity through FY2026 and FY2027 budget cycles.",
+      "sources": [
+        {"url": "https://www.dvidshub.net/news/564708/11th-airborne-division-paratroopers-integrate-drones-night-operations-historic-company-live-fire", "outlet": "DVIDS / U.S. Army (primary DoD release)", "pub_date": "2026-05-07", "author": "Maj. Ian Roth, 11th Airborne PAO"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "D1",
+      "beat": "D",
+      "story_title": "AI-CSAM criminalization rides 10-bill omnibus crime package through Alaska Senate Finance, May 20 cliff",
+      "summary_2_sentences": "An omnibus 10-bill crime package now in the Alaska Senate Finance Committee includes a provision to criminalize AI-generated child sexual abuse material, drawn from HB 47 (Rep. Sarah Vance) which passed the House 39-0. The package faces the May 20, 2026 constitutional session deadline, after which any unfinished provisions die.",
+      "why_it_matters_to_alaskans": "Alaska currently has no explicit state statute on AI-generated CSAM; passage would align Alaska with more than 40 other states and create new investigative and prosecutorial tools.",
+      "industry_consequence": "Legal and compliance sector, decision: AI platform operators and Alaska-domiciled deployers face a binary outcome by May 20, 2026 — either a Class B felony enters Alaska law via the omnibus, creating immediate compliance obligations, or the enforcement vacuum persists until at least January 2027.",
+      "sources": [
+        {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-05-12/its-bill-passing-season-heres-what-to-expect-in-the-final-days-of-the-alaska-legislatures-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-12", "author": "Alaska Public Media"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/10/with-session-deadline-looming-whats-left-for-the-alaska-legislature-to-vote-on/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-10", "author": "ADN staff"},
+        {"url": "https://www.alaskapublic.org/news/politics/alaska-legislature/2026-04-21/raising-alaskas-age-of-consent-headlines-10-bill-package-of-crime-legislation", "outlet": "Alaska Public Media", "pub_date": "2026-04-21", "author": "Alaska Public Media"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "D2",
+      "beat": "D",
+      "story_title": "Alaska SB 250 data center ratepayer-protection bill: Senate L&C hearing May 13",
+      "summary_2_sentences": "Alaska SB 250 (Sen. Löki Tobin, D-Anchorage) would bar utilities from passing data-center infrastructure costs to ratepayers, require community benefit agreements, and require renewable-priority backup power; it received its Senate Labor and Commerce public-testimony hearing on May 13, 2026. The session ends May 20.",
+      "why_it_matters_to_alaskans": "Without statutory cost ringfencing, any data center coming online on the Railbelt could restructure rates for 400,000-plus Alaskans Chugach Electric and Golden Valley Electric serve.",
+      "industry_consequence": "Energy and AI infrastructure sector, decision: Utilities and data center developers must know by May 20 whether SB 250 is law; if enacted, any new Railbelt data center power contract requires RCA-approved cost segregation and a community-benefit agreement as preconditions.",
+      "sources": [
+        {"url": "https://www.billtrack50.com/billdetail/1974439", "outlet": "BillTrack50", "pub_date": "2026-05-13", "author": "BillTrack50"},
+        {"url": "https://www.alaskasnewssource.com/2026/04/30/data-centers-alaska-lawmakers-gauge-bans-or-tax-incentives-with-just-weeks-left-session/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-04-30", "author": "Erica Keppler"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "D3",
+      "beat": "D",
+      "story_title": "Rural Broadband Protection Act (S. 98) signed May 11, 2026; FCC vetting rulemaking triggered; Alaska Plan expires December 31",
+      "summary_2_sentences": "President signed the Rural Broadband Protection Act of 2025 (S. 98) into law on May 11, 2026, requiring the FCC to initiate a rulemaking establishing a vetting process for applicants and award recipients of high-cost universal service broadband funds. The Alaska Plan, which provides 10-year fixed support to carriers serving high-cost Alaska areas, expires December 31, 2026.",
+      "why_it_matters_to_alaskans": "Alaska has more per-capita high-cost USF dependence than any other state; the Alaska Plan expiring while a new vetting rulemaking opens creates a regulatory compression point. Carriers that cannot demonstrate solvency and operational capacity under the new framework risk losing the subsidy streams that fund village broadband.",
+      "industry_consequence": "Telecommunications sector, risk: Alaska rural broadband carriers (Alaska Communications, GCI, Alaska Plan mobile providers) must prepare financial and operational documentation now to remain eligible as Alaska Plan support expires December 31, 2026 and Alaska Connect Fund award cycles open under the new vetting framework.",
+      "sources": [
+        {"url": "https://www.whitehouse.gov/briefings-statements/2026/05/congressional-bills-s-98-and-s-1020-signed-into-law/", "outlet": "White House Office of the Press Secretary (primary)", "pub_date": "2026-05-11", "author": "White House"},
+        {"url": "https://www.govinfo.gov/app/details/BILLS-119s98enr", "outlet": "GovInfo — S. 98 Enrolled (primary)", "pub_date": "2026-04-22", "author": "U.S. Congress"},
+        {"url": "https://www.usac.org/high-cost/funds/alaska-plan/", "outlet": "USAC — Alaska Plan (primary)", "pub_date": "2026-01-01", "author": "Universal Service Administrative Company"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": true
+    }
+  ]
+}
