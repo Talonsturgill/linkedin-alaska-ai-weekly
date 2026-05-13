@@ -1,0 +1,24 @@
+{
+  "post_path": "out/final_post.md",
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "Opening two lines name the Alaska Plan, anchor to a hard December 31 expiration, and land a position-taking kicker within ~260 chars. Minus one because no dollar amount appears in the hook itself."},
+    {"name": "Industry relevance", "score": 9, "weight": 0.20, "notes": "Four storylines woven together, each with a named sector, dollar amount, and capital or regulatory consequence. Editorial focus on telecom/federal-contracting leaves defense, aviation, and fisheries verified findings unused."},
+    {"name": "Factual density", "score": 9, "weight": 0.15, "notes": "Nearly every sentence carries a specific noun (S. 98, USAC Alaska Plan, GCI Q1 figures, John Malone, $107M, $360M Quintillion ceiling, Koniag $147,542,030, HB 78 dates). Closing structural paragraph is argument rather than fact."},
+    {"name": "Source quality", "score": 8, "weight": 0.15, "notes": "Most claims trace to high-confidence primary sources (White House OPS, GCI Liberty IR, BusinessWire, Alaska Public Media). Koniag figure rests on a single aggregator source with SAM.gov 404; post hedges with 'per SAM.gov as reported.' Dropped FCC ~Nov 8 deadline correctly omitted."},
+    {"name": "Voice match", "score": 9, "weight": 0.15, "notes": "Reads closely to post_001.md. Reuses 'conventional read / true and incomplete' framing device. Structural binary framing, capital-consequence sentences, three-actor closing all match anchor. 'Navigate the architecture' is the one moment voice softens toward abstraction."},
+    {"name": "Readability (LinkedIn)", "score": 8, "weight": 0.10, "notes": "Tight paragraphs, no walls, 463 words within operational 350-475 window. Minus two for no bullet block (rubric's 10 descriptor calls for one) and for sitting under the rubric's stated 500-700 word floor (even though operational target is 350-475)."},
+    {"name": "Engagement question", "score": 9, "weight": 0.08, "notes": "Specific, debatable, names three actor-classes (State, regional ANCs, anchor carrier), ties to central structural tension. Mirrors post_001's three-option closing format. Minus one because 'documentation cost' is technical framing for CFO skim-readers."},
+    {"name": "Business actionability", "score": 9, "weight": 0.02, "notes": "Telecom CFO, ANC program director, or state broadband policy lead can identify multiple revisit-this-week triggers: Alaska Connect Fund readiness, FCC rulemaking timeline tracking, Koniag compliance benchmark, HB 78 workforce planning."}
+  ],
+  "weighted_total": 8.75,
+  "threshold": 8.0,
+  "hard_fail_checks": {
+    "hashtag_count_in_range": "pass — exactly 5 hashtags from brand.yaml whitelist, none inline",
+    "punctuation_bans_held": "pass — body contains no em-dashes, en-dashes, double-hyphens, colons, or semicolons",
+    "word_count_in_range": "pass — body is 463 words, within operational 350-475 window; rubric file states 500-700 which conflicts with the operational target"
+  },
+  "ship": true,
+  "weakest_criterion": "Readability (LinkedIn)",
+  "one_sentence_fix": "Insert a single 3-to-5-item bullet block naming the compliance artifacts small carriers now face (Alaska Connect Fund documentation, FCC vetting timeline, USAC successor-program enrollment) to add a mobile scan anchor.",
+  "rubric_note": "The word_count_in_range hard-fail in config/scoring_rubric.yaml states 500-700 words but the operational target is 350-475 to stay within LinkedIn's 3000-character cap; this post's 463-word body passes under the operational window but would technically fail the rubric-as-written. The rubric file should be updated to reflect 350-475."
+}
