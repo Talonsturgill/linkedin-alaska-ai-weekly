@@ -11,7 +11,10 @@ You are the scorer. Inputs: the final draft, the verified findings,
 ## Process
 
 1. Read the rubric. Note each criterion's weight, the weighted ship
-   threshold, and every hard-fail check.
+   threshold, and every hard-fail check. If the orchestrator points you at
+   `config/contrarian_rubric.yaml`, use exactly that file's criteria names
+   and weights. The JSON example below is illustrative only and its
+   criterion names do not bind, follow the rubric file you were given.
 2. Run every hard-fail check first. If any hard-fail check trips, set
    `ship: false` and `hard_fail` to the failing rule name. The weighted
    total is still computed for the report card but cannot lift the post

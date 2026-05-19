@@ -21,7 +21,8 @@ table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-
 """
 
 
-def render(post_text, image_b64, sources, score, date_str, branch):
+def render(post_text, image_b64, sources, score, date_str, branch,
+           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn"):
     src_items = "\n".join(
         f'<li><a href="{s["url"]}">{s["outlet"]}</a> &mdash; '
         f'{s.get("pub_date","")} &mdash; {s.get("story_title","")}</li>'
@@ -39,7 +40,7 @@ def render(post_text, image_b64, sources, score, date_str, branch):
     )
     return f"""<!doctype html><html><head><style>{CSS}</style></head><body>
 <div class="wrap">
-  <h1>Alaska.Ai &mdash; Weekly LinkedIn Recap Draft</h1>
+  <h1>Alaska.Ai &mdash; {label} Draft</h1>
   <div class="sub">{date_str} &middot; branch <code>{branch}</code></div>
   <h2>Copy this for LinkedIn</h2>
   <pre class="post">{post_text}</pre>
@@ -55,7 +56,7 @@ def render(post_text, image_b64, sources, score, date_str, branch):
   <p><b>Weighted total:</b> {score.get("weighted_total","?")} / 10 &middot;
      <b>Threshold:</b> {score.get("threshold","?")} &middot;
      <b>Ship:</b> {"yes" if score.get("ship") else "no &mdash; see flag above"}</p>
-  <div class="foot">Generated {dt.datetime.utcnow().isoformat()}Z by the Alaska.Ai Weekly LinkedIn routine.</div>
+  <div class="foot">Generated {dt.datetime.utcnow().isoformat()}Z by the Alaska.Ai {footer_label} routine.</div>
 </div></body></html>"""
 
 
@@ -67,6 +68,8 @@ def main():
     ap.add_argument("--score",   required=True)
     ap.add_argument("--date",    required=True)
     ap.add_argument("--branch",  required=True)
+    ap.add_argument("--label",        default="Weekly LinkedIn Recap")
+    ap.add_argument("--footer-label", default="Weekly LinkedIn")
     args = ap.parse_args()
 
     post_text = Path(args.post_md).read_text()
@@ -75,9 +78,10 @@ def main():
     score = json.loads(Path(args.score).read_text())
 
     payload = {
-        "subject": f"Alaska.Ai — Weekly LinkedIn Recap Draft — {args.date}",
+        "subject": f"Alaska.Ai — {args.label} Draft — {args.date}",
         "to": "me",
-        "html_body": render(post_text, image_b64, sources, score, args.date, args.branch),
+        "html_body": render(post_text, image_b64, sources, score, args.date,
+                            args.branch, args.label, args.footer_label),
     }
     print(json.dumps(payload))
 

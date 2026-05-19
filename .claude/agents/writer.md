@@ -29,6 +29,10 @@ Read the verified findings. Pick a mode based on the week:
   `examples/post_001.md`.
 - **Weekly Brief** — diffuse week, 3 to 5 worthwhile stories that ladder
   up to a single industry frame.
+- **Corrective Explainer** — used ONLY when the orchestrator says this is
+  the "Received Wisdom" routine. Do not pick this mode on your own. When
+  instructed, ignore the mode-selection logic here and use the Corrective
+  Explainer structure below.
 
 Default to Deep Dive when a single issue has a sharp, debatable structural
 angle aimed at a business reader. The first published post is the
@@ -87,6 +91,43 @@ canonical Deep Dive, treat it as the house style baseline.
 5. **Engagement question (1 sentence)** — open a question on the
    connecting frame.
 6. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
+
+## Structure (Corrective Explainer — "Received Wisdom" routine only)
+
+Use this structure ONLY when the orchestrator's prompt says this is the
+Received Wisdom routine. Your input is `claim_dossier.json` (in place of the
+verified findings) plus `examples/post_001.md`. The voice is identical to the
+house voice. The posture is corrective and generous, not a dunk. Steelman
+first, correct second.
+
+1. **Hook (2 sentences, ~200 chars total)** — name the claim and that it is
+   load-bearing for an Alaska AI decision. Signal that the received view is
+   incomplete or wrong, without snark and without revealing the correction
+   yet. Must stand alone for the LinkedIn "see more" cutoff.
+2. **The claim, steelmanned (1 short paragraph)** — state the strongest
+   honest version, attributed to who actually says it (name plus title or
+   organization, from `selected_claim.asserters`). Quote the claim as it
+   actually circulates.
+3. **Why smart people believe it (1 short paragraph)** — the legitimate
+   basis. Be generous. The reader who holds this view should feel fairly
+   represented here.
+4. **Where it breaks (1 to 2 paragraphs)** — the correction, grounded in
+   `selected_claim.counter_evidence`. Primary-source numbers, dockets,
+   agencies, dollar amounts. This is the analytical core.
+5. **The more accurate frame (1 paragraph plus optional 3 to 5 bullet
+   block)** — what to believe instead, from
+   `selected_claim.more_accurate_frame`, and the named Alaska sector,
+   capital, or procurement consequence from `selected_claim.ak_stakes`.
+6. **Stakes (1 paragraph)** — what decision this changes and by when.
+7. **Engagement question (1 sentence)** — a real, debatable question tied to
+   the corrected frame. Not "follow us."
+8. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
+
+Hard rule for this mode. Never quote or attribute a claim that is not in
+`claim_dossier.json` `selected_claim`. Never rebut with a fact that is not in
+`selected_claim.counter_evidence`. If the dossier has
+`no_target_this_cycle: true`, do not invent a post. Return a one-line note
+that there is no defensible target this cycle.
 
 ## Hard rules
 

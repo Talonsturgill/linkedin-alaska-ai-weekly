@@ -46,6 +46,43 @@ A sidecar `out/post_image.png.meta.json` is written next to the PNG.
 - Render the LinkedIn cover banner (separate one-off 1584x396 asset).
 - Render the profile picture (static).
 
+## Received Wisdom routine (second, independent column)
+
+A second routine on this repo produces a different post type: a corrective
+explainer that takes ONE widely circulating claim about Alaska and AI, states
+it fairly at its strongest, then corrects it or fills the load-bearing piece it
+leaves out, using primary-source evidence. It is depth-first and not tied to a
+news window.
+
+How it differs from the weekly recap:
+
+- **Pure discovery.** Four parallel `claim-scout` agents sweep current
+  discourse (Alaska press/op-eds, trade/analyst, policy/official, exec/social)
+  for claims that are actually circulating, each quoted verbatim with a named
+  asserter. No backlog file.
+- **Anti-strawman attribution gate.** One `claim-validator` agent enforces a
+  six-point gate (named attribution, independent circulation, load-bearing,
+  steelman survives, rebuttable from primary evidence, not a recent repeat).
+  If nothing clears the gate, the routine ships an honest "no defensible
+  target this cycle" email instead of inventing one.
+- **Corrective, not snarky.** Steelman the claim generously, then correct it.
+- **Own identity.** Kicker `RECEIVED WISDOM`, issue counter `NO. 0N` derived
+  from the count of distinct `claude/linkedin-contrarian-*` branch date stems
+  (independent, possibly irregular cadence — no `launch_date` formula).
+- **Own branch namespace.** Artifacts land on
+  `claude/linkedin-contrarian-{YYYY-MM-DD}`, disjoint from
+  `claude/linkedin-weekly-*`, so the two routines never collide.
+
+It reuses the same `writer`, `editor`, and `scorer` agents (each has a gated
+Corrective Explainer section that activates only when the orchestrator says so),
+the `alaska-ai-brief` image skill unchanged, and the Gmail-draft handoff. The
+weekly recap is byte-identical regardless of these additions.
+
+Setup: create a SECOND routine at https://claude.ai/code/routines bound to this
+same repo, configure model = Opus, network = Trusted, connectors = Gmail, set
+its own schedule (independent of the weekly), and paste the prompt from
+`prompts/contrarian_instructions.md` into the Instructions field.
+
 ## Differences from the Facebook sister automation
 
 | Surface | Word target | Image | Hashtags | Hook discipline |
@@ -57,10 +94,15 @@ Both surfaces share the punctuation discipline (no em-dashes, en-dashes, double-
 
 ## Files of note
 
-- `prompts/routine_instructions.md` — the pasted routine prompt.
+- `prompts/routine_instructions.md` — the pasted weekly-recap routine prompt.
+- `prompts/contrarian_instructions.md` — the pasted Received Wisdom routine prompt.
 - `.claude/skills/alaska-ai-brief/` — the 1080x1080 square brand image generator.
-- `.claude/agents/*.md` — subagent definitions.
+- `.claude/agents/*.md` — subagent definitions (`researcher`, `validator`,
+  `writer`, `editor`, `scorer`, plus `claim-scout` and `claim-validator` for
+  the Received Wisdom routine).
 - `config/brand.yaml` — voice anchor, hashtag whitelist, banned phrases.
 - `config/sources.yaml` — Alaska news + research orgs + government + business/trade outlets + national.
-- `config/scoring_rubric.yaml` — ship threshold + hard-fail checks.
-- `examples/post_001.md` — published style baseline.
+- `config/scoring_rubric.yaml` — weekly-recap ship threshold + hard-fail checks.
+- `config/contrarian_rubric.yaml` — Received Wisdom ship threshold + hard-fail
+  checks (adds `claim_is_attributed` and `steelman_present`).
+- `examples/post_001.md` — published style baseline (shared voice anchor).
