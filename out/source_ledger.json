@@ -1,0 +1,21 @@
+{
+  "post_date": "2026-05-20",
+  "volume": "VOL. 02",
+  "stories_used": ["E1", "D2", "C1", "D1", "B1"],
+  "sources": [
+    {"story_id": "E1", "story_title": "Stak Energy $500M North Slope AI Data Center (DNR preliminary lease)", "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "pub_date": "2026-05-13", "author": "Nathaniel Herz"},
+    {"story_id": "E1", "story_title": "Stak Energy $500M North Slope AI Data Center (DNR preliminary lease)", "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-18", "author": "Nathaniel Herz"},
+    {"story_id": "E1", "story_title": "Stak Energy $500M North Slope AI Data Center (DNR preliminary lease)", "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "pub_date": "2026-05-14", "author": "Nathaniel Herz"},
+    {"story_id": "D2", "story_title": "SB 250 Data Center Cost-Allocation Bill Dies at Session End", "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB+250", "outlet": "Alaska State Legislature", "pub_date": "2026-05-18", "author": "Alaska State Legislature"},
+    {"story_id": "D2", "story_title": "SB 250 Data Center Cost-Allocation Bill Dies at Session End", "url": "https://www.billtrack50.com/billdetail/1974439", "outlet": "BillTrack50", "pub_date": "2026-05-18", "author": "BillTrack50"},
+    {"story_id": "C1", "story_title": "Santos and Repsol First Oil at Pikka with Remote Operations Center", "url": "https://www.santos.com/news/santos-announces-first-oil-at-pikka-in-alaska/", "outlet": "Santos Ltd.", "pub_date": "2026-05-18", "author": "Santos Ltd."},
+    {"story_id": "C1", "story_title": "Santos and Repsol First Oil at Pikka with Remote Operations Center", "url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-santos-reach-first-oil-pikka-alaska/index.cshtml", "outlet": "Repsol", "pub_date": "2026-05-18", "author": "Repsol"},
+    {"story_id": "C1", "story_title": "Santos and Repsol First Oil at Pikka with Remote Operations Center", "url": "https://www.akbizmag.com/industry/oil-gas/pikka-produces-santos-announces-first-oil/", "outlet": "Alaska Business Magazine", "pub_date": "2026-05-18", "author": "Alaska Business Magazine"},
+    {"story_id": "C1", "story_title": "Santos and Repsol First Oil at Pikka with Remote Operations Center", "url": "https://www.alaskasnewssource.com/2026/05/18/first-oil-flows-pikka-project-north-slope/", "outlet": "KTUU Alaska's News Source", "pub_date": "2026-05-18", "author": "KTUU"},
+    {"story_id": "D1", "story_title": "Dunleavy Vetoes HB 78; Override Fails 33 of 60", "url": "https://www.adn.com/politics/alaska-legislature/2026/05/18/gov-dunleavy-vetoes-public-pension-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-18", "author": "Iris Samuels"},
+    {"story_id": "D1", "story_title": "Dunleavy Vetoes HB 78; Override Fails 33 of 60", "url": "https://www.adn.com/politics/alaska-legislature/2026/05/19/alaska-lawmakers-fail-to-override-dunleavys-veto-of-pension-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-19", "author": "Iris Samuels"},
+    {"story_id": "D1", "story_title": "Dunleavy Vetoes HB 78; Override Fails 33 of 60", "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-19/pipeline-for-pension-deal-falls-apart-as-the-alaska-legislatures-regular-session-nears-end", "outlet": "Alaska Public Media", "pub_date": "2026-05-19", "author": "James Brooks"},
+    {"story_id": "B1", "story_title": "Glenfarne Alaska LNG and ConocoPhillips 30-Year Gas Supply Agreement", "url": "https://energynewsbeat.co/big-oil-companies/alaska-lng-locks-in-conocophillips-on-30-year-gas-supply-deal-fid-for-phase-one-pipeline-now-within-reach/", "outlet": "Energy News Beat", "pub_date": "2026-05-18", "author": "Energy News Beat"},
+    {"story_id": "B1", "story_title": "Glenfarne Alaska LNG and ConocoPhillips 30-Year Gas Supply Agreement", "url": "https://www.lngindustry.com/liquid-natural-gas/19052026/glenfarne-and-conocophillips-sign-north-slope-gas-sales-precedent-agreement-for-alaska-lng/", "outlet": "LNG Industry", "pub_date": "2026-05-19", "author": "Jessica Casey"}
+  ]
+}
