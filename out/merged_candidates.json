@@ -1,0 +1,196 @@
+{
+  "run_date": "2026-05-20",
+  "mechanisms_already_anatomized": [],
+  "note": "First issue of The Stack column. No prior stack branches exist. No dedupe constraints.",
+  "scouts": [
+    {
+      "category": "facilities",
+      "candidate_mechanisms": [
+        {
+          "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
+          "one_line_definition": "The Department of the Air Force leases up to 4,700 acres of underutilized land across three Alaska military installations under 10 U.S.C. § 2667 to private developers who finance, build, and operate commercial AI data centers for up to 50 years, with the Air Force retaining mission-compatibility veto and potentially purchasing compute and power from the tenant.",
+          "news_trigger": {
+            "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
+            "outlet": "Anchorage Daily News",
+            "date": "2026-05-05",
+            "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+            "verbatim_span": "Electric associations that would potentially serve the facilities — Chugach Electric Association in Anchorage and Golden Valley Electric Association in Fairbanks — say that with natural gas from Cook Inlet dwindling, they can't produce enough electricity to meet the needs of large data centers."
+          },
+          "draft_layers": [
+            {"layer_name": "Statutory Authority & Policy Trigger", "what_it_does": "Executive Orders 14179, 14156, and 14154 directed federal agencies to make land available for AI and energy infrastructure; 10 U.S.C. § 2667 provides the Air Force authority to lease non-excess property to private entities for up to 50 years", "controlling_actor": "Office of the Secretary of the Air Force / White House (E.O. directives)", "primary_source_url": "https://www.globalsecurity.org/military/library/news/2026/02/mil-260223-usaf04.htm"},
+            {"layer_name": "Solicitation and RFP Management", "what_it_does": "Air Force Civil Engineer Center (AFCEC/CIUE) runs the Request for Lease Proposal process: issues RFI, hosts industry day, manages site visits, collects proposals by the deadline", "controlling_actor": "AFCEC/CIUE (submissions to afcec.EUL@us.af.mil); Investment Committee chaired by AFCEC/CI Director", "primary_source_url": "https://www.globalsecurity.org/military/library/news/2026/02/mil-260223-usaf04.htm"},
+            {"layer_name": "Lease Award and Mission-Compatibility Gate", "what_it_does": "AFCEC's Investment Committee reviews proposals for 10 U.S.C. § 2667 compliance, market analysis, and risk; final lease signature authority sits with SAF/IEI", "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI)", "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/"},
+            {"layer_name": "Power Supply Bottleneck", "what_it_does": "JBER sites require a new connection to Chugach Electric Association (824 MW capacity, 80.8% gas-fired); Fairbanks-area bases rely on GVEA; both utilities have declared they currently cannot supply power for large data centers due to Cook Inlet gas depletion; Chugach's primary Hilcorp gas contract expires 2028", "controlling_actor": "Chugach Electric Association; Golden Valley Electric Association", "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation"},
+            {"layer_name": "Tenant Developer Responsibilities", "what_it_does": "Selected developer assumes all financing, permitting, construction, and long-term operations; government holds no obligation to purchase compute or power from tenant; developer must remain compatible with DoD mission throughout 50-year term", "controlling_actor": "Winning private lessee (proposals due May 29, 2026; not yet selected)", "primary_source_url": "https://news.clearancejobs.com/2026/04/14/air-force-eyes-arctic-ai-boom-with-new-data-center-push-in-alaska/"}
+          ],
+          "provisional_chokepoint": "Layer 4 — Power Supply Bottleneck. Chugach Electric Association (Anchorage) and GVEA (Fairbanks) hold the binary go/no-go on whether any tenant can actually operate.",
+          "alaska_consequence": "Any Alaska-based AI company, defense contractor, or hyperscaler hoping to co-locate at JBER or Eielson faces a hard 2028+ power horizon.",
+          "recurrence_note": "Same power bottleneck recurs at Stak Energy North Slope proposal and across Railbelt data center concepts."
+        },
+        {
+          "name": "Stak Energy North Slope Data Center Land Lease (Alaska DNR AS 38.05 Best Interest Process)",
+          "one_line_definition": "A private operator (Stak Energy) is seeking a 50-year state land lease under Alaska Statute 38.05 to build a 3-gigawatt, $500 million AI and cloud computing campus on North Slope state land — a project dependent on a gas supply pipeline that has not yet been contracted, federal Clean Water Act authorization, and a DNR Commissioner best-interest finding that is currently in public comment.",
+          "news_trigger": {
+            "headline": "A huge data center could rise on Alaska's North Slope",
+            "outlet": "Anchorage Daily News",
+            "date": "2026-05-18",
+            "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+            "verbatim_span": "The state issued a preliminary decision to lease the property to the project's operator. Dunleavy's administration issued a preliminary, formal decision that the project is in the state's 'best interest' — a necessary step before it can issue the 50-year land lease that it's currently considering."
+          },
+          "draft_layers": [
+            {"layer_name": "DNR Best-Interest Finding and Preliminary Decision", "what_it_does": "Under AS 38.05, the Division of Mining, Land & Water issues a Preliminary Decision summarizing its research and recommending whether a lease serves state interests; the Governor's administration issued this preliminary determination on May 12, 2026", "controlling_actor": "Alaska DNR Division of Mining, Land & Water (DMLW); Governor Mike Dunleavy's administration", "primary_source_url": "https://dnr.alaska.gov/mlw/lands/leasing/"},
+            {"layer_name": "Public Comment and Final Finding", "what_it_does": "A minimum 30-day public comment period (open through June 15, 2026) precedes DMLW's Final Finding and Decision; the FFD must address all public comments; after FFD, a 20-day appeal period plus 10-day DNR Commissioner reconsideration window must expire before the lease can issue", "controlling_actor": "DNR Commissioner (reconsideration authority); any commenter may appeal the FFD", "primary_source_url": "https://dnr.alaska.gov/mlw/lands/leasing/"},
+            {"layer_name": "Gas Supply Procurement", "what_it_does": "Stak's 3 GW power plant requires a natural gas supply pipeline running 25-90 miles to North Slope oil fields; at time of lease application (November 2025), no firm gas supply contract had been executed; North Slope gas fields contain stranded gas currently controlled by petroleum companies focused on oil production", "controlling_actor": "North Slope petroleum operators (Hilcorp Alaska, BP, ConocoPhillips); no single gas supplier identified", "primary_source_url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/"},
+            {"layer_name": "Federal Clean Water Act Authorization", "what_it_does": "Construction requires a gravel pad elevated at least 5 feet above tundra, demanding approximately 7 million cubic yards of gravel; gravel extraction in Arctic Alaska requires federal Clean Water Act Section 404 authorization", "controlling_actor": "U.S. Army Corps of Engineers (Alaska District)", "primary_source_url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/"},
+            {"layer_name": "Turbine Equipment Supply Chain", "what_it_does": "Gas turbine manufacturing lead times for up to 3 GW are currently 'as long as seven years' due to global backlogs, creating a hard physical constraint on the 2028 target operational date regardless of land and gas decisions", "controlling_actor": "Global gas turbine manufacturers (GE Vernova, Siemens Energy, Mitsubishi)", "primary_source_url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/"}
+          ],
+          "provisional_chokepoint": "Layer 3 — Gas Supply Procurement. The DNR can grant the land lease, the Corps can permit the gravel pad, and Stak can order turbines — but without a contracted gas supply from North Slope petroleum operators, the power plant cannot run.",
+          "alaska_consequence": "If the DNR issues the 50-year lease after the June 15 public comment close and Stak secures a gas supply contract, this becomes the largest single industrial power consumer in Alaska's history — consuming more than twice the natural gas used by all of urban Alaska for electricity and heating combined.",
+          "recurrence_note": "The same gas supply constraint that blocks Stak's project is simultaneously threatening Railbelt utilities and the military AI data center program."
+        }
+      ]
+    },
+    {
+      "category": "vehicles",
+      "candidate_mechanisms": [
+        {
+          "name": "CDAO Production Other Transaction Authority (OTA) — Scale AI $500M Enterprise Agreement",
+          "one_line_definition": "A centralized Department of War (DoW) contract vehicle managed by the Chief Digital and Artificial Intelligence Office that lets any DoW component initiate AI project agreements under pre-negotiated terms without running a new competitive solicitation.",
+          "news_trigger": {
+            "headline": "Scale AI's Pentagon CDAO Production OTA Ceiling Rises to $500M",
+            "outlet": "GovConWire",
+            "date": "2026-05-07",
+            "url": "https://www.govconwire.com/articles/scale-ai-500m-pentagon-cdao-ota-ceiling",
+            "verbatim_span": "increased the ceiling value of its production other transaction authority agreement with Scale AI from $100 million to $500 million"
+          },
+          "draft_layers": [
+            {"layer_name": "CDAO Central Contracting Authority", "what_it_does": "Holds and administers the master production OTA, sets ceiling values, negotiates pricing, and co-funds component projects", "controlling_actor": "DoW Chief Digital and Artificial Intelligence Office (CDAO)", "primary_source_url": "https://www.govconwire.com/articles/scale-ai-500m-pentagon-cdao-ota-ceiling"},
+            {"layer_name": "Component Project Agreement Initiation", "what_it_does": "Any DoW component routes funding to CDAO and initiates its own Project Agreement covering Scale products without a new competitive procurement", "controlling_actor": "Individual DoW components — Army, Navy, Marine Corps, defense agencies; Eielson AFB and JBER qualify as components", "primary_source_url": "https://scale.com/blog/Scale-ai-pentagon-cdao-500-million-agreement"},
+            {"layer_name": "Pre-Negotiated Pricing and Co-Funding Layer", "what_it_does": "CDAO co-funds a portion of each component project and offers volume-based pricing", "controlling_actor": "Scale AI (supply side) and CDAO contracting staff (demand side)", "primary_source_url": "https://www.washingtontechnology.com/contracts/2026/05/dod-grows-scale-ai-agreement-500m/413396/"},
+            {"layer_name": "Multi-Domain Delivery Infrastructure", "what_it_does": "Scale AI delivers capabilities — Scale Data Engine, GenAI Platform, Donovan decision-support, Engineering Sprints — across NIPRNET, SIPRNET, and JWICS", "controlling_actor": "Scale AI (CEO Alexandr Wang); Meta Platforms holds 49% non-voting stake", "primary_source_url": "https://scale.com/blog/Scale-ai-pentagon-cdao-500-million-agreement"},
+            {"layer_name": "Prototype to Production OTA Conversion", "what_it_does": "Originated as prototype OTA (Sept 2025, $100M ceiling); converted to production OTA upon successful prototype demonstration, which under 10 U.S.C. 4022 enables follow-on production without re-competition", "controlling_actor": "CDAO contracting authority", "primary_source_url": "https://www.washingtontechnology.com/contracts/2026/05/dod-grows-scale-ai-agreement-500m/413396/"}
+          ],
+          "provisional_chokepoint": "Layer 1 — CDAO Central Contracting Authority: CDAO decides which vendors receive a production OTA slot and sets the ceiling.",
+          "alaska_consequence": "Eielson AFB and JBER can now draw down computer vision and generative AI decision-support tools via Project Agreements under this vehicle in FY2026 Q3 without running new competition.",
+          "recurrence_note": "The CDAO production OTA model is the DoD's emerging template for enterprise AI contracts; Anduril and OpenAI both hold similar production OTAs."
+        },
+        {
+          "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
+          "one_line_definition": "A continuously open, no-ceiling IDIQ contract vehicle managed by GSA through which any federal agency can place task orders for professional services — including AI/ML integration, data analytics, and digital transformation — across six socioeconomic tracks including 8(a) and HUBZone set-asides.",
+          "news_trigger": {
+            "headline": "First OASIS+ Phase II Awards Released",
+            "outlet": "Global Services Inc.",
+            "date": "2026-05-15",
+            "url": "https://globalservicesinc.com/2026/05/18/oasis-plus-phase-ii-awards-2026/",
+            "verbatim_span": "On May 12, 2026, the General Services Administration (GSA) released the first round of Phase II apparent awardee notifications"
+          },
+          "draft_layers": [
+            {"layer_name": "GSA Master Vehicle Authority", "what_it_does": "GSA holds and administers six separate IDIQ master contracts under 40 U.S.C. 501 authority, sets evaluation criteria via domain scorecards, runs continuous open enrollment", "controlling_actor": "GSA Federal Acquisition Service Commissioner Josh Gruenbaum", "primary_source_url": "https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus/about-oasis-plus"},
+            {"layer_name": "Socioeconomic Track Layer — 8(a) and HUBZone Tracks", "what_it_does": "Six parallel IDIQ contracts differentiated by vendor socioeconomic status (Unrestricted, Small Business, SBA-certified 8(a), HUBZone, SDVOSB, WOSB)", "controlling_actor": "SBA (certifies 8(a) and HUBZone eligibility); GSA (administers contract tracks). ANC-owned subsidiaries — including Bristol Bay Native Corporation, Chugach Alaska Corporation, Doyon subsidiaries — have historically dominated the 8(a) track", "primary_source_url": "https://www.cbh.com/insights/alerts/gsa-launches-oasis-phase-ii-what-contractors-need-to-know/"},
+            {"layer_name": "Scorecard Evaluation and On-Ramp Gate", "what_it_does": "Firms submit domain scorecards showing project experience; minimum thresholds of 36 credits (small business) or 42 credits (unrestricted) determine awardability", "controlling_actor": "GSA evaluation panels; SBA. The Trump-era SBA accepted only 65 new 8(a) firms in FY2025 vs. 2,100+ under prior administration", "primary_source_url": "https://www.tridentproposals.com/blog/oasis-plus-phase-ii"},
+            {"layer_name": "Ordering Contracting Officer (OCO) and eBuy Solicitation", "what_it_does": "Agency OCOs obtain a Delegation of Procurement Authority from GSA, then solicit task orders on eBuy; awardees compete at the task-order level; no maximum ceiling per contract or task order", "controlling_actor": "Individual agency Ordering Contracting Officers", "primary_source_url": "https://www.gsa.gov/buy-through-us/products-and-services/professional-services/buy-services/oasis-plus/buyers-guide"},
+            {"layer_name": "DoW Sole-Source 8(a) Review Gate", "what_it_does": "Defense Secretary Hegseth ordered a line-by-line review of all sole-source 8(a) contracts over $20M, directly threatening the vehicle pathway through which ANC-owned firms historically captured AI professional services work", "controlling_actor": "Defense Secretary Pete Hegseth; Senate Committee on Indian Affairs (oversight hearing Feb. 10, 2026, chaired by Sen. Lisa Murkowski)", "primary_source_url": "https://www.alaskasnewssource.com/2026/02/10/senate-hearing-examines-8a-contracts-critical-alaska-native-corporations/"}
+          ],
+          "provisional_chokepoint": "Layer 5 — DoW Sole-Source 8(a) Review Gate.",
+          "alaska_consequence": "ANC-owned federal contractors face potential contract cancellation or restructuring of AI professional services task orders placed under OASIS+ 8(a).",
+          "recurrence_note": "OASIS+ is the primary government-wide vehicle for professional AI services and the one ANC-affiliated firms most consistently use."
+        }
+      ]
+    },
+    {
+      "category": "capital_sovereignty",
+      "candidate_mechanisms": [
+        {
+          "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
+          "one_line_definition": "The SBA 8(a) program machinery through which Alaska Native Corporation subsidiaries access sole-source federal contracts — including AI and defense technology work — without competitive bidding, now under a Pentagon-ordered line-by-line audit that has frozen new approvals since August 2025.",
+          "news_trigger": {
+            "headline": "Legislature passes resolution supporting program that helps Alaska Native corporations get federal contracts",
+            "outlet": "Alaska Public Media / KNBA",
+            "date": "2026-05-14",
+            "url": "https://alaskapublic.org/news/alaska-desk/2026-05-14/legislature-passes-resolution-supporting-program-that-helps-alaska-native-corporations-get-federal-contracts",
+            "verbatim_span": "The Alaska state legislature unanimously passed a resolution (HJR44) supporting Alaska Native Corporations' participation in the federal 8(a) Business Development Program... No new businesses have been accepted since August 2025."
+          },
+          "draft_layers": [
+            {"layer_name": "ANCSA Corporate Parent", "what_it_does": "Holds ANC status under the 1971 Alaska Native Claims Settlement Act, which confers the eligibility pass-through to all wholly-owned subsidiaries regardless of individual subsidiary size", "controlling_actor": "Koniag, Inc. (parent ANC) — same structure applies to Bering Straits Native Corporation, Chugach Alaska Corp., Cook Inlet Region Inc.", "primary_source_url": "https://www.doi.gov/ocl/alaska-native-corporations"},
+            {"layer_name": "SBA 8(a)-Certified Operating Subsidiary", "what_it_does": "Each ANC spins off named subsidiaries that hold individual SBA 8(a) certification and UEI numbers; these entities are the legal awardees of sole-source contracts", "controlling_actor": "SBA Seattle District Office — application approvals frozen since August 2025 with only 65 approved in all of 2025 vs. 600 in 2024", "primary_source_url": "https://www.koniag-gs.com/anc-direct-award/"},
+            {"layer_name": "SBA Administrator Approval Gate", "what_it_does": "SBA Administrator must accept each sole-source offering into the program; under FAR 19.808-1, SBA holds final approval authority before contract award", "controlling_actor": "Kelly Loeffler, SBA Administrator — named in May 4, 2026 letter from NACA and 53 Native-owned businesses demanding answers on stalled approvals", "primary_source_url": "https://federalnewsnetwork.com/acquisition-policy/2026/05/tribal-owned-firms-want-answers-about-state-of-8a-program/"},
+            {"layer_name": "DoD Contracting Agency Review", "what_it_does": "For contracts over $30M, the requesting agency must complete a FAR 6.303 justification; Defense Secretary Hegseth ordered line-by-line review of all DoD sole-source 8(a) contracts over $20M", "controlling_actor": "Pete Hegseth, U.S. Secretary of Defense; Immediate Office of the Secretary of Defense awarded Koniag IT Systems $11.99M AI/ML contract via 8(a) sole source (Award ID: HQ003425CE012)", "primary_source_url": "https://orangeslices.ai/koniag-subsidiary-scores-12m-dod-osd-it-ai-and-machine-learning-programmatic-support-services-contract/"},
+            {"layer_name": "ANC Dividend and Community Service Dependency", "what_it_does": "Federal contracting revenue flows back to parent ANC as dividends to shareholders and funds tribal government services including healthcare, education, and infrastructure", "controlling_actor": "Haven Harris, SVP Bering Straits Native Corporation and NACA Board Co-Chair", "primary_source_url": "https://www.knba.org/news/2026-05-14/legislature-passes-resolution-supporting-program-that-helps-alaska-native-corporations-get-federal-contracts"}
+          ],
+          "provisional_chokepoint": "Layer 3 — SBA Administrator Kelly Loeffler holds the binary decision to resume or continue suspending 8(a) application approvals; the Office of Native American Affairs has had no permanent leader since December 2025, meaning no approvals have moved since August 2025.",
+          "alaska_consequence": "Koniag, Bering Straits, Chugach, and CIRI subsidiaries pursuing AI/ML federal contracts cannot add new 8(a)-certified entities to their portfolios; existing contract vehicles face DoD line-by-line audit that could cancel awards mid-performance; ANC dividends to shareholders are at direct risk within FY2026-FY2027.",
+          "recurrence_note": "Mechanism will recur every time a new ANC subsidiary seeks to enter federal AI contracting. Lee-Grothman bill would legislatively terminate ANC 8(a) exemptions entirely."
+        },
+        {
+          "name": "Alaska Permanent Fund Corporation Asset Allocation Vote — Private Markets vs. Public Equities",
+          "one_line_definition": "The APFC Board of Trustees' pending May 26-27 vote on whether to reduce private equity allocation and increase public equities, a decision that will determine whether Alaska's $86B sovereign wealth fund routes capital toward private AI infrastructure funds or liquid markets.",
+          "news_trigger": {
+            "headline": "Alaska Permanent Is Reconsidering Private Equity. Here's What That Means for the Rest of Its Portfolio.",
+            "outlet": "Institutional Investor",
+            "date": "2026-02-25",
+            "url": "https://www.institutionalinvestor.com/article/2d6kpvotvnq8gdt2ymuww/portfolio/alaska-permanent-is-reconsidering-private-equity-heres-what-that-means-for-the-rest-of-its-portfolio",
+            "verbatim_span": "CIO Marcus Frampton stated: 'We grew pretty fast up to 19 percent, but last year we reduced our pacing. Our board members wanted to revisit that.' The board heard pitches from AQR, Pathway Capital Management, and Callan regarding allocation changes."
+          },
+          "draft_layers": [
+            {"layer_name": "Alaska State Legislature — Principal Account Control", "what_it_does": "Sets the statutory framework governing what APFC can do with fund assets; controls the Earnings Reserve Account; sets the POMV draw at 5% of fund value per AS 37.13.140", "controlling_actor": "Alaska State Legislature", "primary_source_url": "https://apfc.org/fund-structure/"},
+            {"layer_name": "APFC Board of Trustees", "what_it_does": "Establishes investment policy, approves annual asset allocation targets, votes at quarterly meetings; the May 26-27 2026 Valdez meeting has asset allocation vote on agenda", "controlling_actor": "APFC Board of Trustees; Deven Mitchell, Executive Director and CEO", "primary_source_url": "https://apfc.org/board-of-trustees/board-of-trustees-meetings/"},
+            {"layer_name": "Chief Investment Officer — Allocation Proposal Authority", "what_it_does": "CIO prepares and presents allocation options; Marcus Frampton proposed reducing private equity from 19% to 15% and is now presenting two further allocation options shifting exposure from private markets to public equities", "controlling_actor": "Marcus Frampton, CIO", "primary_source_url": "https://www.institutionalinvestor.com/article/2d6kpvotvnq8gdt2ymuww/portfolio/alaska-permanent-is-reconsidering-private-equity-heres-what-that-means-for-the-rest-of-its-portfolio"},
+            {"layer_name": "Investment Policy and Asset Class Parameters", "what_it_does": "Investment Policy defines target ranges for eight asset classes including Private Equity; board approval required to change", "controlling_actor": "APFC Board of Trustees", "primary_source_url": "https://apfc.org/diversification-framework-asset-allocation/"},
+            {"layer_name": "Private Markets Deployment — AI Infrastructure Relevance", "what_it_does": "Private equity and private income buckets are channels through which APFC could allocate to private AI infrastructure funds, data center real assets, or technology growth equity", "controlling_actor": "Marcus Frampton (CIO) — current private equity portfolio is $15B with typical check size $30-40M; annual PE commitments $1B", "primary_source_url": "https://www.institutionalinvestor.com/article/2d6kpvotvnq8gdt2ymuww/portfolio/alaska-permanent-is-reconsidering-private-equity-heres-what-that-means-for-the-rest-of-its-portfolio"}
+          ],
+          "provisional_chokepoint": "Layer 3 — CIO Marcus Frampton controls the allocation proposal that the board will vote on May 26-27.",
+          "alaska_consequence": "If the board votes to reduce private markets allocation, APFC will have less capital available for deployment into private AI infrastructure.",
+          "recurrence_note": "APFC's asset allocation decision recurs at every quarterly board meeting."
+        }
+      ]
+    },
+    {
+      "category": "regulatory",
+      "candidate_mechanisms": [
+        {
+          "name": "Alaska Railbelt Large-Load Interconnection Review (RCA / Chugach / GVEA Gate)",
+          "one_line_definition": "The Regulatory Commission of Alaska oversees the rate and interconnection process by which large new electrical loads — including AI data centers — can connect to the Railbelt grid, requiring utility studies, cost-of-service ratemaking approval, and anti-cross-subsidization rulings before any connection agreement is valid.",
+          "news_trigger": {
+            "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
+            "outlet": "Anchorage Daily News",
+            "date": "2026-05-05",
+            "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+            "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+          },
+          "draft_layers": [
+            {"layer_name": "Air Force RFI / Site Control Layer", "what_it_does": "DAF issues RFI offering 4,700 acres across JBER, Eielson, and Clear under leases up to 50 years", "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force", "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/"},
+            {"layer_name": "Utility Capacity and Integration Study Layer", "what_it_does": "Chugach Electric Association and Golden Valley Electric Association conduct load integration studies to determine if a connection is possible; both utilities currently lack sufficient gas supply to serve large data center loads", "controlling_actor": "Chugach Electric Association; Golden Valley Electric Association (President/CEO Travis Million)", "primary_source_url": "https://www.akenergytransparency.org/news/gvea-files-rate-case-with-the-rca"},
+            {"layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review", "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff for a large data center customer, requiring full cost-of-service rates and that existing utility members are not required to subsidize the new load; RCA holds binary authority to approve or reject the interconnection tariff", "controlling_actor": "Regulatory Commission of Alaska (five-member commission; active docket U-25-023)", "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx"},
+            {"layer_name": "Anchorage Municipal Conditional Use Layer", "what_it_does": "Anchorage Ordinance AO 2026-27 requires all data centers (20 MW+ peak demand) to obtain conditional use approval, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues", "controlling_actor": "Anchorage Municipal Planning Department and Anchorage Assembly (passed 10-2, March 27, 2026)", "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework"},
+            {"layer_name": "Alaska Legislature / HB 259 Community Benefit Layer", "what_it_does": "Proposed HB 259 (Rep. Mears) would require data center facility energy rates to fully compensate the utility for all costs to serve it and could mandate community benefit agreements", "controlling_actor": "Alaska House Energy Committee; Rep. Mears (sponsor)", "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/"}
+          ],
+          "provisional_chokepoint": "Layer 3 — The RCA cost-of-service ratemaking ruling. Without RCA sign-off, no tariff is valid and no commercial data center can draw power from the Railbelt grid at any Air Force base site.",
+          "alaska_consequence": "Any AI data center developer responding to the May 29, 2026 RFI for JBER, Eielson, or Clear SFS cannot execute a viable project without RCA-approved interconnection — blocking up to 12 potential data centers across the three bases.",
+          "recurrence_note": "Recurs every time a large industrial customer seeks Chugach or GVEA service. GVEA's active rate case and Chugach's 2028 Hilcorp gas contract expiration make this the recurring chokepoint for all Railbelt AI infrastructure through at least 2028."
+        },
+        {
+          "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule (Net Neutrality and Rate Regulation Carve-Out)",
+          "one_line_definition": "NTIA's updated BEAD program rules, issued in May 2026, prohibit states from imposing net neutrality obligations or broadband rate regulation on ISPs participating in the BEAD program — and NTIA is now directly instructing winning ISPs to report any state contract that attempts to override those protections.",
+          "news_trigger": {
+            "headline": "NTIA to BEAD Winners: 'Know Your Rights'",
+            "outlet": "Broadband Breakfast",
+            "date": "2026-05-11",
+            "url": "https://broadbandbreakfast.com/ntia-to-bead-winners-know-your-rights/",
+            "verbatim_span": "States must prohibit enforcement of net neutrality and broadband rate laws on BEAD participants throughout their entire state footprint; omitting or altering required language places 'the subgrant — as well as the state's award — at risk'"
+          },
+          "draft_layers": [
+            {"layer_name": "IIJA Authorizing Layer", "what_it_does": "IIJA established BEAD, allocated Alaska's $1.017 billion, set statutory framework; mandates 100/20 Mbps service to unserved and underserved locations", "controlling_actor": "U.S. Congress; implemented by NTIA under Commerce Department", "primary_source_url": "https://broadbandusa.ntia.gov/funding-programs/broadband-equity-access-and-deployment-bead-program"},
+            {"layer_name": "NTIA Program Rule Update Layer", "what_it_does": "NTIA exempted participating ISPs from state-level net neutrality and rate regulation across their entire footprint, not just BEAD-funded portions; states risk losing their BEAD award", "controlling_actor": "NTIA Administrator Arielle Roth", "primary_source_url": "https://broadbandbreakfast.com/ntia-to-bead-winners-know-your-rights/"},
+            {"layer_name": "Alaska Broadband Office Subgrantee Contract Layer", "what_it_does": "ABO developed the state's spending plan, selected 29 projects across 15 ISPs totaling $629 million, must finalize subgrantee contracts within six months of NIST's Notice of Award Amendment", "controlling_actor": "Alaska Broadband Office (within Alaska DCCED)", "primary_source_url": "https://www.commerce.alaska.gov/web/abo/"},
+            {"layer_name": "NIST Grant Agreement Layer", "what_it_does": "NIST develops the formal grant agreement and issues Notice of Award Amendment before any BEAD funds can be drawn; NIST approved Alaska's plan March 24, 2026", "controlling_actor": "National Institute of Standards and Technology, U.S. Department of Commerce", "primary_source_url": "https://broadbandbreakfast.com/bead-plans-approved-736-million-for-washington-and-629-million-for-alaska/"},
+            {"layer_name": "ISP Subgrantee Compliance Layer", "what_it_does": "Winning ISPs (GCI, Alaska Communications, Matanuska Telecom, SpaceX/Starlink) are instructed by NTIA to report to a federal program officer if their state contract attempts to alter their rights or omit required language; gives ISPs a direct federal reporting channel that bypasses the state", "controlling_actor": "NTIA federal program officers; subgrantee ISPs including GCI Communications and Alaska Communications", "primary_source_url": "https://broadbandbreakfast.com/ntia-to-bead-winners-know-your-rights/"}
+          ],
+          "provisional_chokepoint": "Layer 2 — The NTIA program rule update. NTIA Administrator Arielle Roth holds the binary authority to determine whether Alaska's subgrantee contracts comply with the preemption requirement.",
+          "alaska_consequence": "Alaska's $629 million BEAD deployment is contingent on the Alaska Broadband Office finalizing compliant subgrantee contracts within six months of the March 24, 2026 NIST award — a September 2026 deadline.",
+          "recurrence_note": "NTIA preemption rule applies across all 56 BEAD recipients. For Alaska it sets the precedent for whether the state can regulate broadband rates on any federally subsidized network — including any future AI-adjacent connectivity infrastructure."
+        }
+      ]
+    }
+  ],
+  "overlap_signal": "The same ADN May 5 article powers two scouts (facilities DAF EUL chokepoint and regulatory RCA gate). Both name the RCA cross-subsidization veto as the structural binding constraint for any Railbelt AI data center. Per phase 3 overlap rule, chokepoint asymmetry wins when the same trigger surfaces from 2+ scouts."
+}
