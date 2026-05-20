@@ -1,0 +1,87 @@
+rubric:
+  ship_threshold: 8.0
+  max_revision_cycles: 2
+  # This rubric grades the "Received Wisdom" corrective/contrarian post, NOT the
+  # weekly recap. The scorer is pointed at this file by
+  # prompts/contrarian_instructions.md. The weekly routine still uses
+  # config/scoring_rubric.yaml and is unaffected.
+  hard_fail_checks:
+    - name: "hashtag_count_in_range"
+      rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
+    - name: "punctuation_bans_held"
+      rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "total_char_count_under_linkedin_cap"
+      rule: "Total post length (body + hashtag line) is at most 3000 characters. This is LinkedIn's hard post cap; the platform truncates anything over. Failure automatically forces revise."
+    - name: "word_count_in_range"
+      rule: "Body word count is 350 to 475 (hashtag line excluded from word count). Failure automatically forces revise."
+    - name: "claim_is_attributed"
+      rule: "The post names the claim's asserter and quotes the claim as it actually circulates, traceable to an entry in claim_dossier.json selected_claim.asserters. A claim that is rebutted without being attributed to a named, verifiable source is a strawman and automatically forces revise."
+    - name: "steelman_present"
+      rule: "The post contains a genuine paragraph stating the strongest honest version of the claim BEFORE any rebuttal, consistent with claim_dossier.json selected_claim.steelman. A post that rebuts without first steelmanning automatically forces revise."
+  criteria:
+    - name: "Hook strength"
+      weight: 0.13
+      descriptors:
+        10: "First two lines stand alone as a hook (LinkedIn 'see more' cutoff at ~210 chars). Names the load-bearing claim and signals a correction is coming without snark."
+        7:  "Solid opener, no banned phrases, first lines work but don't make the claim or its stakes concrete."
+        4:  "Generic LinkedIn-y / abstract. First lines could front any newsletter."
+        0:  "Banned opener, empty, or first lines bury the claim."
+    - name: "Claim load-bearing + AK stakes"
+      weight: 0.20
+      descriptors:
+        10: "The claim is genuinely load-bearing (a real Alaska AI capital, procurement, policy, or workforce decision rides on it) AND the correction names a concrete AK industry consequence (sector, contract vehicle, agency, dollar amount, capital flow, workforce impact)."
+        7:  "Claim matters and the correction names a consequence, but one side is thin (claim is real but minor, or consequence is vague)."
+        4:  "Claim is a minor aside, or the correction has no clear AK business consequence."
+        0:  "No real claim, or no AK stake at all."
+    - name: "Steelman fairness"
+      weight: 0.12
+      descriptors:
+        10: "States the strongest honest version of the claim and why smart people hold it, generously and without snark, before correcting it. The reader who believes the claim feels fairly represented."
+        7:  "Steelman present but slightly weak or lightly loaded, or a single snark moment."
+        4:  "Token steelman that exists only to be knocked down, or a dunking / victory-lap posture."
+        0:  "No steelman, or attacks a version of the claim nobody actually holds (strawman)."
+    - name: "Counter-evidence quality"
+      weight: 0.10
+      descriptors:
+        10: "Every rebuttal point rests on a primary source (federal docket, SAM.gov award, agency data, court filing, earnings call, 10-K) or two independent credible outlets, all present in claim_dossier.json counter_evidence."
+        7:  "All rebuttal points sourced, mix of credible secondary."
+        4:  "At least one rebuttal point is single-sourced and not primary, or asserted without a traceable source."
+        0:  "Rebuttal rests on unsupported assertion or material not in the dossier."
+    - name: "Factual density"
+      weight: 0.10
+      descriptors:
+        10: "Specifics (names, places, dates, dollar amounts, contract numbers, agencies) every 1 to 2 sentences."
+        7:  "Specifics in the lead and the rebuttal, vaguer in connective paragraphs."
+        4:  "Mostly vibes, few named facts or numbers."
+    - name: "Source quality"
+      weight: 0.13
+      descriptors:
+        10: "Both the claim's attribution and the counter-evidence trace to primary sources or two independent credible outlets, all in claim_dossier.json."
+        7:  "All claims sourced, mix of credible secondary."
+        4:  "At least one claim is single-sourced and not primary."
+    - name: "Voice match"
+      weight: 0.12
+      descriptors:
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate without LinkedIn-influencer cadence. Corrective, not contemptuous."
+        7:  "Mostly on voice, one drift moment into folksy, corporate, or smug."
+        4:  "Drifts into thought-leadership cadence, hype, dunking, or earnings-call boilerplate."
+    - name: "Readability (LinkedIn)"
+      weight: 0.05
+      descriptors:
+        10: "Tight paragraphs (2 to 4 sentences), 350 to 475 words AND ≤ 3000 chars total (LinkedIn cap), optional single bullet block with 3 to 5 single-clause items, easy to scan on desktop and mobile."
+        7:  "Slightly long or one wall-of-text paragraph."
+        4:  "Hard to scan, missed the 350 to 475 word / 3000 char window."
+    - name: "Engagement question"
+      weight: 0.03
+      descriptors:
+        10: "Closes with a real, debatable industry question tied to the corrected frame. No 'follow us', no rhetorical softener."
+        7:  "Question present and on-topic but slightly generic."
+        4:  "Generic prompt or LinkedIn-influencer-style rhetorical."
+        0:  "No closing question, or replaced with CTA."
+    - name: "Business actionability"
+      weight: 0.02
+      descriptors:
+        10: "After reading, a target reader (exec, allocator, program manager) can name one deal, contract, risk, or decision they'd reframe because the received wisdom was wrong."
+        7:  "Reader gets a useful corrected frame but no concrete revisit-this trigger."
+        4:  "Interesting commentary, no actionable signal."
+  # Weight sum check: 0.13 + 0.20 + 0.12 + 0.10 + 0.10 + 0.13 + 0.12 + 0.05 + 0.03 + 0.02 = 1.00
