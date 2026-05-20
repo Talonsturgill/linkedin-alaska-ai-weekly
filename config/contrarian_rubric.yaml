@@ -1,7 +1,7 @@
 rubric:
   ship_threshold: 8.0
   max_revision_cycles: 2
-  # This rubric grades the "Received Wisdom" corrective/contrarian post, NOT the
+  # This rubric grades the "Cold Take" corrective/contrarian post, NOT the
   # weekly recap. The scorer is pointed at this file by
   # prompts/contrarian_instructions.md. The weekly routine still uses
   # config/scoring_rubric.yaml and is unaffected.

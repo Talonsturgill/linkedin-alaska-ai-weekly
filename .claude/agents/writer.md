@@ -30,9 +30,13 @@ Read the verified findings. Pick a mode based on the week:
 - **Weekly Brief** — diffuse week, 3 to 5 worthwhile stories that ladder
   up to a single industry frame.
 - **Corrective Explainer** — used ONLY when the orchestrator says this is
-  the "Received Wisdom" routine. Do not pick this mode on your own. When
+  the "Cold Take" routine. Do not pick this mode on your own. When
   instructed, ignore the mode-selection logic here and use the Corrective
   Explainer structure below.
+- **Stack Anatomy** — used ONLY when the orchestrator says this is "The
+  Stack" routine. Do not pick this mode on your own. When instructed,
+  ignore the mode-selection logic here and use the Stack Anatomy
+  structure below.
 
 Default to Deep Dive when a single issue has a sharp, debatable structural
 angle aimed at a business reader. The first published post is the
@@ -92,10 +96,10 @@ canonical Deep Dive, treat it as the house style baseline.
    connecting frame.
 6. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
 
-## Structure (Corrective Explainer — "Received Wisdom" routine only)
+## Structure (Corrective Explainer — "Cold Take" routine only)
 
 Use this structure ONLY when the orchestrator's prompt says this is the
-Received Wisdom routine. Your input is `claim_dossier.json` (in place of the
+Cold Take routine. Your input is `claim_dossier.json` (in place of the
 verified findings) plus `examples/post_001.md`. The voice is identical to the
 house voice. The posture is corrective and generous, not a dunk. Steelman
 first, correct second.
@@ -128,6 +132,48 @@ Hard rule for this mode. Never quote or attribute a claim that is not in
 `selected_claim.counter_evidence`. If the dossier has
 `no_target_this_cycle: true`, do not invent a post. Return a one-line note
 that there is no defensible target this cycle.
+
+## Structure (Stack Anatomy — "The Stack" routine only)
+
+Use this structure ONLY when the orchestrator's prompt says this is The
+Stack routine. Your input is `stack_anatomy.json` (in place of verified
+findings) plus `examples/post_001.md`. The voice is identical to the house
+voice; the structure is different — this post anatomizes a piece of Alaska
+AI machinery layer by layer rather than building a Deep Dive argument. Use
+post_001.md as a VOICE anchor only, not a structure anchor.
+
+1. **Hook (2 sentences, ~200 chars)** — name the mechanism AND the news
+   trigger that surfaced it. The trigger IS the hook. First two lines
+   stand alone for the LinkedIn "see more" cutoff (~210 chars). Signal
+   that the post will show how the machinery works.
+2. **One-line definition (1 sentence)** — what the mechanism is, in plain
+   English. From `selected_mechanism.one_line_definition`.
+3. **The layers (3 to 5 bullet block, one bullet per layer)** — this is
+   the primary use case for the brand's single permitted bullet block.
+   Each bullet: `[layer name] — [what it does], [controlling actor]`.
+   Pull from `selected_mechanism.layers[]`. If there are more than 5
+   layers in the dossier, the mapper shouldn't have shipped the
+   mechanism; flag and stop.
+4. **The chokepoint (1 paragraph)** — name the specific layer where
+   leverage sits, the controlling actor, and the binary decision they
+   own within their own authority. From `selected_mechanism.chokepoint`.
+5. **Structural read (1 to 2 paragraphs)** — the desk's position on what
+   this mechanism actually produces and what it forecloses or enables
+   for Alaska industry. This is the analytical core. From
+   `selected_mechanism.structural_read` plus `ak_consequence`.
+6. **Forward implication (1 paragraph)** — name the next decision point,
+   the date or window, who's positioned and who isn't. From
+   `selected_mechanism.forward_implication`.
+7. **Engagement question (1 sentence)** — a real, debatable question
+   tied to the chokepoint specifically, not the mechanism in general.
+8. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
+
+Hard rule for this mode. Never name a layer, controlling actor,
+chokepoint, or forward implication that is not in `stack_anatomy.json`
+`selected_mechanism`. Never invent a regulatory authority, contract
+vehicle number, agency, or dollar value. If the dossier has
+`no_target_this_cycle: true`, do not invent a post. Return a one-line
+note that there is no defensible target this cycle.
 
 ## Hard rules
 

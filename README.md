@@ -46,42 +46,82 @@ A sidecar `out/post_image.png.meta.json` is written next to the PNG.
 - Render the LinkedIn cover banner (separate one-off 1584x396 asset).
 - Render the profile picture (static).
 
-## Received Wisdom routine (second, independent column)
+## Cold Take routine (second, independent column)
 
-A second routine on this repo produces a different post type: a corrective
-explainer that takes ONE widely circulating claim about Alaska and AI, states
-it fairly at its strongest, then corrects it or fills the load-bearing piece it
-leaves out, using primary-source evidence. It is depth-first and not tied to a
-news window.
+A second routine on this repo produces a corrective explainer: ONE widely
+circulating claim about Alaska and AI, stated fairly at its strongest, then
+corrected (or the load-bearing piece it leaves out filled in) using
+primary-source evidence. Depth-first, not tied to a news window.
 
 How it differs from the weekly recap:
 
 - **Pure discovery.** Four parallel `claim-scout` agents sweep current
   discourse (Alaska press/op-eds, trade/analyst, policy/official, exec/social)
-  for claims that are actually circulating, each quoted verbatim with a named
-  asserter. No backlog file.
+  for claims actually circulating, each quoted verbatim with a named asserter.
+  No backlog file.
 - **Anti-strawman attribution gate.** One `claim-validator` agent enforces a
   six-point gate (named attribution, independent circulation, load-bearing,
   steelman survives, rebuttable from primary evidence, not a recent repeat).
   If nothing clears the gate, the routine ships an honest "no defensible
   target this cycle" email instead of inventing one.
 - **Corrective, not snarky.** Steelman the claim generously, then correct it.
-- **Own identity.** Kicker `RECEIVED WISDOM`, issue counter `NO. 0N` derived
-  from the count of distinct `claude/linkedin-contrarian-*` branch date stems
-  (independent, possibly irregular cadence — no `launch_date` formula).
+- **Own identity.** Kicker `COLD TAKE`. No issue counter — the middle slot of
+  the kicker line carries the claim's discourse category (`AK PRESS`, `TRADE`,
+  `POLICY`, or `EXEC`), e.g. `COLD TAKE · POLICY · 19 MAY 2026`.
 - **Own branch namespace.** Artifacts land on
-  `claude/linkedin-contrarian-{YYYY-MM-DD}`, disjoint from
-  `claude/linkedin-weekly-*`, so the two routines never collide.
+  `claude/linkedin-contrarian-{YYYY-MM-DD}` (internal slug retained from the
+  original Received Wisdom naming to preserve dedupe history across the
+  rename). Disjoint from `claude/linkedin-weekly-*` and
+  `claude/linkedin-stack-*`.
 
-It reuses the same `writer`, `editor`, and `scorer` agents (each has a gated
-Corrective Explainer section that activates only when the orchestrator says so),
-the `alaska-ai-brief` image skill unchanged, and the Gmail-draft handoff. The
-weekly recap is byte-identical regardless of these additions.
+It reuses the `writer`, `editor`, and `scorer` agents (each has a gated
+Corrective Explainer section that activates only when the orchestrator says
+so), the `alaska-ai-brief` image skill unchanged, and the Gmail-draft handoff.
+The weekly recap is byte-identical regardless of these additions.
 
-Setup: create a SECOND routine at https://claude.ai/code/routines bound to this
-same repo, configure model = Opus, network = Trusted, connectors = Gmail, set
-its own schedule (independent of the weekly), and paste the prompt from
+Setup: create a SECOND routine at https://claude.ai/code/routines bound to
+this same repo, configure model = Opus, network = Trusted, connectors = Gmail,
+set its own schedule (independent of the weekly), and paste the prompt from
 `prompts/contrarian_instructions.md` into the Instructions field.
+
+## The Stack routine (third, independent column)
+
+A third routine produces a mechanism anatomy: ONE piece of Alaska AI machinery
+per week (a facility, contract vehicle, capital/sovereignty flow, or
+regulatory layer) mapped layer by layer with the controlling actor at each
+layer, the specific chokepoint where leverage sits named, plus the desk's
+structural read and one concrete forward implication. Different shape from
+Recap ("what happened") and from Cold Take ("this take is wrong"): "here is
+how this machinery actually works."
+
+How it differs:
+
+- **Pure discovery, primary-source bound.** Four parallel `stack-scout` agents
+  sweep four mechanism categories (`facilities`, `vehicles`,
+  `capital_sovereignty`, `regulatory`). Candidate mechanisms must have hit
+  news the last 7-14 days AND have primary-source documentation findable for
+  every provisional layer.
+- **Anti-confabulation accuracy gate.** One `stack-mapper` agent enforces a
+  seven-point gate (news tie, anatomizable ≥3 layers, per-layer primary-source
+  coverage, AK consequence, chokepoint asymmetry, mechanism-not-actor, not a
+  recent repeat). Allows ONE 21-day window-broadening retry before declaring
+  no-target. Honest no-target email on zero survivors.
+- **Mechanism-singular, not market survey.** Editor rejects drift into
+  industry overview.
+- **Own identity.** Kicker `THE STACK`. No issue counter — the middle slot of
+  the kicker line carries the mechanism's category (`FACILITIES`, `VEHICLES`,
+  `SOVEREIGNTY`, `REGULATORY`), e.g. `THE STACK · FACILITIES · 19 MAY 2026`.
+- **Own branch namespace.** `claude/linkedin-stack-{YYYY-MM-DD}`, disjoint
+  from the other two routines.
+
+It reuses the `writer`, `editor`, and `scorer` agents (each has a gated Stack
+Anatomy section that activates only when the orchestrator says so), the
+`alaska-ai-brief` image skill unchanged, and the Gmail-draft handoff. Recap
+and Cold Take are unaffected.
+
+Setup: create a THIRD routine at https://claude.ai/code/routines bound to
+this same repo, same config as above, paste the prompt from
+`prompts/stack_instructions.md` into the Instructions field.
 
 ## Differences from the Facebook sister automation
 
@@ -95,14 +135,20 @@ Both surfaces share the punctuation discipline (no em-dashes, en-dashes, double-
 ## Files of note
 
 - `prompts/routine_instructions.md` — the pasted weekly-recap routine prompt.
-- `prompts/contrarian_instructions.md` — the pasted Received Wisdom routine prompt.
+- `prompts/contrarian_instructions.md` — the pasted Cold Take routine prompt.
+- `prompts/stack_instructions.md` — the pasted The Stack routine prompt.
 - `.claude/skills/alaska-ai-brief/` — the 1080x1080 square brand image generator.
 - `.claude/agents/*.md` — subagent definitions (`researcher`, `validator`,
   `writer`, `editor`, `scorer`, plus `claim-scout` and `claim-validator` for
-  the Received Wisdom routine).
+  Cold Take, plus `stack-scout` and `stack-mapper` for The Stack).
 - `config/brand.yaml` — voice anchor, hashtag whitelist, banned phrases.
 - `config/sources.yaml` — Alaska news + research orgs + government + business/trade outlets + national.
 - `config/scoring_rubric.yaml` — weekly-recap ship threshold + hard-fail checks.
-- `config/contrarian_rubric.yaml` — Received Wisdom ship threshold + hard-fail
+- `config/contrarian_rubric.yaml` — Cold Take ship threshold + hard-fail
   checks (adds `claim_is_attributed` and `steelman_present`).
-- `examples/post_001.md` — published style baseline (shared voice anchor).
+- `config/stack_rubric.yaml` — The Stack ship threshold + hard-fail checks
+  (adds `mechanism_named_and_news_tied`, `every_layer_attributed`,
+  `chokepoint_named`).
+- `examples/post_001.md` — published style baseline (shared voice anchor;
+  structure anchor for Recap and Cold Take only — The Stack's structure
+  differs).

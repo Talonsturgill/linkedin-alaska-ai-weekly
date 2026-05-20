@@ -8,10 +8,22 @@ default_kicker: "WEEKLY BRIEF"
 default_motto: "what's moving in alaska ai, this week"
 default_coords: "61°13′N  ·  149°54′W"
 
-# "Received Wisdom" corrective routine (prompts/contrarian_instructions.md).
-# Independent, possibly irregular cadence. The issue number is derived from the
-# count of distinct claude/linkedin-contrarian-* branch date stems, NOT from
-# launch_date. These keys are read only by the contrarian routine; the weekly
-# recap reads only launch_date and the default_* keys above.
-contrarian_kicker: "RECEIVED WISDOM"
+# "Cold Take" corrective routine (prompts/contrarian_instructions.md).
+# Independent, possibly irregular cadence. No issue counter; the middle slot
+# of the kicker line is filled with the claim's discourse category (e.g.
+# COLD TAKE · POLICY · 19 MAY 2026). The internal branch slug remains
+# claude/linkedin-contrarian-* to preserve dedupe history across the rename.
+# These keys are read only by the Cold Take routine; the weekly recap reads
+# only launch_date and the default_* keys above.
+contrarian_kicker: "COLD TAKE"
 contrarian_motto: "the claim, and the part it leaves out"
+contrarian_byline: ""
+
+# "The Stack" mechanism-anatomy routine (prompts/stack_instructions.md).
+# Independent weekly cadence. No issue counter; the middle slot of the kicker
+# line is filled with the mechanism category (e.g. THE STACK · FACILITIES ·
+# 19 MAY 2026). Branch namespace claude/linkedin-stack-*. These keys are read
+# only by The Stack routine.
+stack_kicker: "THE STACK"
+stack_motto: "how the machinery actually works"
+stack_byline: ""

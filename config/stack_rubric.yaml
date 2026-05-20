@@ -1,0 +1,93 @@
+rubric:
+  ship_threshold: 8.0
+  max_revision_cycles: 2
+  # This rubric grades "The Stack" mechanism-anatomy post. The scorer is
+  # pointed at this file by prompts/stack_instructions.md. The weekly recap
+  # uses config/scoring_rubric.yaml and the Cold Take routine uses
+  # config/contrarian_rubric.yaml. Both are unaffected by this file.
+  hard_fail_checks:
+    - name: "hashtag_count_in_range"
+      rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
+    - name: "punctuation_bans_held"
+      rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "total_char_count_under_linkedin_cap"
+      rule: "Total post length (body + hashtag line) is at most 3000 characters. This is LinkedIn's hard post cap; the platform truncates anything over. Failure automatically forces revise."
+    - name: "word_count_in_range"
+      rule: "Body word count is 350 to 475 (hashtag line excluded from word count). Failure automatically forces revise."
+    - name: "mechanism_named_and_news_tied"
+      rule: "The post names the specific mechanism being anatomized AND ties it to a news trigger present in stack_anatomy.json selected_mechanism.news_trigger. A Stack post that doesn't anchor to a recent news event, or names no specific mechanism, is invented/strawman and automatically forces revise."
+    - name: "every_layer_attributed"
+      rule: "Every layer named in the body appears in stack_anatomy.json selected_mechanism.layers[] with its controlling_actor matching the body. A layer or controlling actor not present in the dossier is confabulation and automatically forces revise."
+    - name: "chokepoint_named"
+      rule: "The post names a SPECIFIC chokepoint matching stack_anatomy.json selected_mechanism.chokepoint. Generic stand-ins ('regulation', 'money', 'Congress', 'the agency') without naming the specific layer, actor, or binary decision automatically force revise."
+  criteria:
+    - name: "Hook strength"
+      weight: 0.10
+      descriptors:
+        10: "First two lines stand alone as a hook (LinkedIn 'see more' cutoff at ~210 chars). Names the mechanism AND the news trigger that surfaced it. Signals correction is coming without snark."
+        7:  "Solid opener, no banned phrases, first lines work but don't make the mechanism or news trigger concrete."
+        4:  "Generic LinkedIn-y / abstract. First lines could front any explainer."
+        0:  "Banned opener, empty, or first lines bury the mechanism."
+    - name: "Mechanism load-bearing + AK consequence"
+      weight: 0.18
+      descriptors:
+        10: "The mechanism genuinely drives an Alaska AI capital, procurement, policy, or workforce decision AND the post names a concrete AK industry consequence (sector + decision/risk/opportunity + named actor + timeframe)."
+        7:  "Mechanism matters and consequence is named, but one side is thin (mechanism is real but minor, or consequence is vague)."
+        4:  "Mechanism is a minor aside, or the consequence has no clear AK business stake."
+        0:  "No real mechanism, or no AK stake at all."
+    - name: "Layer fidelity"
+      weight: 0.14
+      descriptors:
+        10: "Every layer named in the body is in stack_anatomy.layers[], every controlling_actor matches, no invented layers. The chain is complete and readable."
+        7:  "All layers present in dossier, but one layer's controlling actor is summarized loosely."
+        4:  "At least one layer or actor in the body is missing from the dossier (confabulation risk)."
+        0:  "Multiple invented layers or actors."
+    - name: "Chokepoint clarity"
+      weight: 0.13
+      descriptors:
+        10: "Names ONE specific layer where leverage sits, the actor who controls it, and the binary decision they own. Asymmetric, not a committee."
+        7:  "Chokepoint identified but slightly diffuse (two actors, soft veto)."
+        4:  "Names a generic stand-in ('regulation', 'money', 'Congress') instead of a specific layer."
+        0:  "No chokepoint named."
+    - name: "Structural read"
+      weight: 0.12
+      descriptors:
+        10: "Takes a real, debatable position on what this mechanism produces and why. Matches the post_001.md energy. Not neutral description."
+        7:  "Position present but soft, slightly hedged."
+        4:  "Mostly description, position implied but not stated."
+        0:  "Pure neutral explainer. No position."
+    - name: "Forward implication"
+      weight: 0.08
+      descriptors:
+        10: "Names a concrete next decision point, date or window, who's positioned and who isn't. The exec, allocator, or PM knows what to revisit this week."
+        7:  "Forward implication present but generic ('watch this space')."
+        4:  "Interesting commentary, no concrete trigger."
+        0:  "No forward implication."
+    - name: "Primary-source quality"
+      weight: 0.10
+      descriptors:
+        10: "Every layer in the dossier traces to a primary source (statute, agency page, docket, contract, org chart, earnings call, 10-K). Chokepoint citation is primary."
+        7:  "All layers sourced, mix of credible secondary."
+        4:  "At least one layer is single-sourced and not primary."
+        0:  "Primary-source chain broken."
+    - name: "Voice match"
+      weight: 0.08
+      descriptors:
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate. Not explainer-bot. Not LinkedIn-influencer cadence."
+        7:  "Mostly on voice, one drift moment into folksy, corporate, or pure descriptive."
+        4:  "Drifts into industry overview or thought-leadership cadence."
+        0:  "Off-voice throughout."
+    - name: "Readability (LinkedIn)"
+      weight: 0.04
+      descriptors:
+        10: "Tight paragraphs (2 to 4 sentences), 350 to 475 words AND ≤ 3000 chars total, layer bullet block well-formed (3-5 single-clause items), easy to scan on desktop and mobile."
+        7:  "Slightly long or one wall-of-text paragraph, or bullet block under/over."
+        4:  "Hard to scan, missed the 350 to 475 word / 3000 char window."
+    - name: "Engagement question"
+      weight: 0.03
+      descriptors:
+        10: "Closes with a real, debatable industry question tied to the chokepoint specifically. No 'follow us', no rhetorical softener."
+        7:  "Question present and on-topic but slightly generic."
+        4:  "Generic prompt or LinkedIn-influencer-style rhetorical."
+        0:  "No closing question, or replaced with CTA."
+  # Weight sum check: 0.10 + 0.18 + 0.14 + 0.13 + 0.12 + 0.08 + 0.10 + 0.08 + 0.04 + 0.03 = 1.00
