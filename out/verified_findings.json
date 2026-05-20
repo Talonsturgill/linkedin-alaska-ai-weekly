@@ -1,0 +1,211 @@
+{
+  "validated_at": "2026-05-20T18:00:00-08:00",
+  "window": ["2026-05-13", "2026-05-20"],
+  "volume": "VOL. 02",
+  "validator_notes": "All 10 input stories survived validation. Key corrections applied below. Stories B4 (Olgoonik) and D3 (HB 239 penalty/class specifics) carry unresolved facts and should not anchor a post without hedging.",
+  "stories": [
+    {
+      "story_id": "E1",
+      "beat": "E",
+      "story_title": "Alaska DNR Issues Preliminary Lease Decision for $500M Stak Energy North Slope AI Data Center",
+      "verdict": "verified",
+      "needs_softening": false,
+      "summary_2_sentences": "On May 12, 2026, Alaska DNR issued a preliminary 'best interest' determination to grant Stak Energy a 50-year land lease for a one-square-mile AI and cloud computing data center complex off the Dalton Highway, roughly 25 miles south of existing North Slope infrastructure. The $500 million project would draw up to 3 gigawatts of power from natural gas turbines fed by a newly constructed pipeline, consuming more than twice the natural gas urban Alaska uses for electricity and heat combined, with initial operations targeted for 2028 and a public comment window through June 15.",
+      "industry_consequence": "Energy and data center sectors: Alaska DNR must finalize the 50-year lease and Stak Energy must secure a gas supply contract, pipeline permits, and Clean Water Act authorization before June 15 public comment closes, a near-term decision point for North Slope gas producers, pipeline developers, and capital allocators evaluating a project with unresolved fuel supply and seven-year equipment backlogs.",
+      "key_facts": [
+        "DNR preliminary best-interest determination issued May 12, 2026",
+        "50-year lease, one square mile, ~25 miles south of major North Slope infrastructure off the Dalton Highway",
+        "$500 million project, initial operations targeted for 2028",
+        "Up to 3 GW of natural gas power generation",
+        "Gas demand exceeds twice combined urban Alaska electricity + heating fuel use",
+        "Public comment window closes June 15, 2026",
+        "No firm gas supply contract disclosed; turbine supply chains backlogged seven years",
+        "Project name: Stak Energy; financing partner: McKinley Alaska Private Investment"
+      ],
+      "sources": [
+        {"url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "pub_date": "2026-05-13", "author": "Nathaniel Herz", "status": "ok"},
+        {"url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-18", "author": "Nathaniel Herz", "status": "ok"},
+        {"url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "pub_date": "2026-05-14", "author": "Nathaniel Herz", "status": "paywall-403"}
+      ]
+    },
+    {
+      "story_id": "D2",
+      "beat": "D",
+      "story_title": "SB 250 Data Center Utility Cost-Allocation Bill Dies in House CRA at Session End",
+      "verdict": "verified-with-corrections",
+      "needs_softening": false,
+      "summary_2_sentences": "SB 250, which would have required data centers to bear their own utility infrastructure costs and enter community benefit agreements approved by the RCA, passed the Senate 14-5 on reconsideration May 16, was received by the House on May 17, heard-and-held in House Community and Regional Affairs on May 18, and died when the Legislature adjourned without a House floor vote. The bill was the legislature's primary vehicle for setting ground rules on data center power consumption before any large facility breaks ground.",
+      "industry_consequence": "Electric utility and data center development: Potential data center developers and Alaska utilities (Chugach Electric, Golden Valley Electric Association) face an indefinite period of regulatory uncertainty on power cost allocation, delaying investment decisions until at least the 2027 legislative session.",
+      "key_facts": [
+        "Senate final vote 14-5 on reconsideration, May 16",
+        "Received by House May 17 (transmitted May 16)",
+        "Heard-and-held in House CRA May 18",
+        "Bill dies at sine die May 21",
+        "Would have required RCA-approved community benefit agreements"
+      ],
+      "corrections_applied": [
+        "Vote corrected from 13-5 to 14-5 (final reconsidered vote)",
+        "Transmission date corrected from May 17 to May 16"
+      ],
+      "sources": [
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB+250", "outlet": "Alaska State Legislature", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.billtrack50.com/billdetail/1974439", "outlet": "BillTrack50", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.alaskasnewssource.com/2026/04/30/data-centers-alaska-lawmakers-gauge-bans-or-tax-incentives-with-just-weeks-left-session/", "outlet": "KTUU", "pub_date": "2026-04-30", "status": "ok", "note": "pre-window background"}
+      ]
+    },
+    {
+      "story_id": "C1",
+      "beat": "C",
+      "story_title": "Santos and Repsol Achieve First Oil at Pikka with Remote Operations Center",
+      "verdict": "verified-with-softening",
+      "needs_softening": true,
+      "summary_2_sentences": "Santos (51% operator) and Repsol (49%) announced first oil from Pikka Phase 1 on May 18, 2026, with flow confirmed through the LACT meter into the Pikka sales oil line, the largest new North Slope production addition in decades. The facility includes a remote operations center at camp; Santos targets a production plateau of 80,000 bbl/day in Q3 2026.",
+      "industry_consequence": "Oil and gas: Santos must staff, secure, and optimize a live remote operations center on the North Slope within the next 60-90 days as it ramps Pikka to plateau, creating a near-term procurement and workforce decision point for Anchorage-based operations-technology and industrial cybersecurity contractors by Q3 2026.",
+      "key_facts": [
+        "First oil announced May 18, 2026",
+        "Santos 51% operator, Repsol 49%",
+        "Plateau target 80,000 bbl/day in Q3 2026",
+        "Remote operations center at camp confirmed as facility feature",
+        "LACT meter confirmed flow start"
+      ],
+      "softening_notes": [
+        "Do NOT claim Pikka is 'the first greenfield with centralized remote ops from the start.' That framing is not sourced verbatim. Use 'designed-in' or 'centralized' as feature descriptors only."
+      ],
+      "sources": [
+        {"url": "https://www.santos.com/news/santos-announces-first-oil-at-pikka-in-alaska/", "outlet": "Santos Ltd.", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.repsol.com/en/press-room/press-releases/2026/repsol-santos-reach-first-oil-pikka-alaska/index.cshtml", "outlet": "Repsol", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.akbizmag.com/industry/oil-gas/pikka-produces-santos-announces-first-oil/", "outlet": "Alaska Business Magazine", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.alaskasnewssource.com/2026/05/18/first-oil-flows-pikka-project-north-slope/", "outlet": "KTUU", "pub_date": "2026-05-18", "status": "ok"}
+      ]
+    },
+    {
+      "story_id": "D1",
+      "beat": "D",
+      "story_title": "Dunleavy Vetoes HB 78 Pension Bill; Override Fails (33 of 60, 7 short of 40)",
+      "verdict": "verified",
+      "needs_softening": false,
+      "summary_2_sentences": "Governor Dunleavy vetoed HB 78 on May 18, 2026, killing the first defined-benefit pension legislation for Alaska public employees since 2006. A joint session override attempt on May 19 fell short at 33 votes, seven short of the 40 required.",
+      "industry_consequence": "State government and defense-adjacent contractors: Alaska agencies and federal contractors relying on state workforce pipelines must budget for continued elevated turnover and recruitment costs with no legislative remedy available before the 35th Legislature convenes in January 2027.",
+      "key_facts": [
+        "Veto May 18, 2026",
+        "Override attempt May 19 received 33 votes; 40 needed",
+        "First DB pension legislation for AK public employees since 2006"
+      ],
+      "softening_notes": [
+        "Use '33 of 60' or '33 votes, seven short of the 40 required' instead of '33-27' shorthand."
+      ],
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/18/gov-dunleavy-vetoes-public-pension-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/19/alaska-lawmakers-fail-to-override-dunleavys-veto-of-pension-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-19", "status": "ok"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-19/pipeline-for-pension-deal-falls-apart-as-the-alaska-legislatures-regular-session-nears-end", "outlet": "Alaska Public Media", "pub_date": "2026-05-19", "status": "ok"}
+      ]
+    },
+    {
+      "story_id": "B1",
+      "beat": "B",
+      "story_title": "Glenfarne Alaska LNG and ConocoPhillips Sign 30-Year Gas Supply Agreement",
+      "verdict": "verified",
+      "needs_softening": false,
+      "summary_2_sentences": "Glenfarne Alaska LNG and ConocoPhillips Alaska signed a 30-year gas sales precedent agreement on May 18, 2026, completing Glenfarne's roster of North Slope supply commitments alongside ExxonMobil, Hilcorp, and Great Bear Pantheon. The committed volumes are now described as sufficient to support a Final Investment Decision on Phase One, a 739-mile, 42-inch pipeline targeting first gas delivery in 2029.",
+      "industry_consequence": "Oil and gas / energy infrastructure: Glenfarne Alaska LNG faces a capital formation decision (FID trigger) for a multi-billion-dollar Phase One pipeline within months, directly affecting utilities, industrial buyers, and contractors across Southcentral Alaska by the 2026 to 2028 construction window.",
+      "key_facts": [
+        "30-year gas sales precedent agreement signed May 18, 2026",
+        "Four committed suppliers: ExxonMobil, Hilcorp, Great Bear Pantheon, ConocoPhillips",
+        "Phase One: 739-mile 42-inch pipeline targeting first gas 2029"
+      ],
+      "sources": [
+        {"url": "https://energynewsbeat.co/big-oil-companies/alaska-lng-locks-in-conocophillips-on-30-year-gas-supply-deal-fid-for-phase-one-pipeline-now-within-reach/", "outlet": "Energy News Beat", "pub_date": "2026-05-18", "status": "ok"},
+        {"url": "https://www.lngindustry.com/liquid-natural-gas/19052026/glenfarne-and-conocophillips-sign-north-slope-gas-sales-precedent-agreement-for-alaska-lng/", "outlet": "LNG Industry", "pub_date": "2026-05-19", "author": "Jessica Casey", "status": "ok"}
+      ]
+    },
+    {
+      "story_id": "B2",
+      "beat": "B",
+      "story_title": "AIDEA Board Votes 6-1 to Commit $190M to ANWR Exploration and June 5 Federal Lease Sale",
+      "verdict": "verified",
+      "needs_softening": false,
+      "summary_2_sentences": "The Alaska Industrial Development and Export Authority board voted 6-1 on May 13, 2026, to approve a $190 million budget for its Arctic National Wildlife Refuge program: $175M for seismic acquisition and permitting on six existing coastal plain leases, and $15M to bid in the June 5 federal lease sale covering 700,000 acres. The sole dissenter was Andrew Guy, president of Calista Corp., citing insufficient detail on the spending plan.",
+      "industry_consequence": "Oil and gas / state capital allocation: AK oilfield services vendors and seismic contractors have a defined procurement opportunity tied to AIDEA's $175M seismic budget, requiring board-approved detailed contracting plan by the June 2026 board meeting.",
+      "key_facts": [
+        "AIDEA board vote 6-1 on May 13, 2026",
+        "$190M total: $175M seismic + $15M lease bid",
+        "Sole dissent: Andrew Guy, president of Calista Corp."
+      ],
+      "sources": [
+        {"url": "https://www.northernjournal.com/alaska-development-agency-approves-190-million-budget-for-arctic-refuge-oil-exploration-leasing/", "outlet": "Northern Journal", "pub_date": "2026-05-14", "author": "Max Graham", "status": "ok"},
+        {"url": "https://www.aidea.org/Portals/0/Meeting%20Docs/2026BoardMeetings/051326/6._D_Resolution_No._G26-05%20_Section_1002_Area_Development_Budget_05132026.pdf", "outlet": "AIDEA Resolution G26-05", "pub_date": "2026-05-13", "status": "ok-binary"}
+      ]
+    },
+    {
+      "story_id": "B3",
+      "beat": "B",
+      "story_title": "Alaska Legislature Unanimously Passed HJR 44 Defending ANC 8(a) Status (May 11); ANC 8(a) Awards Down ~$800M",
+      "verdict": "verified-with-softening",
+      "needs_softening": true,
+      "summary_2_sentences": "Both chambers of the Alaska Legislature unanimously passed House Joint Resolution 44 by May 11, 2026 (coverage published May 14), urging the federal government to preserve Alaska Native Corporations' and tribal entities' unique status within the SBA 8(a) program amid a near-complete freeze. Zero new 8(a) applications have been approved since August 2025; awards to Native-owned 8(a) program participants through April 2026 are down approximately $800 million versus 2025 according to Federal News Network reporting.",
+      "industry_consequence": "Federal contracting / ANC sector: ANC subsidiaries dependent on 8(a) sole-source and competitive set-aside awards face structural revenue risk in FY2026-2027 if SBA does not resume application processing.",
+      "key_facts": [
+        "HJR 44 passed both chambers by May 11, 2026 (per akleg.gov; coverage May 14)",
+        "Zero new 8(a) approvals since August 2025",
+        "~$800M YoY decline in awards to Native 8(a) participants through April 2026 (aggregate across ANCs, tribal firms, NHOs)"
+      ],
+      "softening_notes": [
+        "The $800M figure is aggregate across all Native 8(a) program participants, not ANC-specific. Source: Federal News Network (May 8).",
+        "Resolution itself passed May 11 (before window); coverage is in-window."
+      ],
+      "sources": [
+        {"url": "https://alaskapublic.org/news/alaska-desk/2026-05-14/legislature-passes-resolution-supporting-program-that-helps-alaska-native-corporations-get-federal-contracts", "outlet": "Alaska Public Media", "pub_date": "2026-05-14", "author": "Alena Naiden", "status": "ok"},
+        {"url": "https://federalnewsnetwork.com/acquisition-policy/2026/05/tribal-owned-firms-want-answers-about-state-of-8a-program/", "outlet": "Federal News Network", "pub_date": "2026-05-08", "author": "Jason Miller", "status": "ok"}
+      ]
+    },
+    {
+      "story_id": "E2",
+      "beat": "E",
+      "story_title": "ADN/ProPublica USF $4.6B Investigation + FCC High-Cost Modernization NPRM",
+      "verdict": "verified-with-softening",
+      "needs_softening": true,
+      "summary_2_sentences": "An ADN/ProPublica investigation published May 19, 2026 found Alaska received $4.6 billion in Universal Service Fund subsidies since 2016, more than $600 per resident annually, the highest per-capita rate in the country, while ranking near the bottom for broadband speed. On May 20 the FCC voted on a High-Cost Modernization NPRM proposing to overhaul or sunset legacy mechanisms forming the structural backbone of the Alaska Plan.",
+      "industry_consequence": "Rural telecom and AI/edge-compute infrastructure: Alaska ETCs led by GCI and ACS face a comment deadline expected 30 to 60 days after Federal Register publication of the NPRM that will determine whether the next federal rulemaking cycle preserves, restructures, or sunsets the Alaska Plan architecture.",
+      "softening_notes": [
+        "Do not cite specific FCC docket numbers (WC 26-96, WC 10-90); they could not be confirmed against primary FCC sources."
+      ],
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/2026/05/19/the-fcc-sends-billions-to-alaska-companies-selling-slow-internet-you-pay-for-it/", "outlet": "Anchorage Daily News / ProPublica", "pub_date": "2026-05-19", "author": "Kyle Hopkins", "status": "ok"},
+        {"url": "https://www.propublica.org/article/alaska-telecom-subsidies-roger-shoffstall", "outlet": "ProPublica", "pub_date": "2026-05-19", "author": "Kyle Hopkins", "status": "ok"},
+        {"url": "https://natlawreview.com/article/fcc-download-monthly-updates-may-2026", "outlet": "National Law Review", "pub_date": "2026-05-20", "status": "ok"}
+      ]
+    },
+    {
+      "story_id": "D3",
+      "beat": "D",
+      "story_title": "HB 239 Omnibus Crime Bill (with AI-CSAM Provisions) Passes Senate 20-0; House Concurrence Pending",
+      "verdict": "verified-with-softening",
+      "needs_softening": true,
+      "summary_2_sentences": "The Alaska Senate passed SCS CSHB 239(FIN) 20-0 on May 19, 2026, an omnibus crime package that includes provisions criminalizing AI-generated child sexual abuse material as a felony. As of May 20 the bill was awaiting House concurrence before the May 21 constitutional adjournment deadline.",
+      "industry_consequence": "AI platform and law enforcement: Generative AI companies distributing products in Alaska face felony aiding risk if Alaska's House concurs before May 21, 2026; specific penalty amounts require bill text confirmation before publication.",
+      "softening_notes": [
+        "Do NOT cite the specific felony class (B/A) or the $1M per-instance civil penalty — neither is confirmed in the enrolled bill text. ADN April 10 explicitly noted the $1M penalty was stripped in an earlier Senate committee version."
+      ],
+      "sources": [
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB+239", "outlet": "Alaska State Legislature", "pub_date": "2026-05-20", "status": "ok"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-04-21/raising-alaskas-age-of-consent-headlines-10-bill-package-of-crime-legislation", "outlet": "Alaska Public Media", "pub_date": "2026-04-21", "status": "ok", "note": "pre-window background"}
+      ]
+    },
+    {
+      "story_id": "B4",
+      "beat": "B",
+      "story_title": "Olgoonik Logistics Federal IDIQ — Unverifiable",
+      "verdict": "verified-with-softening",
+      "needs_softening": true,
+      "summary_2_sentences": "Trade press reported May 18 that Inupiaq-owned Olgoonik Logistics LLC of Anchorage holds a maximum $477,913,568 hybrid IDIQ contract for global rapid deployment. The awarding agency is attributed to Defense Logistics Agency in trade press, but the contracting office prefix in the USAspending award ID (19AQMM) corresponds to the U.S. Department of State Bureau of Administration; both source URLs returned 403 / no content.",
+      "industry_consequence": "Defense logistics / ANC sector: Olgoonik holds up to $477.9M in task order capacity through approximately May 2028. Awarding agency identity (DLA vs. State Dept) must be confirmed before publication.",
+      "softening_notes": [
+        "DO NOT use as primary anchor or as headline figure — both sources inaccessible at validation, contracting agency unresolved."
+      ],
+      "sources": [
+        {"url": "https://www.aerotechnews.com/blog/2026/05/18/contract-briefs-736/", "outlet": "Aerotech News", "pub_date": "2026-05-18", "status": "paywall-403"},
+        {"url": "https://www.usaspending.gov/award/CONT_AWD_19AQMM26F0083_1900_19AQMM22D0070_1900", "outlet": "USAspending.gov", "pub_date": "2026-05-18", "status": "no-content"}
+      ]
+    }
+  ]
+}

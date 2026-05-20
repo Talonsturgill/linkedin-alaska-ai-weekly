@@ -1,0 +1,23 @@
+{
+  "ship": true,
+  "weighted_total": 10.0,
+  "threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 10, "weight": 0.15, "notes": "First two lines name a specific deadline (June 15), dollar amount ($500M), scale (3 GW), and surface the missing option (dead statute) within the ~210-char see-more cutoff. Matches the 10 descriptor exactly."},
+    {"name": "Industry relevance", "score": 10, "weight": 0.20, "notes": "Every story carries an Alaska anchor + named industry consequence: energy infrastructure (Stak 3 GW), regulatory vacuum (SB 250 death), oil production (Pikka remote ops), workforce math (HB 78 veto)."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Specifics every sentence: May 12 open, June 15 close, $500M, 1 sq mi, 3 GW, 25 miles south Dalton Hwy, 50-year lease, 2028, 14-5 Senate vote, May 16/18/21 dates, Glenfarne 2029, four named suppliers, Pikka May 18, HB 78 33 of 60."},
+    {"name": "Source quality", "score": 10, "weight": 0.15, "notes": "Every claim traces to verified_findings.json with primary or dual-credible sourcing: Stak (Northern Journal + ADN), SB 250 (akleg.gov + BillTrack50), Pikka (Santos + Repsol PRs), HB 78 (ADN + APM), Glenfarne (Energy News Beat + LNG Industry)."},
+    {"name": "Voice match", "score": 10, "weight": 0.15, "notes": "Reads identically to post_001.md register: analytical, position-taking, structural framing, explicit third option, capital-aware. No banned phrases, no influencer cadence."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.10, "notes": "Paragraphs 2-4 sentences. One bullet block, 3 items. Body words within 350-475. Total chars well under 3000 cap."},
+    {"name": "Engagement question", "score": 10, "weight": 0.08, "notes": "Real binary tension named: DNR lease terms vs. statute. No rhetorical softener, no CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Four time-bounded revisit triggers: June 15 comment window, RCA cost-allocation in lease, 2028 vs 2029 supply sequence, pension veto recruiting math."}
+  ],
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "pass": true, "notes": "5 hashtags at end only: AlaskaAI, DataCenters, EnergyPolicy, GridPolicy, OilAndGas. All on brand.yaml whitelist."},
+    {"name": "punctuation_bans_held", "pass": true, "notes": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body. Hyphens only in compound adjectives."},
+    {"name": "total_char_count_under_linkedin_cap", "pass": true, "notes": "Total 2846 chars including hashtag line, under 3000 LinkedIn cap."},
+    {"name": "word_count_in_range", "pass": true, "notes": "Body word count 459 (whitespace-split) / 475 (hyphen-split), within 350-475 range."}
+  ],
+  "weakest_criterion": "Business actionability",
+  "one_sentence_fix": "No fix required, all criteria scored 10 and all hard-fail checks passed; ship as written."
+}
