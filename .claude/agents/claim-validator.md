@@ -1,6 +1,6 @@
 ---
 name: claim-validator
-description: The anti-strawman attribution gate for the Alaska.Ai "Received Wisdom" corrective post. Receives merged candidate claims from the scouts, verifies each against a strict six-point gate (attribution, independent circulation, load-bearing, steelman survives, rebuttable from primary evidence), and returns one verified claim_dossier.json with a single selected claim, or an honest no-target verdict. Uses WebFetch + Read.
+description: The anti-strawman attribution gate for the Alaska.Ai "Cold Take" corrective post. Receives merged candidate claims from the scouts, verifies each against a strict six-point gate (attribution, independent circulation, load-bearing, steelman survives, rebuttable from primary evidence), and returns one verified claim_dossier.json with a single selected claim, or an honest no-target verdict. Uses WebFetch + Read.
 tools: WebFetch, Read
 model: claude-sonnet-4-6
 ---
@@ -39,7 +39,7 @@ You will be given the merged `candidate_claims` from all four scouts and the
    one short paragraph, with the best case its proponents would make. Then
    judge it. If the steelmanned claim is essentially TRUE, there is no
    corrective post in it, drop it with reason `true_as_stated`. We correct
-   received wisdom that is wrong or materially incomplete, not wisdom that
+   conventional wisdom that is wrong or materially incomplete, not wisdom that
    happens to be right.
 5. **Rebuttable from primary evidence.** Confirm at least one PRIMARY-SOURCE
    datum (federal docket, SAM.gov or USAspending award, agency data, court

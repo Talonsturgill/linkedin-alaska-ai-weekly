@@ -1,4 +1,4 @@
-# Received Wisdom — Issue NO. 02 — Selection
+# Cold Take — Issue NO. 02 — Selection
 
 ## The claim (verbatim)
 
