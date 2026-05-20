@@ -1,0 +1,58 @@
+{
+  "sources": [
+    {
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+      "outlet": "Data Center Knowledge",
+      "pub_date": "2025-10-07",
+      "story_title": "Alaska Governor Pitches State as a Data Center Hub (Dunleavy verbatim, the claim under correction)"
+    },
+    {
+      "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+      "outlet": "Broadband Breakfast",
+      "pub_date": "2026-04-24",
+      "story_title": "Alaska Pushes for Data Center Investment (Dunleavy reprises ~5 cent kWh figure at Data Center World 2026)"
+    },
+    {
+      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-05-05",
+      "story_title": "Julie Hasquet (Chugach Electric) on record: utility has no gas to serve a large data center; Air Force RLP cites insufficient power at JBER; Robert Pickett quote"
+    },
+    {
+      "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+      "outlet": "Anchorage Daily News (Stan Jones op-ed)",
+      "pub_date": "2026-04-12",
+      "story_title": "EIA 2024 industrial rate comparison and Wood Mackenzie analysis of Alaska LNG Phase 1 gas pricing"
+    },
+    {
+      "url": "https://www.adn.com/business-economy/energy/2026/04/28/alaskas-energy-cliff-has-already-arrived-for-some-railbelt-communities/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-04-28",
+      "story_title": "Hilcorp raising Mat-Su gas prices 49% to $11.75/Mcf by 2028; Enstar's John Sims on 'an economy that just doesn't work anymore'"
+    },
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/02/11/lawmakers-skeptical-as-developer-of-alaska-lng-megaproject-sets-rapid-construction-timeline/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-02-11",
+      "story_title": "Alaska LNG status, $44+ billion cost estimate, Senate Majority Leader Cathy Giessel calls Glenfarne timeline 'completely unrealistic'"
+    },
+    {
+      "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+      "outlet": "Air & Space Forces Magazine",
+      "pub_date": "2026-04-11",
+      "story_title": "DAF RLP for AI data centers at JBER, Eielson, Clear; Robert Moriarty statement; offers due May 29, 2026"
+    },
+    {
+      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-05-18",
+      "story_title": "State preliminary best-interest finding for 50-year, one-square-mile North Slope lease to Stak Energy, $500M / 3GW project"
+    },
+    {
+      "url": "https://www.adn.com/opinions/2026/04/23/opinion-how-alaska-can-use-our-energy-advantage-to-capitalize-on-the-ai-gold-rush/",
+      "outlet": "Anchorage Daily News (Rep. Nick Begich III op-ed)",
+      "pub_date": "2026-04-23",
+      "story_title": "Begich on 'energy abundance' and the DATA Act of 2026 (parallel pro-Alaska framing to the Governor's pitch)"
+    }
+  ]
+}
