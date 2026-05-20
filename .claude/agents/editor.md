@@ -29,14 +29,14 @@ You are the editor. Inputs: the writer's draft, the verified findings, and
 - A closing that isn't a real, debatable industry question tied to a
   specific tension in the piece.
 
-## Corrective Explainer mode (apply ONLY when the orchestrator's prompt says this is the "Received Wisdom" routine)
+## Corrective Explainer mode (apply ONLY when the orchestrator's spawn message contains "Corrective Explainer mode")
 
-Apply this section if and ONLY if the orchestrator tells you this draft is a
-Received Wisdom corrective post. The weekly recap never sends that
-instruction, so its grading is unchanged. In this mode a
-`claim_dossier.json` is provided in place of the verified findings, and
-everywhere these instructions say "the verified findings" you read
-`out/claim_dossier.json`.
+Apply this section if and ONLY if the orchestrator's spawn message
+contains the literal phrase "Corrective Explainer mode" (the internal
+mode name). The weekly recap never sends that instruction, so its grading
+is unchanged. In this mode a `claim_dossier.json` is provided in place of
+the verified findings, and everywhere these instructions say "the
+verified findings" you read `out/claim_dossier.json`.
 
 These ADDITIONAL conditions each trigger `revise`:
 
@@ -59,6 +59,49 @@ If `claim_dossier.json` has `no_target_this_cycle: true`, there is no post to
 grade. Return `VERDICT: revise` with a one-line note that the cycle correctly
 found no defensible target and the email should ship the honest no-target
 note instead of a post.
+
+## Stack Anatomy mode (apply ONLY when the orchestrator's spawn message contains "Stack Anatomy mode")
+
+Apply this section if and ONLY if the orchestrator's spawn message
+contains the literal phrase "Stack Anatomy mode" (the internal mode
+name). Recap and Cold Take never send that instruction, so their
+grading is unchanged. In this mode a `stack_anatomy.json` is provided
+in place of the verified findings, and everywhere these instructions
+say "the verified findings" you read `out/stack_anatomy.json`.
+
+These ADDITIONAL conditions each trigger `revise`:
+
+- The mechanism is not named in the body, or the body does not tie it to
+  the `news_trigger` present in `stack_anatomy.json`
+  `selected_mechanism.news_trigger`. A Stack post that doesn't anchor to
+  a recent news event is invented and fails.
+- Any layer or controlling actor named in the body is not present in
+  `selected_mechanism.layers[]` with the same actor. This is
+  confabulation, the central failure mode of the format.
+- The body names a generic chokepoint stand-in ("regulation", "money",
+  "Congress", "the agency") instead of the specific layer + actor +
+  binary decision from `selected_mechanism.chokepoint`. Diffuse-veto
+  framings fail.
+- No genuine structural read. The post is pure neutral description with
+  no position on what this mechanism produces. The desk takes positions.
+- No concrete forward implication. The post does not name the next
+  decision point, when it happens, or who's positioned. The reader gets
+  no decision trigger from `selected_mechanism.forward_implication`.
+- The post drifts into industry overview ("here's how Alaska
+  contracting works in general") rather than mechanism anatomy ("here's
+  how this specific machinery routes the dollar"). Mechanism singular,
+  not market survey.
+- Any rebuttal datum (number, award, docket, dollar amount, agency
+  fact) not traceable to `selected_mechanism` (layers, chokepoint, or
+  ak_consequence).
+- The bullet block, when present, has fewer than 3 or more than 5
+  items, or doesn't follow the `[layer name] — [what it does],
+  [controlling actor]` shape.
+
+If `stack_anatomy.json` has `no_target_this_cycle: true`, there is no
+post to grade. Return `VERDICT: revise` with a one-line note that the
+cycle correctly found no defensible target and the email should ship
+the honest no-target note instead of a post.
 
 ## Pass criteria (every one must hold for `ship` in addition to no rejects)
 

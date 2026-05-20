@@ -1,6 +1,6 @@
 ---
 name: claim-validator
-description: The anti-strawman attribution gate for the Alaska.Ai "Received Wisdom" corrective post. Receives merged candidate claims from the scouts, verifies each against a strict six-point gate (attribution, independent circulation, load-bearing, steelman survives, rebuttable from primary evidence), and returns one verified claim_dossier.json with a single selected claim, or an honest no-target verdict. Uses WebFetch + Read.
+description: The anti-strawman attribution gate for the Alaska.Ai "Cold Take" corrective post. Receives merged candidate claims from the scouts, verifies each against a strict six-point gate (attribution, independent circulation, load-bearing, steelman survives, rebuttable from primary evidence), and returns one verified claim_dossier.json with a single selected claim, or an honest no-target verdict. Uses WebFetch + Read.
 tools: WebFetch, Read
 model: claude-sonnet-4-6
 ---
@@ -67,7 +67,6 @@ Return exactly this object. The orchestrator persists it to
 
 ```json
 {
-  "issue_no": "<passed through from the orchestrator, e.g. NO. 03>",
   "selected_claim": {
     "claim_verbatim": "<exact quoted span as it will be cited>",
     "claim_paraphrase_fair": "<one-sentence steelmanned restatement>",
