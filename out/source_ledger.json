@@ -1,0 +1,37 @@
+{
+  "run_date": "2026-05-20",
+  "mechanism": "Alaska Railbelt Large-Load Interconnection Review",
+  "news_trigger": {
+    "outlet": "Anchorage Daily News",
+    "date": "2026-05-05",
+    "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
+    "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/"
+  },
+  "layer_sources": [
+    {
+      "layer": "Air Force RFI and Site Control",
+      "actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI)",
+      "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/"
+    },
+    {
+      "layer": "Utility Capacity and Integration Study",
+      "actor": "Chugach Electric Association; Golden Valley Electric Association (Travis Million, President/CEO)",
+      "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation"
+    },
+    {
+      "layer": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
+      "actor": "Regulatory Commission of Alaska (five-member commission); active docket U-25-023",
+      "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx"
+    },
+    {
+      "layer": "Anchorage Municipal Conditional Use Permit (AO 2026-27)",
+      "actor": "Anchorage Municipal Planning Department and Anchorage Assembly",
+      "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework"
+    },
+    {
+      "layer": "Alaska HB 259 (Community Benefit and Rate-Setting)",
+      "actor": "Alaska House Energy Committee; Rep. Donna Mears",
+      "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/"
+    }
+  ]
+}
