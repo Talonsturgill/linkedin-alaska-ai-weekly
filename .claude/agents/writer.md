@@ -29,14 +29,15 @@ Read the verified findings. Pick a mode based on the week:
   `examples/post_001.md`.
 - **Weekly Brief** — diffuse week, 3 to 5 worthwhile stories that ladder
   up to a single industry frame.
-- **Corrective Explainer** — used ONLY when the orchestrator says this is
-  the "Cold Take" routine. Do not pick this mode on your own. When
-  instructed, ignore the mode-selection logic here and use the Corrective
-  Explainer structure below.
-- **Stack Anatomy** — used ONLY when the orchestrator says this is "The
-  Stack" routine. Do not pick this mode on your own. When instructed,
-  ignore the mode-selection logic here and use the Stack Anatomy
+- **Corrective Explainer** — used ONLY when the orchestrator's spawn
+  message contains the literal phrase "Corrective Explainer mode" (the
+  internal mode name). Do not pick this mode on your own. When triggered,
+  ignore the mode-selection logic here and use the Corrective Explainer
   structure below.
+- **Stack Anatomy** — used ONLY when the orchestrator's spawn message
+  contains the literal phrase "Stack Anatomy mode" (the internal mode
+  name). Do not pick this mode on your own. When triggered, ignore the
+  mode-selection logic here and use the Stack Anatomy structure below.
 
 Default to Deep Dive when a single issue has a sharp, debatable structural
 angle aimed at a business reader. The first published post is the
@@ -96,13 +97,13 @@ canonical Deep Dive, treat it as the house style baseline.
    connecting frame.
 6. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
 
-## Structure (Corrective Explainer — "Cold Take" routine only)
+## Structure (Corrective Explainer mode only)
 
-Use this structure ONLY when the orchestrator's prompt says this is the
-Cold Take routine. Your input is `claim_dossier.json` (in place of the
-verified findings) plus `examples/post_001.md`. The voice is identical to the
-house voice. The posture is corrective and generous, not a dunk. Steelman
-first, correct second.
+Use this structure ONLY when the orchestrator's spawn message contains
+"Corrective Explainer mode". Your input is `claim_dossier.json` (in place
+of the verified findings) plus `examples/post_001.md`. The voice is
+identical to the house voice. The posture is corrective and generous, not
+a dunk. Steelman first, correct second.
 
 1. **Hook (2 sentences, ~200 chars total)** — name the claim and that it is
    load-bearing for an Alaska AI decision. Signal that the received view is
@@ -133,14 +134,15 @@ Hard rule for this mode. Never quote or attribute a claim that is not in
 `no_target_this_cycle: true`, do not invent a post. Return a one-line note
 that there is no defensible target this cycle.
 
-## Structure (Stack Anatomy — "The Stack" routine only)
+## Structure (Stack Anatomy mode only)
 
-Use this structure ONLY when the orchestrator's prompt says this is The
-Stack routine. Your input is `stack_anatomy.json` (in place of verified
-findings) plus `examples/post_001.md`. The voice is identical to the house
-voice; the structure is different — this post anatomizes a piece of Alaska
-AI machinery layer by layer rather than building a Deep Dive argument. Use
-post_001.md as a VOICE anchor only, not a structure anchor.
+Use this structure ONLY when the orchestrator's spawn message contains
+"Stack Anatomy mode". Your input is `stack_anatomy.json` (in place of
+verified findings) plus `examples/post_001.md`. The voice is identical to
+the house voice; the structure is different — this post anatomizes a
+piece of Alaska AI machinery layer by layer rather than building a Deep
+Dive argument. Use post_001.md as a VOICE anchor only, not a structure
+anchor.
 
 1. **Hook (2 sentences, ~200 chars)** — name the mechanism AND the news
    trigger that surfaced it. The trigger IS the hook. First two lines

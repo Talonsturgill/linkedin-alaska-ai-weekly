@@ -29,14 +29,14 @@ You are the editor. Inputs: the writer's draft, the verified findings, and
 - A closing that isn't a real, debatable industry question tied to a
   specific tension in the piece.
 
-## Corrective Explainer mode (apply ONLY when the orchestrator's prompt says this is the "Cold Take" routine)
+## Corrective Explainer mode (apply ONLY when the orchestrator's spawn message contains "Corrective Explainer mode")
 
-Apply this section if and ONLY if the orchestrator tells you this draft is a
-Cold Take corrective post. The weekly recap never sends that
-instruction, so its grading is unchanged. In this mode a
-`claim_dossier.json` is provided in place of the verified findings, and
-everywhere these instructions say "the verified findings" you read
-`out/claim_dossier.json`.
+Apply this section if and ONLY if the orchestrator's spawn message
+contains the literal phrase "Corrective Explainer mode" (the internal
+mode name). The weekly recap never sends that instruction, so its grading
+is unchanged. In this mode a `claim_dossier.json` is provided in place of
+the verified findings, and everywhere these instructions say "the
+verified findings" you read `out/claim_dossier.json`.
 
 These ADDITIONAL conditions each trigger `revise`:
 
@@ -60,14 +60,14 @@ grade. Return `VERDICT: revise` with a one-line note that the cycle correctly
 found no defensible target and the email should ship the honest no-target
 note instead of a post.
 
-## Stack Anatomy mode (apply ONLY when the orchestrator's prompt says this is "The Stack" routine)
+## Stack Anatomy mode (apply ONLY when the orchestrator's spawn message contains "Stack Anatomy mode")
 
-Apply this section if and ONLY if the orchestrator tells you this draft is
-a Stack Anatomy post. Recap and Cold Take never send that instruction, so
-their grading is unchanged. In this mode a `stack_anatomy.json` is
-provided in place of the verified findings, and everywhere these
-instructions say "the verified findings" you read
-`out/stack_anatomy.json`.
+Apply this section if and ONLY if the orchestrator's spawn message
+contains the literal phrase "Stack Anatomy mode" (the internal mode
+name). Recap and Cold Take never send that instruction, so their
+grading is unchanged. In this mode a `stack_anatomy.json` is provided
+in place of the verified findings, and everywhere these instructions
+say "the verified findings" you read `out/stack_anatomy.json`.
 
 These ADDITIONAL conditions each trigger `revise`:
 
