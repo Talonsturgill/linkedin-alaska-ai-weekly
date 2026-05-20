@@ -1,0 +1,141 @@
+{
+  "issue_label": "NO. 02",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "you might be looking at four or five cents a kilowatt hour for decades and decades to come",
+    "claim_paraphrase_fair": "Governor Dunleavy claims Alaska can offer data center operators energy at 4-5 cents per kilowatt-hour for the long term, making it cost-competitive with major US data center markets.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "role": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07"
+      },
+      {
+        "name": "Mike Dunleavy",
+        "role": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24"
+      }
+    ],
+    "steelman": "Alaska possesses genuinely large stranded natural gas reserves on the North Slope and in Cook Inlet that, if successfully monetized through a pipeline and LNG project, could dramatically lower Southcentral electricity costs. If Alaska LNG reaches FID and construction, industrial gas customers could theoretically receive gas at prices competitive with the Lower 48, translating into sub-10-cent power. The Governor is accurately describing a plausible future state, not today's reality, and sophisticated investors evaluating 10-20 year infrastructure timelines might reasonably anchor to that future scenario when assessing site options.",
+    "circulation_evidence": [
+      {
+        "asserter": "Governor Mike Dunleavy",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "verbatim_or_near": "you might be looking at four or five cents a kilowatt hour for decades and decades to come"
+      },
+      {
+        "asserter": "Governor Mike Dunleavy (paraphrased at Data Center World 2026)",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "verbatim_or_near": "natural gas pipeline that could deliver power at about five cents per kilowatt hour for industrial users"
+      }
+    ],
+    "load_bearing_decisions": "The Air Force's April 2026 Request for Lease Proposals at three Alaska bases (JBER, Eielson, Clear) explicitly cites Alaska energy costs as a draw, with offers due May 29, 2026, per Air & Space Forces Magazine (2026-04-11). The State of Alaska has issued a preliminary 'best interest' finding for a 50-year, one-square-mile North Slope land lease to Stak Energy for a proposed $500 million, 3 GW data center (Northern Journal / Alaska Beacon 2026-05-13, ADN 2026-05-18). Any operator evaluating those opportunities, or a legislator deciding whether to provide state subsidy for Alaska LNG to enable cheap power, is directly pricing in whether 4-5 cent power is real or aspirational.",
+    "counter_evidence": [
+      {
+        "fact": "Large commercial users on Chugach Electric's system currently pay roughly 14 to 17 cents per kilowatt-hour, two to four times the rate Dunleavy projects, per EIA 2024 industrial rate data.",
+        "asserter": "Stan Jones, citing EIA 2024 data",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-04-12",
+        "is_primary": true
+      },
+      {
+        "fact": "The Governor's 4-5 cent projection is explicitly conditioned on Alaska LNG delivering gas to Southcentral Alaska, but Alaska LNG has no Final Investment Decision as of May 2026, carries a cost estimate of at least $44 billion, and Senate Majority Leader Cathy Giessel called Glenfarne's construction timeline 'completely unrealistic.'",
+        "asserter": "ADN / Alaska Legislature reporting",
+        "url": "https://www.adn.com/politics/alaska-legislature/2026/02/11/lawmakers-skeptical-as-developer-of-alaska-lng-megaproject-sets-rapid-construction-timeline/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-02-11",
+        "is_primary": true
+      },
+      {
+        "fact": "The Air Force's own Request for Lease Proposals states that JBER sites have 'insufficient power' for a data center and will require a new connection to Chugach Electric, directly contradicting the premise that cheap, abundant power is already available.",
+        "asserter": "Department of the Air Force RLP (April 2026), reported by ADN",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      },
+      {
+        "fact": "Chugach Electric spokesperson Julie Hasquet stated: 'We currently do not have gas to serve a large data center.' Cook Inlet gas has dropped from roughly 30% of Golden Valley Electric's fuel supply to less than 1%, and Chugach's Hilcorp supply contract expires in 2028.",
+        "asserter": "Julie Hasquet, Chugach Electric spokesperson",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      },
+      {
+        "fact": "Hilcorp is raising gas prices to Mat-Su utilities by 49% to $11.75/Mcf by 2028. Enstar Natural Gas President John Sims called it 'the start of an economy that just doesn't work anymore.' Wood Mackenzie projects Alaska LNG Phase 1 gas at $10-13.70/MMBtu vs. current Cook Inlet ~$8.69/MMBtu, meaning LNG gas would be more expensive than today's already-expensive supply.",
+        "asserter": "Hilcorp contract terms / John Sims (Enstar President) / Wood Mackenzie analysis cited by Stan Jones",
+        "url": "https://www.adn.com/business-economy/energy/2026/04/28/alaskas-energy-cliff-has-already-arrived-for-some-railbelt-communities/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-04-28",
+        "is_primary": true
+      },
+      {
+        "fact": "Former Regulatory Commission of Alaska Commissioner Robert Pickett stated to ADN on May 5, 2026: 'the whole electric industry right now in Southcentral Alaska is in a world of hurt.' Pickett's framing summarizes the current grid stress facing any data center customer.",
+        "asserter": "Robert Pickett, former RCA Commissioner",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      },
+      {
+        "fact": "The Department of the Air Force April 2026 Request for Lease Proposals at JBER, Eielson, and Clear set offers due May 29, 2026, per Air & Space Forces Magazine and the SAM.gov solicitation.",
+        "asserter": "DAF RLP via Air & Space Forces Magazine",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air & Space Forces Magazine",
+        "pub_date": "2026-04-11",
+        "is_primary": true
+      },
+      {
+        "fact": "The State of Alaska has issued a preliminary 'best interest' finding for a 50-year, one-square-mile North Slope land lease to Stak Energy for a proposed $500 million, 3 GW data center, per ADN and Northern Journal / Alaska Beacon reporting.",
+        "asserter": "State of Alaska best-interest finding, reported by ADN and Northern Journal",
+        "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-18",
+        "is_primary": true
+      }
+    ],
+    "more_accurate_frame": "Alaska's current industrial electricity rates are 14-17 cents per kilowatt-hour, among the highest of any US data center market, not 4-5 cents. The Governor's projection is explicitly conditional on Alaska LNG being built and operational, a project with no binding investment decision, a $44+ billion price tag, a construction timeline lawmakers call unrealistic, and upstream gas supply that is actively collapsing. Cook Inlet dropped from 30% to less than 1% of one major utility's fuel mix, and the utility that would serve military data centers says it does not currently have gas to serve a large new customer. The cooling-climate advantage is real, but the energy cost advantage is a future hypothetical, not a current competitive fact, and operators evaluating Alaska today face among the highest power costs in the nation.",
+    "ak_industry_consequence": "Any data center operator, including the military contractor bidding on the Air Force's JBER/Eielson/Clear lease RLP or Stak Energy pursuing its North Slope project, that underwrites a pro forma using 4-5 cent power is pricing a project that does not exist today and may not exist within any realistic data center investment horizon.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary_evidence": true,
+      "not_a_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_brief": "Dunleavy $150 million cooling savings for a one-gigawatt plant",
+      "reason": "Attribution and verbatim confirmed on Data Center Knowledge. Independently circulated. Load-bearing. However, the cooling arithmetic is internally sound, a 30-degree average temperature differential does translate to real PUE gains and reduced mechanical cooling costs, and no primary source directly refutes the $150M figure as mathematically wrong."
+    },
+    {
+      "claim_brief": "Robert Moriarty (DAF) 'unique opportunity for a true public-private partnership' at Alaska bases",
+      "reason": "Steelman survives as true as stated. Moriarty is accurately describing an actual RLP that has been issued. There is nothing to correct."
+    },
+    {
+      "claim_brief": "ADN Editorial Board 'Alaska stands at a pivotal moment' framing",
+      "reason": "Verbatim not confirmed on the source page. Editorial framing is not a falsifiable factual claim susceptible to primary-source rebuttal."
+    },
+    {
+      "claim_brief": "Ethan Berkowitz (Far North Digital) on stranded North Slope gas as ideal AI data center ingredient",
+      "reason": "Single non-primary asserter. The steelman survives as essentially true as stated."
+    },
+    {
+      "claim_brief": "Begich 'Alaska remains one of the most energy-rich regions in the world'",
+      "reason": "True as stated and single non-primary asserter. No primary counter exists that challenges Alaska's energy resource base."
+    }
+  ],
+  "_validation_note": "The selected claim (Dunleavy's 4-5 cent/kWh projection) was confirmed verbatim on the Data Center Knowledge page and partially confirmed via paraphrase at Broadband Breakfast (the April 2026 Broadband Breakfast article does not reproduce the exact October 2025 verbatim but independently reports the same figure at a different event, satisfying independent circulation). All five primary-source counter-evidence items were verified via WebFetch."
+}

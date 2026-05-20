@@ -30,7 +30,7 @@ Read the verified findings. Pick a mode based on the week:
 - **Weekly Brief** — diffuse week, 3 to 5 worthwhile stories that ladder
   up to a single industry frame.
 - **Corrective Explainer** — used ONLY when the orchestrator says this is
-  the "Received Wisdom" routine. Do not pick this mode on your own. When
+  the "Cold Take" routine. Do not pick this mode on your own. When
   instructed, ignore the mode-selection logic here and use the Corrective
   Explainer structure below.
 
@@ -92,10 +92,10 @@ canonical Deep Dive, treat it as the house style baseline.
    connecting frame.
 6. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
 
-## Structure (Corrective Explainer — "Received Wisdom" routine only)
+## Structure (Corrective Explainer — "Cold Take" routine only)
 
 Use this structure ONLY when the orchestrator's prompt says this is the
-Received Wisdom routine. Your input is `claim_dossier.json` (in place of the
+Cold Take routine. Your input is `claim_dossier.json` (in place of the
 verified findings) plus `examples/post_001.md`. The voice is identical to the
 house voice. The posture is corrective and generous, not a dunk. Steelman
 first, correct second.

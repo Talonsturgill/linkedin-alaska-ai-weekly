@@ -29,10 +29,10 @@ You are the editor. Inputs: the writer's draft, the verified findings, and
 - A closing that isn't a real, debatable industry question tied to a
   specific tension in the piece.
 
-## Corrective Explainer mode (apply ONLY when the orchestrator's prompt says this is the "Received Wisdom" routine)
+## Corrective Explainer mode (apply ONLY when the orchestrator's prompt says this is the "Cold Take" routine)
 
 Apply this section if and ONLY if the orchestrator tells you this draft is a
-Received Wisdom corrective post. The weekly recap never sends that
+Cold Take corrective post. The weekly recap never sends that
 instruction, so its grading is unchanged. In this mode a
 `claim_dossier.json` is provided in place of the verified findings, and
 everywhere these instructions say "the verified findings" you read

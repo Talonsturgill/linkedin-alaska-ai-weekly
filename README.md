@@ -46,7 +46,7 @@ A sidecar `out/post_image.png.meta.json` is written next to the PNG.
 - Render the LinkedIn cover banner (separate one-off 1584x396 asset).
 - Render the profile picture (static).
 
-## Received Wisdom routine (second, independent column)
+## Cold Take routine (second, independent column)
 
 A second routine on this repo produces a different post type: a corrective
 explainer that takes ONE widely circulating claim about Alaska and AI, states
@@ -66,7 +66,7 @@ How it differs from the weekly recap:
   If nothing clears the gate, the routine ships an honest "no defensible
   target this cycle" email instead of inventing one.
 - **Corrective, not snarky.** Steelman the claim generously, then correct it.
-- **Own identity.** Kicker `RECEIVED WISDOM`, issue counter `NO. 0N` derived
+- **Own identity.** Kicker `COLD TAKE`, issue counter `NO. 0N` derived
   from the count of distinct `claude/linkedin-contrarian-*` branch date stems
   (independent, possibly irregular cadence — no `launch_date` formula).
 - **Own branch namespace.** Artifacts land on
@@ -95,14 +95,14 @@ Both surfaces share the punctuation discipline (no em-dashes, en-dashes, double-
 ## Files of note
 
 - `prompts/routine_instructions.md` — the pasted weekly-recap routine prompt.
-- `prompts/contrarian_instructions.md` — the pasted Received Wisdom routine prompt.
+- `prompts/contrarian_instructions.md` — the pasted Cold Take routine prompt.
 - `.claude/skills/alaska-ai-brief/` — the 1080x1080 square brand image generator.
 - `.claude/agents/*.md` — subagent definitions (`researcher`, `validator`,
   `writer`, `editor`, `scorer`, plus `claim-scout` and `claim-validator` for
-  the Received Wisdom routine).
+  the Cold Take routine).
 - `config/brand.yaml` — voice anchor, hashtag whitelist, banned phrases.
 - `config/sources.yaml` — Alaska news + research orgs + government + business/trade outlets + national.
 - `config/scoring_rubric.yaml` — weekly-recap ship threshold + hard-fail checks.
-- `config/contrarian_rubric.yaml` — Received Wisdom ship threshold + hard-fail
+- `config/contrarian_rubric.yaml` — Cold Take ship threshold + hard-fail
   checks (adds `claim_is_attributed` and `steelman_present`).
 - `examples/post_001.md` — published style baseline (shared voice anchor).

@@ -1,7 +1,7 @@
 rubric:
   ship_threshold: 8.0
   max_revision_cycles: 2
-  # This rubric grades the "Received Wisdom" corrective/contrarian post, NOT the
+  # This rubric grades the "Cold Take" corrective/contrarian post, NOT the
   # weekly recap. The scorer is pointed at this file by
   # prompts/contrarian_instructions.md. The weekly routine still uses
   # config/scoring_rubric.yaml and is unaffected.
@@ -81,7 +81,7 @@ rubric:
     - name: "Business actionability"
       weight: 0.02
       descriptors:
-        10: "After reading, a target reader (exec, allocator, program manager) can name one deal, contract, risk, or decision they'd reframe because the received wisdom was wrong."
+        10: "After reading, a target reader (exec, allocator, program manager) can name one deal, contract, risk, or decision they'd reframe because the conventional wisdom was wrong."
         7:  "Reader gets a useful corrected frame but no concrete revisit-this trigger."
         4:  "Interesting commentary, no actionable signal."
   # Weight sum check: 0.13 + 0.20 + 0.12 + 0.10 + 0.10 + 0.13 + 0.12 + 0.05 + 0.03 + 0.02 = 1.00

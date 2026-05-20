@@ -1,0 +1,42 @@
+{
+  "rubric_file": "config/contrarian_rubric.yaml",
+  "scores": {
+    "Hook strength": {"score": 9, "weight": 0.13, "weighted": 1.17, "note": "Opens with the verbatim claim, names the asserter, and anchors the concrete capital consequence ('pro formas are being underwritten on that number right now') in two lines well under the 210-char cutoff; the corrective signal is implicit rather than explicit."},
+    "Claim load-bearing + AK stakes": {"score": 10, "weight": 0.20, "weighted": 2.00, "note": "Claim drives active capital decisions: Air Force RLP (bids due May 29, 2026) at JBER/Eielson/Clear and the $500M/3GW Stak Energy North Slope lease; AK industry consequence named with sector, contract vehicle, agency, dollar amount, deadline."},
+    "Steelman fairness": {"score": 9, "weight": 0.12, "weighted": 1.08, "note": "Three-sentence paragraph identifies genuine reasons (stranded gas, LNG upside, hyperscaler horizons), generously framed without snark, mirrors the dossier steelman; a committed proponent might want one more beat."},
+    "Counter-evidence quality": {"score": 10, "weight": 0.10, "weighted": 1.00, "note": "Every rebuttal point traces to a named primary source (Hasquet, DAF RLP, Hilcorp, Sims, Wood Mackenzie via ADN, Pickett, EIA 2024) all present in claim_dossier.json."},
+    "Factual density": {"score": 10, "weight": 0.10, "weighted": 1.00, "note": "Named specifics appear in nearly every sentence: May 5 2026, $500M/3GW, $44B, 49%/$11.75 per Mcf, $10-$13.70 per MMBtu vs $8.69, EIA comparisons."},
+    "Source quality": {"score": 9, "weight": 0.13, "weighted": 1.17, "note": "Two independent credible outlets for the claim; counter-evidence is primary throughout; EIA and Wood Mackenzie data reach the reader through secondary ADN reporting."},
+    "Voice match": {"score": 9, "weight": 0.12, "weighted": 1.08, "note": "Analytical, structural, position-taking, corrective without contempt; 'Four lines from the primary record.' is a mild rhetorical device that lightly breaks from post_001's seamless prose."},
+    "Readability (LinkedIn)": {"score": 10, "weight": 0.05, "weighted": 0.50, "note": "Tight 2-4 sentence paragraphs, one 4-item bullet block, 460 words, 2835 total chars, easy to scan."},
+    "Engagement question": {"score": 10, "weight": 0.03, "weighted": 0.30, "note": "Specific, debatable industry question tied to the corrected frame ('what's the defensible blended power rate, and over what horizon?')."},
+    "Business actionability": {"score": 10, "weight": 0.02, "weighted": 0.20, "note": "A program manager can name a concrete decision to reframe: do not underwrite the JBER/Eielson/Clear RLP bid or Stak Energy pro forma using 4-5 cent power; May 29, 2026 deadline is the timing trigger."}
+  },
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.13, "notes": "Verbatim claim, named asserter, concrete capital stake in two lines under 210 chars."},
+    {"name": "Claim load-bearing + AK stakes", "score": 10, "weight": 0.20, "notes": "Drives the Air Force RLP (May 29) and the $500M/3GW Stak Energy North Slope lease."},
+    {"name": "Steelman fairness", "score": 9, "weight": 0.12, "notes": "Three honest sentences naming stranded gas, the LNG conditional, and the hyperscaler horizon."},
+    {"name": "Counter-evidence quality", "score": 10, "weight": 0.10, "notes": "Every rebuttal point traces to a named primary source in the dossier."},
+    {"name": "Factual density", "score": 10, "weight": 0.10, "notes": "Named specifics in nearly every sentence."},
+    {"name": "Source quality", "score": 9, "weight": 0.13, "notes": "Two independent outlets for the claim; primary sources throughout the rebuttal; EIA and Wood Mackenzie reach the reader via ADN."},
+    {"name": "Voice match", "score": 9, "weight": 0.12, "notes": "Analytical, structural, corrective without contempt; reads like post_001."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.05, "notes": "Tight paragraphs, one 4-item bullet block, 460 words, 2835 chars, easy to scan."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Real, debatable, tied to the corrected frame."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Program manager can name the specific decision and the May 29 trigger."}
+  ],
+  "weighted_total": 9.50,
+  "threshold": 8.0,
+  "ship_threshold": 8.0,
+  "ship": true,
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "",
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "passed": true, "note": "5 hashtags, all whitelist, single end-of-post line."},
+    {"name": "punctuation_bans_held", "passed": true, "note": "0 em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "note": "2835 total chars under 3000."},
+    {"name": "word_count_in_range", "passed": true, "note": "460 body words within 350-475."},
+    {"name": "claim_is_attributed", "passed": true, "note": "Dunleavy named with verbatim quote matching dossier; both asserter entries cited."},
+    {"name": "steelman_present", "passed": true, "note": "Paragraph 3 presents the strongest honest version before any rebuttal."}
+  ],
+  "any_hard_fail_tripped": false
+}
