@@ -1,0 +1,74 @@
+rubric:
+  ship_threshold: 8.0
+  max_revision_cycles: 2
+  hard_fail_checks:
+    - name: "attribution_gate_holds"
+      rule: "The corrected claim is attributed in the post body to a named, verifiable asserter present in claim_dossier.json selected_claim.asserters. If the asserter is unnamed, unverifiable, or absent from the dossier, automatic fail."
+    - name: "steelman_present"
+      rule: "Post includes a genuine steelman of the target claim before the rebuttal. A thin, snarky, or missing steelman auto-fails."
+    - name: "no_dunk_tone"
+      rule: "Post is corrective and generous, not a victory lap. Smug, condescending, or dunking framing auto-fails."
+    - name: "rebuttal_fully_sourced"
+      rule: "Every rebuttal datum traces to out/claim_dossier.json selected_claim.counter_evidence. Any unsourced rebuttal auto-fails."
+    - name: "hashtag_count_in_range"
+      rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
+    - name: "punctuation_bans_held"
+      rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "total_char_count_under_linkedin_cap"
+      rule: "Total post length (body + hashtag line) is at most 3000 characters. LinkedIn truncates anything over. Failure automatically forces revise."
+    - name: "word_count_in_range"
+      rule: "Body word count is 350 to 475 (hashtag line excluded from word count). Failure automatically forces revise."
+  criteria:
+    - name: "Hook and claim framing"
+      weight: 0.15
+      descriptors:
+        10: "First two lines (~210 chars) stand alone as a hook. Names the circulating claim, the named asserter, and the stake of believing it. Reader knows a correction is coming before hitting 'see more'."
+        7: "Solid hook, claim visible, but stake isn't sharp or asserter isn't named in the hook."
+        4: "Generic opener, claim buried past the hook window, or hook requires context the reader doesn't have."
+        0: "Banned opener, no claim in view, or first lines are pure throat-clearing."
+    - name: "Steelman quality"
+      weight: 0.20
+      descriptors:
+        10: "The steelman is as strong as a fair advocate would make it. Names the real evidence the asserter can cite, and explains why intelligent, informed people hold the view. Reader who believed the claim feels fairly heard."
+        7: "Steelman present and not snarky, but thin on why smart people hold the view or missing one key supporting angle."
+        4: "Steelman is superficial, summary only, or obviously a short setup for the correction."
+        0: "No steelman, a hostile caricature, or the steelman is immediately undercut with editorial asides."
+    - name: "Rebuttal precision"
+      weight: 0.20
+      descriptors:
+        10: "The correction is specific and primary-source-backed. Names the evidence that contradicts the claim, explains the load-bearing piece the claim leaves out, and traces every datum to claim_dossier.json."
+        7: "Correction is substantive but one rebuttal point is secondary-sourced or the key mechanism is underexplained."
+        4: "Correction is directionally right but vague, under-evidenced, or relies on reasoning not in the dossier."
+        0: "Rebuttal datum not in dossier, or correction is a logical argument without primary-source backing."
+    - name: "Corrected frame clarity"
+      weight: 0.15
+      descriptors:
+        10: "The more accurate frame is stated cleanly and memorably. A reader can repeat it in one sentence after finishing the post."
+        7: "Frame is stated but muddied by caveats or buried inside the evidence block."
+        4: "Frame is implied but never stated explicitly. Reader has to construct it themselves."
+    - name: "Business consequence"
+      weight: 0.15
+      descriptors:
+        10: "Every paragraph names a consequence for an exec, capital allocator, program manager, or founder. Names dollar amounts, contract vehicles, procurement agencies, or actionable deadlines."
+        7: "Most paragraphs carry a business consequence. One is thin on the concrete signal."
+        4: "Analytically interesting but few concrete business signals. Reads like commentary, not a briefing."
+    - name: "Voice match"
+      weight: 0.05
+      descriptors:
+        10: "Reads like examples/post_001.md. Analytical, position-taking, corrective-but-generous. No dunk, no victory lap, no corporate memo cadence."
+        7: "Mostly on voice. One moment of smug, folksy, or corporate drift."
+        4: "Drifts into condescending, hype, or LinkedIn-influencer cadence for more than one passage."
+    - name: "Engagement question"
+      weight: 0.08
+      descriptors:
+        10: "Closes with a real, debatable industry question that flows directly from the corrected frame. Not a rhetorical softener. A CFO or program manager would have a genuine answer."
+        7: "Question on-topic but slightly generic, could fit many posts."
+        4: "Generic 'what do you think?' prompt or LinkedIn-influencer rhetorical closer."
+        0: "No closing question, or replaced with follow-CTA."
+    - name: "Tone generosity"
+      weight: 0.02
+      descriptors:
+        10: "A reader who believed the corrected claim finishes feeling fairly treated and better informed. The correction reads as a service, not a dunk. Generous tone held throughout."
+        7: "Generally fair but one moment of self-congratulation or implicit eye-roll."
+        4: "Correction lands as a gotcha or condescending toward the original asserters."
+        0: "Victory-lap tone throughout. Posture is dunk, not correction."
