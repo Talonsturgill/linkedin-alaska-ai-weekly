@@ -1,0 +1,55 @@
+{
+  "run_date": "2026-05-21",
+  "decision_window_30d": "2026-04-21 to 2026-05-21",
+  "decision_window_45d_retry": "2026-04-06 to 2026-05-21",
+  "window_broadened": true,
+  "no_target_this_cycle": true,
+  "_validation_note": "BROADENED 45-DAY WINDOW APPLIED (April 6 – May 21, 2026) per fallback protocol after 30-day window (April 21 – May 21) returned zero Gate 3 survivors. Two new candidates evaluated in the April 6–20 gap. CANDIDATE A (Nathan Engel / Alaska Airlines / Tailsight, April 16, 2026): Cleared Gates 1, 2, 5, 6, 7, and conflict screen. Gate 3 (Anchorage tie) marginal: primary source lists Anchorage as one of seven hubs with no Anchorage-specific maintenance language; AI consequence is genuine and fleet-wide but bowl-specific impact is inferential, not named on the fetched page. Gate 4 is a hard fail and determinative drop reason: AviationPros confirmed on fetch as a press release reprint with no reporter byline; StockTitan confirmed as a press release aggregator; every other outlet attempted (ADN, AlaskaJournal, GeekWire, TechCrunch, SimpleFlying, FlightGlobal, AviationWeek, ch-aviation, RunwayGirlNetwork, BusinessTravelNews, SeekingAlpha) returned HTTP 404, 403, or 503. Gate 4 requires at least one independently reported source confirmed on a live fetch; that threshold is not met. CANDIDATE B (NFWF/NOAA Fisheries AI Grant, April 9, 2026): Gate 1 fails — fetched NFWF press release names only federal officials, neither Anchorage-bowl-based; detailed recipient list URL returned 404. 30-day candidates (Wailand, Volland) remain dropped on prior Gate 3 failures. Result: The Anchorage AI decision pool is small and press-release-only coverage of a genuine AI deployment (Engel/Tailsight) is the defining constraint this cycle — the decision may be real but it has not been independently reported and cannot be profiled under the desk's corroboration standard.",
+  "selected_subject": null,
+  "selected_decision": null,
+  "structural_read": null,
+  "forward_implication": null,
+  "dropped_candidates": [
+    {
+      "subject_name": "Nathan Engel",
+      "role": "Vice President of Maintenance Operations, Alaska Airlines",
+      "decision_summary": "Alaska Airlines VP of Maintenance Operations selected and deployed Tailsight AI-powered maintenance planning platform on April 16, 2026, making Alaska Airlines the first major airline to deploy the technology.",
+      "decision_date": "2026-04-16",
+      "window": "45-day",
+      "gate_failed": "multi_source_corroboration",
+      "reason": "Every located source is the subject's own press release (news.alaskaair.com), a confirmed press-release reprint with no reporter byline (AviationPros), or a financial aggregator (StockTitan). No independently reported story confirmed on any live page across ADN, AlaskaJournal, GeekWire, TechCrunch, SimpleFlying, FlightGlobal, AviationWeek, ch-aviation, RunwayGirlNetwork, BusinessTravelNews, and SeekingAlpha — all returned 404, 403, or 503. Gate 4 requires at least one independently reported source; threshold not met."
+    },
+    {
+      "subject_name": "NFWF/NOAA Fisheries Grant (no named Anchorage subject)",
+      "decision_summary": "NFWF and NOAA Fisheries announced $3.4M in grants on April 9, 2026 to modernize fisheries data collection using AI and electronic monitoring across 13 projects.",
+      "decision_date": "2026-04-09",
+      "window": "45-day",
+      "gate_failed": "named_subject",
+      "reason": "Fetched NFWF press release names only federal officials (Eugenio Pineiro Soler at NOAA Fisheries; Jeff Trandahl at NFWF), neither Anchorage-bowl-based. Detailed recipient list URL returned HTTP 404. No named Anchorage-bowl subject identified."
+    },
+    {
+      "subject_name": "Billy Wailand",
+      "role": "Senior Vice President of Corporate Development, GCI",
+      "decision_summary": "GCI entered definitive agreement to acquire Quintillion fiber infrastructure at $310M Enterprise Value plus up to $210M in additional commitments, announced April 22, 2026.",
+      "decision_date": "2026-04-22",
+      "window": "30-day",
+      "gate_failed": "decision_consequential",
+      "reason": "All four fetched sources (GCI press release, ADN, KUCB, Alaska Business Magazine) are silent on AI, AI workloads, data center compute, and AI-enabling infrastructure. The AI consequence is entirely inferential — fiber as substrate for AI compute. Dropped twice (2026-05-20 and 2026-05-21 runs) on the same Gate 3 grounds. Consistent application requires the gate to require a concrete Alaska AI consequence reducible to one sentence naming sector, dollar/policy/workforce impact, a named affected actor, and a timeframe — from the source record."
+    },
+    {
+      "subject_name": "Daniel Volland",
+      "role": "Vice Chair, Anchorage Assembly / Member, District 1",
+      "decision_summary": "Elected Assembly Vice Chair in 8-4 secret ballot on April 29, 2026; co-chairs Budget and Finance Committee alongside Chair Anna Brawley.",
+      "decision_date": "2026-04-29",
+      "window": "30-day",
+      "gate_failed": "decision_consequential",
+      "reason": "Governance officer election without AI-specific stake named on primary sources. The AI policy chain requires two inferential steps absent from all fetched sources. AO 2026-27 Planning Dept mandate exists by ordinance regardless of who holds the vice chair seat."
+    }
+  ],
+  "scout_slice_coverage": {
+    "founders": "zero candidates cleared pre-screen; Anchorage AI founder ecosystem sparse in window; nearest miss Carl Rosen/MyEyesAI lacked primary-source documentation for any Q2 2026 LOI signing",
+    "operators": "two candidates surfaced (Wailand/GCI/Quintillion, Engel/Alaska Airlines/Tailsight); both failed validation on Gate 3 and Gate 4 respectively",
+    "municipal": "one candidate surfaced (Daniel Volland, vice chair election); failed Gate 3 (governance event, no AI stake named on primary sources)",
+    "research": "zero candidates cleared pre-screen; UAA oil spill AI story (May 6) had unverifiable subject and unfetchable primary source; all other research decisions outside window"
+  }
+}
