@@ -103,6 +103,54 @@ post to grade. Return `VERDICT: revise` with a one-line note that the
 cycle correctly found no defensible target and the email should ship
 the honest no-target note instead of a post.
 
+## Profile mode (apply ONLY when the orchestrator's spawn message contains "Profile mode")
+
+Apply this section if and ONLY if the orchestrator's spawn message
+contains the literal phrase "Profile mode" (the internal mode name).
+Recap, Cold Take, and The Stack never send that instruction, so their
+grading is unchanged. In this mode a `desk_dossier.json` is provided
+in place of the verified findings, and everywhere these instructions
+say "the verified findings" you read `out/desk_dossier.json`.
+
+These ADDITIONAL conditions each trigger `revise`:
+
+- Subject not named with full name + role + institutional affiliation
+  in the post body, OR Anchorage tie not established in the body.
+- Decision unnamed, decision date missing, OR decision dated outside
+  the 30-day window (or 45-day window if the validator broadened it,
+  noted in `_validation_note`).
+- Body's account of the decision diverges from
+  `selected_decision.primary_source` or
+  `selected_decision.corroborating_sources[]`.
+- Body relies on a single source controlled by the subject's
+  organization (no independent corroboration named). The
+  `multi_source_corroboration` rule requires at least one source
+  marked `independent_of_subject: true` in the dossier.
+- Any quote attributed to the subject not in `desk_dossier.json`
+  `selected_subject.subject_quotes[]`, OR not matching its `verbatim`
+  field. Quotes are zero-tolerance: invented or paraphrased subject
+  quotes are an automatic reject.
+- Bio recap exceeds decision treatment in word count. The post is
+  about the decision, not the resume. Bio gets 1-2 sentences max.
+- Pure neutral description with no desk position on the decision.
+  Pure boosterism or hagiography also fails. The structural read must
+  do real analytical work.
+- Hagiographic verbs in the body ("transforming", "spearheading",
+  "championing", "visionary", "trailblazing") without independent
+  grounding from the dossier.
+- Press-release cadence: subject-supplied superlatives stitched into
+  prose without independent verification.
+- No concrete forward implication. The post does not name the next
+  decision the subject owns or when to watch.
+- Any rebuttal datum (number, dollar amount, award, docket, contract
+  vehicle, agency fact) not traceable to `selected_subject` or
+  `selected_decision`.
+
+If `desk_dossier.json` has `no_target_this_cycle: true`, there is no
+post to grade. Return `VERDICT: revise` with a one-line note that the
+cycle correctly found no defensible target and the email should ship
+the honest no-target note instead of a post.
+
 ## Pass criteria (every one must hold for `ship` in addition to no rejects)
 
 - All factual claims are present in the verified findings.

@@ -123,6 +123,54 @@ Setup: create a THIRD routine at https://claude.ai/code/routines bound to
 this same repo, same config as above, paste the prompt from
 `prompts/stack_instructions.md` into the Instructions field.
 
+## Anchorage Desk routine (fourth, independent column)
+
+A fourth routine produces a decision-anchored profile: ONE Anchorage AI
+founder, operator, municipal decision-maker, or research lead per week,
+anchored to a specific decision they made or own in the last 30 days, with
+the desk taking a position on whether the decision was sharp, mediocre, or
+wrong. Institutional accountability at the bowl level. Different shape from
+Recap, Cold Take, or The Stack — the unit of work is a person plus a
+decision, not a story, claim, or mechanism. (The Stack deliberately fails
+candidates that collapse when you swap the person out; this column is the
+inverse.)
+
+How it differs:
+
+- **Pure discovery, decision-anchored.** Four parallel `desk-scout` agents
+  sweep four role slices (`founders`, `operators`, `municipal`,
+  `research`). Candidate (subject, decision) pairs must have a primary-
+  source-confirmed decision dated within the last 30 days.
+- **Anti-puff accuracy gate.** One `desk-validator` agent enforces a
+  seven-point gate (named subject, recent decision, decision consequential,
+  multi-source corroboration, subject availability, position-takeable, not
+  a recent repeat) PLUS a conflict-of-interest screen. Allows ONE 45-day
+  window-broadening retry before declaring no-target. Honest no-target
+  email on zero survivors.
+- **Decision-anchored, not bio-anchored.** Editor rejects any draft where
+  the bio recap exceeds the decision treatment in word count. Bio gets 1-2
+  sentences. The decision is the post.
+- **12-issue subject dedupe + immutable (subject, decision) blocklist.**
+  Anchorage's AI pool is small; same subject can return after 12 issues for
+  a NEW decision, but the same (subject, decision) pair is never
+  re-profiled regardless of window.
+- **Own identity.** Kicker `ANCHORAGE DESK`. No issue counter — the middle
+  slot of the kicker line carries the subject's role category (`FOUNDER`,
+  `OPERATOR`, `MUNICIPAL`, `RESEARCH`), e.g.
+  `ANCHORAGE DESK · MUNICIPAL · 19 MAY 2026`.
+- **Own branch namespace.** `claude/linkedin-desk-{YYYY-MM-DD}`, disjoint
+  from the other three routines.
+
+It reuses the `writer`, `editor`, and `scorer` agents (each has a gated
+Profile mode section that activates only when the orchestrator's spawn
+message contains the literal phrase "Profile mode"), the
+`alaska-ai-brief` image skill unchanged, and the Gmail-draft handoff. Recap,
+Cold Take, and The Stack are unaffected.
+
+Setup: create a FOURTH routine at https://claude.ai/code/routines bound to
+this same repo, same config as above, paste the prompt from
+`prompts/desk_instructions.md` into the Instructions field.
+
 ## Differences from the Facebook sister automation
 
 | Surface | Word target | Image | Hashtags | Hook discipline |
@@ -137,10 +185,12 @@ Both surfaces share the punctuation discipline (no em-dashes, en-dashes, double-
 - `prompts/routine_instructions.md` — the pasted weekly-recap routine prompt.
 - `prompts/contrarian_instructions.md` — the pasted Cold Take routine prompt.
 - `prompts/stack_instructions.md` — the pasted The Stack routine prompt.
+- `prompts/desk_instructions.md` — the pasted Anchorage Desk routine prompt.
 - `.claude/skills/alaska-ai-brief/` — the 1080x1080 square brand image generator.
 - `.claude/agents/*.md` — subagent definitions (`researcher`, `validator`,
   `writer`, `editor`, `scorer`, plus `claim-scout` and `claim-validator` for
-  Cold Take, plus `stack-scout` and `stack-mapper` for The Stack).
+  Cold Take, plus `stack-scout` and `stack-mapper` for The Stack, plus
+  `desk-scout` and `desk-validator` for Anchorage Desk).
 - `config/brand.yaml` — voice anchor, hashtag whitelist, banned phrases.
 - `config/sources.yaml` — Alaska news + research orgs + government + business/trade outlets + national.
 - `config/scoring_rubric.yaml` — weekly-recap ship threshold + hard-fail checks.
@@ -149,6 +199,10 @@ Both surfaces share the punctuation discipline (no em-dashes, en-dashes, double-
 - `config/stack_rubric.yaml` — The Stack ship threshold + hard-fail checks
   (adds `mechanism_named_and_news_tied`, `every_layer_attributed`,
   `chokepoint_named`).
+- `config/desk_rubric.yaml` — Anchorage Desk ship threshold + hard-fail
+  checks (adds `subject_named_and_anchorage_tied`,
+  `recent_decision_named_with_primary_source`, `multi_source_corroboration`,
+  `not_a_puff_piece`, `no_invented_quotes`).
 - `examples/post_001.md` — published style baseline (shared voice anchor;
-  structure anchor for Recap and Cold Take only — The Stack's structure
-  differs).
+  structure anchor for Recap and Cold Take only — The Stack and Anchorage
+  Desk structures differ).

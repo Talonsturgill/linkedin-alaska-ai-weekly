@@ -38,6 +38,10 @@ Read the verified findings. Pick a mode based on the week:
   contains the literal phrase "Stack Anatomy mode" (the internal mode
   name). Do not pick this mode on your own. When triggered, ignore the
   mode-selection logic here and use the Stack Anatomy structure below.
+- **Profile** — used ONLY when the orchestrator's spawn message contains
+  the literal phrase "Profile mode" (the internal mode name). Do not
+  pick this mode on your own. When triggered, ignore the mode-selection
+  logic here and use the Profile structure below.
 
 Default to Deep Dive when a single issue has a sharp, debatable structural
 angle aimed at a business reader. The first published post is the
@@ -176,6 +180,49 @@ chokepoint, or forward implication that is not in `stack_anatomy.json`
 vehicle number, agency, or dollar value. If the dossier has
 `no_target_this_cycle: true`, do not invent a post. Return a one-line
 note that there is no defensible target this cycle.
+
+## Structure (Profile mode only)
+
+Use this structure ONLY when the orchestrator's spawn message contains
+"Profile mode". Your input is `desk_dossier.json` (in place of verified
+findings) plus `examples/post_001.md`. The voice is identical to the
+house voice; the unit of work is a person plus a specific recent
+decision they made or own. The posture is institutional accountability,
+not promotion. Bio gets minimal treatment; the decision is the post.
+
+1. **Hook (2 sentences, ≤210 chars)** — name subject (full name +
+   role) + the recent decision that triggered the profile. The
+   decision IS the hook. The first two lines stand alone for the
+   LinkedIn "see more" cutoff (~210 chars). Lead with the decision,
+   not the bio.
+2. **Who they are (1-2 sentences)** — role + org + Anchorage tie.
+   This is the ONLY bio space the post gets. Career history is NOT
+   the post.
+3. **The decision (1 paragraph)** — what happened + when + primary
+   source + the binary the subject owned (approved/blocked,
+   funded/cut, hired/passed). Cite source inline. Pull from
+   `selected_decision`.
+4. **Structural read (1-2 paragraphs)** — the desk's position on
+   whether the decision was sharp, mediocre, or wrong, and why. The
+   analytical core. From `structural_read` + the
+   `selected_decision.debatable_axis`.
+5. **Forward implication (1 paragraph)** — name the next decision the
+   subject owns, the date or window, what to watch. From
+   `forward_implication`.
+6. **Engagement question (1 sentence)** — tied to the SPECIFIC
+   decision, not the subject in general.
+7. **Hashtag block (1 line)** — 3 to 5 hashtags from the whitelist.
+
+Hard rule for this mode. Never name a subject, role, org, decision,
+date, primary source, quote, corroborating source, dollar value, or
+forward implication that is not in `desk_dossier.json`. Any quote
+attributed to the subject must be drawn verbatim from
+`selected_subject.subject_quotes[]`; do NOT paraphrase a quote.
+Hagiographic verbs ("transforming", "spearheading", "championing",
+"visionary", "trailblazing") are banned without independent grounding.
+Bio recap must NOT exceed decision treatment in word count. If the
+dossier has `no_target_this_cycle: true`, do not invent a post. Return
+a one-line note that there is no defensible target this cycle.
 
 ## Hard rules
 
