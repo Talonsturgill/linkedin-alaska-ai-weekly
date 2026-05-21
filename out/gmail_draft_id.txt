@@ -1,0 +1,1 @@
+PENDING_APPROVAL — Gmail MCP create_draft was blocked by the harness (tool requires approval, no interactive session). The payload is fully built and committed. Open the draft manually via out/gmail_payload.json or out/gmail_draft_preview.html.

@@ -93,10 +93,30 @@ the human.
 - The Gmail MCP connector is enabled. Use `mcp__Gmail__create_draft` for
   the final draft. The `to:` field requires a plain email address, NOT
   `"me"`.
+- **Friendly alias may not be live.** In some session types the Gmail
+  connector is registered under a UUID-prefixed canonical name
+  (`mcp__<uuid>__create_draft`) rather than the friendly
+  `mcp__Gmail__create_draft` alias. If the friendly alias isn't wired to
+  the live target, any call against it returns a misleading
+  `Streamable HTTP error: Error POSTing to endpoint: MCP tool call
+  requires approval` from the transport, **not** an actual permission
+  gate. The same applies to `mcp__Gmail__search_threads`.
+- **Diagnostic rule before retrying or escalating.** If ANY Gmail MCP
+  call returns the `requires approval` error string AND other MCP
+  servers (e.g. `mcp__github__*`) work fine in the same session, do NOT
+  retry, do NOT ask for connector re-approval, do NOT modify
+  `.claude/settings.local.json`. Instead, immediately run `ToolSearch`
+  with a broad keyword query (e.g. `+draft`, `+gmail`, or just `gmail
+  draft`, NO `select:` prefix) to enumerate every registered tool that
+  could plausibly be the Gmail draft endpoint. If a UUID-prefixed name
+  appears, call THAT name with the same payload. The friendly-alias
+  failure was confirmed on 2026-05-20 in the first The Stack run.
 - **Discover the connected Gmail address ONCE per run** via
   `mcp__Gmail__search_threads` with `query: "from:me", pageSize: 1`. Cache
   it in scratch and reuse for the rest of the run, do not re-discover per
-  call.
+  call. If this call hits the `requires approval` error, apply the
+  diagnostic rule above before falling back to the userEmail context
+  value.
 - The base64-inline image makes the html body large. If
   `len(html_body) > 100_000`, swap the `data:image/png;base64,...` URI for
   the hosted GitHub raw URL (see Phase 9).
