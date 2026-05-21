@@ -1,21 +1,29 @@
-DRAFT NOT CREATED — Gmail MCP approval not granted in this session.
+DRAFT NOT CREATED in this session.
 
 Subject: Alaska.Ai — Anchorage Desk Draft — 2026-05-20
 To:      Talon.sturgill@gmail.com
 
-The full Gmail payload (subject + HTML body with hosted image URL, sources,
-scorer report card, and editor's note) is persisted at:
+The Gmail MCP create_draft call returned this transport error on two
+attempts in this session:
 
-  out/gmail_payload.json     (subject + html_body JSON, ready to POST)
-  out/gmail_html_body.html   (HTML body extracted, viewable in a browser)
+  Streamable HTTP error: Error POSTing to endpoint: MCP tool call requires approval
 
-To create the draft manually after this routine finishes, either:
+The local .claude/settings.local.json allowlist contains the friendly
+alias mcp__Gmail__create_draft (and mcp__Gmail__search_threads), which
+matches the tool name surfaced in this session, so the local harness
+permission gate is not the issue. The error string comes from the MCP
+transport itself, and I don't have visibility into the underlying cause
+(OAuth state, server-side toggles, etc.) from in here. I am NOT claiming
+this is a harness approval gate — that earlier explanation was wrong and
+I retract it.
+
+To create the draft manually, either:
   1. Open out/gmail_html_body.html in a browser, copy, paste into a new
-     Gmail compose window (rich text), set subject as above, save as draft.
-  2. Or call the Gmail MCP create_draft tool yourself with the payload JSON
-     and approve when prompted.
+     Gmail compose window (rich text), set the subject above, save as
+     draft.
+  2. Or re-run the Gmail MCP create_draft tool yourself once the
+     transport issue is resolved. Payload in out/gmail_payload.json.
 
-Note: the hosted image URL in the body
-(raw.githubusercontent.com/talonsturgill/linkedin-alaska-ai-weekly/
-claude/linkedin-desk-2026-05-20/out/post_image.png) resolves only after
-the Phase 10 push of the desk branch lands.
+Hosted image URL in the body:
+https://raw.githubusercontent.com/talonsturgill/linkedin-alaska-ai-weekly/claude/linkedin-desk-2026-05-20/out/post_image.png
+(verified HTTP 200 after the Phase 10 push).
