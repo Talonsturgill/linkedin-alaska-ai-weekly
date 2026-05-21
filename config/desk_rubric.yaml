@@ -1,0 +1,98 @@
+rubric:
+  ship_threshold: 8.0
+  max_revision_cycles: 2
+  # This rubric grades the "Anchorage Desk" profile post. The scorer is
+  # pointed at this file by prompts/desk_instructions.md. The weekly recap
+  # uses config/scoring_rubric.yaml, Cold Take uses
+  # config/contrarian_rubric.yaml, and The Stack uses
+  # config/stack_rubric.yaml. All three are unaffected by this file.
+  hard_fail_checks:
+    - name: "hashtag_count_in_range"
+      rule: "Post ends with 3 to 5 hashtags drawn from brand.yaml hashtags.whitelist. Inline hashtags or counts outside 3 to 5 automatically force revise regardless of weighted score."
+    - name: "punctuation_bans_held"
+      rule: "Body contains zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Failure automatically forces revise."
+    - name: "total_char_count_under_linkedin_cap"
+      rule: "Total post length (body + hashtag line) is at most 3000 characters. This is LinkedIn's hard post cap; the platform truncates anything over. Failure automatically forces revise."
+    - name: "word_count_in_range"
+      rule: "Body word count is 350 to 475 (hashtag line excluded from word count). Failure automatically forces revise."
+    - name: "subject_named_and_anchorage_tied"
+      rule: "The post names the subject by full name + role + institutional affiliation AND establishes an Anchorage tie (bowl-based residency or work, or a decision that materially affects the bowl). A profile that doesn't name the subject's full identity, or doesn't ground them in Anchorage, automatically forces revise."
+    - name: "recent_decision_named_with_primary_source"
+      rule: "The post names a SPECIFIC decision the subject made or owns in the last 30 days (45 if the validator broadened the window), citing the primary-source URL from desk_dossier.json selected_decision.primary_source. Career history or undated achievements automatically force revise. Decision dates outside the window force revise."
+    - name: "multi_source_corroboration"
+      rule: "The body's account of the decision matches the dossier's selected_decision.corroborating_sources[] (at least 2 sources, at least one independent of the subject's organization). A post sourced only to a press release controlled by the subject's org automatically forces revise."
+    - name: "not_a_puff_piece"
+      rule: "The post takes a position on the decision (sharp, mediocre, or wrong, with reasoning). Hagiographic verbs ('transforming', 'spearheading', 'championing', 'visionary', 'trailblazing') without independent grounding force revise. Pure neutral biography forces revise. The structural read must do real analytical work."
+    - name: "no_invented_quotes"
+      rule: "Every quote attributed to the subject must be verbatim from desk_dossier.json selected_subject.subject_quotes[] (with matching source_url). A quote not in the dossier is fabricated and automatically forces revise."
+  criteria:
+    - name: "Hook strength"
+      weight: 0.10
+      descriptors:
+        10: "First two lines stand alone as a hook (LinkedIn 'see more' cutoff at ~210 chars). Names the subject + role AND the recent decision that triggered the profile. The decision IS the hook, not the bio."
+        7:  "Solid opener, names subject and decision, but first lines don't make the decision concrete."
+        4:  "Generic LinkedIn-y / bio-anchored opener. First lines lead with career not decision."
+        0:  "Banned opener, empty, or first lines bury the decision."
+    - name: "Subject + decision load-bearing for AK"
+      weight: 0.16
+      descriptors:
+        10: "Subject is a public-facing role whose decision materially affects Alaska AI capital, procurement, policy, or workforce AND the post names a concrete consequence (sector + dollar/policy/workforce + named affected actor + timeframe)."
+        7:  "Subject matters and decision is named, but one side is thin (subject's accountability soft, or consequence vague)."
+        4:  "Subject is interesting but the decision is minor, or the consequence has no clear AK business stake."
+        0:  "No real decision, no AK stake, or subject is not actually a decision-owner."
+    - name: "Subject identification fidelity"
+      weight: 0.10
+      descriptors:
+        10: "Subject identified by full name + role + institutional affiliation in the body, with Anchorage tie established explicitly. Every fact about the subject matches the dossier."
+        7:  "Subject named and tied to Anchorage, but one role/org detail is summarized loosely."
+        4:  "Subject named but Anchorage tie weak, OR a fact about the subject is invented (career history not in dossier)."
+        0:  "Subject misidentified or Anchorage tie absent."
+    - name: "Decision specificity + primary-source"
+      weight: 0.14
+      descriptors:
+        10: "Decision named with what+when+binary, traces to the dossier's primary source, and the corroborating-sources claim survives the multi-source rule (independent of subject's org). Decision date is within window."
+        7:  "Decision named with primary source but the binary the subject owned is described vaguely."
+        4:  "Decision is too general ('made changes to procurement') without naming the specific approve/block/fund/cut."
+        0:  "Decision unnamed, undated, or sourced only to a press release the subject controls."
+    - name: "Structural read"
+      weight: 0.13
+      descriptors:
+        10: "Takes a real, debatable position on whether the decision was sharp, mediocre, or wrong, with reasoning. Matches the post_001.md energy. Not neutral description, not boosterism."
+        7:  "Position present but soft, slightly hedged."
+        4:  "Mostly description, position implied but not stated."
+        0:  "Pure boosterism, or pure neutral biography. No position."
+    - name: "Forward implication"
+      weight: 0.08
+      descriptors:
+        10: "Names the next decision the subject owns, the date or window, what we'd watch for. The reader knows what to revisit on this subject this month."
+        7:  "Forward implication present but generic ('watch this space')."
+        4:  "Interesting commentary, no concrete trigger."
+        0:  "No forward implication."
+    - name: "Voice match"
+      weight: 0.10
+      descriptors:
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate. Not press-release recap. Not LinkedIn-influencer cadence. Not hagiographic."
+        7:  "Mostly on voice, one drift moment into press-release language or folksy boosterism."
+        4:  "Drifts into hagiography or press-release cadence."
+        0:  "Off-voice throughout."
+    - name: "Readability (LinkedIn)"
+      weight: 0.05
+      descriptors:
+        10: "Tight paragraphs (2 to 4 sentences), 350 to 475 words AND ≤ 3000 chars total, easy to scan on desktop and mobile. Bio kept to 1-2 sentences."
+        7:  "Slightly long or one wall-of-text paragraph, or bio crept past two sentences."
+        4:  "Hard to scan, missed the 350 to 475 word / 3000 char window, OR bio recap dominates."
+    - name: "Engagement question"
+      weight: 0.04
+      descriptors:
+        10: "Closes with a real, debatable industry question tied to the SPECIFIC decision. No 'follow us', no rhetorical softener."
+        7:  "Question present and on-topic but slightly generic."
+        4:  "Generic prompt or LinkedIn-influencer-style rhetorical."
+        0:  "No closing question, or replaced with CTA."
+    - name: "Anti-puff guard"
+      weight: 0.10
+      descriptors:
+        10: "Reads like an institutional accountability piece. Bio recap minimal, decision treatment substantial, structural read takes a position. Could plausibly be critical of the subject if the evidence warranted."
+        7:  "Mostly accountable but one paragraph drifts into superlative-without-grounding."
+        4:  "Tilts toward press-release recap. Hagiographic verbs sneak in. Bio recap > decision treatment in word count."
+        0:  "Pure boosterism or pure neutral biography. No accountability stance."
+  # Weight sum check: 0.10 + 0.16 + 0.10 + 0.14 + 0.13 + 0.08 + 0.10 + 0.05 + 0.04 + 0.10 = 1.00
