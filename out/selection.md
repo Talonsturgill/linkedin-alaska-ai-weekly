@@ -1,30 +1,27 @@
-# The Stack — Selection — 2026-05-20
+# Anchorage Desk Selection — 20 May 2026
 
-## Selected mechanism
-**Alaska Railbelt Large-Load Interconnection Review** (category: `regulatory` → `REGULATORY`)
+## Subject
+**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
 
-## News trigger
-*Anchorage Daily News*, May 5, 2026 — "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them."
+## Role
+FOUNDER (kicker middle slot)
 
-Verbatim cited span:
-> the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that
+## Decision
+On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
 
-## Layer count
-5 layers, 5 distinct controlling actors:
-1. Air Force RFI and Site Control — SAF/IEI (Robert Moriarty)
-2. Utility Capacity and Integration Study — Chugach Electric Association / GVEA (Travis Million)
-3. **RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review** — Regulatory Commission of Alaska
-4. Anchorage Municipal Conditional Use Permit (AO 2026-27) — Anchorage Planning Dept / Assembly
-5. Alaska Legislature HB 259 — Alaska House Energy Committee (Rep. Donna Mears)
+## Primary source
+[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
 
-## Chokepoint
-**Layer 3 — Regulatory Commission of Alaska, five-member commission, majority-vote binary on every tariff filing.** No data center developer can draw commercial power from Chugach or GVEA at any Air Force base site (or any private site) without a valid RCA-approved tariff. Active docket: U-25-023 (GVEA rate case).
+## Corroborators
+- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
+- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
 
-## Structural read (desk position)
-This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer 4,700 acres, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule forecloses the financing model most hyperscale developers use, in which utility infrastructure costs are socialized.
+## Structural read
+MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
 
 ## Forward implication
-Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any finance model assuming socialized infrastructure cost recovery will be rejected at the RCA. Any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.
+Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
 
-## Category for image kicker line
-`THE STACK · REGULATORY · 20 MAY 2026`
+## Constraints for writer
+- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
+- The decision is real and dated; the project's substance is contested.

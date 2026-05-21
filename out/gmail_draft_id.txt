@@ -1,1 +1,21 @@
-PENDING_APPROVAL — Gmail MCP create_draft was blocked by the harness (tool requires approval, no interactive session). The payload is fully built and committed. Open the draft manually via out/gmail_payload.json or out/gmail_draft_preview.html.
+DRAFT NOT CREATED — Gmail MCP approval not granted in this session.
+
+Subject: Alaska.Ai — Anchorage Desk Draft — 2026-05-20
+To:      Talon.sturgill@gmail.com
+
+The full Gmail payload (subject + HTML body with hosted image URL, sources,
+scorer report card, and editor's note) is persisted at:
+
+  out/gmail_payload.json     (subject + html_body JSON, ready to POST)
+  out/gmail_html_body.html   (HTML body extracted, viewable in a browser)
+
+To create the draft manually after this routine finishes, either:
+  1. Open out/gmail_html_body.html in a browser, copy, paste into a new
+     Gmail compose window (rich text), set subject as above, save as draft.
+  2. Or call the Gmail MCP create_draft tool yourself with the payload JSON
+     and approve when prompted.
+
+Note: the hosted image URL in the body
+(raw.githubusercontent.com/talonsturgill/linkedin-alaska-ai-weekly/
+claude/linkedin-desk-2026-05-20/out/post_image.png) resolves only after
+the Phase 10 push of the desk branch lands.
