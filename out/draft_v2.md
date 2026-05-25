@@ -1,6 +1,6 @@
 Bering Straits Native Corporation just posted a record dividend. The ANC 8(a) sole-source pipeline that produced it has been frozen at a single administrative gate since August 2025.
 
-Haven Harris, SVP Growth and Strategy at Bering Straits Native Corporation, told Alaska Public Media on May 14 that both dividends came from federal contracting access. It has four layers.
+Haven Harris, SVP Growth and Strategy at Bering Straits Native Corporation, told Alaska Public Media on May 14 that both dividends came from federal contracting access. The mechanism has four layers.
 
 Four layers drive this mechanism from statute to execution.
 
