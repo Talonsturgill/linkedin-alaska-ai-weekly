@@ -1,123 +1,101 @@
 {
-  "run_date": "2026-05-20",
-  "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
-    "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+  "run_date": "2026-05-25",
+  "no_target_this_cycle": false,
+  "_validation_note": "Pentagon Contracting Officer Audit layer (originally Layer 3 of C2) was dropped: no primary source could be fetched that establishes DoD contracting officers as having unilateral cancellation authority over 8(a) ANC contracts independent of SBA oversight. The layer was removed; the remaining four-layer chain is coherent and the mechanism does not collapse. Chokepoint re-anchored to SBA Administrator eligibility gate (Layer 2), which is supported by 15 U.S.C. § 637(a) and the confirmed application freeze documented in the Alaska Public Media news trigger. F1/V1 (DAF EUL) dropped: news trigger April 13, 2026, is 42 days old, outside even the 21-day broadened window. F3/R2 (GCI-Quintillion) dropped: news trigger April 22, 2026, is 33 days old, outside the 21-day window (cutoff May 4, 2026). V2 (BEAD subgrantee) dropped: news trigger March 24, 2026, is 62 days old, far outside any window. V3 (SBIR) dropped: medium scout confidence, no primary-source chain verifiable for the strategic breakthrough provision. F2/R1 (STAK North Slope) dropped: Layers 3 (natural gas supply agreement), 4 (turbine manufacturing supply chain), and 5 (governor's political sponsorship) have no verifiable primary-source documents. C1 (AIDEA ANWR) dropped: AI connection is inferential only; the chokepoint claimed is diffuse (9-member governor-appointed board, not a single actor with binary authority); HB 124 legislative oversight layer has no primary-source document confirmed. C3 (ANC village corporation disclosure exemption) dropped: bill held in Senate Rules Committee, no enacted statute or docket filing; medium scout confidence. C2 (ANC 8(a)) passes all seven gates with the Pentagon layer removed.",
+  "dropped_mechanisms": [
+    {
+      "name": "DAF Alaska Enhanced Use Lease — Military Base AI Data Center Siting Machine (F1/V1)",
+      "drop_reason": "no_news_tie — news trigger (ExecutiveGov / Air and Space Forces Magazine, April 13, 2026) is 42 days before run date, outside both the 14-day and 21-day broadened windows"
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    {
+      "name": "GCI-Quintillion Arctic Subsea Cable Consolidation — FCC License Transfer and BEAD Grant Novation Stack (F3/R2)",
+      "drop_reason": "no_news_tie — news trigger (GCI Newsroom / Business Wire, April 22, 2026) is 33 days before run date, outside both the 14-day window and the 21-day broadened window (cutoff May 4, 2026)"
+    },
+    {
+      "name": "Alaska BEAD Subgrantee Agreement Machine (V2)",
+      "drop_reason": "no_news_tie — primary news trigger (Broadband Breakfast / ISP.Tools, March 24, 2026) is 62 days before run date, far outside both windows; GCI-Quintillion complication trigger also outside window"
+    },
+    {
+      "name": "SBIR Strategic Breakthrough Award — Phase III Pathway (V3)",
+      "drop_reason": "missing_primary_source_per_layer — news trigger date (April 13, 2026) is 42 days old and outside both windows; no primary source for the strategic breakthrough $30M ceiling provision could be verified from a fetched page"
+    },
+    {
+      "name": "Alaska North Slope Data Center Multi-Agency Permitting Regime — STAK Energy (F2/R1)",
+      "drop_reason": "missing_primary_source_per_layer — Layers 3 (natural gas supply agreement), 4 (turbine manufacturing supply chain), and 5 (governor's political sponsorship) have no verifiable primary-source documents; no gas supply agreement exists to cite; no turbine procurement contract; removing these layers breaks the five-layer anatomy below the minimum"
+    },
+    {
+      "name": "AIDEA Capital Deployment Authority — Resolution G26-05 / ANWR $190M (C1)",
+      "drop_reason": "diffuse_chokepoint — the governor-appointed 9-member board voting 6-1 is not a single actor with binary authority; AI connection is inferential only (AIDEA is not currently an AI infrastructure investor)"
+    },
+    {
+      "name": "Alaska Native Village Corporation Public Disclosure Exemption — HB 126 Amendment (C3)",
+      "drop_reason": "missing_primary_source_per_layer — bill held in Senate Rules Committee, no enacted statute or docket filing; medium scout confidence; mechanism not directly AI-relevant"
+    }
+  ],
+  "selected_mechanism": {
+    "name": "ANC 8(a) Sole-Source Federal Contracting Pipeline — SBA Application Gate and Corporate Subsidiary Stack",
+    "category": "capital_sovereignty",
+    "category_label": "SOVEREIGNTY",
+    "news_trigger": {
+      "headline": "Legislature passes resolution supporting program that helps Alaska Native corporations get federal contracts",
+      "outlet": "Alaska Public Media (KNBA / Alena Naiden)",
+      "pub_date": "2026-05-14",
+      "url": "https://alaskapublic.org/news/alaska-desk/2026-05-14/legislature-passes-resolution-supporting-program-that-helps-alaska-native-corporations-get-federal-contracts",
+      "verbatim_span": "We were able to give out a record dividend last year. We gave out our first special dividend ever just a month ago, and it's all because of the benefits of federal contracting for us.",
+      "speaker": "Haven Harris, SVP Growth and Strategy, Bering Straits Native Corporation"
+    },
+    "one_line_definition": "A four-layer federal-state contracting machine — anchored in 15 U.S.C. § 637 and a non-delegable SBA Administrator eligibility gate — through which Alaska Native Corporation subsidiaries channel roughly billions in annual federal sole-source and set-aside awards; currently stalled at Layer 2 because the SBA Administrator has accepted no new 8(a) applications since August 2025, freezing the pipeline through which ANC-owned AI and technology firms (Arctic IT/Doyon, Koniag Government Services, Chugach Government Solutions) expand their federal contracting footprint.",
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "layer_name": "Federal Statutory Foundation — 15 U.S.C. § 637 and ANCSA Carve-Out",
+        "what_it_does": "Establishes the 8(a) Business Development Program and explicitly extends eligibility to Alaska Native corporations (treated as Indian tribes under ANCSA), authorizing sole-source contracts without dollar ceiling for ANC-owned firms and allowing ANCs to hold multiple 8(a) subsidiaries — a structural advantage unavailable to any other class of 8(a) participant.",
+        "controlling_actor": "U.S. Congress (statutory author); Sen. Lisa Murkowski (Alaska's seat on Senate Commerce and Armed Services Committees, primary legislative backstop for the ANCSA carve-out)",
+        "primary_source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section637&num=0&edition=prelim",
+        "primary_source_doc_type": "statute",
+        "primary_source_reverified": true
+      },
+      {
+        "layer_name": "SBA Administrator Eligibility and Application Gate",
+        "what_it_does": "The SBA Administrator holds non-delegable authority under 15 U.S.C. § 637(a) to determine economic disadvantage and approve or deny 8(a) program participation. Since August 2025, no new applications have been approved — a de facto freeze that prevents ANC subsidiaries from certifying new 8(a) firms or renewing lapsed certifications, even while existing certified firms continue to receive awards. The freeze limits the supply of certifiable ANC subsidiaries available to bid on federal AI and technology set-asides.",
+        "controlling_actor": "SBA Administrator Kelly Loeffler (institutional role: Senate-confirmed Administrator of the U.S. Small Business Administration)",
+        "primary_source_url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
+        "layer_name": "ANC Subsidiary Corporate Structure — Contracting Execution Layer",
+        "what_it_does": "Individual ANCs create and own separate 8(a)-certified operating subsidiaries that hold the actual federal contracts. Because ANCs may hold multiple 8(a) firms simultaneously (unlike other program participants), the subsidiary structure functions as a multiplier: one ANC can hold several certified firms across different NAICS codes. Chugach Alaska holds Chugach Government Solutions; Doyon holds Arctic IT (Microsoft Azure and cloud services for federal agencies); Bering Straits holds contracting subsidiaries whose dividends funded the record payout cited in the news trigger. These subsidiaries are the direct vehicle through which Alaska-based firms compete for federal AI infrastructure, cloud, and managed-services contracts.",
+        "controlling_actor": "Individual ANC boards of directors (Chugach Alaska Corporation; Doyon, Limited; Bering Straits Native Corporation; Koniag, Inc.) — institutional roles that persist regardless of individual executives",
+        "primary_source_url": "https://www.chugach.com/",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
+        "layer_name": "Alaska State Legislative Backstop — HJR 44",
+        "what_it_does": "The Alaska Legislature passed HJR 44 unanimously (House 40-0 on April 29, 2026; Senate 20-0 on May 11, 2026), formally requesting that the federal government preserve ANC participation in the 8(a) program. The resolution creates a state-level political signal and establishes a documented state-interest record if litigation over program changes reaches federal court. It does not legally bind the SBA but raises the political cost of the freeze continuing. Nicole Borromeo (ANCSA Regional Association) coordinated the legislative advocacy.",
+        "controlling_actor": "Alaska Legislature (House Resources Committee sponsor; Nicole Borromeo, ANCSA Regional Association, key advocacy actor who moved the resolution forward)",
+        "primary_source_url": "https://www.akleg.gov/basis/Bill/Detail/35?Root=HJR44",
+        "primary_source_doc_type": "docket",
         "primary_source_reverified": true
       }
     ],
     "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
+      "layer_name": "SBA Administrator Eligibility and Application Gate",
+      "controlling_actor": "SBA Administrator (Kelly Loeffler, Senate-confirmed; institutional role persists independent of incumbent)",
+      "binary_decision": "Resume timely review and approval of 8(a) applications — or maintain the current freeze, in which case ANC subsidiaries cannot certify new 8(a) firms or renew lapsed certifications, and the pipeline of ANC-owned federal AI and technology contractors in Alaska does not expand regardless of statutory eligibility or state political support.",
+      "why_asymmetric": "15 U.S.C. § 637(a) explicitly makes the eligibility determination non-delegable to the Administrator. No court order, no state resolution, no congressional mandate (short of statutory amendment) can force the Administrator to process applications on any particular timeline. The application freeze since August 2025 — zero new approvals versus approximately 600 in 2024 — is an administrative decision by one Senate-confirmed officer that no other layer of the mechanism can override unilaterally."
     },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
-  },
-  "dropped_mechanisms": [
-    {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
-    },
-    {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
-    },
-    {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
-    },
-    {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
-    },
-    {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
-    },
-    {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
-    },
-    {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
+    "structural_read": "The 8(a) ANC machine is a three-decade-old revenue amplifier that converts ANCSA land-settlement legitimacy into federal contract access, with the SBA Administrator as a single administrative valve. The current freeze is not a legal abolition of the program — the statute is intact, HJR 44 passed unanimously, and existing certified firms continue receiving awards — but it is a slow suffocation of the subsidiary pipeline. Every month that new certifications are not processed, the pool of ANC-owned 8(a) firms eligible for set-asides shrinks through natural attrition (nine-year program clocks run out, subsidiaries change NAICS focus, new projects need new entities). For Alaska's ANC-owned AI and technology contractors, the freeze means they cannot spin up new 8(a) subsidiaries to capture the wave of federal AI spending under the current administration's AI Action Plan — precisely the moment when the contracting opportunity is largest and the barrier to entry lowest for 8(a)-certified firms.",
+    "forward_implication": "ANC-owned federal technology and AI contracting firms (Arctic IT, Koniag Government Services, and their peers) should audit their existing 8(a) subsidiary roster this week: identify which subsidiaries have certifications expiring within 12 months and cannot be renewed under the current freeze, model revenue exposure if those vehicles lapse, and accelerate any pending competitive bids that can be executed under existing certifications before the pipeline further narrows. Simultaneously, ANC boards should coordinate with Sen. Murkowski's office to determine whether a targeted statutory fix or appropriations rider can impose processing timelines on the SBA Administrator — the only lever that does not require the Administrator's voluntary cooperation.",
+    "ak_consequence": "Federal technology and AI contracting sector: Bering Straits Native Corporation, Doyon/Arctic IT, Chugach Government Solutions, and Koniag Government Services face a shrinking pool of active 8(a)-certified subsidiaries through which to bid federal AI and cloud-services contracts, because the SBA Administrator's application freeze since August 2025 blocks new certifications; if not reversed by late 2026, ANC-owned Alaska firms will lose competitive position in the current federal AI spending surge to non-ANC contractors.",
+    "gate_results": {
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_source_coverage": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_a_recent_repeat": true
     }
-  ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  }
 }

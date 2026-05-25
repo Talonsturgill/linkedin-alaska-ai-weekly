@@ -1,32 +1,89 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "run_date": "2026-05-25",
+  "column": "The Stack",
+  "rubric_used": "config/stack_rubric.yaml",
+  "total_weighted_score": 9.76,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
+  "hard_fail_checks": {
+    "hashtag_count_in_range": true,
+    "punctuation_bans_held": true,
+    "total_char_count_under_linkedin_cap": true,
+    "word_count_in_range": true,
+    "mechanism_named_and_news_tied": true,
+    "every_layer_attributed": true,
+    "chokepoint_named": true
+  },
   "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+    {
+      "name": "Hook strength",
+      "weight": 0.10,
+      "score": 10,
+      "weighted": 1.00,
+      "note": "First two lines name the mechanism (ANC 8(a) sole-source pipeline), the news trigger (record dividend at Bering Straits Native Corporation), and the correction (frozen at a single administrative gate since August 2025), all within approximately 183 characters. No banned phrases. Stands alone at the LinkedIn see-more cutoff."
+    },
+    {
+      "name": "Mechanism load-bearing + AK consequence",
+      "weight": 0.18,
+      "score": 10,
+      "weighted": 1.80,
+      "note": "The 8(a) pipeline is a direct driver of Alaska AI and federal technology procurement decisions. AK consequence is fully specified: named actors (Bering Straits Native Corporation, Arctic IT/Doyon, Chugach Government Solutions, Koniag Government Services), named risk (losing competitive position in the federal AI spending surge to non-ANC firms), and a concrete timeframe (if not reversed by late 2026). Both sides of the descriptor are fully loaded."
+    },
+    {
+      "name": "Layer fidelity",
+      "weight": 0.14,
+      "score": 10,
+      "weighted": 1.40,
+      "note": "All four body layers map exactly to stack_anatomy.json selected_mechanism.layers[]. Controlling actors match precisely. No invented layers or actors."
+    },
+    {
+      "name": "Chokepoint clarity",
+      "weight": 0.13,
+      "score": 10,
+      "weighted": 1.30,
+      "note": "Names one specific layer (SBA Administrator Eligibility and Application Gate), one actor (Kelly Loeffler), and the binary decision (resume review or maintain freeze). Quantifies the asymmetry with hard numbers (approximately 600 approvals in 2024 versus zero since August 2025) and correctly identifies the non-delegable statutory basis."
+    },
+    {
+      "name": "Structural read",
+      "weight": 0.12,
+      "score": 9,
+      "weighted": 1.08,
+      "note": "Clear, debatable position present throughout: the freeze is characterized as slow attrition rather than legal abolition, ANC-owned Alaska firms framed as losing competitive ground. Slightly implicit compared to an explicit thesis statement; position is read through structural framing rather than stated directly."
+    },
+    {
+      "name": "Forward implication",
+      "weight": 0.08,
+      "score": 9,
+      "weighted": 0.72,
+      "note": "Concrete action items named: audit expiring 8(a) certifications now, accelerate bids, coordinate with Sen. Murkowski's office on a statutory fix or appropriations rider. Late-2026 window is explicit. Marginally short of 10 because named firms are not paired with individual expiration windows or modeled revenue exposure figures."
+    },
+    {
+      "name": "Primary-source quality",
+      "weight": 0.10,
+      "score": 10,
+      "weighted": 1.00,
+      "note": "All four layers reverified against primary sources: 15 U.S.C. § 637 (statute), SBA.gov 8(a) program page (agency page), chugach.com and ANC corporate structures (org pages), akleg.gov HJR 44 docket (legislative docket). Chokepoint citation traces directly to the statute."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.08,
+      "score": 10,
+      "weighted": 0.80,
+      "note": "Reads as analytical, position-taking, structural, business-literate throughout. Standout: 'One Senate-confirmed officer controls that valve' and 'The freeze isn't a legal abolition of the program.' No explainer-bot cadence, no LinkedIn-influencer drift."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.04,
+      "score": 9,
+      "weighted": 0.36,
+      "note": "Word count 447 within 350-475. Estimated character count approximately 2985, under 3000-character cap. One bullet block with four items (within 3-5 range). Paragraphs are 2-4 sentences. Minor deduction: bullet items run 35-46 words each, dense for mobile scanning."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 10,
+      "weighted": 0.30,
+      "note": "Real and debatable: asks which specific Alaska AI and technology firms are positioned to hold ground versus face attrition risk under the freeze, tied directly to the chokepoint. No rhetorical softeners, no CTA."
+    }
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "shortfall_note": null
 }
