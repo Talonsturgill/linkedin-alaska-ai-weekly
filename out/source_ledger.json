@@ -1,48 +1,33 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "run_date": "2026-05-25",
+  "column": "The Stack",
+  "mechanism": "ANC 8(a) Sole-Source Federal Contracting Pipeline — SBA Application Gate and Corporate Subsidiary Stack",
+  "news_trigger": {
+    "outlet": "Alaska Public Media",
+    "headline": "Legislature passes resolution supporting program that helps Alaska Native corporations get federal contracts",
+    "pub_date": "2026-05-14",
+    "url": "https://alaskapublic.org/news/alaska-desk/2026-05-14/legislature-passes-resolution-supporting-program-that-helps-alaska-native-corporations-get-federal-contracts"
+  },
+  "layer_sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "layer": "Federal Statutory Foundation — 15 U.S.C. § 637 and ANCSA Carve-Out",
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title15-section637&num=0&edition=prelim",
+      "doc_type": "statute"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "layer": "SBA Administrator Eligibility and Application Gate",
+      "url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "layer": "ANC Subsidiary Corporate Structure — Contracting Execution Layer",
+      "url": "https://www.chugach.com/",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "layer": "Alaska State Legislative Backstop — HJR 44",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/35?Root=HJR44",
+      "doc_type": "docket"
     }
   ]
 }
