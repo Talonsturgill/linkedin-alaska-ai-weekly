@@ -1,32 +1,88 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "rubric_file": "config/contrarian_rubric.yaml",
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "weighted_total": 9.42,
+  "hard_fail_checks": {
+    "hashtag_count_in_range": true,
+    "punctuation_bans_held": true,
+    "total_char_count_under_linkedin_cap": true,
+    "word_count_in_range": true,
+    "claim_is_attributed": true,
+    "steelman_present": true
+  },
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "weight": 0.13,
+      "score": 9,
+      "weighted": 1.17,
+      "notes": "Names the claim ($150M/year, 1 GW, vs Texas), signals correction is coming, stakes the deadline (May 29). Asserter identified as 'Alaska's governor' in line 1, named in para 2 — minor gap from 10."
+    },
+    {
+      "name": "Claim load-bearing + AK stakes",
+      "weight": 0.20,
+      "score": 10,
+      "weighted": 2.00,
+      "notes": "Air Force RLP at JBER/Eielson/Clear, live May 29 2026 deadline. Consequence specific: mispriced bids and a bad procurement template for future cycles."
+    },
+    {
+      "name": "Steelman fairness",
+      "weight": 0.12,
+      "score": 10,
+      "weighted": 1.20,
+      "notes": "Full paragraph before rebuttal. Cites Iceland/Norway PUEs, free-air cooling, directional logic 'legitimate', 'right to lead with this.' Generous and specific, zero snark."
+    },
+    {
+      "name": "Counter-evidence quality",
+      "weight": 0.10,
+      "score": 8,
+      "weighted": 0.80,
+      "notes": "Two UAF ACEP primary sources plus Chugach primary quote. Stan Jones ADN rate comparison is credible named secondary — not primary. All in dossier."
+    },
+    {
+      "name": "Factual density",
+      "weight": 0.10,
+      "score": 10,
+      "weighted": 1.00,
+      "notes": "Named specifics in nearly every sentence: governor, Data Center World Oct 2025, two outlets, UAF ACEP Feb 2024, 5% fraction, Mar 2025 analysis, Stan Jones, ADN Apr 12, rate figures, Chugach, ADN May 5, JBER/Eielson/Clear, May 29 deadline."
+    },
+    {
+      "name": "Source quality",
+      "weight": 0.13,
+      "score": 9,
+      "weighted": 1.17,
+      "notes": "Two independent claim-assertion outlets. Two UAF ACEP primary counter-sources, one Chugach primary quote, one named-journalist ADN opinion. All in dossier. One non-primary prevents 10."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.12,
+      "score": 9,
+      "weighted": 1.08,
+      "notes": "Analytical and structural throughout, no influencer cadence, no dunking. 'Five percent.' standalone is mildly emphatic but stays analytical."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.05,
+      "score": 10,
+      "weighted": 0.50,
+      "notes": "2-4 sentence paragraphs, ~448 words, well under 3000-char cap. Scans cleanly on desktop and mobile."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 10,
+      "weighted": 0.30,
+      "notes": "Real, debatable, tied to electricity rate as the corrected cost driver. No follow-us, no rhetorical softener."
+    },
+    {
+      "name": "Business actionability",
+      "weight": 0.02,
+      "score": 10,
+      "weighted": 0.20,
+      "notes": "An exec or program manager can name a concrete action: stress-test the power-rate assumption before submitting a May 29 Air Force RLP bid rather than anchoring to the $150M cooling headline."
+    }
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Counter-evidence quality",
+  "one_sentence_fix": "Replace or supplement the Stan Jones ADN opinion rate figures with a primary dataset (EIA Form 861 or Chugach rate schedule) to push the electricity-rate rebuttal onto a primary source."
 }

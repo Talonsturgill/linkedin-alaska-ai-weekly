@@ -1,0 +1,88 @@
+{
+  "issue_label": "NO. 02",
+  "no_target_this_cycle": false,
+  "_validation_note": "All five candidates fetched and verbatim quotes verified live. Candidate A passed all six gates cleanly. Candidate B passed all six gates but is marginal on Gate 6 (proximity to NO. 01 LNG narrative) and its primary counter-evidence requires a back-of-envelope capacity calculation rather than a single confirmable datum. Candidate A selected as most load-bearing with the strongest, most directly confirmable primary-source rebuttal. Candidates C, D, and E dropped on circulation or steelman grounds.",
+  "selected_claim": {
+    "claim_verbatim": "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year",
+    "claim_paraphrase_fair": "Alaska's cold climate gives data center operators a large and quantifiable cooling cost advantage — on the order of $150 million per year for a 1 GW facility — making the state economically competitive for hyperscale AI compute despite its remote location.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "role": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge (sourced from Data Center World keynote)",
+        "pub_date": "2025-10-07"
+      },
+      {
+        "name": "Mike Dunleavy",
+        "role": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-01"
+      }
+    ],
+    "steelman": "Cold climates genuinely reduce the energy required for data center cooling. Power Usage Effectiveness (PUE) is a well-established industry metric, and colder ambient temperatures do lower it — data centers in Iceland and Norway routinely achieve PUEs near 1.1 compared to 1.5 or higher in warm climates. Alaska being significantly cooler than Texas is a physical fact, and free-air cooling eliminates the need for energy-intensive mechanical chillers for much or all of the year. At scale, any reduction in PUE translates to meaningful avoided energy cost, and the directional logic — that Alaska's climate confers a real cooling advantage — is correct. It is entirely reasonable for a governor pitching his state to investors to lead with this advantage.",
+    "corrective_thesis": "UAF ACEP primary research shows cooling represents only about 5% of total data center operating costs, meaning the $150M figure either requires implausibly large total O&M assumptions or overstates the cooling fraction by an order of magnitude — and Alaska's electricity rates, among the highest in the US at 14-17 cents per kWh versus 6-9 cents in competitor states, create an energy cost disadvantage that structurally dwarfs any cooling savings.",
+    "counter_evidence": [
+      {
+        "fact": "UAF Alaska Center for Energy and Power researchers found that 'cooling costs typically represent 5% or less of ongoing operations and maintenance costs' for data centers, directly undermining the scale of the $150M cooling-savings claim.",
+        "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php",
+        "outlet": "UAF ACEP Blog",
+        "pub_date": "2024-02-09",
+        "is_primary": true
+      },
+      {
+        "fact": "The same UAF ACEP analysis states: 'Alaska's cost of electricity is among the highest in the U.S.' — a cost headwind on the 40-50% of data center O&M attributable to electricity that overwhelms any cooling-side savings.",
+        "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+        "outlet": "UAF ACEP Blog",
+        "pub_date": "2025-03-01",
+        "is_primary": true
+      },
+      {
+        "fact": "Chugach Electric Association stated: 'We currently do not have gas to serve a large data center' — meaning the power infrastructure precondition for any cooling-savings scenario is absent at Alaska's largest grid.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      },
+      {
+        "fact": "Large commercial users on Chugach Electric's system pay roughly 14 to 17 cents per kilowatt-hour, compared with Virginia at 8.99 cents, Texas at 6.12 cents, and Washington at 6.61 cents — rates 40-60% lower than Alaska's current commercial rate.",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News (Stan Jones opinion, April 12 2026)",
+        "pub_date": "2026-04-12",
+        "is_primary": false
+      }
+    ],
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary_evidence": true,
+      "not_a_recent_repeat": true
+    },
+    "industry_consequence": "Hyperscalers and DoD contractors evaluating the Air Force's May 29 2026 JBER/Eielson/Clear lease proposals may accept the $150M cooling headline at face value and underweight Alaska's 14-17 cents per kWh electricity rate — the actual binding cost driver — leading to mispriced bids or misallocated capital in a live, time-sensitive procurement."
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "new federal data centers on Air Force bases in Alaska for AI computing. This will help our military. It will help increase domestic demand for our gas and lower the costs of building and financing the pipeline.",
+      "asserter": "Sen. Dan Sullivan (R-AK), Annual Address to Alaska Legislature, Feb 18 2026",
+      "reason_dropped": "Passes all six gates but selected as second-best. The primary counter-evidence requires a capacity-fraction back-calculation rather than a single confirmable primary-source datum. Additionally, the corrective narrative sits closer to the NO. 01 LNG viability territory than Candidate A, creating meaningful overlap risk with the prior issue's rebuttal."
+    },
+    {
+      "claim_verbatim": "As AI expands, we're going to need these data centers. Many of them are looking at Alaska because our cool temperatures prevent the need for so much water.",
+      "asserter": "Rep. Kevin McCabe (R-Big Lake), Alaska State House floor comments, April 29 2026",
+      "reason_dropped": "Gate 2 failed: single asserter in a single outlet, floor comment not independently picked up by a second named source."
+    },
+    {
+      "claim_verbatim": "The biggest challenge in siting and building a hyper-scale data center in Alaska revolves around an issue that has little to do with direct costs but instead on infrastructure build-out.",
+      "asserter": "UAF ACEP researchers Peter Asmus, Gwen Holdmann, Erlingur Gudleifsson, Feb 9 2024",
+      "reason_dropped": "Gate 4 failed: true_as_stated. The claim was accurate when made; GCI-Quintillion acquisition (April 2026) changed conditions, but this is a 'circumstances changed' update, not a 'received wisdom is wrong' correction."
+    },
+    {
+      "claim_verbatim": "Alaska can become a global compute hub within the next four years",
+      "asserter": "Ethan Berkowitz, Co-founder Far North Digital, former Anchorage Mayor, ADN op-ed Jan 10 2026",
+      "reason_dropped": "Gate 2 failed: single asserter in a single outlet. No second independent source asserting same four-year timeline. Gate 4 weakened by self-contradiction within the same op-ed."
+    }
+  ]
+}
