@@ -44,6 +44,13 @@
         "outlet": "Anchorage Daily News",
         "pub_date": "2026-05-05",
         "is_primary": true
+      },
+      {
+        "fact": "Large commercial users on Chugach Electric's system pay roughly 14 to 17 cents per kilowatt-hour, compared with Virginia at 8.99 cents, Texas at 6.12 cents, and Washington at 6.61 cents — rates 40-60% lower than Alaska's current commercial rate.",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News (Stan Jones opinion, April 12 2026)",
+        "pub_date": "2026-04-12",
+        "is_primary": false
       }
     ],
     "gate_results": {
