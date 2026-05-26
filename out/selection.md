@@ -1,27 +1,26 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom NO. 02 — 2026-05-26
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Selected claim
 
-## Role
-FOUNDER (kicker middle slot)
+**Verbatim**: "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year"
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Asserter**: Gov. Mike Dunleavy, Data Center World keynote, October 2025 (Data Center Knowledge); repeated April 2026 (Broadband Breakfast)
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Steelman
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+Cold climates genuinely reduce cooling energy demand. PUE is a real metric and colder ambient temperatures lower it — Iceland and Norway achieve PUEs near 1.1 vs. 1.5+ in warm climates. Alaska is physically cooler than Texas. Free-air cooling is a real operational advantage. The directional claim is correct.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## One-sentence corrective thesis
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+UAF ACEP primary research shows cooling is only ~5% of data center O&M, meaning the $150M figure overstates the cooling fraction by roughly an order of magnitude, while Alaska's actual electricity rates (14-17 cents/kWh vs. 6-9 cents in competitor states) create a cost headwind that dwarfs the cooling benefit.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Evidence spine
+
+1. **UAF ACEP, Feb 2024**: "cooling costs typically represent 5% or less of ongoing operations and maintenance costs" — primary, named researchers (Asmus, Holdmann, Gudleifsson)
+2. **UAF ACEP, Mar 2025**: "Alaska's cost of electricity is among the highest in the U.S." — primary
+3. **Chugach Electric, May 2026 (ADN)**: "We currently do not have gas to serve a large data center" — primary utility source
+4. **Stan Jones, ADN Apr 2026**: commercial users on Chugach pay 14-17 cents/kWh vs. Virginia 8.99, Texas 6.12, Washington 6.61 — secondary but data-sourced
+
+## Industry consequence
+
+Hyperscalers and DoD contractors evaluating the Air Force's May 29, 2026 JBER/Eielson/Clear lease proposals may accept the $150M cooling headline at face value and underweight Alaska's 14-17 cents/kWh electricity rate — the actual binding cost driver.
