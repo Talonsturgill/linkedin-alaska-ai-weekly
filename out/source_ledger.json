@@ -1,48 +1,73 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "volume": "VOL. 03",
+  "surface": "LinkedIn",
+  "date": "2026-05-29",
+  "window": ["2026-05-22", "2026-05-29"],
+  "mode": "Weekly Brief",
+  "stories": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "id": "DOE_GRID_FREEZE",
+      "title": "DOE Grid Resilience grants frozen for 91 Alaska tribal entities",
+      "claims_used": [
+        "Less than 6% of the $58 million promised under the IIJA Grid Resilience formula program disbursed; roughly $54 million frozen across 91 tribal entities after federal spending-review orders.",
+        "White Mountain (~250 people, Seward Peninsula) fronted roughly $700,000 on generators and cooling upgrades expecting reimbursement and has received nothing."
+      ],
+      "sources": [
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-29/alaska-tribes-in-limbo-as-federal-energy-grants-stall", "outlet": "Alaska Public Media", "pub_date": "2026-05-29", "primary": false},
+        {"url": "https://www.knba.org/news/2026-05-29/alaska-tribes-in-limbo-as-federal-energy-grants-stall", "outlet": "KNBA", "pub_date": "2026-05-29", "primary": false},
+        {"url": "https://knom.org/2026/05/28/alaska-tribes-in-limbo-as-federal-energy-grants-stall/", "outlet": "KNOM Radio Mission", "pub_date": "2026-05-28", "primary": false}
+      ]
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "id": "DOLWD_FEDERAL_JOBS",
+      "title": "Alaska DOLWD April 2026 employment: federal civilian -1,900 (-12.5%)",
+      "claims_used": [
+        "Total nonfarm employment 332,300 in April 2026, flat year over year (+100).",
+        "Federal civilian employment fell 1,900 jobs year over year, down 12.5%.",
+        "Information sector at 4,100 jobs and still shrinking; oil and gas added 1,000."
+      ],
+      "sources": [
+        {"url": "https://labor.alaska.gov/news/2026/news26-10.htm", "outlet": "Alaska Department of Labor and Workforce Development", "pub_date": "2026-05-22", "primary": true},
+        {"url": "https://www.akbizmag.com/industry/government/alaska-employment-job-growth-and-unemployment-rate-flat-in-april/", "outlet": "Alaska Business Magazine", "pub_date": "2026-05-24", "primary": false}
+      ]
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "NANA_WORKS_AI",
+      "title": "NANA Works AI hiring platform for 15,000+ Iñupiat shareholders",
+      "claims_used": [
+        "On May 26 2026 NANA Regional Corporation and Geographic Solutions launched NANA Works, an employment platform built on VOS Sapphire AI, with AI tools for resume building, interview prep, and job recommendations, serving more than 15,000 Iñupiat shareholders.",
+        "First Alaska Native regional corporation to field a purpose-built AI workforce platform at scale."
+      ],
+      "sources": [
+        {"url": "https://www.prnewswire.com/news-releases/geographic-solutions-partners-with-nana-regional-corporation-to-launch-nana-works-employment-platform-302782219.html", "outlet": "PR Newswire (NANA / Geographic Solutions announcement)", "pub_date": "2026-05-26", "primary": true},
+        {"url": "https://briefglance.com/articles/nana-works-tech-platform-to-boost-iupiat-workforce-in-northwest-alaska", "outlet": "BriefGlance", "pub_date": "2026-05-26", "primary": false}
+      ]
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "MURKOWSKI_FY27",
+      "title": "Murkowski FY2027 Senate Indian Affairs hearing on proposed tribal cuts",
+      "claims_used": [
+        "At a May 22 2026 Senate Indian Affairs Committee hearing she chairs, Sen. Lisa Murkowski flagged an FY2027 request proposing a $743.7 million cut to BIA and a $436.9 million cut to BIE (as reported by Tribal Business News).",
+        "$93 million cut to IHS sanitation funding (confirmed on the committee's page); reductions to the 638 self-determination contracts ANC subsidiaries and tribal health organizations run on."
+      ],
+      "sources": [
+        {"url": "https://www.indian.senate.gov/newsroom/press-release/republican/murkowski-raises-tribal-priorities-during-fy-2027-budget-hearing-on-indian-affairs-and-ihs-programs/", "outlet": "U.S. Senate Committee on Indian Affairs", "pub_date": "2026-05-22", "primary": true},
+        {"url": "https://tribalbusinessnews.com/sections/policy-and-law/15621-senators-warn-proposed-fy2027-native-program-cuts-could-strain-federal-obligations", "outlet": "Tribal Business News", "pub_date": "2026-05-25", "primary": false},
+        {"url": "https://indianz.com/News/2026/05/22/press-release-sen-murkowski-r-alaska-discusses-tribal-priorities-at-oversight-hearing/", "outlet": "Indianz.com", "pub_date": "2026-05-22", "primary": false}
+      ]
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "id": "DAF_LEASE_EXTENDED",
+      "title": "Air Force extends Alaska AI data center lease deadline to June 29",
+      "claims_used": [
+        "On May 28 2026 the Air Force amended solicitation AFCEC-26-R-0006 on SAM.gov, pushing the Alaska AI data center lease proposal deadline (JBER, Eielson, Clear; 4,700 acres; Enhanced Use Lease) from May 29 to June 29 2026."
+      ],
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov (mirror of SAM.gov AFCEC-26-R-0006 amendment)", "pub_date": "2026-05-28", "primary": false},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air & Space Forces Magazine", "pub_date": "2026-04-11", "primary": false, "background_context": true}
+      ]
     }
-  ]
+  ],
+  "source_count": 13,
+  "notes": "All claims trace to verified_findings.json. DAF background source (Air & Space Forces, Apr 11) is out-of-window context for the original solicitation; the in-window fact (June 29 extension) rests on the May 28 SAM.gov amendment via HigherGov."
 }

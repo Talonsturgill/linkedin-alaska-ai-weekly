@@ -1,27 +1,44 @@
-# Anchorage Desk Selection — 20 May 2026
+# VOL. 03 Selection — 2026-05-29
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Mode
+**Weekly Brief.** The window (May 22-29) is diffuse. Beat C flagged a slow deployment week, and the sharpest single events (Stak Energy North Slope data center, SB 250's death, Air Force base AI lease) are repeats of the desk's last three leads. No single in-window story carries a full Deep Dive on its own. But four verified in-window stories ladder cleanly to one frame, so a Weekly Brief is the honest shape.
 
-## Role
-FOUNDER (kicker middle slot)
+## Package angle
+Alaska is being pitched as the next AI buildout site at the exact moment the federal scaffolding under its economy is being pulled. In one week the federal payroll shed another 1,900 civilian jobs year-over-year, the DOE left 91 Alaska tribes holding roughly $54 million in frozen grid grants, and a Senate hearing put $743.7M of proposed BIA cuts and 638-contract reductions on the table that ANC federal-services businesses are built on. The one piece of AI that actually shipped in-window came from a Native regional corporation, NANA, which put an AI hiring engine in front of 15,000-plus shareholders to route them into work the federal economy is no longer providing. The frame for the LinkedIn audience: the capital and jobs that have underwritten Alaska for decades are contracting on a federal clock, the AI economy meant to replace them is still stuck at the bid stage (the Air Force lease deadline just slipped to June 29), and Native institutions are absorbing both shocks at once. Don't lead on data centers or gas-power (used three weeks running). Lead on the federal contraction and who's adapting to it.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Lineup
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+### LEAD THREAD — the federal contraction (twin evidence)
+**B/E1: DOE Grid Resilience grants frozen for 91 Alaska tribal entities**
+- Less than 6% of $58M disbursed; ~$54M frozen across 91 tribal entities.
+- White Mountain (~250 people) fronted roughly $700,000 (about $400k generators + ~$299,634 cooling), promised $571,759, paid nothing.
+- Norton Sound consortium (16 entities, led by Native Village of Council) got partial 2024 disbursement (~$2.8M), awaiting two tranches.
+- Confidence high. Sources: Alaska Public Media (May 29), KNBA (May 29), KNOM (May 28). needs_softening on the $700k round number.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**A2: DOLWD April jobs, federal civilian -1,900 (-12.5%)**
+- Total nonfarm 332,300, flat (+100 YoY). Federal civilian -1,900 YoY (primary). Information sector 4,100 and shrinking. Oil/gas +1,000.
+- Confidence high. Primary source DOLWD (May 22) + AkBizMag (May 24).
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+### SUPPORT 1 — the adaptation (the AI anchor)
+**A1: NANA Works AI hiring platform, 15,000+ Iñupiat shareholders**
+- May 26 launch with Geographic Solutions, powered by VOS Sapphire AI. AI tools for resume, interview prep, job recommendations.
+- First AK Native regional corp to deploy a purpose-built AI workforce platform at scale.
+- Confidence medium. Primary source PR Newswire + BriefGlance. Drop unconfirmed "Red Dog Mine" / "employer screening" specifics.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+### SUPPORT 2 — the forward risk to AK federal capital
+**B4: Murkowski FY2027 Senate Indian Affairs hearing**
+- May 22 hearing, Murkowski (R-AK) chairing. $743.7M proposed BIA cut, $436.9M BIE cut, $93M IHS sanitation cut, 638-contract reductions.
+- Threatens the addressable market for ANC federal-services subsidiaries.
+- Confidence high. Primary source Senate Indian Affairs + Tribal Business News + Indianz.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+### STAKES / FORWARD-LOOK (one line, not a full beat)
+**E2: Air Force AI data center lease deadline slips from May 29 to June 29**
+- SAM.gov amendment May 28 to AFCEC-26-R-0006, JBER/Eielson/Clear, 4,700 acres. The "replacement economy" isn't landing on schedule. Use as the closing stake, not a developed story.
+
+## Held out (and why)
+- **HB 239 AI-CSAM felony**: verified but is_in_window=false (sources May 20, pre-window) and tonally heavy for a business page lead. Excluded.
+- **GCI Aleutian fiber break**: verified but single-outlet (KUCB x2). Available as a fallback supporting beat only.
+- **Stak Energy / SB 250 / base AI lease as lead**: re-lead of the last three weeks. Demoted; only the Air Force deadline-slip fact is used, as a stake.
+
+## Suggested hashtags (from whitelist, writer picks 4-5)
+#AlaskaAI #WorkforceDevelopment #FederalContracting #IndigenousData #GridPolicy

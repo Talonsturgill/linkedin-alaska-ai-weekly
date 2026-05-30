@@ -1,32 +1,23 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.15, "score": 9, "note": "Opening two lines (~211 chars) clear the LinkedIn see-more cutoff and name two concrete stakes (15,000 shareholders, $54M frozen) plus a structural frame. AI present in line 1. Minor deduction for one figurative phrase."},
+    {"name": "Industry relevance", "weight": 0.20, "score": 10, "note": "All four in-window stories carry a named AK angle and a concrete industry consequence: DOLWD sector figures, NANA Works vendor/platform/first-mover, Murkowski cuts tied to 638 contracts, AFCEC-26-R-0006 live procurement."},
+    {"name": "Factual density", "weight": 0.15, "score": 10, "note": "Specifics in nearly every sentence: 332,300 nonfarm, -1,900 federal (-12.5%), 4,100 info sector; $58M/<6%/$54M/91 tribes/White Mountain/~$700K; May 26/VOS Sapphire/Geographic Solutions/15,000+; $743.7M BIA/$436.9M BIE/$93M IHS/638; AFCEC-26-R-0006/May 29 to June 29."},
+    {"name": "Source quality", "weight": 0.15, "score": 8, "note": "DOLWD primary; grid story three outlets; Murkowski Senate primary + Tribal Business News + Indianz. NANA second source BriefGlance is blog-tier (confidence medium); Air Force via HigherGov SAM mirror not direct docket. $700K correctly softened. Two gaps prevent a 10."},
+    {"name": "Voice match", "weight": 0.15, "score": 9, "note": "Reads like post_001.md: analytical, position-taking, structural, business-literate, no influencer cadence. One brief figurative moment ('two clocks')."},
+    {"name": "Readability (LinkedIn)", "weight": 0.10, "score": 9, "note": "431 words (in 350-475), 2765 chars (under 3000). Five paragraphs of 3-5 sentences, scans cleanly. Paragraph 2 data-dense but structured."},
+    {"name": "Engagement question", "weight": 0.08, "score": 9, "note": "Real, debatable, tied to the central federal-contraction-vs-AI-buildout tension, names actors (state, ANCs) with a sharpening third option. Slight deduction for the mildly colloquial 'gap year'."},
+    {"name": "Business actionability", "weight": 0.02, "score": 10, "note": "Reader can act on AFCEC-26-R-0006 (June 29), model FY2027 BIA/BIE cuts, reassess tribal grid capital exposure, benchmark NANA Works. Multiple revisit-this triggers."}
+  ],
+  "weighted_total": 9.22,
   "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "passed": true, "note": "5 hashtags, all from the brand whitelist, end-only."},
+    {"name": "punctuation_bans_held", "passed": true, "note": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in the body."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "note": "2765 total characters, 235 under the 3000 cap."},
+    {"name": "word_count_in_range", "passed": true, "note": "431 body words, within 350-475."}
   ],
-  "one_sentence_fix": null
+  "any_hard_fail_tripped": false,
+  "ship": true,
+  "one_sentence_fix": "Upgrade the NANA Works second source from BriefGlance to a second independent credible outlet to close the blog-tier sourcing gap and lift Source quality from 8 to 10."
 }
