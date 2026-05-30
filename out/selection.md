@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom NO. 03 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Claim (verbatim, Maj. Gen. Gordon Davis, CEPA, Defense News, 2026-01-26)
+"Uncrewed systems matter in the High North not because they're revolutionary but because they enable persistence where continuous human presence is really impractical"
 
-## Role
-FOUNDER (kicker middle slot)
+## Steelman
+The Arctic is vast, dark for months, and physiologically punishing, so continuous manned patrol at scale is genuinely impractical. Unmanned and AI-enabled systems can in principle deliver persistent surveillance that supports domain awareness and deters gray-zone incursions without risking personnel. This rationale underwrites a growing share of Arctic ISR investment and is held across the defense-analyst community for sound reasons.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Corrective thesis (one sentence)
+The persistence argument is sound in concept but breaks at the hardware layer, because the same extreme cold that makes human presence impractical also degrades the batteries, electronics, and airframes meant to replace it, hardest at the -20F to -40F extreme that defines the Arctic operating environment.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Evidence spine (primary)
+- Gen. John Cogbill (CG, 11th Airborne Division), Breaking Defense 2026-02-23: "everything breaks at negative 40 degrees."
+- Col. Chris Brawley (1st Brigade IBCT), Breaking Defense 2026-02-23: small drones run ~10 minutes or less at full throttle below -20F; tablets crack near -40F.
+- Supporting circulation: Lt. Cmdr. Michael Bielby via CSIS (2022-12-02), AI/ML-for-Arctic-domain-awareness framing.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## AK industry consequence
+Arctic UAS/ISR programs at Eielson AFB, Clear Space Force Station, and the 11th Airborne at Fort Wainwright are sized on the persistence rationale. Contractors and program offices pricing autonomy as cold-agnostic face mispriced cost, schedule, and vendor assumptions; a mild-weather commercial airframe is a different procurement than one engineered for sustained -40F operation.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Verification caveat (for human checkpoint)
+Orchestrator re-fetch of the Defense News and Breaking Defense URLs returned ad/nav shells (both sites bot-block automated fetchers). The scout originally fetched and quoted both verbatim, and the clean validator re-verified using the correct URL paths. The two "404" reports came from validators that tested incorrect URL paths. Spot-check both source links before publishing.
