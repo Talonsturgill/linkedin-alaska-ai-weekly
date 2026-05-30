@@ -1,3 +1,5 @@
+HEADLINE: North Slope AI Campus / Hits A Federal Wall
+
 Stak Energy has state preliminary approval to build an AI data center campus off the Dalton Highway. Construction is scheduled for summer 2026. The federal permitting machine says otherwise.
 
 Per Alaska Public Media's May 26 reporting, the Alaska DNR granted a preliminary best-interest finding for a 50-year land lease, and Stak Energy has attached a late-2028 initial operations date to the project. That is the planning document timeline. The permit timeline is a different document entirely.
