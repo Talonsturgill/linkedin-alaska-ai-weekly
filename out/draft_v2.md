@@ -1,23 +1,19 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Stak Energy has state preliminary approval to build an AI data center campus off the Dalton Highway. Construction is scheduled for summer 2026. The federal permitting machine says otherwise.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Per Alaska Public Media's May 26 reporting, the Alaska DNR granted a preliminary best-interest finding for a 50-year land lease, and Stak Energy has attached a late-2028 initial operations date to the project. That is the planning document timeline. The permit timeline is a different document entirely.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+Three layers run in sequence before a shovel can legally move.
 
-Five layers sit between an Air Force land offer and a powered data center.
+- Alaska DNR Best-Interest Finding and 50-Year Land Lease — DNR Division of Oil and Gas issues a preliminary finding under AS 38.05.070(d). The final finding must issue before any lease or construction can begin. The Division holds sole authority to issue or deny it.
+- Public Comment and Administrative Appeal Window — Any party submitting written comments by June 15, 2026 earns standing to appeal the Final Best-Interest Finding under AS 38.05.035(i)-(m) to the Alaska Superior Court. A successful appeal halts the lease indefinitely. Standing flows through the comment deadline, not through the courts.
+- U.S. Army Corps of Engineers CWA Section 404 Authorization — Stak Energy must secure federal Clean Water Act authorization before discharging roughly 7 million cubic yards of gravel fill to elevate power plants and compute off the tundra. The Army Corps Alaska District (POA) District Engineer holds authority under 33 U.S.C. § 1344. No application filed as of May 30, 2026.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The chokepoint is Layer 3. The District Engineer owns a binary decision to authorize or deny a gravel fill volume nearly double what the Willow project required. The Army Corps takes 12 to 24 months on standard Section 404 permits. With no application in hand as of today, the summer 2026 construction start is structurally impossible to achieve through this permitting pathway.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The DNR preliminary finding is real work and it matters. But the federal permitting machine, not Stak's business plan, sets the actual clock here. Capital allocators and contractors watching this project should track the Army Corps Alaska District public notice register as the operative signal. A DNR lease date without a Section 404 application in the queue is not a construction date.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+The next decision point is the June 15 comment deadline, which determines who holds standing to appeal the DNR finding. That matters for timeline, but it doesn't move the Section 404 needle at all.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+What should investors and contractors treating the Stak campus as a near-term opportunity use as their actual go/no-go trigger, the DNR lease award or a filed Section 404 application?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #DataCenters #EnergyPolicy #ArcticInnovation #FederalContracting
