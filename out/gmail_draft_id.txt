@@ -1,5 +1,5 @@
-draft_id: r-7409328657511660402
-message_id: 19e76042f1f00f5f
-thread_id: 19e76042f1f00f5f
+draft_id: r8170669017823636804
 to: talon.sturgill@gmail.com
 subject: Alaska.Ai — Received Wisdom Draft — 2026-05-29
+created: 2026-05-30 (Received Wisdom NO. 03)
+image: hosted GitHub raw URL on branch claude/linkedin-contrarian-2026-05-29 (base64 exceeded 100KB body cap)
