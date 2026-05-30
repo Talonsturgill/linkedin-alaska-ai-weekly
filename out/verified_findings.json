@@ -1,0 +1,101 @@
+{
+  "window": ["2026-05-22", "2026-05-29"],
+  "verified": [
+    {
+      "id": "DOE_GRID_FREEZE",
+      "story_title": "DOE Grid Resilience grants for 91 Alaska tribal entities remain under 6% disbursed three years on",
+      "key_facts": "As of May 28-29 2026, Alaska tribes had received less than 6% of $58M promised under the IIJA Grid Resilience State and Tribal Formula Grants Program; roughly $54M still undisbursed across 91 tribal entities. White Mountain (Seward Peninsula, ~250 people) fronted about $400,000 on generators plus ~$299,634 on cooling-system upgrades expecting reimbursement and has received nothing; it was promised $571,759. The $700,000 round figure does NOT appear verbatim on any source page, present as two separate expenditures or 'roughly $700,000'. A 16-entity Norton Sound consortium led by Native Village of Council received a partial 2024 disbursement (~$2.8M) and is still awaiting two tranches. Payments frozen after federal spending-review orders.",
+      "industry_consequence": "Rural tribal energy: 91 tribal entities and Native corporations that advanced capital must decide by summer 2026 whether to fund next-phase grid upgrades without reimbursement certainty. Liquidity risk; chills future federal energy-grant participation. Reliable power is the precondition for any rural edge-compute or digital-services expansion.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-29/alaska-tribes-in-limbo-as-federal-energy-grants-stall", "outlet": "Alaska Public Media", "pub_date": "2026-05-29"},
+        {"url": "https://www.knba.org/news/2026-05-29/alaska-tribes-in-limbo-as-federal-energy-grants-stall", "outlet": "KNBA", "pub_date": "2026-05-29"},
+        {"url": "https://knom.org/2026/05/28/alaska-tribes-in-limbo-as-federal-energy-grants-stall/", "outlet": "KNOM", "pub_date": "2026-05-28"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false,
+      "verified": true, "needs_softening": true,
+      "validation_note": "URLs resolve, in-window. '<6% of $58M' and '91 tribal entities' confirmed verbatim. '$700,000' is a researcher-derived sum; sources cite ~$400,000 generators + ~$299,634 cooling, promised $571,759. Present as separate figures or 'roughly $700,000'."
+    },
+    {
+      "id": "DOLWD_FEDERAL_JOBS",
+      "story_title": "Alaska DOLWD: federal civilian employment down 1,900 jobs (-12.5%) YoY April 2026; total nonfarm flat",
+      "key_facts": "DOLWD May 22 release: April 2026 nonfarm 332,300, +100 YoY (0.0%). Federal civilian -1,900 YoY (DOLWD primary confirms absolute -1,900; AkBizMag confirms -12.5% and 332,300). Information sector at 4,100 jobs and shrinking (DOLWD text says information lost ~200 jobs; AkBizMag confirms 4,100 total, -2.4%). Oil/gas +1,000; transportation +1,200.",
+      "industry_consequence": "Cross-sector workforce: displaced federal workers with IT/data/analytical skills need reskilling or sector transfer before outmigration; the still-shrinking information sector signals AI-adjacent roles aren't yet absorbing that talent locally.",
+      "sources": [
+        {"url": "https://labor.alaska.gov/news/2026/news26-10.htm", "outlet": "Alaska DOLWD (primary)", "pub_date": "2026-05-22"},
+        {"url": "https://www.akbizmag.com/industry/government/alaska-employment-job-growth-and-unemployment-rate-flat-in-april/", "outlet": "Alaska Business Magazine", "pub_date": "2026-05-24"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true,
+      "verified": true, "needs_softening": false,
+      "validation_note": "Both resolve, in-window. -1,900 federal confirmed on DOLWD primary. -12.5%, 332,300, info 4,100/-2.4% confirmed on AkBizMag. Avoid the precise info-sector job-change number (sources differ -100 vs -200); say '4,100 and shrinking'."
+    },
+    {
+      "id": "NANA_WORKS_AI",
+      "story_title": "NANA Regional Corporation launches AI-assisted NANA Works employment platform for 15,000+ Iñupiat shareholders",
+      "key_facts": "May 26 2026: NANA Regional Corporation + Geographic Solutions launched NANA Works, powered by VOS Sapphire AI, connecting 15,000+ Iñupiat shareholders to jobs, training, and internships. AI tools include resume building, interview prep, and personalized job recommendations. Operationalizes NANA's shareholder-preference hiring. DROP unconfirmed specifics: do NOT name 'Red Dog Mine' or 'AI employer screening' (not on fetched pages). Use '15,000+' (PR Newswire), not '15,000'.",
+      "industry_consequence": "First Alaska Native regional corporation to deploy a purpose-built AI workforce platform at scale, a replicable model for shareholder-preference hiring across the state's regional corporations.",
+      "sources": [
+        {"url": "https://www.prnewswire.com/news-releases/geographic-solutions-partners-with-nana-regional-corporation-to-launch-nana-works-employment-platform-302782219.html", "outlet": "PR Newswire (primary)", "pub_date": "2026-05-26"},
+        {"url": "https://briefglance.com/articles/nana-works-tech-platform-to-boost-iupiat-workforce-in-northwest-alaska", "outlet": "BriefGlance", "pub_date": "2026-05-26"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true,
+      "verified": true, "needs_softening": true,
+      "validation_note": "PR Newswire (primary) confirms 15,000+, VOS Sapphire, Geographic Solutions, AI resume/interview/recommendation tools, May 26 launch. BriefGlance is blog-tier (confidence medium). 'Red Dog Mine' and 'AI employer screening' NOT confirmed, drop them."
+    },
+    {
+      "id": "MURKOWSKI_FY27",
+      "story_title": "Senate Indian Affairs hearing: Murkowski warns FY2027 cuts threaten tribal capital and ANC program infrastructure",
+      "key_facts": "May 22 2026 Senate Indian Affairs budget hearing chaired by Sen. Lisa Murkowski (R-AK). FY2027 request: $743.7M BIA reduction (attribute to Tribal Business News), $436.9M BIE reduction (Tribal Business News), $93M IHS sanitation reduction (Senate Indian Affairs primary + Indianz). Eliminates tribal climate resilience programs; reduces 638 self-determination contract support that ANC subsidiaries and tribal health orgs rely on.",
+      "industry_consequence": "Federal contracting / tribal services: ANC subsidiary operators and tribal service providers must model FY2027 revenue against proposed cuts before summer mark-up; 638-contract reductions shrink ANC service-subsidiary addressable market; Murkowski's chairmanship gives AK leverage for floor-level protections.",
+      "sources": [
+        {"url": "https://www.indian.senate.gov/newsroom/press-release/republican/murkowski-raises-tribal-priorities-during-fy-2027-budget-hearing-on-indian-affairs-and-ihs-programs/", "outlet": "Senate Indian Affairs Committee (primary)", "pub_date": "2026-05-22"},
+        {"url": "https://tribalbusinessnews.com/sections/policy-and-law/15621-senators-warn-proposed-fy2027-native-program-cuts-could-strain-federal-obligations", "outlet": "Tribal Business News", "pub_date": "2026-05-25"},
+        {"url": "https://indianz.com/News/2026/05/22/press-release-sen-murkowski-r-alaska-discusses-tribal-priorities-at-oversight-hearing/", "outlet": "Indianz.com", "pub_date": "2026-05-22"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true,
+      "verified": true, "needs_softening": false,
+      "validation_note": "All resolve. Senate committee primary confirms May 22 hearing + $93M IHS sanitation. Tribal Business News confirms $743.7M BIA, $436.9M BIE, 638 reductions, attribute BIA/BIE figures to Tribal Business News."
+    },
+    {
+      "id": "DAF_LEASE_EXTENDED",
+      "story_title": "Air Force extends Alaska AI data center lease proposal deadline from May 29 to June 29 (SAM amendment May 28)",
+      "key_facts": "AFCEC posted an amendment to solicitation AFCEC-26-R-0006 on SAM.gov May 28 2026, moving the response deadline from May 29 to June 29 2026, 5:00 p.m. EDT. Locations JBER, Eielson AFB, Clear SFS; 4,700 acres across up to twelve parcels; Enhanced Use Lease; developers bear financing, power, permitting, operations. No public explanation given.",
+      "industry_consequence": "Defense real estate / enterprise infra: developers (incl. ANC 8(a)/EUL JVs) now have until June 29 to bid; the slip signals weak initial response and/or unresolved power-supply constraints.",
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov (mirrors SAM.gov AFCEC-26-R-0006 amendment 2026-05-28)", "pub_date": "2026-05-28"},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air & Space Forces Magazine", "pub_date": "2026-04-11", "background_context": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false,
+      "verified": true, "needs_softening": false,
+      "validation_note": "HigherGov (in-window) confirms amendment May 28, new deadline June 29 5pm EDT, JBER/Eielson/Clear. Air & Space Forces (April 11, background) confirms original May 29, 4,700 acres, twelve parcels, EUL. June 29 extension confirmed."
+    },
+    {
+      "id": "HB239_AI_CSAM",
+      "story_title": "HB 239 omnibus crime bill, including Alaska first felony for AI-generated CSAM, awaiting governor",
+      "key_facts": "AK Legislature passed HB 239 May 19-20 2026 (Senate 20-0, House concurrence 39-1). Includes Alaska's first felony for AI-generated child sexual abuse material, plus deepfake imagery, age-of-consent to 18, stalking, SAK timelines. Awaiting governor action as of May 20. NOTE: all three sources dated May 20, two days BEFORE the window. is_in_window=false. Use only as background; governor decision pending during the week.",
+      "industry_consequence": "Legal-tech / AI-platform compliance precedent. Not selected as in-window lead material.",
+      "sources": [
+        {"url": "https://www.akleg.gov/Basis/Bill/Detail/34?Root=HB+239", "outlet": "akleg.gov", "pub_date": "2026-05-20"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "ADN", "pub_date": "2026-05-20"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20"}
+      ],
+      "confidence": "high", "is_in_window": false, "primary_source": true,
+      "verified": true, "needs_softening": true,
+      "validation_note": "Votes (20-0, 39-1) and AI-CSAM felony confirmed. All sources May 20, pre-window. is_in_window false. Excluded from selection on window + tone grounds."
+    },
+    {
+      "id": "GCI_ALEUTIAN_FIBER",
+      "story_title": "GCI Aleutian subsea fiber break knocks out service in six communities; second outage in six months",
+      "key_facts": "May 27 2026 GCI subsea fiber damaged near Chignik Bay, severing internet and wireless in Akutan, Chignik Bay, False Pass, King Cove, Perryville, Unalaska (Sand Point also impacted). Second Aleutian fiber outage in ~six months (prior: Dec 2025 winter storm). By May 29 GCI restored degraded service via GEO+LEO satellite backup; permanent repair needs a vessel on site in 7-14 days.",
+      "industry_consequence": "Broadband/telecom resilience: repeated single-strand subsea failures expose fragility for Aleutian fishing-industry logistics and emergency comms during active fishing season; strengthens case for redundant LEO backstop.",
+      "sources": [
+        {"url": "https://www.kucb.org/regional/2026-05-27/gci-investigating-possible-subsea-fiber-damage-after-swath-of-aleutian-communities-lose-service", "outlet": "KUCB", "pub_date": "2026-05-27"},
+        {"url": "https://www.kucb.org/regional/2026-05-29/gci-aleutian-customers-connected-to-backup-satellite-system-while-waiting-for-permanent-repairs-to-fiber-cable", "outlet": "KUCB", "pub_date": "2026-05-29"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false,
+      "verified": true, "needs_softening": true,
+      "validation_note": "Both KUCB, in-window, facts confirmed. Single-outlet (two KUCB articles), no separate primary URL. Usable as soft supporting only; GCI spokesperson Josh Edge quoted within."
+    }
+  ],
+  "dropped": [],
+  "stats": {"input_count": 7, "verified_count": 7, "drop_rate": "0%"}
+}
