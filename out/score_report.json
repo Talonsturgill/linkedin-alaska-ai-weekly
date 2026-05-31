@@ -1,32 +1,24 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "First two lines name a specific vessel (Waesche), system (V-BAT), and a first-ever operational milestone; the kicker 'Hardware in the water, not a slide deck' is a clean position-taking beat with no banned phrases, landing just at the ~210-char LinkedIn cutoff."},
+    {"name": "Industry relevance", "score": 9, "weight": 0.20, "notes": "All three main stories carry both an Alaska anchor and a named industry consequence: USCG/fisheries-enforcement procurement, telecom single-point fragility, and a hard NSF dollar-and-deadline forcing function; Tuknik adds a federal-contracting proof point."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Specifics every 1-2 sentences: WMSL 751, 113 days, 18,685 nautical miles, Dutch Harbor, six named communities, May 27, 7-14 day repair, NSF 26-508, $1M/year x 3 years, June 16 / July 16 deadlines, 10 hubs, $37M, 687,000 work hours."},
+    {"name": "Source quality", "score": 9, "weight": 0.15, "notes": "Drone story backed by DVIDS (primary), Janes, Seapower; fiber break by KUCB (primary) and Broadband Breakfast; NSF hub by the primary NSF solicitation page; Tuknik by the Koniag primary release. Moore's April remark correctly hedged per verified_findings softening note."},
+    {"name": "Voice match", "score": 10, "weight": 0.15, "notes": "Analytical, position-taking, no influencer drift; 'Three rails, three clocks', 'the desk's read is', and 'the exception or the onramp' are on-brand register with zero banned phrases."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.10, "notes": "Five tight 2-4 sentence paragraphs, body within 350-475 words, total ~2594 chars under the 3000 cap, scans cleanly on mobile."},
+    {"name": "Engagement question", "score": 9, "weight": 0.08, "notes": "Closes with a real, debatable two-part question tied to the three-rails tension, no rhetorical softener or follow-us CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Concrete revisit-this triggers: June 16 NSF LOI deadline, Tuknik ANC proof point, Aleutian fiber fragility signal."}
+  ],
+  "weighted_total": 9.42,
+  "threshold": 8.0,
+  "hard_fail_checks": {
+    "hashtag_count_in_range": {"result": "PASS", "detail": "5 whitelist hashtags at end only, none inline, within 3-5 range."},
+    "punctuation_bans_held": {"result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body. Single hyphens only inside proper nouns (V-BAT, AI-Ready, 26-508)."},
+    "total_char_count_under_linkedin_cap": {"result": "PASS", "detail": "~2594 characters including hashtag line, under the 3000 cap."},
+    "word_count_in_range": {"result": "PASS", "detail": "Body ~411 words (hashtags excluded), within 350-475."}
+  },
+  "hard_fail": null,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "Tighten the opening two lines to land comfortably under 210 characters so the stake clears the LinkedIn 'see more' cutoff without truncation risk."
 }

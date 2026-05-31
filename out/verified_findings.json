@@ -1,0 +1,127 @@
+{
+  "window": ["2026-05-24", "2026-05-31"],
+  "volume": "VOL. 03",
+  "run_date": "2026-05-31",
+  "verified": [
+    {
+      "id": "C1",
+      "story_title": "USCG Cutter Waesche debuts V-BAT surveillance drone during 113-day Bering Sea patrol",
+      "summary": "The U.S. Coast Guard Cutter Waesche (WMSL 751) returned from a 113-day, roughly 18,685-nautical-mile Bering Sea patrol that included the initial operational integration of the V-BAT vertical-takeoff unmanned aircraft system, providing persistent airborne ISR from the cutter's deck, plus the first-ever fueling-at-sea exercise with the new polar icebreaker USCGC Storis in Dutch Harbor.",
+      "confirmed_facts": [
+        "V-BAT VTOL UAS initial operational integration aboard NSC Waesche (confirmed across DVIDS, Alaska Native News, Seapower, Janes)",
+        "First-ever fueling-at-sea with new icebreaker USCGC Storis in Dutch Harbor",
+        "113-day patrol, ~18,685 nautical miles"
+      ],
+      "softening_required": [
+        "VADM Nathan Moore's remarks on Chinese/Russian vessel activity come from an April 20 Arctic operations panel per Janes, NOT a statement about this patrol. No direct quote on fetched pages. Use 'Moore said in April' framing, no quotation marks.",
+        "'Procurement/integration decision by end-2026' is NOT confirmed on any page. Hedge or drop."
+      ],
+      "industry_consequence": "USCG District 17 / maritime domain awareness. First operational V-BAT integration on a national security cutter in Alaskan waters sets a precedent for persistent unmanned ISR on the NSC fleet covering Alaska's fisheries enforcement zone and Arctic approaches.",
+      "sources": [
+        {"url": "https://www.dvidshub.net/news/566047/us-coast-guard-cutter-waesche-returns-alameda-after-successful-113-day-patrol-bering-sea", "outlet": "DVIDS (USCG)", "pub_date": "2026-05-22", "classification": "primary", "in_window": false, "note": "background origin source, 2 days before window"},
+        {"url": "https://alaska-native-news.com/u-s-coast-guard-cutter-waesche-returns-to-alameda-after-successful-113-day-patrol-in-bering-sea/84170/", "outlet": "Alaska Native News", "pub_date": "2026-05-24", "in_window": true},
+        {"url": "https://seapowermagazine.org/u-s-coast-guard-cutter-waesche-returns-to-alameda-after-successful-113-day-patrol-in-bering-sea/", "outlet": "Seapower Magazine", "pub_date": "2026-05-26", "in_window": true},
+        {"url": "https://www.janes.com/defence-intelligence-insights/defence-news/sea/us-coast-guard-integrates-v-bat-drone-tests-new-icebreaker-systems-in-bering-sea-patrols", "outlet": "Janes", "pub_date": "2026-05-27", "in_window": true}
+      ],
+      "confidence": "high",
+      "needs_softening": true,
+      "background_context": false
+    },
+    {
+      "id": "E1",
+      "story_title": "GCI Aleutian subsea fiber break cuts six communities (May 27)",
+      "summary": "A GCI subsea fiber cable severed between Larsen Bay and Chignik Bay on May 27, cutting internet and wireless service to Akutan, Chignik Bay, False Pass, King Cove, Perryville, and Unalaska, with a repair vessel transit estimated at 7 to 14 days. GCI partially restored mobile voice and texting via backup satellite. It was the second Aleutian subsea break in roughly six months (prior December outage near Mount Ballyhoo).",
+      "confirmed_facts": [
+        "Six communities affected (Akutan, Chignik Bay, False Pass, King Cove, Perryville, Unalaska)",
+        "Break between Larsen Bay and Chignik Bay",
+        "7-14 day repair vessel timeline (GCI's Megan Webb, per Broadband Breakfast)",
+        "Backup satellite partial restoration",
+        "GCI 151,200 cable broadband subscribers, down 3% YoY",
+        "Prior December 2025 Aleutian break"
+      ],
+      "softening_required": ["STRIP the $310M Quintillion acquisition figure — not confirmed on any fetched page."],
+      "industry_consequence": "Telecom / edge connectivity. Six remote communities on capped satellite backup for up to two weeks; repeated single-point subsea failures raise redundancy and subscriber-attrition pressure on GCI and an opening for LEO satellite competitors.",
+      "sources": [
+        {"url": "https://www.kucb.org/regional/2026-05-27/gci-investigating-possible-subsea-fiber-damage-after-swath-of-aleutian-communities-lose-service", "outlet": "KUCB", "pub_date": "2026-05-27", "author": "Maggie Nelson", "in_window": true, "classification": "primary"},
+        {"url": "https://broadbandbreakfast.com/fiber-break-cuts-of-six-alaska-towns/", "outlet": "Broadband Breakfast", "pub_date": "2026-05-29", "author": "Georgina Mackie", "in_window": true}
+      ],
+      "confidence": "high",
+      "needs_softening": true,
+      "background_context": false
+    },
+    {
+      "id": "A2",
+      "story_title": "NSF TechAccess: AI-Ready America (NSF 26-508) — June 16 Letter-of-Intent deadline",
+      "summary": "The NSF-DOL joint TechAccess: AI-Ready America program (NSF 26-508) will fund one roughly $1 million per year AI workforce coordination hub per state for three years, with Round 1 Letters of Intent due June 16, 2026 and full proposals due July 16, and only 10 hubs selected in Round 1.",
+      "confirmed_facts": [
+        "~$1M/year for 3 years per hub (NSF primary page)",
+        "Round 1 LOI deadline June 16, 2026; full proposals July 16, 2026",
+        "10 hubs selected in Round 1",
+        "NSF-DOL joint program"
+      ],
+      "softening_required": [
+        "STRIP '$224M total program' — appears only in a grant-writing blog, not on the NSF page.",
+        "'University of Alaska is logical anchor' is desk analysis, not sourced — present as analysis, not fact.",
+        "6-month delay for missing Round 1 is inference from the Round 2 December deadline; hedge."
+      ],
+      "industry_consequence": "Workforce / AI training. Alaska's statewide applicant (logically the University of Alaska system) has until June 16 to file a Round 1 LOI for a multi-year, multi-million-dollar AI workforce hub; missing it cedes early-cohort position.",
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "NSF", "pub_date": "2026-04-02", "classification": "primary", "in_window": false, "note": "solicitation predates window; June 16 LOI deadline is the in-window forcing function"}
+      ],
+      "confidence": "medium",
+      "needs_softening": true,
+      "background_context": false
+    },
+    {
+      "id": "A1",
+      "story_title": "Alaska Legislature passes first unemployment benefit increase since 2009",
+      "summary": "On the final day of the 2026 session, Alaska lawmakers voted to raise the maximum weekly unemployment benefit from $370 to $470 and to triple the dependent allowance from $24 to $72 per week, the first increase since 2009, with sponsors citing retention of Alaska's seasonal construction and oil-and-gas workforce. The measure awaits Gov. Dunleavy's signature.",
+      "confirmed_facts": [
+        "Max weekly benefit $370 -> $470 (ADN, Alaska Public, Governing)",
+        "Dependent allowance $24 -> $72/week",
+        "First increase since 2009",
+        "Awaits Gov. Dunleavy signature",
+        "Rep. Zack Fields cited the most seasonal workforce in the country (construction, oil and gas)"
+      ],
+      "softening_required": [
+        "STRIP the bill number 'HB 302' — Governing reports it passed as an amendment to an unrelated bill; ambiguous.",
+        "Trust fund balance figures conflict ($774M Sept-2024 data vs $800M+); avoid or qualify."
+      ],
+      "industry_consequence": "Workforce retention. A retention lever for the skilled-trades and technical labor pool that any AI-infrastructure or autonomy buildout would draw against; effect contingent on the governor's signature.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/26/for-first-time-in-17-years-alaska-lawmakers-voted-to-increase-unemployment-benefits/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-26", "in_window": true},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-27/alaska-lawmakers-seek-first-boost-to-unemployment-benefits-since-2009", "outlet": "Alaska Public Media", "pub_date": "2026-05-27", "in_window": true},
+        {"url": "https://www.governing.com/workforce/alaska-moves-to-raise-unemployment-benefits-for-the-first-time-in-17-years", "outlet": "Governing", "pub_date": "2026-05-28", "in_window": true}
+      ],
+      "confidence": "high",
+      "needs_softening": true,
+      "background_context": false
+    },
+    {
+      "id": "B2",
+      "story_title": "Koniag / Tuknik Government Services wins 2026 ACT-IAC Innovation Impact Award for Army Contracting Agentic AI Suite",
+      "summary": "Tuknik Government Services, a subsidiary of Alaska Native Corporation Koniag, won the 2026 ACT-IAC Innovation Impact Award for an Army Contracting Agentic AI Suite (anchored by the DORA bot, cutting vendor responsibility analysis from one hour to two minutes) that the announcement says saves the Army more than $37 million and 687,000 work hours annually.",
+      "confirmed_facts": [
+        "$37M annual savings and 687,000 work hours (verbatim on Koniag and Nat Law Review pages)",
+        "DORA bot 1 hour -> 2 minutes",
+        "2026 ACT-IAC Innovation Impact Award"
+      ],
+      "softening_required": ["USE AS BACKGROUND ONLY — dated 2026-05-19, outside window. Do not present as a this-week event; frame as recent context."],
+      "industry_consequence": "Federal AI services. Demonstrates an Alaska Native Corporation subsidiary delivering award-winning federal AI capability, a proof point for whether Alaska entities capture (vs. host) the federal AI/autonomy buildout.",
+      "sources": [
+        {"url": "https://www.koniag-gs.com/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award/", "outlet": "Koniag Government Services", "pub_date": "2026-05-19", "classification": "primary", "in_window": false},
+        {"url": "https://natlawreview.com/press-releases/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award", "outlet": "National Law Review", "pub_date": "2026-05-19", "in_window": false}
+      ],
+      "confidence": "high",
+      "needs_softening": false,
+      "background_context": true
+    }
+  ],
+  "dropped": [
+    {"story_title": "DOD 8(a) review + Alaska Legislature ANC resolutions (B3)", "reason": "SJR26/HJR44 and $13.5B/23,740 jobs figures unconfirmed; in-window source (ADN May 29) does not support the resolution claim; also a frame-repeat risk vs the 2026-05-29 Native-institutions lead."},
+    {"story_title": "Stak Energy North Slope $500M AI data center (DNR preliminary lease)", "reason": "Repeat — led the 2026-05-20 (VOL 02) post."},
+    {"story_title": "DOE Grid Resilience grants frozen for 91 AK tribal entities", "reason": "Repeat — covered in the 2026-05-29 (VOL 03 prior run) post."},
+    {"story_title": "Air Force JBER/Eielson/Clear AI data center lease deadline", "reason": "Repeat — covered 2026-05-12 and 2026-05-29."},
+    {"story_title": "ProPublica/ADN USF investigation + FCC Alaska Connect Fund reform", "reason": "Adjacent to the 2026-05-13 broadband-USF lead frame; used only as supporting context if needed, not a lead."}
+  ]
+}

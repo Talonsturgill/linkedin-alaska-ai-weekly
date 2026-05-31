@@ -1,48 +1,66 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "volume": "VOL. 03",
+  "surface": "LinkedIn",
+  "run_date": "2026-05-31",
+  "window": ["2026-05-24", "2026-05-31"],
+  "stories": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "id": "C1",
+      "label": "LEAD",
+      "headline": "USCG Cutter Waesche debuts V-BAT autonomous ISR drone on 113-day Bering Sea patrol",
+      "claims_in_post": [
+        "V-BAT vertical-takeoff drone flew live surveillance off the Waesche, first operational integration of the system on a national security cutter in Alaskan waters",
+        "Waesche (WMSL 751), 113-day Bering Sea patrol, ~18,685 nautical miles",
+        "first-ever fueling-at-sea with new polar icebreaker USCGC Storis at Dutch Harbor",
+        "Vice Adm. Nathan Moore said in April that Chinese and Russian vessel activity near Alaska is rising (April panel, not this patrol; no direct quote)"
+      ],
+      "sources": [
+        {"url": "https://www.dvidshub.net/news/566047/us-coast-guard-cutter-waesche-returns-alameda-after-successful-113-day-patrol-bering-sea", "outlet": "DVIDS (U.S. Coast Guard)", "pub_date": "2026-05-22", "classification": "primary", "note": "background origin source (2 days before window)"},
+        {"url": "https://alaska-native-news.com/u-s-coast-guard-cutter-waesche-returns-to-alameda-after-successful-113-day-patrol-in-bering-sea/84170/", "outlet": "Alaska Native News", "pub_date": "2026-05-24"},
+        {"url": "https://seapowermagazine.org/u-s-coast-guard-cutter-waesche-returns-to-alameda-after-successful-113-day-patrol-in-bering-sea/", "outlet": "Seapower Magazine", "pub_date": "2026-05-26"},
+        {"url": "https://www.janes.com/defence-intelligence-insights/defence-news/sea/us-coast-guard-integrates-v-bat-drone-tests-new-icebreaker-systems-in-bering-sea-patrols", "outlet": "Janes", "pub_date": "2026-05-27"}
+      ]
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "id": "E1",
+      "label": "SUPPORT",
+      "headline": "GCI Aleutian subsea fiber break cuts six communities (May 27)",
+      "claims_in_post": [
+        "May 27 GCI subsea fiber cable severed between Larsen Bay and Chignik Bay",
+        "internet and wireless cut to six communities (Akutan, Chignik Bay, False Pass, King Cove, Perryville, Unalaska)",
+        "repair-vessel transit 7 to 14 days, mobile voice and texting partly restored on backup satellite",
+        "second Aleutian subsea break in roughly six months"
+      ],
+      "sources": [
+        {"url": "https://www.kucb.org/regional/2026-05-27/gci-investigating-possible-subsea-fiber-damage-after-swath-of-aleutian-communities-lose-service", "outlet": "KUCB", "pub_date": "2026-05-27", "author": "Maggie Nelson", "classification": "primary"},
+        {"url": "https://broadbandbreakfast.com/fiber-break-cuts-of-six-alaska-towns/", "outlet": "Broadband Breakfast", "pub_date": "2026-05-29", "author": "Georgina Mackie"}
+      ]
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "A2",
+      "label": "SUPPORT",
+      "headline": "NSF TechAccess AI-Ready America (NSF 26-508), June 16 LOI deadline",
+      "claims_in_post": [
+        "NSF joint program with the Labor Department funds about $1 million a year for three years per state for an AI workforce coordination hub",
+        "Round 1 Letters of Intent due June 16, full proposals July 16, only 10 hubs selected in Round 1",
+        "University of Alaska framed as the desk's read of the obvious applicant"
+      ],
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "National Science Foundation", "pub_date": "2026-04-02", "classification": "primary", "note": "solicitation predates window; June 16 LOI deadline is the in-window forcing function"}
+      ]
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "id": "B2",
+      "label": "BACKGROUND",
+      "headline": "Koniag / Tuknik wins 2026 ACT-IAC Innovation Impact Award for Army agentic-AI suite",
+      "claims_in_post": [
+        "Tuknik Government Services, a Koniag subsidiary, recently won the 2026 ACT-IAC Innovation Impact Award for an Army agentic-AI suite the announcement says saves more than $37 million and 687,000 work hours a year"
+      ],
+      "sources": [
+        {"url": "https://www.koniag-gs.com/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award/", "outlet": "Koniag Government Services", "pub_date": "2026-05-19", "classification": "primary", "note": "out of window; used as recent background context"},
+        {"url": "https://natlawreview.com/press-releases/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award", "outlet": "National Law Review", "pub_date": "2026-05-19"}
+      ]
     }
-  ]
+  ],
+  "source_count": 9
 }
