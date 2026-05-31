@@ -1,17 +1,17 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
+  "volume": "SOVEREIGNTY",
+  "topic": "ANCSA Stack Turns\nArmy AI Into Dividends",
+  "date": "31 MAY 2026",
   "byline": "",
-  "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
+  "kicker": "THE STACK",
+  "motto": "how the machinery actually works",
   "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
   "seed": 11,
   "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "rendered_at_utc": "2026-05-31T08:55:05.103128Z",
   "canvas": [
     1080,
     1080
   ],
-  "out_path": "out/post_image.png"
+  "out_path": "/home/user/linkedin-alaska-ai-weekly/out/post_image.png"
 }
