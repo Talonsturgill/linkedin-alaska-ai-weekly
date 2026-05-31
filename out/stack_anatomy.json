@@ -1,123 +1,100 @@
 {
-  "run_date": "2026-05-20",
-  "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
-    "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+  "run_date": "2026-05-31",
+  "no_target_this_cycle": false,
+  "_validation_note": "14-day window (May 17-31) applied. No broadening to 21 days was required. Candidate 1 (APFC IPS) was dropped on Gate 5 (6-member Board is a committee chokepoint, not a single named actor) and Gate 1 borderline (second verbatim sentence not findable on accessible HTML page; may be in binary PDF only — paraphrase drift risk). Candidate 3 (BLM NPR-A) dropped on Gate 3 (L3 primary source unverifiable; Federal Register URL redirects to bot-block page) and Gate 5 (NEPA process is not a single-actor binary chokepoint) and Gate 7 overlap with Stak Energy post. Candidate 4 (AIDEA AIDF) dropped on Gate 1 (news trigger May 11/14 outside 14-day window) and Gate 3 (AIDEA AIDF statutory page returned certificate error). Candidate 5 (DAF EUL) dropped — same AFCEC primary source failures as prior two cycles, no improvement. Candidate 6 (GCI-Quintillion FCC) dropped Gate 1 (39 days old). Selected Candidate 2 (Koniag/Tuknik ANC Corporate Stack) passed all seven gates. Gate 7 borderline: shares Layer 1 ANCSA preference with May 25 post, but the May 25 post anatomized the SBA Administrator eligibility-gate layer chain; this mechanism anatomizes the operating corporate structure (ANCSA regional corp → operating holding company → 8(a) delivery subsidiary → federal task order → shareholder dividend repatriation), which is a distinct layer chain. Chokepoint is the GSA Federal Acquisition Service Contracting Officer's execution of the STARS III option modification — a single institutional role with binary authority before July 1, 2026.",
+  "dropped_mechanisms": [
+    {
+      "name": "APFC Annual Investment Policy Statement (IPS) Approval Machine",
+      "drop_reason": "diffuse_chokepoint: The Board of Trustees IPS vote is a 6-member collective body, not a single named actor or binary-authority institutional role. Additionally, the second sentence of the scout-cited verbatim span was not found on the accessible HTML page — the full press release is in a binary PDF that could not be parsed, creating paraphrase drift risk on Gate 1. The specific allocation percentages cited in the candidate description could not be verified from any accessible primary source URL. IPS governance page returned 404."
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    {
+      "name": "BLM NPR-A Production Site Fast-Track Permitting Rulemaking",
+      "drop_reason": "missing_primary_source_per_layer: Federal Register URL for the NOI redirects to an anti-scraping block page and returns no content; L3 primary source (Harvard EELP tracker) does not document 43 CFR Part 3160 rulemaking authority or OIRA review as claimed; L1 controlling source (northern.org) is a policy-advocacy secondary source, not a primary source. Also fails Gate 5: the NEPA EIS scoping process is a procedural stage with diffuse decision rights spread across a project team, not a single named actor with binary authority. Also borderline Gate 7 overlap: the North Slope AI data center permitting chain was anatomized May 30."
+    },
+    {
+      "name": "AIDEA Arctic Infrastructure Development Fund (AIDF) Capital Deployment",
+      "drop_reason": "no_news_tie: The dermotcole.com news trigger was published May 11, 2026 (outside the 14-day window of May 17-31); the northern.org article confirming the vote was published May 14, 2026 (also outside 14-day window). Window was not broadened to 21 days because Candidate 2 passed all gates at 14 days. Additionally, Gate 3 fails independently: the AIDEA.org AIDF statutory-authority page returned a certificate error and no content, making the foundational Layer 1 (AS 44.88.800) unverifiable from its cited primary source. AI relevance is also indirect (opportunity-cost argument only)."
+    },
+    {
+      "name": "DAF Alaska Military-Base Enhanced Use Lease (EUL) for AI Data Centers",
+      "drop_reason": "missing_primary_source_per_layer: This mechanism was attempted and dropped in the prior two cycles (May 20 and May 25) for the same reason — the AFCEC EUL program page and SAM.gov solicitation both failed to return substantive content confirming the Investment Committee authority layer. No improvement in primary source accessibility was found in this cycle. Additionally, no fresh news article specifically reporting the May 29 proposal-close deadline was identified; the only in-window event is the administrative deadline itself, which does not constitute independent news coverage naming the mechanism."
+    },
+    {
+      "name": "GCI-Quintillion FCC Cable License Transfer and Team Telecom Review",
+      "drop_reason": "no_news_tie: ADN article April 22, 2026 is 39 days old — outside both the 14-day window (May 17-31) and the 21-day broadened window (May 10-31). No in-window news event identified."
+    }
+  ],
+  "selected_mechanism": {
+    "name": "Koniag/Tuknik ANC Corporate Stack: ANCSA Sovereign Capital Loop to Army Agentic AI",
+    "category": "capital_sovereignty",
+    "category_label": "SOVEREIGNTY",
+    "news_trigger": {
+      "headline": "KGS Subsidiary and Army Customer Win 2026 ACT-IAC Innovation Impact Award",
+      "outlet": "EINPresswire / Koniag Government Services",
+      "pub_date": "2026-05-19",
+      "url": "https://www.einpresswire.com/article/913661627/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award",
+      "verbatim_span": "Koniag Government Services (KGS) supports the Office of the Deputy Assistant Secretary of the Army (Procurement) (ODASA(P)) in development of its Army Contracting Agentic AI Suite through its Tuknik Government Services (TGS) subsidiary... These intelligent automation solutions save over $37 million and 687,000 work hours annually by automating procurement processes."
+    },
+    "one_line_definition": "A five-layer ANCSA sovereign capital loop by which Koniag, Inc. (ANCSA regional corporation) channels federal AI-procurement revenue downward through holding company Koniag Government Services and 8(a)-protégé Tuknik Government Services — using a GSA STARS III task order — then repatriates profits upward to approximately 3,400 Alutiiq shareholders as dividends, converting a federal AI contract into Alaska Native sovereign wealth through a statutory preference unavailable to non-ANC firms.",
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "layer_name": "L1: ANCSA Regional Corporation Foundation",
+        "what_it_does": "Koniag, Inc., one of 12 ANCSA regional corporations established by Congress in 1971, holds the sovereign charter that confers on its subsidiaries the ANC preference in federal contracting — specifically, entity-owned 8(a) participants (ANCs) are eligible for sole-source contracts above standard dollar thresholds, a privilege non-ANC small businesses do not have. This statutory foundation is what makes every downstream layer possible.",
+        "controlling_actor": "Koniag, Inc. Board of Directors (elected by ~3,400 Alutiiq shareholders); institutional role persists regardless of board composition",
+        "primary_source_url": "https://www.koniag.com/about-us/",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
+        "layer_name": "L2: Operating Holding Company (Koniag Government Services LLC)",
+        "what_it_does": "KGS aggregates contract vehicles and capabilities across Koniag's government services portfolio. It holds GSA OASIS+ (contracts 47QRCA26DA023, 47QRCA25DS893, 47QRCA25DU551), GSA MAS (IT Professional Services 54151S), SeaPort NxG (N0017825D7522), and GSA Polaris (47QTCC25DS061), plus AWS AI Specialization. KGS routes task orders to the appropriate subsidiary — in this case, Tuknik — and holds the commercial AI infrastructure relationships that underpin the Army suite.",
+        "controlling_actor": "KGS executive leadership; VP AI Strategy Carin Chapman as named capability owner; institutional role as holding company persists",
+        "primary_source_url": "https://www.koniag-gs.com/contracts/",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
+        "layer_name": "L3: 8(a) Delivery Subsidiary and GWAC Vehicle (Tuknik Government Services, STARS III #47QTCB22D0301)",
+        "what_it_does": "Tuknik Government Services is the 8(a)-certified delivery entity holding GSA STARS III master contract 47QTCB22D0301 — a $50B government-wide acquisition contract for IT services. STARS III's base ordering period runs July 2, 2021 through July 1, 2026; GSA has announced intent to exercise a 3-year option extending the ordering period through July 1, 2029. TGS receives task orders under STARS III and executes the Army Contracting Agentic AI Suite. The ANC 8(a) preference that eliminates competitive bidding requirements flows through TGS's 8(a) certification.",
+        "controlling_actor": "GSA Federal Acquisition Service Contracting Officer for STARS III (institutional role) — holds binary authority to execute or not execute the option period modification before July 1, 2026; TGS Program Manager Sam Coulson on the delivery side",
+        "primary_source_url": "https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/governmentwide-acquisition-contracts/8a-stars-iii",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
+        "layer_name": "L4: Federal Customer Task Order (ODASA(P) Army Procurement Agentic AI Suite)",
+        "what_it_does": "The Office of the Deputy Assistant Secretary of the Army (Procurement) issues task orders against TGS's STARS III vehicle for development and operation of the Army Contracting Agentic AI Suite: over 150 automated workflows including DORA (Determination of Responsibility Assistant), J&A Jump Starter, PAMela Chatbot, and AI-Powered User Public Square — all running on Amazon Bedrock. The suite saves $37M and 687,000 work hours annually. ODASA(P) sets scope and funding for each task order; new task orders after July 1, 2026 depend on the STARS III option being exercised.",
+        "controlling_actor": "ODASA(P) (Office of the Deputy Assistant Secretary of the Army for Procurement) as task-order issuing authority; KGS/TGS as prime contractor; AWS as cloud infrastructure provider",
+        "primary_source_url": "https://aws.amazon.com/solutions/case-studies/us-army-koniag-gov-services/",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       },
       {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
+        "layer_name": "L5: ANC Profit Repatriation and Shareholder Benefit Layer",
+        "what_it_does": "Federal task-order revenue flows from ODASA(P) to TGS to KGS to Koniag, Inc., where it is distributed to approximately 3,400 Alutiiq shareholders as dividends, educational scholarships, elder distributions, and community investments. This is the sovereignty closure: federal AI-procurement spending becomes Alaska Native sovereign wealth, routed through a statutory preference that converts federal contract dollars into indigenous economic capital unavailable through any other contracting pathway.",
+        "controlling_actor": "Koniag, Inc. Board of Directors (elected by Alutiiq shareholders); institutional role as ANCSA regional corporation distribution authority persists regardless of board composition",
+        "primary_source_url": "https://www.koniag.com/about-us/",
         "primary_source_doc_type": "agency_page",
         "primary_source_reverified": true
       }
     ],
     "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
+      "layer_name": "L3: STARS III Option Period Execution",
+      "actor": "GSA Federal Acquisition Service Contracting Officer for STARS III (institutional role)",
+      "binary_decision": "Execute or decline to execute the contract modification extending the STARS III ordering period from July 1, 2026 through July 1, 2029 — a single bilateral modification that either keeps the task-order pipeline open for three additional years or closes new-order authority on July 1, 2026",
+      "why_asymmetric": "The GSA Contracting Officer for STARS III is the single institutional role with unilateral authority to execute the option period modification. No other party — not Koniag, not ODASA(P), not TGS — can substitute for that signature. GSA has announced intent to exercise but has not yet executed the formal modification. Until the modification is signed, every new task order placed after July 1, 2026 under STARS III — including any Army AI suite expansion — is at risk."
     },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
-  },
-  "dropped_mechanisms": [
-    {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
-    },
-    {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
-    },
-    {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
-    },
-    {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
-    },
-    {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
-    },
-    {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
-    },
-    {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
+    "structural_read": "The Koniag/Tuknik corporate stack is a template for how ANCSA regional corporations have evolved from land-settlement vehicles into federal AI prime contractors. The loop is elegant: ANCSA sovereign status → 8(a) certification → GWAC vehicle access → sole-source task-order eligibility → federal AI revenue → shareholder dividend repatriation. The July 1, 2026 STARS III chokepoint reveals a structural fragility in this loop — every ANC firm using STARS III faces the same option-period cliff simultaneously. GSA's published intent to exercise does not eliminate execution risk; it signals intent, not completion. Any ANC operating company with STARS III exposure should be treating the option modification signature as a binary event requiring active vendor relationship management with GSA's Federal Acquisition Service.",
+    "forward_implication": "Any Alaska-based ANC operating company (or their legal/contracts team) with active STARS III task orders should confirm with GSA's Federal Acquisition Service whether the STARS III option period modification has been formally executed — not merely announced as intent — and if not, request a written status update and any transition or bridge-contract mechanism in the event of a gap. The July 1 cliff is 31 days out.",
+    "ak_consequence": "Koniag's ~3,400 Alutiiq shareholders receive dividends from $250M+ in federal AI revenues routed through the ANCSA corporate stack; the GSA STARS III option-period modification — which must be executed before July 1, 2026 — is the single binary event determining whether TGS can continue writing new Army AI task orders through 2029 or faces a 31-day ordering gap that disrupts the repatriation loop.",
+    "gate_results": {
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_source": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_a_recent_repeat": true
     }
-  ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  }
 }

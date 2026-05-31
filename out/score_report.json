@@ -1,32 +1,52 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "hard_fail_checks": {
+    "hashtag_count_in_range": {
+      "pass": true,
+      "note": "4 hashtags at end only (#AlaskaAI, #IndigenousData, #FederalContracting, #ProcurementReform). All 4 on brand.yaml whitelist. Within 3-5 range."
+    },
+    "punctuation_bans_held": {
+      "pass": true,
+      "note": "Em-dashes appear only in bullet separators, explicitly permitted. No colons, semicolons, en-dashes, or double-hyphens in prose."
+    },
+    "total_char_count_under_linkedin_cap": {
+      "pass": false,
+      "char_count": 3041,
+      "note": "Estimated ~3,041 chars (body ~2,977 + hashtag line 64 + newlines ~18-26). Exceeds 3,000-char cap by ~41 chars. Contract numbers (47QTCB22D0301, 47QTCC25DS061, N0017825D7522) in bullet block are primary contributor. Hard-fail triggered. Draft v2 applies mechanical fix."
+    },
+    "word_count_in_range": {
+      "pass": true,
+      "word_count": 435,
+      "note": "435 words (hashtag line excluded). Within 350-475 range."
+    },
+    "mechanism_named_and_news_tied": {
+      "pass": true,
+      "note": "Post names Koniag/Tuknik five-layer ANC corporate stack AND opens with ACT-IAC Innovation Impact Award win matching news_trigger in stack_anatomy.json (pub_date 2026-05-19)."
+    },
+    "every_layer_attributed": {
+      "pass": true,
+      "note": "All five bullet layers match stack_anatomy.json layers[]. L1 Koniag Board, L2 KGS/Carin Chapman, L3 GSA FAS CO for STARS III, L4 ODASA(P), L5 Koniag Board. No invented actors."
+    },
+    "chokepoint_named": {
+      "pass": true,
+      "note": "Post names Layer 3, GSA Federal Acquisition Service Contracting Officer, binary decision (execute STARS III option modification before July 1, 2026). Matches dossier chokepoint exactly."
+    }
+  },
+  "criteria_scores": {
+    "Hook strength": {"score": 9, "weight": 0.10, "weighted": 0.90, "note": "Opens with specific mechanism, news trigger, and July 1 stake. 173 chars. Minor deduction: 'worth understanding' slightly passive."},
+    "Mechanism load-bearing + AK consequence": {"score": 10, "weight": 0.18, "weighted": 1.80, "note": "Mechanism drives Alaska Native sovereign wealth decision. AK consequence fully specified: sector, actor (~3,400 Alutiiq shareholders), dollars ($250M+), timeframe (31 days)."},
+    "Layer fidelity": {"score": 10, "weight": 0.14, "weighted": 1.40, "note": "All five layers present in dossier. Every controlling actor matches. Chain complete, no invented actors."},
+    "Chokepoint clarity": {"score": 10, "weight": 0.13, "weighted": 1.30, "note": "Layer 3 named, GSA FAS CO named, binary decision named (execute modification or not). 'No other party can substitute' establishes asymmetry."},
+    "Structural read": {"score": 9, "weight": 0.12, "weighted": 1.08, "note": "Real position: treating 'intent announced' as 'option executed' is a pricing error. Debatable. Not neutral. Minor deduction: could name which ANC firms are at risk more specifically."},
+    "Forward implication": {"score": 10, "weight": 0.08, "weighted": 0.80, "note": "Concrete: confirm with GSA, request bridge mechanism. Timeframe: 31 days. Who's positioned/not positioned named."},
+    "Primary-source quality": {"score": 10, "weight": 0.10, "weighted": 1.00, "note": "All five layers trace to primary sources, all reverified=true in dossier. Specific contract number (47QTCB22D0301), named individuals, verifiable figures."},
+    "Voice match": {"score": 9, "weight": 0.08, "weighted": 0.72, "note": "Analytical, position-taking, business-literate throughout. Minor deduction: line 2 'worth understanding' slightly passive."},
+    "Readability (LinkedIn)": {"score": 5, "weight": 0.04, "weighted": 0.20, "note": "Paragraphs tight, bullet block well-formed. Word count in range. Character count exceeds 3,000 cap (hard-fail). Score reflects this constraint."},
+    "Engagement question": {"score": 9, "weight": 0.03, "weighted": 0.27, "note": "Specific, debatable, chokepoint-tied. Not rhetorical. Minor: conditional opener narrows who can engage."}
+  },
+  "weighted_total": 9.47,
+  "ship": false,
   "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "any_hard_fail": true,
+  "revision_note": "Mechanical fix applied in draft_v2: removed contract numbers 47QTCC25DS061 and N0017825D7522 from L2 bullet (-28 chars), shortened engagement question (-17 chars). Estimated post v2 total: ~2,996 chars. All substance preserved.",
+  "summary": "Post scores 9.47 weighted — well above 8.0 threshold — but fails total_char_count_under_linkedin_cap hard-fail by ~41 chars. Fix is mechanical: trim redundant contract numbers from L2 bullet and shorten engagement question. No structural revision required."
 }

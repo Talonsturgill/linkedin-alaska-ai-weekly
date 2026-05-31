@@ -1,48 +1,38 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "run_date": "2026-05-31",
+  "column": "The Stack",
+  "mechanism": "Koniag/Tuknik ANC Corporate Stack: ANCSA Sovereign Capital Loop to Army Agentic AI",
+  "news_trigger": {
+    "headline": "KGS Subsidiary and Army Customer Win 2026 ACT-IAC Innovation Impact Award",
+    "outlet": "EINPresswire / Koniag Government Services",
+    "pub_date": "2026-05-19",
+    "url": "https://www.einpresswire.com/article/913661627/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award"
+  },
+  "layer_sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "layer": "L1: ANCSA Regional Corporation Foundation",
+      "url": "https://www.koniag.com/about-us/",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "layer": "L2: Operating Holding Company (Koniag Government Services LLC)",
+      "url": "https://www.koniag-gs.com/contracts/",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "layer": "L3: 8(a) Delivery Subsidiary and GWAC Vehicle (Tuknik Government Services, STARS III)",
+      "url": "https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/governmentwide-acquisition-contracts/8a-stars-iii",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "layer": "L4: Federal Customer Task Order (ODASA(P) Army Procurement Agentic AI Suite)",
+      "url": "https://aws.amazon.com/solutions/case-studies/us-army-koniag-gov-services/",
+      "doc_type": "agency_page"
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "layer": "L5: ANC Profit Repatriation and Shareholder Benefit Layer",
+      "url": "https://www.koniag.com/about-us/",
+      "doc_type": "agency_page"
     }
   ]
 }

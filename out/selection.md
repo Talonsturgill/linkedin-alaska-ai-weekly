@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — The Stack — 2026-05-31
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism:** Koniag/Tuknik ANC Corporate Stack: ANCSA Sovereign Capital Loop to Army Agentic AI
 
-## Role
-FOUNDER (kicker middle slot)
+**Category:** capital_sovereignty
+**Category label (kicker middle slot):** SOVEREIGNTY
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger:** "KGS Subsidiary and Army Customer Win 2026 ACT-IAC Innovation Impact Award"
+Outlet: EINPresswire / Koniag Government Services
+Pub date: 2026-05-19
+URL: https://www.einpresswire.com/article/913661627/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count:** 5
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Chokepoint:** L3 — GSA Federal Acquisition Service Contracting Officer for STARS III
+Binary decision: Execute or not execute the contract modification extending the STARS III ordering period from July 1, 2026 through July 1, 2029. GSA has announced intent to exercise but has not yet executed the formal modification. July 1 cliff is 31 days out.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read:** The Koniag/Tuknik stack is a template for how ANCSA regional corporations have evolved from land-settlement vehicles into federal AI prime contractors. The loop — ANCSA sovereign status → 8(a) certification → GWAC vehicle access → sole-source task-order eligibility → federal AI revenue → shareholder dividend repatriation — reveals a structural fragility at the STARS III chokepoint that every ANC firm using the vehicle faces simultaneously. GSA intent is not GSA execution.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Forward implication:** ANC operating companies with STARS III exposure should confirm whether the option period modification has been formally executed — not merely announced as intent — and request a written status update within the next 31 days.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Gate 7 note:** Shares Layer 1 ANCSA preference with the May 25 post (ANC 8(a) SBA application gate), but that post anatomized the SBA Administrator eligibility gate. This mechanism maps the operating corporate structure and profit repatriation loop — a distinct layer chain.
