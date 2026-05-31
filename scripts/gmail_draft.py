@@ -22,7 +22,8 @@ table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-
 
 
 def render(post_text, image_b64, sources, score, date_str, branch,
-           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn"):
+           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn",
+           editor_note=""):
     src_items = "\n".join(
         f'<li><a href="{s["url"]}">{s["outlet"]}</a> &mdash; '
         f'{s.get("pub_date","")} &mdash; {s.get("story_title","")}</li>'
@@ -37,6 +38,10 @@ def render(post_text, image_b64, sources, score, date_str, branch,
         f'<div class="flag"><b>Below threshold.</b> Weakest: '
         f'{score.get("weakest_criterion","?")}. '
         f'Fix: {score.get("one_sentence_fix","?")}</div>'
+    )
+    editor_block = (
+        f'<h2>Editor\'s note</h2><div class="flag">{editor_note}</div>'
+        if editor_note else ""
     )
     return f"""<!doctype html><html><head><style>{CSS}</style></head><body>
 <div class="wrap">
@@ -56,6 +61,7 @@ def render(post_text, image_b64, sources, score, date_str, branch,
   <p><b>Weighted total:</b> {score.get("weighted_total","?")} / 10 &middot;
      <b>Threshold:</b> {score.get("threshold","?")} &middot;
      <b>Ship:</b> {"yes" if score.get("ship") else "no &mdash; see flag above"}</p>
+  {editor_block}
   <div class="foot">Generated {dt.datetime.utcnow().isoformat()}Z by the Alaska.Ai {footer_label} routine.</div>
 </div></body></html>"""
 
@@ -70,6 +76,7 @@ def main():
     ap.add_argument("--branch",  required=True)
     ap.add_argument("--label",        default="Weekly LinkedIn Recap")
     ap.add_argument("--footer-label", default="Weekly LinkedIn")
+    ap.add_argument("--editor-note",  default="")
     args = ap.parse_args()
 
     post_text = Path(args.post_md).read_text()
@@ -81,7 +88,8 @@ def main():
         "subject": f"Alaska.Ai — {args.label} Draft — {args.date}",
         "to": "me",
         "html_body": render(post_text, image_b64, sources, score, args.date,
-                            args.branch, args.label, args.footer_label),
+                            args.branch, args.label, args.footer_label,
+                            args.editor_note),
     }
     print(json.dumps(payload))
 
