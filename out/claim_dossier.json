@@ -1,0 +1,57 @@
+{
+  "selected_claim": {
+    "claim_verbatim": "This is a unique opportunity for a true public-private partnership.",
+    "claim_paraphrase_fair": "The Department of the Air Force's offer to lease land across three Alaska bases for commercial AI data centers constitutes a genuine, balanced public-private partnership in which government and industry share mutual commitment and risk.",
+    "asserters": [
+      {
+        "name": "Robert Moriarty",
+        "title_or_org": "Deputy Assistant Secretary of the Air Force for Installations",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air and Space Forces Magazine",
+        "pub_date": "2026-04-11",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 5,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "A Deputy Assistant Secretary of the Air Force used the phrase in an official announcement, and the concept of the military providing land while industry builds infrastructure genuinely resembles established PPP frameworks. Given the federal government's demonstrated AI compute demand and Alaska's strategic Arctic position, analysts and bidders reasonably assumed the Air Force would be a reliable anchor tenant.",
+    "steelman": "The Air Force is providing scarce, strategically valuable land across three Alaska installations - Eielson AFB, Clear Space Force Station, and Joint Base Elmendorf-Richardson - at no cost to developers, eliminating the largest single barrier to entry for Arctic data center construction. The military has a documented, growing appetite for edge AI compute in the Indo-Pacific and Arctic corridors. The arrangement resembles proven PPP models (e.g., CRADA, Enhanced Use Leases) in which government conveys real-property rights and industry supplies capital and operations. The word 'partnership' is not legally meaningless: the DoD is a counterparty, with shared interests in Arctic AI capability and force readiness. For bidders willing to price commercial revenue independently, the DoD land deal can be the enabling condition even if the government commitment to purchase is soft.",
+    "where_it_breaks": "The RFP itself contains explicit language that 'the Government may purchase AI Data Center services and power from the Project(s), it is under no obligation to do so' - meaning the government offers real estate but zero guaranteed offtake. A true public-private partnership implies mutual obligation; this structure places 100% of commercial viability risk on the lessee, who must underwrite the entire investment against speculative civilian and defense demand in a remote Arctic location with permafrost, grid, and logistics constraints that the RFP does not mitigate.",
+    "counter_evidence": [
+      {
+        "fact": "The Department of the Air Force's Request for Lease Proposal (released April 10, 2026) states: 'Although the Government may purchase AI Data Center services and power from the Project(s), it is under no obligation to do so' - the government commits only land, not revenue or compute demand.",
+        "url": "https://news.clearancejobs.com/2026/04/14/air-force-eyes-arctic-ai-boom-with-new-data-center-push-in-alaska/",
+        "outlet": "ClearanceJobs",
+        "pub_date": "2026-04-14",
+        "is_primary": true,
+        "reverified": true
+      }
+    ],
+    "more_accurate_frame": "The DAF Alaska data center initiative is a real-estate lease program, not a partnership with guaranteed government revenue. The Air Force contributes land; developers contribute all capital and bear all commercial risk against uncertain government and civilian demand. Bidders who modeled the deal as a government-anchored revenue stream - standard in genuine PPPs - will face underwriting gaps that could stall or kill projects. The accurate framing is: unique site access on favorable terms, with full commercial risk transfer to the private sector.",
+    "corrective_thesis": "Calling the Air Force Alaska data-center lease a 'public-private partnership' obscures the RFP's own language that the government makes no obligation to purchase any computing capacity, leaving developers to carry 100% of commercial risk in one of the world's most logistically challenging environments.",
+    "ak_consequence": "Defense/tech sector - companies submitting proposals against the May 29, 2026 RFP deadline for land leases at Eielson AFB, Clear SFS, and JBER must price projects without any guaranteed government offtake commitment; Alaska policymakers and the legislature championing the deal as an economic development anchor are relying on a framing the RFP itself contradicts, risking projects that stall post-award when commercial revenue targets are not met.",
+    "recurrence_note": "Seven or more outlets covered the April 10 RFP announcement within 30 days, uniformly amplifying Moriarty's 'unique partnership' framing; none prominently quoted the no-obligation clause from the RFP text.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {"id": "T1_arctic_satellite_gap", "reason": "steelman_survives_fails / true_as_stated - the core claim that GEO satellites cannot see above ~65-70N is factually correct orbital geometry; the correction (LEO alternatives exist) is an addendum, not a rebuttal. Minor attribution-URL mismatch (quote on military.com, not the listed Breaking Defense URL)."},
+    {"id": "A5_no_ai_policy_strategy", "reason": "no_primary_counter - the on-point primary counter (Alaska DEED K-12 AI Framework PDF, Oct 2025) could not be read by WebFetch (binary PDF). Secondary ADN op-ed is non-primary. Gate 5 unconfirmable this cycle."},
+    {"id": "A1_outside_hires_workforce", "reason": "single_non_primary - one originating asserter (ADN Editorial Board, same source as A5), opinion not institutional testimony; insufficient independent circulation."},
+    {"id": "P2_broadband_unlocks_telehealth", "reason": "true_as_stated - the steelmanned claim (broadband is essential infrastructure) is correct and broadly accepted; the RHTP funding-prohibition nuance is a separate funding-silo problem, not a rebuttal of the core claim."},
+    {"id": "T2_native_health_no_governance", "reason": "no_primary_counter - IJCH Tandfonline primary counter returned HTTP 403; PMC/AIM-AHEAD verified but scout flags rebuttal scholars are partly the same people building the governance (risk of splitting hairs). Gate 5 not fully confirmable."},
+    {"id": "T4_nascio_just_starting", "reason": "single_non_primary - one asserter (Glasscock/NASCIO); counter (StateScoop CIO interview) from the same outlet, undermining independent circulation; stakes are vendor pricing calibration, marginal load-bearing."},
+    {"id": "E3_fisheries_ai_em_costs", "reason": "no_primary_counter - NOAA/NPFMC 2026 Draft Annual Deployment Plan PDF returned a server error; only secondary counter verified. Asserter is a commercially interested vendor CEO; Aug 2025 date outside the 90-day window."},
+    {"id": "E5_anthc_ai_substitutes_talent", "reason": "strawman - verbatim quote does not appear as listed; source reads 'Another way is the adoption of data and analytics and access to AI tools...', and the candidate dropped that prefix, shifting additive framing into substitution framing. No publication date on the source page."}
+  ],
+  "no_target_this_cycle": false,
+  "issue_label": "NO. 04",
+  "_validation_note": ""
+}

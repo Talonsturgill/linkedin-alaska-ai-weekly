@@ -1,27 +1,25 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom NO. 04 — 2026-05-30
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim, as it circulates)
+> "This is a unique opportunity for a true public-private partnership."
+— Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations, on the DAF offer to lease land at three Alaska bases for commercial AI data centers (Air and Space Forces Magazine, 11 Apr 2026). Amplified uncritically across 7+ outlets in 30 days.
 
-## Role
-FOUNDER (kicker middle slot)
+## Why it is load-bearing
+Companies bidding against the 29 May 2026 RFP deadline for land leases at Eielson AFB, Clear Space Force Station, and JBER are pricing projects on this framing. Alaska policymakers are championing the deal as an economic-development anchor. A real PPP implies mutual obligation and shared risk.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (the strongest honest version, stated first)
+The Air Force is conveying scarce, strategically valuable Arctic land at no land cost, removing the single largest barrier to entry for data-center construction in Alaska. The DoD has real and growing edge-AI compute demand in the Arctic and Indo-Pacific. The structure resembles proven federal real-property vehicles (Enhanced Use Leases, CRADAs). "Partnership" is not empty: the government is a counterparty with a genuine readiness interest. For a developer who can underwrite commercial demand on its own, free strategic land can be the enabling condition.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## The corrective thesis (one sentence)
+Calling the Air Force Alaska data-center lease a "public-private partnership" obscures the RFP's own language that the government is under no obligation to purchase any computing capacity, leaving developers to carry 100% of commercial risk in one of the world's most logistically challenging environments.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all in claim_dossier.json, reverified)
+1. PRIMARY — RFP text (released 10 Apr 2026): "Although the Government may purchase AI Data Center services and power from the Project(s), it is under no obligation to do so." (via ClearanceJobs, 14 Apr 2026, quoting the RFP). Government commits land, not revenue or demand.
+2. Named asserter: Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (Air and Space Forces Magazine, 11 Apr 2026).
+3. Sites: Eielson AFB, Clear SFS, JBER. Deadline: 29 May 2026.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## The more accurate frame
+A real-estate lease program, not a revenue partnership. Unique site access on favorable terms, with full commercial risk transfer to the private sector. Bidders who modeled it as a government-anchored revenue stream face an underwriting gap that can stall or kill a project post-award.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK business consequence
+Defense/tech bidders must price without guaranteed offtake; permafrost, grid, and logistics constraints sit entirely on the lessee. The decision a reader reframes: treat the lease as enabling site access, then underwrite demand independently, rather than booking the DoD as an anchor tenant that the RFP says it is not.
