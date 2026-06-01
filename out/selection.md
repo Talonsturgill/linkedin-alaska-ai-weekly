@@ -1,27 +1,31 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — June 1, 2026 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism Name:** FCC Alaska Plan Expiration and Alaska Connect Fund September 1 Performance Plan Filing Gate
 
-## Role
-FOUNDER (kicker middle slot)
+**Category:** regulatory
+**Category Label:** REGULATORY
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News Trigger:**
+"The FCC sends billions to Alaska companies selling slow internet. You pay for it."
+ADN / ProPublica, May 19, 2026
+Verbatim span: "In 2016, the FCC created a program called the Alaska Plan specifically for carriers here, allowing them to negotiate their own performance targets rather than being subject to the same cost models applied elsewhere."
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer Count:** 5
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Layers:**
+1. FCC ETC Designation and Alaska Plan Authorization (FCC Wireline Competition Bureau; 47 CFR 54.317/318)
+2. USAC High-Cost Fund Disbursement Administration (USAC, FCC-designated)
+3. Alaska Plan 10-Year Milestone Expiration, December 31, 2026 (13 Alaska ETCs including GCI Communications)
+4. Alaska Connect Fund September 1, 2026 Performance Plan Opt-In Filing (carrier regulatory teams + FCC WTB)
+5. FCC Wireless Telecommunications Bureau Review and Binary Approval (FCC WTB Chief)
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Chokepoint:**
+L5 — FCC Wireless Telecommunications Bureau Chief: binary approval/rejection of each Alaska Connect Fund performance plan. A single institutional officer under delegated Commission authority. September 1 filing deadline is fixed in 47 CFR 54.318 with no grace mechanism. Miss it, lose support December 31.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Structural Read:**
+The Alaska Plan was a 10-year workaround that let Alaska carriers escape national cost-model discipline in exchange for performance commitments the FCC could not enforce. The ADN/ProPublica investigation documents the result: $4.6 billion disbursed, Alaska near the bottom for fixed broadband, at least one carrier receiving $10,000/year per subscriber while providing functionally no service. The Alaska Connect Fund transition extends the subsidy structure to 2034 with 5G-NR obligations — it doesn't fix the accountability gap. But the September 1, 2026 filing gate is the first moment in a decade where the WTB can actually condition continued subsidy on a specific, forward-looking coverage commitment. Either outcome (file and get locked into hexagon-level deployment obligations, or don't file and lose support) reshapes the rural Alaska broadband landscape and thus determines where AI-adjacent infrastructure can realistically deploy in 2027-2030.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Forward Implication:**
+Any operator or state agency planning rural Alaska AI or broadband-dependent infrastructure in communities served by Alaska Plan ETCs should confirm each carrier's September 1 filing status before committing capital to site selection or service-level agreements. A carrier that exits the subsidy stack may immediately reprice or discontinue service in marginal-cost rural markets.
+
+**CATEGORY string for image:** REGULATORY
