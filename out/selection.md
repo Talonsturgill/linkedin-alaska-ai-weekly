@@ -1,27 +1,20 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom NO. 05 — 2026-05-31
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+> "the state's existing fiber system is too old, too small and too vulnerable"
 
-## Role
-FOUNDER (kicker middle slot)
+**Asserter:** Ethan Berkowitz, co-founder of Far North Digital and former Anchorage mayor, in an Anchorage Daily News opinion piece (Jan 10, 2026). The same framing recurs from ACEP/UAF researchers ("the missing ingredient ... is the need for fiber optic cable connections," Mar 2025) and is echoed by Gov. Dunleavy in his data-center investment pitch.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (the strongest honest version)
+Alaska's fiber really is sparse by continental standards. There is no direct trans-Pacific submarine cable to Tokyo or the Asian compute markets, the state's links have a history of outages, and rural and interior communities remain underserved. For the specific job of carrying AI traffic over an Arctic path to Asia, the missing trans-oceanic cable is a real, capital-heavy barrier that has held back firm investment.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Corrective thesis (one sentence)
+Alaska's fiber gap is real but narrow and investable, a missing trans-Pacific link to Asia, not the total system failure the "too old, too small and too vulnerable" framing implies, and that distinction changes how a developer should price the capital ask.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all primary, re-verified by validator)
+1. **ACEP/UAF (Mar 25, 2026 blog):** "Alaska has had a fiber connection to the lower 48 since 2019," and clarifies the "missing ingredient" is Asia-Pacific routing specifically.
+2. **Gov. Dunleavy at Data Center World (Oct 2025, via Data Center Knowledge):** "it's about 12 milliseconds from Alaska to the coast of Oregon" — functional low-latency lower-48 connectivity.
+3. **Alaska Communications $124.5M NTIA BEAD expansion (grant Mar 17, 2026, via Homer News):** gigabit buildout to Anchorage, Fairbanks, Kodiak, Homer, Kenai, Soldotna, Delta Junction — active investment, not a system being scrapped.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK business consequence
+Far North Digital's trans-Arctic cable capital raise and the governor's 2031 readiness timeline depend on investors and hyperscalers (Microsoft, Google, Amazon evaluating Arctic routing) scoping the gap correctly. A total-system-failure narrative mis-prices the ask and obscures that one targeted trans-oceanic link, not a statewide rebuild, is the real gating item.
