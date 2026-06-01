@@ -1,23 +1,19 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+The Alaska Plan ends December 31, 2026, and September 1 is the filing deadline. ADN and ProPublica's May 19 investigation documented $4.6 billion disbursed, with Alaska still ranked near the bottom for fixed broadband.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The Alaska Plan is a $1.5 billion, 10-year federal universal service program that let thirteen Alaska mobile and rate-of-return carriers negotiate individualized performance plans instead of national cost models. It expires December 31.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+- FCC ETC Designation and Alaska Plan Authorization. Establishes which of the 13 carriers can access the high-cost fund. The FCC Wireline Competition Bureau holds this gate under 47 CFR 54.317.
+- USAC Disbursement Administration. Calculates and pays monthly support based on approved plans and compliance. USAC is the FCC-designated administrator under 47 CFR 54.701.
+- Alaska Plan 10-Year Expiration, December 31, 2026. All 13 carriers face simultaneous support termination unless they separately opt into the Alaska Connect Fund. GCI Communications holds the largest disbursement share.
+- Alaska Connect Fund September 1 Filing. Mobile ETCs must submit plans to the FCC Wireless Telecommunications Bureau by September 1 under 47 CFR 54.318. Miss it and support phases down starting December 31. Carrier regulatory teams hold the filing obligation.
+- FCC Wireless Telecommunications Bureau Review. The WTB Chief approves or rejects each plan. Approval locks in support through 2034. Rejection means termination.
 
-Five layers sit between an Air Force land offer and a powered data center.
+The WTB review is the chokepoint. The WTB Chief acts under delegated Commission authority, issuing final decisions without a full FCC vote. One institutional officer holds binary authority over each carrier's multi-year federal subsidy stream. GCI Communications, with 207,000 wireless lines and roughly $935 million in annual revenue, must have an approved plan by December 31 or face support termination.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The Alaska Plan was structured as an escape from cost-model discipline in exchange for performance commitments the FCC couldn't enforce. The ADN/ProPublica investigation documents what that produced. The Alaska Connect Fund doesn't fix that. It extends the same structure to 2034 with 5G-NR obligations. The September 1 gate is the first moment in a decade where the WTB can condition continued subsidy on a specific forward commitment. Carriers that file get locked into hexagon-level coverage obligations. Carriers that don't file lose hundreds of millions and may exit rural markets.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+Any operator or state agency planning rural Alaska AI infrastructure should confirm each carrier's September 1 filing status before committing capital. A carrier exiting the subsidy stack may reprice or discontinue rural service, stranding edge compute or remote sensing investment.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+If the WTB Chief conditions approval on deeper 5G commitments than carriers plan, which rural Alaska markets get infrastructure and which get written off as unserviceable?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #BroadbandAlaska #AIPolicy #FederalContracting #ArcticInnovation
