@@ -1,0 +1,108 @@
+{
+  "issue_label": "NO. 05",
+  "run_date": "2026-05-31",
+  "selected_claim": {
+    "claim_verbatim": "the state's existing fiber system is too old, too small and too vulnerable",
+    "claim_paraphrase_fair": "Alaska's entire existing fiber infrastructure is so deficient that the state cannot competitively host AI data centers without a wholesale new trans-Arctic cable, implying current connectivity is a near-total barrier to entry.",
+    "asserters": [
+      {
+        "name": "Ethan Berkowitz",
+        "title_or_org": "Co-founder, Far North Digital; former Anchorage mayor and Alaska state representative",
+        "url": "https://www.adn.com/opinions/2026/01/10/opinion-fiber-optic-cable-stranded-energy-and-ai-alaskas-next-great-opportunity/",
+        "outlet": "Anchorage Daily News (Opinion)",
+        "pub_date": "2026-01-10",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Peter Asmus, Gwen Holdmann, Erlingur Gudleifsson",
+        "title_or_org": "Researchers, Alaska Center for Energy and Power (ACEP), University of Alaska Fairbanks",
+        "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+        "outlet": "ACEP From the Grid blog, UAF",
+        "pub_date": "2025-03-25",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "is_primary": true,
+        "independently_originated": false
+      }
+    ],
+    "circulation_count": 5,
+    "discourse_slice": "ak_press|trade_analyst|policy_official",
+    "why_smart_people_believe_it": "Alaska's fiber infrastructure is genuinely sparse by continental U.S. standards, with no direct trans-Pacific submarine cable linking it to Asian compute markets, and the state's single submarine link to the lower 48 has historically been subject to outages. The 'too old, too small and too vulnerable' framing resonates because remote Alaska communities really do lack broadband, and the trans-Arctic cable needed to reach Tokyo and Dublin does not yet exist.",
+    "steelman": "Alaska has genuine fiber constraints: its only submarine cable to the lower 48 was not built for hyperscale AI traffic, there is no direct trans-Pacific cable to Asian markets, and the state's interior and rural communities remain underserved. For the specific use case of routing AI inference traffic from North American cloud regions to Tokyo or Dublin via an Arctic path, the missing trans-oceanic cable is a real, capital-intensive barrier that has stalled concrete investment commitments.",
+    "where_it_breaks": "The claim sweeps the 'entire existing fiber system' as too old, too small and too vulnerable, when in fact Alaska has had a fiber connection to the lower 48 since 2019, the governor himself cites 12-millisecond latency to the Oregon coast, and a $124.5 million federally funded gigabit expansion to major Alaska cities was announced in March 2026. The deficit is specific and real - direct trans-Pacific routing for Asia-Pacific markets - but categorically different from a system-wide infrastructure failure.",
+    "counter_evidence": [
+      {
+        "fact": "The Alaska Center for Energy and Power's own blog states 'Alaska has had a fiber connection to the lower 48 since 2019,' directly qualifying the 'too old, too small and too vulnerable' characterization of the entire state system. The same post clarifies that the 'missing ingredient' framing applies specifically to Asia-Pacific connections, not the existing lower-48 link.",
+        "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+        "outlet": "ACEP From the Grid blog, UAF",
+        "pub_date": "2025-03-25",
+        "is_primary": true
+      },
+      {
+        "fact": "Governor Dunleavy stated at Data Center World (October 2025) that 'it's about 12 milliseconds from Alaska to the coast of Oregon,' demonstrating functional, low-latency lower-48 connectivity that contradicts a total-system-failure framing.",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "is_primary": true
+      },
+      {
+        "fact": "Alaska Communications announced a $124.5 million NTIA BEAD-funded broadband expansion (grant awarded March 17, 2026) delivering gigabit speeds to Anchorage, Fairbanks, Kodiak, Homer, Kenai, Soldotna, Delta Junction and other communities, demonstrating active major investment in the existing system rather than a system requiring wholesale replacement.",
+        "url": "https://www.homernews.com/2026/03/28/alaska-communications-announces-broadband-expansion/",
+        "outlet": "Homer News",
+        "pub_date": "2026-03-28",
+        "is_primary": true
+      }
+    ],
+    "more_accurate_frame": "Alaska's fiber infrastructure has real gaps, but they are specific and investable: a direct trans-Pacific submarine cable does not yet exist, making Asia-Pacific AI traffic routing the genuine constraint. The lower-48 connection is functional and being upgraded with $124.5 million in federal BEAD funding. Investors and policymakers who accept the total-system-failure narrative will misprice the actual capital ask and miss that a targeted trans-oceanic link - not a rebuild of the state's entire fiber plant - is what separates Alaska from competing with Singapore and Tokyo as an AI routing hub.",
+    "ak_stakes": "Data center infrastructure sector; Far North Digital's trans-Arctic cable capital raise and the governor's 2031 readiness timeline depend on investors accurately scoping the fiber gap as a targeted trans-Pacific build, not a state-wide system overhaul - a distinction that affects project cost, financing structure, and the credibility of Alaska's pitch to hyperscalers like Microsoft, Google, and Amazon who are actively evaluating Arctic routing options.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "true_as_stated - As of the editorial's April 4, 2026 publication date, HCR 3 (AI task force) was stalled in House Finance and had not passed either chamber; HB 47 was still in Senate Judiciary; no confirmed executive AI directive was verifiable on gov.alaska.gov; and the DEED K-12 AI framework page returned 503. The primary legislative counter-evidence could not be confirmed from live sources, meaning the claim was substantially accurate at time of publication. No defensible corrective post exists."
+    },
+    {
+      "claim_verbatim": "They are highly capital intensive and employ many in the construction phase, but few for operation.",
+      "drop_reason": "true_as_stated - The preliminary counter-evidence figure (1,500 construction / 60 permanent jobs for Stak Energy) was not present on the cited Alaska Public Media article and cannot be verified; the claim itself is broadly accurate for AI data center operational headcounts. The corrective frame concedes rather than rebuts the underlying jobs assertion."
+    },
+    {
+      "claim_verbatim": "To date, KGS is the only U.S. based certified 8(a) Government Contractor that has been approved as an AWS Generative AI Competency Partner.",
+      "drop_reason": "single_non_primary - Both asserter URLs (EINPresswire and KGS company blog) originate from the same organization (Koniag Government Services), yielding only one independently originated source. The AWS partner directory was not queryable to confirm or deny the uniqueness claim, leaving no primary counter-evidence."
+    },
+    {
+      "claim_verbatim": "This will help our military. It will help increase domestic demand for our gas and lower the costs of building and financing the pipeline.",
+      "drop_reason": "recent_repeat - Materially overlaps the LNG/data-center power-cost claim corrected in Issue 2026-05-20. Both assert data center development anchors the Alaska LNG pipeline financing thesis. The energy-cost cluster weighting applies and the mechanism is not genuinely distinct."
+    },
+    {
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world. We have vast reserves of natural gas, significant untapped renewable potential and large-scale energy assets that are currently underutilized or stranded.",
+      "drop_reason": "recent_repeat - Directly in the corrected energy-cost cluster (Issues 2026-05-20 and 2026-05-26). Conflates statewide geological inventory with deliverable Railbelt power, the same mechanism already corrected."
+    },
+    {
+      "claim_verbatim": "Alaska's cost of electricity is among the highest in the U.S.",
+      "drop_reason": "recent_repeat - Falls squarely in the energy-cost cluster already corrected across Issues 2026-05-20 and 2026-05-26. The only counter-source (Electric Choice) is a non-primary EIA aggregator, failing the primary-evidence gate."
+    },
+    {
+      "claim_verbatim": "efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review",
+      "drop_reason": "true_as_stated - The claim uses explicit hedge language ('could lead to') making it forward-looking aspiration rather than a falsifiable assertion. The steelmanned version is accurately framed speculation consistent with the primary evidence. No clean corrective post exists without constructing a strawman."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "C2 (Berkowitz fiber-gap claim) is the selected target. All three primary counter-sources were re-fetched and confirmed: ACEP UAF blog (2025-03-25) explicitly states Alaska has had lower-48 fiber since 2019 and qualifies the 'missing ingredient' framing as Asia-Pacific-specific; Data Center Knowledge (2025-10-07) confirms Dunleavy's 12ms latency statement; Homer News (2026-03-28) confirms the $124.5M BEAD gigabit expansion. The verbatim span was confirmed present on the Berkowitz ADN op-ed. C1 was dropped as true_as_stated after verifying that as of the editorial's April 4, 2026 publication date, neither HCR 3 nor HB 47 had become law."
+}
