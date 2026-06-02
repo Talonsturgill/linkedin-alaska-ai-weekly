@@ -1,0 +1,78 @@
+{
+  "issue_label": "NO. 06",
+  "run_date": "2026-06-02",
+  "selected_claim": {
+    "claim_verbatim": "Our goal was to basically try to replicate the services with the chatbot that we would provide with a human facilitator",
+    "claim_paraphrase_fair": "The Alaska Court System set out to deploy an AI chatbot (AVA) that would deliver the same quality and scope of guidance as a trained human self-help facilitator, positioning AI as a direct functional substitute for human-mediated access-to-justice services.",
+    "asserters": [
+      {
+        "name": "Stacey Marz",
+        "title_or_org": "Administrative Director, Alaska Court System",
+        "url": "https://www.aol.com/articles/alaskas-court-system-built-ai-110000726.html",
+        "outlet": "NBC News (syndicated via AOL)",
+        "pub_date": "2026-01-03",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 1,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "Alaska's geography makes in-person legal self-help services impractical for most residents; a 24/7 AI chatbot seems like an elegant force-multiplier for a court system serving a state larger than Texas with a fraction of the legal-aid infrastructure. National coverage of AVA as a model reinforces the impression that the replication goal is achievable.",
+    "steelman": "Alaska has roughly 7,000 self-represented litigants seeking court help each year across a state with no law school and severe legal-aid scarcity. A chatbot that can handle even a reliable subset of routine procedural questions — hours, forms, deadlines — around the clock would meaningfully extend access and reduce staff burden. Courts in other jurisdictions have deployed narrower AI tools successfully for exactly this kind of bounded task. The aspiration to replicate human-facilitator coverage is the right north star for equity in a state where the alternative is no help at all.",
+    "where_it_breaks": "The replication claim collapses on reliability: AVA hallucinated a non-existent Alaska law school when asked where to find legal help — the exact high-stakes scenario a human facilitator handles well. The court itself acknowledged 'we're not confident that the bots can work in that fashion,' quietly cut the validated test-question scope from 91 to 16, and watched a three-month project stretch past eighteen months. Replication requires near-100% accuracy on consequential legal questions; current general-purpose LLMs cannot guarantee that, and the Alaska deployment confirms it.",
+    "counter_evidence": [
+      {
+        "fact": "Stacey Marz, in the same NBC News article, stated: 'We're not confident that the bots can work in that fashion, because of the issues with some inaccuracies and some incompleteness.' The chatbot told users to contact alumni of a law school in Alaska — a school that does not exist. The validated test-question set was cut from 91 to 16. The project ran more than 18 months past its three-month target.",
+        "url": "https://www.aol.com/articles/alaskas-court-system-built-ai-110000726.html",
+        "outlet": "NBC News (syndicated via AOL)",
+        "pub_date": "2026-01-03",
+        "is_primary": true
+      },
+      {
+        "fact": "A peer-reviewed paper in Frontiers in Artificial Intelligence (April 2025) by Rice et al. — Stanford, ANTHC, UAF, Southcentral Foundation, Maniilaq — documents that meaningful AI deployment in Alaska's high-stakes service context requires community-engaged methodology, multi-year data integration, and explicit ethical/legal/social-implications frameworks; the authors note only 0.2% of over 1,000 AI healthcare publications even mention community involvement, underscoring how far from ready-to-replicate the field is in Alaska-specific high-consequence settings.",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009764/",
+        "outlet": "Frontiers in Artificial Intelligence / PubMed Central",
+        "pub_date": "2025-04-01",
+        "is_primary": true
+      }
+    ],
+    "more_accurate_frame": "Alaska's AI access-to-justice opportunity is real and urgent, but the design target should be reliable augmentation of human facilitators — handling bounded, high-confidence procedural queries — not replication of them. The AVA experience shows that deploying a general-purpose LLM to replicate open-ended human judgment in a zero-law-school state introduces failure modes that land hardest on the most legally vulnerable Alaskans. Vendors and policymakers pitching 'AI as facilitator replacement' in Alaska's justice, health, and social-services sectors should expect the same reliability gap AVA exposed.",
+    "ak_stakes": "Access-to-justice AI sector; Alaska Court System procurement decisions and federal technology-grant positioning; vendors and legal-aid organizations pursuing AI deployments in Alaska's rural and remote courts; timeframe: active — AVA was scheduled for late-January 2026 launch despite unresolved reliability concerns, and the case study is already circulating nationally as a model.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Alaska is specifically named among 'the earliest states in their AI journeys,' alongside West Virginia, Wyoming, Nebraska, Florida, and Kansas.",
+      "drop_reason": "single_non_primary — only one outlet (Axios) names Alaska in the 'earliest' tier; GovTech coverage of the same Code for America report does not name Alaska by state in its tier breakdowns; the Code for America primary-source page returned HTTP 403 and could not be verified; the scout's verbatim as written is a paraphrase-restatement, not the exact text on the Axios page. Counter-evidence also thin (RFI not deployment; NASCIO does not publicly name Alaska in the StateScoop article)."
+    },
+    {
+      "claim_verbatim": "offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska",
+      "drop_reason": "true_as_stated — Murkowski's language is explicitly hedged ('offer capabilities to streamline'). A corrective post would have to argue against a stronger claim than she actually made, which would be a strawman. Dunleavy Admin Order 360 uses the same hedged framing, confirming consensus, not a contested assertion."
+    },
+    {
+      "claim_verbatim": "It needs a workforce that is prepared to step into these roles instead of watching them go to Outside hires.",
+      "drop_reason": "true_as_stated — the counter-evidence (1,500 peak construction workers vs ~60 permanent jobs for the Stak North Slope data center) confirms rather than rebuts the editorial's concern. No corrective exists in a claim whose evidence agrees with its conclusion."
+    },
+    {
+      "claim_verbatim": "Congress is right now considering federal legislation that would override state laws protecting workers, kids and communities from the harmful impacts of AI.",
+      "drop_reason": "single_non_primary — a union official's opinion piece with no second independently originated source corroborating the preemption-scope characterization; fails Gate 2."
+    },
+    {
+      "claim_verbatim": "We have to be in charge of it.",
+      "drop_reason": "single_non_primary — single-outlet, single-source, five-word governance philosophy; not a falsifiable empirical claim; fails Gates 2 and 3."
+    },
+    {
+      "claim_verbatim": "We're proud to partner with Alaska Communications to help organizations across Alaska adopt AI confidently, securely and at scale.",
+      "drop_reason": "single_non_primary — vendor Business Wire promotional copy; fails Gate 2; the core correction would reduce to already-worked connectivity territory."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": ""
+}
