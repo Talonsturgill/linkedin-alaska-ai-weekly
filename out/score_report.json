@@ -1,32 +1,18 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "First two lines name Governor Dunleavy, a specific June 18 deadline, and the structural tension (state authority vs. federal preemption) in under 210 chars. No dollar amount in the hook itself prevents a 10."},
+    {"name": "Industry relevance", "score": 9, "weight": 0.20, "notes": "Every story is Alaska-anchored with a named sector consequence: compliance/law (HB 239), aviation labor (AI Crew Solutions UAT), service-sector automation ROI (minimum wage), tribal energy (DOE C-MAP), dual-use autonomy (XPRIZE). XPRIZE bullet thin on AK business consequence; C-MAP drops the per-project range."},
+    {"name": "Factual density", "score": 9, "weight": 0.15, "notes": "Named specifics in nearly every sentence: vote tallies, dates, named individuals (Scheideman, Amodei), vendor (AI Crew Solutions), legislation (HB 239, Ballot Measure 1), dollar figures. Slight dip in the mid-post preemption framing paragraph."},
+    {"name": "Source quality", "score": 8, "weight": 0.15, "notes": "HB 239 double-sourced with legislative primary; AI Crew Solutions union primary; preemption sourced to named ADN op-ed + Roll Call background; minimum wage single secondary (KTUU); XPRIZE background-context with a 'reportedly' hedge. No unsourced stats stated as fact."},
+    {"name": "Voice match", "score": 10, "weight": 0.15, "notes": "Replicates post_001.md analytical register exactly: 'conventional framing... false-clean option' structural diagnosis, crisp declarative punches, tight bullet block, no influencer cadence or hype."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.10, "notes": "450 body words, 2794 total chars under the 3000 cap, tight 2-4 sentence paragraphs, one 3-item single-clause bullet block. The single-sentence transition adds a minor scan interruption."},
+    {"name": "Engagement question", "score": 10, "weight": 0.08, "notes": "Binary, specific to the central tension, debatable across stakeholders, no softener or CTA."},
+    {"name": "Business actionability", "score": 9, "weight": 0.02, "notes": "Surfaces the June 18 HB 239 deadline, the July 2 C-MAP window, and the AI Crew Solutions UAT as concrete revisit triggers."}
+  ],
+  "weighted_total": 9.08,
+  "threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "hard_fails": [],
+  "weakest_criterion": "Source quality",
+  "one_sentence_fix": "Attribute the $14 minimum-wage figure to Alaska DOL / Ballot Measure 1 directly rather than a single TV outlet, and flag the XPRIZE bullet as out-of-window background context."
 }
