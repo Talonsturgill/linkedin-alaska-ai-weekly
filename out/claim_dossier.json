@@ -1,0 +1,64 @@
+{
+  "issue_label": "NO. 07",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "Many small boat fishermen prefer EM systems over human observers, so increasing the usefulness and effectiveness of EM should have direct benefits to our members and Alaska's fixed gear fleet in general.",
+    "claim_paraphrase_fair": "Because Alaska fixed-gear fishermen broadly prefer electronic monitoring to carrying human observers, improving AI-assisted EM is a straightforward win for the fleet, implying AI-EM is operationally ready to deliver observer-equivalent coverage.",
+    "asserters": [
+      {
+        "name": "Lauren Howard",
+        "title_or_org": "Policy Coordinator, Alaska Longline Fishermen's Association (ALFA)",
+        "url": "https://www.nationalfisherman.com/grant-will-aid-use-of-ai-in-electronic-monitoring-for-alaska-halibut-harvesters",
+        "outlet": "National Fisherman",
+        "pub_date": "2025-08-01",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 5,
+    "discourse_slice": "exec_social",
+    "why_smart_people_believe_it": "Fishermen's preference for EM over carrying a human observer is genuine and well-documented, and the 48% time savings and 46% cost savings from AI-assisted review are real, peer-reviewed findings. When you combine legitimate fleet preference with tangible efficiency gains, it is easy to conclude that AI-EM is simply the better mousetrap, ready to scale.",
+    "steelman": "Small fixed-gear and halibut vessels have clear economic and privacy reasons to prefer EM over carrying a human observer: no extra bunk, no insurance rider, no interpersonal friction. A 2023 Ai.Fish field study with Pacific States Marine Fisheries Commission found 48% time savings and 46% cost savings per haul review when AI assistance was added, and NOAA already allows fixed-gear vessels to opt into the EM pool in lieu of observer coverage. If AI closes the remaining accuracy gap, the case for a phased observer-to-EM transition is analytically sound.",
+    "where_it_breaks": "Fleet preference for EM over human observers does not establish that AI-assisted EM is ready to deliver observer-equivalent data quality: the same 2023 Ai.Fish field study found AI introduced a mean error rate of 2.7% versus 1.3% for human-only review, human reviewers still verified every AI-flagged haul, and performance degraded significantly under camera occlusion. Preference is a demand-side statement; accuracy under real fishing conditions is a supply-side constraint that the AI layer has not yet resolved.",
+    "counter_evidence": [
+      {
+        "fact": "A 2023 Ai.Fish field study (with Pacific States Marine Fisheries Commission and Archipelago Marine Research) found AI-assisted EM review produced a mean error rate of 2.7% compared with 1.3% for standard human reviewer disagreement, roughly double, and human reviewers still had to verify AI results haul-by-haul. On the one trip with significant camera occlusion, AI performance was significantly poorer. AI functioned as a supplement to, not a substitute for, human judgment.",
+        "url": "https://em4.fish/projects-in-the-field-operationalizing-machine-learning-in-the-alaska-fixed-gear-electronic-monitoring-program/",
+        "outlet": "Ai.Fish / Pacific States Marine Fisheries Commission",
+        "pub_date": "2023-07-31",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "NOAA Fisheries' Alaska electronic monitoring page (current as of fetch June 2026) contains no mention of AI-assisted review and describes EM as a compliance monitoring tool working alongside, not replacing, observer programs; fixed-gear EM is a voluntary annual opt-in, not a mandated observer substitute.",
+        "url": "https://www.fisheries.noaa.gov/alaska/resources-fishing/electronic-monitoring-alaska",
+        "outlet": "NOAA Fisheries",
+        "pub_date": "2025-12-01",
+        "is_primary": true,
+        "reverified": true
+      }
+    ],
+    "more_accurate_frame": "Alaska fixed-gear fishermen's preference for EM over human observers is real and economically rational, but that preference does not make AI-assisted EM a validated observer substitute today. The best available field study shows AI doubles the error rate of human review, requires human haul-by-haul verification, and falters under routine camera occlusion, meaning AI currently accelerates EM review (48% faster, 46% cheaper) without replacing the human in the loop. NOAA's own Alaska EM program makes no claim of AI-driven observer equivalence. The honest near-term story is AI as an efficiency layer that makes EM review cheaper and faster, not a technology that resolves whether EM data is statistically equivalent to observer data for stock assessment and compliance purposes.",
+    "ak_industry_consequence": "The North Pacific Fishery Management Council's 2026 Annual Deployment Plan and NOAA observer-program budget decisions for the approximately $2.7 billion Alaska groundfish and halibut sectors depend on whether AI-EM is treated as a validated observer alternative or as an efficiency tool pending further validation. Vendors, insurers, and ALFA members pricing observer-cost relief into their 2026-2027 operating models may be running ahead of what the primary evidence supports.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {"id": "C1_village_child_equity", "claim_verbatim_short": "AI could allow a child in a remote village to access the same quality education and medical advice as a child in a major city.", "reason": "True-as-stated: explicitly conditional ('could allow') and aspirational, not a false assertion of present readiness; rebutting it would be a strawman. Overlaps C4. Dropped."},
+    {"id": "C3_murkowski_ai_permitting", "claim_verbatim_short": "AI has the potential to streamline permitting for large-scale energy and critical mineral projects in Alaska.", "reason": "True-as-stated: 'potential to' is aspirational; no falsifiable present-tense assertion to rebut. Dropped."},
+    {"id": "C4_rhtp_scaling_ai_pillar", "claim_verbatim_short": "State initiatives center on four areas...3) scaling artificial intelligence...", "reason": "Attribution fails: verbatim is BPC analysts summarizing, not a direct Alaska DOH/official-document quote; risks misrepresenting the primary source. Dropped as strawman."},
+    {"id": "C5_adn_no_ai_policy", "claim_verbatim_short": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "reason": "Steelman too close to true: Alaska has indeed passed no comprehensive AI legislation; rebuttal risks excusing genuine inaction. Data-center framing in the same editorial is repeat-adjacent. Dropped."},
+    {"id": "C6_dunleavy_ai_transparency_mandate", "claim_verbatim_short": "Agencies will also be required to use technology and artificial intelligence to improve transparency and accountability in how public money is spent.", "reason": "Thinner asserter (governor's-office press release summary, not AO text or first-person exec); C2 more load-bearing and actionable. Dropped in favor of C2."},
+    {"id": "C7_indigenous_31pct_broadband", "claim_verbatim_short": "only 31% of Tribal households had fixed broadband access at home", "reason": "Repeat-adjacent to the 05-31 fiber correction; the 31% stat is a 2019 figure (stale); independent circulation could not be fully re-verified (SeafoodSource 403). Dropped."},
+    {"id": "C8_rural_health_adoption_lag", "claim_verbatim_short": "rural healthcare facilities...adoption rates are lower than in urban and wealthier areas.", "reason": "True-as-stated: the adoption lag is well-supported; counter-evidence qualifies rather than refutes. Dropped."},
+    {"id": "C9_genai_essential", "claim_verbatim_short": "GenAI has become essential for organizations because of its ability to accelerate problem-solving...", "reason": "Not load-bearing: generic vendor CRO promotional statement; circulation is syndicated wire pickup of one Business Wire release. Dropped."},
+    {"id": "C10_energy_rich_data_center", "claim_verbatim_short": "Alaska remains one of the most energy-rich regions in the world...stranded.", "reason": "Recent repeat: directly overlaps the data-center/energy/power-cost cluster corrected in three of the last six issues. Dropped."}
+  ],
+  "_validation_note": "C2 (Lauren Howard/ALFA fisheries EM) is the clear winner: verbatim confirmed on the live National Fisherman page, two independently re-verified primary-source counters (Ai.Fish 2023 field study; NOAA Alaska EM page), high load-bearing relevance to NOAA's 2026 Annual Deployment Plan and the ~$2.7B Alaska groundfish-halibut sector, and fresh territory with no overlap with the six prior corrections. Caution: SeafoodSource returned 403 during verification, so the 5-outlet circulation count relies partly on scout reporting for those outlets; the National Fisherman primary source plus ALFA's documented advocacy satisfies the authoritative primary-asserter path."
+}

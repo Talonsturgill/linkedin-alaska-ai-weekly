@@ -1,192 +1,186 @@
 {
-  "run_date": "2026-05-20",
-  "decision_window": "2026-04-20 to 2026-05-20",
-  "subjects_already_profiled_last_12": [],
-  "subject_decision_blocklist": [],
-  "merged_candidates": [
+  "run_date_ak": "2026-06-02",
+  "issue_label": "NO. 07",
+  "orchestrator_dedupe_note": "The data-center / stranded-energy / power-cost cluster has been corrected in 3 of the last 6 issues (05-20 '4-5 cents/kWh', 05-26 '30 degrees cooler than Texas', 05-30 DAF land-lease PPP, 05-31 fiber). Candidates tagged repeat_risk=high below sit in that territory and should be deprioritized unless the specific claim is clearly new. Candidates tagged repeat_risk=low are fresh territory (fisheries AI, rural-health/equity AI, AI permitting, state AI-policy governance, Indigenous data) and are strongly preferred.",
+  "claims_already_corrected_last_6": [
+    "AVA legal chatbot replicating human facilitators (legal AI)",
+    "fiber system too old/small/vulnerable (broadband/subsea)",
+    "DAF data center 'true public-private partnership' (land-lease vs PPP)",
+    "Uncrewed systems persistence in the High North (defense drones)",
+    "30 degrees cooler than Texas, save 1GW plant $150M/yr (cooling/PUE)",
+    "four or five cents a kilowatt hour for decades (power cost / LNG)"
+  ],
+  "candidate_claims": [
     {
-      "full_name": "Sparrow Mahoney",
-      "role": "Founder and CEO",
-      "org": "STAK Energy",
-      "role_category": "founder",
-      "anchorage_tie": "STAK Energy is headquartered in Anchorage, Alaska per company website (stak.energy states 'Based in Anchorage'); Mahoney's professional profile lists 'Greater Anchorage Area, United States' as location. Founded and runs company from Anchorage. Project site is North Slope but the decision-making and corporate entity are Anchorage-based.",
-      "decision": {
-        "what_happened": "The Alaska Department of Natural Resources issued a preliminary decision on May 12, 2026 to lease 715.4 acres of North Slope land to STAK Energy for a proposed $500 million AI and cloud computing data center campus. The DNR determined the project serves the state's 'best interest.' Stak filed the lease application with DNR in November 2025; DNR subsequently solicited competing bids and received none, then moved forward with the preliminary approval. The project would reach up to 3 gigawatts of power capacity, use natural gas for off-grid power generation, and target initial operations by late 2028. A public comment period runs through June 15, 2026.",
-        "when": "2026-05-12",
-        "binary_owned": "Mahoney chose to pursue a self-powered, natural-gas-off-grid model for AI data center infrastructure on state-owned North Slope acreage rather than grid-tied or alternative-site approaches, and successfully obtained DNR's preliminary 'best interest' lease determination, committing the company to a 50-year lease track and $500M development path.",
-        "ak_consequence": "Energy/data infrastructure sector; $500M capital commitment; peak construction workforce of 1,500 jobs and approximately 60 permanent positions; 50-year land lease on North Slope state land; public comment period open through June 15, 2026 with final lease decision pending. Sets precedent for whether Alaska becomes a large-scale AI compute host state using stranded North Slope natural gas.",
-        "primary_source_url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "independent_of_subject": true},
-          {"url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/", "outlet": "Data Center Dynamics", "independent_of_subject": true},
-          {"url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "SHARP, $500M and 50-year state land lease on speculative off-grid natural gas data center model 26 miles from Deadhorse, at the exact moment Cook Inlet gas supply is declining. Stranded North Slope gas plus Arctic free cooling may be a genuine cost advantage for AI compute, but no disclosed outside financing, no anchor tenant, and Mahoney pivoted from a previous crypto mining proposal on the same site.",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "founders"
-    },
-    {
-      "full_name": "Billy Wailand",
-      "role": "Senior Vice President of Corporate Development",
-      "org": "GCI",
-      "role_category": "operator",
-      "anchorage_tie": "GCI is Alaska's largest telecommunications provider, headquartered in Anchorage. GCI's network infrastructure and Anchorage operations teams will absorb Quintillion's 1,800+ miles of fiber into GCI's statewide system. Wailand is Anchorage-based and led the acquisition process.",
-      "decision": {
-        "what_happened": "GCI Holdings announced it has entered into a definitive agreement to acquire 100% of the equity in Quintillion at a $310 million enterprise value. GCI will also reimburse up to $50 million in qualifying capital expenditures for the Nome-to-Homer Express fiber project and provide a $160 million unsecured loan to Quintillion shortly after closing. The transaction combines Quintillion's 1,800+ miles of existing subsea and terrestrial fiber and approximately 1,500 miles of planned fiber expansion with GCI's statewide network.",
-        "when": "2026-04-22",
-        "binary_owned": "Approved acquisition. Wailand, as SVP Corporate Development, owns the deal structure and execution of the $310M Quintillion acquisition, the largest Alaska telecom infrastructure transaction in recent years.",
-        "ak_consequence": "Telecom infrastructure sector; $310M plus $210M in additional capital commitments ($520M total potential outlay); creates a fiber ring around Alaska enabling rerouting during outages; consolidates Alaska's two largest fiber operators; DOD/national security applications cited by Wailand; affects all GCI enterprise and residential customers across Alaska. Closing subject to regulatory approval; timeline 2026 to 2027.",
-        "primary_source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-        "primary_source_outlet": "GCI Newsroom",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/alaskas-gci-acquiring-quintillion/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://knom.org/2026/04/24/fiber-internet-company-quintillion-to-be-acquired-by-gci/", "outlet": "KNOM Radio Mission", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By bringing together complementary fiber routes, deep operational expertise, and long-term investment under one operating model, we're building a network that is stronger, more resilient, and better suited to Alaska's realities than either company could deliver on its own.",
-          "context": "Wailand quoted in joint GCI/Quintillion press release announcing definitive acquisition agreement, April 22, 2026",
-          "source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "If you can lose those eyes, it immediately becomes a problem. The more resilience that you're building out there, the more useful it is for national security.",
-          "context": "Wailand quoted in ADN independent reporting on the acquisition, April 22, 2026, discussing DOD/national security rationale for combined fiber ring",
-          "source_url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/",
-          "source_doctype": "interview"
-        }
+      "id": "C1_village_child_equity",
+      "repeat_risk": "low",
+      "slice": "policy_official",
+      "claim_verbatim": "AI could allow a child in a remote village to access the same quality education and medical advice as a child in a major city.",
+      "asserter": "Nick Begich III, U.S. Representative (Alaska At-Large)",
+      "url": "https://americanbazaaronline.com/2025/04/25/congressman-nick-begich-discusses-the-future-of-ai-regulation-462186/",
+      "outlet": "American Bazaar Online",
+      "pub_date": "2025-04-25",
+      "circulation_count": 3,
+      "why_load_bearing": "Primary official justification for AI investment in rural Alaska and federal broadband-plus-AI spending; shapes how CMS, State DOH, and vendors frame the $272M RHTP AI pillar and telehealth procurement.",
+      "counter_evidence": [
+        {"fact": "Begich in the same interview said 'The base requirement for tapping into AI is connectivity' and that 82% of Alaska communities lack road access; the connectivity precondition is unmet in most remote villages.", "url": "https://americanbazaaronline.com/2025/04/25/congressman-nick-begich-discusses-the-future-of-ai-regulation-462186/", "is_primary": false},
+        {"fact": "Stanford/UAF/ANTHC peer-reviewed study (Apr 2025): 'The practical implementation of AI/ML in AI/AN healthcare systems is almost entirely missing from the literature' and historically marginalized populations are underrepresented in AI/ML training datasets.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009764/", "is_primary": true}
       ],
-      "prelim_debatable_axis": "Sharp or wrong depending on framing. GCI consolidating Alaska's two largest fiber operators is either pro-competitive infrastructure build at the scale needed for AI data center workloads, or monopolistic foreclosure of fiber competition in a captive market. The DOD/national security rationale is politically convenient cover. AI angle is INDIRECT (fiber enables AI compute but no AI workload is named in the deal).",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "operators",
-      "validator_flag": "AI angle is indirect. Subject title is M&A leadership, not CTO/CIO."
+      "recurrence_note": "Equivalence framing recurs in Alaska DOH RHTP application (AI as one of four pillars), Begich Apr 2026 ADN op-ed, and BPC RHTP explainer. Default rhetorical frame for Alaska AI-and-rural-access conversations."
     },
     {
-      "full_name": "Anna Brawley",
-      "role": "Assembly Chair (formerly Vice Chair), District 5 West Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing West Anchorage; chairs the governing body of the Municipality of Anchorage.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Ordinance AO 2026-27 on an approximately 10-2 vote on March 27, 2026, establishing the first-ever municipal zoning definition for 'data centers' in Anchorage and requiring conditional use permits, utility capacity documentation, 200-foot setbacks from residential areas, and enclosed power equipment for any facility drawing 20 MW or more at peak load. Brawley introduced the ordinance as Assembly Vice Chair and is its named primary sponsor. Brawley was subsequently elected Assembly Chair on April 28, 2026, and made public statements on JBER military data center RFPs on May 5, 2026.",
-        "when": "2026-03-27",
-        "binary_owned": "Approved. Brawley sponsored and voted yes on a first-in-Alaska municipal data center zoning framework, restricting AI-era data centers from residential and most commercial zones and requiring grid-capacity sign-off from Chugach Electric before any conditional use permit can advance.",
-        "ak_consequence": "Energy sector and land use. Any company seeking to site a 20 MW-plus data center within MOA boundaries must now obtain conditional use approval and a signed utility-capacity statement from Chugach Electric. Chugach has publicly stated it currently lacks sufficient gas supply to support large data centers. The ordinance effectively creates a regulatory gate on an estimated $1 to $5 billion class of potential investment.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework", "outlet": "Davis Wright Tremaine LLP Energy & Environmental Law Blog", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/anchorage-blocks-new-data-centers-in-residential-zones/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News (May 5, 2026 follow-up referencing the ordinance as active context)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By learning from other places and emerging best practices around data centers, Anchorage is being proactive and ensuring the right questions are asked during the application process.",
-          "context": "Brawley commenting on AO 2026-27 at or around the time of passage, March 27, 2026.",
-          "source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "Broadly, I would be hoping that our local leadership has conversations with the Department of Defense, with the entity that would be coming, and with the utility.",
-          "context": "Brawley, now Assembly Chair, responding to questions about JBER military data center RFPs in May 2026.",
-          "source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-          "source_doctype": "interview"
-        }
+      "id": "C2_fisheries_em_preference",
+      "repeat_risk": "low",
+      "slice": "exec_social",
+      "claim_verbatim": "Many small boat fishermen prefer EM systems over human observers, so increasing the usefulness and effectiveness of EM should have direct benefits to our members and Alaska's fixed gear fleet in general.",
+      "asserter": "Lauren Howard, Policy Coordinator, Alaska Longline Fishermen's Association (ALFA)",
+      "url": "https://www.nationalfisherman.com/grant-will-aid-use-of-ai-in-electronic-monitoring-for-alaska-halibut-harvesters",
+      "outlet": "National Fisherman",
+      "pub_date": "2025-08-01",
+      "circulation_count": 5,
+      "why_load_bearing": "Frames AI-assisted electronic monitoring as ready to substitute for at-sea observers; NOAA's 2026 Annual Deployment Plan, the North Pacific Fishery Management Council, and ALFA advocacy hinge on it. Affects observer program funding and operating costs across the ~$2.7B Alaska groundfish and halibut sectors.",
+      "counter_evidence": [
+        {"fact": "Ai.Fish field study (2023): AI-assisted EM review introduced a mean error rate of 2.7% vs 1.3% for standard human review; EM reviewers must still verify AI results haul-by-haul; performance 'significantly poorer' under camera occlusion. AI supplements rather than replaces human judgment.", "url": "https://em4.fish/projects-in-the-field-operationalizing-machine-learning-in-the-alaska-fixed-gear-electronic-monitoring-program/", "is_primary": true},
+        {"fact": "NOAA Fisheries Alaska electronic monitoring page (updated Dec 2025) contains no mention of AI-assisted review; describes EM as a compliance tool working alongside observer programs, not replacing observer presence.", "url": "https://www.fisheries.noaa.gov/alaska/resources-fishing/electronic-monitoring-alaska", "is_primary": true}
       ],
-      "prelim_debatable_axis": "Sharp but arguable. Pro: Anchorage acts before a hyperscale facility locks in, protecting ratepayers and residential neighborhoods. Con: ADN editorial board called it anti-investment signaling; 20 MW threshold could add 12 to 18 months to permitting; JBER sites fall outside MOA jurisdiction anyway.",
-      "in_window": false,
-      "in_window_note": "PRIMARY DECISION (AO 2026-27 vote) was March 27, 2026, 24 days before window opens. IN-WINDOW DECISIONS: elected Assembly Chair April 28 (in window), May 5 JBER statement (in window). Validator must decide whether to broaden window or use the in-window Chair election + JBER statement as the anchored decision with the March 27 ordinance as context.",
-      "confidence": "high",
-      "slice": "municipal"
+      "recurrence_note": "Recurs in SeafoodSource, The Cordova Times, Alaska's News Source (all Aug 2025), and ALFA's own EM page. AI-EM as fisherman-preferred, cost-effective observer substitute is the consensus narrative across Alaska fishing trade media."
     },
     {
-      "full_name": "Keith McCormick",
-      "role": "Assembly Member, District 6 Eagle River / Chugiak",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-adjacent elected official representing Eagle River/Chugiak area of the Municipality of Anchorage; decisions affect MOA-wide policy including technology and security infrastructure.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Resolution AR 2026-129, sponsored by McCormick along with Vice Chair Daniel Volland and member Yarrow Silvers, expressing the Assembly's 'substantive concerns' about the U.S. Air Force's proposed 7-mile barbed-wire perimeter fence at JBER. The resolution urges JBER to prepare a full Environmental Impact Statement and to extend the public comment period by at least 60 additional days. The draft environmental assessment reviewed by the Assembly explicitly lists motion sensors and surveillance cameras as alternatives to the physical fence that JBER chose not to pursue.",
-        "when": "2026-05-20",
-        "binary_owned": "Approved. McCormick sponsored and the Assembly passed a formal resolution opposing JBER's fence-and-no-surveillance-alternative approach, pushing back on a federal security infrastructure decision that had explicitly rejected sensor/camera technology in favor of physical perimeter control.",
-        "ak_consequence": "Security infrastructure and civil-military relations. The resolution creates a formal municipal record opposing JBER's fence construction timeline, potentially complicating the Air Force's NEPA process and delaying installation. The fence affects wildlife corridors, 12,000+ acres of recreational trails, and moose migration routes adjacent to Anchorage neighborhoods. JBER's public comment period closes May 30, 2026.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/05/17/jber-wants-to-build-a-7-mile-long-barbed-wire-fence-adjacent-to-anchorage-neighborhoods/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://alaskasenate.org/senator/giessel/050926_newsletter.htm", "outlet": "Alaska Senate Majority Leader Cathy Giessel newsletter", "independent_of_subject": true},
-          {"url": "https://mustreadalaska.com/senate-majority-leader-giessel-opposes-jber-boundary-fence/", "outlet": "Must Read Alaska", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre-to-sharp. The AI/surveillance tech angle is thin. The resolution does not itself choose or block surveillance technology. The primary subject is environmental review and public comment, not technology policy.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal",
-      "validator_flag": "Tech angle is thin. Primary subject is environmental review, not AI/data."
+      "id": "C3_murkowski_ai_permitting",
+      "repeat_risk": "low",
+      "slice": "policy_official",
+      "claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs accomplish enormous challenges in the fields of science and technology, as well as offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska.",
+      "asserter": "Lisa Murkowski, U.S. Senator (Alaska), Chair Senate Energy and Natural Resources Committee",
+      "url": "https://www.murkowski.senate.gov/press/release/murkowski-manchin-introduce-bipartisan-legislation-to-advance-department-of-energy-ai-research-for-science-security-and-technology",
+      "outlet": "murkowski.senate.gov",
+      "pub_date": "2024-07-10",
+      "circulation_count": 3,
+      "why_load_bearing": "Legislative rationale for federal AI investment in Alaska permitting reform; directly relevant to Willow, Ambler Road, Graphite Creek and other critical-mineral projects facing multi-year federal review. Resource-sector capital allocators track it as a signal permitting timelines will shorten.",
+      "counter_evidence": [
+        {"fact": "The Federal Permitting Improvement Steering Council's FAST-41 program, the primary active streamlining mechanism for Alaska projects (e.g., Graphite Creek / Arctic Project), runs a 13.5-month permitting timeline without AI tools, suggesting statutory mechanisms, not AI, drive any acceleration.", "url": "https://www.permitting.gov/newsroom/press-releases/arctic-project-gains-fast-41-coverage", "is_primary": true},
+        {"fact": "Governor Dunleavy's Admin Order 360 directs only DNR, DEC, DFG to 'leverage technology, such as AI' for permitting digitization with no implementation timeline, months after the DOE AI Act, showing no operational AI permitting tool is yet in place at state or federal level.", "url": "https://gov.alaska.gov/admin-orders/administrative-order-no-360/", "is_primary": true}
+      ],
+      "recurrence_note": "Circulates in the Senate Energy Committee record, E&E News coverage of the DOE AI Act, and Dunleavy's AO 360 framing. Bipartisan cross-level claim (federal senator + state governor) that has become a background assumption in Alaska resource-sector capital conversations."
     },
     {
-      "full_name": "Daniel Volland",
-      "role": "Assembly Vice Chair, District 1 North Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing North Anchorage; co-sponsor of data center ordinance and newly elected Vice Chair as of April 28, 2026.",
-      "decision": {
-        "what_happened": "Volland co-sponsored AO 2026-27 (data center ordinance) with Brawley, voted March 27, 2026; co-sponsored AR 2026-129 (JBER fence resolution) with McCormick and Silvers, passed May 19-20, 2026. On April 28, 2026, Volland was elected Assembly Vice Chair in an 8-4 vote over Zac Johnson. Volland published an op-ed in ADN on March 27, 2026, defending the data center ordinance and framing it as essential consumer protection against AI industry energy demands.",
-        "when": "2026-04-28",
-        "binary_owned": "Elected Vice Chair April 28, 2026. Volland won Assembly Vice Chair in an 8-4 vote, positioning him as co-leader on all technology and data infrastructure legislation, including the Planning Department follow-up rulemaking on energy-intensive uses required by AO 2026-27.",
-        "ak_consequence": "Governance and technology policy. As Vice Chair, Volland will chair or lead committee work on data center rulemaking follow-up. The data center zoning framework he co-authored is now the controlling law for any hyperscale AI infrastructure investment in MOA.",
-        "primary_source_url": "https://alaskapublic.org/news/anchorage/2026-04-29/new-anchorage-assembly-members-sworn-in-brawley-chosen-as-chair",
-        "primary_source_outlet": "Alaska Public Media",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/alaska-news/anchorage/2026/04/29/after-election-anchorage-assembly-reorganizes-with-anna-brawley-as-new-chair/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://www.adn.com/opinions/2026/03/27/opinion-as-big-techs-footprint-gets-bigger-its-time-for-anchorage-to-install-data-center-guardrails/", "outlet": "Anchorage Daily News (Volland op-ed)", "independent_of_subject": false}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre as a standalone decision. Vice Chair election is in-window but 'elected to leadership role' is a weaker decision-hook than a specific vote on a technology item.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal"
+      "id": "C4_rhtp_scaling_ai_pillar",
+      "repeat_risk": "low",
+      "slice": "policy_official",
+      "claim_verbatim": "State initiatives center on four areas: 1) modernizing health IT infrastructure, 2) expanding virtual care (e.g., telehealth and remote patient monitoring), 3) scaling artificial intelligence, and 4) seeding innovation through rural technology catalyst funds.",
+      "asserter": "Alaska Department of Health (RHTP lead agency); summarized by Bipartisan Policy Center",
+      "url": "https://bipartisanpolicy.org/explainer/advancing-technology-innovation-through-the-rural-health-transformation-program/",
+      "outlet": "Bipartisan Policy Center (summarizing Alaska's official RHTP documentation)",
+      "pub_date": "2026-01-01",
+      "circulation_count": 3,
+      "why_load_bearing": "Alaska is directing ~$272M/yr in CMS-supervised funds partly on the premise that AI is ready to scale across remote/rural/Tribal health. Vendors, tribal health consortia, and rural hospitals are making procurement decisions on this official framing.",
+      "counter_evidence": [
+        {"fact": "Stanford/UAF/ANTHC (Apr 2025): practical implementation of AI/ML in AI/AN healthcare is 'almost entirely missing from the literature'; Alaska Native populations underrepresented in AI/ML training datasets, so no validated AI tools exist for the target population.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009764/", "is_primary": true},
+        {"fact": "RHTP program rules explicitly prohibit using funds for 'Broadband infrastructure or major installation projects' or individual internet costs, so the connectivity precondition for AI in roadless communities cannot be funded by the program meant to scale AI.", "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "is_primary": true}
+      ],
+      "recurrence_note": "Appears in Alaska's formal RHTP application, Alaska Public Media launch coverage (Jan 2026), BPC RHTP explainer, and aligns with Sen. Murkowski's public championing. Most consequential official AI claim in Alaska healthcare policy in 2026. Note: overlaps with C1 on the rural-health-AI theme; pick one frame."
     },
     {
-      "full_name": "Patrick L. Tomco",
-      "role": "Associate Professor and ASET Laboratory Director, Department of Chemistry",
-      "org": "University of Alaska Anchorage",
-      "role_category": "research",
-      "anchorage_tie": "Bowl-based: full-time faculty and lab director at UAA main campus, Anchorage, AK 99508.",
-      "decision": {
-        "what_happened": "Tomco's Analytical Science for Environmental Toxicology (ASET) Lab published 'OilSpillNet: A Deep Learning Framework for Accurate Detection and Segmentation of Marine Oil Spills from Imagery' in the Journal of Environmental Chemical Engineering, authored by postdoctoral researcher Mohamed Elsheref (lead) and Tomco (supervising PI). The UAA news article was published May 15, 2026; the paper was published April 2026.",
-        "when": "2026-04",
-        "binary_owned": "Funded/approved. Tomco as ASET Lab Director and supervising PI approved and directed the interdisciplinary pivot to deep learning AI in a traditionally wet-chemistry environmental lab, accepting the Fisheries and Oceans Canada (DFO) grant that funded the work.",
-        "ak_consequence": "Environmental monitoring sector. Potential deployment of automated, near-real-time oil spill detection in Cook Inlet and Alaska coastal waters, reducing the labor-intensive manual satellite imagery review.",
-        "primary_source_url": "https://www.uaa.alaska.edu/news/archive/2026/05/ai-detect-oil-spills.cshtml",
-        "primary_source_outlet": "UAA Green & Gold News",
-        "corroborating_sources": [
-          {"url": "https://www.sciencedirect.com/science/article/abs/pii/S2213343726006883", "outlet": "ScienceDirect / Journal of Environmental Chemical Engineering (Elsevier)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Sharp with tension. ASET Lab is a wet-chemistry environmental toxicology facility receiving a DFO Canada grant, not an AI lab. Pro: cross-disciplinary AI integration Alaska needs, applied to high-stakes problem. Con: primary funder is Canadian, a postdoc owns the AI architecture, and no Alaska industry partner has been named to deploy OilSpillNet.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "research",
-      "validator_flag": "Subject quotes are attributed to Elsheref (the postdoc), not Tomco directly. Only ONE truly independent corroborating source (ScienceDirect listing, paywalled)."
+      "id": "C5_adn_no_ai_policy",
+      "repeat_risk": "low",
+      "slice": "ak_press",
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "asserter": "Anchorage Daily News Editorial Board",
+      "url": "https://www.adn.com/opinions/editorials/2026/04/04/editorial-alaska-can-lead-in-ai-and-data-centers-but-only-if-it-gets-serious-now/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-04-04",
+      "circulation_count": 3,
+      "why_load_bearing": "Shapes how the legislature, businesses considering state partnerships, and federal program offices assess Alaska's AI-governance readiness. A 'regulatory vacuum' conclusion can discourage enterprise adoption and depress procurement bids, or fuel rushed legislation.",
+      "counter_evidence": [
+        {"fact": "Governor Dunleavy issued Administrative Order No. 359 (2025) requiring agencies to incorporate AI to improve public visibility into how state funds are spent; Alaska DEED published K-12 AI guidelines Oct 2025.", "url": "https://gov.alaska.gov/admin-orders/administrative-order-no-359/", "is_primary": true},
+        {"fact": "Alaska DEED published an AI framework for K-12 Oct 2025, joining 'more than half the country,' positioning Alaska as 'highly competitive for federal AI education grants' (Anthony White, DEED).", "url": "https://alaskapublic.org/news/education/2025-10-15/alaska-education-department-publishes-guidelines-on-developing-ai-policies-in-schools", "is_primary": true}
+      ],
+      "recurrence_note": "ADN editorial board Apr 4 2026 is the most prominent iteration; the '38 states acting, Alaska has not' premise is cited without qualification in multiple AK press pieces early 2026. Note: also tied to data-center framing in the same editorial, which is repeat-adjacent; the governance angle itself is fresh. There is also HCR 3 establishing an Alaska Joint Legislative AI Task Force (Jan 31 2026 report deadline), a further counter."
+    },
+    {
+      "id": "C6_dunleavy_ai_transparency_mandate",
+      "repeat_risk": "low",
+      "slice": "policy_official",
+      "claim_verbatim": "Agencies will also be required to use technology and artificial intelligence to improve transparency and accountability in how public money is spent.",
+      "asserter": "Mike Dunleavy, Governor of Alaska",
+      "url": "https://gov.alaska.gov/governor-dunleavy-issues-two-administrative-orders-to-improve-government-efficiency-and-regulatory-reform/",
+      "outlet": "Office of the Governor of Alaska",
+      "pub_date": "2025-08-04",
+      "circulation_count": 3,
+      "why_load_bearing": "Frames AI as an imminent operational tool in state government, influencing how state IT vendors price proposals and how OMB/GAO assess Alaska's AI-readiness in grant applications such as the $272M RHTP award.",
+      "counter_evidence": [
+        {"fact": "Only confirmed AI deployment in Alaska state govt as of June 2025 was Microsoft Teams transcription and Copilot Chat, described by Deputy CIO Niel Smith as tools to 'experiment' and 'discover use cases', a discovery posture inconsistent with a mandated enterprise transparency deployment.", "url": "https://oit.alaska.gov/home/news-service-announcements/new-ai-features-for-state-of-alaska-employees/", "is_primary": true},
+        {"fact": "Admin Order 360 directs only DNR, DEC, DFG to leverage AI for permitting digitization, far narrower than the broad financial-transparency mandate implied by the press release.", "url": "https://gov.alaska.gov/admin-orders/administrative-order-no-360/", "is_primary": true}
+      ],
+      "recurrence_note": "Circulates via Americans for Prosperity endorsement of AO 360, ALEC coverage, Alaska Watchman reporting, and frames the myAlaska RFI (Dec 2025) on AI autonomous completion of government transactions."
+    },
+    {
+      "id": "C7_indigenous_31pct_broadband",
+      "repeat_risk": "medium",
+      "slice": "trade_analyst",
+      "claim_verbatim": "only 31% of Tribal households had fixed broadband access at home",
+      "asserter": "Kennedy Satterfield, Policy Analyst, American Indian Policy Institute (ASU)",
+      "url": "https://aipi.asu.edu/blog/2025/07/tribal-sovereignty-age-ai-exploring-opportunities-and-risks-tribal-nations",
+      "outlet": "American Indian Policy Institute",
+      "pub_date": "2025-07-25",
+      "circulation_count": 2,
+      "why_load_bearing": "Primary stat used to argue Indigenous AI adoption is structurally blocked by connectivity, justifying infrastructure-over-sovereignty policy. For ANCs and villages, accepting it at face value may cause under-investment in data governance while broadband closes. Stat originates in a 2019 AIPI report (potentially 5 years stale).",
+      "counter_evidence": [
+        {"fact": "GCI received $121.2M in broadband infrastructure grants March 2026 to improve Alaska connectivity, on top of Alaska's $1.02B BEAD allocation, suggesting the gap is actively closing.", "url": "https://news.gci.com/news-releases/gci-to-receive-121-2m-in-broadband-infrastructure-grants-to-improve-connectivity-in-alaska", "is_primary": true},
+        {"fact": "Malia Villegas (Afognak Native Corporation) named inaugural board officer of the Indigenous Data Alliance in 2026, indicating AK Native orgs are building AI/data-governance capacity regardless of broadband baseline.", "url": "https://nni.arizona.edu/news/second-us-indigenous-data-sovereignty-summit-encourages-scholars-leaders-and-data-warriors", "is_primary": false}
+      ],
+      "recurrence_note": "31% figure originates in a 2019 AIPI report, re-cited without a newer source in the July 2025 AIPI brief and again Feb 2026 Brookings piece, giving it false currency. Note: 'broadband' theme is adjacent to the 05-31 fiber correction; the Indigenous-data-sovereignty angle itself is fresh but the broadband framing risks overlap."
+    },
+    {
+      "id": "C8_rural_health_adoption_lag",
+      "repeat_risk": "low",
+      "slice": "trade_analyst",
+      "claim_verbatim": "Although rural healthcare facilities are adopting AI to help reduce administrative burden and help with workforce shortages, adoption rates are lower than in urban and wealthier areas.",
+      "asserter": "Carsen Watts, Optum Advisory (via Advisory Board)",
+      "url": "https://www.advisory.com/daily-briefing/2026/04/27/rhtp-technology-oi-ec",
+      "outlet": "Advisory Board Daily Briefing",
+      "pub_date": "2026-04-27",
+      "circulation_count": 3,
+      "why_load_bearing": "Alaska is deploying its $272M RHTP allocation (full application portal opened June 1 2026); the 'rural AI lags urban' framing shapes how investors and program officers size market readiness and allocate technical assistance.",
+      "counter_evidence": [
+        {"fact": "Alaska's RHTP plan explicitly includes AI-enabled tools (ambient scribes, diagnostic AI, RPM) and pilots unmanned drones and remote pharmacy dispensing in roadless communities, a more aggressive posture than most rural states.", "url": "https://health.alaska.gov/media/chikqoco/ak-rhtp-initiatives.pdf", "is_primary": true},
+        {"fact": "Alaska received ~$272M for FY2026 from the $50B Rural Health Transformation Program; LOI period closed Mar 11 2026 with the full application portal launching June 1 2026.", "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "is_primary": true}
+      ],
+      "recurrence_note": "Appears independently from Optum Advisory (Apr 2026) and BPC (Mar 2026), echoed by TechTarget. Recurring background premise in rural health tech coverage. Note: counter-evidence here is weaker (the lag is partly real); weaker correction than C1/C4."
+    },
+    {
+      "id": "C9_genai_essential",
+      "repeat_risk": "low",
+      "slice": "exec_social",
+      "claim_verbatim": "GenAI has become essential for organizations because of its ability to accelerate problem-solving, increase productivity and aid decision-making while reducing the time employees spend on repetitive tasks which frees them up to focus on more strategic work.",
+      "asserter": "Dale Knipp, Chief Revenue Officer, Alaska Communications",
+      "url": "https://finance.yahoo.com/news/alaska-communications-surepath-ai-bring-160000693.html",
+      "outlet": "Business Wire / Yahoo Finance",
+      "pub_date": "2026-02-17",
+      "circulation_count": 6,
+      "why_load_bearing": "Alaska Communications is the state's #2 telecom and a primary managed-services vendor to state agencies, healthcare orgs, and rural carriers; a CRO declaring GenAI 'essential' shapes public-sector procurement.",
+      "counter_evidence": [
+        {"fact": "2025 ANTHC/Southcentral Foundation/Stanford symposium: 'there are no specific guidelines or ethical considerations provided for the implementation of AI/ML use within the Alaska Native and American Indian tribal healthcare systems.'", "url": "https://www.tandfonline.com/doi/full/10.1080/22423982.2026.2677426", "is_primary": true},
+        {"fact": "ANTHC/UAF/Stanford framework cautions AI/ML that ignores dataset bias 'can reinforce or worsen existing health disparities,' complicating a universal 'essential' framing.", "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009764/", "is_primary": true}
+      ],
+      "recurrence_note": "Recurs across Business Wire pickup (Nasdaq, AI Journal, MarketScreener, StockTitan), all Feb 17 2026. Note: generic vendor 'essential' claim; weak load-bearing specificity vs C1/C2/C3."
+    },
+    {
+      "id": "C10_energy_rich_data_center",
+      "repeat_risk": "high",
+      "slice": "ak_press / policy_official / exec_social",
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world. We have vast reserves of natural gas, significant untapped renewable potential and large-scale energy assets that are currently underutilized or stranded.",
+      "asserter": "Nick Begich III, U.S. Representative (Alaska At-Large)",
+      "url": "https://www.adn.com/opinions/2026/04/23/opinion-how-alaska-can-use-our-energy-advantage-to-capitalize-on-the-ai-gold-rush/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-04-23",
+      "circulation_count": 4,
+      "why_load_bearing": "Foundation for the DATA Act, Stak Energy North Slope proposal, DAF land-lease program, and Dunleavy's data-center-hub pitch. Investors who accept it may underweight delivered electricity cost.",
+      "counter_evidence": [
+        {"fact": "UAF ACEP: 'the commercial electricity rate in Alaska is much higher than any other U.S. state.'", "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php", "is_primary": true},
+        {"fact": "Chugach Electric: 'We currently do not have gas to serve a large data center'; Southcentral commercial rates 14-17 cents/kWh vs Virginia 8.99, Texas 6.12.", "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "is_primary": true}
+      ],
+      "recurrence_note": "REPEAT RISK HIGH: directly overlaps the 05-20 power-cost correction ('4-5 cents/kWh') and 05-26 cooling correction. Same data-center-energy nexus. Deprioritize unless validator judges the 'energy-rich' framing materially distinct from prior corrections."
     }
   ],
-  "dropped_pre_validator": [
-    {"name": "Brian Shumaker / beadedstream", "reason": "April 8, 2026 decision is just outside the 30-day window; no Shumaker quote in any source"},
-    {"name": "Erik Williams / beadedcloud", "reason": "Accelerator participation is a thin decision binary; no Williams quote"},
-    {"name": "Nathan Engel / Alaska Airlines", "reason": "April 16, 2026 is 4 days outside window"},
-    {"name": "Dale Knipp / ACS", "reason": "February 17, 2026 is 62 days outside window; single-sourced to PR"},
-    {"name": "Masoumeh Heidari / UAA AI-UNITE", "reason": "NSF award is January 2025, far outside window"},
-    {"name": "Robert Foy / NOAA AFSC", "reason": "Juneau-based, not Anchorage-bowl-based"}
-  ]
+  "additional_repeat_risk_high_candidates_summary": "Also surfaced and DEPRIORITIZED as data-center-energy repeats: ak_press 'data centers employ few for operation' (jobs angle), Stan Jones 'region trying to keep the lights on' (grid), Schuerch/McCabe 'Port MacKenzie 10-20 GW' (siting), Greensparc 'hyperscale can't serve remote communities' (edge), Koplin 'spilling gigawatt-hours of excess hydropower' (hydro spill), Begich 'uniquely suited for this model' (energy). All sit in the data-center/energy cluster hit 3x in the last 6 issues. Ted Stevens 'Arctic persistent human presence constrained' and 'operators drown in deluge of data' overlap the 05-29 uncrewed-systems correction. Brookings '98.9% of federal AI spend is DoD' is fresh but has no Alaska-specific span (one-step inference)."
 }
