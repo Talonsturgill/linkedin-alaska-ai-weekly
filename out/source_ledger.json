@@ -1,48 +1,78 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "run_date": "2026-06-02",
+  "volume": "VOL. 04",
+  "window": "2026-05-26..2026-06-02",
+  "package": "Deep Dive — the delivered power-price wall under Alaska's AI data-center pitch",
+  "stories": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "id": "E1_GVEA",
+      "role": "lead",
+      "headline": "GVEA record 61% fuel-charge hike (June 1) reprices Eielson AI data-center math",
+      "key_facts_verified": [
+        "Fuel and Purchased Power charge up 61%, $0.12779 to $0.20652 per kWh, effective June 1, 2026",
+        "Largest such increase in GVEA history",
+        "CEO Travis Million; diesel roughly $2.50 to $5.10/gal after Strait of Hormuz disruptions; record April demand; lost Cook Inlet gas imports"
+      ],
+      "stripped_or_omitted": ["~40 cents/kWh all-in (unverified)", "solicitation number AFCEC-26-R-0006 (unconfirmed)"],
+      "sources": [
+        {"url": "https://fm.kuac.org/energy-and-the-environment/2026-05-28/gvea-plans-extraordinarily-large-increase-in-co-op-fuel-charge", "outlet": "KUAC", "pub_date": "2026-05-28", "author": "Tim Ellis"},
+        {"url": "https://www.newsminer.com/news/local_news/gvea-members-to-see-bills-spike-due-to-fuel-costs/article_c196e303-17a9-4125-b0e9-a3ef0bfb9c2a.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-05-27", "author": "Jack Barnwell"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/01/gvea-announces-rate-increase-starting-june-1-members-see-higher-bills/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-05-31", "author": "Alex Bengel"}
+      ]
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "id": "E1B_EIELSON_AFCEC",
+      "role": "background_bridge",
+      "headline": "Air Force offered three Alaska bases (JBER, Clear SFS, Eielson) for AI data centers, proposals due May 29",
+      "sources": [
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": "Air and Space Forces Magazine"}
+      ]
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "B1_KONIAG",
+      "role": "support",
+      "headline": "Koniag Emerging Technologies wins $24.4M DOD financial-management/analytics contract (May 28)",
+      "key_facts_verified": [
+        "$9,007,557 initial, up to $24,399,412 with options",
+        "Anchorage-HQ Alaska Native Corporation subsidiary",
+        "Washington Headquarters Services, through May 30, 2030; scope includes ADVANA"
+      ],
+      "stripped_or_omitted": ["stalled 8(a) approval pipeline / May 4 SBA letter (unverified)"],
+      "sources": [
+        {"url": "https://www.globalsecurity.org/military/library/news/2026/05/dod-contracts_4503104.htm", "outlet": "GlobalSecurity.org (DOD contract announcements)", "pub_date": "2026-05-28", "author": "U.S. Department of Defense"},
+        {"url": "https://envzone.com/award-record/koniag-emerging-technologies-wins-24-4m-defense-financial-management-contract/", "outlet": "EnvZone", "pub_date": "2026-05-28", "author": "EnvZone"}
+      ]
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "id": "D1_AIEO",
+      "role": "support",
+      "headline": "White House AI EO (June 2) directs CISA to arm rural hospitals and utilities with AI cyber tools in 30 days",
+      "key_facts_verified": [
+        "EO 'Promoting Advanced Artificial Intelligence Innovation and Security' signed June 2, 2026",
+        "CISA binding guidance within 30 days; rural hospitals, community banks, local utilities (Sec 2(c)(iii))",
+        "Voluntary 30-day frontier-model pre-release review; Treasury/NSA/CISA clearinghouse"
+      ],
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/", "outlet": "White House", "pub_date": "2026-06-02", "author": "Office of the Press Secretary"},
+        {"url": "https://rollcall.com/2026/06/02/executive-order-sets-voluntary-cyber-reviews-for-advanced-ai/", "outlet": "Roll Call", "pub_date": "2026-06-02", "author": "Roll Call"},
+        {"url": "https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives/", "outlet": "Federal News Network", "pub_date": "2026-06-02", "author": "Federal News Network"}
+      ]
     }
+  ],
+  "held": [
+    {
+      "id": "A1_SAEF4",
+      "reason": "DOL SAEF4 $85M apprenticeship deadline closed May 26; AI-infrastructure priority-sector hook unconfirmed, award range program-wide not AK-specific, AK submission unconfirmed. Dropped from package.",
+      "sources": [
+        {"url": "https://simpler.grants.gov/opportunity/3c1f1837-57eb-41df-a879-e07102d77717", "outlet": "Simpler.Grants.gov / DOL ETA", "pub_date": "2026-04-10", "author": "Employment and Training Administration"}
+      ]
+    }
+  ],
+  "new_sources_surfaced": [
+    {"url": "https://www.northernjournal.com", "rationale": "Nathaniel Herz's Northern Journal, granular North Slope tech-economy reporting."},
+    {"url": "https://fm.kuac.org", "rationale": "KUAC (UAF public radio), original Interior energy/infrastructure reporting (GVEA, Eielson)."},
+    {"url": "https://orangeslices.ai", "rationale": "Tracks ANC subsidiaries winning federal IT/AI/ML contracts."},
+    {"url": "https://envzone.com", "rationale": "Structured federal contract award records, ANC subsidiaries, same-day as DOD."},
+    {"url": "https://www.miningnewsnorth.com", "rationale": "North of 60 Mining News, Alaska mine-site technology adoption."}
   ]
 }
