@@ -1,0 +1,106 @@
+{
+  "issue_label": "NO. 07",
+  "run_date": "2026-06-03",
+  "selected_claim": {
+    "claim_verbatim": "you might be looking at four or five cents a kilowatt hour for decades and decades to come",
+    "claim_paraphrase_fair": "Governor Dunleavy publicly asserts that Alaska LNG pipeline completion will deliver power to data center operators at 4-5 cents per kWh for many decades, making Alaska cost-competitive with the cheapest data center markets in the country.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska (keynote, Data Center World conference)",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 2,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "Alaska's North Slope holds one of the largest untapped natural gas reserves on U.S. soil, and LNG export economics genuinely could produce low industrial power rates if the pipeline is built as designed. Comparable gas-to-power projects in other basins have achieved sub-5-cent wholesale rates, so the arithmetic is not fantasy.",
+    "steelman": "Alaska holds proven gas reserves sufficient to anchor decades of industrial power supply. If the Alaska LNG project reaches financial close and construction, the capital cost amortizes over a very long project life, and at current Henry Hub trajectories the delivered power price to an anchor industrial customer like a data center could legitimately land in the 4-6 cent range. At a time when data center developers in the Lower 48 are signing power purchase agreements at 7-12 cents and facing multi-year grid queues, even a credible prospect of 5-cent power for 20+ years is a rational reason to engage Alaska.",
+    "where_it_breaks": "The 4-5 cent promise is entirely contingent on a $46+ billion project that independent analysts, the state's own Senate Majority Leader, and major Southcentral utilities have each flagged as having a 'very small window of break-even profitability,' a timeline its own lead developer cannot currently meet, and a Cook Inlet gas supply that will be exhausted before any LNG pipe flows. The price quote presents a conditional outcome as a near-certain, multi-decade floor.",
+    "counter_evidence": [
+      {
+        "fact": "Rep. Calvin Schrage, citing GaffneyCline analyst Nick Fulford's House Finance Committee testimony (2026-05-26), stated the Alaska LNG project has 'a very small window of break-even profitability for a developer' under the current tax structure, with cost estimates potentially reaching $57-60 billion under inflation adjustment.",
+        "url": "https://www.newsminer.com/news/wire/proposed-alaska-gas-pipeline-has-a-narrow-window-of-viability-estimates-suggest/article_3a9d2d94-2f0b-4d84-81dc-ea3eb667f9f1.html",
+        "outlet": "Fairbanks Daily News-Miner (wire)",
+        "pub_date": "2026-05-29",
+        "is_primary": true
+      },
+      {
+        "fact": "Senate Majority Leader Cathy Giessel called the developer's construction timeline 'completely unrealistic,' noting the company had not yet obtained financial-fitness certification from state regulators, a process that alone takes six months.",
+        "url": "https://www.adn.com/politics/alaska-legislature/2026/02/11/lawmakers-skeptical-as-developer-of-alaska-lng-megaproject-sets-rapid-construction-timeline/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-02-11",
+        "is_primary": true
+      },
+      {
+        "fact": "Chugach Electric Association spokesperson Julie Hasquet: 'We currently do not have gas to serve a large data center.' Chugach's gas supply contract with Hilcorp Alaska ends in 2028, and Cook Inlet production supplying GVEA has already fallen from about 30% to under 1% of fuel supply.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      },
+      {
+        "fact": "Alaska Public Media reporting (2026-05-26) notes a global gas turbine backlog of 'as much as seven years,' meaning even if LNG pipeline financing were secured today, the power generation equipment needed to deliver 4-5 cent electricity to data centers faces a separate multi-year supply constraint.",
+        "url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center",
+        "outlet": "Alaska Public Media",
+        "pub_date": "2026-05-26",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "Alaska's power-price pitch to hyperscalers rests on a single load-bearing assumption, that the Alaska LNG project reaches financial close, builds on schedule, and delivers gas before the existing Southcentral supply collapses around 2028. Every one of those steps is contested by independent analysts and the state's own legislative leadership. The corrective frame: the 4-5 cent figure is a best-case price from an unbuilt project with no financial close, not a baseline data center operators can underwrite today.",
+    "ak_stakes": "Energy sector, data center investment/hyperscaler recruitment: Governor Dunleavy's office is actively using the 4-5 cent price as the anchor of Alaska's pitch to Microsoft, Google, and other hyperscalers evaluating 100-500 MW commitments through 2026-2027; if companies initiate site-selection processes on that assumption and AKLNG delays (or fails), those siting decisions and associated state tax and land-lease revenues, plus any AI infrastructure build-out, evaporate before ground is broken.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world. We have vast reserves of natural gas, significant untapped renewable potential and large-scale energy assets that are currently underutilized or stranded. At a time when developers across the Lower 48 are scrambling to secure reliable power, Alaska can offer something increasingly rare: energy abundance.",
+      "drop_reason": "true_as_stated, the steelmanned version holds: Alaska genuinely does possess large untapped reserves and renewable potential, and the stranded-asset characterization is directionally accurate; too thin to anchor a corrective post without collapsing into nuance rather than a clear rebuttal."
+    },
+    {
+      "claim_verbatim": "fiber brings the market to the gas, and AI and data storage add value to that gas in-state",
+      "drop_reason": "single_non_primary, originates in a single op-ed by an author with a disclosed financial conflict of interest (co-founder, Far North Digital); independent echo as settled wisdom not confirmed."
+    },
+    {
+      "claim_verbatim": "But you can take this to the bank: it is real, it is sustainable, it's not a bubble.",
+      "drop_reason": "single_non_primary, one asserter (Mahoney/Stak Energy), one article; no independent circulation of this specific claim; asserter is a project promoter with direct financial interest."
+    },
+    {
+      "claim_verbatim": "When we come in and we don't require major new network upgrades for the utility, we eat up a fair share of the fixed overhead for that utility. We put downward pressure on the rates for everyone on that system.",
+      "drop_reason": "true_as_stated, locally correct for utilities with genuine stranded surplus (confirmed by Cordova CEO Clay Koplin); counter-evidence supports rather than undermines it; no correctable strawman survives."
+    },
+    {
+      "claim_verbatim": "Alaska needs a workforce that is prepared to step into these roles instead of watching them go to Outside hires",
+      "drop_reason": "true_as_stated, the AI workforce-gap claim is directionally correct and broadly acknowledged; no corrective frame strong enough to anchor a post."
+    },
+    {
+      "claim_verbatim": "Alaska, which ranks last overall, produces just 12 AI-related degrees per 10,000 young adults, more than 25 times fewer than New Hampshire.",
+      "drop_reason": "attribution fails, primary asserter URL (brainly.com) returned HTTP 403 and verbatim could not be confirmed on the source page; quote confirmed only on a secondary outlet."
+    },
+    {
+      "claim_verbatim": "Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?",
+      "drop_reason": "single_non_primary, one asserter in one article, no confirmed independent echo; blanket phrasing likely a GEO-specific shorthand to the audience, weakening corrective force; C1 outcompetes on every weighted criterion."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": ""
+}
