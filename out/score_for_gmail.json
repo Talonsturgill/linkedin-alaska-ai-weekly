@@ -1,17 +1,57 @@
 {
-  "ship": true,
-  "weighted_total": 9.48,
-  "threshold": 8.0,
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
-  ]
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.15,
+      "notes": "First sentence alone names the May 20 adjournment, four bill numbers, and a concrete outcome (every bill dead); stands inside the see-more cutoff. Loses one point because the second line catalogs bills before the capital consequence arrives in paragraph two."
+    },
+    {
+      "name": "Industry relevance",
+      "score": 10,
+      "weight": 0.2,
+      "notes": "Every item has a named AK anchor and a specific industry consequence: governance vacuum to procurement/AV/healthcare ambiguity; RHTP $272M with June 22 deadline and ~$20M tranche; Sawmill Creek UAS integration mid-fire-season; Glenfarne $44.5B-54.5B and data-center power math; White House EO July 2 CISA clock."
+    },
+    {
+      "name": "Factual density",
+      "score": 10,
+      "weight": 0.15,
+      "notes": "Specifics every one to two sentences: bill numbers, ADN May 28, HB 239 June 1/June 18, $272.2M/June 22/$20M/403, Sawmill Creek 14.8 acres May 20-22, Glenfarne June 3 $44.5-54.5B vs DOR $46.2B, EO June 2 CISA to July 2, 35th Legislature January."
+    },
+    {
+      "name": "Source quality",
+      "score": 8,
+      "weight": 0.15,
+      "notes": "Governance vacuum backed by akleg.gov primary + ADN; RHTP by DOH + HHS TAGGS primaries; Sawmill by akfireinfo DFFP primaries + DroneXL; EO by whitehouse.gov primary. Glenfarne $44.5-54.5B rests effectively on one outlet (KTUU) with a URL-date discrepancy; post softens with 'Glenfarne disclosed' but the band is not independently confirmed, the one weak link."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.15,
+      "notes": "Reads close to post_001: structural framing, contrarian pivot on the light-touch-win read, named lock-in consequence. No banned phrases or influencer cadence. Minor deduction for one slightly rhetorical bullet-lead sentence."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 10,
+      "weight": 0.1,
+      "notes": "Two-to-four-sentence paragraphs, one bullet block of three labeled single-clause items, 435 words / 2662 chars within bounds, scans cleanly on mobile."
+    },
+    {
+      "name": "Engagement question",
+      "score": 9,
+      "weight": 0.08,
+      "notes": "Names three specific actors (delegation, agencies, grant offices) tied to the vacuum-filling tension. No CTA or softener. Loses one point for menu-style framing rather than forcing a sharper consequence choice."
+    },
+    {
+      "name": "Business actionability",
+      "score": 10,
+      "weight": 0.02,
+      "notes": "Multiple time-bound revisit triggers: RHTP June 22, Glenfarne power-modeling reset, CISA July 2 window, HB 239 June 18 compliance watch, for multiple reader types."
+    }
+  ],
+  "ship": true,
+  "weighted_total": 9.32,
+  "threshold": 8.0,
+  "weakest_criterion": "Source quality (Glenfarne single-outlet)",
+  "one_sentence_fix": "Strengthen the Glenfarne sourcing by attributing the $44.5B-54.5B range inline to the special-session disclosure, since only one outlet carries the precise band."
 }

@@ -1,0 +1,94 @@
+{
+  "sources": [
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/05/27/more-than-80-of-alaska-bills-failed-this-session-here-are-some-of-them/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-05-28",
+      "story_title": "AI governance vacuum (HB 47/217, SB 2, HCR 3 dead; HB 239 to Dunleavy)"
+    },
+    {
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB+217",
+      "outlet": "Alaska Legislature (primary)",
+      "pub_date": "2026-05-17",
+      "story_title": "AI governance vacuum (HB 47/217, SB 2, HCR 3 dead; HB 239 to Dunleavy)"
+    },
+    {
+      "url": "https://www.akleg.gov/Basis/Bill/Detail/34?Root=HB+239",
+      "outlet": "Alaska Legislature (primary)",
+      "pub_date": "2026-06-01",
+      "story_title": "AI governance vacuum (HB 47/217, SB 2, HCR 3 dead; HB 239 to Dunleavy)"
+    },
+    {
+      "url": "https://www.adn.com/opinions/letters/2026/06/03/letter-ai-technology-isnt-waiting-and-neither-should-the-alaska-legislature/",
+      "outlet": "Anchorage Daily News (opinion)",
+      "pub_date": "2026-06-03",
+      "story_title": "AI governance vacuum (HB 47/217, SB 2, HCR 3 dead; HB 239 to Dunleavy)"
+    },
+    {
+      "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+      "outlet": "Alaska Department of Health (primary)",
+      "pub_date": "2026-06-01",
+      "story_title": "Alaska RHTP $272M, June 22 deadline ($20M AI/drone tranche)"
+    },
+    {
+      "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190",
+      "outlet": "HHS TAGGS (primary)",
+      "pub_date": "2025-12-29",
+      "story_title": "Alaska RHTP $272M, June 22 deadline ($20M AI/drone tranche)"
+    },
+    {
+      "url": "https://www.alaskahha.org/rhtp",
+      "outlet": "Alaska Hospital and Healthcare Association",
+      "pub_date": "2026-05-22",
+      "story_title": "Alaska RHTP $272M, June 22 deadline ($20M AI/drone tranche)"
+    },
+    {
+      "url": "https://akfireinfo.com/2026/05/20/drones-assist-crews-sawmill-creek-fire/",
+      "outlet": "AK Fire Info (DFFP, primary)",
+      "pub_date": "2026-05-20",
+      "story_title": "DOF infrared-drone UAS contains Sawmill Creek Fire (14.8 ac)"
+    },
+    {
+      "url": "https://akfireinfo.com/2026/05/21/progress-on-sawmill-creek-fire/",
+      "outlet": "AK Fire Info (DFFP, primary)",
+      "pub_date": "2026-05-21",
+      "story_title": "DOF infrared-drone UAS contains Sawmill Creek Fire (14.8 ac)"
+    },
+    {
+      "url": "https://dronexl.co/2026/05/27/alaska-drone-fires-sawmill-creek-14-8/",
+      "outlet": "DroneXL (trade)",
+      "pub_date": "2026-05-27",
+      "story_title": "DOF infrared-drone UAS contains Sawmill Creek Fire (14.8 ac)"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/06/04/alaska-lng-pipeline-cost-unveiled-after-months-lawmakers-asking-price-tag/",
+      "outlet": "Alaska's News Source (KTUU)",
+      "pub_date": "2026-06-03",
+      "story_title": "Glenfarne Alaska LNG Phase 1 cost $44.5B-$54.5B"
+    },
+    {
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/06/01/report-alaska-lng-project-could-cost-municipality-of-anchorage-millions/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-01",
+      "story_title": "Glenfarne Alaska LNG Phase 1 cost $44.5B-$54.5B"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-27/proposed-alaska-gas-pipeline-has-a-narrow-window-of-viability-estimates-suggest",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-05-27",
+      "story_title": "Glenfarne Alaska LNG Phase 1 cost $44.5B-$54.5B"
+    },
+    {
+      "url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/",
+      "outlet": "White House (primary)",
+      "pub_date": "2026-06-02",
+      "story_title": "White House AI EO (June 2): CISA tools to rural hospitals/utilities"
+    },
+    {
+      "url": "https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives/",
+      "outlet": "Federal News Network",
+      "pub_date": "2026-06-02",
+      "story_title": "White House AI EO (June 2): CISA tools to rural hospitals/utilities"
+    }
+  ]
+}
