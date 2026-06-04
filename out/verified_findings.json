@@ -1,0 +1,84 @@
+{
+  "_validation_note": "All 5 stories survived validation. RHTP $20M/10% tech tranche and 403-applicant count verified verbatim from Alaska DOH primary source page. Glenfarne $44.5B-$54.5B and DOR $46.2B verified from Alaska's News Source; that URL contains '/2026/06/04/' vs claimed pub_date 2026-06-03 -- borderline window, attribute carefully, headline figure rests on one outlet. Governance-vacuum bill deaths confirmed via akleg.gov (HB 217 in Senate Rules, HB 47 in Senate Judiciary, SB 2 heard-and-held, HCR 3 in House Finance); ADN >80%-of-bills-failed confirmed but does not name AI bills; one ADN source is an opinion letter, so confidence held at medium. Sawmill Creek 14.8-acre containment verified across three sources; only in-window source (DroneXL May 27) is a trade blog, akfireinfo primaries are May 20-21 (background); confidence medium. White House EO June 2 verified high but flagged background/forward-look (covered prior week). No stories dropped.",
+  "window": ["2026-05-27", "2026-06-03"],
+  "stories": [
+    {
+      "id": "D2_GOVERNANCE_VACUUM",
+      "beat": "D_policy",
+      "story_title": "Alaska's entire AI governance agenda died in the 34th Legislature; HB 47, HB 217, SB 2, HCR 3 all failed; HB 239 (AI-CSAM) lone survivor on Dunleavy's desk",
+      "summary_2_sentences": "Every AI-related bill except HB 239 died when the Alaska 34th Legislature adjourned May 20, 2026: HB 47 (AI policy) stalled in Senate Judiciary, HB 217 (autonomous vehicles) stuck in Senate Rules, SB 2 (state-agency AI/deepfakes) heard-and-held in Senate State Affairs, and HCR 3 (AI task force) never cleared House Finance. HB 239, criminalizing AI-generated child sexual abuse material, was transmitted to Governor Dunleavy on June 1 with an 18-day clock expiring June 18.",
+      "why_it_matters_to_alaskans": "Alaska enters the next biennium with no statutory AI guardrails, no autonomous-vehicle framework, and no oversight task force, leaving state agencies and Alaskans without regulatory clarity as AI adoption accelerates statewide.",
+      "industry_consequence": "Absence of any AI governance statute means state procurement, healthcare AI pilots, and autonomous systems deployments in Alaska face legal ambiguity until at least 2027 when the 35th Legislature could revisit the agenda.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/27/more-than-80-of-alaska-bills-failed-this-session-here-are-some-of-them/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-28", "author": "ADN Staff", "fetch_status": "ok"},
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB+217", "outlet": "Alaska Legislature (primary)", "pub_date": "2026-05-17", "author": "Alaska Legislature", "fetch_status": "ok"},
+        {"url": "https://www.akleg.gov/Basis/Bill/Detail/34?Root=HB+239", "outlet": "Alaska Legislature (primary)", "pub_date": "2026-06-01", "author": "Alaska Legislature", "fetch_status": "ok"},
+        {"url": "https://www.adn.com/opinions/letters/2026/06/03/letter-ai-technology-isnt-waiting-and-neither-should-the-alaska-legislature/", "outlet": "Anchorage Daily News (opinion)", "pub_date": "2026-06-03", "author": "Roger Kaye", "fetch_status": "ok"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "needs_softening": true,
+      "softening_reason": "One source is an opinion letter. akleg.gov confirms each bill's dead status; HB 217 is autonomous-vehicle (AI-adjacent), frame accurately. >80%-failure is general, not AI-specific."
+    },
+    {
+      "id": "RHTP_272M",
+      "beat": "B_capital",
+      "story_title": "Alaska RHTP $272M technology window opened June 1; up to $20M AI/drone tranche, applications close June 22",
+      "summary_2_sentences": "The Alaska Department of Health launched the RHTP implementation application portal on June 1, giving eligible organizations access to Year 1 of the $272.2 million CMS grant, with a June 22 deadline. Federal rules cap the technology-innovation tranche at 10 percent of first-year funds, roughly $20 million, which can fund AI clinical decision support, drone-based pharmacy delivery, remote diagnostics, and telehealth.",
+      "why_it_matters_to_alaskans": "Up to 403 organizations that advanced from the Letter of Interest stage can now compete for funding that could bring AI health tools and UAS pharmacy delivery to rural communities separated from care by hundreds of miles.",
+      "industry_consequence": "If fully subscribed, the $20M technology tranche would be the largest single state-level AI-in-healthcare deployment opportunity in Alaska history, with awards expected before an August 1 subrecipient performance start.",
+      "sources": [
+        {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health (primary)", "pub_date": "2026-06-01", "author": "Alaska DOH", "fetch_status": "ok"},
+        {"url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190", "outlet": "HHS TAGGS (primary)", "pub_date": "2025-12-29", "author": "HHS", "fetch_status": "ok"},
+        {"url": "https://www.alaskahha.org/rhtp", "outlet": "Alaska Hospital and Healthcare Association", "pub_date": "2026-05-22", "author": "AHHA", "fetch_status": "ok"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false,
+      "needs_softening": false
+    },
+    {
+      "id": "GLENFARNE_LNG",
+      "beat": "E_infra",
+      "story_title": "Glenfarne discloses Alaska LNG Phase 1 at $44.5B-$54.5B, resetting data-center power math",
+      "summary_2_sentences": "Glenfarne disclosed for the first time during a legislative special session that Phase 1 of its 800-mile Alaska LNG pipeline will cost between $44.5 billion and $54.5 billion, above the Alaska Department of Revenue's prior $46.2 billion estimate, attributing the higher range to inflation and construction-cost changes. The disclosure landed as lawmakers weighed property-tax concessions, with the cost range directly shaping the economics of large power consumers including proposed data centers.",
+      "why_it_matters_to_alaskans": "A project in this cost range must clear high export-revenue hurdles, affecting the long-term price and availability of North Slope gas for homes, businesses, and any AI compute facility counting on that gas as a power source.",
+      "industry_consequence": "The wide $10B cost band signals financing and viability uncertainty; if the project stalls or restructures, data-center developers banking on cheap North Slope gas lose the power premise underpinning several announced Alaska projects.",
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/04/alaska-lng-pipeline-cost-unveiled-after-months-lawmakers-asking-price-tag/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-03", "author": "KTUU Staff", "fetch_status": "ok"},
+        {"url": "https://www.adn.com/alaska-news/anchorage/2026/06/01/report-alaska-lng-project-could-cost-municipality-of-anchorage-millions/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-01", "author": "ADN Staff", "fetch_status": "ok"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-27/proposed-alaska-gas-pipeline-has-a-narrow-window-of-viability-estimates-suggest", "outlet": "Alaska Public Media", "pub_date": "2026-05-27", "author": "James Brooks", "fetch_status": "ok"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false,
+      "needs_softening": true,
+      "softening_reason": "Headline $44.5-54.5B rests on one outlet (KTUU, URL date June 4 vs June 3). Attribute as disclosed-to-special-session/reportedly. DOR $46.2B verified via APM. AI tie is analytical only; do not claim a named data-center deal depends on it."
+    },
+    {
+      "id": "SAWMILL_DRONE",
+      "beat": "C_deployment",
+      "story_title": "Alaska DOF infrared-drone UAS module contained the Sawmill Creek Fire at 14.8 acres",
+      "summary_2_sentences": "The Alaska Division of Forestry and Fire Protection deployed its UAS module with infrared cameras on May 20 near Delta Junction, using drones to locate hotspots across the Gerstle River corridor and direct ground crews to each heat source. The fire reached full containment at 14.8 acres on May 22, with the drone module released once infrared overflights confirmed no remaining heat.",
+      "why_it_matters_to_alaskans": "The fast 14.8-acre containment shows how infrared drone reconnaissance can substitute for aerial detection assets in remote Interior terrain, cutting suppression costs and protecting Delta Junction farmland as fire season opens.",
+      "industry_consequence": "Operational integration of UAS infrared modules into state suppression workflows strengthens the case for expanded drone procurement and could influence BLM Alaska and U.S. Forest Service deployments through the 2026 fire season.",
+      "sources": [
+        {"url": "https://akfireinfo.com/2026/05/20/drones-assist-crews-sawmill-creek-fire/", "outlet": "AK Fire Info (DFFP, primary)", "pub_date": "2026-05-20", "author": "Alaska DFFP", "fetch_status": "ok"},
+        {"url": "https://akfireinfo.com/2026/05/21/progress-on-sawmill-creek-fire/", "outlet": "AK Fire Info (DFFP, primary)", "pub_date": "2026-05-21", "author": "Alaska DFFP", "fetch_status": "ok"},
+        {"url": "https://dronexl.co/2026/05/27/alaska-drone-fires-sawmill-creek-14-8/", "outlet": "DroneXL (trade)", "pub_date": "2026-05-27", "author": "DroneXL", "fetch_status": "ok"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "needs_softening": true,
+      "softening_reason": "In-window source (DroneXL May 27) is a trade blog; akfireinfo primaries are May 20-21 (background). 14.8 acres and containment date verified across all three. Recaps an event that concluded May 22."
+    },
+    {
+      "id": "WH_AI_EO",
+      "beat": "D_policy",
+      "story_title": "White House AI EO (June 2) directs CISA tools to rural hospitals/utilities; 30-day clock to July 2",
+      "summary_2_sentences": "President Trump signed an executive order June 2 directing CISA to facilitate AI cybersecurity tools for rural hospitals, community banks, and local utilities within 30 days, and tasking Treasury with an AI cybersecurity clearinghouse. Binding guidance prioritizing AI-enabled cyber defenses across civilian federal systems is required on the same clock.",
+      "why_it_matters_to_alaskans": "Rural Alaska hospitals and utilities on thin margins stand to receive federally facilitated AI cyber tools, addressing a vulnerability where one attack could disable the only local health or power provider.",
+      "industry_consequence": "The 30-day CISA window (to July 2) determines whether federal AI cyber resources reach Alaska's dispersed rural operators. COVERED IN 06-02 RUN; forward-look/texture only, do not lead.",
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/", "outlet": "White House (primary)", "pub_date": "2026-06-02", "author": "White House", "fetch_status": "ok"},
+        {"url": "https://federalnewsnetwork.com/cybersecurity/2026/06/ai-executive-order-sets-stage-for-new-cybersecurity-directives/", "outlet": "Federal News Network", "pub_date": "2026-06-02", "author": "FNN Staff", "fetch_status": "ok"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": true,
+      "needs_softening": false
+    }
+  ]
+}
