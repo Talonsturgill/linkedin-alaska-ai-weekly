@@ -1,0 +1,97 @@
+{
+  "window": ["2026-05-28", "2026-06-04"],
+  "verified": [
+    {
+      "id": "E_COAL_AI",
+      "beat": "E",
+      "story_title": "DOE awards $89M to a proposed Alaska coal plant pitched to power AI data centers",
+      "summary_2_sentences": "On June 4 the Department of Energy selected Terra Energy Center Corp., an Anchorage affiliate of Canadian firm Flatlands Energy, for an $89 million grant to study a 1,250-megawatt coal-fired plant with carbon capture in the Susitna River watershed, framed as part of a roughly $700 million national package tied to AI data-center energy demand. The Alaska project has no permitted mine, no finalized design, and no signed power-purchase agreement.",
+      "why_it_matters_to_alaskans": "If built it would be among the largest power plants in Alaska history, marketed directly to data-center and industrial load at Port MacKenzie and the Mat-Su, positioning it as a near-term answer to the AI power gap that has stalled Southcentral data-center siting.",
+      "industry_consequence": "Energy/data-center sector. Terra Energy Center must match the $89M, advance coal-mine and access-road permitting, and secure PPAs within 12 to 24 months or lose federal momentum, while Chugach Electric, Golden Valley Electric, and prospective data-center developers decide whether to anchor procurement to a speculative supply source.",
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/04/trump-administration-selects-proposed-coal-project-for-89-million-grant-in-susitna-river-watershed/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-04", "author": ""},
+        {"url": "https://www.alaskasnewssource.com/2026/06/04/new-coal-plant-be-built-alaska-part-700m-trump-investment/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-04", "author": ""},
+        {"url": "https://latitudemedia.com/news/trump-is-redirecting-carbon-capture-funds-to-coal-for-ai", "outlet": "Latitude Media", "pub_date": "2026-06-04", "author": ""}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false,
+      "verified": true, "needs_softening": true,
+      "softening_note": "The 'designed to power AI data centers' framing is from Latitude Media only; ADN and KTUU don't use it. Attribute the AI purpose to Latitude Media reporting. $89M confirmed by ADN. National package roughly $700M (approximate)."
+    },
+    {
+      "id": "D_GAAIA",
+      "beat": "D",
+      "story_title": "House 'Great American AI Act' discussion draft would freeze state AI-development laws for three years",
+      "summary_2_sentences": "Reps. Jay Obernolte and Lori Trahan released a 269-page bipartisan discussion draft on June 4 that would preempt state laws regulating AI model development for three years while leaving states authority over AI deployment and use. It would also codify a Center for AI Standards and Innovation at Commerce and require semi-annual third-party safety audits of frontier developers above $500M revenue.",
+      "why_it_matters_to_alaskans": "Alaska's 34th Legislature adjourned May 20 having killed every standalone AI bill, so a three-year federal preemption would remove the runway the state would need to write its own AI-development rules for fisheries data, Indigenous data sovereignty, and oil-and-gas deployment.",
+      "industry_consequence": "State-government/AI-regulation sector. Alaska's incoming 35th Legislature faces a closing window. If the draft advances to Senate markup before end of Q3 2026, Alaska policymakers either prioritize state AI bills next session or accept federally set development standards with no Alaska-specific carveouts.",
+      "sources": [
+        {"url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/", "outlet": "Roll Call", "pub_date": "2026-06-04", "author": ""},
+        {"url": "https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/", "outlet": "FedScoop", "pub_date": "2026-06-04", "author": ""},
+        {"url": "https://www.nextgov.com/artificial-intelligence/2026/06/lawmakers-propose-ai-framework-would-preempt-state-laws-3-years/413975/", "outlet": "Nextgov/FCW", "pub_date": "2026-06-04", "author": ""}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false,
+      "verified": true, "needs_softening": false
+    },
+    {
+      "id": "C_HB117",
+      "beat": "C",
+      "story_title": "Alaska HB 117 reaches governor's desk, extending state reach into AI-equipped trawl monitoring data",
+      "summary_2_sentences": "HB 117 passed both chambers and was transmitted to Gov. Dunleavy on June 1 with a June 18 deadline, authorizing the Department of Fish and Game to enroll trawl vessels already carrying federally mandated electronic monitoring gear into a parallel state EM program at no added equipment cost. Those vessels already run NOAA-approved computer-vision catch-monitoring systems.",
+      "why_it_matters_to_alaskans": "Trawl operators in the Gulf of Alaska and Bering Sea already run NOAA-approved computer-vision catch-monitoring systems under federal rules, and the state will now draw on that same AI-captured footage for state data and enforcement.",
+      "industry_consequence": "Commercial fisheries sector. Alaska trawl operators and quota holders face new dual federal-state compliance workflows around existing AI computer-vision catch data once the bill is signed, with a narrow window to shape state data-use rules during implementation.",
+      "sources": [
+        {"url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=hb117", "outlet": "Alaska State Legislature", "pub_date": "2026-06-01", "author": "Alaska Legislature"},
+        {"url": "https://www.undercurrentnews.com/2026/05/18/alaska-lawmakers-expand-electronic-monitoring-to-trawlers-in-state-waters/", "outlet": "Undercurrent News", "pub_date": "2026-05-18", "author": ""}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "verified": true, "needs_softening": true,
+      "softening_note": "Effective 'January 1, 2027' date NOT confirmed on akleg status page (shows 'SAME AS PASSAGE'). Do NOT assert Jan 1 2027. Lead on the June 1 transmission and June 18 governor clock instead. Undercurrent 403'd; akleg is primary and sufficient."
+    },
+    {
+      "id": "B_NSF_SBIR",
+      "beat": "B",
+      "story_title": "NSF restarts $250M SBIR/STTR with a June 2 pitch window, compressing the cycle for Alaska deep-tech",
+      "summary_2_sentences": "NSF announced May 26 it is deploying $250 million to restart SBIR/STTR after months of suspension, with project pitches reopening June 2 toward a July 27 deadline and Phase I awards reportedly up to $305,000. The restart concentrates months of deferred demand into one window.",
+      "why_it_matters_to_alaskans": "Alaska's deep-tech and AI startup pipeline leans on NSF SBIR as non-dilutive seed capital, and the state's SBIR/STTR supplemental grant is triggered only by a federal award.",
+      "industry_consequence": "Deep-tech/AI sector. Alaska SBIR applicants, including those supported by the UAF FAST program and Alaska SBDC, face a compressed and unusually competitive July 27 window, with the state supplemental contingent on winning a federal Phase I.",
+      "sources": [
+        {"url": "https://www.nsf.gov/news/nsf-deploys-250-million-restart-small-business-innovation", "outlet": "NSF", "pub_date": "2026-05-26", "author": "NSF"},
+        {"url": "https://grantedai.com/blog/nsf-sbir-sttr-relaunch-nsf-26-510-250-million-deep-tech-june-2-project-pitch-july-27-deadline-strategy", "outlet": "Granted AI", "pub_date": "2026-06-02", "author": ""}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "verified": true, "needs_softening": true,
+      "softening_note": "AK tie is STRUCTURAL only, no named AK actor. $305,000 / June 2 / July 27 are from GrantedAI blog, not NSF page. Hedge as 'reportedly' and don't imply NSF named Alaska. $250M restart confirmed by NSF primary."
+    },
+    {
+      "id": "B_DAF_EXT",
+      "beat": "B",
+      "story_title": "Air Force Alaska AI data-center lease solicitation amended May 28, deadline pushed to June 29",
+      "summary_2_sentences": "The Department of the Air Force solicitation AFCEC-26-R-0006, offering land at JBER, Eielson, and Clear Space Force Station for privately financed AI data centers under an Enhanced Use Lease, was amended May 28 to push the proposal deadline from May 29 to June 29. Winning developers bear all financing, permitting, construction, and operations cost.",
+      "why_it_matters_to_alaskans": "The extension keeps the largest federal AI infrastructure offering in Alaska open through June 29 for energy companies, infrastructure investors, and tribal corporations weighing partnership roles.",
+      "industry_consequence": "AI-infrastructure/defense real-estate sector. Prospective offerors and Alaska energy and infrastructure stakeholders have until June 29 to submit proposals or finalize partnership structures.",
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov", "pub_date": "2026-05-28", "author": ""},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": ""}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "verified": true, "needs_softening": true,
+      "softening_note": "May 28 amendment + June 29 deadline confirmed by HigherGov (primary). 4,700-acre figure is from the April 11 background article, NOT the amendment, so avoid stating acreage as new/confirmed."
+    },
+    {
+      "id": "C_RHTP",
+      "beat": "C",
+      "story_title": "Alaska's $272M Rural Health Transformation Program opened its application portal June 1",
+      "summary_2_sentences": "The Alaska Department of Health opened the RHTP implementation-pathway application portal June 1, a $272.2M first-year award, with drones, AI-enabled diagnostics, and remote monitoring listed as fundable categories; 403 organizations advanced to full applications due June 22.",
+      "why_it_matters_to_alaskans": "Alaska rural and tribal health organizations can draw down federal capital to pilot AI clinical tools and drone delivery in roadless communities, with award decisions expected mid-July.",
+      "industry_consequence": "Rural/tribal healthcare sector. AK health organizations and AI/drone vendors have until June 22 to submit or support RHTP applications.",
+      "sources": [
+        {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health", "pub_date": "2026-06-01", "author": "Alaska Department of Health"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false,
+      "verified": true, "needs_softening": false,
+      "editor_note": "Already led on the 06-03 LinkedIn post as SUPPORT 1. Use only as a brief supporting beat here, do not re-lead."
+    }
+  ],
+  "dropped": [],
+  "validator_summary": "All six candidates verified, no drops. Softening flags on E_COAL_AI (AI framing attribution), C_HB117 (effective date unconfirmed; lead on June 1 transmission/June 18 clock), B_NSF_SBIR (structural AK tie, blog-sourced specifics), B_DAF_EXT (acreage from background source)."
+}
