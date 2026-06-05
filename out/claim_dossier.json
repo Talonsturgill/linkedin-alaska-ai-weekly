@@ -1,0 +1,101 @@
+{
+  "issue_label": "NO. 08",
+  "run_date": "2026-06-04",
+  "selected_claim": {
+    "claim_verbatim": "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year",
+    "claim_paraphrase_fair": "Alaska's cold climate delivers cooling-cost savings so large, on the order of $150 million per year for a 1 GW data center, that they make the state decisively competitive for hyperscale AI compute siting.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Ethan Berkowitz",
+        "title_or_org": "Co-founder Far North Digital / former Mayor of Anchorage",
+        "url": "https://www.adn.com/opinions/2026/01/10/opinion-fiber-optic-cable-stranded-energy-and-ai-alaskas-next-great-opportunity/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-01-10",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Christopher Tozzi",
+        "title_or_org": "Technology Analyst",
+        "url": "https://www.datacenterknowledge.com/cooling/cold-climate-data-centers-the-next-hot-thing-in-data-center-growth",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2026-04-07",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 3,
+    "discourse_slice": "policy_official|exec_social|trade_analyst",
+    "why_smart_people_believe_it": "Cold-climate free cooling is a real and proven advantage. Nordic data centers run on it successfully. A governor citing a specific dollar figure with PUE framing sounds authoritative, and the underlying physics (lower ambient temperature reduces mechanical cooling load) is correct.",
+    "steelman": "Alaska's average ambient temperatures are genuinely lower than major US data center markets. Free-air and adiabatic cooling systems do reduce PUE in cold climates, and European hyperscalers in Iceland, Finland, and Sweden have demonstrated real operational savings. A governor using PUE-based math is engaging with industry metrics, not making things up. If cooling represents even 30 to 40 percent of total power draw at a 1 GW facility, temperature differentials of 30 degrees could produce material savings.",
+    "where_it_breaks": "The primary flaw is magnitude and decisiveness. UAF's Alaska Center for Energy and Power found that cooling costs represent 5 percent or less of ongoing data center operations and maintenance costs, meaning even a very generous cooling savings cannot overcome Alaska's core disadvantage, electricity costs that are among the highest in the US. The $150 million figure rests on an assumption that cooling is the dominant cost lever, when in practice power price and connectivity reliability are far larger line items for hyperscalers.",
+    "counter_evidence": [
+      {
+        "fact": "UAF Alaska Center for Energy and Power: 'cooling costs typically represent 5% or less of ongoing operations and maintenance costs' and 'perhaps the cold winters may not offer quite as many thermal energy advantages as one would think.'",
+        "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php",
+        "outlet": "UAF Alaska Center for Energy and Power (ACEP) Blog",
+        "pub_date": "2024-02-09",
+        "is_primary": true
+      },
+      {
+        "fact": "UAF Alaska Center for Energy and Power: 'Alaska's cost of electricity is among the highest in the U.S., though much lower than some other parts of the world.'",
+        "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+        "outlet": "UAF Alaska Center for Energy and Power (ACEP) Blog",
+        "pub_date": "2025-03-25",
+        "is_primary": true
+      }
+    ],
+    "more_accurate_frame": "Cold-climate cooling is a real but minor input to hyperscale data center economics, typically 5 percent or less of O&M, while Alaska's electricity costs remain among the highest in the US. A $150 million per year cooling savings figure, however PUE-accurate in isolation, is misleading as a site-selection argument because it highlights the smallest cost lever while ignoring the largest one. Alaska can make an honest data-center pitch, but it requires solving the power-price problem first, not leading with cooling math.",
+    "ak_stakes": "Data center siting and AI infrastructure investment. Any hyperscaler or colocation developer evaluating Alaska based on the governor's cooling-cost pitch faces a materially incomplete picture. Electricity cost (the largest operational expense) runs contrary to the pitch and is unresolved absent the Alaska LNG project or a major renewable build-out. The named actor is Governor Dunleavy's economic development office and any developer responding to the pitch in 2025 to 2026.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "true_as_stated. The steelmanned version (Alaska lacks a whole-of-government AI strategy) is substantially accurate even after accounting for sector-specific initiatives such as DEED K-12 AI guidance, PFD modernization, and the myAlaska agentic-AI RFI. Those actions are real but do not constitute a comprehensive coordinated strategy, so the ADN editorial board's core assertion survives scrutiny."
+    },
+    {
+      "claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs accomplish enormous challenges in the fields of science and technology, as well as offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska.",
+      "drop_reason": "no_primary_counter. The White House AI Action Plan (July 2025), the intended primary counter scoping AI permitting acceleration to DOI not DOE, was not retrievable in readable form via WebFetch. The CSIS secondary source did not clearly establish that FASST excludes permitting applications. Without a re-verified primary counter the rebuttable gate cannot be cleared."
+    },
+    {
+      "claim_verbatim": "AI could replace half of all entry-level jobs in the next five years",
+      "drop_reason": "not_load_bearing. The claim as circulated in the Alaska context is an imported global figure (attributed to Dario Amodei, not the Alaskan op-ed author as the scout suggested) with no Alaska-specific grounding. It cannot be reduced to a specific Alaska sector plus a named Alaska actor plus a concrete decision or risk."
+    },
+    {
+      "claim_verbatim": "Right now, it's about 12 milliseconds from Alaska to the coast of Oregon.",
+      "drop_reason": "true_as_stated. One-way fiber latency for roughly 2,000 miles at approximately 200,000 km/s through fiber is in the 10 to 16 ms range, making the claim physically plausible and likely accurate for one-way latency. The claim also substantially overlaps with prior correction no. 4 (connectivity scarcity)."
+    },
+    {
+      "claim_verbatim": "places like Alaska's North Slope become not only viable, but we argue that they have become inevitable.",
+      "drop_reason": "single_non_primary. Sparrow Mahoney is a single asserter at a single workshop event whose company (Stak Energy) has not yet secured a gas supply deal or turbine equipment. The claim is a forward-looking advocacy assertion from the executive of an early-stage project rather than a circulating consensus claim."
+    },
+    {
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world",
+      "drop_reason": "recent_repeat. This claim re-litigates the power-pricing and energy-availability narrative corrected in prior issue no. 1 (4-5 cents/kWh pitch resting on unbuilt Alaska LNG). No genuinely new angle distinguishes this from that prior correction."
+    },
+    {
+      "claim_verbatim": "Reliable, high-bandwidth networks are often scarce in very cold regions",
+      "drop_reason": "recent_repeat. This claim re-litigates the connectivity infrastructure narrative corrected in prior issue no. 4 (fiber adequacy). No genuinely new angle distinguishes this from that prior correction."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Validator re-verified the Dunleavy verbatim on Data Center Knowledge and the ACEP counter-evidence at both URLs. Candidate C (Murkowski permitting) was dropped because its intended primary counter (White House AI Action Plan PDF) was not WebFetch-retrievable this run."
+}

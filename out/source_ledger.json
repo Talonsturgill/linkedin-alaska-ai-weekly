@@ -1,48 +1,37 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "run_date": "2026-06-04",
+  "issue_label": "NO. 08",
+  "selected_claim": "Gov. Dunleavy: Alaska's cold could save a 1 GW data center up to $150M/yr on cooling",
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+      "outlet": "Data Center Knowledge",
+      "pub_date": "2025-10-07",
+      "story_title": "CLAIM (asserter: Gov. Mike Dunleavy at Data Center World Power) — 30 degrees cooler than Texas, PUE math could save a 1 GW plant up to $150M/yr"
+    },
+    {
+      "url": "https://www.adn.com/opinions/2026/01/10/opinion-fiber-optic-cable-stranded-energy-and-ai-alaskas-next-great-opportunity/",
       "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "pub_date": "2026-01-10",
+      "story_title": "CLAIM circulated (Ethan Berkowitz, Far North Digital) — North Slope cold climate / natural cooling as hyperscale advantage"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "url": "https://www.datacenterknowledge.com/cooling/cold-climate-data-centers-the-next-hot-thing-in-data-center-growth",
+      "outlet": "Data Center Knowledge",
+      "pub_date": "2026-04-07",
+      "story_title": "CLAIM amplified (analyst Christopher Tozzi) — cold-climate data centers as an economically attractive option"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php",
+      "outlet": "UAF Alaska Center for Energy and Power (ACEP)",
+      "pub_date": "2024-02-09",
+      "story_title": "COUNTER-EVIDENCE (primary) — cooling costs typically represent 5% or less of ongoing O&M; cold winters may offer fewer thermal advantages than assumed"
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+      "outlet": "UAF Alaska Center for Energy and Power (ACEP)",
+      "pub_date": "2025-03-25",
+      "story_title": "COUNTER-EVIDENCE (primary) — Alaska's cost of electricity is among the highest in the US"
     }
   ]
 }
