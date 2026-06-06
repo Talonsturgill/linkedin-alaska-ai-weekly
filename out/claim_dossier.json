@@ -1,0 +1,74 @@
+{
+  "issue_label": "NO. 09",
+  "run_date": "2026-06-05",
+  "selected_claim": {
+    "claim_verbatim": "Congress is right now considering federal legislation that would override state laws protecting workers, kids and communities from the harmful impacts of AI.",
+    "claim_paraphrase_fair": "The federal AI preemption bill now moving through Congress would nullify existing and future state-level laws that protect workers, children, and the public from AI harms.",
+    "asserters": [
+      {
+        "name": "LeiLauni Scheideman",
+        "title_or_org": "President, Alaska Airlines Flight Attendants Council 30 (AFA-CWA)",
+        "url": "https://www.adn.com/opinions/2026/05/31/opinion-dont-let-washington-ground-alaskas-ability-to-protect-workers-from-ai/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-06-01",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 1,
+    "discourse_slice": "ak_press",
+    "why_smart_people_believe_it": "Several earlier Republican-sponsored AI bills (including proposals modeled on CNAI and various moratorium drafts) did propose sweeping preemption of all state AI regulation. The AFL-CIO and major labor groups have campaigned loudly against federal AI preemption as a threat to worker protections, lending credibility to the alarm. The line between preempting AI 'development' rules and 'use/deployment' rules can seem legally porous in practice, and critics argue any federal floor can become a ceiling.",
+    "steelman": "Federal preemption of state AI development laws could in practice chill state legislatures from passing ANY AI legislation, including worker and consumer protections, because the boundary between 'development' and 'deployment' regulation is not legally settled. Even if the current Obernolte-Trahan discussion draft explicitly carves out use-and-deployment laws, the precedent of federal AI supremacy weakens the political and legal position of states that want to act on AI workplace harms. For Alaska unions representing workers at tech-adjacent employers like Alaska Airlines, the risk is structural, not just textual.",
+    "where_it_breaks": "The specific Obernolte-Trahan discussion draft circulating as of June 4, 2026 explicitly states that preemption 'would not apply to laws related to the use or deployment of AI models' — which is precisely where worker, child-safety, and consumer-protection laws are anchored. Alaska has no enacted state AI law at all (HCR 3 remains in the House Finance Committee without a floor vote), so there is currently nothing to preempt under either reading of the bill.",
+    "counter_evidence": [
+      {
+        "fact": "The Obernolte-Trahan bipartisan discussion draft, reported June 4 2026, preempts only state laws 'specifically regulating the development' of AI models for three years and explicitly specifies that 'preemption would not apply to laws related to the use or deployment of AI models' — the category that encompasses worker protections, child safety, and consumer laws.",
+        "url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/",
+        "outlet": "Roll Call",
+        "pub_date": "2026-06-04",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "Alaska HCR 3 — the only Alaska AI task-force bill — remained in the House Finance Committee as of May 16, 2025 (the most recent recorded action), with no floor vote in the 34th Legislature's 2026 session, meaning Alaska has no enacted state AI law that could be preempted under any version of the federal bill.",
+        "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR3",
+        "outlet": "Alaska State Legislature",
+        "pub_date": "2025-05-16",
+        "is_primary": true,
+        "reverified": true
+      }
+    ],
+    "more_accurate_frame": "The Obernolte-Trahan draft targets a narrow slice of state law — rules that directly regulate how AI models are built — and by its own text leaves state authority over AI use and deployment untouched. The real Alaska policy risk is not that Washington will erase Alaska worker-protection laws (Alaska has none yet), but that a federal development-only moratorium could reduce the urgency for the Alaska Legislature to pass ANY AI governance law during the three-year window, leaving workers and communities without state-level recourse if Congress never fills the gap.",
+    "ak_stakes": "Labor and workforce policy — Alaska Airlines and GCI workers, AK delegation vote on federal AI legislation, and Alaska Legislature decision whether to revive HCR 3 or pass worker-protection AI bills before a federal moratorium locks in; consequential through the 119th Congress (2025-2026) and 2027 session.",
+    "corrective_thesis": "The bill Scheideman flags explicitly preserves — not eliminates — the state authority over AI use and deployment where worker and child-safety protections live. The real Alaska risk is legislative inertia: with no enacted state AI law and a potential federal moratorium on AI development rules, Alaska has a narrow window to act on AI in the workplace before the federal posture hardens.",
+    "recurrence_note": "Federal AI preemption of state law is a new topic for this column; no overlap with NO.04-NO.08. The Scheideman op-ed is tied to a live bill (discussion draft released the same week), making this a timely first-mover correction.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {"id": "A1", "drop_reason": "Subsumed by A4 (same URL, asserter, date, rebuttal); A4 more precisely falsifiable. A1 retained as supporting quote in the post."},
+    {"id": "A2", "drop_reason": "not_load_bearing — editorial workforce aspiration, not a decision-driving factual claim; steelman true-as-stated."},
+    {"id": "A3", "drop_reason": "no_primary_counter — myAlaska RFP / DEED guideline counters not verifiable at primary URLs; AO 360 arguably confirms the 'no strategy' claim."},
+    {"id": "E1", "drop_reason": "recent_repeat — connectivity theme overlaps NO.05 (Berkowitz fiber)."},
+    {"id": "E2", "drop_reason": "true_as_stated — legacy MRO tools lagging is an accurate baseline; no publishable error."},
+    {"id": "E3", "drop_reason": "true_as_stated — generic GenAI capability claim; connectivity counter addresses a different point; overlaps NO.05."},
+    {"id": "E4", "drop_reason": "not_load_bearing — 'first-of-its-kind' marketing claim; no AK decision rides on it."},
+    {"id": "T1", "drop_reason": "strawman — Boufard speaking colloquially about legacy GEO mil SATCOM, not LEO; verbatim out-of-context would be unfair."},
+    {"id": "T2", "drop_reason": "single_non_primary — asserter is a journalist characterizing; NASCIO counter unverifiable via WebFetch."},
+    {"id": "T3", "drop_reason": "not_load_bearing — CEPA fellow, no AK decision authority; claim too general to anchor an AK corrective."},
+    {"id": "T4", "drop_reason": "no_primary_counter — asserter URL 403; DGGS counter soft and unverifiable."},
+    {"id": "T5", "drop_reason": "strawman — verbatim is a reporter paraphrase, not a direct quote; fails attribution."},
+    {"id": "P1", "drop_reason": "recent_repeat — data-center-energy cluster overlaps NO.07/NO.08."},
+    {"id": "P2", "drop_reason": "recent_repeat — connectivity overlaps NO.05; also true-as-stated generally."},
+    {"id": "P3", "drop_reason": "strawman — verbatim paraphrase drift ('as well as' vs 'and'); July 2024 (stale); PermitAI counter unverifiable."},
+    {"id": "P4", "drop_reason": "no_primary_counter — ADN Dec 2025 counter URL 404s; AO 360 only aspirational; Dunleavy recent-issues asserter."}
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "A4 selected over A1 because A4 names the specific category of laws (worker, child-safety, community protections) that the bill explicitly preserves, making the rebuttal from the Roll Call primary source directly on-point. Circulation gate satisfied under rule 2(b): Scheideman is a named union executive writing first-person in a major state newspaper, an authoritative primary asserter whose institutional weight makes the claim load-bearing. Roll Call (June 4 2026, Allison Mollenkamp) re-verified live, confirms the bill's explicit carve-out for use/deployment laws. AK Legislature primary source (akleg.gov HCR 3) re-verified, confirms no enacted Alaska AI law exists. P3 dropped for verbatim paraphrase drift. P4 dropped because counter-evidence URL 404s and Dunleavy is a recent-issues asserter. T4 dropped because asserter and counter URLs returned 403."
+}
