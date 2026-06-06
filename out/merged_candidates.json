@@ -1,192 +1,247 @@
 {
-  "run_date": "2026-05-20",
-  "decision_window": "2026-04-20 to 2026-05-20",
-  "subjects_already_profiled_last_12": [],
-  "subject_decision_blocklist": [],
-  "merged_candidates": [
-    {
-      "full_name": "Sparrow Mahoney",
-      "role": "Founder and CEO",
-      "org": "STAK Energy",
-      "role_category": "founder",
-      "anchorage_tie": "STAK Energy is headquartered in Anchorage, Alaska per company website (stak.energy states 'Based in Anchorage'); Mahoney's professional profile lists 'Greater Anchorage Area, United States' as location. Founded and runs company from Anchorage. Project site is North Slope but the decision-making and corporate entity are Anchorage-based.",
-      "decision": {
-        "what_happened": "The Alaska Department of Natural Resources issued a preliminary decision on May 12, 2026 to lease 715.4 acres of North Slope land to STAK Energy for a proposed $500 million AI and cloud computing data center campus. The DNR determined the project serves the state's 'best interest.' Stak filed the lease application with DNR in November 2025; DNR subsequently solicited competing bids and received none, then moved forward with the preliminary approval. The project would reach up to 3 gigawatts of power capacity, use natural gas for off-grid power generation, and target initial operations by late 2028. A public comment period runs through June 15, 2026.",
-        "when": "2026-05-12",
-        "binary_owned": "Mahoney chose to pursue a self-powered, natural-gas-off-grid model for AI data center infrastructure on state-owned North Slope acreage rather than grid-tied or alternative-site approaches, and successfully obtained DNR's preliminary 'best interest' lease determination, committing the company to a 50-year lease track and $500M development path.",
-        "ak_consequence": "Energy/data infrastructure sector; $500M capital commitment; peak construction workforce of 1,500 jobs and approximately 60 permanent positions; 50-year land lease on North Slope state land; public comment period open through June 15, 2026 with final lease decision pending. Sets precedent for whether Alaska becomes a large-scale AI compute host state using stranded North Slope natural gas.",
-        "primary_source_url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "independent_of_subject": true},
-          {"url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/", "outlet": "Data Center Dynamics", "independent_of_subject": true},
-          {"url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "SHARP, $500M and 50-year state land lease on speculative off-grid natural gas data center model 26 miles from Deadhorse, at the exact moment Cook Inlet gas supply is declining. Stranded North Slope gas plus Arctic free cooling may be a genuine cost advantage for AI compute, but no disclosed outside financing, no anchor tenant, and Mahoney pivoted from a previous crypto mining proposal on the same site.",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "founders"
-    },
-    {
-      "full_name": "Billy Wailand",
-      "role": "Senior Vice President of Corporate Development",
-      "org": "GCI",
-      "role_category": "operator",
-      "anchorage_tie": "GCI is Alaska's largest telecommunications provider, headquartered in Anchorage. GCI's network infrastructure and Anchorage operations teams will absorb Quintillion's 1,800+ miles of fiber into GCI's statewide system. Wailand is Anchorage-based and led the acquisition process.",
-      "decision": {
-        "what_happened": "GCI Holdings announced it has entered into a definitive agreement to acquire 100% of the equity in Quintillion at a $310 million enterprise value. GCI will also reimburse up to $50 million in qualifying capital expenditures for the Nome-to-Homer Express fiber project and provide a $160 million unsecured loan to Quintillion shortly after closing. The transaction combines Quintillion's 1,800+ miles of existing subsea and terrestrial fiber and approximately 1,500 miles of planned fiber expansion with GCI's statewide network.",
-        "when": "2026-04-22",
-        "binary_owned": "Approved acquisition. Wailand, as SVP Corporate Development, owns the deal structure and execution of the $310M Quintillion acquisition, the largest Alaska telecom infrastructure transaction in recent years.",
-        "ak_consequence": "Telecom infrastructure sector; $310M plus $210M in additional capital commitments ($520M total potential outlay); creates a fiber ring around Alaska enabling rerouting during outages; consolidates Alaska's two largest fiber operators; DOD/national security applications cited by Wailand; affects all GCI enterprise and residential customers across Alaska. Closing subject to regulatory approval; timeline 2026 to 2027.",
-        "primary_source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-        "primary_source_outlet": "GCI Newsroom",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/alaskas-gci-acquiring-quintillion/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://knom.org/2026/04/24/fiber-internet-company-quintillion-to-be-acquired-by-gci/", "outlet": "KNOM Radio Mission", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By bringing together complementary fiber routes, deep operational expertise, and long-term investment under one operating model, we're building a network that is stronger, more resilient, and better suited to Alaska's realities than either company could deliver on its own.",
-          "context": "Wailand quoted in joint GCI/Quintillion press release announcing definitive acquisition agreement, April 22, 2026",
-          "source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "If you can lose those eyes, it immediately becomes a problem. The more resilience that you're building out there, the more useful it is for national security.",
-          "context": "Wailand quoted in ADN independent reporting on the acquisition, April 22, 2026, discussing DOD/national security rationale for combined fiber ring",
-          "source_url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/",
-          "source_doctype": "interview"
-        }
-      ],
-      "prelim_debatable_axis": "Sharp or wrong depending on framing. GCI consolidating Alaska's two largest fiber operators is either pro-competitive infrastructure build at the scale needed for AI data center workloads, or monopolistic foreclosure of fiber competition in a captive market. The DOD/national security rationale is politically convenient cover. AI angle is INDIRECT (fiber enables AI compute but no AI workload is named in the deal).",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "operators",
-      "validator_flag": "AI angle is indirect. Subject title is M&A leadership, not CTO/CIO."
-    },
-    {
-      "full_name": "Anna Brawley",
-      "role": "Assembly Chair (formerly Vice Chair), District 5 West Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing West Anchorage; chairs the governing body of the Municipality of Anchorage.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Ordinance AO 2026-27 on an approximately 10-2 vote on March 27, 2026, establishing the first-ever municipal zoning definition for 'data centers' in Anchorage and requiring conditional use permits, utility capacity documentation, 200-foot setbacks from residential areas, and enclosed power equipment for any facility drawing 20 MW or more at peak load. Brawley introduced the ordinance as Assembly Vice Chair and is its named primary sponsor. Brawley was subsequently elected Assembly Chair on April 28, 2026, and made public statements on JBER military data center RFPs on May 5, 2026.",
-        "when": "2026-03-27",
-        "binary_owned": "Approved. Brawley sponsored and voted yes on a first-in-Alaska municipal data center zoning framework, restricting AI-era data centers from residential and most commercial zones and requiring grid-capacity sign-off from Chugach Electric before any conditional use permit can advance.",
-        "ak_consequence": "Energy sector and land use. Any company seeking to site a 20 MW-plus data center within MOA boundaries must now obtain conditional use approval and a signed utility-capacity statement from Chugach Electric. Chugach has publicly stated it currently lacks sufficient gas supply to support large data centers. The ordinance effectively creates a regulatory gate on an estimated $1 to $5 billion class of potential investment.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework", "outlet": "Davis Wright Tremaine LLP Energy & Environmental Law Blog", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/anchorage-blocks-new-data-centers-in-residential-zones/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News (May 5, 2026 follow-up referencing the ordinance as active context)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By learning from other places and emerging best practices around data centers, Anchorage is being proactive and ensuring the right questions are asked during the application process.",
-          "context": "Brawley commenting on AO 2026-27 at or around the time of passage, March 27, 2026.",
-          "source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "Broadly, I would be hoping that our local leadership has conversations with the Department of Defense, with the entity that would be coming, and with the utility.",
-          "context": "Brawley, now Assembly Chair, responding to questions about JBER military data center RFPs in May 2026.",
-          "source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-          "source_doctype": "interview"
-        }
-      ],
-      "prelim_debatable_axis": "Sharp but arguable. Pro: Anchorage acts before a hyperscale facility locks in, protecting ratepayers and residential neighborhoods. Con: ADN editorial board called it anti-investment signaling; 20 MW threshold could add 12 to 18 months to permitting; JBER sites fall outside MOA jurisdiction anyway.",
-      "in_window": false,
-      "in_window_note": "PRIMARY DECISION (AO 2026-27 vote) was March 27, 2026, 24 days before window opens. IN-WINDOW DECISIONS: elected Assembly Chair April 28 (in window), May 5 JBER statement (in window). Validator must decide whether to broaden window or use the in-window Chair election + JBER statement as the anchored decision with the March 27 ordinance as context.",
-      "confidence": "high",
-      "slice": "municipal"
-    },
-    {
-      "full_name": "Keith McCormick",
-      "role": "Assembly Member, District 6 Eagle River / Chugiak",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-adjacent elected official representing Eagle River/Chugiak area of the Municipality of Anchorage; decisions affect MOA-wide policy including technology and security infrastructure.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Resolution AR 2026-129, sponsored by McCormick along with Vice Chair Daniel Volland and member Yarrow Silvers, expressing the Assembly's 'substantive concerns' about the U.S. Air Force's proposed 7-mile barbed-wire perimeter fence at JBER. The resolution urges JBER to prepare a full Environmental Impact Statement and to extend the public comment period by at least 60 additional days. The draft environmental assessment reviewed by the Assembly explicitly lists motion sensors and surveillance cameras as alternatives to the physical fence that JBER chose not to pursue.",
-        "when": "2026-05-20",
-        "binary_owned": "Approved. McCormick sponsored and the Assembly passed a formal resolution opposing JBER's fence-and-no-surveillance-alternative approach, pushing back on a federal security infrastructure decision that had explicitly rejected sensor/camera technology in favor of physical perimeter control.",
-        "ak_consequence": "Security infrastructure and civil-military relations. The resolution creates a formal municipal record opposing JBER's fence construction timeline, potentially complicating the Air Force's NEPA process and delaying installation. The fence affects wildlife corridors, 12,000+ acres of recreational trails, and moose migration routes adjacent to Anchorage neighborhoods. JBER's public comment period closes May 30, 2026.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/05/17/jber-wants-to-build-a-7-mile-long-barbed-wire-fence-adjacent-to-anchorage-neighborhoods/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://alaskasenate.org/senator/giessel/050926_newsletter.htm", "outlet": "Alaska Senate Majority Leader Cathy Giessel newsletter", "independent_of_subject": true},
-          {"url": "https://mustreadalaska.com/senate-majority-leader-giessel-opposes-jber-boundary-fence/", "outlet": "Must Read Alaska", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre-to-sharp. The AI/surveillance tech angle is thin. The resolution does not itself choose or block surveillance technology. The primary subject is environmental review and public comment, not technology policy.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal",
-      "validator_flag": "Tech angle is thin. Primary subject is environmental review, not AI/data."
-    },
-    {
-      "full_name": "Daniel Volland",
-      "role": "Assembly Vice Chair, District 1 North Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing North Anchorage; co-sponsor of data center ordinance and newly elected Vice Chair as of April 28, 2026.",
-      "decision": {
-        "what_happened": "Volland co-sponsored AO 2026-27 (data center ordinance) with Brawley, voted March 27, 2026; co-sponsored AR 2026-129 (JBER fence resolution) with McCormick and Silvers, passed May 19-20, 2026. On April 28, 2026, Volland was elected Assembly Vice Chair in an 8-4 vote over Zac Johnson. Volland published an op-ed in ADN on March 27, 2026, defending the data center ordinance and framing it as essential consumer protection against AI industry energy demands.",
-        "when": "2026-04-28",
-        "binary_owned": "Elected Vice Chair April 28, 2026. Volland won Assembly Vice Chair in an 8-4 vote, positioning him as co-leader on all technology and data infrastructure legislation, including the Planning Department follow-up rulemaking on energy-intensive uses required by AO 2026-27.",
-        "ak_consequence": "Governance and technology policy. As Vice Chair, Volland will chair or lead committee work on data center rulemaking follow-up. The data center zoning framework he co-authored is now the controlling law for any hyperscale AI infrastructure investment in MOA.",
-        "primary_source_url": "https://alaskapublic.org/news/anchorage/2026-04-29/new-anchorage-assembly-members-sworn-in-brawley-chosen-as-chair",
-        "primary_source_outlet": "Alaska Public Media",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/alaska-news/anchorage/2026/04/29/after-election-anchorage-assembly-reorganizes-with-anna-brawley-as-new-chair/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://www.adn.com/opinions/2026/03/27/opinion-as-big-techs-footprint-gets-bigger-its-time-for-anchorage-to-install-data-center-guardrails/", "outlet": "Anchorage Daily News (Volland op-ed)", "independent_of_subject": false}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre as a standalone decision. Vice Chair election is in-window but 'elected to leadership role' is a weaker decision-hook than a specific vote on a technology item.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal"
-    },
-    {
-      "full_name": "Patrick L. Tomco",
-      "role": "Associate Professor and ASET Laboratory Director, Department of Chemistry",
-      "org": "University of Alaska Anchorage",
-      "role_category": "research",
-      "anchorage_tie": "Bowl-based: full-time faculty and lab director at UAA main campus, Anchorage, AK 99508.",
-      "decision": {
-        "what_happened": "Tomco's Analytical Science for Environmental Toxicology (ASET) Lab published 'OilSpillNet: A Deep Learning Framework for Accurate Detection and Segmentation of Marine Oil Spills from Imagery' in the Journal of Environmental Chemical Engineering, authored by postdoctoral researcher Mohamed Elsheref (lead) and Tomco (supervising PI). The UAA news article was published May 15, 2026; the paper was published April 2026.",
-        "when": "2026-04",
-        "binary_owned": "Funded/approved. Tomco as ASET Lab Director and supervising PI approved and directed the interdisciplinary pivot to deep learning AI in a traditionally wet-chemistry environmental lab, accepting the Fisheries and Oceans Canada (DFO) grant that funded the work.",
-        "ak_consequence": "Environmental monitoring sector. Potential deployment of automated, near-real-time oil spill detection in Cook Inlet and Alaska coastal waters, reducing the labor-intensive manual satellite imagery review.",
-        "primary_source_url": "https://www.uaa.alaska.edu/news/archive/2026/05/ai-detect-oil-spills.cshtml",
-        "primary_source_outlet": "UAA Green & Gold News",
-        "corroborating_sources": [
-          {"url": "https://www.sciencedirect.com/science/article/abs/pii/S2213343726006883", "outlet": "ScienceDirect / Journal of Environmental Chemical Engineering (Elsevier)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Sharp with tension. ASET Lab is a wet-chemistry environmental toxicology facility receiving a DFO Canada grant, not an AI lab. Pro: cross-disciplinary AI integration Alaska needs, applied to high-stakes problem. Con: primary funder is Canadian, a postdoc owns the AI architecture, and no Alaska industry partner has been named to deploy OilSpillNet.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "research",
-      "validator_flag": "Subject quotes are attributed to Elsheref (the postdoc), not Tomco directly. Only ONE truly independent corroborating source (ScienceDirect listing, paywalled)."
-    }
+  "run_date": "2026-06-06",
+  "mechanisms_already_anatomized": [
+    {"name": "Alaska Railbelt Large-Load Interconnection Review", "category": "regulatory", "date": "2026-05-20"},
+    {"name": "ANC 8(a) Sole-Source Federal Contracting Pipeline — SBA Application Gate and Corporate Subsidiary Stack", "category": "capital_sovereignty", "date": "2026-05-25"},
+    {"name": "Stak Energy North Slope AI Campus — DNR Best-Interest to Army Corps CWA Section 404 Permitting Stack", "category": "facilities", "date": "2026-05-30"},
+    {"name": "FCC Alaska Plan Expiration and Alaska Connect Fund September 1 Performance Plan Filing Gate", "category": "regulatory", "date": "2026-06-01"}
   ],
-  "dropped_pre_validator": [
-    {"name": "Brian Shumaker / beadedstream", "reason": "April 8, 2026 decision is just outside the 30-day window; no Shumaker quote in any source"},
-    {"name": "Erik Williams / beadedcloud", "reason": "Accelerator participation is a thin decision binary; no Williams quote"},
-    {"name": "Nathan Engel / Alaska Airlines", "reason": "April 16, 2026 is 4 days outside window"},
-    {"name": "Dale Knipp / ACS", "reason": "February 17, 2026 is 62 days outside window; single-sourced to PR"},
-    {"name": "Masoumeh Heidari / UAA AI-UNITE", "reason": "NSF award is January 2025, far outside window"},
-    {"name": "Robert Foy / NOAA AFSC", "reason": "Juneau-based, not Anchorage-bowl-based"}
+  "multi_scout_corroboration_flag": "The GCI/Quintillion deal surfaced in ALL THREE of facilities, vehicles, and regulatory scouts — indicating chokepoint asymmetry should apply per the overlap rule. The specific chokepoints differ: FCC International Bureau Chief (facilities/regulatory scouts) and NTIA Federal Program Officer for BEAD subgrant transfer (vehicles scout). The Alaska BEAD subgrantee execution mechanism surfaced in both vehicles and regulatory scouts.",
+  "candidate_mechanisms": [
+    {
+      "scout_category": "facilities",
+      "name": "DAF Alaska AI Data Center Enhanced Use Lease (RFLP AFCEC-26-R-0006)",
+      "news_trigger": {
+        "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "in_window_note": "ADN article is May 5 (32 days ago, outside strict 14-day window). SAM.gov solicitation AFCEC-26-R-0006 was amended June 5, 2026 (extending proposal deadline to June 29) — in-window government action. GVEA rate increase June 1 also in-window."
+      },
+      "definition": "The Department of the Air Force Enhanced Use Lease solicitation (RFLP AFCEC-26-R-0006) by which AFCEC markets 4,700 acres across JBER, Eielson AFB, and Clear SFS for private developer-financed AI data centers under 10 USC 2667, with the Deputy Assistant Secretary for Installations (SAF/IEI) holding final lease-signing authority.",
+      "layers": [
+        {"layer": "EO 14318 Qualifying Project Gate", "actor": "Secretary of Defense / Secretary of the Air Force", "primary_source": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/"},
+        {"layer": "AFCEC/AFICA Solicitation + Investment Committee", "actor": "AFCEC/CIU Division Chief; AFICA contracting officer", "primary_source": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/"},
+        {"layer": "SAF/IEI Lease Execution Authority", "actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI)", "primary_source": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/"},
+        {"layer": "10 USC 2667 Congressional Notification", "actor": "Senate Armed Services Committee / House Armed Services Committee (30-day wait)", "primary_source": "https://en.wikipedia.org/wiki/Enhanced_use_lease"},
+        {"layer": "Utility Interconnection and Power Procurement Gate", "actor": "Lee Thibert, CEO Chugach Electric Association; Travis Million, CEO Golden Valley Electric Association", "primary_source": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/"}
+      ],
+      "provisional_chokepoint": "Layer 3 — SAF/IEI (Robert Moriarty) holds unilateral authority under 10 USC 2667 to sign or decline each EUL; no developer can break ground without his signature. Solicitation deadline June 29, 2026.",
+      "ak_consequence": "Any developer proposing Eielson/Clear SFS parcels must price GVEA power at 40+ cents/kWh (effective June 1) — the binary cost calculation will determine whether Fairbanks-area parcels receive any proposals by June 29, 2026.",
+      "gate1_note": "BORDERLINE — ADN trigger is May 5 (outside strict window); SAM.gov amendment June 5 is in-window. Previously dropped in multiple prior runs for Gate 1 failure.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "facilities",
+      "name": "GCI AU-Aleutian Subsea Cable Failure and Repair Governance Stack",
+      "news_trigger": {
+        "headline": "GCI customers in Aleutians connected to satellite while waiting for fiber cable repairs",
+        "url": "https://alaskapublic.org/news/2026-06-01/gci-customers-in-aleutians-connected-to-satellite-while-waiting-for-fiber-cable-repairs",
+        "outlet": "Alaska Public Media",
+        "pub_date": "2026-06-01",
+        "in_window_note": "CLEAN — Multiple in-window articles: KUCB May 27, Broadband Breakfast May 29, Alaska Public June 1. Repair vessel arrived approximately June 6."
+      },
+      "definition": "The GCI AU-Aleutian Subsea Cable system (FCC license SCL-LIC-20171031-00024) carrying fiber internet to ~13 Aleutian/Alaska Peninsula communities; repair governance runs through GCI's submarine assets team, an FCC cable-landing-license compliance layer, NTIA/USDA-funded backup satellite contracts, and an RCA service quality obligation.",
+      "layers": [
+        {"layer": "FCC Cable Landing License and Compliance Layer", "actor": "FCC International Bureau (license authority); FCC Enforcement Bureau (compliance)", "primary_source": "https://fcc.report/IBFS/SCL-LIC-20171031-00024"},
+        {"layer": "GCI Submarine Assets Management and Repair Dispatch", "actor": "Bruce Rein, Submarine Assets Director, GCI", "primary_source": "https://www.gci.com/about/digital-divide/aleutian-fiber-project"},
+        {"layer": "NTIA/USDA Federal Grant Conditions and Backup Service Obligations", "actor": "NTIA Assistant Secretary (grant oversight); GCI Rural Affairs Director Jenifer Nelson", "primary_source": "https://www.gci.com/about/digital-divide/aleutian-fiber-project"},
+        {"layer": "RCA Service Quality and Outage Reporting Layer", "actor": "RCA Chair (5-member commission — NOTE: fails Gate 5 as standalone chokepoint)", "primary_source": "https://rca.alaska.gov/RCAWeb/home.aspx"}
+      ],
+      "provisional_chokepoint": "Layer 2 — Bruce Rein (GCI Submarine Assets Director) makes binary repair vessel dispatch decisions. NOTE: RCA layer (Layer 4) fails Gate 5 — 5-member commission. Single-actor chokepoint is Rein's vessel scheduling.",
+      "ak_consequence": "Aleutian communities (including Unalaska/Dutch Harbor, largest US port by tonnage) on degraded satellite through ~June 20, 2026; any edge compute deployments in these communities cannot reach design throughput until fiber restored.",
+      "gate5_note": "Bruce Rein is the single-actor chokepoint for repair scheduling. This is GCI's THIRD cable failure in the Aleutians in ~6 months — the recurring pattern is the anatomizable structural issue.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "vehicles",
+      "name": "CDAO Production OTA — Scale AI $500M Enterprise Agreement Stack",
+      "news_trigger": {
+        "headline": "DOD grows Scale AI agreement to $500M",
+        "url": "https://www.washingtontechnology.com/contracts/2026/05/dod-grows-scale-ai-agreement-500m/413396/",
+        "outlet": "Washington Technology",
+        "pub_date": "2026-05-06",
+        "in_window_note": "CLEAN — In-window. Multiple corroborating sources: DefenseScoop May 6, GovConWire, Scale AI blog."
+      },
+      "definition": "A CDAO-held Production Other Transaction Authority letting any DoW component initiate an AI data and analytics Project Agreement with Scale AI at pre-negotiated pricing and CDAO co-funding, eliminating individual competitive solicitations across NIPR, SIPR, and JWICS.",
+      "layers": [
+        {"layer": "OTA Ceiling Authority", "actor": "CDAO (DoW) — War Data Platform Program Director Elizabeth Chirico", "primary_source": "https://www.washingtontechnology.com/contracts/2026/05/dod-grows-scale-ai-agreement-500m/413396/"},
+        {"layer": "Component Project Agreement Initiation", "actor": "Individual DoW component program offices (requiring activities)", "primary_source": "http://orangeslices.ai/scale-ai-expands-pentagon-ai-partnership-to-500-million/"},
+        {"layer": "Pre-Negotiated Pricing and Co-Funding Gate", "actor": "CDAO contracting hub; Scale AI Head of Defense Kathryn Harris", "primary_source": "https://scale.com/blog/Scale-ai-pentagon-cdao-500-million-agreement"},
+        {"layer": "Authority to Operate on Classified Networks", "actor": "CDAO cyber/security officials (ATO authority)", "primary_source": "https://defensescoop.com/2026/05/06/cdao-wingman-custom-ai-digital-assistants/"},
+        {"layer": "Tradewinds Marketplace Parallel Pathway", "actor": "CDAO Enterprise Autonomy Division; assessment panel", "primary_source": "https://www.tradewindai.com/opportunities"}
+      ],
+      "provisional_chokepoint": "Layer 1 — CDAO holds the binary decision on whether any component Project Agreement can be funded at the co-funded rate. Without CDAO's co-funding approval and ceiling headroom, a component pays full price or waits 12-18 months for a new solicitation.",
+      "ak_consequence": "JBER, Eielson, PACAF, and Clear SFS are eligible DoW components; any that fail to initiate Project Agreements by FY26 close (Sept 30, 2026) lose CDAO co-funding in FY27. Alaska vendors with DoD contracts must decide by Q4 FY26 whether to integrate with Scale or compete on Tradewinds.",
+      "gate4_note": "Alaska consequence is real but somewhat indirect — requires Alaska-based DoW components to take action. The mechanism is primarily national.",
+      "confidence": "high"
+    },
+    {
+      "scout_category": "vehicles",
+      "name": "Alaska BEAD Subgrantee Grant Agreement Execution Stack",
+      "news_trigger": {
+        "headline": "North Dakota executes all BEAD subgrantee agreements",
+        "url": "https://bbcmag.com/north-dakota-executes-all-bead-subgrantee-agreements/",
+        "outlet": "Broadband Communities Magazine",
+        "pub_date": "2026-05-06",
+        "in_window_note": "CLEAN (national comparator, but Alaska is in same execution window with 29 projects). Also: Alaska Business Magazine confirmed Alaska's NOA Amendment issuance and active subgrantee negotiations."
+      },
+      "definition": "The five-gate mechanism by which NTIA and the Alaska Broadband Office convert approved BEAD subgrantee awards into executed grant agreements, unlocking the remaining 80% of $629M in construction funding for 29 broadband deployment projects across 15 Alaska providers.",
+      "layers": [
+        {"layer": "NIST NOA Amendment Issuance", "actor": "NIST; NTIA Administrator Arielle Roth (policy authority)", "primary_source": "https://www.commerce.alaska.gov/web/abo/"},
+        {"layer": "ABO Subgrantee Grant Agreement Negotiation and Execution", "actor": "Thomas Lochner, Alaska Broadband Office Director", "primary_source": "https://www.telecompetitor.com/alaska-broadband-office-releases-interactive-bead-map-two-providers-tout-awards/"},
+        {"layer": "BSL Appeal Resolution Gate", "actor": "ABO Deputy Commissioner (appeals); Alaska Superior Court (judicial review)", "primary_source": "https://www.commerce.alaska.gov/web/abo/"},
+        {"layer": "NTIA General Terms and Conditions Enforcement", "actor": "NTIA Federal Program Officer (Alaska's assigned FPO)", "primary_source": "https://broadbandusa.ntia.gov/sites/default/files/2026-02/BEAD_GTCs_Nov_18_2025.pdf"},
+        {"layer": "NEPA / Permitting Clearance for Construction Start", "actor": "Alaska Power & Telephone Company (Bill Marks, CEO); BLM/USFS for NEPA clearances", "primary_source": "https://www.akbizmag.com/industry/telecom-tech/milestone-in-broadband-expansion-with-final-bead-funding-approval/"}
+      ],
+      "provisional_chokepoint": "Layer 2 — Thomas Lochner (ABO Director) holds binary signature authority on each of the 15 individual subgrantee grant agreements. A single stalled negotiation (especially GCI — mid-acquisition of Quintillion — or SpaceX, whose 'negotiations remain ongoing') freezes relevant deployment corridors.",
+      "ak_consequence": "$629M broadband deployment, 46,192 Alaska locations; Alaska Communications ($124M), GCI ($120M), 13 others. Delays push AI-dependent edge compute applications (telehealth AI, fisheries data) into FY27.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "vehicles",
+      "cross_scout_corroboration": true,
+      "corroboration_note": "This mechanism surfaced in ALL THREE of facilities, vehicles, and regulatory scouts under different framings. Per the overlap rule, chokepoint asymmetry applies.",
+      "name": "GCI/Quintillion BEAD Subgrant Transfer + FCC Cable Landing License Assignment Stack",
+      "news_trigger": {
+        "headline": "Grain Management agrees to sell Alaska fiber operator Quintillion to GCI Holdings [at $310M enterprise value, subject to regulatory approval]",
+        "url": "https://www.sahmcapital.com/news/content/grain-management-agrees-to-sell-alaska-fiber-operator-quintillion-to-gci-holdings-2026-05-12",
+        "outlet": "Sahm Capital / Reuters wire",
+        "pub_date": "2026-05-12",
+        "in_window_note": "May 12 is in-window (25 days ago, within the extended 14-day lookback). Original ADN announcement April 22 also available. Deal has NOT closed as of June 6, 2026."
+      },
+      "definition": "A multi-layer regulatory consent stack — FCC submarine cable landing license transfer, DoJ/DoD/DHS National Security Agreement novation, NTIA BEAD subgrant transfer consent, and Alaska RCA approval — that must clear before GCI can absorb Quintillion's Arctic cable system, $89M NTIA middle-mile grant, and $48M in BEAD subgrant awards.",
+      "layers": [
+        {"layer": "FCC Cable Landing License Transfer-of-Control Application", "actor": "Chief, Telecommunications and Analysis Division, FCC Office of International Affairs; FCC Chairman Brendan Carr (oversight)", "primary_source": "https://docs.fcc.gov/public/attachments/DA-26-324A1.pdf"},
+        {"layer": "DoJ/DoD/DHS National Security Agreement Compliance Transfer (Team Telecom)", "actor": "Christopher R. Clements, Deputy Section Chief, Telecommunications and Supply Chain Foreign Investment Review Section, DoJ NSD", "primary_source": "https://docs.fcc.gov/public/attachments/DA-26-324A1.pdf"},
+        {"layer": "NTIA BEAD Subgrant Transfer Consent (BEAD GTCs Section 51.C.2.b)", "actor": "Alaska's NTIA Federal Program Officer; NTIA Administrator Arielle Roth (policy authority)", "primary_source": "https://broadbandusa.ntia.gov/sites/default/files/2026-02/BEAD_GTCs_Nov_18_2025.pdf"},
+        {"layer": "Alaska Regulatory Commission Telecom Asset Transfer", "actor": "Alaska Regulatory Commission (5-member — NOTE: commission, not single actor)", "primary_source": "https://www.kucb.org/regional/2026-04-28/fiber-internet-company-quintillion-to-be-acquired-by-gci"},
+        {"layer": "GCI Liberty Closing Conditions and Loan Covenant", "actor": "Billy Wailand, GCI Senior VP of Corporate Development; John Malone (GCI Liberty majority voting controller)", "primary_source": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/"}
+      ],
+      "provisional_chokepoint": "Layer 1 (FCC International Bureau Chief) is the binary gate — must affirmatively approve the submarine cable license transfer. Layer 3 (NTIA FPO BEAD consent) is also binary. Per the overlap rule, the FCC cable license transfer is the higher-asymmetry chokepoint: the Bureau Chief can act unilaterally and can impose national security conditions via Team Telecom referral (months-long delay). FCC's August 2025 submarine cable rules update heightened review scrutiny for all cable license transfers.",
+      "ak_consequence": "Until FCC grants consent, Quintillion's Arctic cable system (1,800+ miles) and the in-construction Nome-to-Homer Express (770 miles, 46-community corridor) remain under Grain Management legal ownership. AI data transport backbone for communities from Emmonak to Naknek delayed 12-24 months if FCC imposes Team Telecom review. GCI CEO Ron Duncan's integration timeline depends on whether Team Telecom is invoked. Regulatory window: June-September 2026.",
+      "gate1_note": "May 12 Sahm Capital/Reuters trigger is in-window. ADN April 22 also available. Deal not yet closed — mechanism is actively live.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "capital_sovereignty",
+      "name": "Koniag ANC Agentic-AI Federal Contracting Stack — GSA STARS III Option-Exercise Gate",
+      "news_trigger": {
+        "headline": "KGS Subsidiary and Army Customer Win 2026 ACT-IAC Innovation Impact Award — Army Contracting Agentic AI Suite saves over $37 million and 687,000 work hours annually",
+        "url": "https://www.einpresswire.com/article/913661627/kgs-subsidiary-and-army-customer-win-2026-act-iac-innovation-impact-award",
+        "outlet": "EINPresswire (Koniag Government Services press release)",
+        "pub_date": "2026-05-19",
+        "in_window_note": "CLEAN — In-window (18 days ago)."
+      },
+      "definition": "The four-tier ANCSA corporate chain — Koniag Inc. (parent ANC) → Koniag Development Corp. → Koniag Government Services LLC → Tuknik Government Services LLC — routing shareholder capital and federal preference status into Army AI/ML procurement via GSA 8(a) STARS III, with the vehicle's base-period expiration July 1, 2026 as the binary gate controlling continued task-order issuance.",
+      "layers": [
+        {"layer": "Koniag Inc. — Parent ANCSA Regional Corporation", "actor": "Ron Unger, Chairman and CEO, Koniag Inc.", "primary_source": "https://www.koniag.com/about-us/leadership/"},
+        {"layer": "Koniag Capital / Koniag Development Corporation — Investment and Technology Acquisition Arm", "actor": "Stacey Simmons, VP of Region Investments, Koniag Inc.", "primary_source": "https://www.koniagcap.com/"},
+        {"layer": "Koniag Government Services LLC — Federal Services Subsidiary ANC", "actor": "Carin Chapman, VP of AI Strategy and Enablement, KGS", "primary_source": "https://www.koniag-gs.com/"},
+        {"layer": "Tuknik Government Services LLC — STARS III Contract Holder", "actor": "KGS LLC (parent, subsidiary ANC structure); contract 47QTCB22D0301", "primary_source": "https://www.koniag-gs.com/companies/tuknik-government-services-llc/"},
+        {"layer": "GSA 8(a) STARS III GWAC — Ordering-Period Option Exercise Gate", "actor": "Joel Schatz, STARS III Program Manager, GSA Federal Acquisition Service", "primary_source": "https://www.gsa.gov/technology/it-contract-vehicles-and-purchasing-programs/gwacs/8a-stars-iii"}
+      ],
+      "provisional_chokepoint": "Layer 5 — Joel Schatz (GSA STARS III Program Manager) must formally exercise the three-year option before July 1, 2026. If exercised, Koniag/TGS can issue new Army AI task orders through 2029 (performance through 2034). If not exercised, the ordering window closes and Koniag's AI contracting pipeline (the primary revenue driver behind shareholder distributions) is disrupted.",
+      "ak_consequence": "~70% of Koniag revenue flows from KGS family; if STARS III ordering window closes July 1, Koniag Inc. (Ron Unger) faces board-level capital reallocation decision for ~$250M+ in annual AI-focused federal contract revenue.",
+      "gate7_note": "DISTINCT from excluded ANC 8(a) Sole-Source Pipeline mechanism — the STARS III option exercise gate is a GSA vehicle decision, not an SBA application processing gate. The sovereignty structure (4-tier ANC chain) is the mechanism being anatomized, not just the SBA preference.",
+      "confidence": "high"
+    },
+    {
+      "scout_category": "capital_sovereignty",
+      "name": "CIRI OSC Global ANC AI/Cybersecurity Acquisition Stack",
+      "news_trigger": {
+        "headline": "OSC Technical Solutions Strengthens Critical Infrastructure and Operational Technology Cybersecurity Capabilities with James Cervini, EngD",
+        "url": "https://www.businesswire.com/news/home/20260519038583/en/OSC-Technical-Solutions-Strengthens-Critical-Infrastructure-Operational-Technology-Cybersecurity-Capabilities-with-James-Cervini-EngD",
+        "outlet": "BusinessWire",
+        "pub_date": "2026-05-19"
+      },
+      "definition": "CIRI (Cook Inlet Region Inc.) routes serial acquisitions (OSC Edge Dec 2024, I2X Feb 2026, OSC Technical Solutions Sep 2025) into federal AI/cyber markets via ANCSA capital authority and OSC EdgeTech LLC's 8(a) ANC sole-source vehicle.",
+      "layers": [
+        {"layer": "CIRI — Parent ANCSA Regional Corporation", "actor": "Swami Iyer, CEO; Tabetha Toloff, President, Cook Inlet Region Inc.", "primary_source": "https://www.ciri.com/enterprise/government/"},
+        {"layer": "OSC Global LLC — Technology Holdings Subsidiary", "actor": "CIRI Board of Directors (acquisition authority)", "primary_source": "https://osc-global.com/portfolio/"},
+        {"layer": "OSC EdgeTech LLC — ANC 8(a)-Certified Sole-Source Vehicle", "actor": "Michael Ellerbe, President, OSC Edge", "primary_source": "https://oscedgetech.com/about/"},
+        {"layer": "I2X Technologies — AI Systems Engineering Capability (Acquired Feb 2026)", "actor": "Teresa Porter, CEO I2X Technologies (continuing post-acquisition)", "primary_source": "https://finance.yahoo.com/news/ciri-announces-purchase-i2x-technologies-140000798.html"},
+        {"layer": "OSC Technical Solutions — ICS/OT Cybersecurity Delivery Entity", "actor": "John Roach, SVP/GM, OSC Technical Solutions", "primary_source": "https://www.einpresswire.com/article/913661435/osc-technical-solutions-expands-ot-cybersecurity-capabilities-james-cervini-engd"}
+      ],
+      "provisional_chokepoint": "OSC EdgeTech's 8(a) ANC certification is the gateway through which CIRI deploys AI/cyber acquisitions into sole-source federal markets. CIRI CEO Swami Iyer decides whether to grow the 8(a) stack or pivot to competitive contracting. NOTE: Adjacent to excluded mechanism — mapper should assess Gate 7 carefully.",
+      "gate7_note": "Adjacent to excluded ANC 8(a) pipeline mechanism. The chokepoint here is CIRI's acquisition decision authority (ANCSA capital deployment), not SBA application processing. Mapper to assess.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "capital_sovereignty",
+      "name": "Chugach Alaska Corporation / CGS ANC Post-Quantum AI-Security Stack",
+      "news_trigger": {
+        "headline": "Chugach Government Solutions and Quantum Knight Announce Reseller Partnership to Bring Post-Quantum Encryption Solutions to Federal Government Customers",
+        "url": "https://www.chugach.com/press-release/chugach-government-solutions-and-quantum-knight-announce-reseller-partnership-to-bring-post-quantum-encryption-solutions-to-federal-government-customers",
+        "outlet": "Chugach Alaska Corporation newsroom / BusinessWire",
+        "pub_date": "2026-05-12"
+      },
+      "definition": "Chugach Alaska Corporation (parent ANC, ~2,200 shareholders) routes capital into CGS LLC, which holds six SBA 8(a)-certified operating subsidiaries as delivery vehicles, with the new Quantum Knight partnership using the CGS ANC 8(a) sole-source pathway to deploy post-quantum encryption to DoD customers.",
+      "layers": [
+        {"layer": "Chugach Alaska Corporation — Parent ANCSA Regional Corporation", "actor": "Chugach Alaska Corporation Board of Directors", "primary_source": "https://www.chugach.com/about-us/history"},
+        {"layer": "Chugach Investment Holdings — Capital Routing Subsidiary", "actor": "CAC Board (Chugach Investment Holdings is named subsidiary)", "primary_source": "https://www.chugach.com/business"},
+        {"layer": "Chugach Government Solutions LLC — Federal Services Platform", "actor": "Mark Miller, Technical Solutions Division GM, CGS", "primary_source": "https://www.chugachgov.com/all-subsidiaries/"},
+        {"layer": "CGS 8(a)-Certified Subsidiaries (Chugach Dynamic Solutions, Chugach IT LLC)", "actor": "SBA 8(a) certification holders under CGS LLC", "primary_source": "https://www.chugachgov.com/all-subsidiaries/"},
+        {"layer": "Quantum Knight CLEAR Partnership — Post-Quantum Encryption Reseller Agreement", "actor": "Mark Miller, CGS Technical Solutions GM; Quantum Knight Inc.", "primary_source": "https://www.chugach.com/press-release/chugach-government-solutions-and-quantum-knight-announce-reseller-partnership-to-bring-post-quantum-encryption-solutions-to-federal-government-customers"}
+      ],
+      "provisional_chokepoint": "Mark Miller (CGS Technical Solutions GM) decides which subsidiary channels the Quantum Knight product — 8(a) sole-source vs competitive procurement. NOTE: Chokepoint depends on 8(a) program status (adjacent to excluded mechanism). Gate 7 concern.",
+      "gate7_note": "Adjacent to excluded ANC 8(a) pipeline mechanism. Solo routing decision by Mark Miller is distinct but ultimately SBA-dependent. Mapper to assess.",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "regulatory",
+      "cross_scout_corroboration": true,
+      "name": "GCI/Quintillion Arctic Fiber Acquisition — FCC Submarine Cable License Transfer + HSR Antitrust Stack",
+      "news_trigger": {
+        "headline": "Malone's GCI Buying Alaska Subsea Fiber Operator Quintillion, Ending Grain Management's Brief, Painful Tenure",
+        "url": "https://broadbandbreakfast.com/malones-gci-buying-alaska-subsea-fiber-operator-quintillion-ending-grain-managements-brief-painful-tenure/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-22",
+        "in_window_note": "April 22 is 45 days ago — outside 14-day window. May 12 Sahm Capital/Reuters wire (in-window) also available. Deal NOT CLOSED as of June 6 keeps it live. Note: overlaps with the GCI/Quintillion vehicle-category candidate above — same underlying deal, different regulatory layer framing."
+      },
+      "definition": "The multi-agency approval stack — FCC International Bureau submarine cable license transfer, FCC Wireline Bureau domestic Section 214 transfer, DoJ/DoD/DHS National Security Agreement novation, NTIA BEAD grant pass-through consent, and Alaska ABO subgrantee novation — required before GCI can legally operate Quintillion's Arctic fiber system.",
+      "provisional_chokepoint": "Layer 2 — FCC International Bureau Chief's consent to transfer Quintillion's submarine cable landing license SCL-LIC-20160325-00009. Bureau Chief can impose national security conditions or refer to Team Telecom, extending timeline by months. FCC's August 2025 submarine cable rules update heightened review.",
+      "gate1_note": "April 22 trigger is outside 14-day window; May 12 Sahm Capital wire is in-window. Overlap with vehicles-category GCI/Quintillion BEAD candidate (same deal, different layer emphasis).",
+      "confidence": "medium"
+    },
+    {
+      "scout_category": "regulatory",
+      "cross_scout_corroboration": true,
+      "name": "Alaska BEAD $629M Subgrantee Agreement Execution — NTIA Net Neutrality / Tribal Consent Compliance Gate",
+      "news_trigger": {
+        "headline": "NTIA Tells BEAD Subgrantees to Flag States That Alter Required Contract Language",
+        "url": "https://www.telecompetitor.com/ntia-tells-bead-subgrantees-to-flag-states-that-alter-required-contract-language/",
+        "outlet": "Telecompetitor",
+        "pub_date": "2026-05-13",
+        "in_window_note": "CLEAN — In-window (24 days ago). Also Broadband Breakfast coverage May 13."
+      },
+      "definition": "The multi-layer approval stack governing execution of Alaska's 29 BEAD subgrantee grant agreements covering $629M in broadband deployment to 46,192 locations, where NTIA's program officer holds a binary compliance gate over required contract language (net neutrality preemption, permitting reform) and individual Alaska Native tribal governments hold consent vetoes over deployments on tribal lands.",
+      "layers": [
+        {"layer": "NTIA Program Officer Compliance Review — Required Contract Language Gate", "actor": "NTIA Administrator Arielle Roth (program officers act under her delegated authority)", "primary_source": "https://www.telecompetitor.com/ntia-tells-bead-subgrantees-to-flag-states-that-alter-required-contract-language/"},
+        {"layer": "Alaska Broadband Office — Subgrantee Agreement Negotiation and Execution", "actor": "Alaska Broadband Office Director (Thomas Lochner per vehicles scout)", "primary_source": "https://www.commerce.alaska.gov/web/abo/"},
+        {"layer": "Alaska Native Tribal Consent Gate", "actor": "Individual Alaska Native tribal councils (independent consent veto for tribal lands)", "primary_source": "https://broadbandusa.ntia.gov/public-resources-related-bead-plans-and-milestones"},
+        {"layer": "NIST Grant Agreement — NOA Amendment", "actor": "NIST Grants Management Specialist (federal grants officer)", "primary_source": "https://www.akbizmag.com/industry/telecom-tech/milestone-in-broadband-expansion-with-final-bead-funding-approval/"}
+      ],
+      "provisional_chokepoint": "Layer 1 — NTIA program officers (acting under Arielle Roth) hold the binary go/no-go compliance gate. If Alaska's subgrantee agreement template includes any language conflicting with NTIA's required net neutrality preemption clause, NTIA can declare Alaska out of compliance and withhold authority to proceed for ALL 29 subgrantees — freezing $629M. The tribal consent gate (Layer 3) is a second binary chokepoint at individual tribal-land project level.",
+      "ak_consequence": "GCI ($121M BEAD), Alaska Communications ($124M), 13 others cannot begin deploying fiber to 46,192 locations until agreements are executed. Compliance dispute would delay entire $629M program including Quintillion's Nome-to-Homer Express ($48M), the primary AI data transport backbone for 46-community Arctic corridor.",
+      "gate1_note": "CLEAN — May 13 Telecompetitor trigger is in-window. Overlaps thematically with vehicles-category Alaska BEAD Subgrantee Execution Stack — same execution phase, different regulatory framing (NTIA compliance gate vs ABO signature authority).",
+      "confidence": "high"
+    },
+    {
+      "scout_category": "regulatory",
+      "name": "NTIA/Commerce BEAD Non-Deployment Fund Release + AI State Law Eligibility Policy Notice Gate",
+      "news_trigger": {
+        "headline": "Lutnick Aiming for Non-Deployment Guidance 'Over the Next Two Months'",
+        "url": "https://broadbandbreakfast.com/lutnick-aiming-for-non-deployment-guidance-over-the-next-two-months/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-22",
+        "in_window_note": "April 22 is outside strict 14-day window. But Lutnick committed to late June 2026 release — imminent binary decision event. Alaska consequence is conditional (no comprehensive AI law passed)."
+      },
+      "definition": "The rule stack by which the Commerce Secretary's pending Policy Notice will determine which states are eligible to access ~$21B in residual BEAD non-deployment funds, conditioning eligibility on states not having enacted AI laws the administration deems 'onerous,' with Alaska's broadband funding profile and AI legislative record in the decision zone.",
+      "provisional_chokepoint": "Commerce Secretary Howard Lutnick (single named actor) holds binary decisional authority over the eligibility list — late June 2026.",
+      "ak_consequence": "Alaska's BEAD deployment funds ($629M) are ring-fenced from the condition. Alaska has not passed a comprehensive AI law, likely not on ineligibility list. Conditional exposure only. Chilling effect on any Alaska AI governance legislation through Q3 2026.",
+      "gate4_note": "Gate 4 concern — Alaska's direct AI consequence is conditional/inferential. Alaska has no comprehensive AI law, so the most likely outcome is no impact on Alaska. Mechanism is primarily national.",
+      "confidence": "medium"
+    }
   ]
 }
