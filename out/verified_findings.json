@@ -1,0 +1,71 @@
+{
+  "window": ["2026-05-29", "2026-06-05"],
+  "package": "Autonomous-wildfire AI: Alaska as proving ground vs. value capture",
+  "verified": [
+    {
+      "id": "C_MASTADON",
+      "role": "LEAD",
+      "story_title": "DFFP infrared drone drove 100% containment of the Mastadon Fire near Talkeetna",
+      "is_in_window": true,
+      "confidence": "high",
+      "primary_source": true,
+      "verified_facts": {
+        "infrared_drone_flight": "An infrared drone flight conducted at 9:30 AM on Friday June 5 detected one area of heat within the fire interior (DFFP).",
+        "drone_ordered": "Incident Commander ordered an infrared drone for Friday morning to search for hidden hotspots.",
+        "size": "18.4 acres",
+        "containment": "Mastadon Fire (#131) declared 100% contained at 1:11 PM Friday June 5, 2026.",
+        "ignition": "Fire ignited southeast of Talkeetna on June 3, 2026.",
+        "agency": "Alaska Division of Forestry & Fire Protection (DFFP) UAS Module",
+        "fire_number": "#131"
+      },
+      "sources": [
+        {"url":"https://akfireinfo.com/2026/06/05/mastadon-fire-reaches-100-containment/","outlet":"Alaska Wildland Fire Information (DFFP)","pub_date":"2026-06-05","http_status":200},
+        {"url":"https://akfireinfo.com/2026/06/04/crews-continue-containment-efforts-on-mastadon-fire/","outlet":"Alaska Wildland Fire Information (DFFP)","pub_date":"2026-06-04","http_status":200},
+        {"url":"https://akfireinfo.com/2026/06/03/dffp-responding-to-a-fire-southeast-of-talkeetna/","outlet":"Alaska Wildland Fire Information (DFFP)","pub_date":"2026-06-03","http_status":200}
+      ],
+      "notes": "Single primary publisher (DFFP). Qualifies as primary source. Independent secondaries 404'd at fetch."
+    },
+    {
+      "id": "C_XPRIZE",
+      "role": "FORWARD-LOOK ANCHOR",
+      "story_title": "XPRIZE $11M autonomous-wildfire finals come to Alaska in summer 2026; UAF ACUASI is the testing partner",
+      "is_in_window": false,
+      "background_context": true,
+      "confidence": "high",
+      "primary_source": true,
+      "verified_facts": {
+        "finalists": "Anduril (USA), Data Blanket (USA), Dryad (Germany), FireSwarm Solutions (Canada), Wildfire Quest (USA)",
+        "prize": "$11 million competition",
+        "rule": "Teams must autonomously detect and suppress a high-risk fire within 10 minutes.",
+        "testing_partner": "Alaska Center for Unmanned Aircraft Systems Integration (ACUASI), Geophysical Institute, University of Alaska Fairbanks.",
+        "location_timing": "Final testing round in Alaska in summer 2026."
+      },
+      "STRIPPED": ["mid-June 2026 timing (NOT verified, use 'this summer'/'summer 2026')","NANA Region (NOT verified, use 'Alaska')"],
+      "sources": [
+        {"url":"https://www.xprize.org/prizes/wildfire/articles/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition","outlet":"XPRIZE Foundation","pub_date":"2026-01-29","http_status":200},
+        {"url":"https://www.xprize.org/prizes/wildfire","outlet":"XPRIZE Foundation","pub_date":"2026-01-29","http_status":200}
+      ]
+    },
+    {
+      "id": "D_HB217",
+      "role": "GOVERNANCE STAKES",
+      "story_title": "HB 217, the autonomous-vehicle human-operator bill, stalled in Senate Rules when the regular session ended May 20",
+      "is_in_window": true,
+      "confidence": "medium",
+      "primary_source": true,
+      "needs_softening": true,
+      "verified_facts": {
+        "subject": "An Act regulating autonomous vehicles (and commercial motor vehicle licensing examinations).",
+        "human_operator": "Requires an autonomous vehicle operated in this state to have a human safety operator physically present in the vehicle, able to monitor and intervene.",
+        "house_vote": "Passed the House 39-1 on April 30.",
+        "status": "Referred to Senate Rules May 17; no Senate floor vote; regular session ended May 20, 2026.",
+        "HEDGE": "Do NOT say 'died.' A special session began May 21 (scope unconfirmed). Use 'stalled in Senate Rules when the regular session ended May 20' / 'never got a Senate floor vote.'"
+      },
+      "sources": [
+        {"url":"https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20217","outlet":"Alaska State Legislature","pub_date":"2026-05-17","http_status":200},
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-05-04/alaska-house-advances-bill-regulating-autonomous-vehicles","outlet":"Alaska Public Media","pub_date":"2026-05-04","http_status":200}
+      ]
+    }
+  ],
+  "_validation_note": "Validator verified all three core package stories. Two XPRIZE specifics stripped (mid-June timing, NANA Region). HB 217 'died' softened to 'stalled' (special session May 21, scope unconfirmed). GCI fiber break and DOE tribal grid grants were researched and in-window but NOT used in the final package to keep the autonomous-wildfire frame airtight; available as alternates."
+}
