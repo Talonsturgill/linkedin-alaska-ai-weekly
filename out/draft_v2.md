@@ -1,23 +1,17 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+A state drone caught a hot spot inside the Mastadon Fire on Friday morning, southeast of Talkeetna. Crews dug it out, and the fire hit 100% containment that afternoon at 18.4 acres.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+That infrared flight came from the Division of Forestry and Fire Protection's UAS Module on Fire #131, which ignited June 3. It's real robotics doing real suppression work at the opening of Alaska's wildfire season, not a pilot deck. The state isn't watching autonomous fire tech mature somewhere else. It's flying it.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The conventional read is that this is a capability win, and it is. Alaska gets earlier detection, smaller fires, fewer crews exposed. But the capability story buries the value-capture story, and the value-capture story is where the money goes.
 
-Five layers sit between an Air Force land offer and a powered data center.
+This summer the $11 million XPRIZE Wildfire competition runs its final autonomous testing round in Alaska, with ACUASI at the University of Alaska Fairbanks as the testing partner. Teams have to autonomously detect and suppress a high-risk fire within 10 minutes. The five finalists are Anduril of California, Data Blanket, Dryad of Germany, FireSwarm Solutions of Canada, and Wildfire Quest. None of them is an Alaska firm.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+So Alaska supplies the hardest part of the equation. The fire behavior, the cold-weather flight envelope, the terrain, the actual operational ground that no simulator reproduces. Outside firms supply the systems, and they walk away with something more durable than a trophy. They walk away with proof their autonomy worked on Alaska fires. That is the past-performance file program managers read at source selection.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+Here is the lock-in. When autonomous wildfire suppression goes to federal and state procurement in the next contract cycle, the firms that certified their systems on Alaska ground hold the past-performance edge. Alaska holds neither the IP nor the rulebook. HB 217, which would set the state's first autonomous-vehicle rules and require a human safety operator physically present in the vehicle, passed the House 39-1 on April 30. It then stalled in Senate Rules and never got a Senate floor vote before the regular session ended May 20. A special session opened May 21, and its scope is unconfirmed.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+That sequence matters. The proving ground is live this summer. The certification framework is parked. If the rulebook lags the test range, Alaska becomes the place autonomy gets validated and someone else gets paid.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+Who should capture the value Alaska generates as the national proving ground for wildfire autonomy, the test-range operators, the state, or whoever wins the first federal recompete?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #FederalContracting #ProcurementReform #ArcticInnovation #DefenseTech

@@ -1,32 +1,18 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name":"Hook strength","score":9,"weight":0.15,"notes":"Opens with named deployment (Mastadon Fire, SE of Talkeetna, DFFP drone, 18.4 acres, 100% containment). Stands alone as a hook, clears the ~210-char see-more cutoff. Capital consequence implied rather than named in first two lines, so just below 10."},
+    {"name":"Industry relevance","score":10,"weight":0.20,"notes":"Every story carries an Alaska anchor plus a named industry consequence. DFFP deployment, $11M XPRIZE, UAF ACUASI, five named finalists, source-selection/past-performance, HB 217 as procurement risk."},
+    {"name":"Factual density","score":10,"weight":0.15,"notes":"Specifics nearly every sentence: dates, 18.4 acres, #131, DFFP UAS Module, $11M, 10-minute rule, five finalists with countries, HB 217 39-1 April 30, Senate Rules, May 20/21."},
+    {"name":"Source quality","score":10,"weight":0.15,"notes":"All three clusters trace to primary sources (akfireinfo/DFFP, xprize.org, akleg.gov + Alaska Public Media), HTTP 200 in verified_findings."},
+    {"name":"Voice match","score":10,"weight":0.15,"notes":"Analytical, position-taking, structural. 'The capability story buries the value-capture story' and 'neither the IP nor the rulebook' are on-brand. No influencer cadence."},
+    {"name":"Readability (LinkedIn)","score":9,"weight":0.10,"notes":"2-3 sentence paragraphs, ~414 words, ~2673 chars under cap, easy mobile scan. Optional bullet block unused."},
+    {"name":"Engagement question","score":10,"weight":0.08,"notes":"Real, debatable question tied to the value-capture tension, names three stakeholder positions. No CTA or softener."},
+    {"name":"Business actionability","score":10,"weight":0.02,"notes":"Reader can track the five XPRIZE finalists for federal recompetes, flag HB 217 stall as procurement risk, note past-performance certification dynamic."}
+  ],
+  "weighted_total": 9.75,
+  "threshold": 8.0,
+  "hard_fail": null,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "Append a clause to the second hook sentence naming the capital consequence so the stake is explicit before the see-more cutoff."
 }
