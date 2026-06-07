@@ -1,0 +1,102 @@
+{
+  "window": ["2026-05-30", "2026-06-06"],
+  "today": "2026-06-06",
+  "volume": "VOL. 04",
+  "package_mode": "Deep Dive",
+  "lead": "GCI_FIBER_BREAK",
+  "verified": [
+    {
+      "id": "GCI_FIBER_BREAK",
+      "status": "partial",
+      "is_in_window": true,
+      "background_context": false,
+      "usable_for_post": true,
+      "verified_claims": [
+        "A subsea fiber break severed internet and wireless service to six Aleutian communities: Akutan, Chignik Bay, False Pass, King Cove, Perryville, and Unalaska. (Alaska Public Media June 1 + KUCB May 29, two independent in-window sources)",
+        "GCI bridged affected traffic onto satellite backup; basic wireless and limited mobile data were restored by about June 1.",
+        "GCI said full fiber repair was expected within roughly one to two weeks of the late-May/June-1 announcements (i.e., mid-June)."
+      ],
+      "softened_or_stripped": [
+        {"claim": "Repair vessel on-site near Chignik Bay June 6", "action": "SOFTEN", "reason": "No fetched page confirms a June 6 vessel arrival; sources give a 7-14 day repair window from late May / June 1. Use 'expected within one to two weeks' / 'by mid-June'."},
+        {"claim": "Unalaska-Dutch Harbor is the second-busiest fishing port in the nation", "action": "STRIP", "reason": "Not on any fetched source page. Do not assert any numeric port ranking. May refer to Unalaska as an Aleutian fishing hub generically."}
+      ],
+      "sources": [
+        {"url": "https://alaskapublic.org/news/2026-06-01/gci-customers-in-aleutians-connected-to-satellite-while-waiting-for-fiber-cable-repairs", "outlet": "Alaska Public Media (KUCB)", "pub_date": "2026-06-01", "author": "Maggie Nelson", "http": "200"},
+        {"url": "https://www.kucb.org/regional/2026-05-29/gci-aleutian-customers-connected-to-backup-satellite-system-while-waiting-for-permanent-repairs-to-fiber-cable", "outlet": "KUCB", "pub_date": "2026-05-29", "author": "Maggie Nelson", "http": "200"},
+        {"url": "https://broadbandbreakfast.com/is-fiber-the-right-technology-for-alaska-gci-rushing-to-fix-new-subsea-fiber-tear-in-the-aleutians/", "outlet": "Broadband Breakfast", "pub_date": "2026-06-01", "author": "Ted Hearn", "http": "200", "note": "paywalled body; cite only for the framing question, not for specific figures"}
+      ]
+    },
+    {
+      "id": "USF_SUBSIDY",
+      "status": "verified",
+      "is_in_window": false,
+      "background_context": true,
+      "usable_for_post": true,
+      "verified_claims": [
+        "Alaska telecoms received $4.6 billion in Universal Service Fund subsidies since 2016, more than $600 per Alaskan per year, the most of any state. (ADN + ProPublica, both May 19, independently confirmed)",
+        "Alaska's broadband speeds were recently clocked as the slowest in the country.",
+        "GCI received $466 million two years after settling fraud allegations in the same program.",
+        "The FCC has circulated a proposal to overhaul or sunset the Alaska Plan subsidy mechanism."
+      ],
+      "softened_or_stripped": [],
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/2026/05/19/the-fcc-sends-billions-to-alaska-companies-selling-slow-internet-you-pay-for-it/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-19", "author": "Kyle Hopkins", "http": "200"},
+        {"url": "https://www.propublica.org/article/alaska-telecom-subsidies-roger-shoffstall", "outlet": "ProPublica", "pub_date": "2026-05-19", "author": "Kyle Hopkins", "http": "200"}
+      ]
+    },
+    {
+      "id": "GCI_CAPITAL_EXPOSURE",
+      "status": "verified",
+      "is_in_window": false,
+      "background_context": true,
+      "usable_for_post": true,
+      "verified_claims": [
+        "GCI is acquiring Quintillion at a $310 million enterprise value, deepening its exposure to Arctic subsea fiber. (GCI newsroom, primary)",
+        "GCI holds $121.2 million in BEAD grant obligations to extend fiber to rural Alaska communities. (GCI newsroom, primary)"
+      ],
+      "softened_or_stripped": [
+        {"claim": "Specific Jan/Feb 2026 break dates (Unalaska blizzard, Deering)", "action": "HEDGE", "reason": "Paywalled source; characterize generally as repeated subsea breaks over the past year, attributed/reportedly."},
+        {"claim": "3% broadband-subscriber decline in 2025", "action": "DROP", "reason": "Paywalled; causal framing unverifiable."}
+      ],
+      "sources": [
+        {"url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure", "outlet": "GCI (newsroom, primary)", "pub_date": "2026-04-22", "author": "", "http": "200"}
+      ]
+    },
+    {
+      "id": "DAF_DATACENTER",
+      "status": "verified",
+      "is_in_window": false,
+      "background_context": true,
+      "usable_for_post": true,
+      "verified_claims": [
+        "DAF is offering roughly 4,700 acres across JBER, Eielson AFB, and Clear SFS for privately financed AI data centers under leases up to 50 years. (Air and Space Forces Magazine)",
+        "Proposals were due May 29, 2026; no award or shortlist announced as of June 6. (ADN)",
+        "Chugach Electric stated it does not currently have gas to serve a large data center. (ADN, verbatim)"
+      ],
+      "softened_or_stripped": [],
+      "sources": [
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": "", "http": "200"},
+        {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-05", "author": "Alex DeMarban", "http": "200"}
+      ]
+    },
+    {
+      "id": "STAK_DATACENTER",
+      "status": "partial",
+      "is_in_window": false,
+      "background_context": true,
+      "usable_for_post": true,
+      "verified_claims": [
+        "Stak Energy has preliminary state approval to lease North Slope land for a roughly $500 million natural-gas-powered AI/cloud data center, with no investors or customers publicly disclosed. (Alaska Public Media, single non-primary source)",
+        "Stak is led by CEO Sparrow Mahoney and has hired former DNR commissioner John Boyle."
+      ],
+      "softened_or_stripped": [
+        {"claim": "715.4 acres, up to 3GW, 50-year lease, May 12 DNR finding, June 15 comment deadline, Milepost 390", "action": "STRIP", "reason": "Northern Journal 404, DNR 503; none verified on the one accessible page. Use only $500M, North Slope, preliminary approval, no disclosed investors/customers."}
+      ],
+      "sources": [
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26", "author": "Casey Grove", "http": "200"}
+      ]
+    }
+  ],
+  "_validation_note": "Validator ran to completion. Lead is in-window with two independent sources. Background framing items are attributed; specific figures unverifiable behind paywalls or dead links were stripped or hedged per the softened_or_stripped fields.",
+  "summary": "Deep Dive on the GCI Aleutian subsea fiber break (in-window, two independent sources), framed against the verified $4.6B USF-subsidy structure (ADN/ProPublica) and the AI-hosting-frontier pitch (DAF ~4,700-acre lease, Stak $500M North Slope proposal). The position: capital is chasing the top of the AI stack on a connectivity substrate that is both physically fragile and under federal subsidy review."
+}

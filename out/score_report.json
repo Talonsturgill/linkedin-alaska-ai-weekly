@@ -1,32 +1,18 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 10, "weight": 0.15, "notes": "First two lines name a specific date (June 1), carrier (GCI), six communities, and pivot to the capital-pitch tension. Stands alone at the see-more cutoff with a concrete stake. No banned opener."},
+    {"name": "Industry relevance", "score": 10, "weight": 0.20, "notes": "Every paragraph anchors to Alaska and names a consequence: DAF 4,700-acre lease, $500M North Slope proposal, $4.6B USF regime under FCC review, GCI-Quintillion $310M, $121.2M BEAD, Chugach gas constraint."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Named entities, dates, dollar figures, and agencies in virtually every sentence. Density sustained, not front-loaded."},
+    {"name": "Source quality", "score": 9, "weight": 0.15, "notes": "GCI break: two independent in-window sources (Alaska Public Media + KUCB). USF: ADN + ProPublica. DAF: Air and Space Forces Magazine + ADN. Quintillion/BEAD: GCI newsroom (primary). Minor dock: Stak $500M is single-sourced (partial), but properly hedged as preliminary approval."},
+    {"name": "Voice match", "score": 9, "weight": 0.15, "notes": "Structurally analytical and position-taking, matching post_001.md. Minor dock for one slightly casual line."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.10, "notes": "409 words, 2505 chars. Paragraphs 2-4 sentences. Clean mobile scan. Meets every descriptor-10 condition."},
+    {"name": "Engagement question", "score": 10, "weight": 0.08, "notes": "Genuinely debatable, specific question tied to the structural tension. No softener, no CTA."},
+    {"name": "Business actionability", "score": 9, "weight": 0.02, "notes": "Allocator/PM can name concrete revisit triggers: the just-closed DAF lease and the FCC Alaska Plan review as subsidy-regime risk. Minor dock for implicit action frame."}
+  ],
+  "weighted_total": 9.68,
+  "threshold": 8.0,
+  "hard_fail": null,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Source quality",
+  "one_sentence_fix": "Strengthen the Stak $500M North Slope claim with a second independent source or explicit attribution to Alaska Public Media so the single-source status is transparent."
 }
