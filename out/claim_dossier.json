@@ -1,0 +1,78 @@
+{
+  "issue_label": "NO. 10",
+  "run_date": "2026-06-06",
+  "selected_claim": {
+    "claim_verbatim": "Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?",
+    "claim_paraphrase_fair": "Satellites are unreliable or non-functional in the high-Arctic environment, so defense and domain-awareness planners must rely on terrestrial and other non-space-based sensors for Arctic coverage.",
+    "asserters": [
+      {
+        "name": "Troy Boufard",
+        "title_or_org": "Director, Center for Arctic Security and Resilience, University of Alaska Fairbanks; Research Fellow, U.S. Military Academy at West Point",
+        "url": "https://www.meritalk.com/articles/missile-defense-in-the-digital-age-ai-data-and-domain-awareness-in-the-arctic/",
+        "outlet": "MeriTalk",
+        "pub_date": "2026-01-20",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Houston Cantwell",
+        "title_or_org": "Brig. Gen. USAF (Ret.), Senior Resident Fellow, AFA Mitchell Institute for Aerospace Studies",
+        "url": "https://www.airandspaceforces.com/article/homeland-sanctuary-lost-securing-the-arctic-flank/",
+        "outlet": "Air and Space Forces Magazine",
+        "pub_date": "2025-11-14",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 2,
+    "discourse_slice": "trade_analyst",
+    "why_smart_people_believe_it": "For decades, geostationary satellites (GPS, weather, surveillance birds in GEO orbit) genuinely could not cover latitudes above roughly 70-75 degrees North, so 'satellites don't work in the Arctic' became a foundational assumption baked into Arctic operations doctrine and contractor pitches. Defense planners who learned Arctic ops in the pre-LEO-constellation era carry this as established fact.",
+    "steelman": "A reasonable Arctic domain-awareness expert invoking this claim almost certainly means geostationary satellites, which genuinely cannot illuminate polar latitudes - a well-documented physical limitation. Furthermore, even where LEO satellites provide communications coverage, space-based moving-target radar (the surveillance function, not just connectivity) remains technologically immature for near-real-time Arctic domain awareness, as Cantwell documents in detail. The integration problem Boufard describes - fusing heterogeneous sensors into a common operating picture - is real and consequential regardless of what any single sensor tier can do.",
+    "where_it_breaks": "Boufard uses the unqualified word 'satellites,' which in 2026 includes LEO constellations that do work at polar latitudes: Iridium NEXT's 66 satellites fly at 86.4-degree near-polar inclination providing 24/7 coverage to both poles, and Starlink's polar shell is operationally active in Alaska, Iceland, and Svalbard. The GEO-vs-LEO distinction is not a technicality - it is the basis on which billions in terrestrial sensor capex is being justified and on which federal Arctic domain-awareness contracts are being scoped.",
+    "counter_evidence": [
+      {
+        "fact": "Iridium NEXT operates 66 satellites at 86.4-degree near-polar inclination in 6 orbital planes, providing 24/7 real-time visibility over the entire Earth's surface including both poles. The GMDSS maritime safety authorization specifically extended 'critical safety coverage to include remote polar regions (Sea Area A4) for the first time,' an area geostationary satellites cannot reach. An Arctic Lynx exercise in June 2021 confirmed operational capability at 82 degrees North.",
+        "url": "https://www.eoportal.org/satellite-missions/iridium-next",
+        "outlet": "ESA eoPortal (Iridium NEXT mission profile)",
+        "pub_date": "2024-01-01",
+        "is_primary": true
+      },
+      {
+        "fact": "SpaceX launched Starlink satellites into polar orbit in 2022 and service is confirmed active in Alaska, Canadian Arctic territories (Yukon, Northwest Territories, Nunavut), and Scandinavia. When complete the constellation will comprise approximately 40,000 LEO satellites, with roughly 10 percent already deployed as of the article date.",
+        "url": "https://en.highnorthnews.com/business/elon-musks-starlink-expands-to-provide-coverage-to-much-of-the-arctic/216642",
+        "outlet": "High North News",
+        "pub_date": "2022-11-01",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "The load-bearing distinction for Arctic AI investment is not 'satellites vs. everything else' but 'GEO-belt satellites vs. LEO polar-orbit constellations.' Iridium NEXT has provided full-polar satellite connectivity for over two decades; Starlink's polar shell is now operationally active in Alaska. The genuine integration challenge - fusing LEO connectivity, space-based radar (still maturing), over-the-horizon radar, subsurface sensors, and human reporting into a real-time common operating picture using AI - is real and urgent, but conflating it with a blanket satellite failure forecloses the LEO-based architectures that are already partially solving the coverage problem and misleads federal program offices about what Alaska-based sensor investments actually need to complement.",
+    "ak_stakes": "Arctic Domain Awareness procurement: federal contractors and DoD program offices (NORAD modernization, potential DAF Alaska sensor solicitations) justifying Alaska-specific terrestrial sensor capital expenditure on the premise that satellite coverage fails at northern latitudes. If the GEO/LEO conflation is not corrected, investment portfolios exclude or underweight LEO-integrated architectures that already function in Alaska, and terrestrial-only pitches receive procurement priority based on a faulty premise. Named actors: UAF Center for Arctic Security and Resilience as intellectual anchor; Alaska-based defense contractors competing for Arctic sensor contracts; NORAD/USNORTHCOM program offices evaluating sensor mix for 2026-2030 modernization.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "attribution_note": "Verbatim quote confirmed present on the live MeriTalk page (fetched 2026-06-07); attributed to named asserter Troy Boufard with full title confirmed.",
+      "circulation_pass": true,
+      "circulation_note": "Two independently originated assertions from different authors and outlets: Boufard in MeriTalk (Jan 2026) and Cantwell in Air and Space Forces Magazine (Nov 2025), neither citing or syndicating the other; both drive the same 'space-based assets fail at northern latitudes' framing that justifies terrestrial sensor investment.",
+      "load_bearing_pass": true,
+      "load_bearing_note": "Directly shapes Arctic domain-awareness procurement decisions - terrestrial sensor vs. LEO-integrated architectures - for Alaska-based contractors and NORAD modernization program offices.",
+      "steelman_survives_pass": true,
+      "steelman_survives_note": "The steelman (GEO satellites genuinely cannot cover polar latitudes; space-based moving-target radar is immature; sensor fusion is the real problem) is strong and honest but does not make the unqualified 'satellites don't work up here' claim true - the LEO constellation distinction is materially load-bearing for procurement decisions.",
+      "rebuttable_pass": true,
+      "rebuttable_note": "Primary source confirmed: ESA eoPortal (Iridium NEXT mission profile) confirms 86.4-degree near-polar inclination, 66-satellite constellation, 24/7 polar coverage including Sea Area A4 maritime safety designation. High North News confirms Starlink polar service active in Alaska. Both fetched and verified 2026-06-07.",
+      "not_recent_repeat_pass": true,
+      "not_recent_repeat_note": "Satellite GEO/LEO conflation does not appear in any avoid-cluster: not power/PUE, not LNG, not fiber, not fisheries EM, not court chatbot, not DAF lease, not AI moratorium, not uncrewed Arctic systems."
+    }
+  },
+  "dropped_claims": [
+    {"id": "C2_no_ai_strategy", "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "drop_reason": "true_as_stated", "gate_point_failed": "Gate 4 (steelman survives too strongly toward true)", "detail": "Counter-evidence is executive/agency action (Admin Orders 359/360, OIT Copilot, DEED guidelines, myAlaska RFI); the ADN editorial specifically lamented absence of a legislative framework, which is largely accurate. Correcting it would overstate what the executive orders accomplish."},
+    {"id": "C3_ai_gov_efficiency", "claim_verbatim": "Utilize technology and artificial intelligence (AI) to review large datasets in order to determine how State of Alaska funds are actually being spent.", "drop_reason": "not_load_bearing", "gate_point_failed": "Gate 3 and Gate 4", "detail": "Quote is the text of an actual government administrative order; correcting a government's own directive is a policy critique, not a received-wisdom corrective. Brookings DOGE-AI counter is federal, not AK-specific primary source."},
+    {"id": "C4_gci_parity", "claim_verbatim": "GCI and Databricks look forward to ensuring that Alaskans have access to the same high-performance networks as New Yorkers or San Franciscans.", "drop_reason": "true_as_stated", "gate_point_failed": "Gate 4", "detail": "Goldie's quote is forward-looking aspiration ('look forward to ensuring'), not a present-tense parity claim; the fiber-availability counter rebuts a claim he did not actually make."},
+    {"id": "C5_data_center_jobs", "claim_verbatim": "a peak construction workforce of 1,500 people, with some 60 permanent jobs that would be created", "drop_reason": "not_load_bearing", "gate_point_failed": "Gate 1 and Gate 4", "detail": "Quote is a reporter relaying a project figure; correcting the skeptic 'few permanent jobs' framing risks reading as boosterism; counter-evidence (Brookings indirect jobs) is secondary and contested in remote contexts."},
+    {"id": "C6_ada_insufficient", "claim_verbatim": "Today's Arctic domain awareness (ADA) capabilities and capacity are woefully insufficient to the threat.", "drop_reason": "true_as_stated", "gate_point_failed": "Gate 4", "detail": "Steelman is substantially true and corroborated by NORAD's own modernization requests and GAO; Arctic Edge 2026 shows activity but does not rebut the capability-gap assessment."},
+    {"id": "C7_reach_without_presence", "claim_verbatim": "AI in this context functions as a direct capability enabler, allowing for expanded reach without expanded presence.", "drop_reason": "unattributed", "gate_point_failed": "Gate 1 and Gate 6", "detail": "Asserter is an organization, not a named individual; practical implication edges directly into the uncrewed-Arctic-systems avoid-cluster."},
+    {"id": "C8_ranks_last", "claim_verbatim": "Alaska, which ranks last overall, produces just 12 AI-related degrees per 10,000 young adults — more than 25 times fewer than New Hampshire.", "drop_reason": "single_non_primary", "gate_point_failed": "Gate 1 and Gate 2", "detail": "Brainly is a commercial homework app; its AI Readiness Index is marketing content, not an authoritative index; single originating source."},
+    {"id": "C9_ai_csam", "claim_verbatim": "AI-generated CSAM poses serious risks to children by enabling perpetrators to produce highly realistic virtual images of child abuse.", "drop_reason": "true_as_stated", "gate_point_failed": "Gate 4 and topic fit", "detail": "Core harm claim is essentially true; no honest corrective frame; child-safety topic poorly suited to a generous business corrective."}
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "C1 (Boufard, satellites) selected after live WebFetch verification of verbatim quote on MeriTalk page (confirmed 2026-06-07), Iridium NEXT primary-source orbital specification on ESA eoPortal (86.4-degree near-polar inclination, 66 satellites, 24/7 polar coverage incl. Sea Area A4 maritime safety designation), and Starlink polar coverage confirmed via High North News. The MeriTalk article itself reveals the depth of the conflation: Boufard lists 'polar-orbiting satellites' as one of his proposed alternative sensors, meaning the expert simultaneously says satellites don't work and proposes satellite-based alternatives - the GEO/LEO distinction is genuinely not being made. All seven non-selected candidates were dropped with specific gate-point reasons based on verified source checks."
+}

@@ -1,32 +1,31 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "issue_label": "NO. 10",
+  "run_date": "2026-06-06",
+  "rubric": "config/contrarian_rubric.yaml",
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.13, "notes": "First two lines name the claim verbatim, anchor it to federal dollars being scoped now, and signal a correction without snark; the 210-char cutoff lands cleanly mid-premise-challenge."},
+    {"name": "Claim load-bearing + AK stakes", "score": 9, "weight": 0.20, "notes": "NORAD/USNORTHCOM 2026-2030 modernization and Alaska-based contractor competition named explicitly; one point off because the DAF solicitation is flagged as 'potential' and no dollar figure is cited."},
+    {"name": "Steelman fairness", "score": 10, "weight": 0.12, "notes": "Paragraph 3 is generous, accurate, and unsnarky: credits the GEO physical limitation, validates sensor fusion as genuinely unsolved, and would leave a Boufard reader feeling fairly represented."},
+    {"name": "Counter-evidence quality", "score": 8, "weight": 0.10, "notes": "Iridium NEXT rebuttal rests on ESA eoPortal primary source with orbital specifics; Starlink rebuttal rests on a single credible secondary (High North News), not a primary or two independent outlets, which keeps this below 10."},
+    {"name": "Factual density", "score": 9, "weight": 0.10, "notes": "Named specifics appear every one to two sentences throughout: 66 satellites, 86.4-degree inclination, six planes, Sea Area A4, 2022, 2026-2030, NORAD, USNORTHCOM, MeriTalk, January 2026, UAF, West Point."},
+    {"name": "Source quality", "score": 7, "weight": 0.13, "notes": "Boufard attribution traces to confirmed live MeriTalk primary; Iridium NEXT traces to ESA eoPortal primary; Starlink traces to High North News, a single credible secondary outlet only, not a primary or two independent sources."},
+    {"name": "Voice match", "score": 10, "weight": 0.12, "notes": "Analytical, structural, position-taking, no banned phrases, no influencer cadence, corrective without contempt; reads precisely like the brand voice descriptor."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.05, "notes": "All paragraphs are two to four sentences, body word count approximately 392 (within 350-475), total character count well under 3000, easy to scan on desktop and mobile."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Closing question is real, debatable, industry-specific, and tied directly to the corrected frame (LEO vs GEO trade study); not generic and not a CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "A program manager can immediately name the decision to reframe: treat LEO polar coverage as available infrastructure in the trade study rather than writing it off with GEO-belt assumptions."}
   ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "pass": true, "notes": "4 hashtags, all drawn from brand.yaml whitelist (AlaskaAI, DefenseTech, ArcticInnovation, FederalContracting), placed at end only."},
+    {"name": "punctuation_bans_held", "pass": true, "notes": "No em-dashes, en-dashes, double-hyphens, colons, or semicolons found anywhere in the post body."},
+    {"name": "total_char_count_under_linkedin_cap", "pass": true, "notes": "Total post character count is approximately 2617, well under the 3000-character LinkedIn cap."},
+    {"name": "word_count_in_range", "pass": true, "notes": "Body word count is approximately 392 words (hashtag line excluded), within the 350-475 range."},
+    {"name": "claim_is_attributed", "pass": true, "notes": "Troy Boufard is named with title and institutional affiliation; the verbatim quote is present and matches claim_dossier.json selected_claim.claim_verbatim; MeriTalk January 2026 is cited inline."},
+    {"name": "steelman_present", "pass": true, "notes": "Paragraph 3 states the strongest honest version of the claim before any rebuttal, consistent with claim_dossier.json selected_claim.steelman, and covers both the GEO physical limitation and the sensor fusion bottleneck."}
   ],
-  "one_sentence_fix": null
+  "weighted_total": 8.98,
+  "threshold": 8.0,
+  "hard_fail": null,
+  "ship": true,
+  "weakest_criterion": "Source quality",
+  "one_sentence_fix": "Corroborate the Starlink polar coverage claim with a second independent source (such as SpaceX regulatory filings or an FCC authorization document) so every rebuttal point meets the two-independent-credible-outlets standard."
 }
