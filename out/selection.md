@@ -1,27 +1,29 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-06-07
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Mechanism
+BLM Alaska NPR-A Production Site Streamlined Permit Rulemaking
 
-## Role
-FOUNDER (kicker middle slot)
+## Category
+REGULATORY
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## News Trigger
+"Oil industry has an idea to speed permitting on western Arctic leases. BLM likes it."
+— Alaska Public Media, May 24, 2026
+URL: https://alaskapublic.org/news/politics/washington-d-c/2026-05-24/oil-industry-has-an-idea-to-speed-permitting-on-western-arctic-leases-blm-likes-it
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+Verbatim span: "Rather than requiring individual environmental reviews for each development project, companies would receive permits within 60 days if their proposals meet standardized conditions outlined in the new rule."
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Layer Count
+5 layers (L1-L5); L1-L4 primary-source confirmed; L5 institutional confirmation only
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Chokepoint
+Kevin J. Pendergast, BLM Alaska State Director — holds Record of Decision authority as the sole named responsible official in Federal Register NOI (docket DOI-BLM-AK-0000-2026-0012-EIS). Binary decision: adopt the 60-day criteria-based pathway or retain project-by-project NEPA review. Delegated authority from Secretary of Interior; not a commission vote.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## Structural Read
+This rulemaking is a bet on the premise that permitting friction is the binding constraint on North Slope development — and by extension on the gas infrastructure that proposed Alaska AI campuses depend on. The desk's read: the mechanism matters structurally but the timeline forecloses any near-term use. EIS minimum timelines (approximately 12 months from May 2026 NOI) mean no 60-day permits are available before May 2027 at best. The July 6 scoping deadline is where operator leverage is actually concentrated, not the ROD itself. Operators and AI infrastructure proponents who treat this as background news rather than an active decision point will have less influence over which site types qualify for expedited treatment.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Forward Implication
+July 6, 2026 is the hard participation deadline for scoping comments. Comments filed before July 6 shape which NPR-A project types qualify for the 60-day pathway in the final rule. STAK Energy, military data center proponents relying on North Slope gas, and subsistence communities are the three named constituencies with opposing material stakes in Pendergast's final ROD.
+
+## Category Label for Image
+REGULATORY

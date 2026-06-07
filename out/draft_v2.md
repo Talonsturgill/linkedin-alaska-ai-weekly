@@ -1,23 +1,21 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+BLM Alaska just opened a rulemaking that could compress oil and gas permitting in the 23-million-acre National Petroleum Reserve in Alaska to 60 days. According to Alaska Public Media, qualifying production sites would get permit decisions on a criteria-based track instead of project-by-project NEPA review.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The mechanism is a 43 CFR Part 3160 rule amendment, triggered by an AOGA petition on May 12, 2026, directed by BLM Alaska State Director Kevin Pendergast as the named responsible official under the May 19 Federal Register Notice of Intent.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The layers, mapped.
 
-Five layers sit between an Air Force land offer and a powered data center.
+- Industry Petition and NOI Trigger. AOGA filed the petition on May 12, 2026. BLM Alaska's Federal Register NOI opened a 45-day scoping period closing July 6, 2026. Pendergast is the named responsible official.
+- EIS Record of Decision Authority. Pendergast will sign the ROD adopting or declining the criteria pathway. No commission vote required. Pendergast holds delegated authority from the Secretary of Interior.
+- 43 CFR Part 3160 Rule Amendment. Codifies criteria-based 60-day approvals for qualifying NPR-A production sites, subject to OIRA review at OMB. Pendergast signs the ROD.
+- Retained Army Corps Section 404 Jurisdiction. The rule cannot eliminate Army Corps permitting for any stream or wetland crossings. Army Corps Alaska District retains independent jurisdiction.
+- NSB and State Retained Authority. NSB zoning and Alaska DNR and DEC permits survive the rule. NSB Mayor and Alaska DNR Commissioner John Crowther hold these gates.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The chokepoint is Pendergast's ROD. He signs it alone, no multi-member vote required, no external concurrence needed. He adopts the criteria pathway or declines it on his own authority. One official holds the binary on whether North Slope permitting fundamentally restructures.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The leverage in this cycle isn't the ROD. It's July 6. EIS timelines can't compress below roughly 12 months from the May 2026 NOI, meaning no 60-day permits arrive before May 2027 at the earliest. Operators pricing the new pathway into 2026 plans are mispricing their timeline. What matters now is scoping. Comments filed before July 6 define which project types qualify for the criteria pathway when the rule is written. STAK Energy's 1-3 GW North Slope campus and military data center proposals that depend on North Slope gas have direct stakes in that outcome. Alaska Native subsistence communities face compressed consultation windows if the rule passes as AOGA petitioned it.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+Miss the July 6 scoping deadline and you've handed the qualifying criteria to whoever shows up. Pendergast's ROD follows the EIS, and the EIS follows the scope. That's the sequence.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+Does BLM's criteria-based pathway actually compress enough permitting drag to make North Slope AI data center economics viable, or does the Army Corps Section 404 layer and state permitting stack remain the binding constraint?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #EnergyPolicy #OilAndGas #ArcticInnovation #DataCenters
