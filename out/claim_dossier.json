@@ -1,0 +1,99 @@
+{
+  "issue_label": "NO. 11",
+  "date": "2026-06-07",
+  "no_target_this_cycle": false,
+  "_validation_note": "",
+  "selected_claim": {
+    "claim_verbatim": "By making this land available, we are supporting the growing demands of the AI industry while generating value that directly supports our missions and the readiness of our Airmen and Guardians.",
+    "claim_paraphrase_fair": "The Air Force frames its plan to lease land at three Alaska military bases to commercial AI data-center operators as a defense-readiness move, not primarily a commercial real-estate transaction.",
+    "asserters": [
+      {
+        "name": "Robert Moriarty",
+        "title_or_org": "Deputy Assistant Secretary of the Air Force for Installations",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air & Space Forces Magazine",
+        "pub_date": "2026-04-11",
+        "is_primary": true
+      }
+    ],
+    "steelman": "The Air Force has a genuine and growing AI compute demand — JADC2, ISR analytics, and logistics automation all require data-center capacity that is currently undersupplied inside the defense enterprise. Leasing surplus installation land to commercial operators generates fair-market revenue that recapitalizes aging base infrastructure while situating AI compute in geographic proximity to military consumers who may later procure services from those facilities. Alaska installations carry additional strategic weight: JBER and Eielson anchor INDOPACOM's Arctic posture, and having commercial AI infrastructure co-located near those commands is not strategically neutral. A well-informed defense planner could honestly describe this arrangement as readiness-enhancing.",
+    "where_it_breaks": "The government's own Request for Lease Proposal explicitly prohibits offerors from assuming any government purchase commitment, stating the government 'is under no obligation' to buy AI services or power from the projects and that proposals 'shall not include Government purchases.' The Army is running structurally identical Enhanced Use Lease solicitations at non-Arctic posts (Fort Hood, Fort Bliss, Fort Bragg, Dugway), indicating a DoD-wide commercial real-estate monetization program rather than an Alaska-specific defense-posture decision. The readiness framing is the public justification; the operative document forecloses the operational link.",
+    "more_accurate_frame": "The USAF Alaska data-center lease is a DoD-wide Enhanced Use Lease program that monetizes surplus military land for commercial AI developers, with no contractual obligation for the government to purchase the AI services built there — making 'military readiness' a justificatory frame rather than an operative commitment.",
+    "corrective_thesis": "The government's own RLP document says the exact opposite of the readiness pitch: military tenancy of the resulting AI compute is explicitly excluded from proposals, turning a defense-readiness narrative into an Enhanced Use Lease real-estate deal that happens to be on Alaska soil.",
+    "why_load_bearing": "Seven outlets repeated the readiness framing uncritically. That framing is now shaping how the Alaska congressional delegation, state economic-development agencies, and private capital allocators assess these land parcels — treating them as strategic national-security infrastructure rather than a commercial ground lease. If the readiness framing drives policy, Alaska investors, ANC contractors, and state officials will calibrate their participation around a defense anchor that the procurement document does not guarantee.",
+    "ak_industry_consequence": "Alaska AI infrastructure sector — specifically ANC contractors, real-estate developers, and state economic-development planners evaluating JBER/Eielson/Clear SFS parcels — risk committing capital and policy support to a 'defense AI hub' narrative that the operative RLP document does not underwrite, with no contractual guarantee the military will be an anchor tenant or buyer within any defined timeframe.",
+    "ak_stakes": "Alaska AI infrastructure / commercial land development: ANC contractors and state planners deciding whether to treat JBER, Eielson, and Clear SFS data-center parcels as defense-mission assets (commanding premium positioning and congressional support) vs. commercial real estate (subject to normal market competition) — a distinction that determines capital structure, 8(a) set-aside applicability, and delegation advocacy posture, with lease solicitations active as of Q2 2026.",
+    "counter_evidence": [
+      {
+        "fact": "The Department of the Air Force Request for Lease Proposal states: 'Although the Government may purchase AI Data Center services and power from the Project(s), it is under no obligation to do so, and Offerors' concept shall not include Government purchases of AI Data Center services or power.' This is the operative procurement document governing the Alaska base leases.",
+        "url": "https://news.clearancejobs.com/2026/04/14/air-force-eyes-arctic-ai-boom-with-new-data-center-push-in-alaska/",
+        "outlet": "ClearanceJobs",
+        "pub_date": "2026-04-14",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "The Army is running structurally identical Enhanced Use Lease solicitations for commercial AI data centers at non-Arctic posts including Fort Hood, Fort Bliss, Fort Bragg, and Dugway Proving Ground, indicating a DoD-wide commercial real-estate monetization model rather than an Alaska-specific defense-posture decision.",
+        "url": "https://news.clearancejobs.com/2026/04/14/air-force-eyes-arctic-ai-boom-with-new-data-center-push-in-alaska/",
+        "outlet": "ClearanceJobs",
+        "pub_date": "2026-04-14",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "Deputy Assistant Secretary of the Air Force for Installations Robert Moriarty framed the Alaska base land leases as 'generating value that directly supports our missions and the readiness of our Airmen and Guardians,' the public readiness justification reported across at least seven outlets.",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air & Space Forces Magazine",
+        "pub_date": "2026-04-11",
+        "is_primary": true,
+        "reverified": true
+      }
+    ],
+    "confidence": "high",
+    "gate_results": {
+      "attribution": true,
+      "circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary": true,
+      "not_a_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Our AI, machine learning, and intelligent automation solutions deliver measurable impact—one current solution alone saves the Army more than $37 million annually.",
+      "asserter": "Ron Unger, Chairman and CEO, Koniag (Alaska Business Magazine, 2025-12-01)",
+      "reason": "Passes all six gates but ranked below Candidate A on combined load-bearing + Alaska-specificity grounds. The work is performed in Virginia, the $37M figure is explicitly 'cost avoidance' not cash savings per the AWS primary source, and the KGS blog independently cites a different figure ($29.3M), introducing internal inconsistency. Candidate A has a harder primary-source counter and a more direct Alaska industry consequence."
+    },
+    {
+      "claim_verbatim": "efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review.",
+      "asserter": "Caren Brady, Senior Program Manager, Pacific States Marine Fisheries Commission (National Fisherman, 2025-07-28)",
+      "reason": "Passes all six gates but the quote already uses conditional language ('could lead to'), so the steelman is close to true-as-stated, leaving less falsifiable terrain. Ranked below Candidate A."
+    },
+    {
+      "claim_verbatim": "...which promises to revolutionize how we process PFD applications—a true game changer for generations of Alaskans.",
+      "asserter": "Fadil Limani, Deputy Commissioner, Alaska Department of Revenue (GlobeNewswire, 2024-12-17)",
+      "reason": "Gate 5 partial fail: primary counter is a vendor clarification (secondary), and the procurement-scandal angle risks a dunk tone, converting a corrective post into an accountability piece on a separate story."
+    },
+    {
+      "claim_verbatim": "Agencies will also be required to use technology and artificial intelligence to improve transparency and accountability in how public money is spent.",
+      "asserter": "Gov. Mike Dunleavy, Administrative Order 360 (2025-08-04)",
+      "reason": "Gate 5 weak: counter reduces to 'an executive order lacks implementation detail,' a common condition rather than a falsifiable contradiction. Not load-bearing enough as a corrective."
+    },
+    {
+      "claim_verbatim": "The more that we can use AI to really attack those and be able to monitor patients on a much more frequent basis and prevent them from getting to the place where they have to be hospitalized...",
+      "asserter": "Serene Perkins, Chief Medical Officer, Providence Medical Group Alaska (Alaska Public Media, 2025-03-06)",
+      "reason": "Gate 4 concern: aspirational claim, steelman close to true-as-stated; the PMC paper counter targets a different claim (community involvement). Ranked below Candidate A."
+    },
+    {
+      "claim_verbatim": "Tailsight will transform Alaska's maintenance operations by offering real-time insights beyond current capabilities.",
+      "asserter": "Nathan Engel, VP Maintenance Operations, Alaska Airlines (Alaska Airlines newsroom, 2026-04-16)",
+      "reason": "Gate 5 hard fail: no primary-source counter-evidence exists. Platform launched April 2026 with no outcome metrics."
+    },
+    {
+      "claim_verbatim": "It positions Alaska to be highly competitive for federal AI education grants and other funding opportunities by demonstrating a clear, unified-level strategy.",
+      "asserter": "Anthony White, CS Content Specialist, Alaska DEED (Alaska Public Media, 2025-10-15)",
+      "reason": "Gate 5 fail: counter-evidence (non-mandatory framework, expired HCR3 task force) is secondary-source only. Not rebuttable from primary evidence."
+    }
+  ]
+}
