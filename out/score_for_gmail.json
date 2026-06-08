@@ -1,17 +1,17 @@
 {
-  "ship": true,
-  "weighted_total": 9.48,
+  "weighted_total": 9.37,
   "threshold": 8.0,
+  "ship": true,
+  "weakest_criterion": "Source quality (8)",
+  "one_sentence_fix": "In the closing question, replace 'the preference closes' with a named mechanism or horizon to lift the engagement question from 9 to 10.",
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "Specific dollar, agency, contractor, and procurement structure in the first three sentences; within the see-more cutoff."},
+    {"name": "Industry relevance", "score": 10, "weight": 0.20, "notes": "All three stories carry an Alaska anchor and a named industry consequence."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Award ID, $18M/5yr, NSF 26-508, June 16 LOI, GAAIA June 4, named actors. Specifics every one to two sentences."},
+    {"name": "Source quality", "score": 8, "weight": 0.15, "notes": "Conservative Koniag attribution (USAspending did not resolve; OrangeSlices does); NSF primary; GAAIA via Roll Call/ADN/AFT. One step removed on the Koniag docket."},
+    {"name": "Voice match", "score": 10, "weight": 0.15, "notes": "Matches post_001 analytical, position-taking cadence; no influencer drift."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.10, "notes": "Tight paragraphs, 432 words, 2766 chars. Third paragraph slightly dense."},
+    {"name": "Engagement question", "score": 9, "weight": 0.08, "notes": "Debatable, tied to the 8(a) concentration tension; 'the preference closes' slightly abstract."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Concrete revisit-this-week triggers: June 16 NSF LOI; ANC 8(a) concentration; GAAIA timeline."}
   ]
 }
