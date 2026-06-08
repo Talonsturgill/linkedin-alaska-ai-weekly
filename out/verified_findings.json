@@ -1,0 +1,98 @@
+{
+  "window": "2026-05-31 to 2026-06-07",
+  "validated_at": "2026-06-07",
+  "verified": [
+    {
+      "id": "B_KONIAG_DOE",
+      "story_title": "Koniag Advisory & Business Solutions wins $18M DOE SBIR/STTR support contract via 8(a) sole source",
+      "summary": "Koniag Advisory and Business Solutions LLC, a subsidiary of Koniag Government Services (an Alaska Native Corporation-affiliated company for Kodiak Archipelago shareholders), was awarded a five-year $18,023,062 contract by the Department of Energy to provide programmatic support for DOE's SBIR/STTR programs. Award date June 5, 2026; 8(a) sole-source, single bidder, contract ID 89303026CTT000007.",
+      "why_it_matters": "ANC 8(a) status unlocked the award through a civilian agency (DOE), channeling federal dollars to a Kodiak-connected Native corporation. 8(a) sole source is a preference channel, and the work is program support (back office), not the AI workloads themselves.",
+      "industry_consequence": "Federal services: Koniag Government Services secures an $18M, 5-year DOE revenue stream via 8(a) sole source. ANC 8(a) preference is the dominant channel putting federal AI-adjacent dollars into Alaska-owned entities, which is a concentration risk if the preference tightens.",
+      "sources": [
+        {"url": "https://orangeslices.ai/koniag-subsidiary-secures-18m-doe-small-business-innovation-research-small-business-technology-transfer-sbir-sttr-support-contract/", "outlet": "OrangeSlices AI", "pub_date": "2026-06-05", "resolves": true, "supports_claim": true},
+        {"url": "https://www.koniag-gs.com/companies/koniag-advisory-and-business-solutions-llc/", "outlet": "Koniag Government Services", "pub_date": "2026-06-05", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "high",
+      "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": false,
+      "corrections": "Use award ID 89303026CTT000007 and $18,023,062 (round to ~$18M). Candidate USAspending URL did not resolve; attribute award details to the federal contract record as reported June 5 (OrangeSlices). Koniag-gs page confirms entity identity only. Attribute carefully: 'a federal contract record reported June 5'.",
+      "_validation_verdict": "verified"
+    },
+    {
+      "id": "A_NSF_TECHACCESS",
+      "story_title": "NSF TechAccess AI-Ready America Round 1 LOI closes June 16 — Alaska eligible for a $3M, 3-year AI workforce hub",
+      "summary": "NSF's TechAccess: AI-Ready America (NSF 26-508), a $168M to $224M initiative, funds one AI Coordination Hub per state/territory at $1M/yr for 3 years. Round 1 selects 10 hubs; mandatory LOI due June 16, 2026. Alaska is one of 56 eligible jurisdictions; the University of Alaska System is an eligible lead type.",
+      "why_it_matters": "Use-it-or-lose-it: missing the June 16 LOI defers Alaska to Round 2 (Dec 15, 2026) while 10 states build hubs first.",
+      "industry_consequence": "Higher ed/workforce: University of Alaska System (or an AWIB consortium) must decide by June 16, 2026 whether to file an LOI for a $3M, 3-year NSF AI hub.",
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "NSF (primary)", "pub_date": "2026-03-25", "resolves": true, "supports_claim": true},
+        {"url": "https://grantedai.com/blog/nsf-techaccess-ai-ready-america-26-508-224-million-56-state-hubs-june-16-loi-strategy", "outlet": "GrantedAI (blog)", "pub_date": "2026-06-01", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "medium",
+      "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": true,
+      "corrections": "Use '$168M to $224M', not a flat $224M. DOL source dropped (403). GrantedAI is a blog; hedge any GrantedAI-specific detail. Do NOT assert a confirmed Alaska filing. The $3M is $1M/yr x 3yr per hub.",
+      "_validation_verdict": "softened"
+    },
+    {
+      "id": "A_AFA_GAAIA",
+      "story_title": "AFA Council 30 (Alaska Airlines flight attendants) enters national AI-labor fight as Great American AI Act drops",
+      "summary": "LeiLauni Scheideman, president of AFA Council 30 representing Anchorage-based Alaska Airlines flight attendants, published an ADN op-ed June 1, 2026 opposing federal preemption of state AI worker protections, citing AI monitoring of flight attendants. On June 4 the bipartisan Great American AI Act discussion draft proposed a three-year preemption of state AI laws; AFA-CWA and AFT issued a joint statement opposing it.",
+      "why_it_matters": "Alaska has no enacted AI labor law; a federal preemption would lock the legislature out of passing AI workplace guardrails for three years as Alaska Airlines deepens AI deployment.",
+      "industry_consequence": "Aviation-labor: AFA Council 30 (Anchorage) faces a closing window; if the Great American AI Act advances, Alaska loses the ability to enact AI workplace-monitoring protections through about 2028.",
+      "sources": [
+        {"url": "https://www.adn.com/opinions/2026/05/31/opinion-dont-let-washington-ground-alaskas-ability-to-protect-workers-from-ai/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-01", "resolves": true, "supports_claim": true},
+        {"url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/", "outlet": "Roll Call", "pub_date": "2026-06-04", "resolves": true, "supports_claim": true},
+        {"url": "https://www.aft.org/press-release/union-leaders-urge-congress-reject-great-american-ai-act", "outlet": "AFT", "pub_date": "2026-06-04", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "high",
+      "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": false,
+      "corrections": "GAAIA preemption itself was covered in prior weeks; the NEW element is the AFA/aviation-labor angle. Verified joint-statement quote available ('Our response to the Great American AI Act is simple: Hard no.') but quote not required. Roll Call confirms the 3-year preemption; Scheideman op-ed is the Alaska link.",
+      "_validation_verdict": "verified"
+    },
+    {
+      "id": "E_GLENFARNE_LNG",
+      "story_title": "Glenfarne reveals $44.5B to $55B Alaska LNG cost range; June 19 special-session deadline",
+      "summary": "During the LNG special session Glenfarne disclosed June 3-4 the project will cost $44.5B to $54.5B (Alaska Public Media, June 4); ADN reported June 6 the high end updated to $55B. Senate Finance co-chair Bert Stedman called it low, estimating $62B to $65B. The tax bill must pass by June 19.",
+      "why_it_matters": "Alaska LNG is the only large-scale gas answer to the Railbelt Cook Inlet shortage that Chugach and GVEA cite when declining large data-center loads; the Governor has pitched it as the AI data-center energy backbone.",
+      "industry_consequence": "Energy/AI infra: the June 19 vote gates whether grid-connected Railbelt data centers ever pencil; the updated cost resets power economics under every gigawatt pitch.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-04/glenfarne-releases-alaska-lng-cost-estimates-as-skeptical-legislators-press-for-details", "outlet": "Alaska Public Media", "pub_date": "2026-06-04", "resolves": true, "supports_claim": true},
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/06/alaska-lng-cost-estimate-bumps-to-as-much-as-55b-as-lawmakers-weigh-what-comes-next-in-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-06", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "high",
+      "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": false,
+      "corrections": "Covered in prior weeks; use only as a one-line stakes/context beat. Use '$44.5B to $55B' range; attribute Stedman's $62B-$65B as his estimate.",
+      "_validation_verdict": "verified"
+    },
+    {
+      "id": "B_STAK_NORTHSLOPE",
+      "story_title": "Alaska DNR comment period on Stak Energy $500M North Slope AI data-center land lease closes June 15",
+      "summary": "DNR issued a preliminary best-interest finding supporting a 50-year state land lease to Stak Energy for a gas-powered data center near Deadhorse, about one square mile, up to 3GW, $500M, no gas supply agreement secured. Public comment closes June 15, 2026.",
+      "why_it_matters": "June 15 comment close is an in-window action-forcing date; finalization could encumber state land at scale with no energy source secured.",
+      "industry_consequence": "Oil & gas / digital infra: DNR may finalize a 50-year lease after June 15; North Slope gas producers must signal supply interest or opposition before the comment window closes.",
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-18", "resolves": true, "supports_claim": true},
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "high",
+      "is_in_window": true, "primary_source": true, "background_context": true, "needs_softening": true,
+      "corrections": "STRIP '715-acre'; use 'about one square mile'. Both sources pre-window; June 15 comment close is the in-window hook. Use as one-line supporting beat only.",
+      "_validation_verdict": "softened"
+    },
+    {
+      "id": "D_AICSAM_SENTENCE",
+      "story_title": "First federal AI-CSAM sentencing in Alaska — Anchorage man gets about 5.8 years",
+      "summary": "On June 3, 2026 Anthaney O'Connor was sentenced in federal court in Alaska to about 5.8 years after pleading guilty to receipt of child pornography; the case involved AI-generated CSAM and a JBER airman co-defendant.",
+      "why_it_matters": "Federal prosecutors in Alaska are already securing AI-CSAM sentences under federal law while the state's HB 47 stalled.",
+      "industry_consequence": "Thin for a capital/procurement audience.",
+      "sources": [
+        {"url": "https://alaska-native-news.com/anchorage-man-sentenced-to-5-years-for-receiving-child-pornography-and-possessing-ai-generated-images-depicting-child-sexual-abuse/84413/", "outlet": "Alaska Native News", "pub_date": "2026-06-05", "resolves": true, "supports_claim": true}
+      ],
+      "confidence": "medium",
+      "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "corrections": "DOJ primary URL returned 401; only Alaska Native News resolves (single, non-primary). Sentence is ~5.8 years. CUT from the package: thin business consequence, single source.",
+      "_validation_verdict": "softened-but-recommend-cut"
+    }
+  ],
+  "dropped": [],
+  "notes": "No full drops. AI-CSAM cut at selection for thin business angle + single resolving source. recommend_broaden_window NOT triggered (6 verified)."
+}
