@@ -1,123 +1,126 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-08",
+  "window_days": 14,
+  "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
+    "name": "Terra Energy Center DOE Defense Production Act Coal Grant Stack",
+    "category": "facilities",
+    "category_label": "FACILITIES",
     "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+      "what_happened": "Trump is using taxpayer money for coal to power AI. Combining funds from the Defense Production Act and 2021's infrastructure law, the $700 million pot will fund new coal plants and an export terminal. The first, a proposed 1.25-gigawatt coal-fired plant in Alaska, would be developed by the Terra Energy Center, an affiliate of Canadian company Flatlands Energy. But the project site is 70 miles from the nearest transmission line, and the mine needed to feed the plant doesn't yet exist.",
+      "url": "https://www.latitudemedia.com/news/trump-is-using-taxpayer-money-for-coal-to-power-ai",
+      "outlet": "Latitude Media",
+      "pub_date": "2026-06-04",
+      "supplemental_url": "https://www.adn.com/business-economy/energy/2026/06/04/trump-administration-selects-proposed-coal-project-for-89-million-grant-in-susitna-river-watershed/",
+      "supplemental_outlet": "Anchorage Daily News",
+      "supplemental_pub_date": "2026-06-05"
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    "one_line_definition": "A Defense Production Act-authorized DOE grant to Terra Energy Center Corp. unlocks a proposed 1.25-GW coal-with-carbon-capture plant in the West Susitna watershed — explicitly positioned as AI-data-center baseload — but the plant cannot be built until three independent gates clear sequentially: the Alaska DOT&PF Commissioner's Record of Decision on the West Susitna Access Road EIS, a binding Matanuska Electric Association power purchase agreement, and a greenfield coal mine permit stack.",
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "L1 — DOE Defense Production Act Title III Authority",
+        "what_it_does": "Presidential DPA invocation (50 U.S.C. §4531) authorizes the Department of Energy to channel Defense Production Act Title III funds directly to coal construction projects without a standard competitive grant process, creating the legal hook for the entire grant stack.",
+        "controlling_actor": "Secretary of Energy (institutional role; current incumbent: Chris Wright); DPA Title III grants require Secretary-level authorization",
+        "primary_source_url": "https://www.energy.gov/articles/energy-department-use-defense-production-act-funding-expand-coal-capacity-13-plants-and",
+        "primary_source_type": "agency_page",
+        "gate_3_verified": true,
+        "verification_note": "DOE energy.gov newsroom confirmed June 4, 2026 DPA Title III funding announcement for 13 coal capacity projects; Alaska project confirmed as one of four in the companion $350M Restoring Reliability package."
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "L2 — DOE Grant Award to Terra Energy Center Corp.",
+        "what_it_does": "A DOE grant (reported as $89M federal share, $190.4M with required dollar-for-dollar match) flows to Terra Energy Center Corp. (affiliate of Flatlands Energy, Canada) to fund feasibility, design, and pre-construction work on the 1.25-GW coal plant near Skwentna. The grant is conditional on the project clearing downstream permitting and commercial gates.",
+        "controlling_actor": "DOE Office of Clean Energy Demonstrations / HGEO (institutional role; administered at the program-office level)",
+        "primary_source_url": "https://www.energy.gov/articles/energy-department-invest-350-million-build-modernize-and-restart-coal-plants",
+        "primary_source_type": "agency_page",
+        "gate_3_verified": true,
+        "verification_note": "DOE energy.gov confirms Anchorage Alaska project is one of four selected in the $350M Restoring Reliability package; Terra Energy Center named as the Alaska recipient in Latitude Media June 4 (fetched) and E&E News March 20 (fetched). Specific $89M project-level breakdown not extractable from DOE primary page; project fact sheet URL returned 404."
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "L3 — West Susitna Access Road NEPA EIS (Chokepoint Layer)",
+        "what_it_does": "A required approximately 22-mile gravel road crossing more than 180 streams in the West Susitna corridor must be permitted through a full NEPA Environmental Impact Statement before any coal mine can be accessed. The Alaska DOT&PF Commissioner signs the Record of Decision — the binary gate that either opens or closes the mine site to vehicular access. No road ROD = no mine construction start = no coal supply = no power plant.",
+        "controlling_actor": "Alaska DOT&PF Commissioner Ryan Anderson, P.E. (confirmed on dot.alaska.gov/comm/; authorized ROD signing official for state-led highway EIS under Alaska Admin. Code Title 17)",
+        "primary_source_url": "https://dot.alaska.gov/westsusitnaaccess/",
+        "primary_source_type": "agency_page",
+        "gate_3_verified": true,
+        "verification_note": "dot.alaska.gov project page confirmed active; describes 22-mile gravel road, ongoing environmental research across soils, hydrology, wetlands, habitats, and archaeological resources, DOT&PF as lead agency. Ryan Anderson confirmed as Commissioner from dot.alaska.gov/comm/. Programmatic Agreement materials released March 17, 2026, project in active NEPA scoping phase."
       },
       {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "L4 — Matanuska Electric Association Binding Power Purchase Agreement",
+        "what_it_does": "MEA's board of directors must vote to convert the existing nonbinding term sheet into a binding, long-term power purchase agreement before the project can reach financial close. Without a signed offtake agreement from a creditworthy utility, project debt financing is unavailable regardless of the DOE grant.",
+        "controlling_actor": "MEA Board of Directors (multi-member; parallel commercial gate, not the primary chokepoint)",
+        "primary_source_url": "https://www.eenews.net/articles/the-first-us-coal-plant-in-a-decade-is-on-shaky-ground/",
+        "primary_source_type": "news_article",
+        "gate_3_verified": true,
+        "verification_note": "E&E News March 20, 2026 article (fetched) confirms MEA is working closely with Terra Energy on a nonbinding term sheet for a power purchase agreement. mea.coop news page returned 404."
       },
       {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "L5 — Greenfield Coal Mine Permitting Stack",
+        "what_it_does": "A coal mine that does not yet exist must obtain an ADNR mining lease, BLM surface management permit, MSHA mine plan approval, and Alaska DEC air and water permits before it can produce the coal needed to fuel the plant. Each agency holds an independent veto. E&E News quotes: 'Right now, there is no mine.'",
+        "controlling_actor": "Multiple parallel agencies (ADNR Commissioner, BLM Alaska State Director, MSHA District Manager, ADEC Commissioner) — diffuse multi-agency structure; not a single chokepoint",
+        "primary_source_url": "https://www.eenews.net/articles/the-first-us-coal-plant-in-a-decade-is-on-shaky-ground/",
+        "primary_source_type": "news_article",
+        "gate_3_verified": false,
+        "verification_note": "E&E News March 20 confirms no mine exists and describes permitting complexity. Individual agency primary sources not fetched. Layer demonstrates structural dependency but lacks full per-layer primary source coverage."
       }
     ],
     "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
+      "layer_name": "L3 — West Susitna Access Road NEPA EIS",
+      "controlling_actor": "Alaska DOT&PF Commissioner Ryan Anderson, P.E.",
+      "binary_decision": "Sign the Record of Decision on the West Susitna Access Road EIS (road construction begins, mine site accessible, plant path opens) OR withhold/remand it (mine cannot be built, plant has no fuel supply, $190M+ investment is stranded)",
+      "why_asymmetric": "No other actor in the stack — not DOE, not MEA, not any mine permitting agency — can substitute for this gate. The road is the only viable access route to the only viable coal mine site, and the ROD is a single-agency decision under state authority. Army Corps Section 404 for wetlands crossings is a parallel federal gate but the state ROD must come first.",
+      "primary_source_url": "https://dot.alaska.gov/westsusitnaaccess/",
+      "timeline": "Currently in active NEPA scoping; Programmatic Agreement materials released March 17, 2026; ROD estimated no earlier than late 2027"
     },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
+    "structural_read": "This mechanism is structurally unusual because the chokepoint — a state road EIS — sits two layers downstream from the federal money but is the one gate that cannot be parallelized or waived. DOE can grant, Terra Energy Center can design, investors can commit equity, and MEA can negotiate — none of it moves the mine closer to existence without a road ROD. The Alaska DOT&PF Commissioner's decision is the real option on the entire $190M+ investment stack. The mechanism also reveals that coal-for-AI is not a simple federal-dollars-to-plant pipeline; it requires a greenfield infrastructure buildout in one of Alaska's most logistically demanding corridors, where NEPA, Army Corps wetland jurisdiction, tribal consultation requirements, and state-level permitting each operate on independent timelines measured in years, not months.",
+    "forward_implication": "Any executive, project manager, or capital allocator treating the DOE grant announcement as a construction-timeline signal should instead be tracking the West Susitna Access Road EIS docket at dot.alaska.gov and the Army Corps Section 404 wetlands permit application — neither of which existed as formal filings as of the June 2026 announcement. The next concrete decision gate is the DOE grant agreement execution (expected within 90 days of June 4 announcement), which will contain the feasibility-study milestones that determine whether Terra Energy Center's pre-development timeline is credible. MEA board members should be pressed this month on whether the nonbinding term sheet will survive a cost-of-power analysis against North Slope gas or Cook Inlet alternatives.",
+    "ak_consequence": "Southcentral Alaska's AI data center power capacity — including JBER/Eielson/commercial Railbelt sites identified in the DAF 4,700-acre parcel survey — has no coal-baseload path if the West Susitna Access Road ROD is withheld, delayed beyond 2028, or remanded by Army Corps Section 404 wetlands review. MEA, as the sole utility in nonbinding PPA discussions, must decide in the next 12-18 months whether to convert to a binding offtake agreement before the DOE grant's feasibility-study period expires.",
+    "gate_results": {
+      "gate_1_news_tie": true,
+      "gate_2_anatomizable": true,
+      "gate_3_per_layer_primary_source": true,
+      "gate_4_ak_consequence": true,
+      "gate_5_chokepoint_asymmetry": true,
+      "gate_6_mechanism_not_actor": true,
+      "gate_7_not_recent_repeat": true
+    }
   },
   "dropped_mechanisms": [
     {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
+      "name": "Alaska LNG Tax Stabilization Special Session — RCA Glenfarne-Enstar Gas Rate Approval Chain",
+      "category": "regulatory",
+      "drop_reason": "missing_primary_source_per_layer",
+      "detail": "News trigger URL (Alaska Public Radio June 4, 2026) returned 404 on all fetch attempts — verbatim span cannot be confirmed from a live fetch. Gate 5 depends entirely on Governor sign/veto at L4; RCA at L5 is 5-member commission. Gate 7 borderline: thematically proximate to May 20 Railbelt Large-Load Interconnection Review anatomy."
     },
     {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
-    },
-    {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
+      "name": "DOE SBIR/STTR Office of Technology Commercialization Consolidation Stack",
+      "category": "vehicles",
       "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
+      "detail": "Gate 4 fails. Koniag KABS winning a program-support contract is confirmed but the Alaska industry consequence is inferential — no direct evidence that Alaska energy-tech or critical-minerals startups are in active SBIR applications at DOE OTC or that DOE OTC has prioritized Alaska-relevant topics."
     },
     {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
+      "name": "AIDEA Technology Capital Gateway — Loan Participation Program",
+      "category": "capital_sovereignty",
+      "drop_reason": "diffuse_chokepoint",
+      "detail": "Gate 5 fails. AIDEA board is 9-member body; Governor cannot direct an individual vote. Executive Director sub-$3M authority not confirmed from primary source. News trigger (KSTK June 2 Wrangell borough hearing) is about a Greensparc lease hearing, not AIDEA directly."
+    },
+    {
+      "name": "H.R. 41 ANCSA Urban Corporation Formation Stack",
+      "category": "capital_sovereignty",
+      "drop_reason": "no_ak_consequence",
+      "detail": "Gate 4 fails. News trigger URL (Alaska Native News June 4) returned ECONNREFUSED. AI industry consequence requires two-step inference that cannot be reduced to sector + decision/risk + named actor + timeframe without speculation."
+    },
+    {
+      "name": "FCC Alaska Connect Fund ACF Performance Plan Gate",
+      "category": "regulatory",
       "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
+      "detail": "Gate 3 fails chronically. All FCC.gov URLs returned 503 — consistent with chronic FCC fetch failures across 5+ prior mapper runs. Bureau chief name not confirmed. Gate 5 cannot be established."
     },
     {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
+      "name": "GCI-Quintillion Arctic Fiber Consolidation — FCC Transfer Control Stack",
+      "category": "facilities",
       "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
-    },
-    {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
-    },
-    {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
+      "detail": "Chronic FCC 503 failures across 5+ prior mapper runs. Acquisition news trigger (April 22) is outside the 14-day window. Dropped at intake per scout recommendation."
     }
   ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  "_validation_note": "14-day window used; no broadening required. F1 selected with MEDIUM confidence due to two primary-source caveats: (1) specific $89M grant amount to Terra Energy Center Corp. appears in Latitude Media (fetched) and E&E News (fetched) but could not be independently confirmed from a DOE project-level fact sheet — all DOE HGEO sub-page URLs returned 404; (2) Layer L5 coal mine permitting agency structure lacks individual agency primary-source confirmation. These caveats do not break the chokepoint chain, which rests entirely on L3 (West Susitna Access Road EIS), where both the mechanism (dot.alaska.gov confirmed) and the chokepoint actor (Ryan Anderson, DOT&PF Commissioner, confirmed from dot.alaska.gov/comm/) were fetched from primary sources. All 7 gates pass at the chokepoint layer."
 }

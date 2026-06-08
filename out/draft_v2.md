@@ -1,23 +1,19 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+DOE just awarded $89 million to a coal plant in Alaska to power AI data centers. The real option on that investment isn't in Washington. It's on the desk of one state transportation commissioner in Juneau.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The Terra Energy Center DOE Defense Production Act Coal Grant Stack is what just became visible. DPA Title III authorization lets DOE channel funds to coal construction without a competitive grant process. That's the federal layer. Below it, five more layers stand between the money and a watt.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+- DOE Defense Production Act Title III - Presidential DPA invocation routes coal construction funds outside the standard competitive grant process, Secretary of Energy Chris Wright
+- DOE Grant to Terra Energy Center Corp. - $89M federal share ($190.4M total with dollar-for-dollar match) funds feasibility and pre-construction on the 1.25-GW plant near Skwentna, DOE Office of Clean Energy Demonstrations
+- West Susitna Access Road NEPA EIS - 22-mile gravel road across 180-plus stream crossings must clear a full Environmental Impact Statement before any coal mine is accessible, DOT&PF Commissioner Ryan Anderson, P.E.
+- Matanuska Electric Association Binding PPA - MEA's board must convert a nonbinding term sheet to a binding offtake agreement before financial close, MEA Board of Directors
+- Greenfield Coal Mine Permitting Stack - a mine that doesn't exist must obtain ADNR, BLM, MSHA, and ADEC permits, four parallel agencies
 
-Five layers sit between an Air Force land offer and a powered data center.
+Commissioner Anderson owns the chokepoint. His Record of Decision on the West Susitna Access Road EIS is the one gate no federal agency, no grant office, and no MEA board vote can substitute for. Sign the ROD and the mine site becomes accessible. Withhold it and the plant has no fuel supply, the DOE grant is stranded, and the AI baseload story ends. Programmatic Agreement materials released March 17, 2026 put the ROD no earlier than late 2027.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The DOE announcement signals political will, not construction-readiness. According to Latitude Media, the project site sits 70 miles from the nearest transmission line. E&E News reported the mine doesn't yet exist. Coal-for-AI in Alaska is a five-year infrastructure buildout that runs through a state environmental review desk, not a federal grant office. The grant agreement expected within 90 days of June 4 will contain feasibility-study milestones that determine whether the 2030-plus delivery window makes this irrelevant to Southcentral Alaska's data center planning.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+MEA's board has 12 to 18 months to convert the term sheet to a binding PPA before the feasibility-study period expires. Capital allocators and program managers tracking JBER, Eielson, and Railbelt commercial site power should watch the West Susitna Access Road EIS docket at dot.alaska.gov and the Army Corps Section 404 wetlands permit application when it's filed.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+If the West Susitna ROD slips past 2028, does Southcentral Alaska have a credible alternative baseload path for AI data center load growth, or does the region default to the natural gas supply constraints it's already managing?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #EnergyPolicy #DataCenters #GridPolicy #ArcticInnovation
