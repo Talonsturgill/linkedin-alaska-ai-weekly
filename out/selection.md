@@ -1,27 +1,18 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom — Selection (NO. 12, 2026-06-09)
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim
+> "We just need an anchor tenant or so, and that's it"
+— Gov. Mike Dunleavy (Alaska Public Media, 2024-10-21; ADN, 2024-10-19), echoed by Sen. Dan Sullivan (Senate address to the Alaska Legislature, Jan 2026: data centers "will help increase domestic demand for our gas and lower the costs of building and financing the pipeline").
 
-## Role
-FOUNDER (kicker middle slot)
+## Steelman (state it at its strongest)
+A single hyperscale AI data center pulling 1 to 2 GW would be the first credible large in-state gas consumer in a generation. Phase 1 in-state Alaska LNG distribution has always lacked committed domestic demand. A fixed, long-term anchor offtake would generate in-state revenue and shrink the financing-risk premium on a project whose core problem has never been resource, it has been demand certainty. The delegation is not wrong that demand is the missing ingredient.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Corrective thesis (one sentence)
+The anchor-tenant pitch quietly assumes the gas exists and pencils, but Alaska's own utilities are on record that Cook Inlet gas is unavailable for new large loads, and the only alternative, North Slope pipeline gas, would land at $10 to $13.70 per MMBtu against today's roughly $8.69, so a data center would be a customer for gas Alaska doesn't have at a price that doesn't work.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Evidence spine (all in claim_dossier.json, re-verified)
+1. Chugach Electric (Julie Hasquet): "We currently do not have gas to serve a large data center, but we do have generation capacity." Golden Valley Electric: Cook Inlet share of fuel supply fell from ~30% to under 1% last year. (ADN, 2026-05-05, primary.)
+2. Wood Mackenzie / AGDC consultant estimate: Phase 1 in-state pipeline gas at $10–$13.70/MMBtu vs ~$8.69 Cook Inlet today, i.e. more expensive, not cheaper. (ADN, Stan Jones op-ed citing the consultant report, 2026-04-12.)
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
-
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK consequence
+The anchor-tenant assumption is load-bearing for AGDC's pitch to private capital and the delegation's advocacy for the ~$44B pipeline. If the assumption fails, the data-center-linked financing rationale collapses, with direct effect on whether AGDC attracts private capital in the 2026–2028 windows and whether HB 259 data-center tax incentives rest on a supply chain that exists.
