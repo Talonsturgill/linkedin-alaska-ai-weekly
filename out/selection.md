@@ -1,27 +1,35 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack Selection — 10 June 2026
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Mechanism
+**DAF Alaska Enhanced Use Lease AI Data Center Program**
 
-## Role
-FOUNDER (kicker middle slot)
+## Category
+FACILITIES
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## News trigger
+"The Department of the Air Force issued a Request for Lease Proposal (RFLP) on June 5, with offers due by June 29. Officials described this as a 'public-private partnership' aimed at leveraging military real estate for technological advancement."
+— Alaska's News Source (KTUU), 2026-06-09
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Layer count
+5 layers
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Layers
+1. White House Executive Order Authority (EOs 14179, 14156, 14154) — Office of the President / SAF/IE
+2. SAF/IE Program Approval — Robert Moriarty, Deputy ASAF for Installations
+3. AFCEC/CI Enhanced Use Lease Solicitation Gate — Air Force Civil Engineer Center (10 USC 2667)
+4. Utility Interconnect and Gas Supply Commitment — Chugach Electric Association (JBER) / GVEA (Eielson/Clear)
+5. Private Developer Proposal and Capital Commitment — TBD RFLP respondent (due June 29)
+
+## Chokepoint
+**Layer:** AFCEC/CI Enhanced Use Lease Solicitation Gate
+**Actor:** Air Force Civil Engineer Center (AFCEC/CI), Installations Directorate
+**Binary decision:** Accept or reject RFLP responses by June 29, 2026. Acceptance triggers the EUL award and utility/developer execution chain. Rejection terminates the program at this cycle with no federal appeal path for developers.
 
 ## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+The EUL mechanism is Alaska's only active federal pathway to place private AI compute capital on publicly controlled land before end of 2026. Its structure is more durable than an appropriation: no DoD money moves, no construction risk accrues to the Air Force, and a CR cannot kill it mid-cycle. But the utility layer immediately downstream is the mechanism's structural vulnerability: Chugach Electric's Hilcorp gas contract expires in 2028, meaning any JBER developer faces a 24-month window to build before the power supply becomes uncertain. That constraint makes the EUL a forcing function for LNG import investment and Cook Inlet gas decisions that ripple far beyond any single data center.
 
 ## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+Developers and AI infrastructure investors evaluating an EUL bid must, before June 29, secure a written indication of interest from Chugach Electric or GVEA on load-service feasibility — including post-2028 gas supply assumptions. A proposal without a credible power path will fail at AFCEC or stall at the utility layer after award. June 29 deadline is the first gate; the 2028 gas cliff is the variable that separates fundable proposals from paper ones.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Category (for kicker line)
+FACILITIES

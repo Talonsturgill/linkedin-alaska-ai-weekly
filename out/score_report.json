@@ -1,32 +1,82 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "run_date": "2026-06-10",
+  "rubric_file": "config/stack_rubric.yaml",
   "ship_threshold": 8.0,
+  "hard_fails": [],
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.10,
+      "weighted": 0.90,
+      "notes": "First two lines name the mechanism (Enhanced Use Lease solicitation), the news trigger (June 5 posting, June 29 deadline), and the stake (4,700 acres, three Alaska bases). 'For the first time, commercial AI compute could occupy federal military land in Alaska' signals the structural tension without snark. Minor dock: 'could occupy' softens the correction signal slightly."
+    },
+    {
+      "name": "Mechanism load-bearing + AK consequence",
+      "score": 10,
+      "weight": 0.18,
+      "weighted": 1.80,
+      "notes": "10 USC 2667 EUL is Alaska's only active federal pathway for private AI compute on publicly controlled land in 2026. Consequence names sector (AI/defense-tech infrastructure), decision risk (2028 gas cliff, 24-month build window), named actors (Chugach Electric, GVEA, AFCEC, ANC firms), and hard timeframe (June 29 deadline, Q3 2026 award). All four elements present and specific."
+    },
+    {
+      "name": "Layer fidelity",
+      "score": 10,
+      "weight": 0.14,
+      "weighted": 1.40,
+      "notes": "All five dossier layers are present in the bullet block. Controlling actors match exactly: Office of the President/SAF/IE, Robert Moriarty by name, AFCEC/CI Installations Directorate, Chugach Electric Association (JBER)/GVEA (Eielson/Clear SFS), RFLP respondent. No invented layers or actors. Chain is complete and readable."
+    },
+    {
+      "name": "Chokepoint clarity",
+      "score": 10,
+      "weight": 0.13,
+      "weighted": 1.30,
+      "notes": "One layer (AFCEC/CI Solicitation Gate), one actor (AFCEC/CI), one binary (accept or reject proposals by June 29). 'No federal appeal path for developers if AFCEC issues a no-award determination' names the asymmetry precisely. Matches dossier chokepoint on all three dimensions."
+    },
+    {
+      "name": "Structural read",
+      "score": 9,
+      "weight": 0.12,
+      "weighted": 1.08,
+      "notes": "'The utility layer, not the military layer, is the real constraint' is a specific, debatable position. The EUL-durability-vs-appropriations argument adds a second structural claim. Minor dock: thesis is distributed across two paragraphs rather than a single sharp sentence."
+    },
+    {
+      "name": "Forward implication",
+      "score": 10,
+      "weight": 0.08,
+      "weighted": 0.80,
+      "notes": "Names the concrete action (written utility indication-of-interest before June 29), who needs to act (developers evaluating EUL bids), what failure looks like (proposal fails at utility layer even after AFCEC award), the binary outcome by Q3 2026, and the 2028 gas cliff as the separating variable."
+    },
+    {
+      "name": "Primary-source quality",
+      "score": 9,
+      "weight": 0.10,
+      "weighted": 0.90,
+      "notes": "Dossier confirms all five layers carry verified primary sources: House.gov for 10 USC 2667 (statute), Air and Space Forces Magazine for SAF/IE layer, ADN for utility constraints (primary reporting), KTUU for news trigger. Minor dock: EO layer's primary source routes through globalsecurity.org rather than federalregister.gov directly."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.08,
+      "weighted": 0.72,
+      "notes": "Analytical, structural, position-taking throughout. Statutory citation (10 USC 2667), named actors, specific dates, and the square-bracket layer device are all on-brand. No banned phrases, no LinkedIn-influencer drift, no explainer-bot hedging. Minor dock: 'forcing function' is mildly tech-jargon but analytically precise."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 9,
+      "weight": 0.04,
+      "weighted": 0.36,
+      "notes": "Word count approximately 448, within the 350-475 window. Total character count 2,989, under 3000. Paragraphs are 1-3 sentences. Bullet block has 5 items (upper bound of 3-5). Minor dock: utility layer bullet runs multi-clause at 37 words."
+    },
+    {
+      "name": "Engagement question",
+      "score": 10,
+      "weight": 0.03,
+      "weighted": 0.30,
+      "notes": "'Should AFCEC treat a utility indication-of-interest as a mandatory proposal element, or does requiring it risk excluding developers best positioned to solve the power problem independently?' Real, debatable, tied directly to the chokepoint and the structural tension. No CTA, no follow prompt."
+    }
+  ],
+  "weighted_total": 9.56,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "Replace 'could occupy' in the third hook sentence with a declarative statement — e.g., 'For the first time, private AI compute would sit on federal military land in Alaska' — to sharpen the correction signal without hedging."
 }
