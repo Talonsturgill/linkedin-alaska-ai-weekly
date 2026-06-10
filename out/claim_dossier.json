@@ -1,0 +1,91 @@
+{
+  "issue_label": "NO. 12",
+  "date": "2026-06-09",
+  "no_target_this_cycle": false,
+  "_validation_note": "",
+  "selected_claim": {
+    "claim_verbatim": "We just need an anchor tenant or so, and that's it",
+    "claim_paraphrase_fair": "One or a few large AI data centers would supply enough domestic gas demand to make the ~$44B Alaska LNG pipeline economically viable and financeable.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://alaskapublic.org/2024/10/21/data-centers-face-growing-opposition-outside-gov-mike-dunleavy-wants-them-in-alaska/",
+        "outlet": "Alaska Public Media",
+        "pub_date": "2024-10-21",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.adn.com/business-economy/2024/10/19/data-centers-face-growing-opposition-outside-gov-mike-dunleavy-wants-them-in-alaska/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2024-10-19",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Dan Sullivan",
+        "title_or_org": "U.S. Senator, Alaska",
+        "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-touts-alaska-comeback-historic-opportunities-in-annual-address-to-legislature",
+        "outlet": "Sullivan Senate Press Release",
+        "pub_date": "2026-01-01",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "steelman": "A single large AI data center consuming 1-2 GW of power would represent a meaningful, stable baseload gas demand anchor — the kind of offtake commitment that Phase 1 in-state Alaska LNG distribution has always lacked. Unlike export LNG, a domestic anchor tenant would generate in-state revenue, provide a fixed long-term contract, and reduce the financing risk premium on a project whose core problem has always been the absence of committed demand. The governor and the congressional delegation are not wrong that demand certainty is the missing ingredient.",
+    "more_accurate_frame": "The anchor-tenant thesis assumes gas supply and affordable delivered cost exist to serve large data centers — but Alaska's own utilities are already on record that in-state Cook Inlet gas is unavailable for new large loads, and the only alternative (North Slope pipeline gas) would cost $10–$13.70/MMBtu under Phase 1 estimates, significantly more than current Cook Inlet prices of ~$8.69/MMBtu, making the data center a potential customer for gas Alaska doesn't have at a price that doesn't work.",
+    "why_smart_people_believe_it": "The pipeline's chronic problem has always been the chicken-and-egg of no committed domestic demand; a hyperscale data center is the first credible large in-state consumer to appear in a generation, and the logic that demand unlocks supply is sound in most energy markets.",
+    "counter_evidence": [
+      {
+        "fact": "Julie Hasquet, Chugach Electric spokesperson, stated on the record: 'We currently do not have gas to serve a large data center, but we do have generation capacity.' Golden Valley Electric confirmed Cook Inlet gas it relied on dropped from ~30% of its fuel supply to less than 1% last year.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "Wood Mackenzie, retained as consultant by AGDC, estimated Phase 1 in-state North Slope pipeline gas would cost $10–$13.70/MMBtu, compared to a current Cook Inlet price of approximately $8.69/MMBtu — meaning pipeline gas would be materially more expensive than the gas it would replace, not cheaper.",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News (Stan Jones op-ed citing Wood Mackenzie/AGDC consultant report)",
+        "pub_date": "2026-04-12",
+        "is_primary": false,
+        "reverified": true
+      }
+    ],
+    "ak_consequence": "Energy sector and capital markets: the anchor-tenant thesis is the load-bearing demand assumption in AGDC's pitch to private investors and the congressional delegation's advocacy for the ~$44B Alaska LNG pipeline; if the assumption fails (no available gas, higher delivered cost than existing supply), the rationale for data-center-linked pipeline financing collapses, directly affecting whether AGDC can attract private capital in 2026–2028 financing windows and whether HB 259 tax incentives are premised on a viable energy supply chain.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "We're spilling gigawatt-hours of excess hydropower. This data center can put the excess to use.",
+      "reason": "Gate 3 and Gate 5 weak: 170 kW pilot scale with no confirmed replication pipeline; primary counter-evidence URL cited by scouts (nlr.gov) is garbled and unverifiable; rebuttal data comes from the same single CleanTechnica source as the claim. Load-bearing consequence too speculative at current pilot scale."
+    },
+    {
+      "claim_verbatim": "They are highly capital intensive and employ many in the construction phase, but few for operation.",
+      "reason": "Gate 4 fails (true_as_stated): the steelmanned claim is directionally correct; Stak Energy figures (1,500 construction / ~60 permanent) confirm rather than rebut. Brookings counter argues incompleteness, not error. Homer News piece lacked an equivalent verbatim span, weakening circulation. No strong corrective frame survives."
+    },
+    {
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world.",
+      "reason": "Gate 6 fails (recent_repeat): energy-abundance framing substantively identical to the angle corrected in 06-03 (LNG price) and 06-04 (cooling cost/PUE)."
+    },
+    {
+      "claim_verbatim": "Generative AI is transforming how organizations work but without visibility and control, it introduces real security and data risks.",
+      "reason": "Gate 3 fails (not_load_bearing): vendor PR assertion from a governance software company's BusinessWire release; does not materially drive a specific Alaska AI capital, procurement, or policy decision. Gate 2 also weak."
+    },
+    {
+      "claim_verbatim": "Port MacKenzie is one of the few places on Earth where a 10–20 gigawatt AI cluster is physically plausible.",
+      "reason": "Gate 2 fails (single_non_primary): single-source op-ed superlative. Gate 5 fails: non-checkable physical-plausibility assertion without a falsifiable primary datum. The Kellerman career-opinion superlative independently fails Gate 5."
+    }
+  ]
+}
