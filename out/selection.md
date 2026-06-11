@@ -1,27 +1,27 @@
-# Anchorage Desk Selection — 20 May 2026
+# VOL. 05 Selection — Alaska.Ai LinkedIn — 2026-06-10
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Mode
+**Deep Dive.** One in-window event carries a real structural tension. On June 7 Alaska's Department of Health advanced 403 of roughly 1,800 proposals toward the state's $272M first-year Rural Health Transformation Program allocation, with a June 22 final-application deadline and mid-July awards. A state legislator on the record says the federal design "is almost directing us to AI." The position the desk takes: the money is real and the AI/telehealth deployments are real, but the program gates the funding on a five-year rural workforce and sustainability commitment, which is the one input roadless Alaska clinics can least guarantee. That is a genuine structural tension worth a position, so Deep Dive over Weekly Brief.
 
-## Role
-FOUNDER (kicker middle slot)
+## Why this is a NEW lead frame
+Does not re-lead the last four LinkedIn leads: Koniag $18M DOE 8(a) value-capture (06-07), GCI Aleutian fiber/connectivity substrate (06-06), Mastadon/XPRIZE proving-ground (06-05), DOE $89M coal/wrong-energy-layer (06-04); and earlier governance-vacuum (06-03), grid power-math (06-02). This is a rural-health AI deployment + absorption-capacity frame anchored on a hard in-window procurement event. It extends the desk's "substrate / can the rail receive it" thread with a genuinely new layer (institutional and workforce absorption capacity in rural health, not physical connectivity or power), and a fresh lead entity (RHTP rural health, never used as a lead). RHTP appeared only as a one-line texture item in 06-04 and 06-03, never as the lead.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Package angle
+Three separate federal AI pushes landed on rural Alaska inside the same three weeks, and they arrive on three different clocks. RHTP advanced 403 projects toward $272M with a June 22 final-application deadline (Alaska DOH; ADN June 7; GovTech June 9). A June 5 executive order ("Promoting Advanced Artificial Intelligence Innovation and Security," Federal Register June 5) puts CISA AI cyber tools into named classes that include rural hospitals and local utilities on a 30-day clock, about July 2 (White House primary text). And the Air Force RFLP for AI data centers at JBER, Eielson, and Clear (AFCEC-26-R-0006, updated June 5) has proposals due June 29, already drawing community pushback near Eielson over grid load and permafrost (Alaska's News Source June 9). The frame for the LinkedIn audience: federal AI is arriving in rural Alaska faster than the state's delivery layer can absorb it. The binding constraint isn't capital or technology, it's institutional capacity, and RHTP makes that concrete by gating $272M on a five-year staffing and sustainability commitment that roadless clinics are least able to guarantee. Take the position: the win this month is real, and the risk is that Alaska books AI deployments it can't sustain past the grant cycle while Lower-48 vendors capture the technology awards.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Lineup
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+### LEAD — RHTP_SHORTLIST (in-window, verified high, primary)
+- Alaska DOH advanced 403 of ~1,800 proposals; $272M first-year (exact $272,174,855.72); June 22 final-application deadline; mid-July awards. Rep. Genevieve Mina, verbatim: "the way that the feds designed it is almost directing us to AI." Providence Health 8 advanced proposals. TCC drone-delivery proposal advanced (NO village count, strip "27 villages"). Workforce + Technology/AI are coupled tracks; five-year commitments. Take the position: the gate is sustained rural staffing, not the tech.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+### SUPPORT 1 — TRUMP_AI_EO (in-window, verified high, primary White House)
+- EO June 2 / Federal Register June 5. 30-day CISA deadline (~July 2) to push AI cyber tools to named classes "rural hospitals, community banks, and local utilities," plus a Treasury AI cyber clearinghouse. The second federal AI clock on the same rural delivery layer. Use the named-classes quote.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+### SUPPORT 2 / CONTRAST — DAF_RFLP_DATACENTER (in-window, verified high, primary HigherGov)
+- RFLP AFCEC-26-R-0006, AI data centers at JBER/Eielson/Clear, updated June 5, proposals due June 29, developers self-finance. June 8-9 community pushback near Eielson; Air Force declined written questions. The third federal AI clock, and the contrast case (privately financed, impacts land locally). Hedge acreage figures; no "May 8" date.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Held / cut
+- HB 239 (AI-CSAM): CUT. Out-of-window passage (May 20), no in-window development, and the specific legal/numeric claims (felony classes, $1M penalty, June 18 deadline) could not be verified on a fetched page.
+- AF $4B base-operations IDIQ (four ANC firms, June 8): CUT for the post. Verified facts, but the contract carries NO AI mandate; using it would overclaim AI on an AI-focused page.
+- SB 2 (AI governance): DROPPED by validator (misstated facts, no corroborating in-window primary source).
+- Glenfarne LNG / GVEA rate hike / SASC NDAA: texture only, energy frame recently led and/or thin direct AK business consequence; not developed.

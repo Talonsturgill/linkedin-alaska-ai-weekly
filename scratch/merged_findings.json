@@ -1,0 +1,111 @@
+{
+  "window": "2026-06-03 to 2026-06-10",
+  "candidates": [
+    {
+      "id": "RHTP_SHORTLIST",
+      "beats": ["A_workforce", "C_deployment"],
+      "story_title": "Alaska's $272M Rural Health Transformation Program advances 400-plus projects, many AI-directed; June 22 final-application deadline",
+      "summary": "Alaska's Department of Health narrowed roughly 1,800 RHTP proposals to a shortlist of 400-plus projects eligible for a share of the state's $272M first-year allocation. Applicants have until June 22 to submit full implementation plans, with awards in mid-July. Advanced proposals include Tanana Chiefs Conference drone delivery of medications/vaccines to 27 Interior villages, wearable biometric monitoring, virtual specialty care (Foundation Health Partners/ECare USA), and a statewide telehealth-plus-AI initiative. Rep. Genevieve Mina said the federal program design 'is almost directing us to AI.' Providence Health had 8 advanced proposals. RHTP names Workforce and Technology/AI as core initiative tracks; workforce commitments run a minimum of five years.",
+      "industry_consequence": "Rural/tribal healthcare. Alaska DOH and 400+ named applicants face a June 22, 2026 final-application deadline and mid-July awards that lock in AI/technology vendor selection AND five-year rural workforce commitments. Concern already voiced that Lower-48 firms dominate technology awards.",
+      "sources": [
+        {"url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-07", "author": "Iris Samuels"},
+        {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "Government Technology", "pub_date": "2026-06-09", "author": "Iris Samuels"},
+        {"url": "https://www.newsminer.com/news/local_news/advanced-proposals-for-rural-health-fund-includes-several-fairbanks-area-projects/article_2b1ce317-f712-4fc6-b9e4-4ac3438d4e82.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-09", "author": "Jack Barnwell"},
+        {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health (primary)", "pub_date": "2026-06-01", "author": "Alaska DOH"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false
+    },
+    {
+      "id": "TRUMP_AI_EO",
+      "beats": ["D_policy"],
+      "story_title": "Trump AI executive order published in Federal Register June 5; 30-day CISA deadline names rural hospitals and utilities",
+      "summary": "The White House executive order 'Promoting Advanced Artificial Intelligence Innovation and Security,' signed June 2 and published in the Federal Register June 5, 2026, sets a 30-day deadline for CISA to issue binding directives and expand AI-enabled cybersecurity tools to state and local governments and named critical-infrastructure classes including rural hospitals, community banks, and local utilities. A parallel 30-day deadline tasks Treasury with an AI cybersecurity clearinghouse.",
+      "industry_consequence": "Rural healthcare/utilities. Alaska rural hospitals (incl. tribal) and electric cooperatives are named beneficiary classes; the ~July 2 CISA deadline opens a Q3 2026 procurement/services signal for Alaska IT and managed-security contractors.",
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/", "outlet": "White House (primary)", "pub_date": "2026-06-02", "author": "Office of the President"},
+        {"url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security", "outlet": "Federal Register (primary)", "pub_date": "2026-06-05", "author": "Federal Register"},
+        {"url": "https://www.gtlaw.com/en/insights/2026/6/white-house-issues-executive-order-targeting-ai-enabled-cybersecurity", "outlet": "Greenberg Traurig LLP", "pub_date": "2026-06-03", "author": "Greenberg Traurig"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false
+    },
+    {
+      "id": "HB239_AI_CSAM",
+      "beats": ["D_policy"],
+      "story_title": "Alaska HB 239 (first AI-specific felony provision, AI-generated CSAM) on Gov. Dunleavy's desk; June 18 deadline",
+      "summary": "HB 239, an omnibus crime bill including Alaska's first statutory prohibition on AI-generated child sexual abuse material, was enrolled June 1, 2026 and must be acted on by June 18. Reported provisions include a Class B felony for distribution, Class C for possession, and a civil penalty on AI platforms reported at $1 million per incident. The governor's office said the package needs Department of Law analysis.",
+      "industry_consequence": "Technology/legal. AI platform and content-distribution companies with Alaska users learn by June 18, 2026 whether HB 239 becomes law, creating statutory criminal liability and a reported $1M-per-incident civil exposure for AI-generated CSAM.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-20", "author": "ADN staff"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20", "author": "APM staff"},
+        {"url": "https://legiscan.com/AK/bill/HB239/2025?guid=7cHz5G8aKMtrAwZJFZakRO", "outlet": "LegiScan", "pub_date": "2026-06-01", "author": "LegiScan"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false
+    },
+    {
+      "id": "SB2_DEAD",
+      "beats": ["D_policy"],
+      "story_title": "Alaska SB 2 (state AI governance: deepfakes, agency AI inventories, data sovereignty) died May 20; special session scoped only to LNG",
+      "summary": "SB 2, the 34th Legislature's comprehensive AI governance bill (election-deepfake disclosure, biennial state-agency AI inventories/impact assessments, citizen consent, bans on agency biometric ID and social scoring), died in Senate State Affairs on May 20, 2026. The May 21 special session is scoped to LNG pipeline taxation only, leaving Alaska with no state AI governance framework. An ADN letter June 3 (Roger Kaye) called it legislative inaction.",
+      "industry_consequence": "Government/technology. Alaska enters at least the January 2027 session with no state AI inventory requirement, no citizen appeal right, no deepfake-disclosure rule, even as federal AI tools flow to state agencies.",
+      "sources": [
+        {"url": "https://www.billtrack50.com/billdetail/1775660", "outlet": "BillTrack50", "pub_date": "2026-05-20", "author": "BillTrack50"},
+        {"url": "https://www.adn.com/opinions/letters/2026/06/03/letter-ai-technology-isnt-waiting-and-neither-should-the-alaska-legislature/", "outlet": "ADN Letters", "pub_date": "2026-06-03", "author": "Roger Kaye"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": true
+    },
+    {
+      "id": "DAF_RFLP_DATACENTER",
+      "beats": ["C_deployment", "D_policy", "E_infrastructure"],
+      "story_title": "DAF AI data-center RFLP (AFCEC-26-R-0006) live for ~4,700 acres at JBER/Eielson/Clear; proposals due June 29; June 9 community pushback",
+      "summary": "The Department of the Air Force RFLP for commercial AI data centers across ~4,700 acres / up to 12 parcels at JBER, Eielson AFB, and Clear SFS under Enhanced Use Leases up to 50 years has proposals due June 29. Developers self-finance, permit, build, operate. A June 9 Alaska's News Source story documented Eielson-area resident concerns (GVEA grid load, water, noise, permafrost) and the Air Force declining to answer written questions.",
+      "industry_consequence": "Defense/real estate/infrastructure. Private AI data-center developers face a June 29 bid deadline; GVEA grid capacity and NEPA permitting are the near-term gatekeepers.",
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-08", "author": "Alex Bengel"},
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov (primary opportunity record)", "pub_date": "2026-05-08", "author": "AFICA"},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": "Matthew Cox"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false,
+      "note": "Heavily covered in prior weeks (06-06, 06-04, 06-02). Use only as one-line contrast, NOT lead. Date discrepancy: opportunity posted May 8 with amendments; community-response and active RFLP in window."
+    },
+    {
+      "id": "AF_4B_IDIQ",
+      "beats": ["B_capital"],
+      "story_title": "$4B Air Force base-operations IDIQ (June 8): four Alaska ANC subsidiaries among 19 awardees",
+      "summary": "The Air Force awarded a $4B, 10-year base-operations support IDIQ on June 8, 2026 to 19 companies across AETC installations, including four Alaska ANC subsidiaries: Chugach Intelligence Solutions, Alutiiq Operations Services, Alcyon Inc., and Bering Straits Management Services. Scope includes communications and IT services. Performance through June 30, 2036.",
+      "industry_consequence": "Defense contracting. Four AK ANC firms gain a decade-long task-order on-ramp. AI nexus is STRUCTURAL/WEAK: contract is base-ops + IT/comms, no explicit AI requirement; Chugach Intelligence Solutions markets AI/ML.",
+      "sources": [
+        {"url": "https://news.clearancejobs.com/2026/06/08/19-companies-win-a-4-billion-air-force-base-support-idiq/", "outlet": "ClearanceJobs", "pub_date": "2026-06-08", "author": "ClearanceJobs Staff"},
+        {"url": "https://www.govconwire.com/articles/air-force-4b-base-operations-idiq-contract-award", "outlet": "GovCon Wire", "pub_date": "2026-06-09", "author": "GovCon Wire Staff"},
+        {"url": "https://www.globalsecurity.org/military/library/news/2026/06/dod-contracts_4511381.htm", "outlet": "GlobalSecurity (DOD release mirror)", "pub_date": "2026-06-08", "author": "DoD"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "note": "WEAK AI nexus. Do not overclaim AI. Optional supporting/texture only with honest framing."
+    },
+    {
+      "id": "SASC_NDAA",
+      "beats": ["D_policy"],
+      "story_title": "SASC FY2027 NDAA markup (June 9-10); Sullivan on committee; military-AI guardrail amendments (Gillibrand, Slotkin) in play",
+      "summary": "SASC began closed markup of the FY2027 NDAA June 9-10, 2026. Sen. Dan Sullivan (R-AK) is a committee member. Gillibrand's 'Secure and Accountable Military AI Act' (introduced June 2) and Slotkin's 'AI Guardrails Act' were in play as amendments.",
+      "industry_consequence": "Defense/federal contracting. If guardrail provisions survive conference, DoD AI deployments at JBER/Eielson/Fort Wainwright/Clear could require new human-oversight documentation, affecting AK-based defense AI vendors.",
+      "sources": [
+        {"url": "https://www.gillibrand.senate.gov/news/press/release/gillibrand-introduces-groundbreaking-new-bill-to-regulate-the-pentagons-use-of-artificial-intelligence/", "outlet": "Sen. Gillibrand (primary)", "pub_date": "2026-06-02", "author": "Office of Sen. Gillibrand"},
+        {"url": "https://www.defenseone.com/policy/2026/06/bill-regulate-military-ai/413917/", "outlet": "Defense One", "pub_date": "2026-06-02", "author": "Defense One"},
+        {"url": "https://spacepolicyonline.com/events/sasc-markup-of-fy2027-ndaa-june-8-10-2026-dc/", "outlet": "SpacePolicyOnline", "pub_date": "2026-06-08", "author": "SpacePolicyOnline"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false,
+      "note": "Thin direct AK business consequence; texture only."
+    },
+    {
+      "id": "GLENFARNE_LNG",
+      "beats": ["E_infrastructure"],
+      "story_title": "Glenfarne Alaska LNG cost release June 3 ($44.5B-$54.5B); House Finance advances property-tax-exemption bill June 10",
+      "summary": "Glenfarne released updated Alaska LNG cost estimates June 3 ($44.5B-$54.5B for the 807-mile line). House Finance unanimously advanced a property-tax exemption bill June 10 that Glenfarne's president called essential; a House floor vote was expected the week of June 13. The gas premise underlies most Alaska AI data-center pitches.",
+      "industry_consequence": "Energy/AI infrastructure. Binary legislative outcome week of June 13 affects the gas-fired power thesis underpinning $500M+ AK data-center proposals.",
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/11/lng-special-session-developer-says-bill-can-create-gas-line-if-legislature-passes-it-without-changes/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-10", "author": "Wil Courtney"}
+      ],
+      "confidence": "low", "is_in_window": true, "primary_source": false, "background_context": true,
+      "note": "Energy frame recently led (06-04, 06-02). Single source. Texture only."
+    }
+  ]
+}
