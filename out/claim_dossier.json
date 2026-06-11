@@ -1,0 +1,95 @@
+{
+  "run_date": "2026-06-10",
+  "issue_label": "NO. 13",
+  "selected_claim": {
+    "claim_verbatim": "This could be the beginning. The moment that not only Alaska helped transform the United States, but we helped transform the world when it comes to rural health, and the advancement in AI and data is going to be phenomenal.",
+    "claim_paraphrase_fair": "Governor Dunleavy asserts that Alaska's $272M Rural Health Transformation Program, powered by AI and data advances, will catalyze a global transformation of rural healthcare.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.adn.com/alaska-news/2026/01/15/at-rural-health-convention-outside-companies-rush-to-claim-a-share-of-alaskas-funding/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-01-15",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Genevieve Mina",
+        "title_or_org": "Alaska State Representative (D-Anchorage), RHTP Advisory Council Member",
+        "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+        "outlet": "Government Technology",
+        "pub_date": "2026-06-09",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Gretchen Fauske",
+        "title_or_org": "Director of Strategy and Special Programs, Alaska SBDC (UAA)",
+        "url": "https://www.akbizmag.com/industry/small-business/arcnito-wins-alaskas-first-ai-pitch-contest/",
+        "outlet": "Alaska Business Magazine",
+        "pub_date": "2025-10-22",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 3,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "RHTP is the largest rural-health innovation fund Alaska has ever received, and AI-enabled telehealth genuinely has transformative potential for geographically isolated communities; program design explicitly favors technology solutions over brick-and-mortar spending, making AI seem like the natural fit.",
+    "steelman": "RHTP's structure deliberately excludes new facilities and Medicaid service replacement, channeling $272M toward technology-enabled innovation; remote patient monitoring, drone delivery, and telehealth platforms are mature enough to meaningfully reduce health disparities in Alaska's 165+ villages; and AI-assisted diagnostics could stretch the reach of the state's thin specialist workforce. If even a fraction of the 403 advanced projects deploy effectively, the impact on rural Alaskans could be substantial and exportable as a national model.",
+    "where_it_breaks": "RHTP explicitly prohibits spending on broadband infrastructure, yet the Telehealth Broadband Project (HRSA-funded) found that only 6.6% of the 42 Alaska healthcare locations it evaluated meet the 100/20 Mbps threshold that AI-enabled telehealth requires, with an average median download speed of 27.1 Mbps; the program funds the applications but cannot fund the pipe those applications depend on. The state's own Associate Director for Health (Betsy Wood) acknowledged on the record that RHTP cannot address 'hard infrastructure pieces that we do sorely need across the state.'",
+    "counter_evidence": [
+      {
+        "fact": "Alaska Department of Health RHTP rules explicitly state that RHTP funds cannot be used for broadband infrastructure or major installation projects that require construction activities, nor for household or individual internet installation or monthly service costs. The prohibition is categorical, not incidental.",
+        "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "outlet": "Alaska Department of Health (official program page)",
+        "pub_date": "2026-01-01",
+        "is_primary": true
+      },
+      {
+        "fact": "Of 42 Alaska healthcare locations evaluated, only 6.6% of speed tests met the 100/20 Mbps benchmark that telehealth services require; average median download speed at healthcare locations was 27.1 Mbps, less than a third of the 100 Mbps standard.",
+        "url": "https://telehealthbroadbandproject.com/findings/alaska/",
+        "outlet": "Telehealth Broadband Project / HRSA",
+        "pub_date": "2025-01-17",
+        "is_primary": true
+      },
+      {
+        "fact": "Alaska DOH Associate Director Betsy Wood stated: 'I think we're all a little disappointed to see that we can't use this funding to build some of those hard infrastructure pieces that we do sorely need across the state.'",
+        "url": "https://www.adn.com/alaska-news/2026/01/15/at-rural-health-convention-outside-companies-rush-to-claim-a-share-of-alaskas-funding/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-01-15",
+        "is_primary": true
+      },
+      {
+        "fact": "RHTP advanced 403 projects to full application in June 2026; the application window closes in late June 2026, making the connectivity precondition decision-relevant now.",
+        "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+        "outlet": "Government Technology",
+        "pub_date": "2026-06-09",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "RHTP directs $272M toward technology innovation, and AI-assisted telehealth is a genuine beneficiary of that design, but the program structurally cannot fund the broadband connectivity that makes AI-enabled telehealth functional. With 93.4% of evaluated Alaska healthcare locations failing the 100/20 Mbps standard and no RHTP pathway to fix that, applicants and policymakers should treat connectivity as a precondition that must be solved in parallel through BEAD, ReConnect, or other programs, or risk funding AI tools that cannot reliably run in the villages they are meant to serve.",
+    "ak_stakes": "Rural health technology sector. RHTP applicants and Alaska DOH must decide before the late-June 2026 application deadline whether to pursue AI-enabled telehealth deployments that may be undeliverable in connectivity-deficient locations, risking $272M in implementation failure or stranded-asset outcomes.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {"claim_verbatim": "You name a program 'transformation,' but the way that the feds designed it is almost directing us to AI.", "drop_reason": "not_load_bearing — Mina's claim that RHTP structure pushes toward AI is substantially accurate (program excludes facilities and Medicaid replacement, leaving technology as residual), so it yields no corrective. Retained as supporting circulation evidence for the Dunleavy claim."},
+    {"claim_verbatim": "The solutions entrepreneurs develop for Alaska's rural and remote communities could transform healthcare delivery not just in Alaska but across the nation.", "drop_reason": "not_load_bearing — Fauske's aspirational SBDC pitch-competition framing names no specific decision, threshold, or risk actor; both counter-evidence items are secondary. Fails gates 3 and 5. Retained as supporting circulation."},
+    {"claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "drop_reason": "steelman does not survive cleanly and circulation is single-outlet — primary sources confirm Alaska deployed ISP-172, issued a NIST-aligned agentic AI RFI, and passed HB 47; a valid but weaker, less consequential correction than the RHTP connectivity gap."},
+    {"claim_verbatim": "AI is moving forward at lightning speed. Alaska is behind the curveball", "drop_reason": "not_load_bearing — generic legislative floor statement advocating child-safety guardrails; names no sector, investment decision, or organizational actor. Fails gate 3."},
+    {"claim_verbatim": "the practical implementation of AI/ML in AI/AN healthcare systems is almost entirely missing from the literature", "drop_reason": "no_primary_counter — proposed NIH Bridge2AI counter ($130M, AI/AN diabetes dataset) could not be verified on the fetched NIH Common Fund page; ANTHC AFHCAN page returned empty and is telehealth not AI/ML. Gate 5 fails."},
+    {"claim_verbatim": "The upgrades could position myAlaska as one of the most advanced state-run digital service platforms in the country, capable not only of housing government functions but autonomously carrying them out.", "drop_reason": "single_non_primary — Kimery is a trade commentator, not a primary institutional source; his characterization is forward-looking and the Bill Smith counter does not rebut potential. Fails gate 2."},
+    {"claim_verbatim": "GenAI has become essential for organizations because of its ability to accelerate problem-solving, increase productivity and aid decision-making while reducing the time employees spend on repetitive tasks which frees them up to focus on more strategic work.", "drop_reason": "true_as_stated — steelmanned form is broadly accurate vendor positioning; no corrective in correcting a correct claim. Fails gate 4."},
+    {"claim_verbatim": "Alaska court AVA chatbot accuracy / inaccuracies and incompleteness", "drop_reason": "recent_repeat — excluded by orchestrator before validation; access-to-justice chatbot was corrected in issue 06-02."}
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Counter-evidence for the selected claim required correction during validation: the scout's submission that '63% of AK healthcare location speed tests fall below 25/3 Mbps' is factually wrong. The Telehealth Broadband Project page confirms the 63% figure is consumer/household data, not healthcare-location data. The verified healthcare-location statistic is 6.6% of 42 evaluated sites meeting 100/20 Mbps, with an average median download speed of 27.1 Mbps. The dossier uses only these verified figures plus the verbatim-confirmed RHTP broadband prohibition from the primary Alaska DOH program page. Betsy Wood's quote was confirmed on the ADN page (the confirmed phrasing is used)."
+}
