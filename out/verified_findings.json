@@ -1,0 +1,130 @@
+{
+  "window": "2026-06-03 to 2026-06-10",
+  "verified": [
+    {
+      "id": "RHTP_SHORTLIST",
+      "story_title": "Alaska Advances 403 Rural Health Proposals Toward $272M in Federal Transformation Funding",
+      "verified_status": "verified",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": true,
+      "claims_to_strip": [
+        "TCC drone delivery specifically to '27 villages' — the 27-villages figure belongs to a separate TCC prevention program, not the drone-delivery proposal. Do not attach a village count to drone delivery."
+      ],
+      "confirmed_facts": [
+        "Alaska advanced 403 of ~1,800 letters of interest",
+        "$272 million first-year allocation (exact $272,174,855.72 per Alaska DOH)",
+        "Final-application deadline June 22, 2026; awards mid-July",
+        "Rep. Genevieve Mina quote verbatim: 'You name a program transformation, but the way that the feds designed it is almost directing us to AI'",
+        "Providence Health had 8 advanced proposals",
+        "TCC drone-delivery proposal advanced (no specific village count)",
+        "Workforce and Technology/AI are core RHTP initiative tracks; workforce commitments run five years"
+      ],
+      "sources": [
+        {"url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-07", "author": "Iris Samuels", "resolves": true, "primary": false},
+        {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "Government Technology", "pub_date": "2026-06-09", "author": "Iris Samuels", "resolves": true, "primary": false},
+        {"url": "https://www.newsminer.com/news/local_news/advanced-proposals-for-rural-health-fund-includes-several-fairbanks-area-projects/article_2b1ce317-f712-4fc6-b9e4-4ac3438d4e82.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-09", "author": "Jack Barnwell", "resolves": true, "primary": false},
+        {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health (primary)", "pub_date": "2026-06-01", "author": "Alaska DOH", "resolves": true, "primary": true, "background_context": true}
+      ],
+      "industry_consequence": "Alaska's largest-ever federal health influx structurally favors AI-enabled telehealth, remote monitoring, and digital tools over facility construction. It creates immediate procurement opportunity for health-tech and AI vendors and sets a five-year workforce/technology track that gates the money on sustained rural staffing.",
+      "validator_note": "Three independent in-window news sources plus one primary agency page (background). All headline facts confirmed. Strip the '27 villages' drone attribution."
+    },
+    {
+      "id": "TRUMP_AI_EO",
+      "story_title": "Trump Signs AI Innovation and Security EO; CISA and Treasury Face 30-Day Deadlines",
+      "verified_status": "verified",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": false,
+      "claims_to_strip": [],
+      "confirmed_facts": [
+        "EO 'Promoting Advanced Artificial Intelligence Innovation and Security' signed June 2, published Federal Register June 5, 2026",
+        "30-day deadline on CISA to issue binding directives and expand AI-enabled cyber tools",
+        "30-day deadline on Treasury (with NSA, CISA) to establish an AI cybersecurity clearinghouse",
+        "Named beneficiary classes verbatim: 'rural hospitals, community banks, and local utilities'"
+      ],
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/promoting-advanced-artificial-intelligence-innovation-and-security/", "outlet": "White House (primary)", "pub_date": "2026-06-02", "author": "Office of the President", "resolves": true, "primary": true},
+        {"url": "https://www.federalregister.gov/documents/2026/06/05/2026-11415/promoting-advanced-artificial-intelligence-innovation-and-security", "outlet": "Federal Register (primary)", "pub_date": "2026-06-05", "author": "Federal Register", "resolves": false, "unreachable": true, "primary": true, "note": "CAPTCHA wall; does not count toward sourcing rule."},
+        {"url": "https://www.gtlaw.com/en/insights/2026/6/white-house-issues-executive-order-targeting-ai-enabled-cybersecurity", "outlet": "Greenberg Traurig LLP", "pub_date": "2026-06-03", "author": "Greenberg Traurig", "resolves": true, "primary": false, "note": "Law-firm analysis."}
+      ],
+      "industry_consequence": "A 30-day federal compliance clock (about July 2) for Alaska's rural hospitals, electric cooperatives, and community banks to engage new CISA AI-cybersecurity tools. Alaska's distributed critical infrastructure and thin rural IT staffing make the named classes directly exposed.",
+      "validator_note": "White House primary source resolves and confirms every claim. Federal Register blocked (CAPTCHA) but does not affect verification. In-window via June 5 FR publication."
+    },
+    {
+      "id": "DAF_RFLP_DATACENTER",
+      "story_title": "Air Force RFLP for AI Data Centers at JBER/Eielson/Clear; Proposals Due June 29; Community Pushback",
+      "verified_status": "verified",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": true,
+      "claims_to_strip": [
+        "Do not cite a 'May 8' posting date. RFLP AFCEC-26-R-0006 originally posted April 10, updated June 5 (in-window).",
+        "Hedge '~4,700 acres / up to 12 parcels / up to 50 years' as early reporting (single out-of-window source, Air & Space Forces)."
+      ],
+      "confirmed_facts": [
+        "RFLP AFCEC-26-R-0006 for commercial AI data centers at JBER, Eielson AFB, Clear SFS",
+        "Updated June 5; proposals due June 29 (extended from May 29)",
+        "Developers self-finance, permit, build, operate",
+        "June 8-9 community pushback near Eielson (water, noise, permafrost, GVEA grid load); Air Force declined written questions"
+      ],
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-08", "author": "Alex Bengel", "resolves": true, "primary": false},
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov (primary opportunity record)", "pub_date": "2026-04-10", "author": "AFICA", "resolves": true, "primary": true, "note": "Updated June 5; deadline June 29."},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11", "author": "Matthew Cox", "resolves": true, "primary": false, "background_context": true}
+      ],
+      "industry_consequence": "A June 29 bid deadline puts AI compute infrastructure on three Alaska installations. GVEA grid capacity, NEPA permitting, and community opposition near Eielson are the near-term gatekeepers bidders must price in.",
+      "validator_note": "Date discrepancy resolved (posted April 10, updated June 5). In-window via June 5 update + June 8-9 community response. AI nexus direct (solicitation names AI data centers). Hedge single-sourced acreage figures."
+    },
+    {
+      "id": "HB239_AI_CSAM",
+      "story_title": "Alaska HB 239 (AI-generated CSAM provision) passed May 20; governor decision pending",
+      "verified_status": "weak",
+      "is_in_window": false,
+      "primary_source": false,
+      "needs_softening": true,
+      "claims_to_strip": [
+        "Class B/C felony designations — unverified",
+        "$1 million per-incident civil penalty — unverified",
+        "enrolled June 1 / June 18 governor deadline — unverified"
+      ],
+      "selected_for_post": false,
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "ADN", "pub_date": "2026-05-20", "resolves": true, "primary": false},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20", "resolves": true, "primary": false}
+      ],
+      "industry_consequence": "If signed, establishes Alaska's first AI-specific content-liability statute.",
+      "validator_note": "Out-of-window passage (May 20); no in-window development; specific legal/numeric claims unverified. Not selected for the post."
+    },
+    {
+      "id": "AF_4B_IDIQ",
+      "story_title": "Four Alaska ANC subsidiaries among 19 awardees on $4B Air Force base-operations IDIQ (June 8)",
+      "verified_status": "verified",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": true,
+      "claims_to_strip": [
+        "Do not frame this as an 'AI' contract. The contract text contains NO AI language; scope is base operations plus communications and IT."
+      ],
+      "selected_for_post": false,
+      "confirmed_facts": [
+        "$4B 10-year base-operations IDIQ, 19 awardees, awarded June 8, 2026",
+        "Four AK ANC subsidiaries: Chugach Intelligence Solutions, Alutiiq Operations Services, Alcyon, Bering Straits Management Services",
+        "Scope: aircraft maintenance, resource mgmt, comms/IT, grounds, emergency, custodial, 11 AETC bases",
+        "No AI mandate in contract text"
+      ],
+      "sources": [
+        {"url": "https://news.clearancejobs.com/2026/06/08/19-companies-win-a-4-billion-air-force-base-support-idiq/", "outlet": "ClearanceJobs", "pub_date": "2026-06-08", "resolves": true, "primary": false},
+        {"url": "https://www.govconwire.com/articles/air-force-4b-base-operations-idiq-contract-award", "outlet": "GovCon Wire", "pub_date": "2026-06-09", "resolves": true, "primary": false},
+        {"url": "https://www.globalsecurity.org/military/library/news/2026/06/dod-contracts_4511381.htm", "outlet": "GlobalSecurity", "pub_date": "2026-06-08", "resolves": true, "primary": false}
+      ],
+      "industry_consequence": "Four AK ANC firms win a decade-long $4B vehicle, but no AI mandate. Not used in the post given the AI-page mandate.",
+      "validator_note": "Verified facts, but AI nexus absent. Not selected for the post to avoid overclaiming AI."
+    }
+  ],
+  "dropped": [
+    {"id": "SB2_DEAD", "reason": "BillTrack50 shows SB 2's last action was a Senate State Affairs hearing 04/29/2025, not a May 20, 2026 floor death. ADN Letters (in-window) is opinion and references HCR 3, not SB 2. No corroborating in-window primary source. Dropped."}
+  ],
+  "usable_story_count": 5,
+  "selected_for_post": ["RHTP_SHORTLIST", "TRUMP_AI_EO", "DAF_RFLP_DATACENTER"]
+}

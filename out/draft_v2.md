@@ -1,23 +1,17 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Alaska’s Department of Health advanced 403 rural health proposals on June 7 toward a $272 million first-year RHTP allocation. Final applications are due June 22, awards mid-July. The hard question isn’t whether the AI works.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The Rural Health Transformation Program couples a Workforce track and a Technology track, and the state read the design clearly. State Rep. Genevieve Mina put it on the record, saying “the way that the feds designed it is almost directing us to AI.” Providence Health advanced eight proposals. Tanana Chiefs Conference advanced a drone medication-delivery proposal. The advanced field includes AI telehealth, remote biometric monitoring, and virtual specialty care, exactly the workloads that pencil out fastest in a roadless clinic.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The structural catch is this. RHTP doesn’t gate this money on whether the model is accurate. It gates on whether the clinic can staff and sustain the deployment, with rural workforce commitments running a minimum of five years. That’s the constraint that binds. Alaska’s roadless health network is the part of the state least able to guarantee a five-year staffing line, and it’s being asked to sign one to capture a one-year federal allocation. The win in July is real. The risk is that Alaska books AI deployments it can’t carry past the grant cycle, while the underlying technology awards land with Lower-48 vendors who keep the recurring revenue.
 
-Five layers sit between an Air Force land offer and a powered data center.
+This is also not the only federal AI clock landing on the same thin rural delivery layer this month.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+- RHTP, $272M state allocation, final applications due June 22, awards mid-July.
+- The June 5 AI executive order, naming “rural hospitals, community banks, and local utilities” for CISA cyber tools by about July 2.
+- The Air Force RFLP AFCEC-26-R-0006, AI data centers at JBER, Eielson, and Clear, proposals due June 29.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The data-center track is the contrast case. Developers self-finance, permit, build, and operate, so the federal clock doesn’t strain a state agency. But the load lands locally. Residents near Eielson pushed back June 8 to 9 on grid demand, water, noise, and permafrost, and the Air Force reportedly declined to answer written questions. Across all three clocks the binding constraint is the same. It isn’t capital and it isn’t the technology. It’s whether Alaska’s rural delivery layer can absorb what’s being shipped onto it inside a single summer.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+If the gate is five-year sustainability rather than capability, who should hold that commitment, the clinics, the regional health corporations, the state, or the federal program that wrote the rule?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #RuralHealth #HealthcareAI #AIPolicy #FederalContracting

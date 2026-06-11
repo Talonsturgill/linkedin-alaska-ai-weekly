@@ -1,32 +1,23 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "weighted_total": 9.85,
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.15, "score": 9, "note": "Opens with named date (June 7), 403 proposals, $272M, hard deadline June 22, then 'The hard question isn’t whether the AI works.' Stands alone past the see-more cutoff; capital consequence implied rather than stated, one notch below 10."},
+    {"name": "Industry relevance", "weight": 0.20, "score": 10, "note": "All three stories carry a sharp AK anchor plus a named industry consequence (RHTP $272M/five-year gate/vendor revenue risk; AI EO named classes + July 2 CISA clock; RFLP AFCEC-26-R-0006, three bases, GVEA grid risk)."},
+    {"name": "Factual density", "weight": 0.15, "score": 10, "note": "Named specifics in nearly every sentence: 403, $272M, June 22, mid-July, Mina verbatim, Providence 8, TCC drone, five-year minimum, June 5 EO, CISA ~July 2, AFCEC-26-R-0006, JBER/Eielson/Clear, June 29, June 8-9 pushback."},
+    {"name": "Source quality", "weight": 0.15, "score": 10, "note": "Every claim maps to verified_findings.json. RHTP: DOH primary + 3 outlets. EO: White House primary. RFLP: HigherGov primary + KTUU. '27 villages' correctly stripped."},
+    {"name": "Voice match", "weight": 0.15, "score": 10, "note": "Direct continuation of post_001 voice. Analytical, names the real constraint ('It isn’t capital and it isn’t the technology'), structural close, no hype or influencer cadence."},
+    {"name": "Readability (LinkedIn)", "weight": 0.10, "score": 10, "note": "414 words, 2654 chars. Paragraphs 1-4 sentences. Bullet block 3 single-clause items. Scans on desktop and mobile."},
+    {"name": "Engagement question", "weight": 0.08, "score": 10, "note": "Real, debatable, names four stakeholder options tied to the five-year sustainability gate. No softener, no CTA."},
+    {"name": "Business actionability", "weight": 0.02, "score": 10, "note": "Concrete this-week triggers: June 22 RHTP applications, June 29 RFLP bids, ~July 2 CISA window, plus a reusable five-year sustainability risk frame for underwriting AI grants."}
   ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "pass": true},
+    {"name": "punctuation_bans_held", "pass": true},
+    {"name": "total_char_count_under_linkedin_cap", "pass": true},
+    {"name": "word_count_in_range", "pass": true}
   ],
-  "one_sentence_fix": null
+  "hard_fail_tripped": false,
+  "one_sentence_fix": "To push hook strength from 9 to 10, append one explicit phrase naming the vendor recurring-revenue risk to the opening, e.g. 'and who captures the recurring revenue after.'"
 }
