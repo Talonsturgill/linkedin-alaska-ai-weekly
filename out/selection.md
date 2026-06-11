@@ -1,27 +1,43 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom NO. 13 — 2026-06-10
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Selected claim (verbatim)
+"This could be the beginning. The moment that not only Alaska helped transform
+the United States, but we helped transform the world when it comes to rural
+health, and the advancement in AI and data is going to be phenomenal."
+— Governor Mike Dunleavy, Anchorage Daily News, 15 Jan 2026
 
-## Role
-FOUNDER (kicker middle slot)
+Independently circulated by Rep. Genevieve Mina (RHTP advisory council member,
+GovTech, 9 Jun 2026) and Gretchen Fauske (Alaska SBDC, Alaska Business
+Magazine, 22 Oct 2025).
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (strongest honest version)
+RHTP deliberately excludes new facilities and Medicaid service replacement,
+channeling its $272M toward technology-enabled innovation. Remote patient
+monitoring, drone delivery, and telehealth platforms are mature enough to cut
+health disparities across Alaska's 165-plus villages, and AI-assisted
+diagnostics could stretch a thin specialist workforce. If even a fraction of
+the 403 advanced projects deploy well, the impact could be real and exportable
+as a national model.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## One-sentence corrective thesis
+RHTP can fund the AI-enabled telehealth application but is barred from funding
+the broadband pipe that application needs to run, and 93.4% of evaluated Alaska
+healthcare locations fail the 100/20 Mbps standard, so the binding constraint
+is connectivity, not algorithms.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all primary unless noted)
+1. Alaska DOH RHTP program page — RHTP funds cannot be used for broadband
+   infrastructure or construction; categorical prohibition. (primary)
+2. Telehealth Broadband Project / HRSA — only 6.6% of 42 evaluated Alaska
+   healthcare locations meet 100/20 Mbps; average median download 27.1 Mbps.
+   (primary)
+3. Betsy Wood, AK DOH Associate Director, ADN — on record that RHTP cannot fund
+   the "hard infrastructure pieces that we do sorely need." (primary)
+4. RHTP advanced 403 projects to full application June 2026; window closes late
+   June 2026. (GovTech, secondary, timeliness anchor)
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK business consequence
+Applicants and Alaska DOH are deciding right now, before the late-June 2026
+deadline, whether to stake pieces of $272M on AI telehealth tools that may be
+undeliverable in connectivity-deficient villages. The reframe: treat broadband
+(BEAD, ReConnect) as a parallel precondition or risk stranded-asset outcomes.
