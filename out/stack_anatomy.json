@@ -1,123 +1,72 @@
 {
-  "run_date": "2026-05-20",
-  "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
-    "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
-    },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
-    "layers": [
-      {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      },
-      {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
-      }
-    ],
-    "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
-    },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
-  },
+  "run_date": "2026-06-12",
+  "news_window_days": 21,
+  "news_window_broadened_to": 21,
+  "gate_applied": true,
+  "no_target_this_cycle": true,
+  "mechanisms_already_anatomized": [
+    "DAF Alaska Enhanced Use Lease AI Data Center Program (facilities, 2026-06-10)",
+    "BLM Alaska NPR-A Production Site Streamlined Permit Rulemaking (regulatory, 2026-06-07)",
+    "STAK Energy North Slope AI Campus DNR Permitting Stack (regulatory, ~2026-05-30)",
+    "ANC 8(a) Sole-Source Federal Contracting Pipeline (capital_sovereignty, ~2026-05-25)",
+    "Railbelt Large-Load Interconnection Review (regulatory/facilities, ~2026-05-20)"
+  ],
+  "selected_mechanism": null,
+  "_validation_note": "14-day window exhausted with zero survivors; broadened to 21-day window (May 22 – June 12, 2026) per protocol. Still zero survivors. C_F1/C_R1 (NRC Part 57 / Oklo Aurora at Eielson AFB): Gate 1 FAILS — POWER Magazine article is dated June 11, 2025 (one year outside both windows, confirmed by WebFetch); ANS Bowen article is March 3, 2026, outside the 21-day window; no independent news outlet article found within either window. Gate 5 would also fail: OAR does not launch until September 2026, so the OAR Director’s Part 57 eligibility determination is not yet an operative institutional chokepoint. C_F2 (Southcentral Alaska Gas-to-Power Bridge): Gate 1 FAILS the verbatim verification test — WebFetch of the Alaska’s News Source June 9, 2026 article confirmed the article is in-window but the verbatim quote attributed to Chugach Electric Association is NOT present; the article does not mention Chugach Electric Association at all. Gate 5 would also fail: FERC (5-member), RCA (5-member), and Chugach Board (cooperative board) all fail the single-actor test; USCG Captain of the Port Anchorage not verifiable by name. C_F3 (FCC SLTE Submarine Cable Blanket License): Gate 1 passes on the Communications Daily article (June 5, 2026, confirmed in-window). Gate 4 FAILS — the fetched article contains zero Alaska-specific content; the SLTE rule is national with no Alaska AI consequence documented in any fetched source. Gate 5 would also fail (5-member Commission vote; FCC IB Chief not verifiable — FCC pages returned HTTP 503). C_V1 (SBIR/STTR Strategic Breakthrough Award): Gate 1 FAILS — article dates are March 16 and April 13, 2026, outside both windows. C_V2 (NSF Regional Innovation Engines): Gate 1 FAILS — September 2025 trigger, outside all windows by more than six months. C_V3 (GCI-Quintillion FCC Section 214 Transfer): Gate 1 FAILS — April 22, 2026 trigger, outside the 21-day window; overlaps with C_F3 which fails Gate 4. C_CS1 (AIDEA Arctic Infrastructure Development Fund — Coastal Plain Lease Capital Stack): Gate 1 PASSES (KMXT June 5, 2026, confirmed real and in-window). Gate 4 FAILS — mechanism is oil and gas lease financing; no AI data center or AI infrastructure consequence documented in any fetched primary source; AI connection is speculative. Gate 5 also FAILS — AIDEA Board majority vote is a committee; AIDF program page documents no individual Executive Director deployment authority. Gate 3 partially FAILS — DEC 18 AAC 87 page returned HTTP 403. Multiple simultaneous gate failures. C_CS2 (CIRI-OSC Global): Gate 1 FAILS — March 8, 2026 trigger, outside both windows. C_CS3 (APFC FY27 IPS / CIO Execution Mechanism): Gate 1 FAILS — BriefGlance.com is a commercial business intelligence service, not an independent news outlet; APFC’s own news page is an agency announcement. Gate 3 also FAILS — Marcus Frampton’s individual binding investment authority is not documented in any fetchable primary source. Gate 5 also FAILS for the same reason. Zero mechanisms pass all seven gates after broadening to 21 days. This is a correct no-target outcome; the bar was not lowered.",
   "dropped_mechanisms": [
     {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
+      "name": "NRC Part 57 Proposed Microreactor Licensing Stack — Oklo Aurora at Eielson AFB",
+      "category": "facilities/regulatory",
+      "drop_reason": "gate_1_failed|gate_5_would_fail",
+      "detail": "POWER Magazine article is dated June 11, 2025 (one year outside both windows, confirmed by WebFetch). ANS Bowen article is March 3, 2026, outside the 21-day window. No independent news outlet article found within either window. Gate 5 would also fail: OAR does not launch until September 2026."
     },
     {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
+      "name": "Southcentral Alaska Gas-to-Power Bridge — Competing LNG Import Race",
+      "category": "facilities",
+      "drop_reason": "gate_1_failed|gate_5_would_fail",
+      "detail": "Verbatim quote attributed to Chugach Electric Association is NOT present in the cited Alaska’s News Source June 9, 2026 article (confirmed by WebFetch). The article does not mention Chugach Electric Association at all. Gate 5 would also fail: FERC (5-member), RCA (5-member), Chugach Board (cooperative board) all fail; USCG Captain of the Port Anchorage not verifiable by name from any fetchable primary source."
     },
     {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
+      "name": "FCC Second Submarine Cable Licensing Order — SLTE Blanket License for Arctic Cables",
+      "category": "facilities",
+      "drop_reason": "gate_4_ak_consequence_failed|gate_5_would_fail",
+      "detail": "Communications Daily article (June 5, 2026) is confirmed in-window and real. However, the fetched article contains zero Alaska-specific content. The SLTE rule is national with no Alaska AI consequence documentable. Gate 5 would also fail: 5-member Commission vote; FCC IB Chief unverifiable (FCC pages HTTP 503)."
     },
     {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
+      "name": "GCI-Quintillion FCC Section 214 and Submarine Cable Landing License Transfer Stack",
+      "category": "vehicles",
+      "drop_reason": "gate_1_failed",
+      "detail": "GCI Newsroom article April 22, 2026 — outside the 21-day window (May 22 – June 12). Overlaps with C_F3 which itself fails Gate 4."
     },
     {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
+      "name": "SBIR/STTR Strategic Breakthrough Award Mechanism — DoD Track",
+      "category": "vehicles",
+      "drop_reason": "gate_1_failed",
+      "detail": "Article dated March 16 / April 13, 2026 — outside both the 14-day and 21-day windows by six or more weeks."
     },
     {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
+      "name": "NSF Regional Innovation Engines Second Competition — Award Decision Freeze",
+      "category": "vehicles",
+      "drop_reason": "gate_1_failed",
+      "detail": "News trigger from September 19, 2025 — outside all windows by more than eight months."
     },
     {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
+      "name": "AIDEA Arctic Infrastructure Development Fund — Coastal Plain Lease Capital Stack",
+      "category": "capital_sovereignty",
+      "drop_reason": "gate_4_ak_consequence_failed|gate_5_failed|gate_3_partially_failed",
+      "detail": "Gate 1 passes (KMXT June 5, 2026, confirmed). Gate 4 fails — oil and gas lease financing with no documented AI consequence. Gate 5 fails — AIDEA Board majority vote is a committee; no individual ED authority documented in AIDF page. Gate 3 partially fails — DEC 18 AAC 87 page returned HTTP 403."
+    },
+    {
+      "name": "CIRI-OSC Global Federal Technology Subsidiary Stack",
+      "category": "capital_sovereignty",
+      "drop_reason": "gate_1_failed",
+      "detail": "Tribal Business News article March 8, 2026 — outside both windows."
+    },
+    {
+      "name": "APFC Board of Trustees FY27 Investment Policy Statement — CIO Execution Mechanism",
+      "category": "capital_sovereignty",
+      "drop_reason": "gate_1_failed|gate_3_failed|gate_5_failed",
+      "detail": "BriefGlance.com is a commercial business intelligence service, not an independent news outlet. APFC’s own news page is an agency announcement. Marcus Frampton’s individual binding investment authority is not documented in any fetchable primary source. Three simultaneous failures."
     }
-  ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  ]
 }
