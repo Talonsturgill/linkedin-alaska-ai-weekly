@@ -1,0 +1,117 @@
+{
+  "selected_claim": {
+    "claim_verbatim": "autonomous completion of multi-step government service transactions on behalf of users",
+    "claim_paraphrase_fair": "Alaska's state government is proposing agentic AI that would autonomously execute multi-step transactions—such as PFD applications or driver-license renewals—on a resident's behalf inside the myAlaska portal, implying this capability is feasibly near-term for state government.",
+    "asserters": [
+      {
+        "name": "Alaska Department of Administration",
+        "title_or_org": "State of Alaska, Division of Finance / DOA; RFI 02-107-26, myAlaska Mobile Application Enhancement",
+        "url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=158363",
+        "outlet": "Alaska Online Public Notice System",
+        "pub_date": "2025-11-25",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "GovTech Staff",
+        "title_or_org": "Government Technology (GovTech)",
+        "url": "https://www.govtech.com/artificial-intelligence/officials-consider-adding-agentic-ai-to-myalaska-portal",
+        "outlet": "GovTech",
+        "pub_date": "2025-12-12",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Anchorage Daily News Staff",
+        "title_or_org": "Anchorage Daily News",
+        "url": "https://www.adn.com/alaska-news/2025/12/11/uncharted-territory-state-weighs-major-ai-overhaul-for-myalaska/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2025-12-11",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Biometric Update Staff",
+        "title_or_org": "Biometric Update",
+        "url": "https://www.biometricupdate.com/",
+        "outlet": "Biometric Update",
+        "pub_date": "2025-12-01",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Alaska Watchman Staff",
+        "title_or_org": "Alaska Watchman",
+        "url": "https://alaskawatchman.com/",
+        "outlet": "Alaska Watchman",
+        "pub_date": "2026-02-01",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 5,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "Alaska DOA published an official RFI actively soliciting vendor feasibility input on agentic AI for myAlaska, which serves millions of residents. If the state is formally asking vendors to propose this, it must be technically achievable and policy-ready in the near term.",
+    "steelman": "Alaska's DOA issued a formal procurement RFI soliciting agentic AI capabilities that would let residents delegate multi-step government transactions entirely to an AI agent. The RFI describes specific capabilities (dynamic form-filling, document retrieval, autonomous transaction completion) and was picked up by five independent outlets, giving vendors and budget planners reasonable grounds to treat this as a credible near-term procurement trajectory. The capability is technically conceivable, and the RFI signals genuine state-level intent.",
+    "where_it_breaks": "No US state has deployed production agentic AI at this scope anywhere in government services; the national association of state CIOs (NASCIO) characterizes agentic AI as something states must still 'anticipate,' 'build trust for,' and develop governance guardrails around before deployment. The Alaska DOA itself declined to respond to press questions about the project, and the RFI solicited only feasibility input—not implementation proposals—meaning the claim conflates an exploratory market-sounding document with a ready-to-deploy capability.",
+    "counter_evidence": [
+      {
+        "fact": "NASCIO's March 2026 report 'Beyond Generation: The Rise of Agentic AI in State Government' frames the publication as a primer for states that are 'exploring' agentic AI, urging them to 'anticipate governance, security and workforce risks' and stating 'the time to review policies, strengthen guardrails and build trust is now'—language that positions agentic AI as a not-yet-deployed, preparatory challenge for all US states, not a near-term implementation.",
+        "url": "https://www.nascio.org/resource-center/resources/beyond-generation-the-rise-of-agentic-ai-in-state-government/",
+        "outlet": "NASCIO (National Association of State Chief Information Officers)",
+        "pub_date": "2026-03-01",
+        "is_primary": true
+      },
+      {
+        "fact": "The Alaska Department of Administration 'did not respond to questions about the project' when contacted by GovTech (December 2025), and the document itself is an RFI (Request for Information) soliciting feasibility input from vendors—not an RFP or award, meaning no implementation commitment exists.",
+        "url": "https://www.govtech.com/artificial-intelligence/officials-consider-adding-agentic-ai-to-myalaska-portal",
+        "outlet": "GovTech",
+        "pub_date": "2025-12-12",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "Alaska DOA's myAlaska agentic AI RFI is a feasibility market-sounding, not a deployment commitment. The capability it describes—autonomous multi-step government transactions—has not been achieved in production by any US state, and the national body representing state CIOs still frames agentic AI as a governance and risk challenge to prepare for, not a technology ready to deploy. Alaska's IT modernization narrative is running ahead of the sector-wide maturity curve.",
+    "ak_stakes": "Alaska IT/government-services sector: AI vendors and systems integrators are shaping Alaska-specific proposals and bid strategies around a procurement premise (autonomous agentic state government transactions at scale) that has no proven state-government deployment model anywhere in the US; if Alaska proceeds without that foundation, the RFI's framing sets unrealistic timelines and liability expectations for any resulting contract, with budget and service-continuity risk landing on the DOA and ultimately residents who depend on PFD, licensing, and unemployment services through myAlaska.",
+    "confidence": "medium",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "It doesn't help that everything breaks at negative 40 degrees",
+      "drop_reason": "strawman — the quote is the article author's paraphrase of Gen. Cogbill's remarks ('he added'), not a verbatim attributed statement from Cogbill. Gate 1 fails: the verbatim does not appear on the Breaking Defense page as a direct quote from the named asserter. Additionally, the same article contains primary counter-evidence (Vector AI drone operating at -20 to -30 F; 732d AMS Gemini AI tabletop at JBER), making the absolutism of the claim internally rebutted, but the Gate 1 attribution failure is the dispositive drop reason."
+    },
+    {
+      "claim_verbatim": "these solutions can be delivered rapidly through streamlined procurement options",
+      "drop_reason": "strawman — the verbatim on the live Koniag GS page reads 'though' not 'through,' and no bylined author is confirmed (the page is an unbylined company press release; Kevin Wideman is quoted within but not confirmed as author). Gate 1 fails on verbatim mismatch. Additionally, Gate 4 borderline fails: the steelmanned claim that ANC 8(a) status currently confers procurement speed advantage is largely true as of today (the program still exists, Koniag's certification is unaffected), making the corrective narrative about narrowing advantages a future-risk story rather than a present-tense rebuttal."
+    },
+    {
+      "claim_verbatim": "supposed to be a three-month project",
+      "drop_reason": "true_as_stated — Gate 4 fails. The steelmanned claim (Alaska's court chatbot took 4x its planned timeline) is factually accurate per the same article. The project was indeed extended well beyond the original three-month estimate. The counter that AVA eventually launched and 'reflected due diligence' is the asserters' own qualification, not a rebuttal of the timeline overrun. No corrective post exists in a claim that is true."
+    },
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "true_as_stated — Gate 4 fails. The steelmanned claim that Alaska has enacted no comprehensive AI legislation and published no whole-of-government AI strategy document is essentially accurate. Counter-evidence (OIT Teams transcription rollout, DEED K-12 framework for districts, AO360 permitting directive) constitutes executive-level activity in specific domains but does not rise to the 'comprehensive policy' or 'coordinated strategy' the editorial is comparing against. The core assertion is not materially wrong."
+    },
+    {
+      "claim_verbatim": "Leverage technology, such as artificial intelligence (\"AI\"), to support digitization, automation, and public access to permitting information.",
+      "drop_reason": "true_as_stated — Gate 4 fails. The verbatim is the actual text of AO360, a real Governor's administrative order. The claim that Alaska has directed its agencies to leverage AI for permitting is factually correct and primary-sourced. A corrective post would require arguing the directive is wrong or false, but it is neither; it is an accurate description of a real directive."
+    },
+    {
+      "claim_verbatim": "Few states have established the necessary evaluation mechanisms to determine the public value of AI deployments; only seven were classified as established in this area",
+      "drop_reason": "not_load_bearing — Gate 3 fails. The claim is about a national pattern and the Code for America article does not mention Alaska at all. No specific Alaska AI capital, procurement, or workforce decision rides on this national statistic. Additionally, Gate 4 borderline fails: the claim that most states cannot prove AI value is essentially accurate per the same report."
+    },
+    {
+      "claim_verbatim": "It positions Alaska to be highly competitive for federal AI education grants and other funding opportunities by demonstrating a clear, unified-level strategy.",
+      "drop_reason": "true_as_stated — Gate 4 fails. The steelmanned claim that having a state K-12 AI framework improves Alaska's competitive position for AI-weighted federal discretionary grants is essentially true: the U.S. Department of Education finalized a rule in May 2026 prioritizing AI applications in existing discretionary grant programs. The corrective nuance (no new dedicated AI grant pool was created) is accurate but does not make the claim wrong as stated."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Candidate 2 (Alaska DOA myAlaska agentic AI RFI) passes all six gates, with two marginal conditions explicitly noted: (1) Gate 1 (attribution) is marginal because the verbatim phrase was confirmed on the GovTech live page (2025-12-12, fetched and verified) attributed to the Alaska DOA RFI, but the RFI source PDF (aws.state.ak.us) was machine-unreadable on fetch and could not independently yield the verbatim; the phrase is treated as attributed to the named asserter (Alaska DOA) based on GovTech's credible secondary confirmation. (2) Gate 5 (rebuttable) is marginal because the NASCIO full PDF was also machine-unreadable on fetch; however the NASCIO landing page for the report (fetched and verified) explicitly frames the publication as a primer for states 'exploring' agentic AI, urging them to 'anticipate' risks and 'build trust' before deployment, which constitutes a verifiable primary-source qualification of the claim. Five other candidates were dropped as true_as_stated, two as strawman/Gate-1 fail, one as not_load_bearing. The North Slope gas / data center cluster was pre-dropped per the deduplication instruction."
+}
