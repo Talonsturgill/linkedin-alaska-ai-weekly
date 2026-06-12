@@ -1,32 +1,18 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 10, "weight": 0.15, "notes": "First two lines name contract number AFCEC-26-R-0006-O, a hard June 29 deadline, three installations, and the landlord-vs-operator stake. Stands alone at the see-more cutoff."},
+    {"name": "Industry relevance", "score": 10, "weight": 0.20, "notes": "Every thread carries an AK anchor plus a named consequence: DAF RFLP June 29 + GVEA grid, NSPM-11 120-day reset, SBA 8(a) with five named ANCs + July 13, Terra $89M / 1,250-MW power gap."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Specifics every 1-2 sentences: contract number, dates, installations, North Pole Middle School proximity, DoDD 3000.09, 90/120-day clocks, five ANCs, July 13, $89M, 1,250 MW, Skwentna."},
+    {"name": "Source quality", "score": 8, "weight": 0.15, "notes": "DAF/NSPM-11/SBA primary-sourced; Terra relies on three secondary outlets with no resolved DOE.gov link, appropriately hedged as 'reported at $89M'. One story off-primary holds it off 10."},
+    {"name": "Voice match", "score": 9, "weight": 0.15, "notes": "Mirrors post_001: names conventional framing then dismantles it; 'Three federal clocks now run at once' is on-voice. 'The exception proves the point' is a mild rhetorical device, slight softener."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.10, "notes": "2-4 sentence paragraphs, one bullet block of 3 single-clause dated items, 446 words, 2877 chars. Scans cleanly."},
+    {"name": "Engagement question", "score": 10, "weight": 0.08, "notes": "Closes naming both sides of the tension tied to June 29 and NSPM-11. Real, debatable, no CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Four concrete revisit triggers: June 29 RFLP, July 13 SBA comments, October NSPM-11 reset, Terra power gap as underwriting risk."}
+  ],
+  "weighted_total": 9.55,
+  "threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "hard_fail_tripped": null,
+  "weakest_criterion": "Source quality",
+  "one_sentence_fix": "Cite the DOE.gov primary announcement for the Terra Energy grant alongside the secondary outlets to lift the one story currently relying on secondary sources."
 }

@@ -1,0 +1,98 @@
+{
+  "window": ["2026-06-04", "2026-06-11"],
+  "verified": [
+    {
+      "id": "DAF_RFLP",
+      "story_title": "DAF releases RFLP for private AI data centers at JBER, Eielson, and Clear SFS; bids due June 29",
+      "summary": "On June 5, 2026 the Department of the Air Force released RFLP AFCEC-26-R-0006-O offering underutilized parcels at JBER, Eielson AFB, and Clear SFS for privately financed, privately operated AI data centers under Enhanced Use Leases up to 50 years, with proposals due June 29. Community members near Eielson raised concerns June 8-11 about permafrost, noise, water, and GVEA grid load; one off-base parcel reportedly sits less than a mile from North Pole Middle School.",
+      "industry_consequence": "Private developers and Alaska contractors face a June 29 proposal deadline. GVEA faces a parallel grid-capacity question. Alaska is positioned as landlord (land, cold climate, federal power access) while financing and operations remain with the private developer.",
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov", "pub_date": "2026-06-05", "resolves": true, "in_window": true},
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-09", "resolves": true, "in_window": true},
+        {"url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-11", "resolves": true, "in_window": true},
+        {"url": "https://sam.gov/workspace/contract/opp/e74af0fe0e03406e80488d7f5c538baa/view", "outlet": "SAM.gov (DAF solicitation)", "pub_date": "2026-06-05", "resolves": false, "in_window": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": true,
+      "validator_notes": "Remove/hedge '4,700 acres / 12 parcels'; no fetched page confirms totals. KTUU cites 5 parcels at Eielson, News-Miner cites 4 at Clear SFS. June 29 deadline confirmed by 3 sources. SAM.gov is an auth wall via WebFetch but corroborated by HigherGov."
+    },
+    {
+      "id": "NSPM11",
+      "story_title": "NSPM-11 signed June 5 orders DoD and intel community to break AI vendor lock-in and reset procurement within 120 days",
+      "summary": "President Trump signed National Security Presidential Memorandum-11 on June 5, 2026, directing DoD, the intelligence community, and national-security agencies to remove AI procurement barriers, leverage diverse commercial AI vendors rather than rely on single primes, update DoDD 3000.09 within 90 days, and complete a 120-day procurement review by approximately early October 2026. It rescinds the prior NSM-25 framework.",
+      "industry_consequence": "Alaska-serving defense contractors supporting JBER, Eielson, Clear SFS, and Fort Wainwright face an AI acquisition-rules reset by approximately October 2026, with explicit federal pressure for more and smaller commercial vendors. NSPM-11 does not name Alaska; the tie is inferential via the defense industrial base and the concurrent DAF RFLP.",
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/", "outlet": "White House (primary source)", "pub_date": "2026-06-05", "resolves": true, "in_window": true},
+        {"url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-signs-historic-directive-on-ai-in-the-national-security-enterprise/", "outlet": "White House Fact Sheet", "pub_date": "2026-06-05", "resolves": true, "in_window": true},
+        {"url": "https://www.nextgov.com/artificial-intelligence/2026/06/trump-memo-pushes-national-security-agencies-move-faster-ai/414031/", "outlet": "Nextgov/FCW", "pub_date": "2026-06-08", "resolves": true, "in_window": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": true,
+      "validator_notes": "Two White House primary sources confirm. Alaska NOT named in the memo; frame the AK angle as inferential context, not a direct mandate."
+    },
+    {
+      "id": "SBA_8A",
+      "story_title": "SBA proposes ending race-based 8(a) eligibility June 11; Alaska Native Corporations explicitly carved out",
+      "summary": "On June 11, 2026 the SBA published a proposed rule eliminating automatic race- and ethnicity-based eligibility for the 8(a) program, requiring individual applicants to demonstrate social disadvantage through verifiable evidence, while explicitly exempting entity-owned firms including Alaska Native Corporations, tribes, and Native Hawaiian Organizations. The public comment period closes July 13, 2026.",
+      "industry_consequence": "ANC parents and their 8(a) subsidiaries (Koniag, Chenega, NANA, Sealaska, Doyon, and others) retain entity-owned eligibility while individually owned competitors face a higher evidentiary bar, reinforcing the preference lane through which Alaska captures substantial federal, including AI program-support, contracting work. Comments due July 13.",
+      "sources": [
+        {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "U.S. SBA (primary source)", "pub_date": "2026-06-11", "resolves": true, "in_window": true},
+        {"url": "https://www.adn.com/business-economy/2026/06/11/feds-propose-upending-8a-program-but-say-it-wont-impact-big-alaska-firms/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-11", "resolves": true, "in_window": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": false,
+      "validator_notes": "SBA.gov primary confirms ANC carve-out; ADN confirms July 13 comment deadline. Strong."
+    },
+    {
+      "id": "TERRA_COAL",
+      "story_title": "DOE awards $89M to Terra Energy Center for a coal-plus-carbon-capture plant framed as AI data-center power",
+      "summary": "On June 4, 2026 the administration announced an $89M DOE grant to Terra Energy Center Corp. (an Anchorage-registered affiliate of Canada's Flatlands Energy) to study a 1,250-megawatt coal plant with carbon capture in the Susitna watershed west of Skwentna, one of two coal plants in the package framed as data-center power. The project has no permitted coal mine, no finalized design, and no signed power purchase agreements.",
+      "industry_consequence": "Railbelt utilities and independent power producers face a decision on whether to engage Terra's pipeline or accelerate competing gas, geothermal, or nuclear options, against a Cook Inlet gas shortfall. The federal grant signals policy momentum for coal-powered AI infrastructure in Alaska but does not resolve the execution gaps.",
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/04/trump-administration-selects-proposed-coal-project-for-89-million-grant-in-susitna-river-watershed/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-04", "resolves": true, "in_window": true},
+        {"url": "https://www.latitudemedia.com/news/trump-is-using-taxpayer-money-for-coal-to-power-ai/", "outlet": "Latitude Media", "pub_date": "2026-06-04", "resolves": true, "in_window": true},
+        {"url": "https://www.alaskasnewssource.com/2026/06/04/new-coal-plant-be-built-alaska-part-700m-trump-investment/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-04", "resolves": true, "in_window": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "validator_notes": "$89M and 1.25 GW confirmed by ADN; broader $700M package confirmed by all three. No DOE.gov link verified. Note early-stage/feasibility character and execution gaps."
+    },
+    {
+      "id": "GCI_STARLINK",
+      "story_title": "GCI to deploy Starlink bonded gateways as middle-mile backbone for Bethel, Sitka, Kotzebue, Dillingham",
+      "summary": "On June 11, 2026 GCI announced it will deploy Starlink bonded gateway technology, aggregating multiple LEO links into multi-gigabit symmetric connections, to serve Bethel, Sitka, Kotzebue, and Dillingham, adding to live installs in Unalaska and Nome (Unalaska reportedly up to 10 Gbps). The deployment builds on a 2024 enterprise reseller agreement between GCI and SpaceX.",
+      "industry_consequence": "Reliable middle-mile connectivity is the precondition for rural edge compute and AI inference; healthcare, education, and public-safety operators in the four named hubs gain a meaningful upgrade path ahead of BEAD fiber buildout. With GCI's Aleutian fiber having recently failed, satellite is becoming the de facto rural backbone for Alaska.",
+      "sources": [
+        {"url": "https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/", "outlet": "Telecompetitor", "pub_date": "2026-06-11", "resolves": true, "in_window": true},
+        {"url": "https://broadbandbreakfast.com/gci-partners-with-starlink-to-bring-connectivity-to-alaska/", "outlet": "Broadband Breakfast", "pub_date": "2026-06-11", "resolves": true, "in_window": true}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": false,
+      "validator_notes": "No GCI primary release resolved (404), but two independent trade outlets confirm all four hub names, speeds, technology. Two-source rule met. Billy Wailand quote appears on Broadband Breakfast."
+    },
+    {
+      "id": "GREAT_AM_AI",
+      "story_title": "Great American AI Act draft (June 4) and Senate kids-safety preemption maneuver (June 11) push federal preemption of state AI law",
+      "summary": "On June 4, 2026 Reps. Obernolte, Trahan, and colleagues released the Great American AI Act discussion draft proposing a three-year freeze on state laws regulating AI model development. On June 11 a separate Senate track led by Sen. Blackburn pairs subject-matter AI-preemption language with kids-safety bills as a packaging strategy. The preemption is narrower than last year's failed moratorium and covers only development-phase state AI laws.",
+      "industry_consequence": "Alaska has no enacted AI law (SB2 died May 20, 2026), so preemption voids no existing statute but would lock the legislature out of writing development-phase AI rules for three years during a period of accelerating federal AI infrastructure deployment in the state.",
+      "sources": [
+        {"url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/", "outlet": "Roll Call", "pub_date": "2026-06-04", "resolves": true, "in_window": true},
+        {"url": "https://fpf.org/blog/frontier-ai-goes-federal-how-the-great-american-ai-act-compares-to-state-laws/", "outlet": "Future of Privacy Forum", "pub_date": "2026-06-09", "resolves": true, "in_window": true},
+        {"url": "https://www.biometricupdate.com/202606/white-house-senate-revive-push-to-block-state-ai-laws-through-kids-safety-deal", "outlet": "Biometric Update", "pub_date": "2026-06-11", "resolves": true, "in_window": true}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "validator_notes": "Roll Call credible; FPF and Biometric Update are blog/trade. Frame AK consequence (SB2 died May 20, no enacted AI law) as contextual implication."
+    },
+    {
+      "id": "YENLO_DRONE",
+      "story_title": "DFFP infrared drone module guides crews on the Yenlo Fire near Skwentna (June 9-11)",
+      "summary": "Alaska Division of Forestry and Fire Protection's UAS Module flew infrared sorties over the approximately 53-acre Yenlo Fire southwest of Talkeetna on June 9-11, 2026, guiding Pioneer Peak Hotshots and Alaska Smokejumpers to buried hotspots during gridding operations. The same fly-locate-direct-verify pattern was used on other 2026 incidents.",
+      "industry_consequence": "Climate and wildfire suppression: thermal UAS reconnaissance is now a default state tool for 2026 fire season operations, compressing mop-up time and establishing a procurement baseline for additional infrared UAS capacity ahead of peak season.",
+      "sources": [
+        {"url": "https://akfireinfo.com/2026/06/11/yenlo-fire-receives-light-rain-as-crews-grid-for-remaining-hot-spots/", "outlet": "Alaska Wildland Fire Information (DFFP)", "pub_date": "2026-06-11", "resolves": true, "in_window": true},
+        {"url": "https://akfireinfo.com/2026/06/10/yenlo-fire-north-of-skwentna-at-52-acres/", "outlet": "Alaska Wildland Fire Information (DFFP)", "pub_date": "2026-06-10", "resolves": true, "in_window": true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": false,
+      "validator_notes": "Two DFFP primary sources in window. UAS infrared confirmed on June 11 update. Use 'approximately 53 acres'."
+    }
+  ],
+  "dropped": [
+    {"id": "H1B_TEACHERS", "reason": "No meaningful AI/technology tie; K-12 teacher visa litigation is off-mandate for an AI page."}
+  ],
+  "overall_note": "7 of 8 candidates verified; H1B dropped for scope. Softening flags on DAF_RFLP acreage, NSPM-11 Alaska tie, Terra coal DOE-link, and Great American AI Act source mix. All pub dates within 2026-06-04 to 2026-06-11."
+}
