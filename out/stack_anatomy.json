@@ -1,123 +1,168 @@
 {
-  "run_date": "2026-05-20",
-  "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
-    "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+  "run_date": "2026-06-13",
+  "news_window_days": 14,
+  "news_window_broadened_to": null,
+  "gate_applied": true,
+  "no_target_this_cycle": false,
+  "mechanisms_already_anatomized": [
+    "DAF Alaska Enhanced Use Lease AI Data Center Program (facilities, 2026-06-10)",
+    "BLM Alaska NPR-A Production Site Streamlined Permit Rulemaking (regulatory, 2026-06-07)",
+    "STAK Energy North Slope AI Campus DNR Permitting Stack (regulatory, ~2026-05-30)",
+    "ANC 8(a) Sole-Source Federal Contracting Pipeline (capital_sovereignty, ~2026-05-25)",
+    "Railbelt Large-Load Interconnection Review (regulatory/facilities, ~2026-05-20)"
+  ],
+  "_validation_note": "14-day window sufficient; no broadening required. Candidate 1 passed all seven gates. Key verification finding: the DOH program pages confirm 'Final funding decisions will be made by the DOH Commissioner' and 'the DOH Commissioner retains final decision-making authority on all funding decisions,' with ACF and the Advisory Council explicitly non-decisional. The CMS cooperative agreement provides federal oversight of allowable use categories but does not pre-approve individual subrecipient selections — the chokepoint is structurally clean. The scout named 'Heidi Hedberg' as Commissioner but verified DOH primary sources reference only the institutional role (Commissioner of Alaska Department of Health); the mechanism-not-actor gate is therefore strong. The $272M/year figure is the FY2026 disbursement from a ~$1.36B total cooperative agreement (RHTCMS332062, Dec 2025–Oct 2030), confirmed via TAGGS/HHS. Candidate 2 dropped on Gates 3 (OIRA layer has no named controlling actor confirmed from a primary source), 4 (no concrete Alaska AI consequence — ANC entities are explicitly exempted from the proposed change), and 5 (notice-and-comment rulemaking is a diffuse multi-actor process, not a unilateral binary). Candidates 3 and 4 dropped on Gate 1 — ADN May 18 is 26 days before June 13, outside the 21-day window (May 23 cutoff), and no in-window independent editorial story about those mechanisms was confirmed after multiple Alaska Public Media URL attempts returned 404. Candidate 5 dropped on Gate 5 — FCC Commission vote is a 5-member body and no single-actor binary decision point was confirmed.",
+  "dropped_mechanisms": [
+    {
+      "name": "SBA 8(a) Program Social-Disadvantage Eligibility NPRM (FR 2026-11765)",
+      "category": "vehicles/capital_sovereignty",
+      "drop_reason": "missing_primary_source_per_layer|no_ak_consequence|diffuse_chokepoint",
+      "detail": "Gate 3 fails: OIRA Layer 2 controlling actor not confirmed from a primary source — Holland & Knight law firm article is a secondary source and the OIRA regulatory dashboard was inaccessible. Gate 4 fails: the proposed rule explicitly does NOT change ANC entity eligibility (confirmed by ADN June 11 article and SBA press release), so the Alaska consequence is explicitly exempted from the rule's scope; any competitive dilution risk is second-order and inferential, not concretely documentable. Gate 5 fails: notice-and-comment rulemaking requires mandatory public comment period, DOJ review, and interagency coordination — not a unilateral binary decision by one actor."
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    {
+      "name": "Army Corps Alaska District Section 404 Individual Permit — North Slope AI Data Center Gravel Pad",
+      "category": "regulatory",
+      "drop_reason": "no_news_tie",
+      "detail": "Gate 1 fails: the ADN May 18, 2026 article is 26 days before June 13, outside the 21-day broadening window (May 23 cutoff). Multiple Alaska Public Media URLs for a May 26 story returned HTTP 404 and the story was not visible on the Alaska Public Media homepage. No independent editorial story within either news window was confirmed that mentions the Army Corps Section 404 gravel pad permit specifically. Additionally, the USACE Alaska District leadership page (poa.usace.army.mil) was inaccessible (connection refused), preventing confirmation of Col. Palazzini as District Engineer from a primary source, which would also trigger a Gate 3 failure."
+    },
+    {
+      "name": "BLM Alaska State Office Pipeline ROW Grant — STAK North Slope Gas Pipeline",
+      "category": "regulatory",
+      "drop_reason": "no_news_tie|not_anatomizable|recent_repeat",
+      "detail": "Gate 1 fails: same trigger as Army Corps candidate (ADN May 18, outside both windows; no Alaska Public Media May 26 story confirmed). Gate 2 fails: the application has not yet been filed, so the mechanism is not yet activated and its layers cannot be independently verified as operational. Gate 7 risk: same STAK Energy North Slope project as the already-anatomized mechanism #3 (STAK DNR AS 38.05 process, ~2026-05-30)."
+    },
+    {
+      "name": "FCC Second R&O — Submarine Cable SLTE Blanket License and Team Telecom Exemption",
+      "category": "regulatory",
+      "drop_reason": "diffuse_chokepoint|no_ak_consequence",
+      "detail": "Gate 5 fails: the binary decision rests with the full 5-member FCC Commission vote — a committee that fails the chokepoint asymmetry requirement. Chairman Carr's agenda-setting authority is upstream of the binary decision (he can set the agenda but not cast the deciding vote unilaterally). Team Telecom self-certification is also a multi-agency committee process. No single named actor owns the binary. Gate 4 also unconfirmed: the Alaska-specific AI consequence (GCI-Quintillion post-acquisition NTHE ring operations) was not confirmed from a primary source fetched during this run."
+    },
+    {
+      "name": "Quintillion Nome-Homer Express NTIA Middle Mile Multi-Agency Permit Stack",
+      "category": "facilities",
+      "drop_reason": "no_news_tie|diffuse_chokepoint",
+      "detail": "Gate 1 fails: the June 3 FWS notice is an agency notice, not an independent editorial outlet story. No editorial coverage of the NTHE permit stack was found in the May 30–June 13 window. Gate 5 partial fail: FWS compatibility determination layer requires both Refuge Manager and Regional Chief of Refuges — two officials, not one."
+    },
+    {
+      "name": "Terra Energy Center DOE Coal Power Grant Mechanism",
+      "category": "facilities",
+      "drop_reason": "diffuse_chokepoint",
+      "detail": "Gate 5 fails: no single-actor binary chokepoint. Multiple parallel veto points (DOE final award, ADNR coal mine permit, DEC air permit, Borough zoning, MEA PPA) each independently block project advancement. Named DOE official who made the selection is not confirmed in any fetched primary source."
+    },
+    {
+      "name": "GCI-Quintillion FCC Submarine Cable Transfer-of-Control Stack",
+      "category": "facilities",
+      "drop_reason": "no_news_tie",
+      "detail": "Gate 1 fails: ADN news trigger (April 22, 2026) is 51 days before the scout date — well outside both the 14-day and 21-day windows. No independent editorial outlet covered the pending FCC transfer-of-control application filing specifically within either window."
+    },
+    {
+      "name": "NSF TechAccess AI-Ready America State Coordination Hub Grant Program",
+      "category": "vehicles",
+      "drop_reason": "no_news_tie|diffuse_chokepoint",
+      "detail": "Gate 1 fails: best news trigger is the DOL/NSF MOU press release from April 2-6, 2026, which is outside both the 14-day and 21-day windows. The June 11 NSF National Lead Webinar is an agency event, not independent media coverage. Gate 5 also fails: NSF review panels are anonymous."
+    },
+    {
+      "name": "DOE Title 17 Energy Dominance Financing Program — OBBBA Implementation Guidance",
+      "category": "vehicles",
+      "drop_reason": "no_news_tie",
+      "detail": "Gate 1 fails: best trigger is the Greenberg Traurig law firm client alert (May 18, 2026) — not an independent news outlet. The guidance document itself is a PDF on energy.gov (May 13, outside even the 21-day window). No Alaska-specific news coverage of an EDF application within window."
+    }
+  ],
+  "selected_mechanism": {
+    "name": "Alaska RHTP DOH Commissioner Subrecipient Selection Pipeline",
+    "category": "capital_sovereignty",
+    "category_label": "SOVEREIGNTY",
+    "definition": "A five-year CMS cooperative agreement ($272M/year to Alaska) in which CMS disburses funds to the Alaska Department of Health, the DOH Commissioner holds final and sole decision-making authority to approve or deny all subrecipient funding applications — including tribal health organizations and AI/technology vendors — while the Alaska Community Foundation administers intake and subawards under DOH direction and the RHTP Advisory Council is explicitly non-decisional, creating a single institutional chokepoint controlling which entities receive capital to deploy rural health AI across Alaska.",
+    "news_trigger": "After sifting through nearly 1,800 funding proposals, state officials have narrowed down the potential projects to a list of just over 400. Applicants who advanced through the initial screening process have until June 22 to submit additional information. State legislator Genevieve Mina said: 'You name a program transformation, but the way that the feds designed it is almost directing us to AI.'",
+    "news_trigger_url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/",
+    "news_trigger_date": "2026-06-07",
+    "news_trigger_outlet": "Anchorage Daily News",
+    "gate_results": {
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_source": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_recent_repeat": true
+    },
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "CMS Federal Cooperative Agreement",
+        "function": "Centers for Medicare & Medicaid Services authorizes and disburses $272,174,856/year to the Alaska Department of Health under cooperative agreement RHTCMS332062 (Dec 2025 – Oct 2030, ~$1.36B total). CMS defines allowable use categories and provides federal oversight but does not pre-approve individual subrecipient selections.",
+        "controlling_actor": "Centers for Medicare & Medicaid Services (CMS), U.S. Department of Health and Human Services",
+        "primary_source_url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190",
+        "primary_source_type": "agency_page"
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "DOH Commissioner Final Award Authority",
+        "function": "The Commissioner of the Alaska Department of Health holds all final funding decision authority over every RHTP subrecipient application. The program page states explicitly: 'Final funding decisions will be made by the DOH Commissioner' and 'the DOH Commissioner retains final decision-making authority on all funding decisions.' The Advisory Council and ACF are explicitly non-decisional at this layer.",
+        "controlling_actor": "Commissioner of the Alaska Department of Health (institutional role; current incumbent: Heidi Hedberg per scout sourcing)",
+        "primary_source_url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "primary_source_type": "agency_page"
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "Alaska Community Foundation Administrative Subaward Layer",
+        "function": "DOH has contracted ACF to manage the application portal (Bonfire), assist applicants, issue and manage subawards for DOH-approved projects, process payments, and support compliance reporting. Administrative costs capped at 10% of total RHTP award. ACF explicitly cannot make final funding decisions — it executes DOH Commissioner approvals only.",
+        "controlling_actor": "Alaska Community Foundation (ACF), operating under DOH contract",
+        "primary_source_url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "primary_source_type": "agency_page"
       },
       {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "RHTP Advisory Council (Non-Decisional)",
+        "function": "Multi-sector advisory body comprising a Steering Committee and Stakeholder Committee. Provides input on RHTP strategy and community perspectives. Explicitly non-decisional: 'The Advisory Council offers informed input but does not make funding or policy decisions.' Its non-decisional status is what consolidates all authority at the Commissioner layer.",
+        "controlling_actor": "RHTP Advisory Council (non-decisional — zero funding decision authority)",
+        "primary_source_url": "https://health.alaska.gov/en/education/rural-health-transformation-program/rhtp-advisory-council/",
+        "primary_source_type": "agency_page"
       },
       {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "layer_name": "Subrecipient Application Pool",
+        "function": "Over 400 organizations advancing from the initial 1,800-proposal intake must submit detailed applications by June 22, 2026. Eligible uses explicitly include 'pilots or demonstrations of emerging technologies (e.g., AI-enabled tools or wearables).' Confirmed eligible applicant types include tribal health organizations, hospitals, and technology vendors deploying AI-powered documentation, clinical decision support, and telehealth tools.",
+        "controlling_actor": "400+ applicant organizations including tribal health orgs (ANTHC, Tanana Chiefs Conference, Maniilaq Association) and technology vendors; no single controlling actor — applicants are the input pool to the chokepoint layer",
+        "primary_source_url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "primary_source_type": "agency_page"
       }
     ],
     "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
+      "layer": "DOH Commissioner Final Award Authority",
+      "actor": "Commissioner of the Alaska Department of Health (institutional role)",
+      "binary_decision": "Approve or deny each subrecipient application for RHTP funding — including AI-enabled technology deployment proposals. No other actor (ACF, Advisory Council, Legislature) can override or substitute for this decision within the program year. CMS oversight applies to allowable use categories, not individual subrecipient selections.",
+      "deadline": "Mid-July 2026 (applications due June 22, 2026; selection decisions expected within approximately three weeks)"
     },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
-  },
-  "dropped_mechanisms": [
-    {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
-    },
-    {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
-    },
-    {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
-    },
-    {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
-    },
-    {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
-    },
-    {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
-    },
-    {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
-    }
-  ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+    "ak_consequence": "Alaska tribal health organizations (ANTHC, Tanana Chiefs Conference, Maniilaq Association) and AI technology vendors competing for Year 1 RHTP subrecipient awards face a single-point approval decision by the DOH Commissioner by mid-July 2026 that will determine whether Alaska's largest-ever rural health AI deployment capital infusion (~$272M/year) flows to tribal-led AI implementations or to other applicant types — setting the deployment architecture for rural health AI statewide for up to five years.",
+    "structural_read": "The RHTP mechanism produces a state-controlled capital allocation funnel where one institutional role — the DOH Commissioner — serves as the sole approval gateway between $272M/year in federal health transformation funds and the 400+ organizations seeking to deploy AI tools in Alaska's rural health system; because the Advisory Council and ACF are structurally non-decisional, the mechanism forecloses any distributed or consensus-based capital allocation and concentrates rural health AI deployment decisions in a single executive appointment.",
+    "forward_implication": "Any organization competing for RHTP subrecipient funding — including AI vendors, tribal health organizations, and health system integrators — should submit complete applications before June 22 and prioritize direct engagement with the DOH Commissioner's office before mid-July, as no appeal mechanism, advisory body, or administrative intermediary can substitute for or override the Commissioner's selection decision.",
+    "source_ledger": [
+      {
+        "label": "ADN June 7 2026 — RHTP 400 applicants advance",
+        "url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/",
+        "type": "secondary",
+        "layer": "news_trigger"
+      },
+      {
+        "label": "TAGGS/HHS Award Detail — RHTCMS332062",
+        "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190",
+        "type": "primary",
+        "layer": "CMS Federal Cooperative Agreement"
+      },
+      {
+        "label": "DOH RHTP Program Page — Commissioner final authority, ACF role, AI-eligible uses",
+        "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+        "type": "primary",
+        "layer": "DOH Commissioner Final Award Authority"
+      },
+      {
+        "label": "DOH RHTP Advisory Council Page — non-decisional status confirmed",
+        "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/rhtp-advisory-council/",
+        "type": "primary",
+        "layer": "RHTP Advisory Council (Non-Decisional)"
+      },
+      {
+        "label": "GovTech June 9 2026 — RHTP AI direction",
+        "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+        "type": "secondary",
+        "layer": "news_trigger"
+      }
+    ]
+  }
 }

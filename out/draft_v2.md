@@ -1,23 +1,26 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+HEADLINE: Who Controls Rural
+Health AI Capital
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+---
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+Alaska's DOH Commissioner controls who gets a piece of $272M per year in federal rural health AI money. Per ADN on June 7, roughly 400 applicants just cleared the first screen and have until June 22 to submit final proposals.
 
-Five layers sit between an Air Force land offer and a powered data center.
+The RHTP is a five-year CMS cooperative agreement (RHTCMS332062) routing $1.36B total through the Alaska Department of Health for rural health transformation statewide. Eligible uses explicitly include AI-enabled tools and wearables.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The pipeline has five layers.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+- [CMS FEDERAL AGREEMENT]. Authorizes $272,174,856/year to Alaska DOH under defined allowable use categories, not individual subrecipient picks. Controlled by Centers for Medicare and Medicaid Services.
+- [DOH COMMISSIONER FINAL AUTHORITY]. Program language states “Final funding decisions will be made by the DOH Commissioner.” ACF and Advisory Council are explicitly non-decisional. Controlled by the DOH Commissioner.
+- [ACF ADMINISTRATIVE LAYER]. Manages the Bonfire portal, assists applicants, issues subawards for Commissioner-approved projects, under a 10% fee cap. Cannot make final funding decisions. Controlled by Alaska Community Foundation.
+- [RHTP ADVISORY COUNCIL]. Provides informed input on program direction. Explicitly non-decisional. Controlled by the Advisory Council.
+- [SUBRECIPIENT POOL]. Over 400 organizations from a 1,800-proposal intake. Includes ANTHC, Tanana Chiefs Conference, and Maniilaq alongside technology vendors. Applications due June 22.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+The chokepoint is Layer 2. The DOH Commissioner holds approve-or-deny authority over every subrecipient application, including AI deployments. No other actor can override. CMS reviews allowable use categories, not individual selections. ACF executes approvals. The Advisory Council advises. Final selections expected mid-July 2026.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+This mechanism produces a single-approval funnel between $272M per year in federal capital and 400-plus organizations trying to deploy AI across Alaska's rural health system. ACF handles intake. The Advisory Council advises. Neither has decision authority. Rep. Mina called the federal design “almost directing us to AI,” per ADN. That's accurate. What the framing leaves out is that it directs all that capital through a single state office.
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
+Any organization competing for RHTP funding should treat June 22 as a hard application deadline and prioritize direct engagement with the DOH Commissioner's office before mid-July. ACF can answer process questions. Only the Commissioner can answer the one that matters.
 
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+Given that the Advisory Council is explicitly non-decisional, does concentrating this much deployment capital in a single executive appointment give Alaska's tribal health organizations and AI vendors enough structural recourse if priorities shift between now and 2030?
+
+#AlaskaAI #HealthcareAI #RuralHealth #IndigenousData #AIPolicy

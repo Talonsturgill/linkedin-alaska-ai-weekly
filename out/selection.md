@@ -1,27 +1,24 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — The Stack — 2026-06-13
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism**: Alaska RHTP DOH Commissioner Subrecipient Selection Pipeline
 
-## Role
-FOUNDER (kicker middle slot)
+**Category**: capital_sovereignty → SOVEREIGNTY
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger**: ADN June 7, 2026 — "After sifting through nearly 1,800 funding proposals, state officials have narrowed down the potential projects to a list of just over 400. Applicants who advanced through the initial screening process have until June 22 to submit additional information. State legislator Genevieve Mina said: 'You name a program transformation, but the way that the feds designed it is almost directing us to AI.'"
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count**: 5
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Layers**:
+1. CMS Federal Cooperative Agreement — CMS, $272M/year disbursed to Alaska DOH under RHTCMS332062
+2. DOH Commissioner Final Award Authority — Commissioner of Alaska DOH (sole binary approve/deny)
+3. Alaska Community Foundation Administrative Subaward Layer — ACF executes approvals, cannot decide
+4. RHTP Advisory Council (Non-Decisional) — no funding or policy authority
+5. Subrecipient Application Pool — 400+ applicants including ANTHC, TCC, Maniilaq, tech vendors
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Chokepoint**: Commissioner of the Alaska Department of Health at Layer 2. Binary: approve or deny subrecipient applications. DOH program page states "Final funding decisions will be made by the DOH Commissioner" and "the DOH Commissioner retains final decision-making authority on all funding decisions." No appeal, no override from ACF or Advisory Council. Deadline: mid-July 2026 (applications due June 22).
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Structural read**: The RHTP mechanism produces a state-controlled capital allocation funnel where one institutional role — the DOH Commissioner — serves as the sole approval gateway between $272M/year in federal health transformation funds and the 400+ organizations seeking to deploy AI tools in Alaska's rural health system. Because the Advisory Council and ACF are structurally non-decisional, the mechanism forecloses any distributed or consensus-based capital allocation and concentrates rural health AI deployment decisions in a single executive appointment.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Forward implication**: Any organization competing for RHTP subrecipient funding — including AI vendors, tribal health organizations, and health system integrators — should submit complete applications before June 22 and prioritize direct engagement with the DOH Commissioner's office before mid-July. No appeal mechanism, advisory body, or administrative intermediary can substitute for or override the Commissioner's selection decision.
+
+**CATEGORY string for image**: SOVEREIGNTY
