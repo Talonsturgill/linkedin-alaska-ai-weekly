@@ -1,0 +1,121 @@
+{
+  "window": ["2026-06-06", "2026-06-13"],
+  "validation_summary": "All five candidates verified by WebFetch. Corrections applied below: UAF (removed 'twice'; one 2024 closure event after two boats hit the chinook cap over one weekend). Alaska LNG (pipeline ~800 miles, cost $45-55 billion, Cook Inlet 30%-to-1% stat stripped as unverified). GVEA (acreage 4,700 and membership 36,000/6,440 sq mi stripped as unverified; 'outside base fence' softened to 'on the civilian GVEA grid'). SBA 8(a) confidence set medium (one of three sources is a law-firm blog). Nicole Borromeo quote verified verbatim on Alaska Public Media.",
+  "verified_findings": [
+    {
+      "id": "uaf_bycatch_ml",
+      "story_title": "UAF Machine-Learning Model Tells Pollock Trawlers Where Chinook Swim to Cut Bycatch",
+      "verified": true,
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "summary": "University of Alaska Fairbanks researchers, led by graduate student Marcel Gietzmann-Sanders with professors Andrew Seitz and Curry Cunningham, applied machine learning to 13 years and more than 700,000 data points from a U.S. Navy-funded chinook tagging program spanning Southeast Alaska to the Bering Sea, producing depth-distribution charts that predict where chinook occupy the water column by time, temperature, and light. The model gives pollock operators guidance on when and where to fish to avoid chinook, after a 2024 weekend in which two boats hit enough chinook bycatch to close the pollock fishery.",
+      "industry_consequence": "Fisheries (Alaska pollock, the largest U.S. fishery by volume): vessel operators and fleet managers can fold depth and timing forecasts into trip planning in the 2026 season to cut chinook bycatch and lower the risk of industry-wide closures that cost the sector hundreds of millions in catch value.",
+      "verified_facts": [
+        "Lead: UAF grad student Marcel Gietzmann-Sanders; faculty Andrew Seitz and Curry Cunningham",
+        "13 years of tagging data, 700,000-plus data points, Southeast Alaska to Bering Sea",
+        "U.S. Navy primarily funded the chinook tagging project",
+        "In 2024, two boats accumulated enough chinook bycatch over one weekend to close the pollock fishery (ONE closure event, not two)",
+        "Alaska pollock is the largest U.S. fishery by catch volume",
+        "ML produces predictive depth charts by time, temperature, light level"
+      ],
+      "do_not_say": ["'shut down twice' — only one 2024 closure event is supported"],
+      "sources": [
+        {"url": "https://www.uaf.edu/news/salmon-tagging-data-could-help-trawlers-reduce-bycatch.php", "outlet": "UAF News", "pub_date": "2026-06-08", "story_title": "Salmon tagging data could help trawlers reduce bycatch"},
+        {"url": "https://www.homernews.com/2026/06/10/alaska-researchers-using-tagging-data-to-reduce-fishing-bycatch/", "outlet": "Homer News", "pub_date": "2026-06-10", "story_title": "Alaska researchers using tagging data to reduce fishing bycatch"},
+        {"url": "https://www.peninsulaclarion.com/2026/06/10/alaska-researchers-using-tagging-data-to-reduce-fishing-bycatch/", "outlet": "Peninsula Clarion", "pub_date": "2026-06-10", "story_title": "Alaska researchers using tagging data to reduce fishing bycatch"},
+        {"url": "https://alaska-native-news.com/salmon-tagging-data-could-help-trawlers-reduce-bycatch/84483/", "outlet": "Alaska Native News", "pub_date": "2026-06-10", "story_title": "Salmon tagging data could help trawlers reduce bycatch"}
+      ]
+    },
+    {
+      "id": "alaska_lng_hb381",
+      "story_title": "Alaska House Passes LNG Pipeline Tax Exemption 34-5; Senate Must Act Before June 19",
+      "verified": true,
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": false,
+      "summary": "The Alaska House passed HB 381 on June 12 in a 34-5 bipartisan vote, replacing oil-and-gas property taxes on the Alaska LNG project with a volumetric flow tax projected at roughly $120 to $131 million a year, an 80 to 90 percent cut, and sent it to a more skeptical Senate as the 30-day special session expires June 19. Developer Glenfarne still needs a final investment decision, gas supply agreements, and binding off-take before construction on the roughly 800-mile, $45 to 55 billion pipeline that could carry North Slope gas to Railbelt utilities and data-center operators.",
+      "industry_consequence": "Energy infrastructure / data-center power: Glenfarne needs Senate passage by June 19 or project momentum stalls; Railbelt utilities (Chugach, GVEA, MEA) and prospective AI-compute power buyers face compounding gas-supply price uncertainty through 2030 absent a pipeline final investment decision this year.",
+      "verified_facts": [
+        "House passed HB 381 on June 12, vote 34-5",
+        "Volumetric flow tax ~$120M (per ADN June 10) to ~$131M (per APM June 12) annually",
+        "80 to 90 percent reduction vs current law",
+        "Developer is Glenfarne",
+        "Special session expires June 19",
+        "Pipeline ~800 miles, $45 to 55 billion"
+      ],
+      "do_not_say": ["'807 miles' (use ~800)", "'$44.5 to 54.5 billion' (use $45-55B)", "Cook Inlet 30%-to-under-1% supply stat (unverified)"],
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/12/house-passes-major-tax-break-for-alaska-lng-project/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-12", "story_title": "House passes major tax break for Alaska LNG project"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-12/alaska-house-passes-tax-cut-for-north-slope-gas-pipeline-sending-bill-to-senate", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "story_title": "Alaska House passes tax cut for North Slope gas pipeline, sending bill to Senate"},
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/10/alaska-lng-tax-break-bill-advances-to-house-floor-for-consideration/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-10", "story_title": "Alaska LNG tax break bill advances to House floor"}
+      ]
+    },
+    {
+      "id": "gvea_grid_cost",
+      "story_title": "Interior Alaska Residents Warn GVEA Members Will Absorb Costs of Air Force AI Data Center Parcels",
+      "verified": true,
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": false,
+      "summary": "After the June 5 Air Force Request for Lease Proposal opened parcels at JBER, Eielson, and Clear SFS to privately financed AI data centers, Interior residents flagged a grid-cost concern: three of the five Eielson-area sites would draw on Golden Valley Electric Association's civilian cooperative grid, raising the prospect that GVEA members, not the developer, cover upgrade and capacity costs. GVEA did not answer press questions on capacity or rate impact, and the Air Force has not detailed timelines or power generation, with bids closing June 29.",
+      "industry_consequence": "Utility / cooperative sector: GVEA faces a potentially material interconnection and rate-impact decision if an AI data-center operator wins a lease on the Eielson-area sites tied to its grid, with bids closing June 29 and no public board-review timeline.",
+      "verified_facts": [
+        "June 5 DAF Request for Lease Proposal",
+        "Sites at JBER, Eielson AFB, Clear Space Force Station",
+        "Bid window closes June 29",
+        "Three of five Eielson-area sites would draw on the GVEA civilian grid, raising member cost concerns",
+        "GVEA did not respond to press inquiries"
+      ],
+      "do_not_say": ["'4,700 acres' (unverified on fetched pages)", "'36,000 member-owners / 6,440 square miles' (unverified)", "'outside the base fence' (say 'on the civilian GVEA grid')"],
+      "sources": [
+        {"url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-11", "story_title": "Proposed Air Force data center land leases raise some concerns"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "KTUU / Alaska's News Source", "pub_date": "2026-06-08", "story_title": "US military plans to lease Alaska land for AI data centers, community responds"}
+      ]
+    },
+    {
+      "id": "nsf_techaccess",
+      "story_title": "NSF TechAccess AI-Ready America Round 1 LOI Deadline Falls This Week",
+      "verified": true,
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "summary": "NSF's TechAccess: AI-Ready America program (NSF 26-508) set a Round 1 Letter of Intent deadline of June 16, 2026, funding state and territory AI coordination hubs at $1 million a year for three years, with only 10 hubs in Round 1 out of an eventual 56. Alaska-eligible leads such as the University of Alaska system and the Alaska Workforce Innovation Board must decide whether to compete now or wait for Round 2 (LOI December 15, 2026).",
+      "industry_consequence": "Higher education and workforce development: a University of Alaska-led consortium must decide by June 16 whether to file a Round 1 LOI or defer to Round 2, determining whether Alaska shapes or inherits the design of a federally funded AI workforce hub for three years.",
+      "verified_facts": [
+        "Round 1 LOI deadline June 16, 2026",
+        "$1M/year for three years per hub",
+        "10 hubs in Round 1, 56 total eventual",
+        "Round 2 LOI December 15, 2026"
+      ],
+      "do_not_say": ["Do not claim a named Alaska applicant has filed; eligibility class only"],
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "NSF (primary solicitation)", "pub_date": "2026-03-01", "story_title": "TechAccess: AI-Ready America solicitation NSF 26-508"},
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america", "outlet": "NSF", "pub_date": "2026-03-01", "story_title": "TechAccess: AI-Ready America program page"}
+      ]
+    },
+    {
+      "id": "sba_8a_rule",
+      "story_title": "SBA Proposes to Eliminate Race-Based 8(a) Presumption; Alaska Native Corporations Explicitly Carved Out",
+      "verified": true,
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "summary": "The SBA published a proposed rule June 11, 2026 stripping the rebuttable presumption of social disadvantage for individually owned 8(a) applicants and replacing it with a documented-evidence test open to any U.S. citizen. The rule explicitly exempts entity-owned firms including Alaska Native Corporations, and ANCSA Regional Association president Nicole Borromeo called the recognition of the 8(a) program encouraging, though a broader applicant pool could intensify competition for set-aside work ANCs rely on. Comments close July 13.",
+      "industry_consequence": "Federal IT and professional-services contracting: ANCs have until July 13 to file comments shaping the final rule, and face a structural risk that a larger 8(a) entrant pool compresses win rates on set-aside task orders within 12 to 24 months of finalization.",
+      "verified_facts": [
+        "Proposed rule published June 11, 2026",
+        "Strips rebuttable presumption of social disadvantage for individually owned 8(a) applicants",
+        "Entity-owned firms including ANCs explicitly exempted",
+        "ANCSA Regional Association president Nicole Borromeo quoted (verbatim verified on APM)",
+        "Comments close July 13, 2026"
+      ],
+      "do_not_say": ["Treat PilieroMazza as commentary, not independent reporting"],
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/2026/06/11/feds-propose-upending-8a-program-but-say-it-wont-impact-big-alaska-firms/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-12", "story_title": "Feds propose upending 8(a) program but say it won't impact big Alaska firms"},
+        {"url": "https://alaskapublic.org/news/alaska-desk/2026-06-12/federal-officials-say-proposed-drastic-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "story_title": "Federal officials say proposed changes to a contracting program won't affect tribes and Native corporations"},
+        {"url": "https://www.pilieromazza.com/sba-issues-proposed-rule-regarding-social-disadvantage-requirements-for-individually-owned-8a-applicants/", "outlet": "PilieroMazza (law-firm commentary)", "pub_date": "2026-06-11", "story_title": "SBA issues proposed rule on social-disadvantage requirements for 8(a)"}
+      ]
+    }
+  ]
+}
