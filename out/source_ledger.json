@@ -1,48 +1,47 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "run_date": "2026-06-13",
+  "column": "The Stack",
+  "mechanism": "Alaska RHTP DOH Commissioner Subrecipient Selection Pipeline",
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+      "url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/",
       "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "pub_date": "2026-06-07",
+      "story_title": "Alaska health officials advance over 400 projects for rural health transformation funding",
+      "type": "secondary",
+      "layer": "news_trigger"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190",
+      "outlet": "TAGGS/HHS Award Database",
+      "pub_date": "2025-12",
+      "story_title": "Award Detail — RHTCMS332062",
+      "type": "primary",
+      "layer": "CMS Federal Cooperative Agreement"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/",
+      "outlet": "Alaska Department of Health",
+      "pub_date": "2026",
+      "story_title": "Rural Health Transformation Program — Commissioner authority, ACF role, AI-eligible uses",
+      "type": "primary",
+      "layer": "DOH Commissioner Final Award Authority"
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "url": "https://health.alaska.gov/en/education/rural-health-transformation-program/rhtp-advisory-council/",
+      "outlet": "Alaska Department of Health",
+      "pub_date": "2026",
+      "story_title": "RHTP Advisory Council — non-decisional status confirmed",
+      "type": "primary",
+      "layer": "RHTP Advisory Council (Non-Decisional)"
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+      "outlet": "Government Technology",
+      "pub_date": "2026-06-09",
+      "story_title": "Do Alaska Rural Health Transformation Funds Point to AI?",
+      "type": "secondary",
+      "layer": "news_trigger"
     }
   ]
 }
