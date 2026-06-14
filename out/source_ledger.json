@@ -1,48 +1,15 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "volume": "VOL. 05",
+  "date": "2026-06-13",
+  "window": ["2026-06-06", "2026-06-13"],
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"story_title": "RED FLAG-Alaska 26-2 uncrewed reconnaissance integration", "url": "https://www.dvidshub.net/news/printable/567484", "outlet": "DVIDS", "pub_date": "2026-06-11"},
+    {"story_title": "RED FLAG-Alaska 26-2 joint and partner integration", "url": "https://www.dvidshub.net/news/567468/11th-airborne-division-demonstrates-joint-and-partner-integration-during-red-flag-alaska-26-2", "outlet": "DVIDS", "pub_date": "2026-06-11"},
+    {"story_title": "Combined joint forces conclude RED FLAG-Alaska 26-2 (June 12)", "url": "https://www.dvidshub.net/news/567666/combined-joint-forces-conquer-red-flag-alaska-26-2", "outlet": "DVIDS", "pub_date": "2026-06-12"},
+    {"story_title": "Air Force AI data-center RFLP, community response, GVEA grid risk", "url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source", "pub_date": "2026-06-08"},
+    {"story_title": "Proposed Air Force data-center leases raise concerns (GVEA, North Pole Middle School)", "url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-11"},
+    {"story_title": "GCI deploys Starlink bonded gateways to four Alaska hubs", "url": "https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/", "outlet": "Telecompetitor", "pub_date": "2026-06-11"},
+    {"story_title": "GCI partners with Starlink to bring connectivity to Alaska", "url": "https://broadbandbreakfast.com/gci-partners-with-starlink-to-bring-connectivity-to-alaska/", "outlet": "Broadband Breakfast", "pub_date": "2026-06-11"},
+    {"story_title": "Background: Stak Energy North Slope AI data center proposal (late-May reporting)", "url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26"}
   ]
 }

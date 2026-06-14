@@ -1,0 +1,163 @@
+{
+  "window": ["2026-06-06", "2026-06-13"],
+  "validated_at": "2026-06-13",
+  "volume": "VOL. 05",
+  "stories": [
+    {
+      "id": "AIRBORNE_DRONE_REDFLAG",
+      "verdict": "verified",
+      "in_window_source_present": true,
+      "story_title": "Uncrewed reconnaissance integrated into a live multinational forcible-entry at RED FLAG-Alaska 26-2",
+      "verified_facts": [
+        "RED FLAG-Alaska 26-2 concluded June 12, 2026 at Eielson AFB and JBER.",
+        "The 1-40th Cavalry of the 11th Airborne Division ran a joint forcible entry at Donnelly Drop Zone that integrated drone reconnaissance with live TOW and mortar fires in a contested environment.",
+        "Over 2,100 service members and 70 aircraft from the U.S., UK, Canada, New Zealand, and Singapore participated.",
+        "Held across the Joint Pacific Alaska Range Complex (JPARC)."
+      ],
+      "do_not_assert": [
+        "Specific 'June 10' date for the forcible entry (DVIDS source 2 places the JFE phase June 3-5; use 'during the exercise, which concluded June 12').",
+        "The 1-511th PIR unit transformation in July (unsourced on fetched pages; omit or attribute as reported)."
+      ],
+      "industry_consequence": "Defense / autonomous systems: JPARC is functioning as the DoD's cold-environment test bed for uncrewed-systems doctrine, and the requirements written there become the procurement spec UAS vendors must meet.",
+      "sources": [
+        {"url":"https://www.dvidshub.net/news/printable/567484","outlet":"DVIDS","pub_date":"2026-06-11"},
+        {"url":"https://www.dvidshub.net/news/567468/11th-airborne-division-demonstrates-joint-and-partner-integration-during-red-flag-alaska-26-2","outlet":"DVIDS","pub_date":"2026-06-11"},
+        {"url":"https://www.dvidshub.net/news/567666/combined-joint-forces-conquer-red-flag-alaska-26-2","outlet":"DVIDS","pub_date":"2026-06-12"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "DAF_RFLP_GVEA",
+      "verdict": "verified",
+      "in_window_source_present": true,
+      "story_title": "Air Force AI data-center RFLP at JBER/Eielson/Clear draws Interior pushback; GVEA grid-cost risk (bids due June 29)",
+      "verified_facts": [
+        "DAF released an RFLP for privately financed and operated AI data centers at JBER, Eielson, and Clear SFS; proposals due June 29, 2026.",
+        "In-window reporting June 8 to 11 documented community concerns over permafrost, noise, water, and GVEA grid-cost exposure.",
+        "One parcel is reportedly less than a mile from North Pole Middle School.",
+        "Five Eielson-area parcels; the RFLP requires the developer to secure its own power, and residents fear costs land 'on the backs of GVEA members.'",
+        "No Alaska ratepayer-protection statute is in place (SB 250 not enacted)."
+      ],
+      "do_not_assert": ["Acreage figure '4,700 acres' / '12 parcels' (unverified). Say 'parcels across three installations'."],
+      "industry_consequence": "Energy/utility: GVEA and Interior ratepayers face a decision before June 29 on whether to register grid-cost objections, with no Alaska statute preventing cross-subsidization.",
+      "sources": [
+        {"url":"https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/","outlet":"Alaska's News Source","pub_date":"2026-06-08"},
+        {"url":"https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html","outlet":"Fairbanks Daily News-Miner","pub_date":"2026-06-11"}
+      ],
+      "confidence": "high",
+      "frame_note": "RFLP landlord/operator frame led 06-11; GVEA cost was support 06-13. Use as supporting test-bed/substrate angle only, NOT as lead."
+    },
+    {
+      "id": "GCI_STARLINK_GATEWAYS",
+      "verdict": "verified",
+      "in_window_source_present": true,
+      "story_title": "GCI deploys Starlink bonded gateways to Bethel, Sitka, Kotzebue, Dillingham",
+      "verified_facts": [
+        "GCI announced June 11 it is deploying Starlink dedicated bonded gateways at Bethel, Sitka, Kotzebue, and Dillingham for multi-gigabit middle-mile capacity.",
+        "Extends GCI's 2024 SpaceX reseller agreement; follows operational installs at Unalaska (up to 10 Gbps) and Nome.",
+        "GCI exec, verbatim: 'We have long said it takes every tool in our toolkit to serve a state like Alaska.'"
+      ],
+      "do_not_assert": ["'99%+ uptime' (not confirmed on fetched pages; strip)."],
+      "industry_consequence": "Broadband/telecom: GCI must decide within 12 months whether to route BEAD dollars toward hybrid satellite architecture vs pure fiber after repeated subsea cable breaks.",
+      "sources": [
+        {"url":"https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/","outlet":"Telecompetitor","pub_date":"2026-06-11"},
+        {"url":"https://broadbandbreakfast.com/gci-partners-with-starlink-to-bring-connectivity-to-alaska/","outlet":"Broadband Breakfast","pub_date":"2026-06-11"}
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "ANC_AETC_IDIQ",
+      "verdict": "verified",
+      "in_window_source_present": true,
+      "story_title": "Four Alaska ANC subsidiaries land spots on Air Force $4B AETC base-operations IDIQ",
+      "verified_facts": [
+        "June 8: Air Force awarded a $4 billion, 10-year base-operations support IDIQ for AETC to 19 firms (22 offers received).",
+        "Four Anchorage ANC subsidiaries: Chugach Intelligence Solutions, Alutiiq Operations Services, Alcyon, Bering Straits Management Services.",
+        "Scope includes IT and communications services. Contract runs through June 30, 2036.",
+        "AETC bases are in the Lower 48 (OK, TX, AL, AZ, NM, MS); the Alaska tie is corporate ANC ownership, not geography."
+      ],
+      "do_not_assert": ["'first competitions within 90 days' (inferential, not sourced)."],
+      "industry_consequence": "Federal defense IT (ANC subsidiaries): four ANC firms hold multiple-award positions through 2036 to compete for AETC task orders.",
+      "sources": [
+        {"url":"https://www.globalsecurity.org/military/library/news/2026/06/dod-contracts_4511381.htm","outlet":"GlobalSecurity.org (DoD daily contracts)","pub_date":"2026-06-08"},
+        {"url":"https://news.clearancejobs.com/2026/06/08/19-companies-win-a-4-billion-air-force-base-support-idiq/","outlet":"ClearanceJobs","pub_date":"2026-06-08"}
+      ],
+      "confidence": "medium",
+      "frame_note": "AI angle thin (base-ops IT/comms), Lower-48 bases. Optional supporting texture only."
+    },
+    {
+      "id": "H1B_TEACHERS",
+      "verdict": "verified",
+      "in_window_source_present": true,
+      "story_title": "Federal judge voids $100K H-1B fee; Alaska rural districts warn the hiring window may already be closed",
+      "verified_facts": [
+        "June 8: U.S. District Judge Leo Sorokin struck down the $100,000 H-1B visa fee as an unauthorized tax violating the APA.",
+        "341 of Alaska's 573 international teachers hold H-1B visas; some rural districts depend on international staff for 50 to 80% of positions.",
+        "Alaska Council of School Administrators (Lisa Parady) warns districts will wait-and-watch pending appeal; 1,200+ teaching vacancies statewide."
+      ],
+      "industry_consequence": "Education workforce: rural districts decide by ~August 2026 whether to resume H-1B sponsorships before an appeal could reinstate the fee.",
+      "sources": [
+        {"url":"https://www.alaskasnewssource.com/2026/06/08/federal-judge-blocks-h1-b-visa-100k-fee/","outlet":"Alaska's News Source","pub_date":"2026-06-08"},
+        {"url":"https://www.chilkatvalleynews.com/2026/06/12/court-keeps-international-teacher-visa-fees-affordable-for-alaska-districts-but-it-may-be-too-late/","outlet":"Chilkat Valley News","pub_date":"2026-06-12"},
+        {"url":"https://www.kmxt.org/2026-06-08/federal-judge-strikes-down-trumps-100-000-fee-on-new-h-1b-visas","outlet":"KMXT","pub_date":"2026-06-08"}
+      ],
+      "confidence": "high",
+      "frame_note": "AI angle is essentially nil. Do NOT use in an AI-page post unless as a brief workforce aside. Default: omit."
+    },
+    {
+      "id": "GREAT_AMERICAN_AI_ACT",
+      "verdict": "verified_softened",
+      "in_window_source_present": true,
+      "story_title": "Great American AI Act draft would preempt state AI-development laws for three years; deployment rules survive",
+      "verified_facts": [
+        "The bipartisan Great American AI Act discussion draft (released June 4-5) imposes a three-year preemption on state laws regulating AI model development; deployment/use, civil-rights, labor, and privacy rules are preserved.",
+        "Analysts (DLA Piper, Future of Privacy Forum) confirm the preemption targets development, not deployment.",
+        "It is a discussion draft, not enacted (prospective)."
+      ],
+      "do_not_assert": ["That Alaska's SB 2/HB 239 'would survive' as reported fact; attribute as analysis. No fetched page is Alaska-specific."],
+      "industry_consequence": "Government/legal: Alaska's window to set developer-facing AI rules narrows; deployment rules survive but development rules would be frozen until ~2029.",
+      "sources": [
+        {"url":"https://www.techtimes.com/articles/317903/20260606/federal-ai-regulation-bill-freezes-state-consumer-protections-three-years-sparks-revolt.htm","outlet":"TechTimes","pub_date":"2026-06-06"},
+        {"url":"https://www.dlapiper.com/en-us/insights/publications/2026/06/unpacking-the-great-american-ai-act","outlet":"DLA Piper","pub_date":"2026-06-05"},
+        {"url":"https://fpf.org/blog/frontier-ai-goes-federal-how-the-great-american-ai-act-compares-to-state-laws/","outlet":"Future of Privacy Forum","pub_date":"2026-06-09"}
+      ],
+      "confidence": "medium",
+      "frame_note": "Policy texture; attribution-softened. Optional."
+    },
+    {
+      "id": "STAK_NORTHSLOPE",
+      "verdict": "background_only",
+      "in_window_source_present": false,
+      "story_title": "Stak Energy's proposed $500M North Slope private AI data center (DNR comment period)",
+      "verified_facts": [
+        "Stak Energy is seeking a 50-year state land lease near Milepost 390 of the Dalton Highway for a proposed $500 million AI/HPC campus drawing 1 to 3 GW from North Slope natural gas (per late-May reporting).",
+        "Alaska DNR opened a public comment period on its preliminary best-interest finding; reporting described the close as 'mid-June.'"
+      ],
+      "do_not_assert": ["The specific 'June 15' deadline as confirmed fact. All sources dated May 14 / May 26 (out of window). Alaska Beacon URL returned 403."],
+      "usage": "Background only. If referenced, attribute: 'reported in late May ... comment period expected to close in mid-June.' Do not lead on it.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center","outlet":"Alaska Public Media","pub_date":"2026-05-26"},
+        {"url":"https://thealaskastory.com/will-north-slope-data-center-proposal-get-targeted-by-dark-money-protests-public-comment-period-open/","outlet":"The Alaska Story","pub_date":"2026-05-26"}
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "HB239_AICSAM",
+      "verdict": "background_only",
+      "in_window_source_present": false,
+      "story_title": "Alaska HB 239 AI-CSAM felony provisions (passed May 20, governor action pending)",
+      "verified_facts": [
+        "HB 239 passed 20-0 (Senate) and 39-1 (House) on May 20 and includes felony penalties for AI-generated CSAM.",
+        "Governor's office said the bill 'will require careful analysis' (May 20 quote)."
+      ],
+      "do_not_assert": ["That it was confirmed still unsigned during the June 6-13 window (no in-window source)."],
+      "usage": "Background only.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session","outlet":"Alaska Public Media","pub_date":"2026-05-20"},
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/","outlet":"Anchorage Daily News","pub_date":"2026-05-20"}
+      ],
+      "confidence": "medium"
+    }
+  ],
+  "validation_summary": "Five verified in-window (RED FLAG autonomy, DAF/GVEA data-center RFLP, GCI Starlink gateways, ANC AETC IDIQ, H-1B teacher ruling) plus GAAIA verified-softened. STAK North Slope and HB 239 demoted to background-only (sources out of window). Validator ran clean; no transient failures."
+}
