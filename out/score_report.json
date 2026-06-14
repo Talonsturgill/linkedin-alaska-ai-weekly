@@ -1,32 +1,28 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.13, "notes": "First three sentences name the asserter (Governor Dunleavy), restate the claim, and signal the correction ('The tense is wrong') without snark. Fractional deduction because the hook paraphrases the claim rather than quoting it verbatim."},
+    {"name": "Claim load-bearing + AK stakes", "score": 10, "weight": 0.20, "notes": "Governor's CS Education Week proclamation directly governs DEED CS-education grant framing statewide. Correction names three concrete actor categories, dollar amounts ($1B+ BEAD, $629M awarded), agencies, and a 2025-2028 deployment window with a 30% coverage gap."},
+    {"name": "Steelman fairness", "score": 10, "weight": 0.12, "notes": "Paragraph two states the strongest honest version generously: real $1B+ BEAD funding, 29 projects, remote tech work genuine and growing, premise sound. No snark. Reader feels fairly represented before the rebuttal."},
+    {"name": "Counter-evidence quality", "score": 8, "weight": 0.10, "notes": "Primary rebuttal rests on Commerce Commissioner Julie Sande's Juneau Empire op-ed (state primary). BroadbandNow/FCC 68.5% figure is credible secondary but is_primary false and a single outlet, short of the two-independent-outlet bar for a 10."},
+    {"name": "Factual density", "score": 10, "weight": 0.10, "notes": "Specifics every 1-2 sentences: dates, dollar amounts, subgrantee counts, 46,000 homes, 70%, Utqiagvik to Metlakatla, 68.5%, 25/3 Mbps, 2025-2028 timeline."},
+    {"name": "Source quality", "score": 8, "weight": 0.13, "notes": "Claim attribution traces to the Governor's proclamation and DEED page (primary). Main counter (Sande/Juneau Empire) is primary. BroadbandNow is FCC-derived secondary, one outlet, preventing a clean 10. All sources present in claim_dossier.json."},
+    {"name": "Voice match", "score": 9, "weight": 0.12, "notes": "Matches examples/post_001.md: analytical, structural, position-taking, corrective without contempt. Minor deduction for 'So here's the open question.'"},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.05, "notes": "Tight 2-4 sentence paragraphs, one 3-item bullet block, ~435 words, ~2922 chars, easy to scan."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Real, debatable binary tied to the corrected sequencing frame. No 'follow us', no rhetorical softener."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Reader can identify their category from the three named actors and name the concrete decision to reframe during the 2025-2028 BEAD window."}
+  ],
+  "weighted_total": 9.29,
+  "threshold": 8.0,
+  "hard_fail_checks": {
+    "hashtag_count_in_range": "PASS — 4 hashtags, within 3-5, all at post end, none inline",
+    "punctuation_bans_held": "PASS — zero em/en/double-hyphen, colon, or semicolon in body; single hyphens only as list markers and compound adjectives",
+    "total_char_count_under_linkedin_cap": "PASS — ~2922 total chars, under 3000",
+    "word_count_in_range": "PASS — ~435 body words, within 350-475",
+    "claim_is_attributed": "PASS — names Governor Mike Dunleavy and quotes the claim verbatim, traces to selected_claim.asserters[0]",
+    "steelman_present": "PASS — genuine steelman in paragraph two before the rebuttal"
+  },
+  "hard_fail": null,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Counter-evidence quality",
+  "one_sentence_fix": "Supplement the BroadbandNow 68.5% statistic with a second independent credible source (e.g. FCC Form 477 state-level data or an NTIA BEAD coverage map citation) so every rebuttal point rests on two independent credible outlets."
 }

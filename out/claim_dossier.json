@@ -1,0 +1,66 @@
+{
+  "selected_claim": {
+    "claim_verbatim": "with the advent of permanent remote work and the buildout of broadband infrastructure throughout the State, all Alaskans, urban and rural, have the ability to access high-paying, technology-driven careers from within their home communities",
+    "claim_paraphrase_fair": "Alaska's statewide broadband buildout is complete enough that every Alaskan — urban or rural — can already access high-paying remote tech careers from home.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of the State of Alaska",
+        "url": "https://gov.alaska.gov/computer-science-education-week-2025/",
+        "outlet": "Official Alaska Governor's Proclamation — Computer Science Education Week 2025",
+        "pub_date": "2025-12-08",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Alaska Department of Education and Early Development (DEED)",
+        "title_or_org": "State of Alaska DEED — Computer Science Program",
+        "url": "https://education.alaska.gov/computer-science",
+        "outlet": "Alaska DEED Computer Science Program Page",
+        "pub_date": "2025-12-01",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 2,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "BEAD funding is real and substantial, remote tech work genuinely is expanding, and the Governor's framing reflects a legitimate and widely shared aspiration that broadband-enabled remote employment can transform rural Alaska's economic isolation. The optimism is grounded in real federal investment.",
+    "steelman": "Alaska has secured over $1 billion in BEAD broadband funding and 29 deployment projects are underway. Remote tech work is a proven and growing category — some Alaskans already hold these jobs today. The Governor's proclamation is a forward-leaning statement of an achievable near-term condition, grounded in real federal capital and a genuine market shift toward distributed tech employment. The aspiration is not fabricated.",
+    "where_it_breaks": "The claim uses present tense — 'have the ability' — but the state's own Commerce Commissioner, writing three months later, confirms that high-speed internet 'has been a luxury in many Alaska communities' and that only around 70% of BEAD-targeted locations are expected to go online within three years. The prerequisite the Governor treats as accomplished is in fact roughly 30% short of its own deployment targets, making 'all Alaskans' materially false as a present-tense statement.",
+    "counter_evidence": [
+      {
+        "fact": "Alaska Commerce Commissioner Julie Sande confirmed in March 2026 that 'high-speed internet — something most Americans take for granted — has been a luxury in many Alaska communities,' that 'around 70% of BEAD locations from Utqiagvik to Metlakatla are expected to go online' within three years, and that only 'over $629 million now awarded to fifteen subgrantees' of the $1B+ allocation has been disbursed across 'twenty-nine broadband deployment projects' targeting 'more than 46,000 homes and small businesses' — all future or in-progress, not complete.",
+        "url": "https://www.juneauempire.com/2026/03/24/opinion-internet-for-all-built-for-alaska/",
+        "outlet": "Juneau Empire — Op-Ed by Commissioner Julie Sande, Alaska DCCED",
+        "pub_date": "2026-03-24",
+        "is_primary": true
+      },
+      {
+        "fact": "FCC Form 477-derived data shows only 68.5% of Alaskans have access to broadband meeting the FCC 25/3 Mbps standard, meaning roughly three in ten Alaska residents cannot purchase qualifying broadband service today.",
+        "url": "https://broadbandnow.com/Alaska",
+        "outlet": "BroadbandNow — Alaska Broadband Statistics (FCC-derived)",
+        "pub_date": "2026-01-01",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "Alaska's broadband buildout is an ambitious and well-funded work in progress — not a completed foundation. The state's own Commerce Commissioner, writing three months after the Governor's proclamation, confirms that meaningful portions of rural Alaska still lack reliable high-speed internet and that 70% BEAD coverage is a target three years out. Workforce-development programs and CS-education initiatives premised on ubiquitous statewide connectivity are currently ahead of the infrastructure they depend on. The honest frame is: 'we are building the prerequisite,' not 'the prerequisite is done.'",
+    "ak_stakes": "Sector: rural AI and tech workforce development. Decision: sequencing of DEED CS-education grants and AI-literacy programs relative to BEAD broadband deployment. Named actors: Alaska DEED program managers, rural community grant recipients, workforce-development capital allocators. Timeframe: active BEAD deployment window 2025-2028, during which mis-sequenced training investments reach communities that cannot yet sustain remote tech employment.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "streamline permitting for large-scale energy and critical mineral projects in Alaska",
+      "drop_reason": "single_non_primary — P2 (Murkowski DOE-AI-permitting) rests on a single July 2024 Senate press release that was not re-verified for active 2026 circulation; the counter-evidence (NETL tool addresses mineral discovery, not permitting) is real but the AK stakes resolve only to speculative operator behavior ('operators MAY factor a nonexistent benefit'), making the load-bearing case weaker than P3's concrete DEED sequencing consequence. P3 is fresher, has a confirmed state-primary rebuttal, and carries higher confidence across all six gates."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "P3 was previously dropped solely because NTIA broadband URLs returned HTTP 403. The orchestrator re-verified both resolvable URLs this cycle (gov.alaska.gov proclamation and juneauempire.com op-ed). The validator independently spot-checked both URLs via WebFetch and confirmed all verbatim spans exactly as reported. P3 now clears all six gate points and was selected over P2 (Murkowski permitting) on grounds of recency (Dec 2025/Mar 2026 vs. July 2024), primary-source rebuttal strength, concrete AK workforce consequence, and high vs. medium confidence."
+}
