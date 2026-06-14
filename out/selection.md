@@ -1,27 +1,19 @@
-# Anchorage Desk Selection — 20 May 2026
+# Cold Take — Selection — NO. 15 — 13 Jun 2026
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+> "with the advent of permanent remote work and the buildout of broadband infrastructure throughout the State, all Alaskans, urban and rural, have the ability to access high-paying, technology-driven careers from within their home communities"
 
-## Role
-FOUNDER (kicker middle slot)
+**Asserter:** Governor Mike Dunleavy, official Computer Science Education Week 2025 proclamation (gov.alaska.gov), 8 Dec 2025. Amplified institutionally by Alaska DEED's Computer Science program page.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (stated fairly, first)
+Alaska has secured more than $1 billion in BEAD broadband funding and 29 deployment projects are underway. Remote tech work is a real and growing category, and some Alaskans already hold these jobs today. The Governor's framing reflects a legitimate aspiration that broadband-enabled remote employment can lift rural Alaska out of economic isolation. The optimism is grounded in real federal capital, not invented.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Corrective thesis (one sentence)
+The connectivity the proclamation treats as finished is, by the state's own Commerce Commissioner three months later, still a $1 billion work in progress roughly 30 percent short of its own three-year targets, so the rural AI/tech workforce pipeline is being sequenced ahead of the infrastructure it depends on.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all in claim_dossier.json)
+1. **Julie Sande, Commissioner, Alaska DCCED** — Juneau Empire op-ed, 24 Mar 2026 (a state primary source, three months after the proclamation): "more than $1 billion allocated," "$629 million now awarded to fifteen subgrantees," "twenty-nine broadband deployment projects" aiming to connect "more than 46,000 homes and small businesses," with "around 70% of BEAD locations from Utqiagvik to Metlakatla expected to go online" within three years, and high-speed internet historically "a luxury in many Alaska communities."
+2. **BroadbandNow (FCC 25/3 standard)** — only 68.5% of Alaskans can access qualifying broadband; roughly three in ten cannot purchase it today.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK business consequence
+Sector: rural AI and tech workforce development. The load-bearing decision is the sequencing of DEED CS-education and AI-literacy grants against BEAD deployment timelines. Training delivered to communities that cannot yet sustain reliable broadband puts the workforce cart before the connectivity horse during the 2025-2028 BEAD window. Grant-writers, DEED program managers, and workforce capital allocators are the readers who should re-order their spend.
