@@ -1,0 +1,56 @@
+{
+  "window": ["2026-06-08", "2026-06-15"],
+  "fresh_candidates": [
+    {
+      "id": "NDAA_AUTONOMY_CMD",
+      "beat": "D",
+      "story_title": "SASC FY2027 NDAA markup creates Robotic and Autonomous Systems Combatant Command, codifies autonomous-weapons review, mandates agentic AI at scale",
+      "key_facts": "SASC voted 18-9 on June 11 to advance its $1.14T FY2027 NDAA. For the first time codifies DOD autonomous weapons review process in statute. Permissively authorizes a new four-star Robotic and Autonomous Systems Combatant Command with direct acquisition authority for unmanned systems. Directs Pentagon to build department-wide ecosystem for 'agentic artificial intelligence at scale and speed.' $1B+ additional maritime unmanned funding.",
+      "ak_angle": "Eielson AFB, JBER, Clear SFS are central Arctic/Pacific theater nodes; JPARC/RED FLAG-Alaska is where uncrewed-systems doctrine is being proven (per 06-13-02). Sen. Sullivan sits on SASC; Murkowski. No Alaska-specific AI provisions in committee text. AK tie is inferential but real. Floor debate then House-Senate conference is where state-specific amendments are historically added (FY2026 secured $292M+ AK MILCON).",
+      "industry_consequence": "AK defense contractors, ANC tech subsidiaries (Chenega, Akima, ASRC Federal, Koniag Government Services), and UAF research programs have a narrow window before Senate floor + conference to engage Sullivan/Murkowski staff for AK-specific AI test/sustainment/basing provisions in the final FY2027 bill.",
+      "sources": [
+        {"url":"https://www.armed-services.senate.gov/press-releases/sasc-completes-markup-of-national-defense-authorization-act-for-fiscal-year-2027","outlet":"U.S. Senate Armed Services Committee","pub_date":"2026-06-11","author":"SASC Communications","primary":true},
+        {"url":"https://breakingdefense.com/2026/06/sascs-1-14t-defense-policy-bill-creates-combatant-command-for-drones/","outlet":"Breaking Defense","pub_date":"2026-06-11","author":"Valerie Insinna"},
+        {"url":"https://defensescoop.com/2026/06/11/senate-pushes-dod-to-create-new-combatant-command-for-unmanned-systems/","outlet":"DefenseScoop","pub_date":"2026-06-11","author":"Mikayla Easley"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false
+    },
+    {
+      "id": "GCI_ALEUTIAN_FIBER",
+      "beat": "E",
+      "story_title": "GCI Aleutian subsea fiber repair delayed by weather; six communities on degraded satellite backup through mid-June; recurring-break reliability risk",
+      "key_facts": "GCI subsea fiber damaged offshore near Chignik Bay knocked out full broadband to six Aleutian communities (Akutan, Chignik Bay, False Pass, King Cove, Perryville, Unalaska). Repair vessel Cable Innovator on site by June 7, weather pushed full restoration past June 12 target, expected to resume ~June 14. On reduced-speed satellite backup since late May. At least third significant Aleutian/Arctic subsea break for GCI since late 2024.",
+      "ak_angle": "Unalaska/Dutch Harbor is the nation's highest-volume commercial fishing port (AI-assisted catch logistics, seafood quality monitoring, NOAA fisheries data). Coast Guard District 17 assets rely on full-bandwidth connectivity. Recurring breaks (Dutch Harbor Dec 2025, Deering late 2025) = compounding reliability risk for edge-compute/AI deployments premised on fiber-grade uptime.",
+      "industry_consequence": "GCI faces repair costs (prior breaks low-single-digit millions each) and service-credit liability; fishing operators and CG D17 must maintain contingency satellite plans indefinitely until GCI demonstrates cable-break MTTR under ~7 days, a standard not met in recent incidents.",
+      "sources": [
+        {"url":"https://www.kucb.org/regional/2026-06-08/crews-on-site-to-fix-aleutian-fiber-outage-service-expected-to-return-by-friday","outlet":"KUCB","pub_date":"2026-06-08","author":"KUCB Staff","primary":true},
+        {"url":"https://alaskapublic.org/news/2026-06-01/gci-customers-in-aleutians-connected-to-satellite-while-waiting-for-fiber-cable-repairs","outlet":"Alaska Public Media","pub_date":"2026-06-01","author":"APM Staff"},
+        {"url":"https://broadbandbreakfast.com/gcis-alaska-subsea-fiber-breaks-start-to-pile-up-and-cost-money/","outlet":"Broadband Breakfast","pub_date":"2026-02-12","author":"Broadband Breakfast Staff","background":true}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false
+    },
+    {
+      "id": "GREAT_AMERICAN_AI_WARN",
+      "beat": "A",
+      "story_title": "Great American AI Act discussion draft: federal WARN Act AI-disclosure mandate + whistleblower shield for employers with 100+ workers",
+      "key_facts": "Bipartisan House discussion draft (Obernolte/Trahan) released June 4; employer-impact analyses June 9-11. Would require employers with 100+ workers to disclose AI as a 'substantial factor' in qualifying mass layoffs, give 60-day WARN notice citing AI systems and share of cuts attributable, protect AI-violation whistleblowers from retaliation. Workforce preemption narrowly scoped to AI model development (does NOT touch state deployment/worker-protection laws).",
+      "ak_angle": "AK's largest non-government employers (GCI, Alaska Airlines, Providence Alaska, ANTHC, ConocoPhillips Alaska, state government) clear the 100-employee threshold. New compliance-planning obligation; no federal precedent for AK HR/legal. NOTE: prior desk coverage of this bill was the PREEMPTION angle; the WARN/whistleblower employer-disclosure angle is fresh.",
+      "industry_consequence": "Cross-sector AK employers (100+) must evaluate AI deployment documentation and layoff-attribution methods on an estimated 12-18 month legislative runway or face WARN Act exposure; whistleblower clause raises internal-reporting risk.",
+      "sources": [
+        {"url":"https://obernolte.house.gov/media/press-releases/obernolte-trahan-release-discussion-draft-great-american-ai-act","outlet":"Rep. Jay Obernolte","pub_date":"2026-06-04","author":"Office of Rep. Obernolte","primary":true},
+        {"url":"https://www.fisherphillips.com/en/insights/insights/congress-proposes-first-comprehensive-federal-ai-framework","outlet":"Fisher Phillips","pub_date":"2026-06-09","author":"Fisher Phillips L&E"},
+        {"url":"https://fedscoop.com/bipartisan-great-american-ai-act-draft-proposes-new-federal-ai-governance-framework/","outlet":"FedScoop","pub_date":"2026-06-09","author":"FedScoop"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "background_context": false
+    }
+  ],
+  "already_covered_recently_DO_NOT_LEAD": [
+    "DAF AI data-center RFLP AFCEC-26-R-0006 (JBER/Eielson/Clear, June 29 bids) - covered 06-10/06-11/06-13-02",
+    "GVEA grid-cost risk - covered",
+    "SBA 8(a) ANC rule (June 11) - covered 06-11",
+    "RHTP $272M rural health - led 06-10",
+    "Alaska LNG HB 381 (House 34-5 June 12) - covered 06-13, background",
+    "Stak Energy North Slope (out of window May) - background",
+    "NANA Works (out of window May 26) - background"
+  ]
+}
