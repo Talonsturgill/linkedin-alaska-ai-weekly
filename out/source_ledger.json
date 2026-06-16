@@ -1,48 +1,15 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "run": "2026-06-15-02",
+  "window": ["2026-06-08", "2026-06-15"],
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"story_title": "Stak Energy North Slope AI data center (DNR comment closed June 15)", "url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska DNR / Online Public Notices (primary)", "pub_date": "2026-05-12"},
+    {"story_title": "Stak Energy North Slope AI data center", "url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26"},
+    {"story_title": "Stak Energy North Slope AI data center", "url": "https://www.yahoo.com/news/articles/huge-data-center-could-rise-180014613.html", "outlet": "Alaska Beacon (via Yahoo)", "pub_date": "2026-05-14"},
+    {"story_title": "HB 239 AI-CSAM felony (Gov. Dunleavy June 18 deadline)", "url": "https://www.billtrack50.com/billdetail/1926037", "outlet": "BillTrack50", "pub_date": "2026-06-04"},
+    {"story_title": "HB 239 AI-CSAM felony", "url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-21"},
+    {"story_title": "HB 239 AI-CSAM felony", "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20"},
+    {"story_title": "GVEA fuel-and-purchased-power rate historic high (background)", "url": "https://www.alaskasnewssource.com/2026/06/01/gvea-announces-rate-increase-starting-june-1-members-see-higher-bills/", "outlet": "KTUU", "pub_date": "2026-06-01"},
+    {"story_title": "GVEA fuel-and-purchased-power rate historic high (background)", "url": "https://fm.kuac.org/energy-and-the-environment/2026-05-28/gvea-plans-extraordinarily-large-increase-in-co-op-fuel-charge", "outlet": "KUAC", "pub_date": "2026-05-28"},
+    {"story_title": "Wrangell Assembly takes up Greensparc edge data center lease (June 9 hearing)", "url": "https://www.kstk.org/2026/06/10/wrangell-borough-assembly-meeting-6-9-2026/", "outlet": "KSTK", "pub_date": "2026-06-10"}
   ]
 }

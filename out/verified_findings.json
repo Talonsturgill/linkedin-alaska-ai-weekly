@@ -1,0 +1,81 @@
+{
+  "window": ["2026-06-08", "2026-06-15"],
+  "run": "2026-06-15-02",
+  "verified": [
+    {
+      "id": "STAK",
+      "beat": "E",
+      "story_title": "Stak Energy North Slope AI data center DNR lease comment period closes June 15",
+      "summary_2_sentences": "Alaska DNR set June 15, 2026 at 4:30 PM AKDT as the public comment deadline on its preliminary best-interest finding for a 50-year lease (ADL 422741) of 715.4 acres along the Dalton Highway approximately 26 miles south of Deadhorse to Stak Energy Corporation. The roughly $500 million project would build modular high-performance computing powered by on-site natural gas with capacity potentially reaching 3 GW, targeting initial operations in 2028.",
+      "why_it_matters_to_alaskans": "The comment-period close is the last formal window to shape DNR's Final Finding and Decision on the state's largest proposed AI infrastructure investment. The project would require a newly built gas pipeline and could consume more natural gas than urban Alaska currently uses for power and heat combined.",
+      "industry_consequence": "Energy and data-center sector: DNR must decide within weeks whether to grant a 50-year lease anchoring the state's largest proposed AI buildout; Stak needs the Final Finding by end of summer to keep a 2028 start, and gas suppliers face a multi-gigawatt offtake question on the same clock.",
+      "sources": [
+        {"url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska DNR / Online Public Notices", "pub_date": "2026-05-12", "author": "Alaska DNR Division of Oil and Gas"},
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26", "author": "Casey Grove"},
+        {"url": "https://www.yahoo.com/news/articles/huge-data-center-could-rise-180014613.html", "outlet": "Alaska Beacon (via Yahoo)", "pub_date": "2026-05-14", "author": "James Brooks"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false,
+      "validation_notes": "DNR primary notice verifies June 15 4:30PM AKDT deadline, ADL 422741, 715.4 acres, ~26mi south of Deadhorse, 50-year lease, modular HPC on natural gas. $500M and up-to-3-GW confirmed by Alaska Beacon and APM (out-of-window background, project specs only). In-window anchor is the June 15 comment deadline, verified on the primary government source."
+    },
+    {
+      "id": "HB239",
+      "beat": "D",
+      "story_title": "Dunleavy has until June 18 to act on Alaska's AI-generated-CSAM felony bill",
+      "summary_2_sentences": "Alaska HB 239, an omnibus crime package that includes a new state felony for AI-generated child sexual abuse material, was transmitted to Governor Mike Dunleavy around June 4, 2026, giving him until June 18 to sign, veto, or let it become law. The bill passed 20-0 in the Senate and 39-1 in the House on May 20.",
+      "why_it_matters_to_alaskans": "If Dunleavy signs or lets it pass, the AI-CSAM felony becomes Alaska's only AI-specific statute; a veto would leave a two-year gap with no legislative session until 2027, as the comprehensive AI governance bill SB2 and the AI task force resolution HCR3 both died without enactment.",
+      "industry_consequence": "AI governance and public safety: Dunleavy must decide by June 18 whether to enact Alaska's only AI-specific criminal statute, setting the state's regulatory baseline as the federal preemption debate proceeds and the legislature stays out until January 2027.",
+      "sources": [
+        {"url": "https://www.billtrack50.com/billdetail/1926037", "outlet": "BillTrack50", "pub_date": "2026-06-04", "author": "N/A"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-21", "author": "N/A"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20", "author": "N/A"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "needs_softening": false,
+      "validation_notes": "June 18 governor deadline, AI-CSAM provision, sent to governor June 4 verified on BillTrack50. 20-0 Senate and 39-1 House verified on APM and ADN. The '~45 states' figure is NOT verified; do not use it. SB2/HCR3 dead is background context."
+    },
+    {
+      "id": "GVEA",
+      "beat": "E",
+      "story_title": "GVEA fuel-and-purchased-power rate hits historic high June 1, up 61% quarter on quarter",
+      "summary_2_sentences": "Golden Valley Electric Association's fuel-and-purchased-power rate rose to 20.7 cents per kilowatt-hour on June 1, 2026, a 61% quarterly increase, adding roughly $46 a month to the average member bill. The spike reflects lost southcentral gas supply and increased reliance on diesel generation.",
+      "why_it_matters_to_alaskans": "Any AI data-center developer eyeing the Fairbanks, North Pole, or Eielson corridor now faces historically high, volatile industrial power costs on the grid that would serve Interior projects.",
+      "industry_consequence": "Power-cost texture: explains why North Slope and Interior AI projects pencil on-site generation rather than drawing from the public grid.",
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/01/gvea-announces-rate-increase-starting-june-1-members-see-higher-bills/", "outlet": "KTUU", "pub_date": "2026-06-01", "author": "KTUU staff"},
+        {"url": "https://fm.kuac.org/energy-and-the-environment/2026-05-28/gvea-plans-extraordinarily-large-increase-in-co-op-fuel-charge", "outlet": "KUAC", "pub_date": "2026-05-28", "author": "KUAC staff"}
+      ],
+      "confidence": "high",
+      "is_in_window": false,
+      "primary_source": false,
+      "background_context": true,
+      "needs_softening": false,
+      "validation_notes": "Background only (June 1 out of window). 20.7 cents/kWh, 61%, $45.74/mo, 'historic high' verified on KTUU. Use as one line of texture, attributed."
+    },
+    {
+      "id": "GREENSPARC",
+      "beat": "E",
+      "story_title": "Wrangell Assembly takes up Greensparc edge data center lease at June 9 hearing",
+      "summary_2_sentences": "The Wrangell Borough Assembly held a June 9, 2026 public hearing on a lease of borough Deep-Water Port land to Greensparc Inc. for an edge data center, the company's second Alaska site after an earlier facility in Cordova. The vote outcome could not be confirmed from available sources.",
+      "why_it_matters_to_alaskans": "The Wrangell hearing is a live test of how small Alaska communities weigh modest data-center revenue against grid and rate risk as AI edge providers chase surplus renewable power.",
+      "industry_consequence": "Edge-compute and rural-utility sector: a borough assembly, not a federal program office, is the gate a commercial AI data center has to clear in Southeast Alaska.",
+      "sources": [
+        {"url": "https://www.kstk.org/2026/06/10/wrangell-borough-assembly-meeting-6-9-2026/", "outlet": "KSTK", "pub_date": "2026-06-10", "author": "KSTK staff"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "needs_softening": true,
+      "validation_notes": "Only the June 9 hearing being scheduled/held is confirmable (KSTK agenda). Wrangell Sentinel and Data Center Dynamics 403'd and were dropped. DO NOT assert the vote outcome, mayor's position, 170 kW Cordova capacity, 1-2 MW size, or port-commission action. Safe load-bearing claims: a June 9 hearing on a Greensparc edge-data-center lease; Greensparc already operates a data center in Cordova. Use as a thin supporting data point only."
+    }
+  ],
+  "dropped_repeats": ["DAF data-center RFLP", "NSPM-11", "SBA 8(a)", "Great American AI Act / GAAIA", "SASC FY2027 NDAA autonomy command", "GCI fiber/Starlink", "RHTP (led 06-10; drone-delivery angle has weak AI tie)"],
+  "slow_beats": ["A (workforce) empty", "C (industry deployment) empty"]
+}
