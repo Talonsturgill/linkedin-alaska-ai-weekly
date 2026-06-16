@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 05 — 15 Jun 2026 (run -02)
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: **Weekly Brief.** A heavily-mined window. The big federal in-window events (DAF data-center RFLP, NSPM-11, SBA 8(a), the Great American AI Act, the SASC FY2027 NDAA autonomy command, GCI fiber) were all already led or supported across the 06-11, 06-13, 06-13-02, and 06-15 runs and are off the table. Beats A (workforce) and C (deployment) returned empty this week. The fresh, verified, non-repeat material lives in state and local decision-making, and three of those decisions share one frame.
 
-## Role
-FOUNDER (kicker middle slot)
+## Lead frame (NEW, not used in the last 4 runs)
+**Alaska's AI buildout got decided at the approval desk this week, not on a federal contract sheet.** The recent desk leads were all federal-and-value-capture framings: "terms written off-Alaska" governance (06-15), Alaska-as-test-bed (06-13-02), ownership vs tenancy (06-13), landlord vs operator (06-11). This week's frame is deliberately the inverse and is institutional-local. The consequential AI decisions in the window are sitting in Alaskan in-trays on hard deadlines: a state land-lease comment desk (DNR), a borough assembly (Wrangell), and the governor's desk (HB 239). The structural read is that Alaska is making generational AI infrastructure and AI-law decisions through routine land-lease and crime-bill machinery, with no AI-specific governance framework behind any of them (SB2 and HCR3 both died) and a grid that just spiked to a historic high. This is a decision-rights / who-holds-the-pen-at-home frame, not a federal value-capture frame, so it does not re-lead any of the last four.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Lead
+**Stak Energy North Slope AI data center, DNR comment period closes June 15 (Beat E, infrastructure).** Verified, primary (Alaska DNR public notice ADL 422741, fetched live), plus Alaska Public Media and Alaska Beacon for project specs. 50-year lease, 715.4 acres ~26 miles south of Deadhorse, roughly $500M, modular high-performance computing on on-site natural gas potentially up to 3 GW, ops targeted 2028. Stak appeared only as a one-line forward-look in prior runs and was never led. The in-window news hook is the comment deadline today, sourced to the primary state notice. This is the state's largest proposed AI buildout deciding its fate through a routine best-interest finding.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Supporting
+1. **HB 239 AI-CSAM felony, Governor Dunleavy's June 18 deadline (Beat D, policy).** Verified, high, primary (BillTrack50 for the deadline; ADN and APM for the 20-0 / 39-1 votes). Fresh to lead/support (only ever held as background before). If enacted it becomes Alaska's only AI-specific statute, and the legislature is out until 2027. Reinforces the frame: the state's AI rulebook is one unsigned bill on one desk. Do NOT use the unverified "~45 states" figure.
+2. **GVEA historic-high power rate (Beat E, background texture).** Verified (KTUU). 20.7 cents/kWh, up 61% on the quarter, effective June 1, out of window. One line only, attributed, as the power-cost reason these projects pencil on-site generation.
+3. **Wrangell / Greensparc edge data center, June 9 hearing (Beat E, thin support).** Verified medium, heavily softened. Only the June 9 hearing on a Greensparc lease and Greensparc's existing Cordova facility are confirmable. Do NOT assert the vote outcome, the mayor's position, or any MW/kW figures. Use as a single sentence showing the same approval-gate dynamic at the borough level.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Dropped / held
+- All federal repeats (RFLP, NSPM-11, SBA 8(a), GAAIA, NDAA, GCI). Already covered.
+- RHTP drone delivery (Beat B): RHTP led 06-10 and the AI tie is weak (the GovTech headline literally asks whether it points to AI). Held.
+- Beats A and C: empty this week.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Package angle
+This week the most consequential Alaska AI decisions weren't federal awards. They were sitting on Alaskan desks with the clock running. The state's largest proposed AI data center, Stak Energy's roughly $500M North Slope campus, hit its DNR comment deadline on June 15, the last formal moment to shape a 50-year lease for compute that would burn more gas than urban Alaska uses to keep the lights on. The governor has until June 18 to sign HB 239, which would make an AI-generated-CSAM felony the only AI-specific law on Alaska's books. A borough assembly in Wrangell spent June 9 deciding whether a Greensparc edge data center belongs on its waterfront. The through-line for the LinkedIn audience is that Alaska is making generational AI infrastructure and AI-law calls through routine land-lease and crime-bill processes, with no AI governance framework behind them and a grid (GVEA, up 61%) that can't carry the load. The lead is Stak, because a 50-year lease decided on a best-interest finding locks the terms for a generation, and the only lever is a comment filed before the desk closes. The question the desk puts to the audience is whether Alaska should be approving multi-gigawatt, multi-decade AI infrastructure one land lease at a time with no statewide AI framework underneath it.

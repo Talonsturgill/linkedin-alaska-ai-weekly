@@ -1,0 +1,77 @@
+{
+  "window": ["2026-06-08", "2026-06-15"],
+  "note": "Run -02 for 2026-06-15. Beats A and C returned empty (slow week). Beat B/D's GAAIA, DAF RFLP, SBA 8(a) are repeats from prior VOL.05 runs and are EXCLUDED. The fresh, non-repeat package is below.",
+  "candidates": [
+    {
+      "id": "STAK",
+      "beat": "E",
+      "story_title": "Stak Energy North Slope AI data center DNR lease comment period closes June 15",
+      "summary_2_sentences": "Alaska DNR set June 15, 2026 4:30 PM AKDT as the deadline for public comments on its preliminary best-interest finding for a proposed 50-year lease (ADL 422741) of 715.4 acres about 26 miles south of Deadhorse to Stak Energy Corporation. The roughly $500 million project would build modular high-performance computing powered by on-site natural gas, potentially up to 3 GW, to serve large-scale AI training, with operations targeted for late 2028.",
+      "why_it_matters_to_alaskans": "The comment-period close is the last formal window to shape DNR's Final Finding and Decision on the state's largest proposed AI infrastructure investment. The project would need a newly built gas pipeline and could consume more gas than urban Alaska now uses for power and heat.",
+      "industry_consequence": "Energy and data-center sector: DNR must decide within weeks whether to grant a 50-year lease anchoring the state's largest proposed AI buildout; Stak needs the Final Finding by end of summer to keep a 2028 start, and gas suppliers face a multi-gigawatt offtake question on the same clock.",
+      "sources": [
+        {"url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska DNR / Online Public Notices", "pub_date": "2026-05-12", "author": "Alaska DNR Division of Oil and Gas"},
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26", "author": "Casey Grove"},
+        {"url": "https://www.yahoo.com/news/articles/huge-data-center-could-rise-180014613.html", "outlet": "Alaska Beacon (via Yahoo)", "pub_date": "2026-05-14", "author": "James Brooks"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "validator_focus": "Confirm the June 15 2026 comment deadline on the DNR primary notice. The deadline is the in-window anchor; secondary coverage is out-of-window background. Verify acreage 715.4, ~26 mi south of Deadhorse, 50-year lease, ADL 422741, and the $500M / on-site gas figures appear on a fetched page."
+    },
+    {
+      "id": "GREENSPARC",
+      "beat": "E",
+      "story_title": "Wrangell Assembly weighs Greensparc edge data center lease at June 9 hearing",
+      "summary_2_sentences": "The Wrangell Borough Assembly held a June 9, 2026 public hearing on a lease of borough Deep-Water Port land to Greensparc Inc. for a roughly 1 to 2 megawatt edge data center, the company's second Alaska site after a 170 kW hydropower-integrated facility in Cordova. Mayor Patty Gilbert signaled intent to deny before the meeting, citing community opposition over noise, grid strain, and rate impacts, after the port commission declined to endorse the lease.",
+      "why_it_matters_to_alaskans": "The Wrangell decision is a live test of how small Alaska communities adjudicate modest data-center revenue against grid-stability and rate risk as AI edge providers chase surplus renewable power. Greensparc is also pursuing Petersburg, so the outcome sets a Southeast reference point.",
+      "industry_consequence": "Edge-compute and rural-utility sector: Greensparc faces a Wrangell decision that determines access to the Deep-Water Port site and Southeast Alaska Power Agency surplus hydropower; a denial pushes it to Petersburg or other municipalities on a tighter clock.",
+      "sources": [
+        {"url": "https://www.kstk.org/2026/06/10/wrangell-borough-assembly-meeting-6-9-2026/", "outlet": "KSTK", "pub_date": "2026-06-10", "author": "KSTK staff"},
+        {"url": "https://www.wrangellsentinel.com/stories/assembly-will-hold-public-hearing-june-9-on-data-center-aml-land-leases,63088", "outlet": "Wrangell Sentinel", "pub_date": "2026-06-05", "author": "Wrangell Sentinel staff"},
+        {"url": "https://www.datacenterdynamics.com/en/news/edge-data-center-firm-greensparc-targets-new-alaska-deployments/", "outlet": "Data Center Dynamics", "pub_date": "2026-06", "author": "DCD staff"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "validator_focus": "Confirm a June 9 2026 public hearing occurred. DO NOT assert the vote outcome unless a fetched post-meeting source confirms it; if unconfirmed, flag needs_softening and write as 'mayor signaled denial' / 'faced a vote', not 'denied'. Verify Cordova 170 kW prior facility and the 1-2 MW figure."
+    },
+    {
+      "id": "HB239",
+      "beat": "D",
+      "story_title": "Dunleavy has until June 18 to act on Alaska's AI-generated-CSAM felony bill",
+      "summary_2_sentences": "Alaska HB 239, an omnibus crime package that includes a new state felony for AI-generated child sexual abuse material, was transmitted to Governor Mike Dunleavy around June 4, 2026, giving him until June 18 to sign, veto, or let it become law. The bill passed 20-0 in the Senate and 39-1 in the House on May 20.",
+      "why_it_matters_to_alaskans": "If Dunleavy signs or lets it pass, Alaska joins the roughly 45 states that have criminalized AI-generated CSAM; a veto leaves a two-year gap with no session until 2027, since the comprehensive AI governance bill SB2 and the AI task force resolution HCR3 both died.",
+      "industry_consequence": "AI governance and public safety: Dunleavy must decide by June 18 whether to enact Alaska's only AI-specific criminal statute, setting the state's regulatory baseline as the federal preemption debate proceeds and the legislature stays out until January 2027.",
+      "sources": [
+        {"url": "https://www.billtrack50.com/billdetail/1926037", "outlet": "BillTrack50", "pub_date": "2026-06-04", "author": "N/A"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/05/20/alaska-legislature-passes-sweeping-crime-and-public-safety-bill/", "outlet": "Anchorage Daily News", "pub_date": "2026-05-21", "author": "N/A"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20", "author": "N/A"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "validator_focus": "Confirm the June 18 2026 governor deadline (BillTrack50). Confirm HB239 contains the AI-generated CSAM felony provision and the 20-0 / 39-1 votes via a fetched page. SB2 and HCR3 dead are background; the live in-window fact is the June 18 deadline."
+    },
+    {
+      "id": "GVEA",
+      "beat": "E",
+      "story_title": "GVEA fuel-and-purchased-power rate hits historic high June 1, up 61% quarter on quarter",
+      "summary_2_sentences": "Golden Valley Electric Association's fuel-and-purchased-power rate rose 7.8 cents to 20.7 cents per kilowatt-hour on June 1, 2026, a 61% quarterly jump, adding about $46 a month to the average member bill. The increase reflects lost cheap southcentral gas power and reliance on diesel.",
+      "why_it_matters_to_alaskans": "Any AI data-center developer eyeing the Fairbanks/North Pole/Eielson corridor now faces historic-high, volatile industrial power costs on the very grid that would serve Interior projects.",
+      "industry_consequence": "Power-cost texture: explains why North Slope and Interior AI projects pencil on-site generation rather than the public grid.",
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/01/gvea-announces-rate-increase-starting-june-1-members-see-higher-bills/", "outlet": "KTUU", "pub_date": "2026-06-01", "author": "KTUU staff"},
+        {"url": "https://fm.kuac.org/energy-and-the-environment/2026-05-28/gvea-plans-extraordinarily-large-increase-in-co-op-fuel-charge", "outlet": "KUAC", "pub_date": "2026-05-28", "author": "KUAC staff"}
+      ],
+      "confidence": "high",
+      "is_in_window": false,
+      "primary_source": false,
+      "background_context": true,
+      "validator_focus": "Background only. Confirm 20.7 cents/kWh, 61% increase, effective June 1 on a fetched page. Use at most one line as texture; attribute clearly."
+    }
+  ]
+}
