@@ -1,0 +1,122 @@
+{
+  "selected_claim": {
+    "claim_verbatim": "Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?",
+    "claim_paraphrase_fair": "Arctic satellite coverage is effectively absent, forcing defense planners to rely entirely on ground, undersea, and airborne sensors for domain awareness — making AI sensor-fusion on non-satellite inputs the only viable architecture for Alaska Arctic defense.",
+    "asserters": [
+      {
+        "name": "Troy Boufard",
+        "title_or_org": "Director, Center for Arctic Security and Resilience, University of Alaska Fairbanks; West Point research fellow",
+        "url": "https://www.meritalk.com/articles/missile-defense-in-the-digital-age-ai-data-and-domain-awareness-in-the-arctic/",
+        "outlet": "MeriTalk",
+        "pub_date": "2026-01-20",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Mathieu Boulègue, Rebecca Pincus, Madison Lipson",
+        "title_or_org": "Foreign Policy Research Institute (FPRI)",
+        "url": "https://www.fpri.org/article/2025/11/protecting-the-north-american-arctic-and-beyond/",
+        "outlet": "FPRI",
+        "pub_date": "2025-11-12",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Kari Bingen",
+        "title_or_org": "Director, Aerospace Security Project, Center for Strategic and International Studies (CSIS)",
+        "url": "https://www.csis.org/analysis/why-golden-dome-america-case-administration-should-make",
+        "outlet": "CSIS",
+        "pub_date": "2026-01-30",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 4,
+    "discourse_slice": "trade_analyst",
+    "why_smart_people_believe_it": "Geosynchronous (GEO) satellites orbit near the equatorial plane and achieve only grazing elevation angles above the Arctic Circle, causing signal degradation and gaps in persistent coverage — a real, well-documented limitation that defense planners and analysts have cited for decades. Boufard is a named UAF/West Point expert speaking from operational experience, lending the claim institutional credibility.",
+    "steelman": "GEO communications and ISR satellites genuinely cannot provide reliable, persistent coverage above approximately 65–70 degrees North latitude due to low elevation angles and atmospheric interference. This is not a fringe concern: it drove the Space Force's Arctic Satellite Broadband Mission and ongoing US-Norway LEO constellation discussions. Defense planners working from a GEO-centric baseline have legitimate reason to emphasize ground, maritime, and airborne sensors to fill documented coverage gaps. AI sensor-fusion architectures built around non-satellite inputs are therefore a rational hedge against a real structural limitation.",
+    "where_it_breaks": "The claim treats satellite incapability as a categorical fact ('don't work'), when it is really a GEO-specific and historical limitation that LEO constellations — including the military-grade Starshield network already operational in Alaska Arctic exercises — directly refute. SAR imaging satellites, confirmed by FPRI (the same defense research community), already provide year-round near-real-time Arctic imagery. Designing sensing architectures around an assumed satellite vacuum causes planners to under-invest in the emerging LEO and SAR integration layer, precisely the layer where AI processing yields the highest marginal return.",
+    "counter_evidence": [
+      {
+        "fact": "U.S. Army 11th Airborne Division used Starshield (military Starlink) terminals during Joint Pacific Multinational Readiness Center Rotation 26-02 in the Yukon Training Area near Fairbanks, Alaska in February 2026. The only reported limitation was a tactical line-of-sight issue through camouflage netting — not an absence of satellite coverage. The satellite link functioned; the operational trade-off was between signal acquisition and thermal-signature concealment.",
+        "url": "https://breakingdefense.com/2026/02/frozen-tablets-and-downed-drones-armys-11th-airborne-learns-to-fight-in-the-arctic/",
+        "outlet": "Breaking Defense",
+        "pub_date": "2026-02-23",
+        "is_primary": true
+      },
+      {
+        "fact": "FPRI's November 2025 report 'Protecting the North American Arctic and Beyond' — authored by the same defense-analyst community that circulates the satellite-gap narrative — explicitly states that synthetic aperture radar (SAR) imaging 'can help provide current satellites increased resolution and year-round, near-real time imagery' in the Arctic, and that discussions around Arctic-dedicated LEO constellations are 'a welcome addition.' This acknowledges functional satellite coverage, not an absence of it.",
+        "url": "https://www.fpri.org/article/2025/11/protecting-the-north-american-arctic-and-beyond/",
+        "outlet": "Foreign Policy Research Institute",
+        "pub_date": "2025-11-12",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "GEO satellites have real Arctic limitations, but the sensor gap that actually shapes Alaska defense AI investment is not satellite absence — it is the integration latency between existing and emerging LEO/SAR satellite streams, over-the-horizon radar, and undersea and airborne sensors. AI architectures that fuse all of these layers are the real opportunity. Planners who design around a 'no-satellite' assumption will mis-specify the problem and over-build ground sensor networks while leaving the highest-leverage AI fusion opportunity — processing the LEO and SAR data feed that already exists — on the table.",
+    "ak_stakes": "Defense AI sensing architecture: DoD program officers and Alaska-based defense contractors (Fort Greely NGI sustainment, Golden Dome Alaska intercept layer) face investment decisions in 2026–2027 on whether to prioritize ground-sensor-only AI fusion versus LEO-integrated multi-domain sensing. A persistent 'satellites don't work' belief systematically biases those decisions away from the LEO integration layer where the real AI sensing opportunity — and Alaska's highest-value defense tech contract exposure — lies.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review, which then would open up the possibilities to apply this EM technology to more vessels",
+      "drop_reason": "true_as_stated — the verbatim is a conditional ('could lead to') framed as an aspiration, not a factual assertion. Steelmanned, the claim is an accurate forward-looking characterization of AI-EM potential; there is no materially false premise to correct."
+    },
+    {
+      "claim_verbatim": "Automation, artificial intelligence (AI), and advanced computing power will be central to its operational feasibility.",
+      "drop_reason": "true_as_stated — Bingen's claim is about a future system still in design. The strongest honest steelman is essentially correct; the counter addresses a different (existing) system and does not rebut the forward-looking claim."
+    },
+    {
+      "claim_verbatim": "All this is a process of doing more with less, as AFSC works to better monitor fisheries and make abundance surveys better.",
+      "drop_reason": "strawman — the claim_verbatim could not be confirmed on any live National Fisherman page (all URL variants returned HTTP 404). Attribution gate fails at step 1 despite strong self-contradicting counter-quotes."
+    },
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "strawman — the ADN editorial page is inaccessible (404/paywall). Verbatim cannot be confirmed on the live page. Attribution gate fails at step 1."
+    },
+    {
+      "claim_verbatim": "AI is moving forward at lightning speed. Alaska is behind the curveball.",
+      "drop_reason": "strawman — Alaska Public Media page for Rep. Gray's February 2026 statement is not accessible at any tested URL (all return 404). Verbatim cannot be confirmed."
+    },
+    {
+      "claim_verbatim": "Anthropic CEO Dario Amodei has warned that AI could replace half of all entry-level jobs in the next five years.",
+      "drop_reason": "strawman — the ADN op-ed page is inaccessible (paywall/404), so the Scheideman verbatim cannot be confirmed. The Fortune May 2026 counter-source also could not be verified."
+    },
+    {
+      "claim_verbatim": "It typically takes the USGS two years to do a single assessment",
+      "drop_reason": "not_load_bearing — Alaska-specific attribution is weak; permitting and infrastructure, not assessment speed, are the documented bottlenecks for Alaska critical mineral development."
+    },
+    {
+      "claim_verbatim": "Very highly skilled AI thought leaders aren't available for state employment. There aren't enough of them out there for the big vendors let alone for state government.",
+      "drop_reason": "single_non_primary — single non-primary asserter (StateScoop video), 2024 date approaching staleness, no second independently originated source confirmed."
+    },
+    {
+      "claim_verbatim": "It positions Alaska to be highly competitive for federal AI education grants.",
+      "drop_reason": "no_primary_counter — counter relies on un-re-verified sources this cycle; 'highly competitive' is a forward-looking opinion difficult to rebut as factually false."
+    },
+    {
+      "claim_verbatim": "Private AI solves many of the concerns about security and data protection that exist with public AI offerings",
+      "drop_reason": "single_non_primary — GCI/Broadcom vendor case study is a single commercial asserter with promotional motive; does not meet authoritative primary asserter threshold."
+    },
+    {
+      "claim_verbatim": "Tailsight will transform Alaska's maintenance operations by offering real-time insights beyond current capabilities",
+      "drop_reason": "true_as_stated — forward-looking executive marketing statement; no primary counter-evidence showing the tool failed. Eight outlets are all verbatim press-release pickup (one origin)."
+    },
+    {
+      "claim_verbatim": "accelerate its cloud-core technology and drive AI opportunities",
+      "drop_reason": "true_as_stated — 5G standalone genuinely enables lower-latency edge AI where deployed; the counter shows coverage limits but does not rebut the enablement claim."
+    },
+    {
+      "claim_verbatim": "offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska",
+      "drop_reason": "no_primary_counter — counter is legislative inaction rather than primary-evidence rebuttal; Graphite Creek FAST-41 timeline source not re-fetched this cycle."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": ""
+}
