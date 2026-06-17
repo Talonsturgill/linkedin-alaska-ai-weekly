@@ -1,32 +1,27 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 10, "weight": 0.13, "notes": "First two lines name the load-bearing claim (Air Force readiness assertion) and signal the correction ('grades bidders on something else entirely') with no snark. Stands on its own near the 210-char cutoff."},
+    {"name": "Claim load-bearing + AK stakes", "score": 10, "weight": 0.20, "notes": "Tied to an active DAF procurement with a June 29 2026 deadline and real capital-mispricing consequences for defense contractors and allocators bidding the Alaska AI data center RLP. Named agency, program, deadline."},
+    {"name": "Steelman fairness", "score": 10, "weight": 0.12, "notes": "P3 is generous and accurate: grants that defense real-estate leasing generates readiness-budget revenue and that dual-use co-location has theoretical defense value. Matches dossier steelman. No snark."},
+    {"name": "Counter-evidence quality", "score": 7, "weight": 0.10, "notes": "Rebuttal quotes the RLP evaluation criteria accurately and traces to claim_dossier.json. A single outlet (Alaska's News Source) reports the RLP contents; no second independent outlet or direct SAM.gov/federal-docket link in the dossier."},
+    {"name": "Factual density", "score": 10, "weight": 0.10, "notes": "Named specifics in nearly every sentence: Moriarty's title, June 9 pub date, RLP quoted verbatim, energy/water/bandwidth criteria, June 29 2026 deadline."},
+    {"name": "Source quality", "score": 7, "weight": 0.13, "notes": "Claim attribution is clearly primary (named senior DoD official, first-person statement, live URL). Counter-evidence shares the same single-outlet concern as Counter-evidence quality. Both sides pass the 7-descriptor but not the 10."},
+    {"name": "Voice match", "score": 9, "weight": 0.12, "notes": "Analytical, structural, business-literate throughout. 'So price it accordingly' and 'a bet on a scoring criterion that isn't written down' are sharp. One slight transitional line before the bullets keeps it from a clean 10. No contempt or dunking."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.05, "notes": "Tight 2-4 sentence paragraphs, one 4-item bullet block, ~441 words, well under 3000 chars. Easy to scan."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Real, debatable industry question tied to the corrected frame. No follow-us CTA, no rhetorical softener."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Reader can name the exact decision to reframe: do not pay a defense-mission premium bidding the DAF Alaska AI data center RLP; compete on energy, water, bandwidth mitigation. Deadline June 29 2026."}
+  ],
+  "weighted_total": 9.19,
+  "threshold": 8.0,
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "tripped": false, "note": "5 hashtags at end only, all on the brand.yaml whitelist."},
+    {"name": "punctuation_bans_held", "tripped": false, "note": "No em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
+    {"name": "total_char_count_under_linkedin_cap", "tripped": false, "note": "Total ~2834 chars, under the 3000 cap."},
+    {"name": "word_count_in_range", "tripped": false, "note": "Body ~424-441 words, within 350-475."},
+    {"name": "claim_is_attributed", "tripped": false, "note": "Names Robert Moriarty and quotes his verbatim claim; traces to claim_dossier.json."},
+    {"name": "steelman_present", "tripped": false, "note": "P3 states the strongest honest version before any rebuttal, consistent with the dossier steelman."}
+  ],
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Counter-evidence quality",
+  "one_sentence_fix": "Add a direct SAM.gov or federal-docket link to the RLP (or a second independent outlet) so counter-evidence meets the primary-source or dual-outlet standard and lifts both Counter-evidence and Source quality to 10."
 }

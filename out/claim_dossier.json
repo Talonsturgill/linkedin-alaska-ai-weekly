@@ -1,0 +1,54 @@
+{
+  "issue_label": "NO. 18",
+  "selected_claim": {
+    "claim_verbatim": "By making this land available, we are supporting the growing demands of the AI industry while generating value that directly supports our missions and the readiness of our Airmen and Guardians.",
+    "claim_paraphrase_fair": "The Department of the Air Force frames its Alaska AI data center leasing initiative as a defense-mission enabler that directly supports military readiness, not merely a real-estate or revenue play.",
+    "asserters": [
+      {
+        "name": "Robert Moriarty",
+        "title_or_org": "Deputy Assistant Secretary of the Air Force for Installations",
+        "url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/",
+        "outlet": "Alaska's News Source",
+        "pub_date": "2026-06-09",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 1,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "A named Deputy Assistant Secretary of the Air Force said it in an official statement, and defense real-estate leasing genuinely does generate funds that flow back into base operations. The mission-revenue framing sounds plausible because defense installations do rely on ancillary revenue to supplement readiness budgets.",
+    "steelman": "When the DAF leases underutilized base land to commercial AI operators, it generates revenue that cross-funds base operations and military readiness programs, so a revenue mechanism can legitimately claim to 'support missions' even if indirect. Moreover, co-locating commercial compute near military installations could eventually create dual-use infrastructure with latent defense-mission value. This is the strongest case for the claim.",
+    "where_it_breaks": "The DAF's own Request for Lease Proposal, as reported on the live Alaska's News Source page, contains evaluation criteria focused exclusively on community impact mitigation, bidders must demonstrate how they will minimize impacts on energy, water, and communication bandwidth, with no mission-integration criteria whatsoever. The 'directly supports our missions' framing is a press-release rationale that does not appear as an evaluation dimension in the actual procurement instrument. Bidders optimizing for selection have no incentive to invest in any mission-alignment features.",
+    "counter_evidence": [
+      {
+        "fact": "The DAF's Request for Lease Proposal, as reported by Alaska's News Source, requires offerors to demonstrate how they will 'minimize and mitigate impacts and risk to the surrounding community, specifically related to the access to and affordability, reliability, and quality of energy, water, and communication bandwidth' and show compatibility with and mitigation of impacts to 'the local environment, culture and infrastructure.' No mission-integration or readiness-support criteria are described among the evaluation standards. Alaska's News Source additionally notes it 'has not received answers to written questions' about the program, meaning mission-integration details are not publicly documented.",
+        "url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/",
+        "outlet": "Alaska's News Source",
+        "pub_date": "2026-06-09",
+        "is_primary": true
+      }
+    ],
+    "more_accurate_frame": "The DAF Alaska AI data center initiative is a real-estate monetization and community-economic-development program operating on military land. The RLP evaluates bidders on community impact mitigation, not on how they will advance Air Force or Space Force missions. Defense contractors and capital allocators considering bids should price this as a ground-lease commercial real-estate deal with community-relations obligations, not as a defense-mission-integration contract with mission-premium upside. The June 29, 2026 RLP deadline means this framing correction is time-sensitive for bid strategy.",
+    "ak_stakes": "Defense sector. Alaska-based and national defense contractors, real-estate capital allocators, and data-center operators deciding whether and how to bid on the DAF Alaska AI data center RLP (deadline June 29, 2026) face a material strategic misjudgment if they invest in mission-integration features or price in a defense-mission-synergy premium that the RLP does not actually reward.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true
+    }
+  },
+  "dropped_claims": [
+    {"claim_verbatim": "the department's total potential value of contracts rose an astounding 1,605% to $90.7 billion from 2024, which represents 98.9% of the federal AI spend", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Our partnership with Saige introduces advanced AI capabilities to our state government functions, accelerating Alaska's IT modernization and ensuring that all residents benefit from cutting-edge technology and an improved digital experience.", "drop_reason": "no_primary_counter"},
+    {"claim_verbatim": "It positions Alaska to be highly competitive for federal AI education grants and other funding opportunities by demonstrating a clear, unified-level strategy", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs accomplish enormous challenges in the fields of science and technology, as well as offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska.", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "We're proud to partner with Alaska Communications to help organizations across Alaska adopt AI confidently, securely and at scale.", "drop_reason": "single_non_primary"},
+    {"claim_verbatim": "Those who don't adopt AI will be left behind. For us, it's about using it to enhance how we work and protect our people while we do it.", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Right now, it's about 12 milliseconds from Alaska to the coast of Oregon.", "drop_reason": "not_load_bearing"}
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Candidate A selected. The 'fair market value in cash' sub-claim in the scouts' counter-evidence characterization was NOT confirmed on the Alaska's News Source live page and has been dropped from the counter-evidence presented. The confirmed counter is narrower but stronger: the RLP evaluation criteria are focused entirely on community impact mitigation (energy, water, bandwidth), with no mission-integration criteria present in the public record. Candidate H (ADN Editorial Board governance gap) was a genuine alternate that passed five of six gates but was outranked by Candidate A on immediacy (live June 29 2026 deadline), counter sharpness, and the inability to confirm HCR 3 via a live URL. Candidate A circulation passes on the authoritative-primary-asserter basis (Rule 2b): Robert Moriarty is a named senior DoD official making a first-person institutional statement."
+}
