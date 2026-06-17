@@ -1,0 +1,111 @@
+{
+  "window": "2026-06-09 to 2026-06-16",
+  "verified": [
+    {
+      "id": "C1",
+      "story_title": "SBA proposed rule eliminates race-based 8(a) presumption; ANCs, tribes, NHOs explicitly exempt",
+      "verdict": "verified",
+      "summary_2_sentences": "On June 11, 2026 the SBA published a proposed rule eliminating the rebuttable racial presumption of social disadvantage for individual 8(a) applicants, requiring all individuals to submit verifiable, fact-based evidence of disadvantage regardless of race. Entity-owned firms, including Alaska Native Corporations, federally recognized tribes, Native Hawaiian Organizations, and Community Development Corporations, are explicitly carved out and unaffected by the proposed changes.",
+      "why_it_matters_to_alaskans": "ANCs are among the largest employers and federal contractors in Alaska; the exemption protects billions in annual federal contract revenue that flows back to Native shareholders and communities statewide. The Alaska Legislature passed HJR 44 in bipartisan support of ANC 8(a) participation.",
+      "industry_consequence": "ANC subsidiaries in IT, AI, cloud, cybersecurity, and defense retain 8(a) eligibility under the proposed rule, but a broader, harder-to-qualify individual applicant pool reshapes competition for the roughly $16.1B in 8(a) awards that went to Native-owned firms in FY2024. Comment window closes July 13, 2026.",
+      "safe_figures": {
+        "comment_deadline": "July 13, 2026 (confirmed by Alaska Public Media, Holland & Knight, Tribal Business News)",
+        "fy2024_native_8a_awards": "$16.1B of ~$26B total 8(a) awards (Tribal Business News, June 13, 2026)",
+        "fortune_46pct": "BACKGROUND ONLY, out-of-window (Fortune May 11): ANC contract obligations down ~46% Oct-April YoY; total tribal 8(a) obligations down ~40% to ~$1.8B. Use only with 'reportedly' + date caveat.",
+        "26pct_800M": "DO NOT CITE; unconfirmed."
+      },
+      "duffey_quote": "Participation by federally recognized tribes and Alaska Native corporation in federal programs is grounded in their political status as Native Americans, not DEI initiatives.",
+      "duffey_name_title": "DoD Under Secretary Michael Duffey (validator-confirmed from Alaska Public Media, June 12, 2026)",
+      "duffey_quote_attribution": "Alaska Public Media (June 12, 2026)",
+      "cautions": [
+        "Do NOT assert a specific HJR 44 transmittal date (June 15 unconfirmed). HJR 44 passed, bipartisan.",
+        "ANC subsidiary names (ASRC Federal, Chenega, Chugach Government Solutions, Koniag Government Services) are well-known background but not on fetched pages; prefer generic 'ANC federal-contracting subsidiaries' phrasing.",
+        "Attribute Duffey quote to Alaska Public Media, not Federal News Network."
+      ],
+      "needs_softening": false,
+      "sources": [
+        {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "SBA.gov", "pub_date": "2026-06-11", "author": "SBA / Administrator Kelly Loeffler", "in_window": true, "primary": true},
+        {"url": "https://alaskapublic.org/news/alaska-desk/2026-06-12/federal-officials-say-proposed-drastic-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "author": "Alena Naiden", "in_window": true, "primary": false},
+        {"url": "https://federalnewsnetwork.com/commentary/2026/06/alaska-speaks-with-one-voice-about-the-8a-program/", "outlet": "Federal News Network", "pub_date": "2026-06-15", "author": "Maxine Dibert & Cathy Giessel", "in_window": true, "primary": false},
+        {"url": "https://www.hklaw.com/en/insights/publications/2026/06/sba-proposes-roll-back-of-social-disadvantage-presumption", "outlet": "Holland & Knight", "pub_date": "2026-06-11", "author": "Holland & Knight", "in_window": true, "primary": false},
+        {"url": "https://tribalbusinessnews.com/sections/federal-8-a-contracting/15646-sba-moves-to-revise-8-a-rules-while-preserving-tribal-anc-eligibility", "outlet": "Tribal Business News", "pub_date": "2026-06-13", "author": "Tribal Business News", "in_window": true, "primary": false},
+        {"url": "https://fortune.com/2026/05/11/trump-cuts-native-american-small-business-contracting-sba-8a-program/", "outlet": "Fortune", "pub_date": "2026-05-11", "author": "Fortune", "in_window": false, "primary": false}
+      ]
+    },
+    {
+      "id": "C2",
+      "story_title": "NSPM-12 signed June 12 (NSS cyber governance); AI procurement overhaul is NSPM-11 (June 5)",
+      "verdict": "verified",
+      "summary_2_sentences": "President Trump signed NSPM-12 on June 12, 2026, re-establishing the Committee on National Security Systems and empowering the NSA Director as National Manager for National Security Systems with authority to issue binding cyber directives. The 120-day AI-procurement overhaul mandate directing DOD and the intelligence community to accelerate multi-vendor AI onboarding belongs to NSPM-11 (June 5, 2026), which NSPM-12 cross-references.",
+      "why_it_matters_to_alaskans": "ANC subsidiaries and Alaska-based defense contractors operating on National Security Systems face new NSA-issued binding cyber directives, while NSPM-11's procurement acceleration opens faster DOD and IC pathways for AI vendors, including Alaska Native firms.",
+      "industry_consequence": "DOD and IC must overhaul AI procurement within 120 days of NSPM-11 (about October 3, 2026) for faster multi-vendor AI onboarding, a window Alaska-based ANC defense and IT subsidiaries can pursue or lose.",
+      "safe_figures": {
+        "nspm12_signing_date": "June 12, 2026",
+        "nspm11_signing_date": "June 5, 2026",
+        "120_day_deadline": "about October 3, 2026 (derived, label approximate)",
+        "contract_termination_language": "Do not quote 'repeated pattern of conduct' verbatim; unconfirmed in primary text."
+      },
+      "cautions": [
+        "CRITICAL: attribute the 120-day AI procurement overhaul + multi-vendor onboarding to NSPM-11, not NSPM-12.",
+        "NSPM-12 = NSS cyber governance, CNSS, NSA Director authority.",
+        "Ward & Berry is a law-firm blog (secondary)."
+      ],
+      "needs_softening": true,
+      "sources": [
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12/", "outlet": "White House", "pub_date": "2026-06-12", "author": "Executive Office of the President", "in_window": true, "primary": true},
+        {"url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-defends-americas-warfighters-and-intelligence-officers-against-cyber-threats/", "outlet": "White House Fact Sheet", "pub_date": "2026-06-12", "author": "Executive Office of the President", "in_window": true, "primary": true},
+        {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/", "outlet": "White House", "pub_date": "2026-06-05", "author": "Executive Office of the President", "in_window": false, "primary": true},
+        {"url": "https://www.wardberry.com/harden-it-or-ship-it-what-the-ai-executive-order-and-nspm-11-mean-for-government-contractors/", "outlet": "Ward & Berry", "pub_date": "2026-06-10", "author": "Ward & Berry", "in_window": true, "primary": false}
+      ]
+    },
+    {
+      "id": "C3",
+      "story_title": "XPRIZE Wildfire $11M finals running June 15-25 in rural Alaska",
+      "verdict": "verified",
+      "summary_2_sentences": "The XPRIZE Wildfire autonomous-track finals run June 15-25, 2026 in rural Alaska across a 1,000 square kilometer test zone, with UAF's Alaska Center for Unmanned Aircraft Systems Integration (ACUASI) as the official test partner. Five finalist teams, Anduril, Data Blanket, Dryad, FireSwarm Solutions, and Wildfire Quest, must autonomously detect and suppress a high-risk ignition in under 10 minutes, competing for a $3.5M grand prize out of an $11M purse.",
+      "why_it_matters_to_alaskans": "Alaska is the proving ground for the most advanced autonomous wildfire AI competition, with UAF ACUASI as evaluator, validating Alaska's role as a premier UAV and AI test environment and demonstrating technology that could protect Alaska's high-acreage fire seasons.",
+      "industry_consequence": "A detect-and-suppress system validated in Alaska conditions could accelerate adoption by the Alaska Division of Forestry and BLM Alaska and create procurement openings for Alaska drone operators and data firms, with UAF ACUASI positioned as a credentialing body.",
+      "safe_figures": {
+        "total_prize": "$11M (xprize.org, PR Newswire)",
+        "grand_prize": "$3.5M (xprize.org + PR Newswire; DroneLife's $2.5M is wrong)",
+        "finals_dates": "June 15-25, 2026",
+        "test_zone": "1,000 square kilometers, rural Alaska",
+        "finalists": "Anduril, Data Blanket, Dryad, FireSwarm Solutions, Wildfire Quest"
+      },
+      "cautions": ["Use 'rural Alaska' (not NANA Region/Fairbanks; single-source). Use $3.5M grand prize."],
+      "needs_softening": false,
+      "sources": [
+        {"url": "https://www.xprize.org/competitions/wildfire", "outlet": "XPRIZE", "pub_date": "2026-06-15", "author": "XPRIZE Foundation", "in_window": true, "primary": true},
+        {"url": "https://www.prnewswire.com/news-releases/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition-302673499.html", "outlet": "PR Newswire", "pub_date": "2026-01-29", "author": "XPRIZE Foundation", "in_window": false, "primary": true},
+        {"url": "https://dronelife.com/2026/05/18/students-compete-in-xprize-wildfire-finals-with-ai-drone-firefighting/", "outlet": "DroneLife", "pub_date": "2026-05-18", "author": "DroneLife", "in_window": false, "primary": false}
+      ]
+    },
+    {
+      "id": "C4",
+      "story_title": "Alaska $272M Rural Health Transformation grant: 400+ proposals advanced, AI-oriented design",
+      "verdict": "verified",
+      "summary_2_sentences": "Alaska's Department of Health advanced more than 400 of nearly 1,800 submitted proposals for its $272M HHS/CMS Rural Health Transformation grant (awarded December 29, 2025), with a supplemental-information deadline of June 22, 2026 and final awards expected July 2026. Proposals include Tanana Chiefs Conference's plan to use drones to deliver vaccines and pharmaceuticals to 27 Interior villages.",
+      "why_it_matters_to_alaskans": "The $272M grant is the largest per-capita rural health award in the country and could reshape remote healthcare delivery by funding autonomous delivery and AI-assisted diagnostics suited to Alaska's geography.",
+      "industry_consequence": "The technology emphasis and the June 22 closing create a near-term procurement pipeline for Alaska AI, telehealth, and drone-logistics firms, with July 2026 awards funneling contract dollars to vendors serving frontier communities.",
+      "safe_figures": {
+        "grant_amount": "$272M ($272,174,856; TAGGS, awarded Dec 29, 2025)",
+        "proposals_advanced": "400+ of nearly 1,800 (GovTech, ADN)",
+        "supplemental_deadline": "June 22, 2026",
+        "final_awards": "July 2026",
+        "rank": "second-largest total allocation nationally (after Texas) and largest per capita (ADN)",
+        "data_tech_percentage": "DO NOT cite ~22%; unconfirmed."
+      },
+      "mina_quote": "You name a program “transformation,” but the way that the feds designed it is almost directing us to AI.",
+      "mina_quote_attribution": "Rep. Genevieve Mina, via GovTech (June 9) and ADN (June 7)",
+      "cautions": ["ADN is June 7 (one day pre-window); use only as corroboration, not sole source. 27 villages per News-Miner."],
+      "needs_softening": false,
+      "sources": [
+        {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "Government Technology", "pub_date": "2026-06-09", "author": "GovTech", "in_window": true, "primary": false},
+        {"url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-07", "author": "ADN", "in_window": false, "primary": false},
+        {"url": "https://www.newsminer.com/news/local_news/advanced-proposals-for-rural-health-fund-includes-several-fairbanks-area-projects/article_2b1ce317-f712-4fc6-b9e4-4ac3438d4e82.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-09", "author": "News-Miner", "in_window": true, "primary": false},
+        {"url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190", "outlet": "HHS TAGGS", "pub_date": "2025-12-29", "author": "HHS / CMS", "in_window": false, "primary": true}
+      ]
+    }
+  ],
+  "notes": "All four clusters verified. Key corrections applied: 26%/$800M figure dropped (unconfirmed); use $16.1B FY2024 figure. July 13 comment deadline confirmed. NSPM-11 vs NSPM-12 distinction enforced. XPRIZE grand prize $3.5M. RHTP 22% figure dropped. Duffey quote attributed to Alaska Public Media."
+}
