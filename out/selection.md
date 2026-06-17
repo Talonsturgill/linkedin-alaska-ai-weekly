@@ -1,27 +1,24 @@
-# Anchorage Desk Selection — 20 May 2026
+# COLD TAKE — NO. 18 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+> "By making this land available, we are supporting the growing demands of the AI industry while generating value that directly supports our missions and the readiness of our Airmen and Guardians."
 
-## Role
-FOUNDER (kicker middle slot)
+**Asserter:** Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations, quoted by Alaska's News Source, 2026-06-09.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Discourse slice:** policy_official (official framing, amplified across trade press).
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Steelman (strongest honest version)
+Leasing underutilized base land to commercial AI operators generates revenue that cross-funds base operations and readiness, so a revenue mechanism can fairly claim to "support missions" even if indirect. Co-locating commercial compute near installations could also create dual-use infrastructure with latent defense value. Smart people believe it because a named senior Air Force official said it, and defense installations genuinely lean on ancillary revenue.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Corrective thesis (one sentence)
+The Air Force's Alaska AI data center program is a commercial ground-lease and community-economic-development play, not a defense-mission-integration contract, because the Request for Lease Proposal grades bidders only on community impact mitigation (energy, water, bandwidth), with no mission-integration criterion anywhere in the public evaluation standards.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Evidence spine (all from claim_dossier.json)
+- The RLP, as reported by Alaska's News Source, requires offerors to demonstrate how they will "minimize and mitigate impacts and risk to the surrounding community, specifically related to the access to and affordability, reliability, and quality of energy, water, and communication bandwidth," plus compatibility with the "local environment, culture and infrastructure." No mission-integration or readiness-support criteria appear in the evaluation standards.
+- Alaska's News Source notes it "has not received answers to written questions" about the program, so mission-integration details are not in the public record.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## Alaska stakes
+Defense contractors, real-estate capital allocators, and data-center operators weighing a bid before the **June 29, 2026 RLP deadline** misjudge the deal if they price in a defense-mission-synergy premium the RLP does not reward. This is a ground lease with community-relations obligations, not a mission contract.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Why this cleared the gate over the runner-up
+Candidate H (ADN Editorial Board "no comprehensive policy, no clear direction, no coordinated strategy") passed five of six gates but was outranked on immediacy (live deadline), counter sharpness (the RLP criteria sit on the same page as the claim), and one unverifiable sub-fact (HCR 3 could not be confirmed via a live URL).
