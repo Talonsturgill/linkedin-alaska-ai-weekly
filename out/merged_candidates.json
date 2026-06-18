@@ -1,192 +1,128 @@
 {
-  "run_date": "2026-05-20",
-  "decision_window": "2026-04-20 to 2026-05-20",
-  "subjects_already_profiled_last_12": [],
-  "subject_decision_blocklist": [],
-  "merged_candidates": [
+  "run_date": "2026-06-18",
+  "decision_window_30d": "2026-05-19 to 2026-06-18",
+  "scout_coverage": {
+    "founders": "2 candidates surfaced; both fail gate pre-screen: Rohit Mahajan/MyEyesAI (primary sources predate window, Gate 2 fail), Erik Williams/beadedcloud (ICGSM conference presentation June 10, Gate 3 weak — presentation not a business decision binary)",
+    "operators": "1 candidate surfaced but outside window by 64 days: Troy Goldie/GCI/Databricks (March 16, 2026). No in-window operator candidates found. Drop.",
+    "municipal": "1 in-window candidate: Lance Wilber/MOA/Tyler Technologies enterprise Payments (May 26, 2026). Multi-sourced. AI consequence borderline — cloud payments platform, not an AI-specific product; Tyler has AI roadmap but consequence is vendor-dependent.",
+    "research": "1 in-window candidate: Vanessa Hiratsuka/Southcentral Foundation AI/ML governance paper (published May 23, 2026). Primary source paywalled (403 Forbidden). 'Decision' is a journal publication codifying governance framework, not an operational binary."
+  },
+  "candidate_subjects": [
     {
-      "full_name": "Sparrow Mahoney",
-      "role": "Founder and CEO",
-      "org": "STAK Energy",
-      "role_category": "founder",
-      "anchorage_tie": "STAK Energy is headquartered in Anchorage, Alaska per company website (stak.energy states 'Based in Anchorage'); Mahoney's professional profile lists 'Greater Anchorage Area, United States' as location. Founded and runs company from Anchorage. Project site is North Slope but the decision-making and corporate entity are Anchorage-based.",
+      "full_name": "Lance Wilber",
+      "role": "Chief Fiscal Officer",
+      "org": "Municipality of Anchorage (MOA)",
+      "anchorage_tie": "Bowl-based role: MOA CFO appointed November 2025 by Mayor Suzanne LaFrance, responsible for all municipal financial management and capital contracts for Anchorage, AK",
+      "role_category": "municipal",
       "decision": {
-        "what_happened": "The Alaska Department of Natural Resources issued a preliminary decision on May 12, 2026 to lease 715.4 acres of North Slope land to STAK Energy for a proposed $500 million AI and cloud computing data center campus. The DNR determined the project serves the state's 'best interest.' Stak filed the lease application with DNR in November 2025; DNR subsequently solicited competing bids and received none, then moved forward with the preliminary approval. The project would reach up to 3 gigawatts of power capacity, use natural gas for off-grid power generation, and target initial operations by late 2028. A public comment period runs through June 15, 2026.",
-        "when": "2026-05-12",
-        "binary_owned": "Mahoney chose to pursue a self-powered, natural-gas-off-grid model for AI data center infrastructure on state-owned North Slope acreage rather than grid-tied or alternative-site approaches, and successfully obtained DNR's preliminary 'best interest' lease determination, committing the company to a 50-year lease track and $500M development path.",
-        "ak_consequence": "Energy/data infrastructure sector; $500M capital commitment; peak construction workforce of 1,500 jobs and approximately 60 permanent positions; 50-year land lease on North Slope state land; public comment period open through June 15, 2026 with final lease decision pending. Sets precedent for whether Alaska becomes a large-scale AI compute host state using stranded North Slope natural gas.",
-        "primary_source_url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "independent_of_subject": true},
-          {"url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/", "outlet": "Data Center Dynamics", "independent_of_subject": true},
-          {"url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "independent_of_subject": true}
-        ]
+        "what_happened": "The Municipality of Anchorage selected Tyler Technologies' enterprise Payments platform on May 26, 2026 — a cloud-based system managing the full payments lifecycle, including billing, presentment, revenue collection, fund settlement, financial reconciliation, and reporting — to centralize revenue collection across all municipal departments. Anchorage had used Tyler's Enterprise Assessment & Tax, Property Access, and SmartFile solutions for over eight years; this contract expands the relationship into unified payments infrastructure. Tyler Technologies has simultaneously named a Chief AI Officer and is actively deploying its Resident AI Assistant across U.S. municipalities as an integrated component of its government platform stack.",
+        "when": "2026-05-26",
+        "binary_owned": "Vendor selection/approve: chose Tyler Technologies as the enterprise payments platform provider over competing government-payments vendors, deepening a single-vendor relationship into a new contract category",
+        "ak_consequence": "Digital government services sector — affects revenue collection for approximately 300,000 Anchorage residents and all municipal billing functions; Tyler's platform roadmap includes generative-AI resident assistant features that MOA would gain access to as the vendor rolls them out; establishes Tyler as Anchorage's dominant govtech stack partner for future AI-adjacent procurement; no disclosed contract dollar value in public sources",
+        "debatable_axis": "Pro: Anchorage was already on three Tyler products — consolidating into Tyler Payments reduces integration friction and leverages existing institutional knowledge; Tyler's AI roadmap means MOA will gain AI-ready payment features without separate procurement. Con: Single-vendor deepening creates platform lock-in risk; Tyler's AI features (Resident AI Assistant) have gone live in six states but not Alaska, and no public commitment exists that Anchorage will adopt them; the CFO selected the platform specifically for payments efficiency, not AI capability — an AI consequence is entirely contingent on vendor roadmap execution Anchorage does not control."
       },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "SHARP, $500M and 50-year state land lease on speculative off-grid natural gas data center model 26 miles from Deadhorse, at the exact moment Cook Inlet gas supply is declining. Stranded North Slope gas plus Arctic free cooling may be a genuine cost advantage for AI compute, but no disclosed outside financing, no anchor tenant, and Mahoney pivoted from a previous crypto mining proposal on the same site.",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "founders"
-    },
-    {
-      "full_name": "Billy Wailand",
-      "role": "Senior Vice President of Corporate Development",
-      "org": "GCI",
-      "role_category": "operator",
-      "anchorage_tie": "GCI is Alaska's largest telecommunications provider, headquartered in Anchorage. GCI's network infrastructure and Anchorage operations teams will absorb Quintillion's 1,800+ miles of fiber into GCI's statewide system. Wailand is Anchorage-based and led the acquisition process.",
-      "decision": {
-        "what_happened": "GCI Holdings announced it has entered into a definitive agreement to acquire 100% of the equity in Quintillion at a $310 million enterprise value. GCI will also reimburse up to $50 million in qualifying capital expenditures for the Nome-to-Homer Express fiber project and provide a $160 million unsecured loan to Quintillion shortly after closing. The transaction combines Quintillion's 1,800+ miles of existing subsea and terrestrial fiber and approximately 1,500 miles of planned fiber expansion with GCI's statewide network.",
-        "when": "2026-04-22",
-        "binary_owned": "Approved acquisition. Wailand, as SVP Corporate Development, owns the deal structure and execution of the $310M Quintillion acquisition, the largest Alaska telecom infrastructure transaction in recent years.",
-        "ak_consequence": "Telecom infrastructure sector; $310M plus $210M in additional capital commitments ($520M total potential outlay); creates a fiber ring around Alaska enabling rerouting during outages; consolidates Alaska's two largest fiber operators; DOD/national security applications cited by Wailand; affects all GCI enterprise and residential customers across Alaska. Closing subject to regulatory approval; timeline 2026 to 2027.",
-        "primary_source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-        "primary_source_outlet": "GCI Newsroom",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/alaskas-gci-acquiring-quintillion/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://knom.org/2026/04/24/fiber-internet-company-quintillion-to-be-acquired-by-gci/", "outlet": "KNOM Radio Mission", "independent_of_subject": true}
-        ]
+      "primary_source": {
+        "url": "https://www.govtech.com/biz/tyler-technologies-expands-digital-payments-in-anchorage",
+        "outlet": "Government Technology (GovTech)",
+        "verbatim_key_passage": "Lance Wilber, chief fiscal officer of Anchorage: 'We are committed to enhancing the way residents interact with our services while improving efficiency across the municipality. Expanding our relationship with Tyler to include enterprise Payments allows us to offer a more convenient, accessible and seamless payment experience for our community.' ... Tyler is 'pursuing higher-profile products backed by AI.'"
       },
-      "subject_quotes": [
+      "corroborating_sources": [
         {
-          "verbatim": "By bringing together complementary fiber routes, deep operational expertise, and long-term investment under one operating model, we're building a network that is stronger, more resilient, and better suited to Alaska's realities than either company could deliver on its own.",
-          "context": "Wailand quoted in joint GCI/Quintillion press release announcing definitive acquisition agreement, April 22, 2026",
-          "source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-          "source_doctype": "press_statement"
+          "url": "https://mustreadalaska.com/anchorage-expands-relationship-with-tyler-technologies-in-effort-to-modernize-payment-process-for-muni-services/",
+          "outlet": "Must Read Alaska",
+          "independent_of_subject": true,
+          "verbatim_key_passage": "The Municipality of Anchorage selected Tyler Technologies' enterprise Payments platform to manage its complete payments lifecycle. Lance Wilber is named as the municipality's chief fiscal officer. The platform will offer multiple payment channels (online, mobile, in-person), real-time processing, enhanced security, and streamlined financial reconciliation. Anchorage has used Tyler products for over eight years."
         },
         {
-          "verbatim": "If you can lose those eyes, it immediately becomes a problem. The more resilience that you're building out there, the more useful it is for national security.",
-          "context": "Wailand quoted in ADN independent reporting on the acquisition, April 22, 2026, discussing DOD/national security rationale for combined fiber ring",
-          "source_url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/",
-          "source_doctype": "interview"
+          "url": "https://www.stocktitan.net/news/TYL/alaska-s-largest-city-selects-tyler-technologies-to-modernize-tczhc73kly92.html",
+          "outlet": "StockTitan (BusinessWire redistribution)",
+          "independent_of_subject": true,
+          "verbatim_key_passage": "Alaska's Largest City Selects Tyler Technologies to Modernize Resident Payment Experience. The deal covers payment services for nearly 300,000 residents in Alaska's largest city. Announcement date: May 26, 2026."
         }
       ],
-      "prelim_debatable_axis": "Sharp or wrong depending on framing. GCI consolidating Alaska's two largest fiber operators is either pro-competitive infrastructure build at the scale needed for AI data center workloads, or monopolistic foreclosure of fiber competition in a captive market. The DOD/national security rationale is politically convenient cover. AI angle is INDIRECT (fiber enables AI compute but no AI workload is named in the deal).",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "operators",
-      "validator_flag": "AI angle is indirect. Subject title is M&A leadership, not CTO/CIO."
-    },
-    {
-      "full_name": "Anna Brawley",
-      "role": "Assembly Chair (formerly Vice Chair), District 5 West Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing West Anchorage; chairs the governing body of the Municipality of Anchorage.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Ordinance AO 2026-27 on an approximately 10-2 vote on March 27, 2026, establishing the first-ever municipal zoning definition for 'data centers' in Anchorage and requiring conditional use permits, utility capacity documentation, 200-foot setbacks from residential areas, and enclosed power equipment for any facility drawing 20 MW or more at peak load. Brawley introduced the ordinance as Assembly Vice Chair and is its named primary sponsor. Brawley was subsequently elected Assembly Chair on April 28, 2026, and made public statements on JBER military data center RFPs on May 5, 2026.",
-        "when": "2026-03-27",
-        "binary_owned": "Approved. Brawley sponsored and voted yes on a first-in-Alaska municipal data center zoning framework, restricting AI-era data centers from residential and most commercial zones and requiring grid-capacity sign-off from Chugach Electric before any conditional use permit can advance.",
-        "ak_consequence": "Energy sector and land use. Any company seeking to site a 20 MW-plus data center within MOA boundaries must now obtain conditional use approval and a signed utility-capacity statement from Chugach Electric. Chugach has publicly stated it currently lacks sufficient gas supply to support large data centers. The ordinance effectively creates a regulatory gate on an estimated $1 to $5 billion class of potential investment.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework", "outlet": "Davis Wright Tremaine LLP Energy & Environmental Law Blog", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/anchorage-blocks-new-data-centers-in-residential-zones/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News (May 5, 2026 follow-up referencing the ordinance as active context)", "independent_of_subject": true}
-        ]
-      },
       "subject_quotes": [
         {
-          "verbatim": "By learning from other places and emerging best practices around data centers, Anchorage is being proactive and ensuring the right questions are asked during the application process.",
-          "context": "Brawley commenting on AO 2026-27 at or around the time of passage, March 27, 2026.",
-          "source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
+          "verbatim": "We are committed to enhancing the way residents interact with our services while improving efficiency across the municipality. Expanding our relationship with Tyler to include enterprise Payments allows us to offer a more convenient, accessible and seamless payment experience for our community.",
+          "context": "Press statement on the Tyler Technologies Payments platform selection by the Municipality of Anchorage, published May 26, 2026",
+          "source_url": "https://www.govtech.com/biz/tyler-technologies-expands-digital-payments-in-anchorage",
           "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "Broadly, I would be hoping that our local leadership has conversations with the Department of Defense, with the entity that would be coming, and with the utility.",
-          "context": "Brawley, now Assembly Chair, responding to questions about JBER military data center RFPs in May 2026.",
-          "source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-          "source_doctype": "interview"
         }
       ],
-      "prelim_debatable_axis": "Sharp but arguable. Pro: Anchorage acts before a hyperscale facility locks in, protecting ratepayers and residential neighborhoods. Con: ADN editorial board called it anti-investment signaling; 20 MW threshold could add 12 to 18 months to permitting; JBER sites fall outside MOA jurisdiction anyway.",
-      "in_window": false,
-      "in_window_note": "PRIMARY DECISION (AO 2026-27 vote) was March 27, 2026, 24 days before window opens. IN-WINDOW DECISIONS: elected Assembly Chair April 28 (in window), May 5 JBER statement (in window). Validator must decide whether to broaden window or use the in-window Chair election + JBER statement as the anchored decision with the March 27 ordinance as context.",
-      "confidence": "high",
-      "slice": "municipal"
-    },
-    {
-      "full_name": "Keith McCormick",
-      "role": "Assembly Member, District 6 Eagle River / Chugiak",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-adjacent elected official representing Eagle River/Chugiak area of the Municipality of Anchorage; decisions affect MOA-wide policy including technology and security infrastructure.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Resolution AR 2026-129, sponsored by McCormick along with Vice Chair Daniel Volland and member Yarrow Silvers, expressing the Assembly's 'substantive concerns' about the U.S. Air Force's proposed 7-mile barbed-wire perimeter fence at JBER. The resolution urges JBER to prepare a full Environmental Impact Statement and to extend the public comment period by at least 60 additional days. The draft environmental assessment reviewed by the Assembly explicitly lists motion sensors and surveillance cameras as alternatives to the physical fence that JBER chose not to pursue.",
-        "when": "2026-05-20",
-        "binary_owned": "Approved. McCormick sponsored and the Assembly passed a formal resolution opposing JBER's fence-and-no-surveillance-alternative approach, pushing back on a federal security infrastructure decision that had explicitly rejected sensor/camera technology in favor of physical perimeter control.",
-        "ak_consequence": "Security infrastructure and civil-military relations. The resolution creates a formal municipal record opposing JBER's fence construction timeline, potentially complicating the Air Force's NEPA process and delaying installation. The fence affects wildlife corridors, 12,000+ acres of recreational trails, and moose migration routes adjacent to Anchorage neighborhoods. JBER's public comment period closes May 30, 2026.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/05/17/jber-wants-to-build-a-7-mile-long-barbed-wire-fence-adjacent-to-anchorage-neighborhoods/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://alaskasenate.org/senator/giessel/050926_newsletter.htm", "outlet": "Alaska Senate Majority Leader Cathy Giessel newsletter", "independent_of_subject": true},
-          {"url": "https://mustreadalaska.com/senate-majority-leader-giessel-opposes-jber-boundary-fence/", "outlet": "Must Read Alaska", "independent_of_subject": true}
-        ]
+      "gate_prelim": {
+        "named_subject": true,
+        "recent_decision": true,
+        "decision_consequential": "BORDERLINE — platform is enterprise payments, not an AI-specific product; AI consequence is contingent on Tyler's roadmap",
+        "multi_source_corroboration": true,
+        "subject_availability": true,
+        "position_takeable": true,
+        "not_a_recent_repeat": true
       },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre-to-sharp. The AI/surveillance tech angle is thin. The resolution does not itself choose or block surveillance technology. The primary subject is environmental review and public comment, not technology policy.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal",
-      "validator_flag": "Tech angle is thin. Primary subject is environmental review, not AI/data."
+      "scout_notes": "In-window (May 26, 2026). Well-documented. Multi-sourced (GovTech independent reporting + Must Read Alaska + StockTitan/BusinessWire). The critical gate question is Gate 3: Tyler's Payments platform is a cloud billing/collections system, not an AI product. Tyler does have a Chief AI Officer, a live Resident AI Assistant (deployed in 6 states), and is building AI into its government stack — but the Anchorage contract doesn't name any AI component. The AI consequence is contingent on Tyler deploying AI features to Anchorage, which Anchorage has not contracted for. The validator must decide if this clears Gate 3 or fails it on the same 'inferential AI consequence' grounds that dropped Wailand/Quintillion in prior cycles."
     },
     {
-      "full_name": "Daniel Volland",
-      "role": "Assembly Vice Chair, District 1 North Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing North Anchorage; co-sponsor of data center ordinance and newly elected Vice Chair as of April 28, 2026.",
-      "decision": {
-        "what_happened": "Volland co-sponsored AO 2026-27 (data center ordinance) with Brawley, voted March 27, 2026; co-sponsored AR 2026-129 (JBER fence resolution) with McCormick and Silvers, passed May 19-20, 2026. On April 28, 2026, Volland was elected Assembly Vice Chair in an 8-4 vote over Zac Johnson. Volland published an op-ed in ADN on March 27, 2026, defending the data center ordinance and framing it as essential consumer protection against AI industry energy demands.",
-        "when": "2026-04-28",
-        "binary_owned": "Elected Vice Chair April 28, 2026. Volland won Assembly Vice Chair in an 8-4 vote, positioning him as co-leader on all technology and data infrastructure legislation, including the Planning Department follow-up rulemaking on energy-intensive uses required by AO 2026-27.",
-        "ak_consequence": "Governance and technology policy. As Vice Chair, Volland will chair or lead committee work on data center rulemaking follow-up. The data center zoning framework he co-authored is now the controlling law for any hyperscale AI infrastructure investment in MOA.",
-        "primary_source_url": "https://alaskapublic.org/news/anchorage/2026-04-29/new-anchorage-assembly-members-sworn-in-brawley-chosen-as-chair",
-        "primary_source_outlet": "Alaska Public Media",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/alaska-news/anchorage/2026/04/29/after-election-anchorage-assembly-reorganizes-with-anna-brawley-as-new-chair/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://www.adn.com/opinions/2026/03/27/opinion-as-big-techs-footprint-gets-bigger-its-time-for-anchorage-to-install-data-center-guardrails/", "outlet": "Anchorage Daily News (Volland op-ed)", "independent_of_subject": false}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre as a standalone decision. Vice Chair election is in-window but 'elected to leadership role' is a weaker decision-hook than a specific vote on a technology item.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal"
-    },
-    {
-      "full_name": "Patrick L. Tomco",
-      "role": "Associate Professor and ASET Laboratory Director, Department of Chemistry",
-      "org": "University of Alaska Anchorage",
+      "full_name": "Vanessa Hiratsuka",
+      "role": "Senior Researcher / Affiliate Faculty",
+      "org": "Southcentral Foundation (Research Department) / UAA Center for Human Development (affiliate)",
+      "anchorage_tie": "Southcentral Foundation is headquartered in Anchorage, AK. Hiratsuka is Anchorage-based per UAA and SCF staff listings.",
       "role_category": "research",
-      "anchorage_tie": "Bowl-based: full-time faculty and lab director at UAA main campus, Anchorage, AK 99508.",
       "decision": {
-        "what_happened": "Tomco's Analytical Science for Environmental Toxicology (ASET) Lab published 'OilSpillNet: A Deep Learning Framework for Accurate Detection and Segmentation of Marine Oil Spills from Imagery' in the Journal of Environmental Chemical Engineering, authored by postdoctoral researcher Mohamed Elsheref (lead) and Tomco (supervising PI). The UAA news article was published May 15, 2026; the paper was published April 2026.",
-        "when": "2026-04",
-        "binary_owned": "Funded/approved. Tomco as ASET Lab Director and supervising PI approved and directed the interdisciplinary pivot to deep learning AI in a traditionally wet-chemistry environmental lab, accepting the Fisheries and Oceans Canada (DFO) grant that funded the work.",
-        "ak_consequence": "Environmental monitoring sector. Potential deployment of automated, near-real-time oil spill detection in Cook Inlet and Alaska coastal waters, reducing the labor-intensive manual satellite imagery review.",
-        "primary_source_url": "https://www.uaa.alaska.edu/news/archive/2026/05/ai-detect-oil-spills.cshtml",
-        "primary_source_outlet": "UAA Green & Gold News",
-        "corroborating_sources": [
-          {"url": "https://www.sciencedirect.com/science/article/abs/pii/S2213343726006883", "outlet": "ScienceDirect / Journal of Environmental Chemical Engineering (Elsevier)", "independent_of_subject": true}
-        ]
+        "what_happened": "A peer-reviewed paper co-authored by Hiratsuka and colleagues from ANTHC, Southcentral Foundation, Stanford, and Maniilaq Association was accepted May 15, 2026 and published online May 23, 2026 in the International Journal of Circumpolar Health (DOI: 10.1080/22423982.2026.2677426). The paper — 'Artificial intelligence/machine learning in Alaska Native healthcare systems: symposium perspectives' — documents a formal community-governance framework for AI/ML deployment in the Alaska Tribal Health System, based on a 2025 Anchorage symposium with 31 participants. The framework calls for Tribal sovereignty over AI/ML implementation, centralized expertise for AI/ML research guidance, and community-defined benefit standards.",
+        "when": "2026-05-23",
+        "binary_owned": "Advance/publish: the research team chose to publicly codify a Tribal-sovereignty-first AI governance framework for the Alaska Tribal Health System rather than defer to vendor-led or federal-default AI adoption.",
+        "ak_consequence": "Healthcare sector: establishes the governance standard for AI/ML adoption across the Alaska Tribal Health System serving 150,000+ Alaska Native people statewide. Creates accountability structures any future AI vendor or federal partner would have to satisfy before deploying in ANTHC or SCF clinical systems. Named affected actors: ANTHC, Southcentral Foundation, Maniilaq Association, and NIH AIM-AHEAD program. Timeframe: standing governance reference for ongoing and future AI/ML deployments.",
+        "debatable_axis": "PRO: Tribal data sovereignty governance prevents extraction and algorithmic harm in a high-disparity population. CON: Adding a governance layer could slow beneficial AI adoption in a system where care access is already constrained — medevac ML models that could reduce disparities face additional friction. Did the team get the governance architecture right, or prioritize process over timely deployment of tools that could reduce documented healthcare disparities?"
       },
+      "primary_source": {
+        "url": "https://www.tandfonline.com/doi/full/10.1080/22423982.2026.2677426",
+        "outlet": "International Journal of Circumpolar Health (Taylor and Francis)",
+        "verbatim_key_passage": "The 2025 Artificial Intelligence in Alaska Native Health Care Systems symposium occurred in Anchorage, Alaska, with 31 individuals participating in facilitated conversations between various stakeholders and specialists at the Alaska Native Tribal Health Consortium, Southcentral Foundation, Maniilaq Association and Stanford University. [Accepted May 15, 2026; published online May 23, 2026.]",
+        "fetch_status": "HTTP 403 PAYWALLED — publication date confirmed via search metadata; full text not fetchable"
+      },
+      "corroborating_sources": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12009764/",
+          "outlet": "Frontiers in Artificial Intelligence / PubMed Central",
+          "independent_of_subject": true,
+          "verbatim_key_passage": "A consortium of researchers including Alaska Native Tribal Health Consortium, the Center for Alaska Native Health Research at UAF, Stanford University, Southcentral Foundation, and Maniilaq Association is using community-engaged AI/ML methods to address air medical ambulance (medevac) utilization in rural communities within the Alaska Tribal Health System (ATHS). Early successes have led to a second funded project to expand community perspectives, pilot models, and address issues of governance and ethics."
+        }
+      ],
       "subject_quotes": [],
-      "prelim_debatable_axis": "Sharp with tension. ASET Lab is a wet-chemistry environmental toxicology facility receiving a DFO Canada grant, not an AI lab. Pro: cross-disciplinary AI integration Alaska needs, applied to high-stakes problem. Con: primary funder is Canadian, a postdoc owns the AI architecture, and no Alaska industry partner has been named to deploy OilSpillNet.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "research",
-      "validator_flag": "Subject quotes are attributed to Elsheref (the postdoc), not Tomco directly. Only ONE truly independent corroborating source (ScienceDirect listing, paywalled)."
+      "gate_prelim": {
+        "named_subject": true,
+        "recent_decision": true,
+        "decision_consequential": true,
+        "multi_source_corroboration": "BORDERLINE — primary source paywalled (403); corroborator confirms consortium and prior project but not this specific May 23 paper's contents",
+        "subject_availability": true,
+        "position_takeable": true,
+        "not_a_recent_repeat": true
+      },
+      "scout_notes": "In-window (May 23, 2026). AI consequence is genuine — governs AI adoption across the Alaska Tribal Health System. TWO GATE CONCERNS: (1) Primary source paywalled — validator must confirm Hiratsuka's authorship and the paper's governance framework claims from the accessible metadata or an alternative source. (2) 'Decision' is a journal publication/governance stance, not an operational binary (fund/cut, approve/block, launch/halt). The desk's research slice scope does include 'named PIs on papers' — but this needs to be assessed as a consequential decision, not just a publication credit. If corroboration on the paper's contents cannot be independently confirmed, this candidate must be dropped."
     }
   ],
-  "dropped_pre_validator": [
-    {"name": "Brian Shumaker / beadedstream", "reason": "April 8, 2026 decision is just outside the 30-day window; no Shumaker quote in any source"},
-    {"name": "Erik Williams / beadedcloud", "reason": "Accelerator participation is a thin decision binary; no Williams quote"},
-    {"name": "Nathan Engel / Alaska Airlines", "reason": "April 16, 2026 is 4 days outside window"},
-    {"name": "Dale Knipp / ACS", "reason": "February 17, 2026 is 62 days outside window; single-sourced to PR"},
-    {"name": "Masoumeh Heidari / UAA AI-UNITE", "reason": "NSF award is January 2025, far outside window"},
-    {"name": "Robert Foy / NOAA AFSC", "reason": "Juneau-based, not Anchorage-bowl-based"}
-  ]
+  "dropped_at_orchestrator_level": [
+    {
+      "full_name": "Rohit Mahajan",
+      "org": "MyEyesAI",
+      "reason": "Primary sources (gener8tor press release March 13, Alaska Business Magazine March 11) predate the May 19 window. Q2 clinic pilot described as planned/future; specific activation date in window not confirmed by any primary or corroborating source. Gate 2 fail."
+    },
+    {
+      "full_name": "Erik Williams",
+      "org": "beadedcloud",
+      "reason": "ICGSM conference presentation (June 10, 2026) is in-window but does not constitute a business decision binary (funding close, product launch, customer sign, exec hire, pivot, shutdown). No dollar/contract consequence attached. Gate 3 fail."
+    },
+    {
+      "full_name": "Troy Goldie",
+      "org": "GCI Communication Corp.",
+      "reason": "GCI/Databricks case study published March 16, 2026 — 64 days before the May 19 window opens, and outside even a 45-day broadening (which would open to May 4, 2026). Gate 2 hard fail."
+    },
+    {
+      "full_name": "Aliassa L. Shane",
+      "org": "Southcentral Foundation",
+      "reason": "Co-author on same May 23 paper as Hiratsuka. Lower seniority (Researcher MPH vs Senior Researcher). Only one corroborating source is independent. Weaker candidate; Hiratsuka preferred if this paper advances."
+    }
+  ],
+  "dedupe_notes": {
+    "subjects_off_limits": ["Sparrow Mahoney (Founder/CEO, STAK Energy) — profiled 2026-05-20"],
+    "permanently_blocked_pairs": ["Sparrow Mahoney / DNR North Slope preliminary best-interest determination / 2026-05-12"]
+  }
 }
