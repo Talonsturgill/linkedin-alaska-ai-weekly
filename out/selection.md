@@ -1,27 +1,24 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom NO. 14 — 2026-06-11
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+"autonomous completion of multi-step government service transactions on behalf of users"
 
-## Role
-FOUNDER (kicker middle slot)
+Asserted by the **Alaska Department of Administration** in RFI 02-107-26 (myAlaska Mobile Application Enhancement, 2025-11-25), and recirculated by GovTech, Anchorage Daily News, Biometric Update, and Alaska Watchman as imminent state policy.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (the strongest honest version)
+Alaska's DOA issued a formal procurement RFI soliciting agentic AI that would let residents delegate entire multi-step government transactions (form-filling, document retrieval, transaction completion) to an AI agent inside myAlaska, the portal millions of Alaskans use for PFD, licensing, and unemployment. Five independent outlets covered it. If the state is formally asking vendors to bid this, it is reasonable for vendors and budget planners to treat autonomous agentic government services as a credible near-term procurement trajectory.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## One-sentence corrective thesis
+The myAlaska agentic AI RFI is a feasibility market-sounding, not a deployment commitment, and the capability it describes has not been put into production by any US state, so vendors and budget planners pricing it as near-term are running ahead of the entire sector's maturity curve.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all in claim_dossier.json)
+1. **NASCIO, March 2026, "Beyond Generation: The Rise of Agentic AI in State Government"** — frames agentic AI as something states must still "anticipate," build guardrails for, and "build trust" around before deployment. Primary source (the national body of state CIOs). Positions agentic AI as not-yet-deployed nationwide.
+2. **GovTech, Dec 2025** — Alaska DOA "did not respond to questions about the project," and the document is an RFI soliciting feasibility input, not an RFP or award. No implementation commitment exists.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## AK business consequence
+AI vendors and systems integrators are shaping Alaska-specific bid strategies around a premise (autonomous agentic state transactions at scale) with no proven state-government deployment model anywhere in the US. If the RFI's framing carries into an eventual RFP, it sets unrealistic timelines and liability expectations, with budget and service-continuity risk landing on DOA and on residents who depend on myAlaska for PFD, licensing, and unemployment.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Notes for the writer
+- Posture is corrective and generous, not a dunk. The state is not foolish for issuing an RFI; the gap is between an exploratory market-sounding and the "it's basically happening" read the coverage created.
+- Distinguish RFI (asking what's possible) from RFP/award (committing to build). That distinction is the load-bearing correction.
+- Do not overclaim. NASCIO does not name Alaska; the point is sector-wide immaturity, which Alaska shares.
