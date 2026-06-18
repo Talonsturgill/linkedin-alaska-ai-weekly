@@ -1,32 +1,164 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "weighted_total": 8.77,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
+  "threshold": 8.0,
+  "hard_fails": [
+    {
+      "name": "hashtag_count_in_range",
+      "tripped": false,
+      "note": "Five whitelist hashtags (#AlaskaAI #EnergyPolicy #DataCenters #GridPolicy #OilAndGas), end-only, none inline."
+    },
+    {
+      "name": "punctuation_bans_held",
+      "tripped": false,
+      "note": "No em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."
+    },
+    {
+      "name": "total_char_count_under_linkedin_cap",
+      "tripped": false,
+      "note": "Total 2698 chars, under the 3000 cap."
+    },
+    {
+      "name": "word_count_in_range",
+      "tripped": false,
+      "note": "Body 426 words, within 350-475."
+    },
+    {
+      "name": "claim_is_attributed",
+      "tripped": false,
+      "note": "Gov. Mike Dunleavy named with Standard & Works and Broadband Breakfast, both in dossier asserters."
+    },
+    {
+      "name": "steelman_present",
+      "tripped": false,
+      "note": "Paragraph 3 is a genuine steelman (North Slope gas, AGDC modeling, 20-30 year contracted rate) before any rebuttal."
+    }
+  ],
   "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+    {
+      "name": "Hook strength",
+      "weight": 0.13,
+      "score": 9,
+      "note": "Two-line hook names the governor, the 5-7 cent claim, and the counter-signal. Paraphrases rather than quotes verbatim, so not a 10."
+    },
+    {
+      "name": "Claim load-bearing + AK stakes",
+      "weight": 0.2,
+      "score": 9,
+      "note": "Load-bearing for DoD/USAF siting and AI infra capital; correction names Chugach 2028 expiry, $44-60B Alaska LNG FID gap, stranded-asset risk."
+    },
+    {
+      "name": "Steelman fairness",
+      "weight": 0.12,
+      "score": 9,
+      "note": "Generous, non-snarky; 'The number isn't fiction' validates the believer before correcting."
+    },
+    {
+      "name": "Counter-evidence quality",
+      "weight": 0.1,
+      "score": 8,
+      "note": "Three of four points primary (Hasquet, Pickett, Cole calc); Stan Jones is opinion column, caps at 8."
+    },
+    {
+      "name": "Factual density",
+      "weight": 0.1,
+      "score": 9,
+      "note": "Names, dates, prices (14-17c vs 8.99/6.12/6.61), $44-60B, 2028, 8x ratio throughout."
+    },
+    {
+      "name": "Source quality",
+      "weight": 0.13,
+      "score": 8,
+      "note": "Two independent outlets for the claim; counter-evidence mixes primary news with one opinion column and one independent blog."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.12,
+      "score": 9,
+      "note": "Analytical, structural, position-taking; matches post_001.md without contempt."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.05,
+      "score": 9,
+      "note": "Tight paragraphs, one 4-item bullet block, in word/char spec."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 9,
+      "note": "Real debatable question tied to the corrected frame, no softener."
+    },
+    {
+      "name": "Business actionability",
+      "weight": 0.02,
+      "score": 9,
+      "note": "Reader can reframe the 5-7c figure as speculative post-pipeline, not bankable."
+    }
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+  "one_sentence_fix": "Elevate the Stan Jones pricing data and Dermot Cole calculation to primary-source citations (RCA tariff filing, utility/federal docket) so every counter-evidence point rests on a primary source, pushing Counter-evidence and Source quality to 10.",
+  "summary": "Clears all six hard-fail checks and scores 8.77 weighted, above the 8.0 threshold. Attribution precise, steelman generous and dossier-consistent, high factual density, voice on-anchor. Only material weakness is two secondary counter-evidence sources (Jones opinion column, Cole blog), capping two criteria at 8. Ships as-is.",
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.13,
+      "notes": "Two-line hook names the governor, the 5-7 cent claim, and the counter-signal. Paraphrases rather than quotes verbatim, so not a 10."
+    },
+    {
+      "name": "Claim load-bearing + AK stakes",
+      "score": 9,
+      "weight": 0.2,
+      "notes": "Load-bearing for DoD/USAF siting and AI infra capital; correction names Chugach 2028 expiry, $44-60B Alaska LNG FID gap, stranded-asset risk."
+    },
+    {
+      "name": "Steelman fairness",
+      "score": 9,
+      "weight": 0.12,
+      "notes": "Generous, non-snarky; 'The number isn't fiction' validates the believer before correcting."
+    },
+    {
+      "name": "Counter-evidence quality",
+      "score": 8,
+      "weight": 0.1,
+      "notes": "Three of four points primary (Hasquet, Pickett, Cole calc); Stan Jones is opinion column, caps at 8."
+    },
+    {
+      "name": "Factual density",
+      "score": 9,
+      "weight": 0.1,
+      "notes": "Names, dates, prices (14-17c vs 8.99/6.12/6.61), $44-60B, 2028, 8x ratio throughout."
+    },
+    {
+      "name": "Source quality",
+      "score": 8,
+      "weight": 0.13,
+      "notes": "Two independent outlets for the claim; counter-evidence mixes primary news with one opinion column and one independent blog."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.12,
+      "notes": "Analytical, structural, position-taking; matches post_001.md without contempt."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 9,
+      "weight": 0.05,
+      "notes": "Tight paragraphs, one 4-item bullet block, in word/char spec."
+    },
+    {
+      "name": "Engagement question",
+      "score": 9,
+      "weight": 0.03,
+      "notes": "Real debatable question tied to the corrected frame, no softener."
+    },
+    {
+      "name": "Business actionability",
+      "score": 9,
+      "weight": 0.02,
+      "notes": "Reader can reframe the 5-7c figure as speculative post-pipeline, not bankable."
+    }
   ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Counter-evidence quality / Source quality (both 8)"
 }

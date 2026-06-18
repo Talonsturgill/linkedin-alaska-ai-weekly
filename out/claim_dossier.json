@@ -1,0 +1,104 @@
+{
+  "issue_label": "NO. 18",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "What we want to do is not just export that gas, but we want to have industry and businesses such as data farms, cryptocurrency, others come to Alaska and get five to seven cent kilowatt hour (kWh) gas for 20 or 30 years.",
+    "claim_paraphrase_fair": "Governor Dunleavy asserts that Alaska's North Slope natural gas can deliver electricity to AI data centers and other energy-intensive industries at five to seven cents per kilowatt-hour for twenty to thirty years, making Alaska a uniquely cost-competitive location for AI infrastructure.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.standardandworks.com/p/looking-north-to-the-future-with-alaska-gov-mike-dunleavy",
+        "outlet": "Standard & Works",
+        "pub_date": "2026-01-12",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "is_primary": true,
+        "independently_originated": false
+      }
+    ],
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "Alaska's North Slope holds enormous proven natural gas reserves, far more than the state currently consumes, and a completed in-state pipeline would theoretically allow those reserves to undercut power prices in data-center markets where Virginia, Texas, and Washington already compete at 6-9 cents/kWh. The Governor is citing an AGDC modeling scenario, not a fabricated number.",
+    "steelman": "Alaska's North Slope contains vast proven natural gas reserves that are today stranded for lack of a pipeline. If the Alaska LNG Project were built and gas were priced at the wellhead rate plus pipeline tariff, industrial users could plausibly receive power below ten cents per kWh, meaningfully competitive with existing data-center markets. The AGDC has modeled scenarios approaching four to five cents under optimistic pipeline utilization assumptions, which Dunleavy is loosely referencing. Long-term price stability (20-30 years of contracted gas) is a genuine competitive differentiator versus spot-market-exposed Lower 48 grids.",
+    "where_it_breaks": "The 5-7 cent figure assumes a pipeline that does not exist, has never reached a final investment decision despite decades of attempts, and would cost an estimated $44-60+ billion. Meanwhile, large commercial users on the only Southcentral grid actually capable of powering a data center, Chugach Electric, currently pay 14-17 cents/kWh, and Chugach's own spokesperson has stated the utility currently does not have gas to serve a large data center. The pricing claim confuses a modeled pipeline-era scenario with present deliverable reality.",
+    "more_accurate_frame": "Alaska's North Slope gas is real and abundant, but it is physically stranded from Southcentral load centers by 800 miles and a pipeline that has not reached a final investment decision. The utilities that would actually power a data center today cannot supply the gas, and the electricity they do deliver costs two to three times the governor's target price. Any investor treating the 5-7 cent figure as a near-term, bankable rate, rather than a speculative post-pipeline scenario, is mispricing the risk.",
+    "corrective_thesis": "Alaska's five-to-seven-cent data center power pitch is a post-pipeline projection, not a deliverable rate. Southcentral utilities currently charge large commercial users 14-17 cents/kWh and Chugach Electric has stated it lacks the gas supply to serve a large data center at all.",
+    "counter_evidence": [
+      {
+        "fact": "Chugach Electric spokesperson Julie Hasquet: 'We currently do not have gas to serve a large data center, but we do have generation capacity.' The utility's Cook Inlet gas contract with Hilcorp expires 2028 and Chugach is planning LNG imports, not a new pipeline supply.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "ADN opinion (Stan Jones, Apr 12 2026): 'Large commercial users on Chugach's system pay roughly 14 to 17 cents per kilowatt-hour for delivered power,' versus Virginia at 8.99 cents, Texas at 6.12 cents, and Washington at 6.61 cents. Jones concludes: 'Based on what we know today, the answer is no' on whether Southcentral can offer viable electricity pricing for data centers.",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News (opinion)",
+        "pub_date": "2026-04-12",
+        "is_primary": false,
+        "reverified": true
+      },
+      {
+        "fact": "Former RCA commissioner Robert Pickett: 'The whole electric industry right now in Southcentral Alaska is in a world of hurt.' Golden Valley Electric (Fairbanks): Cook Inlet natural gas dropped from about 30% of its fuel supply to less than 1% in one year; utility cannot currently support a large data center.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "Dermot Cole (Dec 2024): Three data centers each drawing 3 GW would burn 585 billion cubic feet of gas per year, more than eight times the 75 BCF currently consumed across the entire Railbelt for electricity and heating, illustrating that the scale of demand Dunleavy envisions has no existing supply base.",
+        "url": "https://www.dermotcole.com/reportingfromalaska/2024/12/17/dunleavy-envisions-power-plants-that-would-dwarf-electric-generation-from-susitna-rampart",
+        "outlet": "Dermot Cole / Reporting From Alaska",
+        "pub_date": "2024-12-17",
+        "is_primary": false,
+        "reverified": true
+      }
+    ],
+    "ak_business_consequence": "Data center developers, AI infrastructure investors, and DoD/USAF siting offices evaluating Alaska campuses are calibrating capital commitments and site-selection timelines against the 5-7 cent/kWh premise. If that rate is a modeled post-pipeline projection rather than a bankable near-term price, and if the utilities that would actually power those facilities are simultaneously warning they lack gas supply, those investments face stranded-asset risk equivalent to building on a utility promise that the utility itself has not made.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "By 2031, you've got the gas line, you've got fiber, you've got a large acreage of land.",
+      "reason": "Real and rebuttable (no FID on Alaska LNG), but a subordinate assertion from the same asserter in the same cluster; the 5-7 cent pricing claim is more precisely falsifiable."
+    },
+    {
+      "claim_verbatim": "Alaska remains one of the most energy-rich regions in the world. We have vast reserves of natural gas, significant untapped renewable potential and large-scale energy assets that are currently underutilized or stranded.",
+      "reason": "true_as_stated: the steelman is essentially correct and the quote itself acknowledges assets are 'stranded.' The deliverability correction lands better against the specific pricing claim."
+    },
+    {
+      "claim_verbatim": "With submarine fiber and the state's vast stranded energy reserves, Alaska can become a global compute hub within the next four years.",
+      "reason": "single_non_primary: Berkowitz is a financially interested co-founder asserting in a single op-ed; adds no analytical precision beyond the selected claim and has weaker independent circulation."
+    },
+    {
+      "claim_verbatim": "Alaska stands positioned to benefit. With a great location, abundant real estate, a cold climate and stranded North Slope natural gas, Alaska offers ideal ingredients for large-scale AI computer and data center development.",
+      "reason": "true_as_stated: explicitly acknowledges the gas is 'stranded'; too close to true for a clean corrective."
+    },
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "reason": "no_primary_counter: the primary counter-evidence source (Alaska Beacon HB 47 article) returned HTTP 403 and could not be re-verified; partial overlap with already-corrected myAlaska RFI claim (06-11)."
+    },
+    {
+      "claim_verbatim": "tablets often crack around negative 40 and the battery life drains rapidly in the cold",
+      "reason": "The strongest counter-evidence (Vector AI drone at -20 to -30) is in the same article as the claim, making it self-qualifying rather than independent; steelman too narrow; thematically adjacent to the already-corrected Arctic sensor-gap claim (06-15)."
+    }
+  ],
+  "_validation_note": "Selected claim clears all six gates cleanly. Verbatim confirmed live on the Standard & Works page. Three primary-source counter-evidence items re-verified via WebFetch (Chugach spokesperson ADN May 5; former RCA commissioner ADN May 5; Stan Jones pricing analysis ADN Apr 12). Dermot Cole piece re-verified and corrected: the 585 BCF / 8x figure applies to three 3-GW data centers (9 GW total), not three 1-GW centers as the candidate file stated. The energy-SUPPLY/PRICING/DELIVERABILITY cluster is confirmed distinct from the already-corrected cooling-COST advantage claim (06-14)."
+}
