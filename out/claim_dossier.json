@@ -1,0 +1,62 @@
+{
+  "no_target_this_cycle": false,
+  "issue_label": "NO. 16",
+  "date": "2026-06-14",
+  "selected_claim": {
+    "claim_verbatim": "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge (Data Center World Power event, Texas)",
+        "pub_date": "2025-10-07"
+      },
+      {
+        "name": "Kevin McCabe",
+        "title_or_org": "Alaska State Representative, District 30",
+        "url": "https://www.adn.com/opinions/2026/04/01/opinion-energy-and-data-centers-present-a-real-opportunity-for-mat-su/",
+        "outlet": "Anchorage Daily News (op-ed)",
+        "pub_date": "2026-04-01"
+      }
+    ],
+    "steelman": "Alaska averages roughly 30°F cooler than Texas year-round. Free-air cooling is a proven technique at hyperscale facilities, and PUE improvements from ambient cooling do translate to real capital and operating savings. At gigawatt scale, even a fractional PUE gain compounds into tens of millions of dollars annually. It is entirely rational for state officials to lead with this when pitching hyperscalers who scrutinize total cost of ownership.",
+    "why_smart_people_believe_it": "The temperature differential is real and measurable, and PUE math is a standard data-center site-selection metric. Cooling infrastructure represents a large upfront capital line item, so citing $150M/yr in avoided cooling costs is a resonant, quantitative hook for a capital-allocation audience.",
+    "where_it_breaks": "UAF ACEP's own analysis finds cooling costs represent 5% or less of ongoing operations and maintenance for hyperscale facilities — meaning even eliminating cooling costs entirely would not approach $150M/yr savings on most builds — while Alaska's commercial electricity rates are the highest of any U.S. state, running 14-17 cents/kWh on Chugach's Southcentral system versus 6-9 cents/kWh in Virginia, Texas, and Washington. The power-cost penalty dwarfs the cooling-derived PUE benefit and inverts the total-cost-of-ownership argument.",
+    "counter_evidence": [
+      {
+        "fact": "UAF Alaska Center for Energy and Power: 'cooling costs typically represent 5% or less of ongoing operations and maintenance costs' for hyperscale data centers, and 'the commercial electricity rate in Alaska is much higher than any other U.S. state.'",
+        "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php",
+        "outlet": "UAF ACEP",
+        "pub_date": "2024-02-09",
+        "is_primary": true
+      },
+      {
+        "fact": "Large commercial users on Chugach's Southcentral Alaska system pay roughly 14-17 cents per kWh vs. 6.12 cents in Texas, 8.99 cents in Virginia, and 6.61 cents in Washington (2024 EIA data). Author Stan Jones: 'Data centers don't go where electricity is merely available. They go where it is abundant, scalable and priced to support nonstop, industrial-scale demand.'",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News (Stan Jones op-ed)",
+        "pub_date": "2026-04-12",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "Alaska's climate advantage is real but structurally minor: cooling accounts for 5% or less of hyperscale operating costs, while Alaska's electricity rates — the highest in the nation — impose a penalty of 2-3x competing data-center markets. The $150M/yr cooling-savings figure is directionally correct in isolation but misleading as a TCO argument because the power-cost headwind at the same gigawatt scale runs several times larger.",
+    "ak_business_consequence": "Hyperscalers (Amazon, Meta, Microsoft, DigitalBridge) evaluating Alaska siting decisions in 2025-2026 are being presented the $150M/yr PUE figure as a primary quantitative anchor. If that figure dominates their TCO model without the electricity-rate offset, capital allocators may over-invest in Alaska feasibility studies or — more likely — will discover the inversion during due diligence and quietly deprioritize the state, leaving local developers (Stak Energy, Port MacKenzie promoters) holding stranded-asset risk.",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    },
+    "circulation_note": "Dunleavy repeated the $150M/yr PUE figure at Data Center World Power (Texas, Oct 2025, reported by Data Center Knowledge) and at Data Center World in Washington (Apr 2026, reported by Broadband Breakfast). Rep. McCabe independently echoed 'Alaska's cold climate is an advantage for cooling' in an April 2026 ADN op-ed. The figure recurs in Stak Energy project documents citing '12°F average temp as design advantage.' Two independently originated asserters (Dunleavy via trade press, McCabe via ADN) across different outlets and authors."
+  },
+  "dropped_claims": [
+    {"claim_verbatim": "With a cost per flight hour about one-tenth that of an F-35, MALE UAS would be a sustainable way to expand air defense capacity across America's arctic approaches.", "drop_reason": "Not selected over cooling_pue_150m. Passes all six gates but secondary: cooling/PUE has a stronger primary-source rebuttal (UAF ACEP), a more concrete capital-allocation consequence, and the MALE UAS claim's FPRI corroboration could not be verified (404). Valid alternate for a future cycle."},
+    {"claim_verbatim": "We are going to embark upon a very robust fiber process so Alaska can become the center of data transmission for three continents.", "drop_reason": "single_non_primary — effectively one asserter (Dunleavy across venues); echoes not independently verified. Connectivity theme overlaps 06-06 and 06-13 (repeat risk)."},
+    {"claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "drop_reason": "no_primary_counter — AO 360 mentions AI only as a minor permitting tool; HCR 3 unverifiable (legislature site unreachable). Claim may be essentially true (true_as_stated risk)."},
+    {"claim_verbatim": "AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review.", "drop_reason": "no_primary_counter — sole counter is a 2023 National Fisherman article, three years stale; field has advanced. Circulation minimal (2)."},
+    {"claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs ... streamline permitting for large-scale energy and critical mineral projects in Alaska.", "drop_reason": "true_as_stated — explicitly hedged ('has the potential to'); aspirational, cannot be falsified."}
+  ],
+  "_validation_note": ""
+}

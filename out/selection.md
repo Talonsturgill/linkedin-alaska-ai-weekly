@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Received Wisdom / Cold Take NO. 16 (2026-06-14)
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+> "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year"
+— Gov. Mike Dunleavy, Data Center World Power (Texas), reported by Data Center Knowledge, 7 Oct 2025. Independently echoed by Rep. Kevin McCabe (R-District 30), ADN op-ed, 1 Apr 2026 ("Alaska's cold climate is an advantage for cooling").
 
-## Role
-FOUNDER (kicker middle slot)
+## Steelman (strongest honest version)
+Alaska really is ~30°F cooler than Texas year-round. Free-air cooling is a proven hyperscale technique, PUE is a standard site-selection metric, and at gigawatt scale a fractional PUE gain compounds into real eight-figure savings. Leading a hyperscaler pitch with a quantified cooling number is rational and the temperature differential is genuine.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Corrective thesis (one sentence)
+The cooling advantage is real but structurally minor — cooling is 5% or less of hyperscale operating cost — while Alaska's electricity rates are the highest in the nation, so the power-cost penalty at the same gigawatt scale runs several times larger than the cooling saving and inverts the total-cost-of-ownership case.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Evidence spine (all primary or two-outlet, in dossier)
+1. UAF ACEP (primary): cooling = "5% or less of ongoing operations and maintenance costs"; Alaska commercial electricity rate "much higher than any other U.S. state." (2024-02-09)
+2. ADN / Stan Jones op-ed + 2024 EIA: Chugach Southcentral large-commercial ~14-17c/kWh vs Texas 6.12c, Virginia 8.99c, Washington 6.61c. (2026-04-12)
+3. Mechanism: AI GPU-dense racks need liquid cooling regardless of ambient air, shrinking the free-air edge further.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## AK business consequence
+Hyperscalers (Amazon, Meta, Microsoft, DigitalBridge) are being handed the $150M/yr figure as the headline TCO anchor in the 2025-26 siting window. The rate offset (2-3x competing markets) inverts the math during due diligence; local promoters (Stak Energy, Port MacKenzie) carry the stranded-feasibility risk.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Why this over the alternates
+Closest runner-up was the Bryan Clark / MALE UAS Arctic air-defense claim (fresh, passed the gate) but its FPRI corroboration 404'd and its rebuttal, while strong, is less institutionally direct than UAF ACEP quantifying cooling's share of opex. The cooling/PUE claim is the most load-bearing, most-circulated, and has the cleanest primary-source inversion. It is a DISTINCT mechanism from the 06-09 anchor-tenant/gas-supply correction and the 06-07 land-lease correction, so it is not a recent repeat.
