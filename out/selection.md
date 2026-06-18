@@ -1,27 +1,24 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 06 — 2026-06-17
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: **Weekly Brief.** A diffuse week with no single hard-dollar deployment, but four verified in-window stories ladder cleanly into one frame.
 
-## Role
-FOUNDER (kicker middle slot)
+## Lead frame (NEW, not a repeat of the last 4 LinkedIn leads)
+**Alaska keeps being cast as where AI gets deployed, while Washington and Juneau spent this week cutting or stalling the inputs that AI in Alaska actually runs on.** The recent leads were contracting-preference recompete (06-16), approval-desk decision-rights (06-15-02), proving-ground / test-bed (06-13-02), and landlord-vs-operator value capture (06-11). This week's frame is the **input layer / feedstock**: the data, the power, and the connectivity any AI system in Alaska depends on. That is a different axis from every recent lead. XPRIZE drones are flying live over the NANA region this week (the demand side keeps showing up), but the federal government moved to pull the ocean-sensor data that feeds Alaska's fisheries models, and the Legislature left the gas that would power AI compute stuck on a deadline.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Lead
+**OOI_PAPA — NSF moves to pull the Ocean Observatories Initiative sensors, including Gulf of Alaska instruments (Beats B/D, verified high, primary).** Murkowski co-led a June 15 bipartisan ten-senator letter to NSF urging a halt to dismantling the $386M, 900-plus-sensor network. The data feeds the models NOAA and UAF use to set catch limits in a roughly $5.3B fishery, and AI/ML-assisted stock assessment is increasingly built on those long time series. Fresh entity, never led. The lead because it is the cleanest expression of the frame: you can't run fisheries AI on data you've stopped collecting. HEDGE: say "Gulf of Alaska instruments" not "Ocean Station Papa"; frame the AI tie as "the data the models run on," analytical not asserted.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Supporting
+1. **LNG_STALL — Alaska LNG pipeline tax break uncertain before June 21 (Beat E, verified medium).** House passed the 80-90% property-tax cut 34-5 on June 12; the Senate timeline was unclear as of June 16. The *power* feedstock for AI compute. Bridge its AI relevance through DC_POWER_CONTEXT (the DAF AI-data-center solicitation, bids due June 29, and GVEA's record 20.7 cents/kWh). HEDGE: drop the "11 votes" claim; both sources are APM.
+2. **GCI_STARLINK — bonded Starlink gateways at Bethel, Sitka, Kotzebue, Dillingham (Beat E, verified high, primary GCI release June 11).** The *connectivity* feedstock, and the one input that advanced this week. Used as the counter-beat: the substrate isn't uniformly retreating. Attribute Unalaska/Nome to Telecompetitor.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Texture / stakes (one line, not a full supporting beat)
+**XPRIZE_WILDFIRE — autonomous wildfire finals running live in the NANA region June 15-25 (Beat C, verified medium, primary XPRIZE page).** The demand side: AI is physically landing on Alaska soil this week even as its inputs wobble. Do NOT name finalist teams; no results yet.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Dropped / held
+- GREENSPARC_WRANGELL: validator dropped (primary source 403, June 9 vote one day before window, no accessible post-vote source).
+- SBA 8(a), DAF RFLP-as-lead, NSPM-11/12, Stak Energy, HB 239: heavily covered repeats; HB 239 governor action still unconfirmed at window close.
+- H-1B teacher ruling: AI angle nil, wrong page.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Package angle
+This week Alaska got told again that it's where the AI economy gets built. XPRIZE's autonomous wildfire finals are running live over the NANA region through June 25, the clearest sign yet that the country tests its AI on Alaska ground. But the same seven days, two of the three inputs that future runs on got cut or stalled. On June 15 Murkowski and nine other senators asked NSF to stop dismantling the ocean-sensor network whose Gulf of Alaska data feeds the models that set a $5.3B fishery's catch limits, the kind of long time series AI stock assessment is built on. As of June 16 the gas-pipeline tax break the state's cheap-power pitch depends on was still stuck in the Senate on a June 21 deadline, with an Air Force AI-data-center solicitation due June 29. The one input that advanced was connectivity, GCI adding bonded Starlink gateways at four more hub communities. The through-line for the LinkedIn audience is that Alaska is being asked to host the AI economy while the federal budget and the Legislature underfund the data and the power that economy depends on. The lead is the ocean-data cut, because data is the cheapest input to lose and the hardest to rebuild once the moorings come out.

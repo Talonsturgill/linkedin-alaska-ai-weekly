@@ -1,0 +1,80 @@
+{
+  "window": ["2026-06-10", "2026-06-17"],
+  "_validation_note": "Validator (Sonnet) verified URLs via WebFetch and corrected dates. GREENSPARC_WRANGELL dropped: Wrangell Sentinel primary returned HTTP 403, only accessible source was a pre-hearing KSTK article, and the June 9 vote event falls one day before the window. OOI_PAPA: Alaska Beacon source dropped (403); no fetched source explicitly names 'Ocean Station Papa' so copy says 'Gulf of Alaska instruments'; AI/ML stock-assessment tie is analytical, not stated in sources, must be hedged. LNG_STALL: June 12 House vote 34-5 confirmed; the unverified 'lacked 11 coalition votes' claim was removed; both sources are Alaska Public Media (same outlet), confidence medium; the AI/data-center tie is contextual inference and is carried in this run through the in-window DAF AI-data-center solicitation context (DC_POWER_CONTEXT) which explicitly concerns AI data centers and Interior gas/grid power. GCI_STARLINK: Unalaska/Nome 'already live' attributed to Telecompetitor, not GCI primary. XPRIZE_WILDFIRE: Anduril and any named finalists stripped (not in fetched sources); no results public yet.",
+  "stories": [
+    {
+      "id": "OOI_PAPA",
+      "beats": ["B", "D"],
+      "story_title": "NSF moves to pull Ocean Observatories Initiative sensors including Gulf of Alaska instruments",
+      "summary_2_sentences": "On June 15, 2026, Sen. Lisa Murkowski co-led a bipartisan letter signed by ten senators to NSF Acting Director Brian Stone urging the agency to halt dismantlement of the Ocean Observatories Initiative (OOI), a $386M network of 900-plus deep-sea sensors with instruments in Alaskan waters including the Gulf of Alaska. NSF characterized the removal as a budget-driven descoping; OOI ocean condition data (temperature, salinity, circulation) feeds the models NOAA and UAF use to manage Alaska seafood harvests.",
+      "why_it_matters_to_alaskans": "Alaska's commercial seafood industry generates roughly $5.3B annually and employs roughly 42,000 people; OOI data from Alaskan waters underpins the oceanographic models NOAA and UAF use to set catch limits, and increasingly AI/ML-assisted stock assessment is built on the long-horizon time series these moorings provide.",
+      "industry_consequence": "Commercial fisheries / maritime: if NSF descopes on the current timeline, quota-setting models lose real-time Gulf of Alaska data heading into the December 2026 harvest specification cycle, a direct exposure for Alaska seafood processors, vessel operators, and their lenders.",
+      "sources": [
+        {"url": "https://www.murkowski.senate.gov/press/release/murkowski-merkley-lead-bipartisan-push-to-protect-us-ocean-monitoring-systems", "outlet": "Sen. Lisa Murkowski press release (primary)", "pub_date": "2026-06-15", "author": "Office of Sen. Murkowski"},
+        {"url": "https://www.murkowski.senate.gov/imo/media/doc/ooisignedletter61526.pdf", "outlet": "Signed Senate letter PDF (primary)", "pub_date": "2026-06-15", "author": "Murkowski, Merkley et al."},
+        {"url": "https://www.opb.org/article/2026/06/15/ocean-observatories-national-science-foundation/", "outlet": "OPB / Associated Press", "pub_date": "2026-06-15", "author": "Annika Hammerschlag / AP"},
+        {"url": "https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network", "outlet": "Alaska Public Media", "pub_date": "2026-06-16", "author": "APM staff"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "verified": true, "needs_softening": true,
+      "softening_note": "No fetched source explicitly names 'Ocean Station Papa'; say 'Gulf of Alaska instruments / moorings'. AI/ML tie is analytical; hedge with 'the data feeds the models used for' rather than asserting a direct AI link."
+    },
+    {
+      "id": "LNG_STALL",
+      "beats": ["E"],
+      "story_title": "Alaska Senate uncertain on LNG pipeline property-tax break before June 21 deadline",
+      "summary_2_sentences": "The Alaska House passed a roughly 80-to-90 percent oil-and-gas property tax reduction for the Alaska LNG pipeline 34-5 on June 12, a cut developer Glenfarne said it needs to reach a final investment decision. As of June 16, senators were weighing project risks and the size of the incentive, with the timeline to a Senate floor vote unclear before the special session's June 21 deadline.",
+      "why_it_matters_to_alaskans": "Alaska's pitch to host large-scale compute rests partly on future access to in-state gas power; a stalled pipeline extends fuel-cost uncertainty for energy-intensive projects counting on North Slope gas.",
+      "industry_consequence": "Energy infrastructure / AI siting: if the bill dies June 21, realistic pipeline gas delivery slips past 2030, changing power-cost assumptions for any large compute campus in Alaska.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-12/alaska-house-passes-tax-cut-for-north-slope-gas-pipeline-sending-bill-to-senate", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "author": "APM staff"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-16/senators-weigh-risk-of-gas-pipeline-project-as-special-session-deadline-approaches", "outlet": "Alaska Public Media", "pub_date": "2026-06-16", "author": "APM staff"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "verified": true, "needs_softening": true,
+      "softening_note": "Drop the 'lacked 11 coalition votes' claim (not in sources). Both sources are APM. Sources do not name AI data centers; carry the AI tie through the DC_POWER_CONTEXT entry (the DAF AI-data-center solicitation and Interior gas/grid power), and frame the pipeline as the in-state gas supply that AI-compute developers have said they need."
+    },
+    {
+      "id": "GCI_STARLINK",
+      "beats": ["E"],
+      "story_title": "GCI adds Starlink bonded gateways at Bethel, Sitka, Kotzebue, Dillingham",
+      "summary_2_sentences": "GCI announced June 11 it will add Starlink bonded gateway service to four regional hubs (Bethel, Sitka, Kotzebue, and Dillingham), building on a model Telecompetitor reporting indicates is already live at Unalaska and Nome. The bonded gateways add a high-capacity middle-mile failover tier on top of GCI's fiber, microwave, and legacy satellite infrastructure.",
+      "why_it_matters_to_alaskans": "Single-path internet dependency causes multi-week outages when a fiber cut or satellite failure hits western Alaska; bonded LEO gateways give hospitals, tribal agencies, and government clients a live failover and a credible multi-gigabit backhaul argument for edge compute and AI inference in those hubs.",
+      "industry_consequence": "Broadband / edge-AI infrastructure: GCI becomes the aggregated-LEO-gateway integrator for at least six Alaska hubs, giving it structural leverage in rural middle-mile pricing.",
+      "sources": [
+        {"url": "https://news.gci.com/news-releases/gci-strengthens-network-resiliency-across-alaska-with-starlink", "outlet": "GCI Newsroom (primary)", "pub_date": "2026-06-11", "author": "GCI Communications"},
+        {"url": "https://broadbandbreakfast.com/gci-partners-with-starlink-to-bring-connectivity-to-alaska/", "outlet": "Broadband Breakfast", "pub_date": "2026-06-11", "author": "Broadband Breakfast staff"},
+        {"url": "https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/", "outlet": "Telecompetitor", "pub_date": "2026-06-11", "author": "Telecompetitor staff"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "verified": true, "needs_softening": false,
+      "softening_note": "Attribute the Unalaska/Nome 'already live' detail to Telecompetitor, not GCI's release."
+    },
+    {
+      "id": "XPRIZE_WILDFIRE",
+      "beats": ["C"],
+      "story_title": "XPRIZE Wildfire live-fire finals underway in Alaska's NANA region (June 15-25)",
+      "summary_2_sentences": "Finalist teams began live autonomous wildfire detection-and-suppression runs June 15 in a 1,000 sq km test zone in Alaska's NANA region, each system required to find and suppress an ignition within ten minutes without human intervention, with the window running through June 25. UAF's ACUASI is the test partner, and no results are public yet.",
+      "why_it_matters_to_alaskans": "Alaska burns one to six million acres in a typical season; this is autonomous fire-suppression being physically tested on Alaska terrain, and a successful June 25 result would be a reference deployment for pitching the Alaska Division of Forestry and BLM Alaska Fire Service in Q3 2026.",
+      "industry_consequence": "Wildfire / autonomous systems: finalists get a pass/fail field result by June 25 that gates prize money and establishes a real Alaska field-test reference.",
+      "sources": [
+        {"url": "https://www.xprize.org/competitions/wildfire", "outlet": "XPRIZE Foundation competition page (primary)", "pub_date": "2026-06-11", "author": "XPRIZE Foundation"},
+        {"url": "https://dronelife.com/2026/05/18/students-compete-in-xprize-wildfire-finals-with-ai-drone-firefighting/", "outlet": "DroneLife (background, outside window)", "pub_date": "2026-05-18", "author": "DroneLife staff"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": true, "verified": true, "needs_softening": true,
+      "softening_note": "Do NOT name Anduril or specific finalist teams (not in fetched sources). No results public yet; say 'underway' / 'finals running'."
+    },
+    {
+      "id": "DC_POWER_CONTEXT",
+      "beats": ["E"],
+      "story_title": "DAF AI-data-center solicitation and Interior gas/grid power (in-window context)",
+      "summary_2_sentences": "The Department of the Air Force solicitation AFCEC-26-R-0006 seeks privately financed AI data centers on parcels at JBER, Eielson, and Clear SFS, with proposals due June 29; community reporting on June 11 documented Interior Alaska pushback over Golden Valley Electric Association grid load after GVEA's fuel charge hit a record 20.7 cents per kWh effective June 1. This is the explicit, in-window AI-data-center demand that makes Alaska's gas-supply question (the stalled LNG tax break) an AI-compute power question.",
+      "why_it_matters_to_alaskans": "It connects the gas pipeline and the Interior grid directly to AI compute: the data centers the Air Force wants need power Alaska can only pencil cheaply with new gas.",
+      "industry_consequence": "Defense-adjacent AI infrastructure: bidders responding by June 29 must price independent power because grid-served power at 20.7 cents per kWh is untenable for 100-plus MW loads.",
+      "sources": [
+        {"url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-11", "author": "News-Miner staff"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-09", "author": "Alaska's News Source staff"},
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov (SAM.gov AFCEC-26-R-0006)", "pub_date": "2026-04-10", "author": "Air Force Civil Engineer Center"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "verified": true, "needs_softening": true,
+      "softening_note": "Use sparingly as the bridge that makes LNG_STALL an AI story. The DAF solicitation itself was led/supported in prior weeks; here it is context only, not the lead. Attribute the 20.7 cents/kWh and June 29 deadline to the named sources."
+    }
+  ]
+}
