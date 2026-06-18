@@ -1,0 +1,74 @@
+{
+  "window": ["2026-06-10","2026-06-17"],
+  "stories": [
+    {
+      "id": "OOI_PAPA",
+      "beats": ["B","D"],
+      "story_title": "NSF moves to pull Ocean Station Papa / OOI sensor network from the Gulf of Alaska",
+      "summary_2_sentences": "On June 15, 2026, Sen. Lisa Murkowski co-led a bipartisan letter (10 senators) to NSF Acting Director Brian Stone urging the agency to halt dismantlement of the Ocean Observatories Initiative (OOI), a $386M network of 900+ deep-sea sensors that includes Ocean Station Papa in the Gulf of Alaska. NSF characterized the removal as a budget-driven descoping; the Alaska array feeds long-term ocean condition data into NOAA and UAF fisheries stock-assessment and forecast models.",
+      "why_it_matters_to_alaskans": "Alaska's commercial seafood industry generates roughly $5.3B annually and employs ~42,000; OOI/Station Papa data underpins the oceanographic models (temperature, salinity, nutrients, circulation) that NOAA and UAF use to set catch limits. AI-assisted stock assessment increasingly depends on the long-horizon time series these moorings provide.",
+      "industry_consequence": "Commercial fisheries / maritime AI: if NSF descopes on the current timeline, NPFMC quota-setting models lose a real-time Gulf of Alaska data stream heading into the December 2026 harvest specification cycle, a direct exposure for AK seafood processors, vessel operators, and their lenders.",
+      "sources": [
+        {"url":"https://www.murkowski.senate.gov/imo/media/doc/ooisignedletter61526.pdf","outlet":"Sen. Lisa Murkowski signed letter (primary)","pub_date":"2026-06-15","author":"Murkowski, Merkley et al."},
+        {"url":"https://www.murkowski.senate.gov/press/release/murkowski-merkley-lead-bipartisan-push-to-protect-us-ocean-monitoring-systems","outlet":"murkowski.senate.gov press release","pub_date":"2026-06-15","author":"Office of Sen. Murkowski"},
+        {"url":"https://www.opb.org/article/2026/06/15/ocean-observatories-national-science-foundation/","outlet":"OPB / Associated Press","pub_date":"2026-06-15","author":"Annika Hammerschlag / AP"},
+        {"url":"https://alaskabeacon.com/2026/06/16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network/","outlet":"Alaska Beacon","pub_date":"2026-06-16","author":"Alaska Beacon staff"},
+        {"url":"https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network","outlet":"Alaska Public Media","pub_date":"2026-06-16","author":"APM staff"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":true,"background_context":false
+    },
+    {
+      "id": "LNG_STALL",
+      "beats": ["E"],
+      "story_title": "Alaska Senate stalls Alaska LNG pipeline property-tax break before June 21 special-session deadline",
+      "summary_2_sentences": "The Alaska House passed a roughly 80-to-90 percent oil-and-gas property tax reduction for the Alaska LNG pipeline 34-5 on June 12, a cut developer Glenfarne said it needs to reach a final investment decision. On June 16, Senate majority coalition members said the bill lacked the 11 coalition votes needed to reach the floor before the special session's June 21 deadline.",
+      "why_it_matters_to_alaskans": "Alaska's pitch to host large-scale AI compute rests on below-market gas power; a stalled pipeline extends fuel-cost uncertainty for projects counting on North Slope gas, including Stak Energy's proposed North Slope campus and prospective DAF data-center bidders.",
+      "industry_consequence": "Energy infrastructure / AI siting: developers counting on in-state pipeline gas for behind-the-meter power must now model a delayed-pipeline scenario; if the bill dies June 21, realistic gas delivery slips past 2030 and forces a pivot to liquid fuel, renewables, or nuclear that changes the economics of a 100-plus MW campus.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-12/alaska-house-passes-tax-cut-for-north-slope-gas-pipeline-sending-bill-to-senate","outlet":"Alaska Public Media","pub_date":"2026-06-12","author":"APM staff"},
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-16/senators-weigh-risk-of-gas-pipeline-project-as-special-session-deadline-approaches","outlet":"Alaska Public Media","pub_date":"2026-06-16","author":"APM staff"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":false,"background_context":false
+    },
+    {
+      "id": "GCI_STARLINK",
+      "beats": ["E"],
+      "story_title": "GCI adds Starlink bonded gateways at Bethel, Sitka, Kotzebue, Dillingham",
+      "summary_2_sentences": "GCI announced June 11 it will add Starlink bonded gateway service, a model already live at Unalaska and Nome, to four more regional hubs: Bethel, Sitka, Kotzebue, and Dillingham. The bonded gateways add a high-capacity middle-mile failover tier on top of GCI's fiber, microwave, and legacy satellite infrastructure.",
+      "why_it_matters_to_alaskans": "Single-path internet dependency means multi-week outages when a fiber cut or satellite failure hits western Alaska. Bonded LEO gateways give hospitals, tribal agencies, and government clients a live failover and a credible multi-gigabit backhaul argument for edge compute and AI inference in those hubs.",
+      "industry_consequence": "Broadband / edge-AI infrastructure: GCI becomes the aggregated-LEO-gateway integrator for at least six Alaska hubs; edge-AI vendors must decide whether to ride GCI capacity or build independent satellite infrastructure, giving GCI structural leverage in rural middle-mile pricing.",
+      "sources": [
+        {"url":"https://news.gci.com/news-releases/gci-strengthens-network-resiliency-across-alaska-with-starlink","outlet":"GCI Newsroom (primary)","pub_date":"2026-06-11","author":"GCI Communications"},
+        {"url":"https://broadbandbreakfast.com/gci-partners-with-starlink-to-bring-connectivity-to-alaska/","outlet":"Broadband Breakfast","pub_date":"2026-06-11","author":"Broadband Breakfast staff"},
+        {"url":"https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/","outlet":"Telecompetitor","pub_date":"2026-06-11","author":"Telecompetitor staff"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":true,"background_context":false
+    },
+    {
+      "id": "XPRIZE_WILDFIRE",
+      "beats": ["C"],
+      "story_title": "XPRIZE Wildfire live-fire finals begin in Alaska's NANA region (June 15-25)",
+      "summary_2_sentences": "Finalist teams including Anduril began live autonomous wildfire detection-and-suppression runs around June 15 in a 1,000 sq km test zone in Alaska's NANA region, each system required to find and suppress an ignition within ten minutes without human intervention. UAF's ACUASI is the test partner; XPRIZE's competition page (updated June 11) confirmed finals testing for June 15-25.",
+      "why_it_matters_to_alaskans": "Alaska burns 1 to 6 million acres in a typical season; this is autonomous fire suppression being physically tested on Alaska terrain, and a reference deployment for pitching Alaska Division of Forestry and BLM Alaska Fire Service in Q3 2026.",
+      "industry_consequence": "Wildfire / defense-tech: finalists get a pass/fail field result by June 25 that gates up to several million dollars in prize money and a real Alaska field-test reference.",
+      "sources": [
+        {"url":"https://www.xprize.org/competitions/wildfire","outlet":"XPRIZE Foundation competition page","pub_date":"2026-06-11","author":"XPRIZE Foundation"},
+        {"url":"https://dronelife.com/2026/05/18/students-compete-in-xprize-wildfire-finals-with-ai-drone-firefighting/","outlet":"DroneLife","pub_date":"2026-05-18","author":"DroneLife staff"}
+      ],
+      "confidence":"medium","is_in_window":true,"primary_source":true,"background_context":false
+    },
+    {
+      "id": "GREENSPARC_WRANGELL",
+      "beats": ["E"],
+      "story_title": "Wrangell Borough Assembly unanimously denies Greensparc 2 MW edge data center",
+      "summary_2_sentences": "The Wrangell Borough Assembly voted unanimously on June 9 to deny Greensparc's proposed 2 MW edge data center at the 6-Mile Mill waterfront, with the borough manager recommending the property be preserved for maritime use. Greensparc, which already runs a micro-data-center at Cordova, is pursuing sites in Petersburg and Ketchikan.",
+      "why_it_matters_to_alaskans": "Southeast Alaska has stranded hydropower; Greensparc's model converts spilled hydro into AI inference revenue. The unanimous denial shows even a 2 MW facility needs a proven track record before a community approves a lease.",
+      "industry_consequence": "Edge compute / stranded-hydro: Greensparc must close a Petersburg or Ketchikan lease near-term; the Wrangell denial is a public precedent other Southeast municipalities will cite.",
+      "sources": [
+        {"url":"https://www.wrangellsentinel.com/stories/assembly-unanimously-denies-greensparc-data-center-lease,64759","outlet":"Wrangell Sentinel","pub_date":"2026-06-17","author":"Wrangell Sentinel staff"},
+        {"url":"https://www.kstk.org/2026/06/02/public-hearings-on-two-6-mile-land-use-proposals/","outlet":"KSTK Wrangell Public Radio","pub_date":"2026-06-02","author":"KSTK staff"}
+      ],
+      "confidence":"medium","is_in_window":true,"primary_source":false,"background_context":false
+    }
+  ]
+}
