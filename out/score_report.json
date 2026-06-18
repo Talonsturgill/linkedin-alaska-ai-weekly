@@ -1,32 +1,24 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.15, "score": 9, "notes": "First two lines (~160 chars, inside the 210 cutoff) name RED FLAG-Alaska 26-2, June 12, Donnelly Drop Zone, troop/aircraft counts, five nations. 'Alaska wasn't the backdrop. It was the test.' delivers the stake. Short of 10 because the capital consequence is hinted, not named, in the hook."},
+    {"name": "Industry relevance", "weight": 0.20, "score": 9, "notes": "Every paragraph pairs an AK event with a named business consequence (JPARC doctrine becomes procurement spec; RFLP June 29 + GVEA grid-cost; GCI reseller economics). Minor: GCI paragraph omits the BEAD routing angle."},
+    {"name": "Factual density", "weight": 0.15, "score": 9, "notes": "Named specifics in nearly every sentence (units, bases, dates, communities, partner nations). Short of 10 only because no dollar figures appear (RFLP has no published ceiling; GCI deal size unverified)."},
+    {"name": "Source quality", "weight": 0.15, "score": 9, "notes": "All three lead stories map to verified high-confidence entries, each 2+ sources (DVIDS x3; Alaska's News Source + News-Miner; Telecompetitor + Broadband Breakfast). Stak handled as background with attribution. Minor: Stak out-of-window."},
+    {"name": "Voice match", "weight": 0.15, "score": 9, "notes": "Analytical, position-taking, structural. No banned phrases; 'leverage' used as noun. GCI lines slightly telegraphic. On-voice with post_001."},
+    {"name": "Readability (LinkedIn)", "weight": 0.10, "score": 9, "notes": "Four paragraphs + closing question, 3-5 sentences each. 430 words, 2,749 chars. Second paragraph densest but scannable."},
+    {"name": "Engagement question", "weight": 0.08, "score": 9, "notes": "Specific, debatable, tied to the test-bed vs program-capture tension and the RED FLAG / RFLP decision cycle. Could name the specific mechanism to demand."},
+    {"name": "Business actionability", "weight": 0.02, "score": 9, "notes": "Reader can name the June 29 RFLP deadline, JPARC doctrine venue, GCI/Starlink BEAD signal, and Stak comment period as revisit triggers."}
   ],
+  "weighted_total": 9.00,
+  "threshold": 8.0,
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "passed": true, "notes": "5 hashtags, all whitelist, end-only."},
+    {"name": "punctuation_bans_held", "passed": true, "notes": "Zero em/en/double-hyphen, zero colon/semicolon."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "notes": "2,749 chars, under 3,000."},
+    {"name": "word_count_in_range", "passed": true, "notes": "430 body words, within 350-475."}
   ],
-  "one_sentence_fix": null
+  "any_hard_fail_tripped": false,
+  "ship": true,
+  "weakest_criterion": "Engagement question",
+  "one_sentence_fix": "Sharpen the closing question by naming a specific mechanism Alaska should demand (IP ownership, data-sovereignty terms in the RFLP, or ANC task-order preference) rather than the open-ended 'what should it demand in return.'"
 }
