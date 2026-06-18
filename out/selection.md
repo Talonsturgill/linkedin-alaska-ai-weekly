@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Cold Take selection — NO. 18 — 2026-06-17
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim, attributed)
+Governor Mike Dunleavy, to Standard & Works (Jan 12, 2026), repeated at Data Center World (Broadband Breakfast, Apr 24, 2026):
 
-## Role
-FOUNDER (kicker middle slot)
+> "What we want to do is not just export that gas, but we want to have industry and businesses such as data farms, cryptocurrency, others come to Alaska and get five to seven cent kilowatt hour (kWh) gas for 20 or 30 years."
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (strongest honest version)
+Alaska's North Slope holds vast proven gas reserves, stranded today only for lack of a pipeline. If Alaska LNG were built, industrial users could plausibly get power below ten cents/kWh, and 20-30 years of contracted gas is a real differentiator versus spot-exposed Lower 48 grids. AGDC has modeled scenarios in that range. The number is not invented.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Corrective thesis (one sentence)
+Alaska's five-to-seven-cent data center power pitch is a post-pipeline projection, not a deliverable rate. Southcentral utilities currently charge large commercial users 14-17 cents/kWh and Chugach Electric has stated it lacks the gas supply to serve a large data center at all.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all re-verified primary or two-outlet)
+1. Chugach Electric (Julie Hasquet), ADN May 5 2026: "We currently do not have gas to serve a large data center." Cook Inlet contract with Hilcorp expires 2028; planning LNG imports.
+2. Stan Jones, ADN Apr 12 2026: large commercial users pay 14-17 cents/kWh; Virginia 8.99, Texas 6.12, Washington 6.61. "Based on what we know today, the answer is no."
+3. Robert Pickett (former RCA commissioner), ADN May 5 2026: "The whole electric industry right now in Southcentral Alaska is in a world of hurt." Golden Valley: Cook Inlet gas fell 30% to <1% in a year.
+4. Dermot Cole, Dec 2024: three 3-GW data centers would burn 585 BCF/yr, 8x the 75 BCF the whole Railbelt uses.
+5. Alaska LNG: ~$44-60B, no FID after decades; gas by 2031 would require FID in 2025-26, which has not happened.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## AK business consequence
+Data center developers, AI infra investors, and DoD/USAF siting offices are calibrating capital and timelines against the 5-7 cent premise. If it is a modeled post-pipeline rate, not a bankable one, and the utilities that would power those campuses say they lack the gas, the investments carry stranded-asset risk built on a promise the utility itself has not made.
