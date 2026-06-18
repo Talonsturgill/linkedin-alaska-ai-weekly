@@ -1,48 +1,24 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "generated": "2026-06-16",
+  "window": "2026-06-09 to 2026-06-16",
+  "volume": "VOL. 06",
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "SBA.gov", "pub_date": "2026-06-11", "story_title": "SBA reforms 8(a) program (proposed rule, ANC/tribal exemption)", "primary": true},
+    {"url": "https://alaskapublic.org/news/alaska-desk/2026-06-12/federal-officials-say-proposed-drastic-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "story_title": "Federal officials say 8(a) changes won't affect tribes and Native corporations", "primary": false},
+    {"url": "https://federalnewsnetwork.com/commentary/2026/06/alaska-speaks-with-one-voice-about-the-8a-program/", "outlet": "Federal News Network", "pub_date": "2026-06-15", "story_title": "Alaska speaks with one voice about the 8(a) program (Dibert & Giessel)", "primary": false},
+    {"url": "https://www.hklaw.com/en/insights/publications/2026/06/sba-proposes-roll-back-of-social-disadvantage-presumption", "outlet": "Holland & Knight", "pub_date": "2026-06-11", "story_title": "SBA proposes rollback of social-disadvantage presumption (July 13 comment deadline)", "primary": false},
+    {"url": "https://tribalbusinessnews.com/sections/federal-8-a-contracting/15646-sba-moves-to-revise-8-a-rules-while-preserving-tribal-anc-eligibility", "outlet": "Tribal Business News", "pub_date": "2026-06-13", "story_title": "SBA moves to revise 8(a) rules while preserving tribal/ANC eligibility ($16.1B FY24)", "primary": false},
+    {"url": "https://fortune.com/2026/05/11/trump-cuts-native-american-small-business-contracting-sba-8a-program/", "outlet": "Fortune", "pub_date": "2026-05-11", "story_title": "Background: ANC 8(a) obligations down ~46% YoY (out-of-window background)", "primary": false},
+    {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-12/", "outlet": "White House", "pub_date": "2026-06-12", "story_title": "NSPM-12 (NSS cyber governance, CNSS, NSA Director authority)", "primary": true},
+    {"url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-defends-americas-warfighters-and-intelligence-officers-against-cyber-threats/", "outlet": "White House Fact Sheet", "pub_date": "2026-06-12", "story_title": "Fact sheet on NSPM-12 cyber memorandum", "primary": true},
+    {"url": "https://www.whitehouse.gov/presidential-actions/2026/06/national-security-presidential-memorandum-nspm-11/", "outlet": "White House", "pub_date": "2026-06-05", "story_title": "NSPM-11 (AI acceleration, 120-day procurement overhaul)", "primary": true},
+    {"url": "https://www.wardberry.com/harden-it-or-ship-it-what-the-ai-executive-order-and-nspm-11-mean-for-government-contractors/", "outlet": "Ward & Berry", "pub_date": "2026-06-10", "story_title": "What NSPM-11 means for government contractors", "primary": false},
+    {"url": "https://www.xprize.org/competitions/wildfire", "outlet": "XPRIZE", "pub_date": "2026-06-15", "story_title": "XPRIZE Wildfire finals June 15-25 in rural Alaska, ACUASI test partner", "primary": true},
+    {"url": "https://www.prnewswire.com/news-releases/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition-302673499.html", "outlet": "PR Newswire / XPRIZE", "pub_date": "2026-01-29", "story_title": "XPRIZE Wildfire finalist teams ($11M, $3.5M grand prize)", "primary": true},
+    {"url": "https://dronelife.com/2026/05/18/students-compete-in-xprize-wildfire-finals-with-ai-drone-firefighting/", "outlet": "DroneLife", "pub_date": "2026-05-18", "story_title": "Students compete in XPRIZE Wildfire finals", "primary": false},
+    {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "Government Technology", "pub_date": "2026-06-09", "story_title": "Do Alaska Rural Health Transformation funds point to AI? (Mina quote)", "primary": false},
+    {"url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-07", "story_title": "Alaska health officials advance 400+ projects for Rural Health Transformation funding", "primary": false},
+    {"url": "https://www.newsminer.com/news/local_news/advanced-proposals-for-rural-health-fund-includes-several-fairbanks-area-projects/article_2b1ce317-f712-4fc6-b9e4-4ac3438d4e82.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-09", "story_title": "Advanced proposals for rural health fund (Tanana Chiefs drone to 27 villages)", "primary": false},
+    {"url": "https://taggs.hhs.gov/Detail/AwardDetail?arg_AwardNum=RHTCMS332062&arg_ProgOfficeCode=190", "outlet": "HHS TAGGS", "pub_date": "2025-12-29", "story_title": "HHS/CMS Rural Health Transformation award to Alaska DOH ($272,174,856)", "primary": true}
   ]
 }

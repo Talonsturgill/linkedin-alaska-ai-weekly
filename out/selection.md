@@ -1,27 +1,16 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 06 — 2026-06-16
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: Deep Dive
+Kicker: DEEP DIVE
+Window: 2026-06-09 to 2026-06-16
 
-## Role
-FOUNDER (kicker middle slot)
+## Lead
+SBA's proposed race-neutral overhaul of the 8(a) Business Development Program, landing as awards to Indian country were already down sharply, with Alaska Native Corporations' federal contracting machinery in the crosshairs. ANC subsidiaries (ASRC Federal, Chenega, Chugach Government Solutions, Koniag Government Services) are the vehicle through which a large share of Alaska's federal AI, cloud, cybersecurity, and defense-tech work actually gets captured. The Alaska Legislature transmitted a unanimous resolution (HJR 44) to the governor, and the delegation/legislature wrote a united-front op-ed. Federal officials say entity-owned ANCs are exempt, but the open question is whether the exemption survives downstream competition.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Supporting
+1. NSPM-12 (signed June 12) pairs an AI-acceleration directive with new National Security Systems cyber-governance and a 120-day DOD/IC AI procurement overhaul (Oct 3 clock), with contract-termination authority. Same theme: the federal contracting environment ANCs depend on is being rewritten on multiple fronts at once.
+2. XPRIZE Wildfire $11M finals running live in rural Alaska June 15-25, UAF ACUASI as test partner, Anduril among finalists. The counterpoint: the AI work itself is landing on Alaska soil this week, which sharpens why the contracting layer matters.
+3. Alaska's $272M Rural Health Transformation grant entered an AI-heavy shortlist; Tanana Chiefs drone delivery a finalist, awards in July. More federal capital flowing into Alaska AI, on federal terms.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
-
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
-
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Package angle
+The week's defining Alaska-AI story wasn't a deployment, it was a rewrite of the plumbing. While XPRIZE drones fly over Alaska wildfire ranges and $272M in federal health money moves toward AI-enabled rural care, Washington is rewriting the two instruments that decide who captures federal AI and defense dollars in Alaska: the 8(a) contracting preference ANCs are built on, and the AI/cyber procurement rules under NSPM-11/12. Alaska hosts more of the AI economy every month. Whether Alaska firms own that economy or merely host it runs through contracting machinery being redrawn in June, with the legislature and delegation already mobilized on 8(a). Lead frame is NOT a repeat of the last four weeks (ownership-vs-tenancy, proving-ground, rules-written-elsewhere, infra-without-governance); the fresh angle is the contracting-preference layer itself.
