@@ -1,23 +1,15 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+A $485,000 federal pilot has Alaska’s fishing fleet and its regulators talking about AI video review as the cure for a real observer-cost crisis. The claim circulating is that the camera replaces the cost. It doesn’t replace the data.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The line, stated by Caren Brady, Senior Program Manager at the Pacific States Marine Fisheries Commission, is that “efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review” (National Fisherman, Aug 2025). Lauren Howard of the Alaska Longline Fishermen’s Association and Gord Snell of Archipelago Marine Research have echoed the same frame. The pilot tests Archipelago’s FishVue AI on Alaska halibut and sablefish vessels, expanding to 300-plus vessels across North America.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The reasoning is sound on its own terms. Observer program fees are capped at 3% of the value of fish landed, and inflation has outpaced that cap while flying observers to remote grounds grows costlier. FishVue reaches roughly 94% accuracy on the most commonly imaged species. A well-funded federal pilot reads like official confidence. For the footage-analysis step alone, the cost and lag really do fall.
 
-Five layers sit between an Air Force land offer and a powered data center.
+Here’s where the frame breaks. NOAA Fisheries Monitoring division director Chris Rilling is blunt about the limit. “We will always need observers, particularly to collect biological samples, which you obviously cannot do with an electronic monitoring system.” Those samples feed the age-structure data inside the stock assessments that set quotas. And the 94% figure holds only on common species after two years of development, with high-uncertainty images flagged for human review. The system redirects analyst labor. It doesn’t erase it.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The architecture confirms it. NOAA IB 26-02, the Final 2026 Annual Deployment Plan issued Jan 13 2026, contains no AI in the monitoring design. It deploys human observers across 10 sampling strata covering 4,341 trips and 22,110 observer-days, and even trawl-sector electronic monitoring still needs shoreside biological sampling. FishVue is a research-and-development pilot, not a regulatory validation. NOAA has not approved AI video review as a substitute for observer-certified catch accounting in the North Pacific groundfish program.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The accurate frame is narrower and more useful. AI cuts the cost of analyzing footage. It does not perform the at-sea biological sampling the NPFMC depends on to set halibut and sablefish quotas, a combined fishery worth more than $200M in ex-vessel value annually. With a 2026 observer-coverage budget decision in front of NOAA and the Council, cutting observer deployment on the assumption that FishVue closes the gap opens data gaps that can trigger overexploitation findings, emergency closures, or IFQ quota cuts.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+Should the savings from AI footage review go back into biological sampling capacity, or out of the observer budget entirely?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#FisheriesTech #AlaskaAI #AIPolicy #FederalContracting

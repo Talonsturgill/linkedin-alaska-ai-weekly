@@ -1,0 +1,103 @@
+{
+  "issue_label": "NO. 19",
+  "date": "2026-06-18",
+  "selected_claim": {
+    "claim_verbatim": "efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review",
+    "claim_paraphrase_fair": "AI-powered electronic monitoring can reduce costs and speed up catch-data review enough to make human fishery observers economically replaceable in Alaska's fixed-gear halibut and sablefish fleets.",
+    "asserters": [
+      {
+        "name": "Caren Brady",
+        "title_or_org": "Senior Program Manager, Pacific States Marine Fisheries Commission",
+        "url": "https://www.nationalfisherman.com/grant-will-aid-use-of-ai-in-electronic-monitoring-for-alaska-halibut-harvesters",
+        "outlet": "National Fisherman",
+        "pub_date": "2025-08-01",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Lauren Howard",
+        "title_or_org": "Policy Coordinator, Alaska Longline Fishermen's Association",
+        "url": "https://www.alaskasnewssource.com/2025/08/17/inflation-continues-rise-some-fisheries-turn-artificial-intelligence-lower-costs/",
+        "outlet": "Alaska's News Source",
+        "pub_date": "2025-08-17",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Gord Snell",
+        "title_or_org": "President/CEO, Archipelago Marine Research",
+        "url": "https://www.alfafish.org/news-1/2025/8/8/alaska-longline-fishermens-association-to-test-ai-monitoring-with-usd-485000-grant",
+        "outlet": "ALFA (Alaska Longline Fishermen's Association)",
+        "pub_date": "2025-08-08",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 3,
+    "discourse_slice": "trade_analyst|exec_social|policy_official",
+    "why_smart_people_believe_it": "Inflation has made flying human observers to remote Alaska fishing grounds expensive, and a $485,000 NFWF grant to test AI video review implies official confidence that the technology can shoulder meaningful monitoring work. The cost-effectiveness framing resonates with fleet operators watching operational budgets tighten.",
+    "steelman": "Alaska's fixed-gear sablefish and halibut fleet faces a genuine cost-recovery crisis: observer program costs are capped at 3% of the value of fish landed, inflation has outpaced that cap, and AI video review has reached 94% accuracy for the most commonly imaged species with faster turnaround than human analysts. A well-funded NFWF pilot expanding FishVue AI to 300+ North American vessels is a reasonable step toward a future where AI substantially reduces the human-review burden and overall monitoring cost.",
+    "where_it_breaks": "NOAA's Division Director for Fisheries Monitoring explicitly states 'We will always need observers, particularly to collect biological samples, which you obviously cannot do with an electronic monitoring system' — biological samples are the irreplaceable input to stock assessments that set Alaska quota levels. Additionally, the 94% AI accuracy figure applies only to the most commonly imaged species and requires human manual review for uncertain cases; the 2026 Annual Deployment Plan (IB 26-02) contains no AI in the monitoring architecture and maintains observer coverage for trawl trips precisely because biological data collection cannot be automated.",
+    "counter_evidence": [
+      {
+        "fact": "NOAA Fisheries Monitoring and Analysis Division Director Chris Rilling states: 'I do not see observers being phased out. We will always need observers, particularly to collect biological samples, which you obviously cannot do with an electronic monitoring system.' Biological samples determine age structure used in quota-setting stock assessments.",
+        "url": "https://www.fisheries.noaa.gov/feature-story/implementing-electronic-monitoring-alaska-fisheries",
+        "outlet": "NOAA Fisheries",
+        "pub_date": "2024-01-01",
+        "is_primary": true
+      },
+      {
+        "fact": "NOAA IB 26-02, the Final 2026 Annual Deployment Plan for Observers and Electronic Monitoring (issued 2026-01-13), contains no artificial intelligence in the monitoring architecture. The plan deploys human observers across 10 sampling strata covering 4,341 trips and 22,110 observer-days, with trawl-sector EM requiring supplemental shoreside biological sampling.",
+        "url": "https://www.fisheries.noaa.gov/bulletin/ib-26-02-final-2026-annual-deployment-plan-observers-and-electronic-monitoring",
+        "outlet": "NOAA Fisheries",
+        "pub_date": "2026-01-13",
+        "is_primary": true
+      },
+      {
+        "fact": "NOAA's own fish-ID algorithms achieve approximately 94% accuracy only on the most commonly imaged species after two years of development; images with high uncertainty are flagged for human manual review, meaning the system does not eliminate analyst labor but redirects it.",
+        "url": "https://www.fisheries.noaa.gov/feature-story/expanding-electronic-monitoring-technologies-north-pacific-fisheries",
+        "outlet": "NOAA Fisheries",
+        "pub_date": "2023-01-01",
+        "is_primary": true
+      },
+      {
+        "fact": "The FishVue AI pilot is funded at $485,000 from the National Fish and Wildlife Foundation — a research and development grant, not a regulatory validation. NOAA has not approved AI video review as a substitute for observer-certified catch accounting in Alaska's North Pacific groundfish observer program.",
+        "url": "https://www.alfafish.org/news-1/2025/8/8/alaska-longline-fishermens-association-to-test-ai-monitoring-with-usd-485000-grant",
+        "outlet": "Alaska Longline Fishermen's Association",
+        "pub_date": "2025-08-08",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "AI video review can reduce the cost and turnaround time of the footage-analysis step in electronic monitoring, but it cannot replace the biological sampling that human observers perform on vessel trips — the sampling that feeds directly into the stock assessments NPFMC uses to set Alaska halibut and sablefish quotas. Fleets or policymakers that cut observer budgets on the assumption that the FishVue pilot closes the gap are removing the data-collection function that no camera system currently replicates, risking quota-setting errors that could trigger emergency closures or federal management intervention.",
+    "ak_stakes": "Alaska commercial fishing sector (halibut and sablefish, combined ex-vessel value exceeding $200M annually) — North Pacific Fishery Management Council and NOAA face a 2026 budget cycle decision on observer coverage rates; fleet operators and ALFA are investing in AI EM under a narrative that may lead them to advocate for reduced observer deployment before the technology is regulatory-validated, creating stock-assessment data gaps that could trigger overexploitation findings or IFQ quota cuts.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Our AI, machine learning, and intelligent automation solutions deliver measurable impact—one current solution alone saves the Army more than $37 million annually.",
+      "drop_reason": "single_non_primary — verbatim confirmed in Alaska Business Magazine (Ron Unger) but the KGS press release shows a different figure ($29.3M) and the AWS case study (only primary counter) frames the same number as 'yearly avoidance' (opportunity cost). Real but narrow terminological correction; insufficient independent circulation of the 'saves' framing."
+    },
+    {
+      "claim_verbatim": "Our partnership with Saige introduces advanced AI capabilities to our state government functions, accelerating Alaska's IT modernization and ensuring that all residents benefit from cutting-edge technology and an improved digital experience",
+      "drop_reason": "strawman — GlobeNewswire attribution URL did not resolve to the claimed release on two WebFetch attempts (redirected to an unrelated market report). Verbatim unverifiable on live page; hard drop. Also adjacent to the already-corrected myAlaska agentic-gov claim (issue 11)."
+    },
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "true_as_stated — steelman survives. HB 47 is narrowly targeted at AI-CSAM, DEED guidance is non-binding, HCR 3 task force died. Alaska genuinely lacks a comprehensive coordinated AI strategy as of mid-2026, so the correction would not hold. Gate 4 fails."
+    },
+    {
+      "claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs accomplish enormous challenges in the fields of science and technology, as well as offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska",
+      "drop_reason": "not_load_bearing — claim is hedged ('has the potential to'), dated July 2024, enabling legislation not enacted. Too thin and dated to drive a current Alaska AI decision."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": ""
+}

@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom — NO. 19 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (steelmanned)
+> "efficiencies gained through the use of AI protocols could lead to improved cost-effectiveness and faster turnaround times for video review"
 
-## Role
-FOUNDER (kicker middle slot)
+Asserted by Caren Brady (Senior Program Manager, Pacific States Marine Fisheries Commission), echoed independently by Lauren Howard (Policy Coordinator, Alaska Longline Fishermen's Association) and Gord Snell (President/CEO, Archipelago Marine Research). Circulated across National Fisherman (Aug 1 2025), Alaska's News Source (Aug 17 2025), and ALFA (Aug 8 2025).
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Steelman.** Alaska's fixed-gear sablefish and halibut fleet faces a real cost-recovery crisis. Observer program fees are capped at 3% of the value of fish landed, inflation has outpaced that cap, and AI video review now reaches roughly 94% accuracy on the most commonly imaged species with faster turnaround than human analysts. A $485,000 NFWF-funded FishVue pilot expanding to 300+ vessels is a reasonable step toward cutting the human-review burden and overall monitoring cost.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Corrective thesis (one sentence)
+AI video review can cut the cost and lag of the footage-analysis step, but it cannot replace the biological sampling human observers perform at sea, the sampling that feeds the stock assessments NPFMC uses to set Alaska halibut and sablefish quotas, so cutting observer budgets on the assumption AI closes the gap removes a data-collection function no camera currently replicates.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine (all re-verified by validator)
+- NOAA's Chris Rilling: "We will always need observers, particularly to collect biological samples, which you obviously cannot do with an electronic monitoring system." (PRIMARY)
+- NOAA IB 26-02, Final 2026 Annual Deployment Plan (Jan 13 2026): no AI in the monitoring architecture; human observers across 10 strata, 4,341 trips, 22,110 observer-days; trawl-sector EM still requires supplemental shoreside biological sampling. (PRIMARY)
+- NOAA fish-ID algorithms: ~94% accuracy only on the most commonly imaged species after two years; uncertain images flagged for human manual review (redirects analyst labor, does not eliminate it). (PRIMARY)
+- FishVue is a $485,000 NFWF R&D pilot, not regulatory validation; NOAA has not approved AI video review as a substitute for observer-certified catch accounting.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## AK stakes / business consequence
+Halibut + sablefish combined ex-vessel value exceeds $200M annually. NOAA and NPFMC face a 2026 observer-coverage budget decision. Fleets and ALFA investing in AI EM under a cost-substitution narrative may push for reduced observer deployment before the tools are regulatory-validated, opening stock-assessment data gaps that can trigger overexploitation findings, emergency closures, or IFQ quota cuts.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Gate: all six PASS. Other four candidates dropped (see claim_dossier.json dropped_claims).

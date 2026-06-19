@@ -1,48 +1,10 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"url": "https://www.nationalfisherman.com/grant-will-aid-use-of-ai-in-electronic-monitoring-for-alaska-halibut-harvesters", "outlet": "National Fisherman", "pub_date": "2025-08-01", "story_title": "CLAIM — Caren Brady (PSMFC): AI protocols could improve cost-effectiveness and turnaround for video review"},
+    {"url": "https://www.alaskasnewssource.com/2025/08/17/inflation-continues-rise-some-fisheries-turn-artificial-intelligence-lower-costs/", "outlet": "Alaska's News Source", "pub_date": "2025-08-17", "story_title": "CLAIM echo — Lauren Howard (ALFA): fisheries turn to AI to lower costs"},
+    {"url": "https://www.alfafish.org/news-1/2025/8/8/alaska-longline-fishermens-association-to-test-ai-monitoring-with-usd-485000-grant", "outlet": "Alaska Longline Fishermen's Association", "pub_date": "2025-08-08", "story_title": "CLAIM echo / pilot — Gord Snell (Archipelago): FishVue AI to expand to 300+ vessels; $485K NFWF grant"},
+    {"url": "https://www.fisheries.noaa.gov/feature-story/implementing-electronic-monitoring-alaska-fisheries", "outlet": "NOAA Fisheries (PRIMARY)", "pub_date": "2024", "story_title": "COUNTER — Chris Rilling: 'We will always need observers... to collect biological samples, which you obviously cannot do with an electronic monitoring system'"},
+    {"url": "https://www.fisheries.noaa.gov/bulletin/ib-26-02-final-2026-annual-deployment-plan-observers-and-electronic-monitoring", "outlet": "NOAA Fisheries IB 26-02 (PRIMARY)", "pub_date": "2026-01-13", "story_title": "COUNTER — Final 2026 Annual Deployment Plan: no AI in monitoring architecture; observers across 10 strata, 4,341 trips, 22,110 observer-days"},
+    {"url": "https://www.fisheries.noaa.gov/feature-story/expanding-electronic-monitoring-technologies-north-pacific-fisheries", "outlet": "NOAA Fisheries (PRIMARY)", "pub_date": "2023", "story_title": "COUNTER — fish-ID algorithms ~94% accuracy only on most commonly imaged species; uncertain images flagged for human review"}
   ]
 }
