@@ -1,0 +1,91 @@
+{
+  "window": ["2026-06-11","2026-06-18"],
+  "volume": "VOL. 06",
+  "mode": "Deep Dive",
+  "validator_critical_notes": {
+    "gvea_price": "STRIP all cents/kWh figures (40c and 20.7c). No price appears on any fetched page. News-Miner notes GVEA did not respond. No RCA rate case verified. Lean on the RFLP's own 'Cook Inlet gas shortage' line and Sarah Hollister's verbatim quote.",
+    "lng_16B": "DROP the $16B figure. Use ADN: bill could mean ~$850 million less per year in state and local revenue. Total state revenue with the break ~$23B through 2062 (APM).",
+    "ferc_specifics": "DROP the 90-day window and the six-RTO enumeration. Keep: FERC voted unanimously ~June 18 to make large-load customers incl AI data centers bear full cost of grid upgrades and interconnect in an orderly manner. AK not in any FERC RTO.",
+    "noaa_ml": "Attribute the auto-flagging algorithm to AOOS, not NOAA. NOAA confirms IFCB on FV Northwest Explorer as an automated microscope producing real-time images.",
+    "rule_of_11": "Confirmed by ADN June 18 only (single source). Attribute.",
+    "glenfarne": "Soften: ADN says the bill's terms help Glenfarne lock up deals with gas producers/buyers and secure loans. Not a hard FID precondition."
+  },
+  "lead": {
+    "id": "GVEA_RFLP",
+    "verified_facts": [
+      "DAF solicitation AFCEC-26-R-0006, 'RFLP Artificial Intelligence (AI) Data Center Development at Joint Base Elmendorf Richardson, Eielson Air Force Base, and Clear Space Force Station.' Proposals due June 29, 2026, 5:00 p.m. EDT.",
+      "Offerors may propose for any subset of the three locations.",
+      "News-Miner (June 11): three proposed Eielson sites and one Clear SFS parcel would draw power from GVEA's grid; GVEA recommended connection to its 138-kV line for major loads.",
+      "The RFLP notes Southcentral Alaska is experiencing a mounting natural gas shortage as Cook Inlet reserves dwindle (quoted via Alaska's News Source June 8/12).",
+      "Sarah Hollister, Fairbanks-area resident, verbatim in News-Miner: 'This will be on the backs of GVEA members.' Also: 'These are for-profit companies looking to lease military lands that don't live here.'",
+      "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations, News-Miner: 'By making this land available, we are supporting the growing demands of the AI industry while generating value that directly supports our missions.'"
+    ],
+    "sources": [
+      {"url":"https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html","outlet":"Fairbanks Daily News-Miner","pub_date":"2026-06-11"},
+      {"url":"https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/","outlet":"KTUU / Alaska's News Source","pub_date":"2026-06-08"},
+      {"url":"https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/","outlet":"HigherGov (SAM.gov mirror, primary)","pub_date":"2026-04-10"},
+      {"url":"https://www.af.mil/News/Article-Display/Article/4412433/daf-exploring-lease-opportunities-for-data-centers-in-alaska/","outlet":"AF.mil (primary)","pub_date":"2026-06-05"}
+    ]
+  },
+  "support_1": {
+    "id": "LNG_HB381",
+    "verified_facts": [
+      "HB 381 passed the Alaska House 34-5 on June 12, 2026 (APM, ADN).",
+      "It replaces a 2% statewide oil-and-gas property tax with a per-unit volumetric tax on gas through the Alaska LNG pipeline, an 80-90% reduction vs current law (APM).",
+      "ADN (June 18): without the break the state and municipalities would get roughly $850 million more per year. Total state revenue with the break ~$23B through 2062 (APM).",
+      "Senate majority caucus 'rule of 11' requires 11 of 14 members to advance a bill to the floor; as of June 18 the Senate had not voted, bill stalled in Senate Finance (ADN, APM).",
+      "Special session 30-day clock expires midnight Friday June 19, 2026. Dunleavy vetoed 9 bills June 18 and threatened a second special session (ADN, APM).",
+      "Dunleavy (ADN): 'If the Senate does run out of time by Friday midnight, I will issue a call for a second special session.'",
+      "ADN: Glenfarne says the bill's terms will help advance Alaska LNG as it looks to lock up deals with gas producers and buyers and secure loans."
+    ],
+    "sources": [
+      {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-12/alaska-house-passes-tax-cut-for-north-slope-gas-pipeline-sending-bill-to-senate","outlet":"Alaska Public Media","pub_date":"2026-06-12"},
+      {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-dunleavy-threatens-second-special-session-if-senate-doesnt-pass-bill-supporting-alaska-lng/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"},
+      {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"}
+    ]
+  },
+  "support_2": {
+    "id": "FERC_LARGELOAD",
+    "verified_facts": [
+      "FERC voted unanimously on or about June 18, 2026 to require that large-load customers including AI data centers be able to connect to the transmission system in a timely, orderly manner and bear the full cost of grid upgrades needed for their connections (AP wire via ADN).",
+      "FERC Chair Laura Swett (AP): 'Many Americans are increasingly concerned about the interconnection of large (power) loads, and data centers will increase their bills.'",
+      "Alaska is not part of any FERC RTO/ISO and is not directly subject to the order."
+    ],
+    "sources": [
+      {"url":"https://www.adn.com/nation-world/2026/06/18/federal-regulators-back-trumps-plan-to-speed-power-to-energy-hungry-ai-data-centers/","outlet":"ADN / Associated Press","pub_date":"2026-06-18"}
+    ]
+  },
+  "texture": {
+    "id": "NOAA_IFCB",
+    "verified_facts": [
+      "NOAA's 2026 Eastern Bering Sea Bottom Trawl Survey is underway (early June through end of July); NOAA page last updated June 16, 2026.",
+      "The F/V Northwest Explorer carries an Imaging FlowCytobot (IFCB), an automated microscope producing real-time images of phytoplankton (NOAA).",
+      "NOAA partners with AOOS; the AOOS IFCB program states an algorithm has been developed to automatically flag harmful algal cells (AOOS).",
+      "Monitored harmful species include Alexandrium, Pseudo-nitzschia, Dinophysis (NOAA)."
+    ],
+    "sources": [
+      {"url":"https://www.fisheries.noaa.gov/alaska/science-data/near-real-time-temperatures-2026-bering-sea-bottom-trawl-survey","outlet":"NOAA Fisheries (primary)","pub_date":"2026-06-16"},
+      {"url":"https://ahab.aoos.org/ifcb/","outlet":"Alaska Ocean Observing System (primary)","pub_date":"2026-06-01"}
+    ]
+  },
+  "alternates": {
+    "SB258_VETO": {
+      "verified_facts": [
+        "Dunleavy vetoed SB 258 on June 18, 2026, described by ADN as 'Cloud services choice preservation,' preserving the state's ability to choose whether to use cloud services for software-based applications. Sponsored by Sen. Jesse Kiehl. Passed Senate unanimously; 26 of 40 House members voted for it.",
+        "Dunleavy rationale (ADN): restrictions 'could reduce flexibility, limit access to needed products, and increase costs for agencies and local governments.'"
+      ],
+      "sources":[{"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/","outlet":"ADN","pub_date":"2026-06-18"}]
+    },
+    "LNG_MOU": {
+      "verified_facts": [
+        "8 Star Alaska (Glenfarne subsidiary) and Alaska building trades councils signed an MOU June 11-12, 2026 prioritizing Alaska workers as the first and primary source of construction labor on Alaska LNG.",
+        "~12,000 construction workers anticipated (ADN notes not all from Alaska); up to 1,000 long-term operations roles (Glenfarne). Neither source mentions automation.",
+        "Rex Canon, Co-President 8 Star Alaska: 'We are committed to building Alaska LNG with a highly skilled Alaska workforce as the first and primary source of construction labor.'"
+      ],
+      "sources":[
+        {"url":"https://www.adn.com/business-economy/energy/2026/06/11/alaska-lng-project-and-unions-sign-preliminary-agreement-to-maximize-alaska-hires/","outlet":"ADN","pub_date":"2026-06-11"},
+        {"url":"https://glenfarnegroup.com/alaska-labor-unions-and-glenfarne-sign-agreement-to-put-alaska-workers-first-on-12000-job-alaska-lng-project/","outlet":"Glenfarne (primary)","pub_date":"2026-06-12"}
+      ]
+    }
+  }
+}

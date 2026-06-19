@@ -1,23 +1,15 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+The Air Force wants AI data centers on three Alaska bases by June 29, and the power for at least four of those sites would run through one Fairbanks utility's grid. Nobody has settled who pays to build it.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Solicitation AFCEC-26-R-0006 puts AI data center leases at Joint Base Elmendorf-Richardson, Eielson AFB, and Clear Space Force Station, with proposals due June 29. Offerors can bid on any subset. Per the Fairbanks Daily News-Miner, three proposed Eielson sites and one Clear parcel would draw power from Golden Valley Electric Association, and GVEA recommended connecting major loads to its 138-kV line. Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations, said making the land available supports the growing demands of the AI industry while generating value for Air Force missions.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The conventional read is that the load is free money for the region. It isn't, and the cost has an address. Hyperscale AI load is among the heaviest grid customers there is, and the RFLP itself notes Southcentral Alaska faces a mounting natural gas shortage as Cook Inlet reserves dwindle. So the underwriting question is structural. Either the developer pays for the grid upgrades and the firm gas, or the base does, or GVEA's existing members absorb it. Sarah Hollister, a Fairbanks-area resident, told the News-Miner, “This will be on the backs of GVEA members,” and “These are for-profit companies looking to lease military lands that don't live here.”
 
-Five layers sit between an Air Force land offer and a powered data center.
+Two moves the same week should worry anyone modeling this deal. HB 381, the bill that would cut the Alaska LNG pipeline property tax 80 to 90 percent and make that gas cheap, passed the House 34-5 on June 12, then stalled in Senate Finance under the caucus rule of 11, per ADN. The special session expires midnight Friday June 19, and Dunleavy has threatened a second one. The cheap-power assumption under the whole pitch is exactly what the statehouse failed to deliver on a deadline.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+Then FERC voted unanimously around June 18 to make large-load customers, AI data centers included, bear the full cost of their grid connections, per the Associated Press. Alaska sits in no FERC regional transmission organization, so the order doesn't bind it. The Lower 48 just made the load pay and moved fast. Alaska is recruiting the same load with the cost allocation still open.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The demand side is already here. NOAA's Bering Sea trawl survey is running an Imaging FlowCytobot this week with an AOOS algorithm that auto-flags harmful algal cells. The compute lands somewhere, and someone pays for the watts.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+So who should carry the grid cost on these leases, the developer, the base, or the Fairbanks ratepayer?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#DataCenters #EnergyPolicy #GridPolicy #AlaskaAI #FederalContracting
