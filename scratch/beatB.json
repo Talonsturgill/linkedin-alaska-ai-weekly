@@ -1,0 +1,6 @@
+[
+{"id":"SBA_8A","story_title":"SBA proposes ending race-based 8(a) eligibility; ANC entity status preserved","window":true,"confidence":"high","primary":true,"REPEAT":"covered 06-16 lead","sources":["sba.gov 2026-06-11 primary","alaskapublic 2026-06-12","tribalbusinessnews 2026-06-13"]},
+{"id":"RFLP_GRID","story_title":"RFLP bids due June 29; Fairbanks community + GVEA raise grid-strain alarm over Eielson AI data center parcels","window":true,"confidence":"medium","primary":false,"NEW_TENSION":"grid deal-risk + community open house June 13","sources":["newsminer 2026-06-11","alaskasnewssource 2026-06-08"],"consequence":"Bidders must resolve GVEA capacity risk or embed self-generation before June 29; could trigger Interior rate hikes Q3."},
+{"id":"STAK_BG","story_title":"Stak Energy North Slope data center DNR comment closed June 15","window":true,"confidence":"medium","primary":false,"REPEAT":"covered 06-15-02 lead; background","sources":["northernjournal 05-13","alaskabeacon 05-14","cbc 06-18"]},
+{"id":"RHTP_BG","story_title":"Alaska $272M Rural Health Transformation 400+ projects, app portal closes June 22","window":true,"confidence":"high","primary":true,"REPEAT":"covered 06-16 support; background","sources":["taggs.hhs.gov primary","adn 2026-06-07","govtech 2026-06-09"]}
+]
