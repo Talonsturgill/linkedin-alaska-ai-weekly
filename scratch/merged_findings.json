@@ -1,0 +1,105 @@
+{
+  "window": ["2026-06-12", "2026-06-19"],
+  "beats_empty": ["A", "C"],
+  "candidate_stories": [
+    {
+      "id": "SB258_VETO",
+      "beat": "D",
+      "story_title": "Dunleavy vetoes SB 258, the state software anti-vendor-lock-in bill",
+      "summary": "On June 18, 2026 Gov. Dunleavy vetoed SB 258, which would have barred Alaska from signing software-licensing contracts that lock the state into a single vendor or restrict use to a specific geography. The bill had passed the Senate unanimously and the House 26-14; the legislature did not override before the June 19 special-session deadline. Dunleavy's stated rationale: such restrictions 'could reduce flexibility, limit access to needed products, and increase costs for agencies and local governments.'",
+      "ai_tie": "ANALYTICAL: enterprise AI tooling state agencies adopt (Copilot/Einstein/Oracle/Workday AI) is procured through exactly these single-vendor software-licensing agreements; veto preserves vendor lock-in leverage on the contracts public-sector AI rides on. NOT a sourced AI fact.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-18"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/19/near-deadline-dunleavy-vetoes-9-bills-school-funding-teacher-loan-repayment-program-become-law/", "outlet": "KTUU", "pub_date": "2026-06-19"},
+        {"url": "https://mustreadalaska.com/9-bills-vetoed-whats-the-gist-what-were-the-votes-why-the-veto/", "outlet": "Must Read Alaska", "pub_date": "2026-06-19"},
+        {"url": "https://legiscan.com/AK/bill/SB258/2025?guid=7VyhcPGdT3lQRSIv3Ljtp3", "outlet": "LegiScan (primary)", "pub_date": "2026-06-18"}
+      ],
+      "confidence": "high", "primary_source": true
+    },
+    {
+      "id": "HB280_VETO",
+      "beat": "D",
+      "story_title": "Dunleavy vetoes HB 280, the digital-economy corporate tax on out-of-state online sellers",
+      "summary": "On June 18, 2026 Dunleavy vetoed HB 280, which would have applied corporate income tax to out-of-state companies selling online to Alaskans (telecom, streaming, financial) using market-based sourcing; DOR projected roughly $30M/yr. Passed House 28-12, Senate 17-3. Vetoed citing no comprehensive fiscal plan.",
+      "ai_tie": "WEAK: targets out-of-state tech/telecom/streaming; no direct AI angle.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-18"},
+        {"url": "https://mustreadalaska.com/9-bills-vetoed-whats-the-gist-what-were-the-votes-why-the-veto/", "outlet": "Must Read Alaska", "pub_date": "2026-06-19"}
+      ],
+      "confidence": "high", "primary_source": false, "status": "held_alternate"
+    },
+    {
+      "id": "HB381_2ND_SESSION",
+      "beat": "D/E",
+      "story_title": "HB 381 LNG tax bill collapses on final day; Dunleavy calls second special session",
+      "summary": "On June 19, 2026 the Alaska Senate passed an amended HB 381 (LNG pipeline property-tax cut) 12-8 but the Senate substitute added a corporate income tax on pass-throughs and stricter construction deadlines that Glenfarne called 'unworkable, unfinanceable, and uncompetitive.' The House canceled its floor session rather than accept it, ending the first special session without final passage. Dunleavy immediately proclaimed a second special session starting June 20 at 10 a.m. The House had passed the original 34-5 on June 12.",
+      "ai_tie": "SUPPORTING: cheap North Slope gas is the load-bearing assumption under Alaska's low-cost-power pitch to AI data-center developers (DAF RFLP, hyperscale load).",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-19/its-the-alaska-legislatures-last-day-in-special-session-heres-the-latest", "outlet": "Alaska Public Media", "pub_date": "2026-06-19"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/19/gov-mike-dunleavy-calls-second-special-session-on-alaska-lng-tax-break/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-19"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/19/live-updates-last-day-lng-special-session-veto-overrides-expected/", "outlet": "KTUU", "pub_date": "2026-06-19"}
+      ],
+      "confidence": "high", "primary_source": false
+    },
+    {
+      "id": "GLENFARNE_CHUGACH_LOI",
+      "beat": "E",
+      "story_title": "Glenfarne Alaska LNG signs gas-supply LOI with Chugach Electric",
+      "summary": "On June 15, 2026 Glenfarne Alaska LNG signed a non-binding LOI to supply gas to Chugach Electric Association (Alaska's largest electric co-op, ~90,000 members) once Phase One of the 807-mile pipeline is operational (~2029). Adds Chugach to a roster that includes Enstar and Donlin Gold. Announced as the Senate debated HB 381.",
+      "ai_tie": "SUPPORTING: Chugach is the backbone Railbelt utility for Southcentral data-center siting; locking future gas supply removes an uncertainty deterring large energy-intensive AI tenants (JBER/Eielson DAF parcels).",
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/15/alaska-lng-project-signs-preliminary-deal-to-sell-gas-to-chugach-electric/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-15"},
+        {"url": "https://www.offshore-energy.biz/chugach-eyes-gas-from-alaskas-44b-lng-project-with-glenfarne-deal/", "outlet": "Offshore Energy", "pub_date": "2026-06-16"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-16/senators-weigh-risk-of-gas-pipeline-project-as-special-session-deadline-approaches", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "high", "primary_source": false
+    },
+    {
+      "id": "GCI_ALEUTIAN_FIBER",
+      "beat": "E",
+      "story_title": "GCI restores Aleutian subsea fiber after three-week outage; single-provider risk exposed",
+      "summary": "On June 16, 2026 GCI's cable ship Cable Innovator completed repairs to a subsea fiber damaged May 27 near Chignik Bay, restoring service to six Aleutian communities (Akutan, False Pass, King Cove, Perryville, Sand Point, Unalaska) after ~3 weeks on satellite backup. Root cause not identified; second Aleutian subsea break GCI repaired since January 2026.",
+      "ai_tie": "SUPPORTING/TEXTURE: connectivity substrate that any edge inference/telehealth/fisheries-data workload in the region depends on; single point of failure for the backhaul argument.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "Alaska Public Media / KUCB", "pub_date": "2026-06-16"},
+        {"url": "https://www.kucb.org/regional/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "KUCB Unalaska", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "high", "primary_source": false
+    },
+    {
+      "id": "GAAIA_PREEMPTION",
+      "beat": "D",
+      "story_title": "Great American AI Act draft would preempt state AI development law 3 years; Alaska has none",
+      "summary": "A June 14, 2026 analysis confirmed the bipartisan 269-page discussion draft (released June 4 by Reps. Obernolte and Trahan) would preempt state laws regulating frontier-model DEVELOPMENT for three years (through Dec 2029) while preserving state authority over deployment/use. Alaska's SB 2 stalled and its AI task force (HCR 3) expired, so Alaska has no AI statute to preserve.",
+      "ai_tie": "DIRECT but national/inferential AK lens; medium confidence; trigger is commentary, bill not introduced.",
+      "sources": [
+        {"url": "https://www.techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026/", "outlet": "TechPolicy.Press", "pub_date": "2026-06-14"},
+        {"url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/", "outlet": "Roll Call", "pub_date": "2026-06-04"}
+      ],
+      "confidence": "medium", "primary_source": false, "status": "held_alternate"
+    },
+    {
+      "id": "OOI_PAUSE",
+      "beat": "D",
+      "story_title": "NSF agrees to pause removal of ocean observatory sensors after Murkowski-led letter (REPEAT ENTITY)",
+      "summary": "June 16, 2026: Murkowski (sole R) joined nine senators urging NSF to reverse removal of 900+ OOI instruments incl. Gulf of Alaska sensors; NSF agreed to pause. Data underpins AK fishery stock assessments.",
+      "ai_tie": "Repeat: OOI was the 06-17 LEAD. Fresh development is the pause. Do NOT re-lead.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"},
+        {"url": "https://alaska-native-news.com/murkowski-merkley-secure-commitment-to-preserve-u-s-ocean-monitoring-system/84636/", "outlet": "Alaska Native News", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "high", "primary_source": false, "status": "repeat_do_not_lead"
+    },
+    {
+      "id": "SBA_8A",
+      "beat": "B/D",
+      "story_title": "SBA proposed 8(a) rule; ANCs exempt (REPEAT - led 06-16)",
+      "summary": "SBA proposed rule June 11 ends race-based eligibility for individual 8(a) applicants; ANCs/tribes/NHOs exempt. Comment window to July 13. DoD reaffirmed ANC political status.",
+      "ai_tie": "Repeat: LED on 06-16. Do not reuse.",
+      "sources": [
+        {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "SBA (primary)", "pub_date": "2026-06-11"}
+      ],
+      "confidence": "high", "primary_source": true, "status": "repeat_do_not_lead"
+    }
+  ]
+}

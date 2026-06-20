@@ -1,0 +1,101 @@
+{
+  "window": ["2026-06-12", "2026-06-19"],
+  "generated": "2026-06-19",
+  "validator_note": "6 verified, 2 dropped (HB280 no AI tie; SBA_8A out-of-window/repeat). Key corrections applied: SB258 House vote is 26-13 (ADN+KTUU); Dunleavy SB258 rationale quote verified verbatim; HB381 Senate 12-8, House canceled floor session, 2nd special session June 20 10am, Glenfarne 'unworkable, unfinanceable, and uncompetitive' quote verified (attribute Glenfarne spokesperson Tim Fitzpatrick); Glenfarne-Chugach LOI non-binding, Enstar confirmed but Donlin Gold and ~90,000-member figure REMOVED as unverified, pipeline ~800 miles, target ~2029; GCI fiber 'second break since January' REMOVED as unverified, communities and no-root-cause verified; GAAIA TechPolicy.Press in-window, Roll Call June 4 background only, 3-yr preemption through Dec 2029 with state deployment authority preserved; OOI causal chain reframed (NSF did not pause as of June 16, committed to pause by June 19 after Saving the OOI Act).",
+  "verified": [
+    {
+      "id": "SB258_VETO",
+      "story_title": "Dunleavy vetoes SB 258, the state software anti-vendor-lock-in bill",
+      "summary_2_sentences": "Governor Dunleavy vetoed SB 258 on June 18, 2026, a bill that would have barred Alaska from signing software-licensing contracts that lock the state into a single vendor or restrict use to a specific geography. The bill had passed the Senate unanimously and the House 26-13; the legislature did not override before the special-session deadline.",
+      "why_it_matters_to_alaskans": "The veto preserves existing state procurement practice around enterprise software; agencies keep flexibility to sign exclusive licensing deals but lose a statutory backstop against vendor lock-in.",
+      "industry_consequence": "State enterprise software contracts, including the cloud platforms agency AI tooling rides on, stay subject to vendor lock-in terms without a statutory safeguard. AI tie is ANALYTICAL, not sourced.",
+      "verified_quote": "could reduce flexibility, limit access to needed products, and increase costs for agencies and local governments",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-19"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/19/near-deadline-dunleavy-vetoes-9-bills-school-funding-teacher-loan-repayment-program-become-law/", "outlet": "KTUU / Alaska's News Source", "pub_date": "2026-06-19"},
+        {"url": "https://mustreadalaska.com/9-bills-vetoed-whats-the-gist-what-were-the-votes-why-the-veto/", "outlet": "Must Read Alaska", "pub_date": "2026-06-19"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "LEAD"
+    },
+    {
+      "id": "HB381_2ND_SESSION",
+      "story_title": "HB 381 LNG tax bill collapses on final day; Dunleavy calls second special session",
+      "summary_2_sentences": "On June 19, 2026 the Alaska Senate passed an amended HB 381 (LNG pipeline property-tax cut) 12-8, but Senate amendments including a corporate income tax on pass-through entities and a hard construction deadline were unacceptable to developer Glenfarne and the governor. The House canceled its floor session rather than concur, ending the first special session without final passage, and Dunleavy proclaimed a second special session beginning June 20 at 10 a.m. The House had passed the original bill 34-5 on June 12.",
+      "why_it_matters_to_alaskans": "The collapse delays a property-tax break on the roughly 800-mile LNG pipeline that proponents say is needed to make the project viable, extending uncertainty for Alaskans banking on cheaper in-state gas by 2029.",
+      "industry_consequence": "Continued uncertainty on the LNG tax framework keeps energy-cost risk elevated for large Southcentral electricity customers, including any future data-center or AI compute facility citing low-cost Railbelt power as a siting rationale.",
+      "verified_quote": "unworkable, unfinanceable, and uncompetitive",
+      "verified_quote_attribution": "Glenfarne spokesperson Tim Fitzpatrick",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-19/its-the-alaska-legislatures-last-day-in-special-session-heres-the-latest", "outlet": "Alaska Public Media", "pub_date": "2026-06-19"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/19/gov-mike-dunleavy-calls-second-special-session-on-alaska-lng-tax-break/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-19"},
+        {"url": "https://www.alaskasnewssource.com/2026/06/19/live-updates-last-day-lng-special-session-veto-overrides-expected/", "outlet": "KTUU / Alaska's News Source", "pub_date": "2026-06-19"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "SUPPORTING_1"
+    },
+    {
+      "id": "GLENFARNE_CHUGACH_LOI",
+      "story_title": "Glenfarne Alaska LNG signs gas-supply LOI with Chugach Electric",
+      "summary_2_sentences": "On June 15, 2026 Glenfarne Alaska LNG announced a non-binding letter of intent to supply natural gas to Chugach Electric Association once Phase One of the roughly 800-mile pipeline is operational, targeting about 2029. The LOI adds Chugach to a customer roster that includes Enstar Natural Gas.",
+      "why_it_matters_to_alaskans": "Chugach is the backbone Railbelt utility for Southcentral Alaska; a gas-supply LOI, even non-binding, signals commercial momentum that bears on long-term electricity costs for homes and businesses.",
+      "industry_consequence": "If the pipeline proceeds, Chugach's gas would come from North Slope production rather than dwindling Cook Inlet supply, a precondition for siting energy-intensive users including data centers and AI compute on the Railbelt.",
+      "sources": [
+        {"url": "https://www.adn.com/business-economy/energy/2026/06/15/alaska-lng-project-signs-preliminary-deal-to-sell-gas-to-chugach-electric/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-16"},
+        {"url": "https://www.offshore-energy.biz/chugach-eyes-gas-from-alaskas-44b-lng-project-with-glenfarne-deal/", "outlet": "Offshore Energy", "pub_date": "2026-06-16"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-16/senators-weigh-risk-of-gas-pipeline-project-as-special-session-deadline-approaches", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "SUPPORTING_2"
+    },
+    {
+      "id": "GCI_ALEUTIAN_FIBER",
+      "story_title": "GCI restores Aleutian subsea fiber after three-week outage; single-provider risk exposed",
+      "summary_2_sentences": "On June 16, 2026 GCI's repair vessel Cable Innovator completed repairs to a subsea fiber cable damaged May 27 near Chignik Bay, restoring service to six Aleutian communities (Akutan, False Pass, King Cove, Perryville, Sand Point, Unalaska) after about three weeks on satellite backup. GCI did not identify the root cause.",
+      "why_it_matters_to_alaskans": "Six remote Aleutian communities lost their primary broadband for three weeks on a single subsea link, exposing single-provider fragility in western Alaska.",
+      "industry_consequence": "The sole subsea fiber serving the Aleutians is a single point of failure for any edge computing, telehealth, or fisheries-data workload routed through that backhaul.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "Alaska Public Media / KUCB", "pub_date": "2026-06-16"},
+        {"url": "https://www.kucb.org/regional/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "KUCB Unalaska", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "TEXTURE"
+    },
+    {
+      "id": "GAAIA_PREEMPTION",
+      "story_title": "Great American AI Act draft would preempt state AI development law 3 years; Alaska has none",
+      "summary_2_sentences": "A June 14, 2026 TechPolicy.Press analysis confirmed the bipartisan Great American Artificial Intelligence Act discussion draft (released June 4 by Reps. Obernolte and Trahan) would preempt state laws regulating frontier-model development for three years through December 2029 while preserving state authority over AI deployment and use. Alaska has no AI development statute to preserve, as SB 2 stalled and the HCR 3 AI task force expired.",
+      "why_it_matters_to_alaskans": "The preemption bites on states with active AI development laws; Alaska has none, so the practical question is whether the federal frame helps or hinders the AI deployment Alaska is trying to attract.",
+      "industry_consequence": "A three-year federal preemption federalizes frontier-AI rulemaking, narrowing any future Alaska state action on model development.",
+      "sources": [
+        {"url": "https://www.techpolicy.press/unpacking-the-great-american-artificial-intelligence-act-of-2026/", "outlet": "TechPolicy.Press", "pub_date": "2026-06-14"},
+        {"url": "https://rollcall.com/2026/06/04/bipartisan-ai-draft-proposes-three-year-preemption-of-state-laws/", "outlet": "Roll Call (background, out-of-window)", "pub_date": "2026-06-04"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "HELD_ALTERNATE"
+    },
+    {
+      "id": "OOI_PAUSE",
+      "story_title": "Murkowski-led letter and Saving the OOI Act win NSF commitment to pause OOI removal",
+      "summary_2_sentences": "On June 16, 2026 Sen. Lisa Murkowski (sole Republican signatory) joined nine senators urging NSF to reverse removal of 900-plus OOI instruments including Gulf of Alaska sensors; NSF initially defended the descoping. By June 19, after passage of the bipartisan Saving the OOI Act, NSF committed to pause the removal.",
+      "why_it_matters_to_alaskans": "Gulf of Alaska sensors underpin the stock assessments that set fishery quotas; removal would degrade the data foundation for a major Alaska industry.",
+      "industry_consequence": "Preserving OOI sustains the ocean-data feedstock fisheries management and oceanographic modeling depend on.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"},
+        {"url": "https://alaska-native-news.com/murkowski-merkley-secure-commitment-to-preserve-u-s-ocean-monitoring-system/84636/", "outlet": "Alaska Native News", "pub_date": "2026-06-19"}
+      ],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "needs_softening": true, "role": "REPEAT_DO_NOT_LEAD"
+    },
+    {
+      "id": "DAF_RFLP_DEADLINE",
+      "story_title": "DAF AI data-center lease solicitation AFCEC-26-R-0006; proposals due June 29",
+      "summary_2_sentences": "The Air Force Installation Contracting Agency solicitation AFCEC-26-R-0006 invites private developers to build commercial AI data centers on parcels at three Alaska bases (JBER, Eielson AFB, Clear Space Force Station), with proposals due June 29, 2026. HigherGov logged a June 15, 2026 update to the opportunity; the program was first reported in April 2026.",
+      "why_it_matters_to_alaskans": "The June 29 deadline is the next concrete decision gate for what would be the largest private compute commitment in Alaska history, and the federal clock keeps running while the state's power and procurement terms stall.",
+      "industry_consequence": "Developers and ANC investment arms have until June 29 to submit lease proposals for commercial AI data centers on federal land at three Alaska bases; this is the federal private-build clock against which the state's unsettled fiscal and procurement terms are measured.",
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov", "pub_date": "2026-06-15"},
+        {"url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air and Space Forces Magazine", "pub_date": "2026-04-11"}
+      ],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": true, "needs_softening": false, "role": "BACKGROUND_DEADLINE"
+    }
+  ],
+  "dropped": [
+    {"id": "HB280_VETO", "reason": "No AI tie; held alternate. Sources solid (ADN, MRA June 19) if reinstated."},
+    {"id": "SBA_8A", "reason": "Pub date June 11 out of window; single primary source; repeat (led 06-16)."}
+  ]
+}
