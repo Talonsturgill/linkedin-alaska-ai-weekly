@@ -1,0 +1,82 @@
+{
+  "sources": [
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-19",
+      "story_title": "Dunleavy vetoes SB 258, state software anti-vendor-lock-in bill (June 18)"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/06/19/near-deadline-dunleavy-vetoes-9-bills-school-funding-teacher-loan-repayment-program-become-law/",
+      "outlet": "KTUU / Alaska's News Source",
+      "pub_date": "2026-06-19",
+      "story_title": "Dunleavy vetoes SB 258, state software anti-vendor-lock-in bill (June 18)"
+    },
+    {
+      "url": "https://mustreadalaska.com/9-bills-vetoed-whats-the-gist-what-were-the-votes-why-the-veto/",
+      "outlet": "Must Read Alaska",
+      "pub_date": "2026-06-19",
+      "story_title": "Dunleavy vetoes SB 258, state software anti-vendor-lock-in bill (June 18)"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-19/its-the-alaska-legislatures-last-day-in-special-session-heres-the-latest",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-06-19",
+      "story_title": "HB 381 LNG tax bill collapses; Dunleavy calls second special session (June 19)"
+    },
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/06/19/gov-mike-dunleavy-calls-second-special-session-on-alaska-lng-tax-break/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-19",
+      "story_title": "HB 381 LNG tax bill collapses; Dunleavy calls second special session (June 19)"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/06/19/live-updates-last-day-lng-special-session-veto-overrides-expected/",
+      "outlet": "KTUU / Alaska's News Source",
+      "pub_date": "2026-06-19",
+      "story_title": "HB 381 LNG tax bill collapses; Dunleavy calls second special session (June 19)"
+    },
+    {
+      "url": "https://www.adn.com/business-economy/energy/2026/06/15/alaska-lng-project-signs-preliminary-deal-to-sell-gas-to-chugach-electric/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-16",
+      "story_title": "Glenfarne Alaska LNG signs gas-supply LOI with Chugach Electric (June 15)"
+    },
+    {
+      "url": "https://www.offshore-energy.biz/chugach-eyes-gas-from-alaskas-44b-lng-project-with-glenfarne-deal/",
+      "outlet": "Offshore Energy",
+      "pub_date": "2026-06-16",
+      "story_title": "Glenfarne Alaska LNG signs gas-supply LOI with Chugach Electric (June 15)"
+    },
+    {
+      "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-16/senators-weigh-risk-of-gas-pipeline-project-as-special-session-deadline-approaches",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-06-16",
+      "story_title": "Glenfarne Alaska LNG signs gas-supply LOI with Chugach Electric (June 15)"
+    },
+    {
+      "url": "https://alaskapublic.org/news/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians",
+      "outlet": "Alaska Public Media / KUCB",
+      "pub_date": "2026-06-16",
+      "story_title": "GCI restores Aleutian subsea fiber after three-week outage (June 16)"
+    },
+    {
+      "url": "https://www.kucb.org/regional/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians",
+      "outlet": "KUCB Unalaska",
+      "pub_date": "2026-06-16",
+      "story_title": "GCI restores Aleutian subsea fiber after three-week outage (June 16)"
+    },
+    {
+      "url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/",
+      "outlet": "HigherGov",
+      "pub_date": "2026-06-15",
+      "story_title": "DAF AI data-center lease solicitation AFCEC-26-R-0006, proposals due June 29"
+    },
+    {
+      "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+      "outlet": "Air and Space Forces Magazine",
+      "pub_date": "2026-04-11",
+      "story_title": "DAF AI data-center lease solicitation AFCEC-26-R-0006, proposals due June 29"
+    }
+  ]
+}
