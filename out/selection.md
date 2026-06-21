@@ -1,27 +1,46 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom — NO. 21 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (received wisdom)
+Alaska Department of Revenue Deputy Commissioner **Fadil Limani**, announcing a
+December 2024 partnership with Saige Consulting to modernize the Permanent Fund
+Dividend application system, said the project “promises to revolutionize how we
+process PFD applications,” a “true game changer for generations of Alaskans.”
+The claim circulates as proof that generative AI will transform and automate
+Alaska's highest-volume public-facing government service for 630,000-plus
+eligible residents. (StateScoop 2024-12-23; Route Fifty 2025-01-03.)
 
-## Role
-FOUNDER (kicker middle slot)
+## Steelman (state first, generously)
+The PFD touches nearly every Alaskan and moves over a billion dollars a year on
+legacy technology full of manual steps and paper workflows. The vendor projected
+roughly 116,000 hours saved annually. Cutting that burden is a real, measurable,
+worthwhile goal, and AI-assisted document handling is a credible way to get
+there. A smart reader hears Limani and reasonably expects a faster, cleaner
+dividend season.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Corrective thesis (one sentence)
+Eighteen months after the announcement, the 2026 filing season closed on the
+same manual paper process, the vendor itself said an analyst must still review
+every application, and no public rollout has been confirmed, so the right frame
+is a delayed, human-in-the-loop automation pilot, not a transformation.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Evidence spine (all in claim_dossier.json, re-verified)
+- pfd.alaska.gov (official, fetched 2026-06-20): 2026 filing season ran on the
+  same manual paper-upload workflow; no mention of AI or Saige. [PRIMARY]
+- Saige partner Charles Hu (StateScoop, 2024-12-23): none of the systems run
+  automatically; an analyst must verify every application. [vendor admission]
+- Route Fifty (2025-01-03): system "expected to go live early next year" (early
+  2026); no public launch confirmed as of June 2026. [timeline slip]
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## AK business consequence
+State government AI procurement. Vendors bidding for state AI work, OIT and the
+Legislature exercising oversight, and 630,000-plus residents calibrating trust
+in AI-delivered services are all sizing expectations off a flagship deployment
+that has not shipped a confirmed, public system 18 months on. Execution risk,
+not capability, is the binding constraint.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Craft constraints for the writer/editor
+- Quote "revolutionize" and "game changer" ONLY inside Limani's quotation marks,
+  never in the desk's own voice (both are banned phrases for us).
+- Do NOT reproduce the source em-dash. Quote the two spans separately.
+- Posture is corrective and generous. The PFD modernization goal is good; the
+  gap is delivery and overclaim, not intent.

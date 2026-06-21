@@ -1,32 +1,30 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "rubric": "config/contrarian_rubric.yaml",
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.13, "score": 9, "notes": "Two opening lines name the agency, the claim's timeframe, and the corrective punch before the see-more cutoff; minor deduction because Limani is named in paragraph 2, so the hook attributes the claim to the institution."},
+    {"name": "Claim load-bearing + AK stakes", "weight": 0.20, "score": 10, "notes": "Named state official's verbatim transformation promise on Alaska's highest-volume public service; correction names legislators, OIT, vendors, 630,000+ residents, and the $1B+ program."},
+    {"name": "Steelman fairness", "weight": 0.12, "score": 10, "notes": "Paragraphs 2-3 present the 116,000-hour figure, PFD scale, the obsolete legacy platform, and that a smart reader had every reason to expect delivery; no snark before rebuttal."},
+    {"name": "Counter-evidence quality", "weight": 0.10, "score": 9, "notes": "Three items all in dossier: primary official pfd.alaska.gov (reverified), named vendor admission (Hu/StateScoop), Route Fifty timeline; Hu point rests on a single secondary outlet."},
+    {"name": "Factual density", "weight": 0.10, "score": 10, "notes": "Named entities, dates, dollar figures in nearly every sentence: Limani, Saige, Dec 2024, 116,000 hours, 630,000 Alaskans, $1B+, pfd.alaska.gov, Hu, Route Fifty."},
+    {"name": "Source quality", "weight": 0.13, "score": 9, "notes": "Attribution on two independent credible outlets for a named state official; counter-evidence anchored by a primary government source; primary claim source is credible-secondary, not a docket."},
+    {"name": "Voice match", "weight": 0.12, "score": 10, "notes": "Direct analogue to post_001.md: binary-naming ('the binding constraint isn't capability, it's execution'), plain declarative corrective register, direct stakeholder close."},
+    {"name": "Readability (LinkedIn)", "weight": 0.05, "score": 10, "notes": "Paragraphs 2-4 sentences; one 3-item single-clause bullet block; 421 words, 2733 chars, within word and char caps; scans on mobile."},
+    {"name": "Engagement question", "weight": 0.03, "score": 10, "notes": "Role-specific, debatable procurement question tied to the corrected pilot-vs-transformation frame; no CTA or softener."},
+    {"name": "Business actionability", "weight": 0.02, "score": 9, "notes": "Reader can reframe state AI contract announcements against confirmed-go-live milestones; no specific contract vehicle named."}
   ],
+  "weighted_total": 9.62,
+  "threshold": 8.0,
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "passed": true},
+    {"name": "punctuation_bans_held", "passed": true},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true},
+    {"name": "word_count_in_range", "passed": true},
+    {"name": "claim_is_attributed", "passed": true},
+    {"name": "steelman_present", "passed": true}
   ],
-  "one_sentence_fix": null
+  "hard_fail": null,
+  "ship": true,
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "On a future revision, surface Limani's name and title in the first line so the hook attributes the transformation claim to its named asserter rather than the institution alone.",
+  "_note": "Re-score after hashtag fix. Initial score 9.52 with a hashtag hard-fail (off-whitelist #PermanentFund); resolved by dropping to three whitelisted tags (#AlaskaAI #AIPolicy #ProcurementReform). Re-score 9.62, ship true, zero hard-fails."
 }
