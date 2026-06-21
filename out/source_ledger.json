@@ -1,48 +1,23 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "post": "Alaska.Ai LinkedIn — VOL. 06 — 2026-06-20",
+  "window": ["2026-06-13", "2026-06-20"],
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"story_title": "Penn State + UAF AI permafrost digital twin (Utqiagvik)", "url": "https://www.psu.edu/news/research/story/digital-twins-could-help-melt-mystery-alaskas-thawing-permafrost", "outlet": "Penn State University News", "pub_date": "2026-06-16", "primary_source": true},
+    {"story_title": "Penn State + UAF AI permafrost digital twin (Utqiagvik)", "url": "https://www.eurekalert.org/news-releases/1132328", "outlet": "EurekAlert", "pub_date": "2026-06-16", "primary_source": true},
+    {"story_title": "Stak Energy North Slope AI campus lease, DNR comment close (ADL 422741)", "url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska Online Public Notices (DNR)", "pub_date": "2026-05-12", "primary_source": true},
+    {"story_title": "NSF TechAccess: AI-Ready America workforce hub program (NSF 26-508)", "url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "NSF (official solicitation)", "pub_date": "2026-03-25", "primary_source": true},
+    {"story_title": "NSF TechAccess: AI-Ready America workforce hub program (NSF 26-508)", "url": "https://www.nsf.gov/news/nsf-initiative-aims-make-every-american-worker-business", "outlet": "NSF news", "pub_date": "2026-03-25", "primary_source": true},
+    {"story_title": "HB 381 LNG tax fight, second special session, conference committee", "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-20/alaska-lawmakers-seek-gas-pipeline-tax-compromise-as-another-special-session-begins", "outlet": "Alaska Public Media", "pub_date": "2026-06-20", "primary_source": false}
+  ],
+  "dropped_or_held": [
+    {"id": "BBRSDA_DRONE", "reason": "Validator dropped: sources unreachable, in-window operation unconfirmable."},
+    {"id": "NOAA_DISASTER", "reason": "Verified ($99.4M, three sub-allocations) but no direct AI tie; held, not used in post."}
+  ],
+  "new_sources_surfaced": [
+    {"url": "https://thealaskastory.com", "rationale": "Independent AK politics/business outlet, in-window legislative reporting."},
+    {"url": "https://www.kucb.org", "rationale": "Unalaska/Aleutian public radio, on-the-ground infrastructure reporting."},
+    {"url": "https://www.datacenterdynamics.com", "rationale": "Technical AK data-center coverage (Stak, GCI, power draw)."},
+    {"url": "https://tribalbusinessnews.com", "rationale": "Primary-source ANC federal-contracting and 8(a) coverage."},
+    {"url": "https://relief.psmfc.org", "rationale": "PSMFC fishery-disaster spend-plan primary administrative source."}
   ]
 }

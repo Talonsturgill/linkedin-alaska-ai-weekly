@@ -1,27 +1,33 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 06 — 2026-06-20
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: **Weekly Brief.** Diffuse, heavily-mined week (6th consecutive daily run). The fresh, in-window, verified material doesn't have one dominant structural tension, but three genuinely new stories ladder cleanly into one frame the desk hasn't led on. Kicker: WEEKLY BRIEF.
 
-## Role
-FOUNDER (kicker middle slot)
+Window: 2026-06-13 to 2026-06-20 inclusive.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Lead frame (NEW, not a re-lead of the last 4 LinkedIn leads)
+**The AI that actually landed in Alaska this week was built and owned by outsiders, deployed on Alaska's ground, while the one instrument that would build Alaska's own AI capacity had its clock run with the Legislature consumed by the gasline tax.** This is a capability-ownership / who-owns-the-tool frame.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+Why it is NOT a repeat of the last 4 LinkedIn leads:
+- 06-19 lead: public-counterparty-lags-private-capital (SB 258 veto, HB 381).
+- 06-18 lead: who-pays-for-the-power (GVEA ratepayer / data-center grid cost).
+- 06-17 lead: input-feedstock-cut (OOI ocean data, LNG power, GCI).
+- 06-16 lead: 8(a) contracting-preference recompete.
+This week's axis is **ownership of the AI capability itself**, who builds the model, who owns the IP, who captures the value, not procurement, power-cost, feedstock, or set-asides. The lead STORY (Penn State / UAF permafrost digital twin) is brand-new, never covered.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Lead
+**PERMAFROST_TWIN (Beat C, verified high, primary).** Penn State (Ming Xiao) with UAF co-author Dmitry Nicolsky published June 16 a peer-reviewed, NSF-funded physics-informed AI digital twin deployed under a Utqiagvik road embankment, two buried 1-km fiber-optic cables feeding a machine-learning model that predicts ground-temperature and unfrozen-water changes. First of its kind for Arctic infrastructure. The cleanest expression of the frame: the most advanced AI now running on Alaska ground was built by an Outside university. HEDGE: say "billions of dollars in infrastructure damage," NOT the $24.5B figure (unverified). Frame the DOT/pipeline capital-planning consequence as analysis.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Supporting
+1. **STAK_DNR (Beat E, verified medium, primary DNR notice).** Alaska DNR's comment window on the preliminary best-interest finding for ADL 422741, a 50-year, 715.4-acre lease to STAK Energy on the Dalton Highway about 26 mi south of Deadhorse for a gas-powered campus of high-performance computing units, closed June 15. Last public gate before a binding final lease decision. The physical AI buildout on Alaska land, by an Outside developer. HEDGE: do NOT assert 1-3 GW, 1,500 jobs, or 2028 (validator stripped, secondary sources unreachable).
+2. **NSF_TECHACCESS (Beat A, verified medium, primary NSF).** The Round 1 letter-of-intent deadline for NSF's TechAccess: AI-Ready America program (up to $224M, $1M/yr for 3 yrs per hub, 10 Round 1 hubs, 56 total) passed June 16. The instrument that would fund an in-state AI-capacity hub. Frame as the unclaimed-capacity counterpoint. HEDGE: do NOT assert "Alaska guaranteed a hub" or "no Alaska applicant"; frame as opportunity and a later-round window.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## Texture / contrast (one line, not a full beat)
+**HB381_SPECIAL (Beat D, verified medium).** Second special session opened June 20; HB 381 to a six-member conference committee targeting July 1 after the House couldn't concur with the Senate's amended LNG tax bill. Use as the one-line contrast: the Legislature spent the week on the gasline tax, not on AI capacity. Do NOT assert any rejection vote count.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Dropped / held
+- BBRSDA drone salmon pilot: validator dropped (sources unreachable, in-window operation unconfirmable).
+- NOAA $99.4M fishery disaster allocation: fresh and verified but AI tie is nil; held, not used.
+- OOI Act / SB 258 veto / 8(a) / GCI fiber: all recently led or covered; not surfaced.
+
+## Package angle
+This week the most advanced AI running on Alaska ground was a permafrost digital twin buried under a Utqiagvik road, and it was built by Penn State, not by an Alaska institution. The same seven days, Alaska DNR's comment window closed on a 715-acre North Slope lease to an Outside developer that wants to put a gas-powered compute campus on state land, one step from a final decision. And the federal program that would actually fund an in-state AI-capacity hub, NSF's TechAccess, had its first deadline pass on June 16 while the Legislature spent the week in a second special session over the gasline tax. The through-line for the LinkedIn audience is ownership. Alaska keeps furnishing the ground, the gas, and the hard problems that AI gets tested on, while the models, the IP, and the capacity to build them keep being owned somewhere else. The lead is the permafrost twin because it's the cleanest case, a working AI system, on a named Alaska road, that Alaska didn't build and doesn't own.
