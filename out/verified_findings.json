@@ -1,0 +1,109 @@
+{
+  "window": ["2026-06-13", "2026-06-20"],
+  "validation_note": "Validator verified 5 of 7 candidates; BBRSDA drone story dropped (sources unreachable, in-window operation unconfirmable). Softening flags applied per validator: stripped unverified figures noted per story.",
+  "verified_stories": [
+    {
+      "id": "PERMAFROST_TWIN",
+      "beat": "C",
+      "role": "lead",
+      "story_title": "Penn State and UAF Deploy AI Permafrost Digital Twin Under a Utqiagvik Road",
+      "verified_facts": [
+        "Peer-reviewed study published June 16, 2026 (in window).",
+        "Led by Penn State civil engineering professor Ming Xiao; UAF co-author Dmitry Nicolsky.",
+        "NSF-funded.",
+        "First-of-its-kind physics-informed digital twin applied to Arctic infrastructure.",
+        "Real deployed, instrumented system: two 1-kilometer fiber-optic cables buried under a road embankment in Utqiagvik, collecting data Sept 2021 through June 2024, left in the ground for roughly 10 more years of data collection.",
+        "Machine-learning model predicts subsurface ground-temperature changes and unfrozen water content.",
+        "Permafrost thaw could cost Arctic communities and governments billions of dollars in infrastructure damage over coming decades (use this phrasing, NOT a specific dollar figure)."
+      ],
+      "industry_consequence": "Climate-operations and infrastructure: Alaska DOT, the North Slope Borough, and pipeline-corridor operators on permafrost ground now have a peer-validated, NSF-backed AI digital-twin method they could replicate to schedule repairs before failure. Decision window is the next capital-planning cycle. Note: the tool was built by an Outside university, not an Alaska institution.",
+      "sources": [
+        {"url": "https://www.psu.edu/news/research/story/digital-twins-could-help-melt-mystery-alaskas-thawing-permafrost", "outlet": "Penn State University News", "pub_date": "2026-06-16", "story_title": "Digital twins could help melt the mystery of Alaska's thawing permafrost"},
+        {"url": "https://www.eurekalert.org/news-releases/1132328", "outlet": "EurekAlert", "pub_date": "2026-06-16", "story_title": "Penn State permafrost digital twin"}
+      ],
+      "confidence": "high",
+      "needs_softening": false,
+      "do_not_assert": ["$24.5 billion figure (use 'billions of dollars' instead)"]
+    },
+    {
+      "id": "STAK_DNR",
+      "beat": "E",
+      "role": "supporting",
+      "story_title": "DNR Comment Window Closes June 15 on Stak Energy's 715-Acre North Slope AI Campus Lease",
+      "verified_facts": [
+        "Alaska DNR public comment period on its preliminary best-interest finding for ADL 422741 closed 4:30 PM AKDT June 15, 2026 (in-window trigger).",
+        "Proposed 50-year lease to STAK Energy.",
+        "715.4 acres along the Dalton Highway about 26 miles south of Deadhorse.",
+        "Use: commercial natural-gas-powered energy facility including modular high-performance computing units.",
+        "June 15 close is the last formal public-input gate before DNR issues a binding final lease decision."
+      ],
+      "industry_consequence": "Real estate and energy infrastructure: Alaska DNR is positioned to issue a final lease decision within weeks, obligating the state to 50-year terms and pressing North Slope gas producers toward a firm supply decision. The developer is an Outside operator leasing Alaska land for compute.",
+      "sources": [
+        {"url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska Online Public Notices (DNR)", "pub_date": "2026-05-12", "story_title": "ADL 422741 preliminary decision, STAK Energy lease"}
+      ],
+      "confidence": "medium",
+      "needs_softening": true,
+      "do_not_assert": ["1 to 3 GW power draw", "construction workforce up to 1,500", "operational by late 2028", "one of the largest AI data centers in the country"]
+    },
+    {
+      "id": "NSF_TECHACCESS",
+      "beat": "A",
+      "role": "supporting",
+      "story_title": "NSF AI Workforce Hub Round 1 Deadline Passed June 16",
+      "verified_facts": [
+        "NSF TechAccess: AI-Ready America program (NSF 26-508).",
+        "Up to $224 million total (solicitation states a $168 to $224 million range).",
+        "Round 1 letter-of-intent deadline June 16, 2026 (in window); full proposals due July 16, 2026.",
+        "$1 million per year for three years per hub (possible fourth year).",
+        "10 hubs in Round 1; 56 total hubs across three rounds, one per state, DC, and territory.",
+        "Round 2 (20 hubs) and Round 3 follow through 2027."
+      ],
+      "industry_consequence": "Workforce development: the program funds statewide AI-literacy and small-business adoption hubs. The instrument exists; the question is whether an Alaska convener (UA system, Alaska Workforce Investment Board) competes in a later round to build in-state AI capacity rather than only hosting Outside-built AI.",
+      "sources": [
+        {"url": "https://www.nsf.gov/funding/opportunities/techaccess-ai-ready-america/nsf26-508/solicitation", "outlet": "NSF (official solicitation)", "pub_date": "2026-03-25", "story_title": "TechAccess: AI-Ready America (NSF 26-508)"},
+        {"url": "https://www.nsf.gov/news/nsf-initiative-aims-make-every-american-worker-business", "outlet": "NSF news", "pub_date": "2026-03-25", "story_title": "NSF initiative aims to make every American worker AI-ready"}
+      ],
+      "confidence": "medium",
+      "needs_softening": true,
+      "do_not_assert": ["Alaska guaranteed one hub", "no Alaska institution submitted (frame as opportunity/awareness, not confirmed non-submission)", "December 15 2026 LOI as a hard confirmed date"]
+    },
+    {
+      "id": "NOAA_DISASTER",
+      "beat": "B",
+      "role": "alternate",
+      "story_title": "Commerce Allocates About $99.4M to Alaska Across Three Fishery Disasters",
+      "verified_facts": [
+        "U.S. Department of Commerce allocation, confirmed via Murkowski-Sullivan release June 18, 2026.",
+        "About $99.4 million total to Alaska: $75,186,338 Bering Sea snow crab (2023-24), $18,489,100 Chignik salmon (2022), $5,750,019 Upper Cook Inlet east-side setnet sockeye (2023).",
+        "NOAA Fisheries will collaborate with the State and the Pacific States Marine Fisheries Commission on a spend plan."
+      ],
+      "industry_consequence": "Commercial fisheries capital. AI tie is analytical only (fisheries data/management). Use as texture or drop.",
+      "sources": [
+        {"url": "https://www.murkowski.senate.gov/press/release/murkowski-and-sullivan-welcome-funding-for-fisheries", "outlet": "Sen. Murkowski (official release)", "pub_date": "2026-06-18", "story_title": "Murkowski and Sullivan welcome funding for fisheries"}
+      ],
+      "confidence": "medium",
+      "needs_softening": true,
+      "do_not_assert": ["$123.6M combined three-state total", "American Relief Act 2025 as the named vehicle"]
+    },
+    {
+      "id": "HB381_SPECIAL",
+      "beat": "D",
+      "role": "texture",
+      "story_title": "Alaska LNG Tax Fight Forces a Second Special Session, HB 381 to Conference Committee",
+      "verified_facts": [
+        "Second special session opened June 20, 2026.",
+        "House passed its version of HB 381 34-5 on June 12; Senate amended it (union labor requirements plus a corporate tax change on oil-and-gas pass-through entities).",
+        "House lacked the 21 votes to concur and canceled its June 19 floor session; no formal rejection vote tally exists.",
+        "A six-member conference committee was appointed June 20 (House: Edgmon, Schrage, Ruffridge; Senate: Stedman, Hoffman, Cronk), targeting July 1.",
+        "HB 381 offers tax relief to the Alaska LNG project; Gov. Dunleavy and House leadership called the Senate version unworkable."
+      ],
+      "industry_consequence": "Energy/Railbelt power backdrop. Use as one-line contrast: the Legislature spent the week on the gasline tax, not on AI capacity.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-20/alaska-lawmakers-seek-gas-pipeline-tax-compromise-as-another-special-session-begins", "outlet": "Alaska Public Media", "pub_date": "2026-06-20", "story_title": "Alaska lawmakers seek gas pipeline tax compromise as another special session begins"}
+      ],
+      "confidence": "medium",
+      "needs_softening": true,
+      "do_not_assert": ["House rejected 12-28 or 28-12 (no such vote occurred)"]
+    }
+  ]
+}

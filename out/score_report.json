@@ -1,32 +1,19 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "Three-sentence opener fits within the ~210-char LinkedIn cutoff (192 chars). Names Utqiagvik, a live deployed system, Penn State, and lands the ownership tension immediately. Scorer's unanchored-superlative note was applied post-score: 'most advanced AI' replaced with 'first physics-informed AI digital twin,' which traces directly to verified_findings."},
+    {"name": "Industry relevance", "score": 9, "weight": 0.20, "notes": "All three primary stories localize to Alaska and name a sector consequence: infrastructure/capital-planning (Alaska DOT, North Slope Borough, pipeline operators), real-estate/energy for the STAK/DNR lease, workforce-development capital for NSF TechAccess. HB 381 is a one-line contrast. NSF Alaska entry is framed as possibility, slightly diluting that beat's concreteness."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Named specifics every 1 to 2 sentences: Ming Xiao, Dmitry Nicolsky, June 16, two 1-km fiber-optic cables, 10-year window, ADL 422741, June 15, STAK Energy, 715.4 acres, Dalton Highway, 26 miles south of Deadhorse, 50-year lease, NSF 26-508, $224M, 56 hubs, $1M/hub/yr, LOI June 16, proposals July 16, HB 381, six-member conference committee, July 1, June 20."},
+    {"name": "Source quality", "score": 9, "weight": 0.15, "notes": "Permafrost twin backed by Penn State PR plus EurekAlert (two independent credible outlets, high confidence). STAK/DNR uses the official Alaska DNR public notice (primary). NSF cites the official solicitation (primary). HB 381 uses Alaska Public Media. All softening flags respected. Deduction because STAK and NSF are single-primary-sourced at medium confidence."},
+    {"name": "Voice match", "score": 9, "weight": 0.15, "notes": "Analytical and structural. The 'scorecard' device and 'through-line is ownership' are position-taking without hype. Closing 'a sovereignty outcome and a capital outcome, not a press release' is pointed editorial stance. No influencer cadence. Minor edge toward rhetorical cadence in 'sit elsewhere.'"},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.10, "notes": "Paragraphs 2 to 4 sentences. 449 words within 350 to 475. 2905 chars under the 3000 cap. Single bullet block of exactly 3 single-clause items. Scans cleanly on desktop and mobile."},
+    {"name": "Engagement question", "score": 10, "weight": 0.08, "notes": "Closes with a real, debatable question naming four actor categories (State, University, ANCs, Outside), tied directly to the ownership tension. No softener, no CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Concrete revisit triggers: DOT/Borough capital planner can act on the digital-twin method; a land/energy exec can track the imminent DNR lease decision on ADL 422741; a UA system or workforce board admin can check NSF 26-508 later rounds."}
+  ],
+  "weighted_total": 9.35,
+  "threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "hard_fail_tripped": null,
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "Applied: replaced the unanchored superlative 'most advanced AI now running on Alaska soil' with 'first physics-informed AI digital twin deployed on Alaska soil,' which is supported verbatim by verified_findings. Final post (2905 chars, 449 words) meets or exceeds the scored version.",
+  "post_metrics_at_scoring": {"total_chars": 2905, "body_words": 449, "hook_chars": 192, "hashtags": 5, "punctuation_bans_held": true}
 }

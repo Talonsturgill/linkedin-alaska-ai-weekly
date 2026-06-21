@@ -5,3 +5,6 @@ __pycache__/
 .venv/
 .env
 .claude/skills/alaska-ai-brief/fonts/
+
+# transient routine working files
+scratch/
