@@ -1,0 +1,83 @@
+{
+  "issue_label": "NO. 21",
+  "run_date": "2026-06-20",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "id": "D",
+    "claim_verbatim": "promises to revolutionize how we process PFD applications — a true game changer for generations of Alaskans",
+    "claim_verbatim_spans_no_emdash": [
+      "revolutionize how we process PFD applications",
+      "a true game changer for generations of Alaskans"
+    ],
+    "quoting_guidance": "The verbatim contains an em-dash and the words 'revolutionize' and 'game changer', which are banned in OUR copy and as punctuation. Quote ONLY inside attributed quotation marks as Limani's words, and split into the two spans above to avoid reproducing the em-dash. Example: Limani said the project “promises to revolutionize how we process PFD applications,” a “true game changer for generations of Alaskans.”",
+    "claim_paraphrase_fair": "Alaska's deployment of generative AI through Saige Consulting will fundamentally transform and automate PFD application processing, delivering transformative efficiency gains for all 630,000-plus eligible Alaskans.",
+    "asserters": [
+      {
+        "name": "Fadil Limani",
+        "title_or_org": "Deputy Commissioner, Alaska Department of Revenue",
+        "url": "https://statescoop.com/alaska-permanent-fund-application-process-ai-tech/",
+        "outlet": "StateScoop",
+        "pub_date": "2024-12-23",
+        "is_primary": true
+      },
+      {
+        "name": "Fadil Limani",
+        "title_or_org": "Deputy Commissioner, Alaska Department of Revenue",
+        "url": "https://www.route-fifty.com/customer-experience/2025/01/alaska-uses-cloud-ai-modernize-dividend-payouts/401933/",
+        "outlet": "Route Fifty",
+        "pub_date": "2025-01-03",
+        "is_primary": false
+      }
+    ],
+    "steelman": "Alaska's PFD program processes over 630,000 applications annually using legacy technology burdened by manual steps, paper workflows, and error-prone data entry. Generative AI and process automation, as deployed by peer state agencies, have in documented cases cut processing time by double-digit percentages and reduced applicant follow-up burden by millions of minutes per year. Saige Consulting's system was designed specifically to address these known bottlenecks, and Limani's framing reflects genuine, measurable efficiency gains that are credibly achievable. For a program that distributes over one billion dollars annually and is Alaska's most universal government touchpoint, even incremental automation would carry real stakes.",
+    "why_smart_people_believe_it": "State AI modernization announcements routinely feature executive quotes promising transformation, and Saige's projected savings figure of roughly 116,000 hours annually is specific and plausible. The PFD's scale and the obsolescence of the legacy myPFD platform make AI modernization a genuine priority with real upside.",
+    "where_it_breaks": "As of June 2026, the pfd.alaska.gov official site for the active 2026 filing season makes no mention of AI, Saige, or any new automated system. The 2026 filing season closed with the same manual paper-upload process. The system was expected to be fully operational by early 2026 per the project's own timeline, and the launch has not materialized publicly. Saige's own partner acknowledged at announcement that none of the systems run automatically and an analyst still must review every application, directly undercutting the automation framing.",
+    "more_accurate_frame": "Alaska hired a vendor to pilot AI-assisted PFD processing in 2024, with the goal of reducing manual burden, not eliminating it. Human analyst review remains mandatory by the vendor's own admission, the system had not entered confirmed production as of the June 2026 filing season, and the transformation promise has not been validated by any public rollout. The accurate frame is a cautious automation pilot with human oversight, delayed, and unconfirmed at scale.",
+    "counter_evidence": [
+      {
+        "fact": "The official pfd.alaska.gov site for the 2026 filing season (closed June 2026) contains no mention of AI, Saige, or a new AI-powered processing system. The division describes processing paper applications manually over the next few months, the same workflow present before the AI announcement.",
+        "url": "https://pfd.alaska.gov/",
+        "outlet": "Alaska Permanent Fund Dividend Division (official)",
+        "pub_date": "2026-06-20",
+        "is_primary": true,
+        "reverified": true
+      },
+      {
+        "fact": "Saige Consulting senior partner Charles Hu stated at the December 2024 announcement that while the system will use process automation, none of the systems run automatically and an analyst will still need to ensure that all application information is correct.",
+        "url": "https://statescoop.com/alaska-permanent-fund-application-process-ai-tech/",
+        "outlet": "StateScoop",
+        "pub_date": "2024-12-23",
+        "is_primary": false,
+        "reverified": true
+      },
+      {
+        "fact": "Route Fifty reported in January 2025 that the modernized AI system was expected to go live early the next year (early 2026). As of June 2026, no public launch confirmation exists and the PFD division site reflects no operational AI system.",
+        "url": "https://www.route-fifty.com/customer-experience/2025/01/alaska-uses-cloud-ai-modernize-dividend-payouts/401933/",
+        "outlet": "Route Fifty",
+        "pub_date": "2025-01-03",
+        "is_primary": false,
+        "reverified": true
+      }
+    ],
+    "load_bearing": "The transformation framing is load-bearing for Alaska's AI-in-government narrative. Legislators evaluating AI oversight provisions, vendors competing for state AI contracts, and residents calibrating trust in AI-delivered government services all take cues from whether flagship announced deployments actually deliver. A delayed, unconfirmed launch on the state's highest-volume public-facing system is a direct data point about execution risk in Alaska government AI procurement.",
+    "ak_business_consequence": "Sector: state government AI procurement. Decision/risk: vendors, oversight bodies (OIT, Legislature), and 630,000-plus eligible Alaskans are calibrating expectations for AI-powered service delivery on the basis of an announcement that has not produced a confirmed, publicly operational system 18 months later. Named actor: Alaska Department of Revenue / Division of PFD. Timeframe: June 2026 filing season closed without AI system confirmation.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_primary": true,
+      "not_recent_repeat": true
+    },
+    "confidence": "high"
+  },
+  "dropped_claims": [
+    {"id": "A", "reason": "strawman — Kastner quote shows Pano AI expansion but does not assert Alaska coverage; the 'Alaska is covered/next' frame is an inferential aggregate, not a verified verbatim assertion. Gate 1 fail."},
+    {"id": "B", "reason": "no_primary_counter — Holmes verbatim confirmed and claim is load-bearing, but the key rebuttal ('AI C2 has no funded program of record') could not be verified from a primary source; CBO PDF returned 403. Gate 5 not certifiable. Candidate D superior on evidence."},
+    {"id": "C", "reason": "strawman/unverified — DARPA news page returned 404; verbatim could not be confirmed on the live asserter page. Gate 1 fail."},
+    {"id": "E", "reason": "true_as_stated — AO 360 does literally direct agencies to leverage AI for permitting; the verbatim is not a false assertion. Gate 4 fail (no genuine correction)."},
+    {"id": "F", "reason": "single_non_primary — July 2024 claim; 2026 recurrence not verified this cycle. Gate 2 fail."},
+    {"id": "G", "reason": "true_as_stated — the steelmanned ADN claim (no comprehensive, coordinated state AI strategy) survives; partial counter-examples risk a strawman rebuttal. Gate 4 fail."}
+  ],
+  "_validation_note": "Candidate D selected over B because D has three independently re-verified counter-evidence items including a primary official source (pfd.alaska.gov, fetched June 2026) showing zero AI deployment in the active filing season, 18 months after the announcement. B's key rebuttal could not be confirmed from any accessible primary source (CBO PDF behind a 403). The GlobeNewswire press-release URL did not resolve; the verbatim is instead confirmed on two independently fetched secondary sources (StateScoop and Route Fifty), sufficient under Gate 1 given a named primary asserter (a state official) with independent corroboration. ORCHESTRATOR ADVISORY TO WRITER/EDITOR: the quoted claim contains an em-dash and the words 'revolutionize'/'game changer'; reproduce these ONLY inside attributed quotation marks, split into two spans to avoid the em-dash, never in the desk's own voice."
+}
