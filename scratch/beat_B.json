@@ -1,0 +1,18 @@
+{
+  "beat": "B",
+  "stories": [
+    {"story_title":"SBA Proposed Rule Opens 8(a) to All Comers, Preserves ANC Sole-Source but Narrows Competitive Moat","confidence":"high","is_in_window":"partial (rule June 11; in-window legal analysis June 13-15)","primary_source":true,
+     "sources":["https://www.sba.gov/article/2026/06/11/... (SBA primary 2026-06-11)","https://www.nixonpeabody.com/insights/alerts/2026/06/15/... (Nixon Peabody 2026-06-15)","https://tribalbusinessnews.com/sections/federal-8-a-contracting/15646-... (2026-06-13)","https://www.adn.com/business-economy/2026/06/11/... (ADN 2026-06-11)"],
+     "note":"ANC sole-source preserved ($30M civ/$100M DoD). Comment deadline July 13. ANCs got ~$6B of ~$26B FY24 8(a). ALREADY-MINED (06-16 lead). AI angle nil."},
+    {"story_title":"Alaska LNG Tax Standoff to Conference Committee; Glenfarne $44.5B FID Clock at Risk","confidence":"high","is_in_window":true,"primary_source":false,
+     "sources":["https://alaskabeacon.com/2026/06/20/alaska-senate-approves-gas-pipeline-tax-break... (Beacon 2026-06-20)","https://www.adn.com/politics/alaska-legislature/2026/06/20/... (ADN 2026-06-20)","https://alaskapublic.org/news/politics/alaska-legislature/2026-06-19/... (APM 2026-06-19)"],
+     "note":"Senate passed amended bill w/ S-corp tax June 19; House rejected 12-28 June 20; 2nd special session. HEAVILY MINED (06-18/06-19/06-20). AI tie = power-for-datacenters, analytical only."},
+    {"story_title":"CMS Rural Health Transformation Program: $272M AK Year-1 Allocation, ~400 projects, AI=22% of proposals; subawards due July","confidence":"medium","is_in_window":true,"primary_source":true,
+     "sources":["https://health.alaska.gov/en/education/rural-health-transformation-program/ (AK DOH primary)","https://www.adn.com/alaska-news/2026/06/07/... (ADN 2026-06-07)","https://www.cms.gov/newsroom/press-releases/cms-announces-50-billion-awards... (CMS primary)"],
+     "note":"$272.2M yr-1 (one of two largest state allocations w/ TX); up to $1.36B over 5yr. App close June 22, awards July. Telehealth/FHIR/AI components, 28 projects >$5M. REAL AI capital + forward-look."},
+    {"story_title":"Four ANC Subs Awarded Spots on $4B AF AETC Base Operations IDIQ","confidence":"high","is_in_window":false,"primary_source":true,"background_context":true,
+     "sources":["https://www.globalsecurity.org/military/library/news/2026/06/dod-contracts_4511381.htm (DoD 2026-06-08)","https://www.govconwire.com/articles/air-force-4b-base-operations-idiq-contract-award (2026-06-09)"],
+     "note":"OUT OF WINDOW (June 8). Chugach, Alutiiq, Alcyon, Bering Straits. Base ops, AI angle nil. Background only."}
+  ],
+  "notes": "SLOW WEEK. Dominant capital event = HB 381 LNG deadlock (heavily mined). 8(a) mined. CMS RHTP is the freshest capital+AI story with a July forward-look. No new NSF/DOE/NOAA/USDA grants to named AK orgs in window."
+}

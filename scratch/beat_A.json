@@ -1,0 +1,19 @@
+{
+  "beat": "A",
+  "window": ["2026-06-14", "2026-06-21"],
+  "stories": [
+    {"story_title":"Federal Court Strikes Down $100K H-1B Fee, But Alaska Rural Schools Remain Too Risk-Averse to Hire","ai_tie":"weak/none","confidence":"high","is_in_window":true,"primary_source":false,
+     "sources":["https://www.adn.com/alaska-news/education/2026/06/14/court-strikes-down-100k-h-1b-visa-fee-but-alaska-schools-still-cant-count-on-international-teachers/ (ADN 2026-06-14)","https://www.kyuk.org/education/2026-06-15/court-keeps-international-teacher-visa-fees-affordable-for-alaska-districts-but-it-may-be-too-late (KYUK/Beacon 2026-06-15)"],
+     "note":"341 H-1B teachers statewide; Bering Strait 64% intl, Kashunamiut 78%. Education workforce; AI angle nil."},
+    {"story_title":"Alaska Districts Close 12 Schools, Eliminate 700+ Staff Positions Amid Budget Crisis","ai_tie":"weak (IT/STEM cuts undercut K-12 AI framework + UAF/UAA pipeline)","confidence":"high","is_in_window":true,"primary_source":false,
+     "sources":["https://alaskapublic.org/news/education/2026-06-17/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts (APM 2026-06-17)","https://www.juneauempire.com/2026/06/18/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts/ (Juneau Empire 2026-06-18)"],
+     "note":"ASD ~500 cut (~10%), Mat-Su 160, Ketchikan 76; >$130M cumulative deficits."},
+    {"story_title":"HB 28 Teacher Loan Repayment Pilot Becomes Law","ai_tie":"none","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://www.alaskasnewssource.com/2026/06/19/near-deadline-dunleavy-vetoes-9-bills-school-funding-teacher-loan-repayment-program-become-law/ (KTUU 2026-06-19)","https://www.akleg.gov/basis/Bill/Detail/34?Root=hb28 (akleg, primary)"],
+     "note":"Up to $24K relief, 125 grants/yr, ACPE, became law ~June 18-19 (Dunleavy let it pass unsigned). AI angle nil."},
+    {"story_title":"Alaska Unions Find Glenfarne 12,000-Job LNG Labor MOU Is Non-Binding; Senate Adds Mandatory PLA Amendment 16-4","ai_tie":"none/analytical","confidence":"medium","is_in_window":true,"primary_source":false,
+     "sources":["https://www.dermotcole.com/reportingfromalaska/2026/6/19/unions-thought-they-had-binding-deal-for-pla-not-so-says-glenfarne (Dermot Cole 2026-06-19)","https://www.alaskasnewssource.com/2026/06/12/lng-special-session-labor-unions-pipeline-developer-sign-non-binding-pledge-prioritize-alaska-workers-ahead-key-house-debate/ (KTUU 2026-06-12)"],
+     "note":"Already-mined entity (Glenfarne). Fresh angle = Alaska-hire enforceability. AI tie nil."}
+  ],
+  "notes": "SLOW WEEK for Beat A. No AI-specific workforce announcements in window. Strongest thread = K-12 teacher pipeline (H-1B ruling + closures + HB28). AI ties are weak/analytical across the board."
+}

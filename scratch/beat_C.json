@@ -1,0 +1,15 @@
+{
+  "beat": "C",
+  "stories": [
+    {"story_title":"XPRIZE $11M Autonomous Wildfire Finals Live in NANA Region / Nenana, June 15-25","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://www.xprize.org/prizes/wildfire (primary)","https://robohub.org/aura-foresight-reaches-global-xprize-wildfire-finals-in-alaska/ (Robohub 2026-06-19)","https://dronelife.com/2026/05/18/students-compete-in-xprize-wildfire-finals-with-ai-drone-firefighting/ (DRONELIFE 2026-05-18)"],
+     "note":"5 teams (Anduril, Data Blanket, Dryad, FireSwarm, Wildfire Quest), 1,000 km2 zone near Nenana, ACUASI/UAF partner, $3.5M/track + $1M Lockheed detection bonus. ALREADY-MINED entity (used as texture 06-17). Live this week is the fresh hook."},
+    {"story_title":"NSF Reverses Course, Preserves Ocean Observatories Initiative (autonomous gliders, AK-adjacent Pacific) after Murkowski-led pushback","confidence":"medium","is_in_window":true,"primary_source":false,
+     "sources":["https://alaskabeacon.com/2026/06/19/u-s-scientific-instruments-in-oceans-off-alaska-and-elsewhere-to-remain-in-place/ (Alaska Beacon 2026-06-19)","https://mynews4.com/...nsf-reverses-course... (Nexstar 2026-06-19)"],
+     "note":"NSF reversal of OOI decommission. OOI was 06-17 LEAD; this is the resolution. 900+ instruments preserved. Feeds NOAA AK fisheries stock assessments."},
+    {"story_title":"AK Rural Health Transformation Program advances 400+ proposals incl. TCC drone pharmacy delivery; AI = 22% of submissions","confidence":"medium","is_in_window":false,"primary_source":false,"background_context":true,
+     "sources":["https://www.adn.com/alaska-news/2026/06/07/... (ADN 2026-06-07)","https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai (GovTech 2026-06-09)"],
+     "note":"OUT OF WINDOW (June 7-9). $272M RHTP allocation; full apps due June 22, awards July. TCC drone vaccine delivery 27 communities/5yr. Useful as forward-look/background only."}
+  ],
+  "notes": "SLOW WEEK. One strong in-window primary deployment (XPRIZE, but mined entity). NSF OOI reversal in-window (resolves prior lead). No in-window oil&gas/mining/aviation/defense-logistics/SAR deployments found. RHTP/TCC is out-of-window background but a strong forward-look (July awards)."
+}

@@ -1,27 +1,33 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 06 — 2026-06-21
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: **Deep Dive.** One dominant structural tension this week, anchored on a genuinely new, AI-native, in-window enactment. Kicker: DEEP DIVE.
 
-## Role
-FOUNDER (kicker middle slot)
+Window: 2026-06-14 to 2026-06-21 inclusive.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Lead frame (NEW, not a re-lead of the last 4 LinkedIn leads)
+**Alaska just wrote AI into its criminal code, and it's the first real AI law the state has on the books. The same legislature that criminalized AI-generated CSAM (HB 239) couldn't pass a data-center grid-cost protection (SB 250 died) and couldn't settle the gas tax that would power AI compute (HB 381 deadlocked). Alaska is now regulating AI's harms faster than it's governing AI's economy.** This is a regulation-shape / harms-before-economy frame.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+Why it is NOT a repeat of the last 4 LinkedIn leads:
+- 06-20 lead: capability/IP-ownership (who builds and owns the AI).
+- 06-19 lead: public-counterparty-lags-private-capital (vetoes/stalls vs private deals).
+- 06-18 lead: who-pays-for-the-power (grid cost).
+- 06-17 lead: input-feedstock-cut (data/power/connectivity inputs).
+This week's axis is **what kind of AI law Alaska actually passed** — a criminal-liability statute on AI outputs, while the economic-input framework stays ungoverned. The LEAD STORY (HB 239 AI-CSAM enactment) is brand new and was explicitly held on 06-17 pending the governor's action. It is now law.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Lead
+**HB239_AICSAM (Beat D, verified, primary, needs_softening).** Alaska's omnibus crime bill criminalizing AI-generated child sexual abuse material became law without a veto as the action deadline elapsed; passed Senate 20-0, House 39-1 (May 19-20); not among the nine bills Dunleavy vetoed June 18. GUARDRAILS: do NOT state a specific felony class (unverified); frame enactment as "became law without the governor's signature, per the ADN"; the business consequence (state criminal-liability exposure for platforms/cloud/genAI operators serving Alaska users) is the analytical center.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Supporting (all reinforce the harms-before-economy / inputs-ungoverned frame)
+1. **LBB_NOFRAMEWORK (Beat E, verified, needs_softening, attribute to Landye Bennett Blumstein).** Per a June 18 LBB analysis, Alaska has no statewide data-center regulatory framework, and SB 250, which would have made data centers cover the grid costs they cause, died in committee in May. The economic-input rulebook the state didn't write. STRIP the GVEA rate figure.
+2. **OOI_ACT (Beat D/C, verified, high, primary).** The Saving the OOI Act (S.4822) passed the Senate June 17 and NSF reversed course to preserve the ocean-monitoring array feeding Alaska fisheries models. The data input that feeds Alaska's AI was protected by Congress, not the state. Soften timing to mid-June.
+3. **CMS_RHTP (Beat B/C, verified, background/forward-look, needs_softening).** Alaska's $272M Rural Health Transformation allocation advanced ~400 projects, full applications due June 22, awards in July; Rep. Mina says the design is "almost directing us to AI." The AI economy is arriving with real federal capital while the state rulebook lags. STRIP the 22% figure.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## Texture (one line, not a full beat)
+- **HB381_DEADLOCK (Beat B/D/E, texture).** House rejected the Senate LNG tax bill 28-12 June 20; conference committee targets July 1. The power input the state still can't settle. Heavily mined; one line only.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Held / not used as lead
+- H1B_TEACHERS, SCHOOL_CLOSURES (Beat A): verified but AI tie is weak/analytical; education-workforce, off the AI-law axis. Hold out to keep the frame tight.
+- STAK_DNR (Beat E): in-window CBC source 403'd at validation; demote to background, not cited.
+
+## Package angle
+Alaska's first genuine AI statute is a criminal one. HB 239, the omnibus crime package that criminalizes AI-generated child sexual abuse material, became law this week without the governor's signature, putting platforms, cloud hosts, and generative-AI operators that serve Alaska users on notice of state criminal-liability exposure. That's a real, enforceable rule on what AI produces. What the same legislature didn't pass is the rulebook for what AI costs and consumes. SB 250, which would have made data centers pay for the grid upgrades they trigger, died in committee, leaving Alaska with no statewide data-center framework just as a $500M North Slope campus and an Air Force lease push compute onto the grid. The gas-tax bill the cheap-power pitch rests on deadlocked again June 20. And the ocean data that feeds Alaska's fisheries models was saved this week by a U.S. Senate bill and an NSF reversal, not by anything Juneau did. Meanwhile the money keeps landing: a $272M federal rural-health tranche with applications due June 22 that a state legislator says is "almost directing us to AI." For the LinkedIn audience, the takeaway is that Alaska has started regulating AI's harms before it has governed AI's economy, and the gap is now a procurement and compliance variable, not a hypothetical.
