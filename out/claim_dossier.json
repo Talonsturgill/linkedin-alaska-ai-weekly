@@ -1,0 +1,90 @@
+{
+  "issue_label": "NO. 22",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "Our AI, machine learning, and intelligent automation solutions deliver measurable impact—one current solution alone saves the Army more than $37 million annually",
+    "asserters": [
+      {
+        "name": "Ron Unger",
+        "role": "Chairman and CEO, Koniag (Alaska Native Regional Corporation)",
+        "outlet": "Alaska Business Magazine",
+        "url": "https://www.akbizmag.com/industry/alaska-native/regionalroundup2025/",
+        "pub_date": "2025-12-01",
+        "quote_reverified": true
+      }
+    ],
+    "claim_summary": "Koniag's CEO publicly states that one of the corporation's AI solutions saves the U.S. Army more than $37 million per year, positioning an Alaska Native Corporation as a high-impact prime AI contractor.",
+    "steelman": "A named CEO of an 8(a)-eligible Alaska Native Corporation, whose subsidiary OrangeSlices AI holds active DoD AI/ML contracts, states a specific, large dollar figure tied to a named customer (the U.S. Army). This is not a vague claim: Koniag Government Services built the DORA bot, an automated vendor-eligibility tool deployed at scale across Army procurement. The $37 million figure is corroborated by a published AWS case study. Smart observers treat this as credible evidence that ANC firms can deliver, not merely pass through, AI capabilities to federal customers, which reshapes how DoD structures future AI task orders.",
+    "corrective_thesis": "The $37 million figure is cost avoidance, labor-hours not spent, not realized budget savings, a distinction that is material to federal auditors, congressional appropriators, and contracting officers evaluating ANC prime AI contracts.",
+    "more_accurate_frame": "Koniag's DORA bot demonstrably automates Army procurement-compliance work, and the AWS case study confirms 687,000 labor-hours saved annually. However, the AWS case study describes this as $37 million in annual cost avoidance, not savings, meaning no appropriated funds are returned or reallocated and the Army's budget is unchanged. For federal auditors and GAO reviewers, cost avoidance and savings are categorically different. Avoidance is an estimate of work not done, while savings reduce actual outlays. Policymakers evaluating ANC AI prime-contracting proposals who take the $37M savings framing at face value may overstate the fiscal return on AI procurement investments, and may miscalibrate which ANC AI programs qualify as high-return versus incremental-efficiency plays.",
+    "counter_evidence": [
+      {
+        "fact": "The AWS case study for the Koniag Government Services DORA bot describes the $37 million figure explicitly as 'annual cost avoidance' and 'yearly avoidance,' not savings. VP of AI Strategy Carin Chapman is quoted: 'DORA gathers, adjudicates, and assembles the data into a legally compliant, standardized document. It doesn't replace the professional. It gives them back nearly an hour each time to focus on higher-value analysis and oversight.' The mechanism is labor-hour reduction in vendor-eligibility assessments, not a reduction in Army appropriations.",
+        "source": "AWS Case Study: U.S. Army and Koniag Government Services",
+        "url": "https://aws.amazon.com/solutions/case-studies/us-army-koniag-gov-services/",
+        "reverified": true,
+        "primary": true
+      },
+      {
+        "fact": "Koniag's CEO statement and the corporate positioning of Koniag Government Services and its OrangeSlices AI subsidiary as AI-prime contractors appears in the Alaska Business Magazine 2025 regional roundup, where the '$37 million annually' savings figure is asserted in the CEO's own words.",
+        "source": "Alaska Business Magazine, Regional Roundup 2025",
+        "url": "https://www.akbizmag.com/industry/alaska-native/regionalroundup2025/",
+        "reverified": true,
+        "primary": true
+      }
+    ],
+    "ak_industry_consequence": "ANC 8(a) set-aside federal AI contracting. Koniag and its subsidiary OrangeSlices AI compete for DoD AI/ML prime contracts under the ANC 8(a) lane, which has no revenue cap and allows sole-source awards above the $25M threshold available to small businesses. If the $37M savings characterization is accepted uncritically by federal contracting officers and AK policymakers, it inflates the perceived ROI of ANC-prime AI contracts and may drive additional sole-source task orders to Koniag under the assumption of proven, auditable budget impact. When auditors apply GAO cost-avoidance standards and find no realized savings, reputational and contract risk falls on the ANC and on the broader ANC-as-AI-prime narrative that Alaska's tech economic development advocates are actively building in 2025-2026.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary": true,
+      "not_a_recent_repeat": true
+    },
+    "recurrence_note": "Alaska Business Magazine regional roundup (December 2025); corroborated structurally by the AWS case study. Circulates in the ANC/federal-AI-contracting discourse slice and among Alaska economic development commentators positioning ANCs as AI-prime contractors."
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction",
+      "asserter": "Anchorage Daily News Editorial Board",
+      "reason": "Gate 5 fail. Primary counter-sources (HCR 3 at akleg.gov, Alaska Public Media deepfake/CSAM bill article) returned 403/404 on re-verification; corrective thesis could not rest on confirmed evidence. Also a minor verbatim truncation ('no coordinated strategy' omitted)."
+    },
+    {
+      "claim_verbatim": "Procurement of Arctic-capable drones across NATO remains fragmented, slow, and risk-averse.",
+      "asserter": "Federico Borsari and Gordon B. 'Skip' Davis Jr., CEPA",
+      "reason": "Gate 2 borderline fail. Cited independent amplifiers (Defense News Jan 26 2026, DefenseScoop Jan 22 2026) returned 404 on re-verification; independent circulation unconfirmed. CEPA is a secondary/analyst institution, not a first-person official."
+    },
+    {
+      "claim_verbatim": "You name a program 'transformation,' but the way that the feds designed it is almost directing us to AI.",
+      "asserter": "Genevieve Mina, Alaska State Representative (D-Anchorage)",
+      "reason": "Gate 5 marginal and gate 2 single-source concern. CMS primary source (innovation.cms.gov) returned 403; counter rests on secondary BPC analysis. Qualified language ('almost directing') weakens corrective punch. Dropped in favor of the cleaner Koniag primary-source dossier."
+    },
+    {
+      "claim_verbatim": "the state will remain an isolated cul-de-sac, unqualified to compete for hyperscale computing",
+      "asserter": "Ethan Berkowitz, Co-founder, Far North Digital / former Anchorage Mayor",
+      "reason": "Gate 2 concern plus conflict-of-interest. Asserter's fiber company benefits from the alarm he raises; reasonable audiences discount commercially interested op-eds. Not selected over the cleaner Koniag dossier."
+    },
+    {
+      "claim_verbatim": "We have vast reserves of natural gas, significant untapped renewable potential and large-scale energy assets that are currently underutilized or stranded.",
+      "asserter": "Rep. Nick Begich III",
+      "reason": "Gate 6 fail. North Slope gas / energy-abundance-as-AI-advantage theme corrected in issue 06-17-02. Underlying correction materially the same as the prior issue."
+    },
+    {
+      "claim_verbatim": "Our power costs too much, and we don't have any to spare.",
+      "asserter": "Stan Jones, Anchorage Daily News (opinion)",
+      "reason": "Gate 6 fail (adjacent to corrected energy/PUE themes 06-14 and 06-17-02) and gate 4 concern: the steelman essentially holds (Chugach 14-17c/kWh genuinely exceeds VA/TX/WA), so the corrective angle is thin."
+    },
+    {
+      "claim_verbatim": "The industry produces few jobs relative to the 'incredible demands' it places on the power grid",
+      "asserter": "Rodger Painter, Alaska Beacon (syndicated)",
+      "reason": "Gate 5 partial. Brookings counter is real but nuanced rather than corrective; steelman partly true on direct headcount. Oldest candidate (Nov 2024). Not selected over the sharper Koniag distinction."
+    },
+    {
+      "claim_verbatim": "Artificial Intelligence has the potential to help the Department of Energy and our National Labs accomplish enormous challenges in the fields of science and technology, as well as offer capabilities to streamline permitting for large-scale energy and critical mineral projects in Alaska.",
+      "asserter": "Sen. Lisa Murkowski",
+      "reason": "Gate 4 fail. Heavily hedged ('has the potential to,' 'offer capabilities to streamline'); the steelman is essentially true as stated, so it is not correctable received wisdom."
+    }
+  ],
+  "_validation_note": "Selected Koniag/Unger because it is the only candidate where (a) the verbatim quote is confirmed on the live source page, (b) a primary counter-source (AWS case study, directly fetched) establishes a material factual distinction (cost avoidance vs. savings) in its own language, (c) the Alaska consequence is concrete and load-bearing for the ANC 8(a) prime AI contracting narrative, and (d) no gate point fails on re-verification. The ADN 'no policy' claim was second-strongest but failed gate 5 (primary counter-evidence URLs unreachable). The CEPA Arctic-drone claim failed gate 2 (amplifying outlets 404). All energy-theme claims dropped as recent-repeat or true-as-stated."
+}
