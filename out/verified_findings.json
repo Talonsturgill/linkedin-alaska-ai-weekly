@@ -1,0 +1,166 @@
+{
+  "window": ["2026-06-14", "2026-06-21"],
+  "generated": "2026-06-21",
+  "verified": [
+    {
+      "id": "HB239_AICSAM",
+      "story_title": "Alaska's HB 239 criminalizes AI-generated child sexual abuse material; became law without a veto",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": true,
+      "confidence": "medium",
+      "safe_claims": [
+        "HB 239 is an omnibus crime package passed Senate 20-0 and House 39-1 on May 19-20, 2026 (APM).",
+        "It criminalizes AI-generated child sexual abuse material (APM). Do NOT state specific felony class; not verified on a fetched page.",
+        "HB 239 was NOT among the nine bills Dunleavy vetoed June 18; ADN reports a wide-ranging public-safety package becomes law (ADN June 18).",
+        "Frame enactment as: became law without the governor's signature when the action deadline elapsed without a veto, per ADN. Do not assert an exact enactment date."
+      ],
+      "industry_consequence": "Digital platform, cloud, and generative-AI operators serving Alaska users face a new state criminal-liability framework for AI-generated CSAM, raising content-moderation and detection obligations.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session","outlet":"Alaska Public Media","pub_date":"2026-05-20"},
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"}
+      ]
+    },
+    {
+      "id": "OOI_ACT",
+      "story_title": "Saving the OOI Act (S.4822) passes the Senate June 17; NSF reverses, commits to preserve the ocean-monitoring array",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": false,
+      "confidence": "high",
+      "safe_claims": [
+        "S.4822 passed the full Senate by voice vote June 17, 2026 (GovInfo, primary).",
+        "NSF reversed course and committed to preserve the OOI's roughly 900 instruments, including Gulf of Alaska sensors (Merkley release, June 18). Soften timing to mid-June / as of June 18.",
+        "Murkowski (R-AK) was the lone Republican on the bipartisan protest letter (APM June 16).",
+        "OOI data feeds the ocean models used in NOAA/UAF fisheries stock assessments."
+      ],
+      "industry_consequence": "Alaska fisheries managers and seafood operators retain the real-time ocean data underpinning catch-limit science; risk deferred pending an NSF expert-panel review.",
+      "sources": [
+        {"url":"https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4822.xml","outlet":"GovInfo (primary)","pub_date":"2026-06-17"},
+        {"url":"https://www.merkley.senate.gov/merkley-murkowski-secure-commitment-to-preserve-u-s-ocean-monitoring-systems/","outlet":"Sen. Merkley","pub_date":"2026-06-18"},
+        {"url":"https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network","outlet":"Alaska Public Media","pub_date":"2026-06-16"}
+      ]
+    },
+    {
+      "id": "CMS_RHTP",
+      "story_title": "Alaska's $272M CMS Rural Health Transformation allocation: ~400 projects advanced, full applications due June 22, awards in July",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": true,
+      "needs_softening": true,
+      "confidence": "medium",
+      "safe_claims": [
+        "Alaska's first-year RHTP allocation is about $272 million, among the two largest state allocations (ADN June 7, GovTech June 9).",
+        "About 400 projects advanced from nearly 1,800 submissions; full applications due June 22, awards expected July (ADN June 7).",
+        "Rep. Genevieve Mina quote VERIFIED VERBATIM: the way the feds designed it is 'almost directing us to AI' (ADN, GovTech).",
+        "STRIP the '22% AI proposals' figure; not on any fetched page.",
+        "Origin coverage June 7-9 is just outside window; use as forward-look (June 22 deadline is in-window)."
+      ],
+      "industry_consequence": "Alaska health-IT vendors, tribal health organizations, and telehealth providers have a July award window to position for subcontracts under the program.",
+      "sources": [
+        {"url":"https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/","outlet":"Anchorage Daily News","pub_date":"2026-06-07"},
+        {"url":"https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai","outlet":"GovTech","pub_date":"2026-06-09"}
+      ]
+    },
+    {
+      "id": "LBB_NOFRAMEWORK",
+      "story_title": "Alaska has no statewide data-center regulatory framework; SB 250 grid-cost-protection bill died in committee (Landye Bennett Blumstein analysis, June 18)",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": true,
+      "confidence": "medium",
+      "safe_claims": [
+        "Per a June 18 Landye Bennett Blumstein LLP analysis, Alaska has no specific statewide data-center regulations.",
+        "SB 250, which would have required data centers to cover grid-infrastructure costs and power-cost increases attributable to them, died in committee in May 2026 (LBB).",
+        "No Alaska statute requires data centers to cover incremental grid-upgrade costs (LBB).",
+        "ATTRIBUTE all claims to Landye Bennett Blumstein. STRIP the GVEA 20.7 c/kWh figure; not on the LBB page."
+      ],
+      "industry_consequence": "Developers must self-fund grid-upgrade agreements with Chugach or GVEA; site-selection risk favors off-Railbelt and on-base sites with dedicated on-site generation.",
+      "sources": [
+        {"url":"https://lbblawyers.com/resource/alaska-data-centers-potential/","outlet":"Landye Bennett Blumstein LLP","pub_date":"2026-06-18"}
+      ]
+    },
+    {
+      "id": "H1B_TEACHERS",
+      "story_title": "Federal court strikes the $100K H-1B fee; Alaska rural districts stay wary of resuming international-teacher hiring",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": false,
+      "confidence": "high",
+      "safe_claims": [
+        "A federal court struck down the $100,000 H-1B fee (ruling June 8); Alaska reporting June 14-15 (ADN, KYUK).",
+        "Alaska employs 341 H-1B teachers of ~574 international teachers (ADN).",
+        "Bering Strait: 86 of 134 teachers international (64%), 72 on H-1B; Kashunamiut: 14 of 18 (78%) (ADN).",
+        "Districts say they can't risk new sponsorships if the government appeals (KYUK)."
+      ],
+      "industry_consequence": "Alaska rural districts face a fall-2026 hiring decision under appeal risk; the in-state STEM and special-ed teacher pipeline stays constrained.",
+      "sources": [
+        {"url":"https://www.adn.com/alaska-news/education/2026/06/14/court-strikes-down-100k-h-1b-visa-fee-but-alaska-schools-still-cant-count-on-international-teachers/","outlet":"Anchorage Daily News","pub_date":"2026-06-14"},
+        {"url":"https://www.kyuk.org/education/2026-06-15/court-keeps-international-teacher-visa-fees-affordable-for-alaska-districts-but-it-may-be-too-late","outlet":"KYUK/Alaska Beacon","pub_date":"2026-06-15"}
+      ]
+    },
+    {
+      "id": "SCHOOL_CLOSURES",
+      "story_title": "Alaska districts close 12 schools and cut hundreds of staff amid budget crisis",
+      "verdict": "keep",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": false,
+      "confidence": "high",
+      "safe_claims": [
+        "12 schools closed across Anchorage, Mat-Su, Kenai, Ketchikan in 2025-26 (APM June 17, Juneau Empire June 18).",
+        "ASD cut about 500 positions (~10%); Ketchikan 76; Mat-Su 160 (prior-year figure).",
+        "Deficits: ASD ~$90M, Mat-Su ~$28M, Kenai ~$8.5M, Ketchikan ~$3M.",
+        "Avoid the unsourced '700+' single-number aggregation; cite the per-district figures or say 'hundreds across four districts'."
+      ],
+      "industry_consequence": "The education-workforce contraction narrows the in-state STEM and technical talent pipeline feeding UAF/UAA and downstream energy, healthcare, and defense employers.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/education/2026-06-17/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts","outlet":"Alaska Public Media","pub_date":"2026-06-17"},
+        {"url":"https://www.juneauempire.com/2026/06/18/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts/","outlet":"Juneau Empire","pub_date":"2026-06-18"}
+      ]
+    },
+    {
+      "id": "STAK_DNR",
+      "story_title": "Stak Energy $500M North Slope AI data-center lease awaits a DNR final best-interest decision",
+      "verdict": "keep-as-background",
+      "is_in_window": false,
+      "primary_source": false,
+      "needs_softening": true,
+      "confidence": "medium",
+      "safe_claims": [
+        "Stak Energy (Sparrow Mahoney) proposes a $500M AI/HPC campus on the North Slope with on-site gas generation; the state issued a preliminary approval to lease (APM May 26).",
+        "CBC June 18 (comment-close June 15, preliminary approval intact, Indigenous concerns, 1-3 GW) could NOT be fetched (403). Do not assert CBC-specific in-window claims.",
+        "Use as background/texture only."
+      ],
+      "industry_consequence": "Capital allocators await DNR's final best-interest decision before lease execution.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center","outlet":"Alaska Public Media","pub_date":"2026-05-26"}
+      ]
+    },
+    {
+      "id": "HB381_DEADLOCK",
+      "story_title": "Alaska LNG tax bill deadlocks; House rejects the Senate version 28-12; conference committee targets July 1",
+      "verdict": "keep-as-texture",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": true,
+      "confidence": "medium",
+      "safe_claims": [
+        "The House voted 28-12 to reject the Senate-amended HB 381 on June 20 (ADN). State the vote as 28-12.",
+        "A conference committee was appointed; lawmakers target reconvening July 1 (ADN).",
+        "Glenfarne owns 75% of the Alaska LNG project (ADN).",
+        "Heavily covered in prior weeks; use as one-line texture only."
+      ],
+      "industry_consequence": "The power feedstock for Alaska's data-center proposals stays unsettled, extending Railbelt cost uncertainty.",
+      "sources": [
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/20/lawmakers-to-negotiate-on-alaska-lng-tax-break-bill-in-bid-to-reach-compromise-in-new-special-session/","outlet":"Anchorage Daily News","pub_date":"2026-06-20"}
+      ]
+    }
+  ],
+  "_validation_note": "Validator ran successfully (Phase 3). All 8 candidates kept; none dropped. Softening flags applied above. Several Alaska outlet URLs (Alaska Beacon, CBC, akleg.gov, AK DOH) returned 403 at validation; affected claims were stripped or attributed to the corroborating fetched source. HB 239 felony-class language stripped (unverified). CMS RHTP 22% AI figure stripped. LBB GVEA rate figure stripped. STAK in-window CBC claims stripped."
+}

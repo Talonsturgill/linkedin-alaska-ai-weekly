@@ -1,48 +1,61 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "volume": "VOL. 06",
+  "surface": "LinkedIn",
+  "date": "2026-06-21",
+  "window": ["2026-06-14", "2026-06-21"],
+  "stories": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "id": "HB239_AICSAM",
+      "role": "lead",
+      "claim": "Alaska's HB 239, criminalizing AI-generated CSAM, became law without the governor's signature; passed Senate 20-0 / House 39-1 (May 19-20); not among the nine bills vetoed June 18.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session", "outlet": "Alaska Public Media", "pub_date": "2026-05-20"},
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-18"}
+      ]
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "id": "LBB_NOFRAMEWORK",
+      "role": "supporting",
+      "claim": "Per a June 18 Landye Bennett Blumstein analysis, Alaska has no statewide data-center regulatory framework; SB 250 (grid-cost protection) died in committee in May.",
+      "sources": [
+        {"url": "https://lbblawyers.com/resource/alaska-data-centers-potential/", "outlet": "Landye Bennett Blumstein LLP", "pub_date": "2026-06-18"}
+      ]
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "OOI_ACT",
+      "role": "supporting",
+      "claim": "The Saving the OOI Act (S.4822) passed the U.S. Senate by voice vote June 17; NSF reversed course to preserve the ~900-instrument OOI array, including Gulf of Alaska sensors.",
+      "sources": [
+        {"url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4822.xml", "outlet": "GovInfo (primary)", "pub_date": "2026-06-17"},
+        {"url": "https://www.merkley.senate.gov/merkley-murkowski-secure-commitment-to-preserve-u-s-ocean-monitoring-systems/", "outlet": "Sen. Jeff Merkley", "pub_date": "2026-06-18"},
+        {"url": "https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"}
+      ]
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "CMS_RHTP",
+      "role": "supporting (forward-look)",
+      "claim": "Alaska's first-year CMS Rural Health Transformation allocation is ~$272M (among the two largest state shares); ~400 projects advanced from ~1,800; full applications due June 22, awards in July; Rep. Genevieve Mina said the federal design is 'almost directing us to AI'.",
+      "sources": [
+        {"url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-07"},
+        {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "GovTech", "pub_date": "2026-06-09"}
+      ]
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "id": "HB381_DEADLOCK",
+      "role": "texture",
+      "claim": "The Alaska House rejected the Senate's LNG tax bill 28-12 on June 20; a conference committee targets July 1.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/20/lawmakers-to-negotiate-on-alaska-lng-tax-break-bill-in-bid-to-reach-compromise-in-new-special-session/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-20"}
+      ]
+    },
+    {
+      "id": "STAK_DNR",
+      "role": "background (analytical reference only, not a sourced in-window claim)",
+      "claim": "A proposed $500M North Slope AI data-center campus (Stak Energy) with on-site gas generation received a state preliminary approval to lease.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26"}
+      ]
     }
-  ]
+  ],
+  "note": "Cited sources total: 5 in-text stories plus 1 background reference. Validator (Phase 3) verified all; several AK outlet URLs (Alaska Beacon, CBC, akleg.gov, AK DOH) 403'd at validation and affected claims were stripped or attributed to the corroborating fetched source. HB 239 felony-class language, CMS 22% figure, GVEA rate figure, and STAK in-window CBC claims were stripped."
 }

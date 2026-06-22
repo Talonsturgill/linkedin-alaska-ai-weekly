@@ -1,0 +1,18 @@
+{
+  "beat": "D",
+  "stories": [
+    {"story_title":"HB 239 omnibus crime bill incl. AI-generated CSAM felony provisions becomes law w/o Dunleavy signature ~June 19-20","confidence":"medium","is_in_window":true,"primary_source":false,"ai_tie":"STRONG, direct",
+     "sources":["https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill... (APM 2026-05-20, passage)","https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills... (ADN 2026-06-18)"],
+     "note":"NEW, NEVER-COVERED (06-17 held it pending gov action). AI-gen CSAM = Class B felony (Class A repeat), possession Class C. Passed Senate 20-0, House 39-1 (May 19-20). Became law w/o signature when deadline elapsed ~June 19-20. ENACTMENT DATE NEEDS VALIDATION. Business consequence: platforms/cloud/genAI ops serving AK users face state felony framework."},
+    {"story_title":"Saving the OOI Act (S.4822) passes Senate by voice vote June 17; NSF reverses, halts OOI decommission by June 19","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4822.xml (primary)","https://www.murkowski.senate.gov/press/release/murkowski-merkley-lead-bipartisan-push-to-protect-us-ocean-monitoring-systems (2026-06-15)","https://www.merkley.senate.gov/merkley-murkowski-secure-commitment-to-preserve-u-s-ocean-monitoring-systems/ (2026-06-18)","https://alaskapublic.org/news/environment/2026-06-16/... (APM 2026-06-16)"],
+     "note":"Murkowski+Merkley. OOI 900-instrument array incl. Station Papa Gulf of Alaska. RESOLUTION of 06-17 LEAD - re-lead risk, use as SUPPORTING. $5.3B seafood industry, ~42,000 jobs."},
+    {"story_title":"SBA 8(a) proposed rule (FR 2026-11765, docket SBA-2026-0133) removes race-based presumption; ANCs explicitly shielded; comment deadline July 13","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://federalregister.gov/documents/2026/06/11/2026-11765/... (FR primary 2026-06-11)","https://federalnewsnetwork.com/commentary/2026/06/alaska-speaks-with-one-voice-about-the-8a-program/ (FNN 2026-06-15)","https://www.kyuk.org/politics/2026-06-15/... (KYUK 2026-06-15)"],
+     "note":"ALREADY-MINED (06-16 lead). Dibert+Giessel op-ed June 15. AI angle nil."},
+    {"story_title":"HB 381 LNG conference committee in 2nd special session; July 1 target","confidence":"high","is_in_window":true,"primary_source":false,"background_context":true,
+     "sources":["https://alaskabeacon.com/2026/06/20/alaska-house-rejects-senates-lng-gas-line-bill... (Beacon 2026-06-20)"],
+     "note":"HEAVILY MINED. Texture only."}
+  ],
+  "notes": "MARQUEE FRESH STORY = HB 239 AI-CSAM enactment (new, AI-native, new frame). OOI Act = resolution of prior lead (supporting). 8(a) + HB381 mined. No AK court rulings / Indigenous data-sovereignty / new RFIs found."
+}

@@ -1,23 +1,17 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Alaska just put its first enforceable AI rule on the books, and it governs what AI produces, not what it costs. HB 239, criminalizing AI-generated child sexual abuse material, became law this week without the governor's signature.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The action deadline elapsed June 18 without a veto, per the Anchorage Daily News. HB 239 had cleared the Senate 20-0 and the House 39-1 on May 19 and 20, and it was not among the nine bills Governor Dunleavy struck down that same week. So Alaska now has a criminal standard on AI output. For platforms, cloud hosts, and generative-AI operators serving Alaska users, that is real state criminal-liability exposure and a content-detection obligation, effective now.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The conventional read is that Alaska has started regulating AI. It has not, or at least not the part that touches the economy. It has regulated one harm. The structural problem is the order of operations. The state wrote the rulebook for what AI generates before it wrote the rulebook for what AI consumes.
 
-Five layers sit between an Air Force land offer and a powered data center.
+Look at what didn't pass. Per a June 18 Landye Bennett Blumstein analysis, Alaska has no statewide data-center regulatory framework, and SB 250 died in committee in May. That was the bill that would have required data centers to cover the grid upgrades and power-cost increases they trigger. No Alaska statute now puts that cost on the operator. Meanwhile a proposed North Slope data-center campus is loading compute demand onto a grid the state still can't price. The House rejected the Senate LNG tax bill 28-12 on June 20, with a conference committee targeting July 1, so the cheap-power pitch underneath all of it stays unsettled.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+There's a tell in what saved Alaska's AI inputs this week. The data feeding state fisheries models held because the U.S. Senate passed the Saving the OOI Act by voice vote June 17 and the NSF reversed course to preserve the roughly 900-instrument array, including Gulf of Alaska sensors. Congress protected that input, not Juneau.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The money keeps landing regardless. Alaska's first-year Rural Health Transformation allocation is about $272 million, among the two largest state shares, with full applications due June 22 and awards expected in July. State Rep. Genevieve Mina said the federal design is “almost directing us to AI.”
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+So the harms are governed and the economy is not. For anyone doing Alaska diligence, the compliance variable now exists while the cost and grid variables remain blank.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+If you're allocating capital or running platform ops here, which gap moves your decision first, the criminal exposure that's law or the data-center cost rule that isn't?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #AIPolicy #DataCenters #GridPolicy #HealthcareAI

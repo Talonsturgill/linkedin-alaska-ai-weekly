@@ -1,0 +1,64 @@
+{
+  "sources": [
+    {
+      "url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-05-20/alaska-legislature-passes-sweeping-crime-bill-raising-age-of-consent-to-18-on-last-day-of-session",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-05-20",
+      "story_title": "HB 239 AI-CSAM enactment (lead)"
+    },
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-18",
+      "story_title": "HB 239 AI-CSAM enactment (lead)"
+    },
+    {
+      "url": "https://lbblawyers.com/resource/alaska-data-centers-potential/",
+      "outlet": "Landye Bennett Blumstein LLP",
+      "pub_date": "2026-06-18",
+      "story_title": "No data-center framework / SB 250 (LBB analysis)"
+    },
+    {
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/s/BILLSTATUS-119s4822.xml",
+      "outlet": "GovInfo (primary)",
+      "pub_date": "2026-06-17",
+      "story_title": "Saving the OOI Act / NSF reversal"
+    },
+    {
+      "url": "https://www.merkley.senate.gov/merkley-murkowski-secure-commitment-to-preserve-u-s-ocean-monitoring-systems/",
+      "outlet": "Sen. Jeff Merkley",
+      "pub_date": "2026-06-18",
+      "story_title": "Saving the OOI Act / NSF reversal"
+    },
+    {
+      "url": "https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-06-16",
+      "story_title": "Saving the OOI Act / NSF reversal"
+    },
+    {
+      "url": "https://www.adn.com/alaska-news/2026/06/07/alaska-health-officials-advance-over-400-projects-for-rural-health-transformation-funding/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-07",
+      "story_title": "$272M Rural Health Transformation (forward-look)"
+    },
+    {
+      "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+      "outlet": "GovTech",
+      "pub_date": "2026-06-09",
+      "story_title": "$272M Rural Health Transformation (forward-look)"
+    },
+    {
+      "url": "https://www.adn.com/politics/alaska-legislature/2026/06/20/lawmakers-to-negotiate-on-alaska-lng-tax-break-bill-in-bid-to-reach-compromise-in-new-special-session/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-20",
+      "story_title": "LNG tax bill deadlock (texture)"
+    },
+    {
+      "url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-05-26",
+      "story_title": "North Slope data-center campus (background)"
+    }
+  ]
+}

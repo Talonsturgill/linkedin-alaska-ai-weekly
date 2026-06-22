@@ -1,0 +1,21 @@
+{
+  "beat": "E",
+  "stories": [
+    {"story_title":"DNR Comment Closes on Stak Energy North Slope Lease; CBC Reports Preliminary Approval Intact (June 18)","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://www.cbc.ca/news/canada/north/yukon-alaska-data-centre-indigenous-environment-9.7239464 (CBC 2026-06-18)","https://alaskapublic.org/news/economy/energy/2026-05-26/... (APM 2026-05-26)","https://aws.state.ak.us/OnlinePublicNotices/Notices/Attachment.aspx?id=161957 (DNR primary)"],
+     "note":"$500M AI/HPC campus, 640-715 acres MP390 Dalton Hwy, 1-3 GW on-site gas. Comment closed June 15. ALREADY-MINED (06-20). Fresh: CBC June 18 Indigenous/environment angle + preliminary approval intact."},
+    {"story_title":"Alaska LNG HB 381 Conference-Committee Deadlock June 20; power feedstock for data centers uncertain","confidence":"high","is_in_window":true,"primary_source":false,
+     "sources":["https://alaskapublic.org/news/politics/alaska-legislature/2026-06-20/... (APM 2026-06-20)","https://alaskabeacon.com/2026/06/20/alaska-house-rejects-senates-lng-gas-line-bill... (Beacon 2026-06-20)"],
+     "note":"House rejected Senate bill 12-28 June 20; conference committee target July 1. HEAVILY MINED."},
+    {"story_title":"Landye Bennett Blumstein analysis (June 18): Alaska has NO statewide data-center regulatory framework; SB 250 grid-cost-protection bill died in committee May 2026","confidence":"medium","is_in_window":true,"primary_source":false,
+     "sources":["https://lbblawyers.com/resource/alaska-data-centers-potential/ (LBB 2026-06-18)"],
+     "note":"FRESH secondary. SB 250 (grid-cost protection) died in committee. No statute requires data centers to cover incremental grid-upgrade costs. GVEA at record 20.7 c/kWh. Site-selection favors off-Railbelt/military w/ on-site gen. NEW entity LBB. Single-source legal analysis."},
+    {"story_title":"DAF RFLP AFCEC-26-R-0006: June 29 offer deadline for AI data centers at JBER/Eielson/Clear","confidence":"high","is_in_window":true,"primary_source":true,
+     "sources":["https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/ (primary solicitation)","https://www.alaskasnewssource.com/2026/06/09/... (KTUU 2026-06-09)","https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/ (2026-04-11)"],
+     "note":"Up to 12 data centers, 4,700 acres. Deadline June 29 (live clock). ALREADY-MINED. Useful as forward-look texture."},
+    {"story_title":"Doyon FiberOptic: Yukon River cable lay July 2026, completion slipped to Dec 2027","confidence":"medium","is_in_window":false,"primary_source":true,"background_context":true,
+     "sources":["https://www.doyon.com/fiberoptic-project-update-april-2026/ (Doyon 2026-04-08)"],
+     "note":"OUT OF WINDOW. $50.6M NTIA grant. 5 Interior communities. Background only."}
+  ],
+  "notes": "All data-center/power; heavily mined. Freshest: LBB 'no regulatory framework / SB250 died' angle + CBC STAK preliminary-approval/Indigenous angle. Many AK sources returned 403; facts corroborated via search snippets."
+}
