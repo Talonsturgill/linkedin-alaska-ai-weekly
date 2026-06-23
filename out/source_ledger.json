@@ -1,48 +1,37 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "issue_label": "NO. 23",
+  "run_date": "2026-06-22",
+  "claim": "you might be looking at four or five cents a kilowatt hour for decades and decades to come",
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+      "outlet": "Data Center Knowledge",
+      "pub_date": "2025-10-07",
+      "story_title": "CLAIM ASSERTER — Gov. Mike Dunleavy pitches Alaska 4-5 cents/kWh for data centers"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+      "outlet": "U.S. EIA, Electric Power Monthly (Table 5.6.A)",
+      "pub_date": "2026-05-29",
+      "story_title": "COUNTER-EVIDENCE (primary) — Alaska commercial 23.02 c/kWh, industrial 25.32 c/kWh, March 2026"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "url": "https://www.eia.gov/electricity/state/alaska/",
+      "outlet": "U.S. EIA, Alaska State Electricity Profile",
+      "pub_date": "2025-01-01",
+      "story_title": "COUNTER-EVIDENCE (primary) — Alaska all-sector average 22.17 c/kWh, 6th highest in nation"
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+      "outlet": "Anchorage Daily News (Chugach spokesperson Julie Hasquet)",
+      "pub_date": "2026-05-05",
+      "story_title": "COUNTER-EVIDENCE (corroborating) — 'We currently do not have gas to serve a large data center'; Hilcorp contract ends 2028"
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+      "outlet": "Broadband Breakfast",
+      "pub_date": "2026-04-24",
+      "story_title": "RECURRENCE — 4-5 cents/kWh figure restated at Data Center World, April 2026"
     }
   ]
 }

@@ -1,0 +1,94 @@
+{
+  "issue_label": "NO. 23",
+  "routine": "Received Wisdom (Cold Take)",
+  "date": "2026-06-22",
+  "selected_claim": {
+    "claim_verbatim": "you might be looking at four or five cents a kilowatt hour for decades and decades to come",
+    "claim_paraphrase_fair": "Governor Dunleavy asserts that Alaska's planned natural gas development will deliver electricity to data center operators at 4-5 cents per kWh for the long term, making Alaska a uniquely low-cost power destination for AI compute.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "full_quote_context": "We hope to be delivering gas to south central Alaska in two years and exporting to Asia by 2030. That means for folks who want to set up data farms in Alaska, you might be looking at four or five cents a kilowatt hour for decades and decades to come.",
+    "circulation_count": 4,
+    "circulation_note": "The 4-5 cents/kWh figure recurs across Dunleavy's October 2025 Data Center World pitch (Data Center Knowledge), his April 2026 remarks (Broadband Breakfast), the January 2026 Standard and Works interview, and is repeated in trade analysis (Landye Bennett Blumstein, June 2026). It functions as a standing talking point in Alaska's official data center pitch.",
+    "discourse_slice": "policy_official / exec_social",
+    "why_smart_people_believe_it": "Governor Dunleavy is speaking from an official economic-development platform and tying the claim to a specific, plausible mechanism: the Alaska LNG pipeline project, which if completed would give Southcentral Alaska abundant in-state natural gas that could theoretically support low-cost gas-fired generation. Cold-climate jurisdictions with stranded energy resources have historically offered energy-intensive industries below-market power deals, and the framing matches genuine precedent from Norway, Iceland, and Quebec.",
+    "steelman": "If the Alaska LNG project is completed and large gas volumes reach Southcentral Alaska at low wellhead cost, a captive gas-to-power arrangement negotiated between the state and anchor data center tenants could plausibly undercut continental U.S. grid rates. Long-term power purchase agreements tied to fuel cost rather than grid retail rates are an established tool for energy-intensive industries, and Alaska's stranded gas reserves are real. A dedicated behind-the-meter generation arrangement could in principle deliver power well below today's grid retail price.",
+    "where_it_breaks": "The 4-5 cent figure is a delivered price for an unbuilt pipeline tied to a project that has been studied for decades without breaking ground. Today's verified Alaska commercial electricity price is 23.02 cents/kWh and industrial is 25.32 cents/kWh (EIA, March 2026), a 5-6x gap from the claim. Dunleavy framed this as a prospect contingent on future gas delivery ('We hope to be delivering gas to south central Alaska in two years'), but the figure circulates as a present-tense competitive advantage in Alaska's AI siting pitch.",
+    "more_accurate_frame": "Alaska's data center electricity pitch rests on a decades-unrealized LNG pipeline that has no confirmed completion date. Today's verified commercial and industrial power costs are 23 to 25 cents per kWh, among the six highest in the nation. Any hyperscaler or AI developer evaluating an Alaska siting decision should model current grid prices, not a speculative future power purchase agreement contingent on unbuilt infrastructure, as the baseline operating cost.",
+    "ak_stakes": "Energy sector and AI data center siting. Any hyperscaler or AI infrastructure developer (e.g., DigitalBridge, Stak Energy, or the Air Force under an Enhanced Use Lease arrangement) evaluating Alaska over the next 12-24 months would dramatically underestimate operating expenses if they model 4-5 cents/kWh rather than the verified 23-25 cents/kWh. The gap represents tens of millions of dollars per year per 100 MW of load and is the single largest variable in a go/no-go siting decision.",
+    "counter_evidence": [
+      {
+        "fact": "Alaska commercial electricity averaged 23.02 cents/kWh and industrial 25.32 cents/kWh in March 2026, per EIA Table 5.6.A, 5 to 6 times higher than the 4-5 cents/kWh Governor Dunleavy cited as the expected data center rate.",
+        "url": "https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a",
+        "outlet": "U.S. Energy Information Administration, Electric Power Monthly",
+        "pub_date": "2026-05-29",
+        "is_primary": true,
+        "verified_live": true
+      },
+      {
+        "fact": "Alaska's average retail electricity price across all sectors is 22.17 cents/kWh, ranking 6th highest in the nation per EIA state data, directly contradicting a claim of near-bottom-tier 4-5 cent rates.",
+        "url": "https://www.eia.gov/electricity/state/alaska/",
+        "outlet": "U.S. Energy Information Administration",
+        "pub_date": "2025-01-01",
+        "is_primary": true,
+        "verified_live": true
+      },
+      {
+        "fact": "Chugach Electric Association, the utility serving Southcentral Alaska where a data center would most likely locate, stated in May 2026: 'We currently do not have gas to serve a large data center.' Chugach's Hilcorp gas supply contract ends in 2028 and Cook Inlet supply is tightening.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News (named utility spokesperson Julie Hasquet)",
+        "pub_date": "2026-05-05",
+        "is_primary": true,
+        "verified_live": false,
+        "corroboration_note": "Verbatim quote independently captured by three of four scouts (ak_press, policy_official, exec_social) from ADN reporting. Named utility spokesperson. Use as corroborating supply-side context, not as the load-bearing rebuttal; the load-bearing rebuttal is the live-verified EIA price data above."
+      }
+    ],
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "could save a one-gigawatt plant upwards of $150 million a year",
+      "asserter": "Mike Dunleavy, Governor of Alaska",
+      "drop_reason": "no_live_primary_counter — attributable, load-bearing, and steelman survives, but the two key primary counters cited by scouts (UAF ACEP cooling-cost-share data and NVIDIA liquid-cooling requirements) could not be confirmed on live pages during validation: ACEP URLs returned 302 redirects to the UAF homepage and the NVIDIA page returned 404. Demoted in favor of B_4to5cents, whose primary counter (EIA Table 5.6.A) was directly verified live. Shares asserter and source article with the selected claim."
+    },
+    {
+      "claim_verbatim": "Think on average, we are 30 degrees cooler than Texas",
+      "asserter": "Mike Dunleavy, Governor of Alaska",
+      "drop_reason": "true_as_stated — the raw Alaska-Texas average temperature differential is broadly accurate; correcting it would be a strawman."
+    },
+    {
+      "claim_verbatim": "new federal data centers on Air Force bases in Alaska for AI computing ... lower the costs of building and financing the pipeline",
+      "asserter": "Dan Sullivan, U.S. Senator",
+      "drop_reason": "adjacent_to_recent_repeat — the Air Force Alaska data center program (Enhanced Use Lease / land framing) was corrected on 2026-06-17; selecting a Sullivan claim built on the same program risks re-litigating a recent issue."
+    },
+    {
+      "claim_verbatim": "They are highly capital intensive and employ many in the construction phase, but few for operation.",
+      "asserter": "Roger Kaye (ADN) / Keith Dobson (Must Read Alaska)",
+      "drop_reason": "claim_is_true — primary evidence (Stak 60 permanent jobs; Dobson 5-10 per MW) confirms the few-permanent-jobs claim. No defensible correction; correcting it would be a strawman."
+    },
+    {
+      "claim_verbatim": "the way that the feds designed it is almost directing us to AI",
+      "asserter": "Genevieve Mina, Alaska State Representative",
+      "drop_reason": "thinner_load_bearing_and_circulation — single trade-channel circulation (GovTech/ADN), and the corrective rests partly on broadband-gap inference rather than a single clean primary rebuttal. Viable future target, weaker than the selected claim this cycle."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Selected claim (B_4to5cents) was promoted over A_cooling_150M solely because its primary counter-evidence (EIA Table 5.6.A, March 2026 Alaska commercial 23.02 and industrial 25.32 cents/kWh) was directly confirmed on a live page during validation, satisfying the rebuttable gate with high confidence. The ACEP cooling-cost sources for A_cooling_150M returned 302 redirects and the NVIDIA page 404, so that claim was conservatively dropped rather than softened. Orchestrator added the Chugach 'no gas to serve a large data center' quote as corroborating supply-side context (verbatim-captured by three independent scouts from ADN); the load-bearing rebuttal remains the two live-verified EIA primary sources. The Air Force land-lease angle corrected 2026-06-17 is not re-litigated; this is a distinct electricity-price-economics claim with a distinct asserter quote and distinct primary rebuttal."
+}
