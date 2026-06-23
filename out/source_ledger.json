@@ -1,48 +1,57 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
-  "sources": [
+  "post": "Alaska.Ai LinkedIn — VOL. 06 — 2026-06-22",
+  "window": ["2026-06-15", "2026-06-22"],
+  "stories": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "id": "XPRIZE_WILDFIRE",
+      "claim": "XPRIZE Wildfire finals run live near Nenana June 15-25; $11M competition, $3.5M grand prize; autonomous detect-and-suppress across 1,000 km2 in ten minutes; finalists include Anduril, Data Blanket, Dryad, FireSwarm Solutions, Wildfire Quest, AURA Foresight.",
+      "sources": [
+        {"url": "https://robohub.org/aura-foresight-reaches-global-xprize-wildfire-finals-in-alaska/", "outlet": "Robohub", "pub_date": "2026-06-19"},
+        {"url": "https://www.xprize.org/competitions/wildfire", "outlet": "XPRIZE Foundation (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.prnewswire.com/news-releases/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition-302673499.html", "outlet": "PR Newswire / XPRIZE", "pub_date": "2026-01-29"}
+      ]
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "id": "STARRY_FIRE_DRONE",
+      "claim": "On June 22 an unauthorized drone was reported over the roughly 543-acre Starry Fire near Anderson, under evacuation orders issued June 21; FAA rules ban drones over wildfires because they can force aircraft to stand down.",
+      "sources": [
+        {"url": "https://akfireinfo.com/2026/06/22/wrap-starry-fire-dozer-line/", "outlet": "Alaska Wildland Fire Information (DFFP primary)", "pub_date": "2026-06-22"},
+        {"url": "https://www.adn.com/alaska-news/2026/06/21/wildfire-triggers-evacuation-orders-for-interior-alaska-city-of-anderson/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-21"}
+      ]
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "GCI_FIBER",
+      "claim": "GCI's only Aleutian subsea fiber was down nearly three weeks before a June 16 repair restored six communities; cause undetermined.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"},
+        {"url": "https://www.kucb.org/regional/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "KUCB Unalaska", "pub_date": "2026-06-16"}
+      ]
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "id": "GCI_STARLINK",
+      "claim": "GCI is adding Starlink bonded-gateway failover, up to 10 Gbps per gateway, at Bethel, Sitka, Kotzebue, and Dillingham, first installs expected before year-end 2026.",
+      "sources": [
+        {"url": "https://www.datacenterdynamics.com/en/news/gci-to-deploy-starlink-bonded-gateway-in-alaska/", "outlet": "Data Center Dynamics", "pub_date": "2026-06-15"},
+        {"url": "https://news.gci.com/news-releases/gci-strengthens-network-resiliency-across-alaska-with-starlink", "outlet": "GCI Newsroom (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/", "outlet": "Telecompetitor", "pub_date": "2026-06-11"}
+      ]
     },
     {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "id": "SBA_8A",
+      "claim": "SBA's proposed 8(a) overhaul preserves Alaska Native Corporation eligibility while eliminating the race-based social-disadvantage presumption for individually owned firms; comment deadline July 13, 2026.",
+      "sources": [
+        {"url": "https://www.kyuk.org/politics/2026-06-15/federal-officials-say-drastic-proposed-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "KYUK", "pub_date": "2026-06-15"},
+        {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "SBA (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.adn.com/business-economy/2026/06/11/feds-propose-upending-8a-program-but-say-it-wont-impact-big-alaska-firms/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-11"}
+      ]
     }
+  ],
+  "new_sources_surfaced": [
+    {"url": "https://akfireinfo.com", "rationale": "Alaska Wildland Fire Information, the DFFP official public release channel; primary for wildfire/climate-ops beats."},
+    {"url": "https://www.kucb.org", "rationale": "KUCB Unalaska, first-mover local source on Aleutian connectivity/outage stories."},
+    {"url": "https://www.highergov.com", "rationale": "Near-real-time SAM.gov solicitation tracking; surfaced the AFCEC RFLP June 15 update."},
+    {"url": "https://lbblawyers.com/resource/", "rationale": "Landye Bennett Blumstein LLP (Anchorage) data-center and ANC legal analysis."},
+    {"url": "https://www.miningnewsnorth.com", "rationale": "North of 60 Mining News, Alaska mining AI/robotics trade source."},
+    {"url": "https://robohub.org", "rationale": "Robotics trade outlet; covered the XPRIZE Wildfire Alaska finals."}
   ]
 }

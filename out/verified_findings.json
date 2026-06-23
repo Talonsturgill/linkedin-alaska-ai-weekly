@@ -1,0 +1,109 @@
+{
+  "window": ["2026-06-15", "2026-06-22"],
+  "generated": "2026-06-22",
+  "validation_summary": "Seven stories checked against 17 URLs; all resolved; zero dropped. Corrections applied here by the orchestrator: XPRIZE team names fixed (Anduril, Data Blanket, Dryad, FireSwarm Solutions, Wildfire Quest verified via PR Newswire; AURA Foresight via Robohub; finalist count 4 vs 5 unresolved so hedge; Ghost-X/Lattice/Silvanet are products not teams and removed as team labels). Starry Fire: the 'forced suspension of aerial firefighting' claim and the 'about 80 miles from Nenana' claim are UNVERIFIED and have been stripped; only the drone-in-fire-airspace report, ~543 acres, and the June 21 Anderson evacuation remain. GCI_STARLINK speed hedged to up to 10 Gbps per gateway. GAAIA Alaska tie is editorial/inferred (no Alaska signatory) and flagged. H1B in-window anchor is KYUK June 15.",
+  "xprize_confirmed_teams": ["Anduril", "Data Blanket", "Dryad", "FireSwarm Solutions", "Wildfire Quest", "AURA Foresight"],
+  "stories": [
+    {
+      "id": "XPRIZE_WILDFIRE",
+      "beat": "C",
+      "story_title": "XPRIZE Wildfire finals run live in Interior Alaska",
+      "summary": "From June 15 to June 25, finalist teams in the $11 million XPRIZE Wildfire competition are running live field tests near Nenana, Alaska, tasked with autonomously detecting and suppressing a wildfire ignition across 1,000 square kilometers within ten minutes with no human in the loop. The grand prize is $3.5 million. Verified finalist teams include Anduril, Data Blanket, Dryad, FireSwarm Solutions, Wildfire Quest, and AURA Foresight (sources differ on whether the finalist field is four or five, so do not assert an exact count).",
+      "why_it_matters": "Alaska's Interior is the live proving ground for the most capable autonomous wildfire AI in the world, during an active fire season, for the state that manages the largest wildland fire area in the country.",
+      "industry_consequence": "Climate operations / wildfire: the Alaska Division of Forestry and Fire Protection faces a post-competition decision (winners named after the June 25 close) on whether and how to field autonomous detect-and-suppress systems, with direct bearing on the state's cost-of-suppression trajectory.",
+      "sources": [
+        {"url": "https://robohub.org/aura-foresight-reaches-global-xprize-wildfire-finals-in-alaska/", "outlet": "Robohub", "pub_date": "2026-06-19"},
+        {"url": "https://www.xprize.org/competitions/wildfire", "outlet": "XPRIZE Foundation (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.prnewswire.com/news-releases/meet-the-future-of-autonomous-wildfire-response-xprize-wildfire-announces-finalist-teams-advancing-in-11m-competition-302673499.html", "outlet": "PR Newswire / XPRIZE", "pub_date": "2026-01-29"}
+      ],
+      "confidence": "high", "primary_source": true, "verified": true, "needs_softening": false,
+      "do_not_assert": ["Ghost-X / Lattice / Silvanet as team names", "an exact finalist count", "any specific Alaska suppression-budget dollar figure"]
+    },
+    {
+      "id": "STARRY_FIRE_DRONE",
+      "beat": "C",
+      "story_title": "Unauthorized drone reported over the Starry Fire near Anderson",
+      "summary": "On June 22 an unauthorized drone was reported in the airspace over the roughly 543-acre Starry Fire near Anderson, Alaska, where the city was under evacuation orders issued June 21. Flying drones over wildfires is prohibited under FAA rules because it can force crewed firefighting aircraft to stand down.",
+      "why_it_matters": "In the same fire country and the same week that autonomous wildfire systems are being validated, an uncoordinated civilian drone showed up over an active fire, a reminder that the airspace-deconfliction problem is unsolved.",
+      "industry_consequence": "Climate operations / wildfire: Alaska DFFP faces a 2026-season airspace-integration problem and a decision point on geofencing or counter-UAS protocols, a precondition for fielding any autonomous aerial system.",
+      "sources": [
+        {"url": "https://akfireinfo.com/2026/06/22/wrap-starry-fire-dozer-line/", "outlet": "Alaska Wildland Fire Information (DFFP primary)", "pub_date": "2026-06-22"},
+        {"url": "https://www.adn.com/alaska-news/2026/06/21/wildfire-triggers-evacuation-orders-for-interior-alaska-city-of-anderson/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-21"}
+      ],
+      "confidence": "medium", "primary_source": true, "verified": true, "needs_softening": true,
+      "do_not_assert": ["that the drone grounded or suspended aircraft at this fire", "a mileage between Anderson and Nenana", "any counter-UAS deployment that has not happened"]
+    },
+    {
+      "id": "GCI_FIBER",
+      "beat": "E",
+      "story_title": "GCI restores Aleutian subsea fiber after roughly three weeks down",
+      "summary": "GCI completed repairs to its Aleutian subsea fiber cable on June 16, restoring full service to Akutan, False Pass, King Cove, Perryville, Sand Point, and Unalaska after a break left the region on degraded satellite backup for nearly three weeks. GCI said the cause could not be determined.",
+      "why_it_matters": "GCI runs the only fiber to the Aleutian region, so six communities including the Unalaska fisheries and Coast Guard hub have no geographic redundancy for any cloud-dependent or latency-sensitive workload.",
+      "industry_consequence": "Telecom / enterprise infrastructure: Aleutian enterprise and federal customers must reassess SLA risk for AI-dependent workloads on a single fiber corridor.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "Alaska Public Media", "pub_date": "2026-06-16"},
+        {"url": "https://www.kucb.org/regional/2026-06-16/crews-finish-gci-fiber-repair-restoring-full-service-in-the-aleutians", "outlet": "KUCB Unalaska", "pub_date": "2026-06-16"}
+      ],
+      "confidence": "high", "primary_source": false, "verified": true, "needs_softening": false,
+      "do_not_assert": ["the specific break location (Chignik Bay) unless attributed", "a count of prior breaks"]
+    },
+    {
+      "id": "GCI_STARLINK",
+      "beat": "E",
+      "story_title": "GCI to add Starlink bonded gateways as failover at four Alaska hubs",
+      "summary": "GCI said in mid-June it will install Starlink dedicated bonded-gateway service, delivering up to 10 Gbps per gateway over optical inter-satellite links, in Bethel, Sitka, Kotzebue, and Dillingham as a backup layer on top of fiber, microwave, and legacy satellite, with first installs expected before year-end 2026. It builds on a 2024 enterprise reseller agreement with SpaceX.",
+      "why_it_matters": "Bonded gateways act as fiber-equivalent middle-mile capacity that can substitute during subsea cable failures, lowering single-point-of-failure exposure for AI inference and telehealth at remote hubs.",
+      "industry_consequence": "Broadband / enterprise infrastructure: GCI is building LEO-satellite failover that by Q4 2026 lowers the reliability threshold for enterprise AI and telehealth at four named hubs.",
+      "sources": [
+        {"url": "https://www.datacenterdynamics.com/en/news/gci-to-deploy-starlink-bonded-gateway-in-alaska/", "outlet": "Data Center Dynamics", "pub_date": "2026-06-15"},
+        {"url": "https://news.gci.com/news-releases/gci-strengthens-network-resiliency-across-alaska-with-starlink", "outlet": "GCI Newsroom (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.telecompetitor.com/gci-to-add-starlink-bonded-gateways-to-strengthen-alaska-network/", "outlet": "Telecompetitor", "pub_date": "2026-06-11"}
+      ],
+      "confidence": "high", "primary_source": true, "verified": true, "needs_softening": true,
+      "do_not_assert": ["a flat 20 Gbps symmetric speed (20 Gbps is a multi-antenna aggregate)"]
+    },
+    {
+      "id": "SBA_8A",
+      "beat": "B",
+      "story_title": "SBA 8(a) overhaul preserves Alaska Native Corporation eligibility",
+      "summary": "The SBA's proposed rule eliminating race-based presumptions of social disadvantage for individually owned 8(a) firms explicitly leaves eligibility for Alaska Native Corporations, tribes, and Native Hawaiian Organizations unchanged, with DOD reaffirmation and Alaska coverage landing June 15. The public comment deadline is July 13, 2026.",
+      "why_it_matters": "ANC-owned 8(a) firms are the single largest federal-contract revenue source for Alaska's regional corporations; the carve-out preserves sole-source authority, though Alaska counsel flag indirect competitive pressure.",
+      "industry_consequence": "Federal contracting: ANCSA regional corporations have until July 13, 2026, to comment on rules shaping competitive 8(a) awards, the contracting vehicle through which Alaska entities most plausibly field and operate federal technology work.",
+      "sources": [
+        {"url": "https://www.kyuk.org/politics/2026-06-15/federal-officials-say-drastic-proposed-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "KYUK", "pub_date": "2026-06-15"},
+        {"url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "SBA (primary)", "pub_date": "2026-06-11"},
+        {"url": "https://www.adn.com/business-economy/2026/06/11/feds-propose-upending-8a-program-but-say-it-wont-impact-big-alaska-firms/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-11"}
+      ],
+      "confidence": "high", "primary_source": true, "verified": true, "needs_softening": false,
+      "do_not_assert": ["any specific dollar figure for ANC 8(a) revenue unless attributed", "a verbatim DOD official quote"]
+    },
+    {
+      "id": "GAAIA_PREEMPTION",
+      "beat": "D",
+      "story_title": "State lawmakers push Congress to drop GAAIA AI preemption",
+      "summary": "On June 16 a bipartisan coalition of more than 200 state legislators from 42 states urged Congress to strip the Great American AI Act provision that would freeze state authority to regulate AI model development for three years. No Alaska signatory is named in the coverage; the Alaska angle (the state has no comprehensive AI law of its own) is editorial context, not reported fact.",
+      "why_it_matters": "If the preemption holds, Alaska would lose the option to write tailored AI rules for its own industries for roughly three years.",
+      "industry_consequence": "Policy / cross-sector: a three-year federal-default window with no state-level AI development regulation available in Alaska.",
+      "sources": [
+        {"url": "https://statescoop.com/coalition-of-state-lawmakers-again-urges-congress-to-reject-ai-preemption-proposal/", "outlet": "StateScoop", "pub_date": "2026-06-16"},
+        {"url": "https://www.route-fifty.com/artificial-intelligence/2026/06/worries-mount-about-another-state-ai-law-preemption/414244/", "outlet": "Route Fifty", "pub_date": "2026-06-17"}
+      ],
+      "confidence": "medium", "primary_source": false, "verified": true, "needs_softening": true,
+      "do_not_assert": ["that any Alaska lawmaker signed", "that GAAIA has passed or been formally introduced"]
+    },
+    {
+      "id": "H1B_TEACHERS",
+      "beat": "A",
+      "story_title": "H-1B teacher-fee ruling leaves Alaska rural STEM staffing in limbo",
+      "summary": "A federal judge struck down the $100,000 H-1B visa fee on June 8, but Alaska rural districts say they won't restart international teacher recruitment while the ruling is appealed, leaving STEM and special-education seats unfilled for 2026-27. Districts including Bering Strait (86 of 134 teachers from overseas) and Kashunamiut (14 of 18) depend heavily on visa-holding teachers.",
+      "why_it_matters": "Alaska's domestic AI-literate workforce depends on a rural K-12 STEM pipeline that empties when math and science classrooms go unstaffed.",
+      "industry_consequence": "Education / STEM pipeline: rural districts face a July-August 2026 hiring decision under legal uncertainty that deepens Alaska's domestic STEM workforce deficit.",
+      "sources": [
+        {"url": "https://www.kyuk.org/education/2026-06-15/court-keeps-international-teacher-visa-fees-affordable-for-alaska-districts-but-it-may-be-too-late", "outlet": "KYUK", "pub_date": "2026-06-15"},
+        {"url": "https://www.adn.com/alaska-news/education/2026/06/14/court-strikes-down-100k-h-1b-visa-fee-but-alaska-schools-still-cant-count-on-international-teachers/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-14"}
+      ],
+      "confidence": "medium", "primary_source": false, "verified": true, "needs_softening": false,
+      "do_not_assert": ["the AI tie as reported fact (it is analytical framing)"]
+    }
+  ]
+}
