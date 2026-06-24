@@ -1,0 +1,98 @@
+{
+  "window": ["2026-06-11","2026-06-18"],
+  "stories": [
+    {
+      "id": "GVEA_RFLP",
+      "beat": "E/B/D",
+      "role": "LEAD candidate",
+      "claims_to_verify": [
+        "DAF Request for Lease Proposal AFCEC-26-R-0006 for commercial AI data centers at JBER, Eielson AFB, Clear SFS; proposals due June 29, 2026; RFLP posted ~June 5",
+        "Some Eielson parcels sit outside the base fence and would draw power from Golden Valley Electric Association (GVEA)",
+        "GVEA is burning diesel at near-record volumes; price figure ~40 cents/kWh after losing Cook Inlet gas access -- VERIFY EXACT FIGURE (06-17 post used 20.7 cents/kWh fuel charge; reconcile)",
+        "GVEA rate case before the RCA, potential 7.4% interim increase, final order no earlier than Feb 2027 -- VERIFY",
+        "Resident named in News-Miner warned of ratepayer cross-subsidy / stranded cost -- VERIFY NAME + QUOTE VERBATIM or strip"
+      ],
+      "sources": [
+        {"url":"https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html","outlet":"Fairbanks Daily News-Miner","pub_date":"2026-06-11"},
+        {"url":"https://www.af.mil/News/Article-Display/Article/4412433/daf-exploring-lease-opportunities-for-data-centers-in-alaska/","outlet":"Air Force (primary)","pub_date":"2026-06-05"},
+        {"url":"https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/","outlet":"HigherGov (SAM.gov mirror)","pub_date":"2026-06-05"},
+        {"url":"https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/","outlet":"KTUU","pub_date":"2026-06-08"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":true
+    },
+    {
+      "id": "LNG_HB381",
+      "beat": "D/E",
+      "role": "SUPPORT 1 (the cheap-power bridge that stalled)",
+      "claims_to_verify": [
+        "HB 381 passed Alaska House 34-5 on June 12 -- VERIFY bill number HB 381 and vote",
+        "Bill replaces the 2% statewide oil-and-gas property tax on the Alaska LNG pipeline with a volumetric gas tax; ~80-90% effective reduction",
+        "~$16B forgone state revenue through 2062 -- VERIFY or strip",
+        "Senate majority caucus rule requires 11 of 14 members to advance a measure; stalled as of June 18 -- VERIFY (06-17 dropped the 11-votes claim as APM-only; reconfirm)",
+        "Special session expires 11:59pm June 19; Dunleavy vetoed 9 bills June 18 and threatened a second special session",
+        "Glenfarne says it needs the tax legislation to reach final investment decision / financing"
+      ],
+      "sources": [
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-12/alaska-house-passes-tax-cut-for-north-slope-gas-pipeline-sending-bill-to-senate","outlet":"Alaska Public Media","pub_date":"2026-06-12"},
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-dunleavy-threatens-second-special-session-if-senate-doesnt-pass-bill-supporting-alaska-lng/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"},
+        {"url":"https://alaskabeacon.com/2026/06/12/alaska-house-advances-gas-pipeline-tax-break-to-state-senate-for-further-work/","outlet":"Alaska Beacon","pub_date":"2026-06-12"},
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":false
+    },
+    {
+      "id": "FERC_LARGELOAD",
+      "beat": "D/E",
+      "role": "SUPPORT 2 (Lower-48 pulls ahead / make-the-load-pay principle AK hasn't adopted)",
+      "claims_to_verify": [
+        "FERC voted ~June 18, 2026 to direct the six RTOs to let large-load customers (incl AI data centers) interconnect within ~90 days and bear full cost of required grid upgrades -- VERIFY details",
+        "Alaska is not part of any FERC-regulated RTO; order has no Alaska-specific language"
+      ],
+      "sources": [
+        {"url":"https://www.adn.com/nation-world/2026/06/18/federal-regulators-back-trumps-plan-to-speed-power-to-energy-hungry-ai-data-centers/","outlet":"ADN / AP","pub_date":"2026-06-18"}
+      ],
+      "confidence":"medium","is_in_window":true,"primary_source":false,"background_context":true
+    },
+    {
+      "id": "NOAA_IFCB",
+      "beat": "C",
+      "role": "TEXTURE (AI is physically shipping in AK this week)",
+      "claims_to_verify": [
+        "NOAA 2026 Eastern Bering Sea Bottom Trawl Survey underway; Imaging FlowCytobot (IFCB) deployed aboard FV Northwest Explorer with AOOS; ML algorithm auto-flags harmful algal cells (Alexandrium, Pseudo-nitzschia, Dinophysis) in real time; NOAA page updated June 16, 2026 -- VERIFY"
+      ],
+      "sources": [
+        {"url":"https://www.fisheries.noaa.gov/alaska/science-data/near-real-time-temperatures-2026-bering-sea-bottom-trawl-survey","outlet":"NOAA Fisheries (primary)","pub_date":"2026-06-16"},
+        {"url":"https://ahab.aoos.org/ifcb/","outlet":"AOOS / Alaska HAB Network","pub_date":"2026-06-01"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":true
+    },
+    {
+      "id": "SB258_VETO",
+      "beat": "D",
+      "role": "ALTERNATE (state declined to modernize software/AI procurement)",
+      "claims_to_verify": [
+        "Dunleavy vetoed SB 258 (updating state requirements for contracts licensing software applications) on June 18, among 9 bills -- VERIFY bill number + that it concerns software licensing contracts",
+        "Dunleavy rationale ~ restricting negotiation flexibility could reduce flexibility, limit access, increase costs -- VERIFY quote or paraphrase"
+      ],
+      "sources": [
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/18/gov-mike-dunleavy-vetoes-9-bills-on-penultimate-day-of-special-session/","outlet":"Anchorage Daily News","pub_date":"2026-06-18"},
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-18/gasline-bill-remains-stalled-in-senate-as-dunleavy-vetoes-9-bills-threatens-another-special-session","outlet":"Alaska Public Media","pub_date":"2026-06-18"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":false
+    },
+    {
+      "id": "LNG_MOU",
+      "beat": "A",
+      "role": "ALTERNATE (workforce angle, automation-silent)",
+      "claims_to_verify": [
+        "June 11 2026: Glenfarne subsidiary 8 Star Alaska + Alaska Building Trades Councils signed an MOU making Alaska workers the preferred labor source on the Alaska LNG project; ~12,000 construction jobs -- VERIFY numbers",
+        "MOU is silent on automation/robotics (by absence) -- frame as analysis only, do not assert displacement"
+      ],
+      "sources": [
+        {"url":"https://www.adn.com/business-economy/energy/2026/06/11/alaska-lng-project-and-unions-sign-preliminary-agreement-to-maximize-alaska-hires/","outlet":"Anchorage Daily News","pub_date":"2026-06-11"},
+        {"url":"https://glenfarnegroup.com/alaska-labor-unions-and-glenfarne-sign-agreement-to-put-alaska-workers-first-on-12000-job-alaska-lng-project/","outlet":"Glenfarne (primary)","pub_date":"2026-06-12"}
+      ],
+      "confidence":"high","is_in_window":true,"primary_source":true
+    }
+  ]
+}

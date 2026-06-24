@@ -1,0 +1,5 @@
+[
+{"id":"NOAA_IFCB","story_title":"AI-flagging Imaging FlowCytobot scanning Bering Sea for toxic algae during 2026 trawl survey","window":true,"confidence":"high","primary":true,"NEW":"fresh deployment, never covered","ai_tie":"direct (ML auto-flags HAB cells real-time)","sources":["fisheries.noaa.gov 2026-06-16 primary","ahab.aoos.org primary"],"consequence":"Seafood processors/tribal food-safety/state shellfish regulators can integrate real-time HAB triggers before July peak; ~$2B seafood industry avoids closures."},
+{"id":"RHTP_DRONE_BG","story_title":"RHTP app window open through June 22; Tanana Chiefs drone delivery + 400+ proposals await July decision","window":false,"confidence":"medium","primary":false,"REPEAT":"background","sources":["govtech 06-09","adn 06-07"]},
+{"id":"NOAA_AUTONOMOUS_BG","story_title":"Trump FY2027 budget proposes autonomous NOAA research fleet amid AFSC 51-staff loss","window":false,"confidence":"medium","primary":false,"BG":"out of window","sources":["mongabay 06-02","seafoodsource"]}
+]

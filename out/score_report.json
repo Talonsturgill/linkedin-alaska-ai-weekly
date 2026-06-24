@@ -1,32 +1,18 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "weighted_total": 9.08,
+  "threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "hard_fails": [],
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.15, "score": 9, "notes": "Opens with the June 29 deadline, names the Fairbanks utility grid dependency, and ends the first paragraph with the unresolved who-pays question. Lands within the ~210-char see-more cutoff."},
+    {"name": "Industry relevance", "weight": 0.20, "score": 9, "notes": "Every story localizes to Alaska with a sector consequence: GVEA cost allocation, HB 381 revenue impact, FERC regulatory contrast, NOAA compute-demand texture."},
+    {"name": "Factual density", "weight": 0.15, "score": 10, "notes": "Specifics every 1-2 sentences: AFCEC-26-R-0006, June 29, three bases, 138-kV line, named officials and verbatim quotes, 34-5 vote, rule of 11, June 19 expiry, FERC vote, IFCB, AOOS."},
+    {"name": "Source quality", "weight": 0.15, "score": 8, "notes": "Primary sources present (SAM.gov via HigherGov, AF.mil, NOAA, AOOS); validator-stripped figures stayed out. FERC vote is single-outlet (AP via ADN) and the rule of 11 is single-sourced to ADN, both attributed in body."},
+    {"name": "Voice match", "weight": 0.15, "score": 9, "notes": "Position-taking, structural cost-allocation ternary, no banned phrases or influencer cadence. FERC paragraph reads slightly newswire."},
+    {"name": "Readability (LinkedIn)", "weight": 0.10, "score": 9, "notes": "Six tight paragraphs, ~448 words, ~2751 chars, under the 3000 cap. Paragraph 2 is proper-noun dense."},
+    {"name": "Engagement question", "weight": 0.08, "score": 10, "notes": "Names all three parties in the developed tension, debatable, no CTA softener."},
+    {"name": "Business actionability", "weight": 0.02, "score": 9, "notes": "Concrete revisit triggers: grid-cost assumptions for June 29 bids, HB 381 risk to the cheap-power assumption, FERC Lower-48 precedent."}
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Source quality",
+  "one_sentence_fix": "Add the FERC docket number or a second outlet for the June 18 vote, and flag that the Senate rule of 11 is per ADN alone."
 }
