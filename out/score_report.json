@@ -1,32 +1,32 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "routine": "Received Wisdom (Cold Take)",
+  "issue_label": "NO. 23",
+  "run_date": "2026-06-22",
+  "rubric_file": "config/contrarian_rubric.yaml",
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.13, "notes": "First two lines name asserter (Gov. Dunleavy), exact claim (4-5 cents/kWh), and the financial stake (budget off by tens of millions), inside the ~210-char see-more cutoff; minor outlet-name inconsistency (Data Center World vs Data Center Knowledge) prevents a 10."},
+    {"name": "Claim load-bearing + AK stakes", "score": 10, "weight": 0.20, "notes": "Claim governs real capital decisions; names DigitalBridge, Stak Energy, Air Force EUL bidders, quantifies tens of millions per year per 100 MW, names 12-24 month horizon."},
+    {"name": "Steelman fairness", "score": 9, "weight": 0.12, "notes": "Para 2 validates the mechanism (stranded gas + fuel-indexed PPA), cites Norway/Iceland/Quebec, affirms 'the claim is plausible' before rebuttal; no snark."},
+    {"name": "Counter-evidence quality", "score": 10, "weight": 0.10, "notes": "All three rebuttal points trace to dossier counter_evidence: EIA Table 5.6.A (live-verified primary), EIA state profile (primary), Chugach/Hasquet via ADN."},
+    {"name": "Factual density", "score": 10, "weight": 0.10, "notes": "Named specifics every 1-2 sentences: dates, EIA tables, 23.02/25.32/22.17 cents, Chugach, Hilcorp, 2028, Cook Inlet, 100 MW."},
+    {"name": "Source quality", "score": 10, "weight": 0.13, "notes": "Claim attributed to named Governor with verbatim quote and date; counter-evidence on two independent live-verified EIA primary sources plus named-spokesperson utility quote; all in dossier."},
+    {"name": "Voice match", "score": 9, "weight": 0.12, "notes": "Reads like post_001.md: analytical, corrective without contempt, structural (contingency vs rate sheet), CFO angle, no influencer cadence or banned phrases."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.05, "notes": "2-4 sentence paragraphs, single 3-item bullet block, 473 words, 2785 chars; the stakes paragraph runs slightly long as one sentence."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Specific debatable question (what discount rate on a power price contingent on an unbuilt pipeline) tied to the corrected frame; no CTA."},
+    {"name": "Business actionability", "score": 10, "weight": 0.02, "notes": "Reader can reframe three decisions from the bullet block: baseline 23-25 cents, treat 4-5 cents as upside, price Cook Inlet supply risk before 2028."}
+  ],
+  "weighted_total": 9.58,
+  "threshold": 8.0,
+  "hard_fail_checks": {
+    "hashtag_count_in_range": "PASS",
+    "punctuation_bans_held": "PASS",
+    "total_char_count_under_linkedin_cap": "PASS",
+    "word_count_in_range": "PASS",
+    "claim_is_attributed": "PASS",
+    "steelman_present": "PASS"
+  },
+  "hard_fail": null,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Readability (LinkedIn)",
+  "one_sentence_fix": "Break the long single-sentence stakes paragraph into two sentences to remove the only scan-friction moment."
 }

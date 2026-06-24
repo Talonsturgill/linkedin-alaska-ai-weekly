@@ -1,27 +1,49 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom — NO. 23 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+> "you might be looking at four or five cents a kilowatt hour for decades and decades to come"
 
-## Role
-FOUNDER (kicker middle slot)
+Governor Mike Dunleavy, pitching Alaska as a data center host at Data Center
+World (via Data Center Knowledge, 7 Oct 2025). Full context: "We hope to be
+delivering gas to south central Alaska in two years and exporting to Asia by
+2030. That means for folks who want to set up data farms in Alaska, you might
+be looking at four or five cents a kilowatt hour for decades and decades to
+come."
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Why it is load-bearing
+The 4-5 cents/kWh figure is the headline cost number in Alaska's official
+pitch to hyperscalers and AI infrastructure developers (DigitalBridge, Stak
+Energy, and the Air Force Enhanced Use Lease bidders). Power price is the
+single largest variable in a data center go/no-go siting decision. If the
+number is wrong, every pro-forma built on it is wrong.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Steelman (stated first, generously)
+If Alaska LNG is built and large gas volumes reach Southcentral at low
+wellhead cost, a captive gas-to-power PPA between the state and an anchor
+tenant could plausibly undercut continental grid rates. Fuel-indexed PPAs are
+a real tool for energy-intensive industry, Alaska's stranded gas is real, and
+cold-climate jurisdictions with stranded energy (Norway, Iceland, Quebec) have
+genuinely landed below-market industrial power. Smart people believe this
+because the mechanism is plausible and the asserter is the Governor.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## One-sentence corrective thesis
+The 4-5 cents is a delivered price for an unbuilt pipeline; the price a
+developer can actually buy in Alaska today is 23 to 25 cents per kWh, among
+the six highest in the nation, so the baseline a CFO should model is the
+current grid, not a speculative future PPA.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Evidence spine (all in claim_dossier.json)
+- EIA Electric Power Monthly, Table 5.6.A (Mar 2026): Alaska commercial 23.02
+  cents/kWh, industrial 25.32 cents/kWh. PRIMARY, live-verified.
+- EIA Alaska state profile: 22.17 cents/kWh all-sector average, 6th highest in
+  the nation. PRIMARY, live-verified.
+- Chugach Electric (May 2026): "We currently do not have gas to serve a large
+  data center." Supply-side corroboration; Hilcorp contract ends 2028.
+- The Governor's own hedge ("We hope to be delivering gas ... in two years")
+  establishes the pipeline is unbuilt and the price is contingent.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Posture
+Corrective and generous, not a dunk. The cold-climate energy thesis is not
+stupid; it is just being quoted as present-tense fact when it is a contingent
+future. Reader who believed the 4-5 cents should leave knowing what number to
+underwrite instead.
