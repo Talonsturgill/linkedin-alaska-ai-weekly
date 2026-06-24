@@ -1,0 +1,110 @@
+{
+  "window": ["2026-06-16", "2026-06-23"],
+  "generated_for": "Alaska.Ai LinkedIn VOL. 07 — 2026-06-23",
+  "verified": [
+    {
+      "id": "FERC_INTERCONNECT",
+      "role": "LEAD",
+      "beat": "D/E",
+      "story_title": "FERC issues show-cause orders to six RTOs/ISOs on AI data-center interconnection; Alaska's Railbelt sits outside the framework",
+      "summary": "On June 18, 2026 FERC issued show-cause orders to PJM, MISO, SPP, CAISO, ISO-NE, and NYISO directing them to fix large-load (AI data-center) interconnection rules found inadequate for surging demand. Alaska's Railbelt grid operates outside every RTO/ISO, so no federal interconnection floor applies; the Regulatory Commission of Alaska would be the only body positioned to set equivalent large-load rules.",
+      "industry_consequence": "Sets a federal benchmark for large-load interconnection that Alaska's Railbelt will not be subject to; the RCA has a near-term window to write its own large-load rules before the next AI data-center project forces project-by-project negotiation.",
+      "confirmed_facts": ["FERC show-cause orders to six named RTOs/ISOs (PJM, MISO, SPP, CAISO, ISO-NE, NYISO)", "issued on a Thursday (June 18, 2026, given June 23 is a Tuesday) — in window", "orders address inadequate large-load / AI data-center interconnection rules"],
+      "sources": [
+        {"url": "https://www.utilitydive.com/news/ferc-doe-data-center-interconnection/823360/", "outlet": "Utility Dive", "pub_date": "2026-06-22", "primary": false, "resolved": true},
+        {"url": "https://www.constructiondive.com/news/ferc-doe-data-center-interconnection/823505/", "outlet": "Construction Dive", "pub_date": "2026-06-23", "primary": false, "resolved": true},
+        {"url": "https://www.ferc.gov/news-events/news/ferc-act-large-load-interconnection-docket-june-2026", "outlet": "FERC.gov", "pub_date": "2026-06-18", "primary": true, "resolved": false, "note": "403 on fetch; URL pattern consistent with real FERC release but unconfirmed"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": true,
+      "softening_notes": "FERC.gov primary 403'd; rests on two independent trade sources (sufficient under two-source rule). Alaska/Railbelt consequence is ENTIRELY analytical — Alaska is NOT named in the orders. Writer must frame as 'Alaska's Railbelt sits analytically outside this framework,' never imply FERC acted on Alaska. The RCA-as-sole-authority point is a structural fact (the Railbelt is genuinely in no organized wholesale market). Do not assert a verbatim FERC commissioner quote.",
+      "verdict": "keep"
+    },
+    {
+      "id": "STAK_NORTHSLOPE",
+      "role": "SUPPORTING",
+      "beat": "E/B",
+      "story_title": "DNR reviews STAK Energy North Slope AI data-center lease after comment window closed",
+      "summary": "Alaska DNR's public comment window on the preliminary best-interest finding for STAK Energy's 715.4-acre, 50-year Dalton Highway lease (near MP 390) closed June 15, 2026; DNR is now in review before a final finding that would authorize a natural-gas-powered HPC/AI data-center campus. Reported project cost is about $500 million.",
+      "industry_consequence": "A final best-interest finding (expected in coming weeks) would clear the state-land gate for what could be Alaska's first utility-scale AI compute campus and the first large load to test the Railbelt/North Slope grid's missing interconnection rules.",
+      "confirmed_facts": ["STAK Energy Corporation", "715.4 acres", "50-year term", "Dalton Highway near MP 390", "natural gas-powered HPC use", "comment deadline June 15, 2026 (DNR primary)"],
+      "sources": [
+        {"url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=223817", "outlet": "Alaska DNR / Division of Oil and Gas", "pub_date": "2026-05-12", "primary": true, "resolved": true},
+        {"url": "https://alaskapublic.org/news/economy/energy/2026-05-26/alaskas-north-slope-proposed-as-home-for-massive-ai-data-center", "outlet": "Alaska Public Media", "pub_date": "2026-05-26", "primary": false, "resolved": true}
+      ],
+      "confidence": "low",
+      "is_in_window": false,
+      "primary_source": true,
+      "needs_softening": true,
+      "softening_notes": "Comment closed June 15 (one day before window) — frame as ONGOING regulatory process, not a June 16-23 event. STRIP 'up to 3 GW', '1,500 construction workers', '2028 operations' (in no verified source). Hedge cost as 'reportedly about $500 million'. Clean facts: STAK Energy, 715.4 acres, 50-year term, Dalton Highway, gas-powered HPC.",
+      "verdict": "keep_as_background"
+    },
+    {
+      "id": "DAF_LEASE",
+      "role": "SUPPORTING",
+      "beat": "E",
+      "story_title": "Air Force seeks commercial AI data-center tenants at JBER, Eielson, and Clear SFS; proposals due June 29",
+      "summary": "The Department of the Air Force is offering parcels at Joint Base Elmendorf-Richardson, Eielson AFB, and Clear Space Force Station to commercial AI data-center developers who would finance, build, and operate the facilities; initial proposals are due June 29, 2026.",
+      "industry_consequence": "June 29 is the first filter on whether serious operators will bid on Alaska military land for AI compute; a thin field would signal that power and connectivity constraints still block commercial decisions.",
+      "confirmed_facts": ["three installations: JBER, Eielson AFB, Clear SFS", "June 29 proposal deadline", "private entities finance/construct/operate"],
+      "sources": [
+        {"url": "https://www.alaskasnewssource.com/2026/06/09/us-military-plans-lease-alaska-land-ai-data-centers-community-responds/", "outlet": "Alaska's News Source (KTUU)", "pub_date": "2026-06-09", "primary": false, "resolved": true},
+        {"url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-11", "primary": false, "resolved": true},
+        {"url": "https://sam.gov/workspace/contract/opp/48447d3383784571a5a37119d19e5751/view", "outlet": "SAM.gov", "pub_date": "2026-06-05", "primary": true, "resolved": false, "note": "near-empty page; unresolved"}
+      ],
+      "confidence": "medium",
+      "is_in_window": false,
+      "primary_source": false,
+      "needs_softening": true,
+      "softening_notes": "All sources pre-window; the June 29 deadline (6 days out) is the live-clock hook — frame as 'deadline approaching.' STRIP '4,700 acres' and 'lessee bears all utility costs' (SAM.gov unresolved). Use 'parcels at three installations.' Two independent secondaries confirm bases + deadline.",
+      "verdict": "keep"
+    },
+    {
+      "id": "NDAA_2_6B",
+      "role": "SUPPORTING",
+      "beat": "B",
+      "story_title": "Senate Armed Services Committee advances FY2027 NDAA 18-9 with about $2.6B in Alaska military projects",
+      "summary": "On June 23, 2026 the Senate Armed Services Committee advanced the FY2027 NDAA by an 18-9 vote. Per Sen. Dan Sullivan's office, 56 provisions carry a projected $2.6 billion in Alaska military construction, including a JBER Fighter Town recapitalization, $50 million for expanded launch capacity at the Pacific Spaceport Complex on Kodiak, and $41 million for an Eielson Range Operations Center. This is a committee-advanced authorization, not an appropriation.",
+      "industry_consequence": "Largest single-cycle Alaska defense-construction authorization sought in recent memory; Alaska and ANC contractors face a 6-12 month window to position teaming and bonding if the bill clears Congress by fall 2026.",
+      "confirmed_facts": ["SASC advanced FY2027 NDAA 18-9 on June 23, 2026", "~$2.6B AK total per Sullivan release", "$50M Pacific Spaceport Complex Kodiak", "$41M Eielson Range Operations Center", "JBER Fighter Town recapitalization"],
+      "sources": [
+        {"url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-secures-56-provisions-historic-26-billion-for-alaska-in-fy-2027-defense-authorization", "outlet": "Sen. Dan Sullivan (official release)", "pub_date": "2026-06-23", "primary": true, "resolved": true},
+        {"url": "https://www.youralaskalink.com/news/politics/major-defense-bill-with-alaska-funding-advances-out-of-senate-committee/article_48083e30-5ef2-4726-91d6-850f5dba65e5.html", "outlet": "Your Alaska Link", "pub_date": "2026-06-23", "primary": false, "resolved": true}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "needs_softening": true,
+      "softening_notes": "AI tie is ABSENT from sourcing — writer must add an EXPLICIT analytical bridge (Eielson range + Kodiak spaceport = the defense-tech/autonomy substrate AI runs on) and label it as analysis. Note 'authorization advanced from committee,' not signed/appropriated. $2.6B is a sum of line items per a partisan-but-primary release; attribute to Sullivan's office.",
+      "verdict": "keep"
+    },
+    {
+      "id": "RHTP_DRONE",
+      "role": "ALT_HELD",
+      "beat": "C",
+      "story_title": "Alaska RHTP application portal closed June 22 with 400+ tech projects",
+      "summary": "Alaska's Rural Health Transformation Program full-application portal closed June 22, 2026 with more than 400 projects advancing; the program drew federal funding of about $272 million (total program, not a Year-1 figure), with project awards expected around August 1. Tanana Chiefs Conference drone delivery and AI wearable proposals were reported earlier (June 9).",
+      "industry_consequence": "Tribal health orgs and vendors face a mid-July evaluation and August 1 award that compress drone and remote-monitoring pilots into a sub-12-month deployment window.",
+      "sources": [
+        {"url": "https://alaskapublic.org/news/health/2026-06-22/state-advances-over-four-hundred-projects-in-bid-for-rural-health-transformation-program-funding", "outlet": "Alaska Public Media", "pub_date": "2026-06-22", "primary": false, "resolved": true},
+        {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "GovTech", "pub_date": "2026-06-09", "primary": false, "resolved": true}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": false,
+      "needs_softening": true,
+      "softening_notes": "$272M is TOTAL program funding, not Year-1. Tanana/drone/wearable specifics are pre-window background (June 9), not June 22 news. HELD — off the lead axis; available only if a supporting beat is gutted.",
+      "verdict": "keep_as_alt"
+    },
+    {
+      "id": "H1B_TEACHERS",
+      "role": "DROPPED",
+      "beat": "A",
+      "verdict": "drop",
+      "drop_reason": "Core in-window event (June 18 First Circuit stay reinstating the $100K H-1B fee) unverifiable; both sources predate the window and describe the opposite outcome (district court striking the fee). Fails date-window and sourcing tests."
+    }
+  ],
+  "validator_summary": "Five of six candidates kept, H1B_TEACHERS dropped (unverifiable in-window stay). Window not broadened (>=3 usable stories remain). FERC (lead) rests on two trade sources with FERC.gov primary 403'd and an entirely analytical AK tie. STAK kept as background only (comment closed one day pre-window; GW/jobs/2028 stripped). DAF kept on June 29 live-clock with acreage and utility-cost language stripped. NDAA $2.6B is the strongest (primary + secondary) but its AI tie must be an explicit analytical bridge and labeled a committee authorization. RHTP corrected ($272M is total, not Year-1) and held off-axis."
+}
