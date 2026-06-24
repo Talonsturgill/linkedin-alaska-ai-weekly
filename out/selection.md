@@ -1,27 +1,22 @@
-# Anchorage Desk Selection — 20 May 2026
+# Cold Take selection — NO. 24 — 2026-06-23
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (received wisdom)
+"They are highly capital intensive and employ many in the construction phase, but few for operation."
+— Roger Kaye, ADN op-ed, 2026-01-03. Echoed independently by Rep. Kevin McCabe (ADN, 2026-04-01: "Data centers do not employ thousands long term") and Anchorage Assembly member Daniel Volland (ADN, 2026-03-27). Cross-partisan received wisdom in the Alaska press.
 
-## Role
-FOUNDER (kicker middle slot)
+## Steelman (state it at its strongest, first)
+A single data center campus runs lean, often 20-100 direct full-time staff, against hundreds of construction workers during the build. Relative to the land, power draw, and the tax and land concessions developers ask for, that operational headcount is genuinely small. In a rural economy where every permanent private-sector job counts, skepticism about the employment payoff is a reasonable place for a borough assembly to start.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## One-sentence corrective thesis
+The "few permanent jobs" headcount is real but it is the wrong number. County-level employment data, not facility staffing sheets, is what tells you whether a data center pays off, and that data shows a measurable multiplier the facility headcount misses.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Evidence spine
+- Brookings (Bahar and Wright, 2026-05-04, BLS county data, 93 counties): first large data center raises total private employment 4-5% over 5-6 years, wages up 3-4%, hyperscale counties (4+ facilities) see 23% information-sector employment growth. [PRIMARY]
+- The claim conflates facility direct-hire headcount with full county employment effect (induced demand, supply chain, complementary services).
+- Cross-partisan circulation: Kaye (environmental advocate), McCabe (Mat-Su legislator, pro-development), Volland (Anchorage Assembly, guardrails advocate).
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## AK business consequence
+Anchorage Assembly guardrails ordinance and Mat-Su incentive proposals are live 2026 decisions on land, power, and tax concessions. If "few permanent jobs" frames the negotiation without the multiplier correction, Alaska either under-negotiates the community benefit or over-restricts a deal with real county-level employment upside. Allocators and program managers should price the multiplier, not the server-room headcount.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Corrected frame target audience
+Desk-of-the-CFO, desk-of-the-program-manager, capital allocators, municipal decision-makers weighing data center proposals.
