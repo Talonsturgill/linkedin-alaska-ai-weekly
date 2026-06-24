@@ -1,0 +1,88 @@
+{
+  "selected_claim": {
+    "claim_verbatim": "They are highly capital intensive and employ many in the construction phase, but few for operation.",
+    "claim_paraphrase_fair": "Data centers bring a large temporary construction workforce but generate only a handful of permanent jobs, making them a poor long-term employment bet for Alaska communities.",
+    "asserters": [
+      {
+        "name": "Roger Kaye",
+        "title_or_org": "Freelance writer; Issues Committee, Northern Alaska Environmental Center",
+        "url": "https://www.adn.com/opinions/2026/01/03/opinion-before-alaska-becomes-an-ai-data-farm-be-sure-to-read-the-fine-print/",
+        "outlet": "Anchorage Daily News (Opinion)",
+        "pub_date": "2026-01-03",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Rep. Kevin McCabe",
+        "title_or_org": "Alaska State Representative, Mat-Su",
+        "url": "https://www.adn.com/opinions/2026/04/01/opinion-energy-and-data-centers-present-a-real-opportunity-for-mat-su/",
+        "outlet": "Anchorage Daily News (Opinion)",
+        "pub_date": "2026-04-01",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Daniel Volland",
+        "title_or_org": "Anchorage Assembly Member, District 1 (North Anchorage)",
+        "url": "https://www.adn.com/opinions/2026/03/27/opinion-as-big-techs-footprint-gets-bigger-its-time-for-anchorage-to-install-data-center-guardrails/",
+        "outlet": "Anchorage Daily News (Opinion)",
+        "pub_date": "2026-03-27",
+        "is_primary": false,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 3,
+    "discourse_slice": "ak_press|policy_official",
+    "why_smart_people_believe_it": "Published workforce figures for individual data center facilities do routinely show small permanent headcounts (often 20-50 direct employees for a mid-size campus), and the contrast with the hundreds of construction workers on site during the build phase is visually stark and widely cited in tech-sector reporting. The intuition that 'robots run data centers' is not wrong on its face.",
+    "steelman": "A single hyperscale data center facility typically operates with 20-100 direct full-time employees per campus, compared to hundreds of construction workers during the build. That operational footprint is genuinely small relative to the land area, power draw, and public incentives often requested. For a state like Alaska where every permanent private-sector job in a rural economy matters, skepticism about the employment multiplier is a reasonable policy starting point before committing infrastructure or tax concessions.",
+    "where_it_breaks": "The claim conflates facility-level direct headcount with the full county-level employment effect. Brookings Institution primary research (Bahar and Wright, May 2026) using Bureau of Labor Statistics data across 93 counties found that the first large data center in a county raises total private employment 4-5% over five to six years and drives a 23% increase in information-sector employment in hyperscale counties, effects that operate through induced local demand, supply chain, and complementary services, not just on-site hires.",
+    "counter_evidence": [
+      {
+        "fact": "Brookings Institution research (Bahar and Wright, 2026) using BLS county-level data for 93 counties found that counties receiving their first large data center see total private employment rise 4%-5% over five to six years, wages rise 3%-4% for existing workers and new hires, and hyperscale counties with four or more facilities see a 23% increase in information-sector employment.",
+        "url": "https://www.brookings.edu/articles/new-evidence-on-data-center-employment-effects/",
+        "outlet": "Brookings Institution",
+        "pub_date": "2026-05-04",
+        "is_primary": true
+      },
+      {
+        "fact": "Even data center proponent Rep. Kevin McCabe conceded in his April 2026 ADN op-ed that 'Data centers do not employ thousands long term,' and Anchorage Assembly member Daniel Volland's March 2026 guardrails op-ed used the same lightly-staffed framing to argue for restrictions, showing the 'few permanent jobs' claim is cross-partisan received wisdom rather than one advocate's position.",
+        "url": "https://www.adn.com/opinions/2026/04/01/opinion-energy-and-data-centers-present-a-real-opportunity-for-mat-su/",
+        "outlet": "Anchorage Daily News (Opinion)",
+        "pub_date": "2026-04-01",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "Data centers do run lean on-site staff, but that direct-hire number understates the real labor footprint. Empirical county-level data shows the arrival of a first large data center raises total private employment 4-5% over five years through induced demand, supply chain, and complementary services. Alaska policymakers and commentators should use full employment multipliers, not facility headcounts, when evaluating data center proposals, so the jobs debate is grounded in evidence rather than the misleading optics of a lightly staffed server room.",
+    "ak_stakes": "Data center policy (Anchorage guardrails ordinance, Mat-Su incentive proposals). Anchorage Assembly and the Alaska Legislature face live decisions in 2026 on whether to offer land, power, and tax concessions to hyperscale data center developers. If the 'few permanent jobs' frame dominates without the multiplier correction, Alaska may under-negotiate or over-restrict deals that carry a meaningful county-level employment upside.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true,
+      "not_recent_repeat_pass": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim_verbatim": "Aleutian Thunder can sidestep much of this...creating a procurement 'fast lane' for agencies facing urgent mission needs",
+      "drop_reason": "strawman - the 'fast lane' verbatim is Jack Patterson's own section-heading language on BriefGlance.com (content-farm characteristics, no disclosed author credentials), not a quote from a named credible asserter. Jason Waldman's actual PR Newswire quote ('speed to mission, not just speed to contract') does not contain 'fast lane' or 'sidestep'. Attribution gate fails. The underlying ANC 8(a) sole-source mechanism is real, but the specific verbatim cannot be attributed."
+    },
+    {
+      "claim_verbatim": "the way that the feds designed it is almost directing us to AI",
+      "drop_reason": "true_as_stated - on re-fetch, Rep. Mina's steelmanned claim is substantially accurate. RHTP funding restrictions do structurally narrow eligible uses toward technology including AI. The counter-evidence (program lists multiple categories) elaborates rather than contradicts. No strong primary-source correction, so the claim holds as substantially true and is not rebuttable."
+    },
+    {
+      "claim_verbatim": "A growing gap has emerged between the alliance's ambition to defend the High North and its ability to field Arctic-capable uncrewed systems at scale",
+      "drop_reason": "not_load_bearing - NATO/CEPA defense-analysis claim from February 2026, older and less timely. Touches Alaska via the Arctic but does not resolve to a specific Alaska AI capital, procurement, or workforce decision by a named actor in a defined near-term timeframe."
+    },
+    {
+      "claim_verbatim": "GenAI is becoming essential for organizations",
+      "drop_reason": "single_non_primary - Dale Knipp is Alaska Communications' Chief Revenue Officer, vendor self-interest framing from a single non-primary commercial source. Does not meet the circulation threshold and is not a correctable received wisdom distinct from ordinary vendor marketing."
+    }
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "",
+  "issue_label": "NO. 24"
+}
