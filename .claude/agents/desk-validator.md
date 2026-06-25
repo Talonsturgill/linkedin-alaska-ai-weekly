@@ -92,10 +92,11 @@ reminder, and (on retry) a broadened 90-day decision window.
    too obvious (PR not analysis) or you don't understand the file well
    enough to profile it. Either way, drop.
 7. **Not a recent repeat.** Subject not in the "subjects already
-   profiled" reminder (last 12 issues), AND the specific (subject,
-   decision) pair is not in the immutable blocklist. Same subject's
-   genuinely new decision is fair game after 12 issues; the SAME pair
-   is never re-profiled.
+   profiled" reminder (profiled in the last 21 days), AND the specific
+   (subject, decision) pair is not in the immutable all-time blocklist.
+   Same subject's genuinely new decision is fair game once 21 days have
+   passed since they were last profiled; the SAME (subject, decision)
+   pair is never re-profiled.
 
 ## Conflict-of-interest screen (additional check after the seven-point gate)
 

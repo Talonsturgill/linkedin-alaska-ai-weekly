@@ -266,27 +266,42 @@ Week, federal fiscal year-end, end-of-quarter funding announcements).
 ## Phase 1.5 — Don't repeat yourself
 
 Before discovery, find out which subjects the desk has already profiled
-and which (subject, decision) pairs are immutable blocklist. The dedupe
-window for this column is **12 issues** (double the other columns) to
-respect the size of the Anchorage AI subject pool. One git pass:
+and which (subject, decision) pairs are immutable blocklist. This column
+runs on a **daily** cadence against a small Anchorage AI subject pool, so
+dedupe is keyed on TIME and on the decision itself, not on an "issue"
+counter. The rules:
+
+- **Same subject** is off-limits if profiled in the **last 21 days**
+  (calendar, from the branch date `claude/linkedin-desk-YYYY-MM-DD`).
+  This rotates variety across the pool without exhausting it. After 21
+  days the subject is eligible again, but only for a genuinely NEW
+  decision.
+- **Same (subject, decision) pair** is **NEVER** re-profiled, regardless
+  of how much time has passed. This is the permanent blocklist.
+
+Scan the recent desk branches in one git pass. Read enough history to
+cover both rules: the 21-day subject window AND the all-time
+(subject, decision) blocklist. At daily cadence each branch is roughly
+one day, so scan the last ~45 branches.
 
 ```bash
-for b in $(git branch -r --list 'origin/claude/linkedin-desk-*' | sort -r | head -n 12); do
+for b in $(git branch -r --list 'origin/claude/linkedin-desk-*' | sort -r | head -n 45); do
   echo "=== $b ==="
   git show "$b:out/desk_dossier.json" 2>/dev/null | head -n 60
 done
 ```
 
 Build TWO short notes to scratch:
-1. **Subjects already profiled (last 12 issues).** Each prior
-   `selected_subject.full_name` + `role_category`. Same subject is
-   off-limits until 12 issues have passed.
-2. **(Subject, decision) pairs already covered (all time).** Each
-   prior `selected_subject.full_name` + `selected_decision.what_happened`
-   + `selected_decision.when`. This pair is NEVER re-profiled
-   regardless of window. A genuinely new decision by a previously
-   profiled subject is fair game after 12 issues; the SAME decision
-   is permanently blocked.
+1. **Subjects profiled in the last 21 days.** Each prior
+   `selected_subject.full_name` + `role_category` + the branch date.
+   Same subject is off-limits until 21 days have passed since that date.
+   No-target cycles contribute nothing here.
+2. **(Subject, decision) pairs already covered (all time).** Each prior
+   `selected_subject.full_name` + `selected_decision.what_happened`
+   + `selected_decision.when`, from EVERY branch you scanned. This pair
+   is permanently blocked. A genuinely new decision by a subject last
+   profiled more than 21 days ago is fair game; the SAME decision is
+   blocked forever.
 
 Pass both notes to the scouts and the validator with explicit rules.
 

@@ -29,13 +29,15 @@ stack_motto: "how the machinery actually works"
 stack_byline: ""
 
 # "Anchorage Desk" profile routine (prompts/desk_instructions.md).
-# Independent weekly cadence. No issue counter; the middle slot of the
+# Independent DAILY cadence. No issue counter; the middle slot of the
 # kicker line is filled with the subject's role category (e.g.
 # ANCHORAGE DESK · MUNICIPAL · 19 MAY 2026). Branch namespace
 # claude/linkedin-desk-*. These keys are read only by the Anchorage Desk
 # routine. The column profiles ONE Anchorage AI founder, operator,
-# municipal decision-maker, or research lead per week, anchored to a
-# specific decision they made or own in the last 30 days.
+# municipal decision-maker, or research lead per run, anchored to a
+# specific decision they made or own in the last 60 days. Dedupe is
+# time-keyed for daily cadence: same subject off-limits for 21 days,
+# same (subject, decision) pair blocked forever.
 desk_kicker: "ANCHORAGE DESK"
 desk_motto: "decisions, not biographies"
 desk_byline: ""
