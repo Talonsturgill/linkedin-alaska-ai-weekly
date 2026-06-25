@@ -13,6 +13,8 @@ h2{font-size:16px;margin-top:28px;border-bottom:1px solid #eee;padding-bottom:6p
 pre.post{white-space:pre-wrap;background:#f6f6f6;padding:16px;border-radius:8px;font-family:ui-monospace,Menlo,monospace;font-size:14px;line-height:1.5;}
 .img{text-align:center;margin:18px 0;}
 .img img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e5e5;}
+.imgurl{text-align:center;font-size:11px;color:#888;margin:-8px 0 18px;word-break:break-all;}
+.imgurl a{color:#0a66c2;}
 ul{padding-left:22px;} li{margin:4px 0;font-size:14px;}
 table.score{width:100%;border-collapse:collapse;font-size:13px;}
 table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-align:left;}
@@ -27,7 +29,20 @@ def render(post_text, image_src, sources, score, date_str, branch,
            no_target=False, editor_note=""):
     # image_src: either "data:image/png;base64,..." or "https://..." or "" (no image)
     if image_src:
-        img_block = f'<div class="img"><img src="{image_src}" alt="Alaska.Ai {label} image"/></div>'
+        # When the image is a hosted URL, surface it as visible, clickable text
+        # below the embed so it is always accessible even if the client blocks
+        # remote images. Base64 data URIs have no shareable URL, so skip the link.
+        if image_src.startswith("http"):
+            url_line = (
+                f'<div class="imgurl">Image URL '
+                f'<a href="{image_src}">{image_src}</a></div>'
+            )
+        else:
+            url_line = ""
+        img_block = (
+            f'<div class="img"><img src="{image_src}" '
+            f'alt="Alaska.Ai {label} image"/></div>{url_line}'
+        )
     else:
         img_block = ""
 
