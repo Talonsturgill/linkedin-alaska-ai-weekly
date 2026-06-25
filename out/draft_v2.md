@@ -1,23 +1,17 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Benjamin Kellie just licensed a reactor that B&W gave up on. On June 17, his Anchorage company Applied Atomics took exclusive land-based rights to BWXT’s mPower small modular reactor, a 195-MWe design abandoned in 2017.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Kellie is the CEO and founder of Applied Atomics, an Anchorage-based startup that closed an $8.3 million seed round. That is the whole bio. The decision is the story.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+Per the GlobeNewswire release, the license grants Applied Atomics exclusive rights to commercialize and deploy land-based mPower plants in the US, Canada, and beyond. BWXT keeps the IP, keeps exclusive manufacturing rights on every mPower component, and collects royalties. Kellie’s stated job, in his words, is to “complete its development then design and deploy the first optimized, vertically integrated SMR power plant.” The first market named is AI data center and industrial load, the demand now bidding for firm power. Applied Atomics will re-engage the NRC to restart a design certification B&W suspended nine years ago. Bloomberg corroborated the deal, which it reports followed an activist push at BWXT.
 
-Five layers sit between an Air Force land offer and a powered data center.
+Here is the read. Tactically this is shrewd. B&W spent more than $900 million engineering mPower and could not find a single utility customer. Kellie is acquiring that work cheaply and pointing it at demand that did not exist in 2017, and 195-MWe fits a behind-the-meter campus load cleanly.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The strategic problem is the term sheet. BWXT owns the IP and holds manufacturing exclusivity, so Applied Atomics controls neither unit cost nor supply chain, and has no escape valve if BWXT’s economics turn or BWXT walks. That is leverage held by the partner, not the licensee. Add NRC-restart risk, which is not trivial, and an $8.3 million seed that sits orders of magnitude below the capital certification demands. Not obviously wrong. Not obviously right.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+For Alaska the targets named are the Richardson Highway corridor (potentially displacing Golden Valley coal), Chugach Electric co-location at Beluga, and the Donlin Gold project. Any of those would be the first nuclear plant in state history. As of June 17 there is no committed Alaska utility customer.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+The next decision Kellie owns is whether Applied Atomics files an NRC pre-application meeting request, the formal first step to resuming certification, and by when. Watch the 90-to-180-day window. Silence past Q4 2026 hardens the license-without-a-path read. Watch also for any non-binding MOU from Chugach, Golden Valley, or Matanuska Electric.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+Does an exclusive license with no IP control and no signed offtaker buy Applied Atomics a path, or just a head start it cannot fund?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #EnergyPolicy #DataCenters #GridPolicy #ArcticInnovation

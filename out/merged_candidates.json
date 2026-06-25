@@ -1,192 +1,127 @@
 {
-  "run_date": "2026-05-20",
-  "decision_window": "2026-04-20 to 2026-05-20",
-  "subjects_already_profiled_last_12": [],
-  "subject_decision_blocklist": [],
-  "merged_candidates": [
+  "run_date": "2026-06-25",
+  "decision_window_60d": "2026-04-26 to 2026-06-25",
+  "candidates": [
     {
-      "full_name": "Sparrow Mahoney",
-      "role": "Founder and CEO",
-      "org": "STAK Energy",
+      "slice": "founders",
+      "priority": "PRIMARY",
+      "full_name": "Benjamin (Ben) Kellie",
+      "role": "Co-Founder and Chief Executive Officer",
       "role_category": "founder",
-      "anchorage_tie": "STAK Energy is headquartered in Anchorage, Alaska per company website (stak.energy states 'Based in Anchorage'); Mahoney's professional profile lists 'Greater Anchorage Area, United States' as location. Founded and runs company from Anchorage. Project site is North Slope but the decision-making and corporate entity are Anchorage-based.",
-      "decision": {
-        "what_happened": "The Alaska Department of Natural Resources issued a preliminary decision on May 12, 2026 to lease 715.4 acres of North Slope land to STAK Energy for a proposed $500 million AI and cloud computing data center campus. The DNR determined the project serves the state's 'best interest.' Stak filed the lease application with DNR in November 2025; DNR subsequently solicited competing bids and received none, then moved forward with the preliminary approval. The project would reach up to 3 gigawatts of power capacity, use natural gas for off-grid power generation, and target initial operations by late 2028. A public comment period runs through June 15, 2026.",
-        "when": "2026-05-12",
-        "binary_owned": "Mahoney chose to pursue a self-powered, natural-gas-off-grid model for AI data center infrastructure on state-owned North Slope acreage rather than grid-tied or alternative-site approaches, and successfully obtained DNR's preliminary 'best interest' lease determination, committing the company to a 50-year lease track and $500M development path.",
-        "ak_consequence": "Energy/data infrastructure sector; $500M capital commitment; peak construction workforce of 1,500 jobs and approximately 60 permanent positions; 50-year land lease on North Slope state land; public comment period open through June 15, 2026 with final lease decision pending. Sets precedent for whether Alaska becomes a large-scale AI compute host state using stranded North Slope natural gas.",
-        "primary_source_url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Northern Journal", "independent_of_subject": true},
-          {"url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/", "outlet": "Data Center Dynamics", "independent_of_subject": true},
-          {"url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/", "outlet": "Alaska Beacon", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "SHARP, $500M and 50-year state land lease on speculative off-grid natural gas data center model 26 miles from Deadhorse, at the exact moment Cook Inlet gas supply is declining. Stranded North Slope gas plus Arctic free cooling may be a genuine cost advantage for AI compute, but no disclosed outside financing, no anchor tenant, and Mahoney pivoted from a previous crypto mining proposal on the same site.",
-      "in_window": true,
-      "confidence": "high",
-      "slice": "founders"
+      "org": "Applied Atomics",
+      "anchorage_tie": "Applied Atomics is headquartered in Anchorage, Alaska; Kellie is an Alaskan entrepreneur based in Alaska per his personal site and the Alaska World Affairs Council program recap.",
+      "decision_what": "Applied Atomics secured an exclusive license from BWX Technologies (NYSE: BWXT) for commercialization rights to the mPower small modular reactor, a 195-MWe land-based pressurized water reactor, with exclusive rights for commercial development and deployment of land-based nuclear facilities in the US, Canada, and elsewhere. BWXT retains mPower IP ownership and exclusive manufacturing rights plus royalties. Applied Atomics will re-engage the NRC to resume mPower design certification (a program BWXT suspended in 2017) and develop site-specific engineering for initial commercial deployments. The mPower technology is targeted at AI data center power supply as its primary initial market.",
+      "decision_when": "2026-06-17",
+      "binary_owned": "Kellie chose to license the mPower design from BWXT rather than continue Applied Atomics' own proprietary reactor design or license an alternative SMR technology, committing to re-engage NRC certification for a program suspended in 2017 and accepting royalty obligations and BWXT manufacturing exclusivity in exchange for exclusive commercialization rights.",
+      "ak_consequence": "Nuclear energy / power infrastructure. Applied Atomics has publicly identified Alaskan industrial targets including the Richardson Highway corridor (potentially displacing Golden Valley Electric coal plants), Chugach Electric co-location, and the Donlin Gold project. A successful SMR deployment in Alaska would be the first nuclear plant in state history and could reorient the industrial power market for extractive and tech-sector customers. Multi-year timeline (NRC re-engagement, siting, construction).",
+      "primary_source_url": "https://www.globenewswire.com/news-release/2026/06/17/3313477/0/en/Applied-Atomics-Secures-Exclusive-Land-Based-License-for-mPower-Small-Modular-Reactor-Technology-from-BWX-Technologies.html",
+      "primary_source_outlet": "GlobeNewswire (Applied Atomics official press release)",
+      "corroborating_sources": [
+        {"url": "https://www.bloomberg.com/news/articles/2026-06-17/bwx-agrees-to-license-nuclear-reactor-design-after-activist-push", "outlet": "Bloomberg", "independent_of_subject": true, "note": "Paywalled; covers Ananym Capital activist-investor angle"},
+        {"url": "https://ca.investing.com/news/stock-market-news/applied-atomics-licenses-bwxts-mpower-reactor-technology-93CH-4695893", "outlet": "Investing.com", "independent_of_subject": true, "note": "AI-assisted editorial, not investigative"},
+        {"url": "https://www.akbizmag.com/industry/energy/startups-pitch-solutions-at-launch-alaska-tech-deployment-track/", "outlet": "Alaska Business Magazine", "independent_of_subject": true, "note": "Establishes Anchorage context and prior Kellie quote"}
+      ],
+      "subject_quotes": [
+        {"verbatim": "BWXT spent a decade working to design mPower. Our job is to complete its development then design and deploy the first optimized, vertically integrated SMR power plant.", "context": "Kellie statement in the Applied Atomics press release via GlobeNewswire, June 17, 2026.", "source_url": "https://www.globenewswire.com/news-release/2026/06/17/3313477/0/en/Applied-Atomics-Secures-Exclusive-Land-Based-License-for-mPower-Small-Modular-Reactor-Technology-from-BWX-Technologies.html", "source_doctype": "press_statement"},
+        {"verbatim": "We think this is building the Falcon 9 of nuclear power plants.", "context": "Kellie at the Launch Alaska Tech Deployment Track pitch event Sept 16, 2025, per Alaska Business Magazine.", "source_url": "https://www.akbizmag.com/industry/energy/startups-pitch-solutions-at-launch-alaska-tech-deployment-track/", "source_doctype": "presentation"}
+      ],
+      "prelim_debatable_axis": "FOR: heritage design backed by a decade of BWXT engineering accelerates the NRC path vs a ground-up design; real AI data center demand pull; Kellie's SpaceX systems-integration background. AGAINST: mPower was suspended in 2017 after B&W spent $900M+ and could not attract utility customers; NRC certification restart is multi-year and capital-intensive; Applied Atomics' $8.3M seed is orders of magnitude below the capital required; BWXT retains manufacturing exclusivity so Applied Atomics cannot control component cost or supply chain; no Alaska utility has committed; Anchorage Assembly is debating data center guardrails.",
+      "scout_assessment": "PASSES preliminary gate. AI nexus direct. Anchorage HQ confirmed. Position-takeable. One caveat: Bloomberg paywalled (independent depth not fully assessed); Investing.com is AI-assisted."
     },
     {
-      "full_name": "Billy Wailand",
-      "role": "Senior Vice President of Corporate Development",
-      "org": "GCI",
-      "role_category": "operator",
-      "anchorage_tie": "GCI is Alaska's largest telecommunications provider, headquartered in Anchorage. GCI's network infrastructure and Anchorage operations teams will absorb Quintillion's 1,800+ miles of fiber into GCI's statewide system. Wailand is Anchorage-based and led the acquisition process.",
-      "decision": {
-        "what_happened": "GCI Holdings announced it has entered into a definitive agreement to acquire 100% of the equity in Quintillion at a $310 million enterprise value. GCI will also reimburse up to $50 million in qualifying capital expenditures for the Nome-to-Homer Express fiber project and provide a $160 million unsecured loan to Quintillion shortly after closing. The transaction combines Quintillion's 1,800+ miles of existing subsea and terrestrial fiber and approximately 1,500 miles of planned fiber expansion with GCI's statewide network.",
-        "when": "2026-04-22",
-        "binary_owned": "Approved acquisition. Wailand, as SVP Corporate Development, owns the deal structure and execution of the $310M Quintillion acquisition, the largest Alaska telecom infrastructure transaction in recent years.",
-        "ak_consequence": "Telecom infrastructure sector; $310M plus $210M in additional capital commitments ($520M total potential outlay); creates a fiber ring around Alaska enabling rerouting during outages; consolidates Alaska's two largest fiber operators; DOD/national security applications cited by Wailand; affects all GCI enterprise and residential customers across Alaska. Closing subject to regulatory approval; timeline 2026 to 2027.",
-        "primary_source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-        "primary_source_outlet": "GCI Newsroom",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/alaskas-gci-acquiring-quintillion/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://knom.org/2026/04/24/fiber-internet-company-quintillion-to-be-acquired-by-gci/", "outlet": "KNOM Radio Mission", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By bringing together complementary fiber routes, deep operational expertise, and long-term investment under one operating model, we're building a network that is stronger, more resilient, and better suited to Alaska's realities than either company could deliver on its own.",
-          "context": "Wailand quoted in joint GCI/Quintillion press release announcing definitive acquisition agreement, April 22, 2026",
-          "source_url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "If you can lose those eyes, it immediately becomes a problem. The more resilience that you're building out there, the more useful it is for national security.",
-          "context": "Wailand quoted in ADN independent reporting on the acquisition, April 22, 2026, discussing DOD/national security rationale for combined fiber ring",
-          "source_url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/",
-          "source_doctype": "interview"
-        }
-      ],
-      "prelim_debatable_axis": "Sharp or wrong depending on framing. GCI consolidating Alaska's two largest fiber operators is either pro-competitive infrastructure build at the scale needed for AI data center workloads, or monopolistic foreclosure of fiber competition in a captive market. The DOD/national security rationale is politically convenient cover. AI angle is INDIRECT (fiber enables AI compute but no AI workload is named in the deal).",
-      "in_window": true,
-      "confidence": "high",
       "slice": "operators",
-      "validator_flag": "AI angle is indirect. Subject title is M&A leadership, not CTO/CIO."
-    },
-    {
-      "full_name": "Anna Brawley",
-      "role": "Assembly Chair (formerly Vice Chair), District 5 West Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing West Anchorage; chairs the governing body of the Municipality of Anchorage.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Ordinance AO 2026-27 on an approximately 10-2 vote on March 27, 2026, establishing the first-ever municipal zoning definition for 'data centers' in Anchorage and requiring conditional use permits, utility capacity documentation, 200-foot setbacks from residential areas, and enclosed power equipment for any facility drawing 20 MW or more at peak load. Brawley introduced the ordinance as Assembly Vice Chair and is its named primary sponsor. Brawley was subsequently elected Assembly Chair on April 28, 2026, and made public statements on JBER military data center RFPs on May 5, 2026.",
-        "when": "2026-03-27",
-        "binary_owned": "Approved. Brawley sponsored and voted yes on a first-in-Alaska municipal data center zoning framework, restricting AI-era data centers from residential and most commercial zones and requiring grid-capacity sign-off from Chugach Electric before any conditional use permit can advance.",
-        "ak_consequence": "Energy sector and land use. Any company seeking to site a 20 MW-plus data center within MOA boundaries must now obtain conditional use approval and a signed utility-capacity statement from Chugach Electric. Chugach has publicly stated it currently lacks sufficient gas supply to support large data centers. The ordinance effectively creates a regulatory gate on an estimated $1 to $5 billion class of potential investment.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework", "outlet": "Davis Wright Tremaine LLP Energy & Environmental Law Blog", "independent_of_subject": true},
-          {"url": "https://broadbandbreakfast.com/anchorage-blocks-new-data-centers-in-residential-zones/", "outlet": "Broadband Breakfast", "independent_of_subject": true},
-          {"url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News (May 5, 2026 follow-up referencing the ordinance as active context)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [
-        {
-          "verbatim": "By learning from other places and emerging best practices around data centers, Anchorage is being proactive and ensuring the right questions are asked during the application process.",
-          "context": "Brawley commenting on AO 2026-27 at or around the time of passage, March 27, 2026.",
-          "source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/",
-          "source_doctype": "press_statement"
-        },
-        {
-          "verbatim": "Broadly, I would be hoping that our local leadership has conversations with the Department of Defense, with the entity that would be coming, and with the utility.",
-          "context": "Brawley, now Assembly Chair, responding to questions about JBER military data center RFPs in May 2026.",
-          "source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-          "source_doctype": "interview"
-        }
+      "priority": "SECONDARY",
+      "full_name": "Adar Palis",
+      "role": "Senior Vice President and Chief of Clinical and Revenue Cycle Applications and Technology",
+      "role_category": "operator",
+      "org": "Providence Health & Services (Providence Alaska Medical Center, Anchorage)",
+      "anchorage_tie": "Providence Alaska Medical Center is the state's largest health system with 5,200 Alaska employees and an Anchorage flagship; Palis's system-wide tech deployment governs the Anchorage facility, but Palis is not Anchorage-based.",
+      "decision_what": "Providence activated 12 Epic AI tools across inpatient, ambulatory, and revenue cycle workflows (Project Pixel), including AI Text Assistant, Inpatient Insights, Draft Hospital Course.",
+      "decision_when": "2026-04-27",
+      "binary_owned": "Deploy 12 Epic-native AI tools across the 51-hospital Providence system (including Providence Alaska) rather than defer, pilot only, or select a third-party vendor.",
+      "ak_consequence": "Healthcare. Providence Alaska Medical Center now runs AI discharge summaries, admission overviews, and patient-communication tools on Epic. ~5,200 caregivers. No dollar amount disclosed.",
+      "primary_source_url": "https://distilinfo.com/2026/04/27/providence-deploys-12-epic-ai-tools/",
+      "primary_source_outlet": "DistilINFO Publications",
+      "corroborating_sources": [
+        {"url": "https://www.beckershospitalreview.com/healthcare-information-technology/innovation/providence-launches-12-epic-ai-tools/", "outlet": "Becker's Hospital Review", "independent_of_subject": true}
       ],
-      "prelim_debatable_axis": "Sharp but arguable. Pro: Anchorage acts before a hyperscale facility locks in, protecting ratepayers and residential neighborhoods. Con: ADN editorial board called it anti-investment signaling; 20 MW threshold could add 12 to 18 months to permitting; JBER sites fall outside MOA jurisdiction anyway.",
-      "in_window": false,
-      "in_window_note": "PRIMARY DECISION (AO 2026-27 vote) was March 27, 2026, 24 days before window opens. IN-WINDOW DECISIONS: elected Assembly Chair April 28 (in window), May 5 JBER statement (in window). Validator must decide whether to broaden window or use the in-window Chair election + JBER statement as the anchored decision with the March 27 ordinance as context.",
-      "confidence": "high",
-      "slice": "municipal"
+      "subject_quotes": [
+        {"verbatim": "in healthcare, especially at our scale, intentional deployment beats theoretical perfection every time", "context": "Palis on Providence's deployment approach.", "source_url": "https://distilinfo.com/2026/04/27/providence-deploys-12-epic-ai-tools/", "source_doctype": "press_statement"}
+      ],
+      "prelim_debatable_axis": "FOR: Epic-native avoids integration debt; governance model reduces risk. AGAINST: centralizing AI decisions at a Seattle-area exec layer removes Alaska-specific oversight; Alaska demographics may not match Epic AI training data; speed-to-deploy risks pre-validation deployment.",
+      "scout_assessment": "MEDIUM. Weakness: Palis not Anchorage-based; decision is system-level. Anchorage tie indirect."
     },
     {
-      "full_name": "Keith McCormick",
-      "role": "Assembly Member, District 6 Eagle River / Chugiak",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
-      "role_category": "municipal",
-      "anchorage_tie": "Bowl-adjacent elected official representing Eagle River/Chugiak area of the Municipality of Anchorage; decisions affect MOA-wide policy including technology and security infrastructure.",
-      "decision": {
-        "what_happened": "The Anchorage Assembly passed Resolution AR 2026-129, sponsored by McCormick along with Vice Chair Daniel Volland and member Yarrow Silvers, expressing the Assembly's 'substantive concerns' about the U.S. Air Force's proposed 7-mile barbed-wire perimeter fence at JBER. The resolution urges JBER to prepare a full Environmental Impact Statement and to extend the public comment period by at least 60 additional days. The draft environmental assessment reviewed by the Assembly explicitly lists motion sensors and surveillance cameras as alternatives to the physical fence that JBER chose not to pursue.",
-        "when": "2026-05-20",
-        "binary_owned": "Approved. McCormick sponsored and the Assembly passed a formal resolution opposing JBER's fence-and-no-surveillance-alternative approach, pushing back on a federal security infrastructure decision that had explicitly rejected sensor/camera technology in favor of physical perimeter control.",
-        "ak_consequence": "Security infrastructure and civil-military relations. The resolution creates a formal municipal record opposing JBER's fence construction timeline, potentially complicating the Air Force's NEPA process and delaying installation. The fence affects wildlife corridors, 12,000+ acres of recreational trails, and moose migration routes adjacent to Anchorage neighborhoods. JBER's public comment period closes May 30, 2026.",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/05/17/jber-wants-to-build-a-7-mile-long-barbed-wire-fence-adjacent-to-anchorage-neighborhoods/",
-        "primary_source_outlet": "Anchorage Daily News",
-        "corroborating_sources": [
-          {"url": "https://alaskasenate.org/senator/giessel/050926_newsletter.htm", "outlet": "Alaska Senate Majority Leader Cathy Giessel newsletter", "independent_of_subject": true},
-          {"url": "https://mustreadalaska.com/senate-majority-leader-giessel-opposes-jber-boundary-fence/", "outlet": "Must Read Alaska", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre-to-sharp. The AI/surveillance tech angle is thin. The resolution does not itself choose or block surveillance technology. The primary subject is environmental review and public comment, not technology policy.",
-      "in_window": true,
-      "confidence": "medium",
+      "slice": "operators",
+      "priority": "TERTIARY",
+      "full_name": "Clay Morad",
+      "role": "Vice President, NASA and NOAA Operations",
+      "role_category": "operator",
+      "org": "ASRC Federal (subsidiary of Arctic Slope Regional Corporation; Anchorage administrative offices)",
+      "anchorage_tie": "ASRC Federal is the federal-contracting subsidiary of ASRC, an Alaska Native corporation; Morad born/raised in Anchorage, Inupiaq shareholder. VP role and contract are DC-facing.",
+      "decision_what": "ASRC Federal Data Network Technologies selected by NOAA for the Financial Management Data System (FMDS) contract using an AI/ML module to forecast spending. First task order on the NOAA NMITS vehicle.",
+      "decision_when": "2026-04-22",
+      "binary_owned": "Secure and stand up the NOAA FMDS AI task order, committing ASRC Federal Data Network Technologies as the delivering subsidiary.",
+      "ak_consequence": "Federal contracting. ~$27M (downstream-reported). Revenue flows to Alaska Native corporation parent.",
+      "primary_source_url": "https://www.asrcfederal.com/asrc-federal-selected-by-noaa-to-provide-ai-enabled-financial-management/",
+      "primary_source_outlet": "ASRC Federal press release",
+      "corroborating_sources": [
+        {"url": "https://orangeslices.ai/asrc-federal-subsidiary-awarded-noaa-financial-management-data-services-fmds-bridge-contract/", "outlet": "OrangeSlices AI", "independent_of_subject": true}
+      ],
+      "subject_quotes": [
+        {"verbatim": "This contract award underscores NOAA's trust in our team to deliver innovative, reliable solutions like AI analytics for financial management", "context": "Morad in ASRC Federal April 22, 2026 press release.", "source_url": "https://www.asrcfederal.com/asrc-federal-selected-by-noaa-to-provide-ai-enabled-financial-management/", "source_doctype": "press_statement"}
+      ],
+      "prelim_debatable_axis": "FOR: 8(a) revenue to Inupiaq shareholders; competitive-vehicle win demonstrates AI capability. AGAINST: DC-region operator, Alaska tie is shareholder-financial not operational; April 22 is BEFORE the 60-day window opens (window opens April 26); commercially-developed AI module with no Alaska applicability.",
+      "scout_assessment": "LOW-MEDIUM. NOTE: decision date April 22 is 4 days OUTSIDE the 60-day window (opens April 26). Anchorage tie indirect."
+    },
+    {
       "slice": "municipal",
-      "validator_flag": "Tech angle is thin. Primary subject is environmental review, not AI/data."
-    },
-    {
-      "full_name": "Daniel Volland",
-      "role": "Assembly Vice Chair, District 1 North Anchorage",
-      "org": "Anchorage Municipal Assembly, Municipality of Anchorage",
+      "priority": "SECONDARY",
+      "full_name": "Susan H. Marshall",
+      "role": "Director, Office of Information Technology",
       "role_category": "municipal",
-      "anchorage_tie": "Bowl-based elected official representing North Anchorage; co-sponsor of data center ordinance and newly elected Vice Chair as of April 28, 2026.",
-      "decision": {
-        "what_happened": "Volland co-sponsored AO 2026-27 (data center ordinance) with Brawley, voted March 27, 2026; co-sponsored AR 2026-129 (JBER fence resolution) with McCormick and Silvers, passed May 19-20, 2026. On April 28, 2026, Volland was elected Assembly Vice Chair in an 8-4 vote over Zac Johnson. Volland published an op-ed in ADN on March 27, 2026, defending the data center ordinance and framing it as essential consumer protection against AI industry energy demands.",
-        "when": "2026-04-28",
-        "binary_owned": "Elected Vice Chair April 28, 2026. Volland won Assembly Vice Chair in an 8-4 vote, positioning him as co-leader on all technology and data infrastructure legislation, including the Planning Department follow-up rulemaking on energy-intensive uses required by AO 2026-27.",
-        "ak_consequence": "Governance and technology policy. As Vice Chair, Volland will chair or lead committee work on data center rulemaking follow-up. The data center zoning framework he co-authored is now the controlling law for any hyperscale AI infrastructure investment in MOA.",
-        "primary_source_url": "https://alaskapublic.org/news/anchorage/2026-04-29/new-anchorage-assembly-members-sworn-in-brawley-chosen-as-chair",
-        "primary_source_outlet": "Alaska Public Media",
-        "corroborating_sources": [
-          {"url": "https://www.adn.com/alaska-news/anchorage/2026/04/29/after-election-anchorage-assembly-reorganizes-with-anna-brawley-as-new-chair/", "outlet": "Anchorage Daily News", "independent_of_subject": true},
-          {"url": "https://www.adn.com/opinions/2026/03/27/opinion-as-big-techs-footprint-gets-bigger-its-time-for-anchorage-to-install-data-center-guardrails/", "outlet": "Anchorage Daily News (Volland op-ed)", "independent_of_subject": false}
-        ]
-      },
+      "org": "Municipality of Anchorage",
+      "anchorage_tie": "Bowl-based MOA IT Director, confirmed by Assembly Nov 5 2024; administers municipal enterprise software/data infrastructure.",
+      "decision_what": "Assembly approved AM 386-2026 awarding Microsoft Corporation a contract for Unified enterprise software support and maintenance at NTE $448,829, on the June 9 2026 consent agenda.",
+      "decision_when": "2026-06-09",
+      "binary_owned": "IT Director Marshall submitted AM 386-2026; Assembly approved the $448,829 NTE Microsoft contract.",
+      "ak_consequence": "IT / AI-enabling infrastructure. $448,829 NTE. Sustains MOA Microsoft environment including Azure cloud and M365 Copilot AI across ~3,000+ employees.",
+      "primary_source_url": "https://meetings.muni.org/AgendaOnline/Documents/ViewAgenda?meetingId=6485&type=agenda&doctype=1",
+      "primary_source_outlet": "MOA Official Assembly Meeting Agenda June 9, 2026",
+      "corroborating_sources": [
+        {"url": "https://www.alaskasnewssource.com/2024/11/07/anchorage-assembly-discusses-possible-new-sales-tax-confirms-9-executive-appointments/", "outlet": "Alaska's News Source", "independent_of_subject": true, "note": "Confirms Marshall's IT Director role, Nov 2024; does NOT corroborate the June 2026 contract decision."}
+      ],
       "subject_quotes": [],
-      "prelim_debatable_axis": "Mediocre as a standalone decision. Vice Chair election is in-window but 'elected to leadership role' is a weaker decision-hook than a specific vote on a technology item.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "municipal"
+      "prelim_debatable_axis": "PRO: Microsoft Unified Support includes Azure AI and Copilot at no per-tool cost. CON: $449K renewal entrenches vendor lock-in, bypasses competitive AI platform evaluation; no public AI use policy governs Copilot.",
+      "scout_assessment": "MEDIUM. WEAKNESS: AI nexus is inferential (Microsoft Unified Support includes AI capabilities; the contract is not itself an AI procurement). Primary source is consent agenda only; no independent press corroboration of the contract decision itself. The one independent source corroborates her ROLE, not the DECISION. Multi-source corroboration rule likely fails."
     },
     {
-      "full_name": "Patrick L. Tomco",
-      "role": "Associate Professor and ASET Laboratory Director, Department of Chemistry",
-      "org": "University of Alaska Anchorage",
-      "role_category": "research",
-      "anchorage_tie": "Bowl-based: full-time faculty and lab director at UAA main campus, Anchorage, AK 99508.",
-      "decision": {
-        "what_happened": "Tomco's Analytical Science for Environmental Toxicology (ASET) Lab published 'OilSpillNet: A Deep Learning Framework for Accurate Detection and Segmentation of Marine Oil Spills from Imagery' in the Journal of Environmental Chemical Engineering, authored by postdoctoral researcher Mohamed Elsheref (lead) and Tomco (supervising PI). The UAA news article was published May 15, 2026; the paper was published April 2026.",
-        "when": "2026-04",
-        "binary_owned": "Funded/approved. Tomco as ASET Lab Director and supervising PI approved and directed the interdisciplinary pivot to deep learning AI in a traditionally wet-chemistry environmental lab, accepting the Fisheries and Oceans Canada (DFO) grant that funded the work.",
-        "ak_consequence": "Environmental monitoring sector. Potential deployment of automated, near-real-time oil spill detection in Cook Inlet and Alaska coastal waters, reducing the labor-intensive manual satellite imagery review.",
-        "primary_source_url": "https://www.uaa.alaska.edu/news/archive/2026/05/ai-detect-oil-spills.cshtml",
-        "primary_source_outlet": "UAA Green & Gold News",
-        "corroborating_sources": [
-          {"url": "https://www.sciencedirect.com/science/article/abs/pii/S2213343726006883", "outlet": "ScienceDirect / Journal of Environmental Chemical Engineering (Elsevier)", "independent_of_subject": true}
-        ]
-      },
-      "subject_quotes": [],
-      "prelim_debatable_axis": "Sharp with tension. ASET Lab is a wet-chemistry environmental toxicology facility receiving a DFO Canada grant, not an AI lab. Pro: cross-disciplinary AI integration Alaska needs, applied to high-stakes problem. Con: primary funder is Canadian, a postdoc owns the AI architecture, and no Alaska industry partner has been named to deploy OilSpillNet.",
-      "in_window": true,
-      "confidence": "medium",
-      "slice": "research",
-      "validator_flag": "Subject quotes are attributed to Elsheref (the postdoc), not Tomco directly. Only ONE truly independent corroborating source (ScienceDirect listing, paywalled)."
+      "slice": "municipal",
+      "priority": "TERTIARY",
+      "full_name": "Anna Brawley",
+      "role": "Chair, Anchorage Assembly (District 3, Midtown)",
+      "role_category": "municipal",
+      "org": "Municipality of Anchorage - Anchorage Assembly",
+      "anchorage_tie": "Bowl-based Assembly member since 2023; elected Chair April 28 2026.",
+      "decision_what": "In a May 5 2026 ADN article, Brawley publicly stated AO 2026-27 (data center zoning ordinance) would not apply to JBER (federal land), in response to the USAF April 2026 RFP for JBER data center leases (May 29 deadline). She called for informal MOA engagement with DoD and Chugach Electric rather than formal Assembly action.",
+      "decision_when": "2026-05-05",
+      "binary_owned": "Brawley determined MOA's ordinance does not extend to JBER and declined to initiate formal Assembly resolution/negotiation mandate, deferring to informal conversations.",
+      "ak_consequence": "Energy / data infrastructure / AI compute. JBER data centers would require new Chugach interconnects affecting ~77,000 customer accounts. Position forecloses MOA's practical lever over potentially Alaska's largest AI compute installation.",
+      "primary_source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+      "primary_source_outlet": "Anchorage Daily News",
+      "corroborating_sources": [
+        {"url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/05/data-center-ai-infrastructure-seattle-moratorium", "outlet": "Davis Wright Tremaine LLP", "independent_of_subject": true}
+      ],
+      "subject_quotes": [
+        {"verbatim": "Broadly, I would be hoping that our local leadership has conversations with the Department of Defense, with the entity that would be coming, and with the utility.", "context": "Brawley to ADN re: USAF JBER data center RFP, after confirming AO 2026-27 won't apply to JBER.", "source_url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "source_doctype": "interview"}
+      ],
+      "prelim_debatable_axis": "PRO: correctly identified MOA's legal limit; municipal overreach onto federal land untenable. CON: ceded the utility-interconnect leverage point without extracting ratepayer protections; declined a formal resolution tool.",
+      "scout_assessment": "MEDIUM-LOW. WEAKNESS: this is a 'hope' statement in an interview, not a decision binary (approve/block/fund). Brawley says she has no position on whether to pursue JBER. Borderline on position-takeability of an actual owned decision."
     }
   ],
-  "dropped_pre_validator": [
-    {"name": "Brian Shumaker / beadedstream", "reason": "April 8, 2026 decision is just outside the 30-day window; no Shumaker quote in any source"},
-    {"name": "Erik Williams / beadedcloud", "reason": "Accelerator participation is a thin decision binary; no Williams quote"},
-    {"name": "Nathan Engel / Alaska Airlines", "reason": "April 16, 2026 is 4 days outside window"},
-    {"name": "Dale Knipp / ACS", "reason": "February 17, 2026 is 62 days outside window; single-sourced to PR"},
-    {"name": "Masoumeh Heidari / UAA AI-UNITE", "reason": "NSF award is January 2025, far outside window"},
-    {"name": "Robert Foy / NOAA AFSC", "reason": "Juneau-based, not Anchorage-bowl-based"}
+  "dropped_at_scout": [
+    {"name": "Sparrow Mahoney / STAK", "reason": "Blocked pair (DNR preliminary determination May 12); no NEW in-window owned decision; DNR comment-period extension is a state action not a Mahoney decision; hire dates unconfirmed."},
+    {"name": "Todd Leroux / ANTHC", "reason": "Soft binary; symposium paper published May 23 2026 but underlying event was 2025; no in-window owned decision."},
+    {"name": "Research slice (Heidari Kapourchali / AI-UNITE, Langley / AKDOT, Moriarty / USAF)", "reason": "All out-of-window (AI-UNITE Jan 2025, AKDOT pedestrian lighting Jan 2026) or wrong-slice/non-bowl (Moriarty Pentagon-based)."}
   ]
 }
