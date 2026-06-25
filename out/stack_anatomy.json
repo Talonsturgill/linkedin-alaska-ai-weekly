@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-06-24",
+  "run_date": "2026-06-25",
   "news_window_days": 21,
   "gate_applied": true,
   "no_target_this_cycle": false,
@@ -90,14 +90,38 @@
     }
   },
   "dropped_mechanisms": [
-    {"name": "Koniag CASPER Army Contracting Agentic AI Suite", "drop_reason": "no_news_tie. WashingtonExec June 17 trigger returned HTTP 403 on two fetch attempts, unverifiable. Most recent verifiable KGS item (ACT-IAC award May 19) is 37 days old, outside both 21 and 28 day windows."},
-    {"name": "Aleutian Thunder ANC Mentor-Protege AI JV", "drop_reason": "diffuse_chokepoint. Gate 1 marginal (corporate PR Newswire launch is neither independent editorial nor government document). Gate 5 fails, stated chokepoint (Trzcinski authorizing JV) is a completed one-time event not an ongoing rate-limiting node."},
-    {"name": "NDAA FY2027 SASC Alaska Defense Data Center and Arctic Satellite Package", "drop_reason": "recent_repeat. Only named asymmetric chokepoint (Robert Moriarty, DASAF Installations, EUL execution) duplicates already-anatomized DAF EUL mechanism #1. The new congressional mandate layer has no single named controlling officer (Sec Army + conference process are multi-member)."},
-    {"name": "FERC RM26-4 Large Load and Alaska Non-RTO Gap", "drop_reason": "diffuse_chokepoint. FERC and RCA both 5-member commissions; AEA Thayer authority undocumented. Gate 7 repeat risk with Railbelt Large-Load #5. Utility Dive article has no Alaska-specific content."},
-    {"name": "NFWF-NOAA EMR Grant Program Alaska AI Vessel Deployment", "drop_reason": "no_news_tie. Primary trigger (NFWF April 9) is 77 days old. Federal Register June 1 NPFMC meeting notice is peripheral and does not name the EMR grant or AI vessel deployment."},
-    {"name": "GCI-Starlink Bonded Gateway", "drop_reason": "no_ak_consequence. Gate 4 fail, no AI-enabling consequence established, broadband resiliency only."},
-    {"name": "Quintillion Nome-Homer FWS Compatibility Determination", "drop_reason": "diffuse_chokepoint. FWS Refuge Manager unnamed in any fetchable source. Gate 4 also fails, AI-enabling consequence too inferential."},
-    {"name": "AGDC State Investment Option and 8 Star Alaska Governance", "drop_reason": "recent_repeat and no_ak_consequence. Same underlying Alaska LNG / Glenfarne mechanism flagged exhausted in prior runs. June 25 article contains no AI or data center mention."}
+    {
+      "name": "Koniag CASPER Army Contracting Agentic AI Suite",
+      "drop_reason": "no_news_tie. WashingtonExec June 17 trigger returned HTTP 403 on two fetch attempts, unverifiable. Most recent verifiable KGS item (ACT-IAC award May 19) is 37 days old, outside both 21 and 28 day windows."
+    },
+    {
+      "name": "Aleutian Thunder ANC Mentor-Protege AI JV",
+      "drop_reason": "diffuse_chokepoint. Gate 1 marginal (corporate PR Newswire launch is neither independent editorial nor government document). Gate 5 fails, stated chokepoint (Trzcinski authorizing JV) is a completed one-time event not an ongoing rate-limiting node."
+    },
+    {
+      "name": "NDAA FY2027 SASC Alaska Defense Data Center and Arctic Satellite Package",
+      "drop_reason": "recent_repeat. Only named asymmetric chokepoint (Robert Moriarty, DASAF Installations, EUL execution) duplicates already-anatomized DAF EUL mechanism #1. The new congressional mandate layer has no single named controlling officer (Sec Army + conference process are multi-member)."
+    },
+    {
+      "name": "FERC RM26-4 Large Load and Alaska Non-RTO Gap",
+      "drop_reason": "diffuse_chokepoint. FERC and RCA both 5-member commissions; AEA Thayer authority undocumented. Gate 7 repeat risk with Railbelt Large-Load #5. Utility Dive article has no Alaska-specific content."
+    },
+    {
+      "name": "NFWF-NOAA EMR Grant Program Alaska AI Vessel Deployment",
+      "drop_reason": "no_news_tie. Primary trigger (NFWF April 9) is 77 days old. Federal Register June 1 NPFMC meeting notice is peripheral and does not name the EMR grant or AI vessel deployment."
+    },
+    {
+      "name": "GCI-Starlink Bonded Gateway",
+      "drop_reason": "no_ak_consequence. Gate 4 fail, no AI-enabling consequence established, broadband resiliency only."
+    },
+    {
+      "name": "Quintillion Nome-Homer FWS Compatibility Determination",
+      "drop_reason": "diffuse_chokepoint. FWS Refuge Manager unnamed in any fetchable source. Gate 4 also fails, AI-enabling consequence too inferential."
+    },
+    {
+      "name": "AGDC State Investment Option and 8 Star Alaska Governance",
+      "drop_reason": "recent_repeat and no_ak_consequence. Same underlying Alaska LNG / Glenfarne mechanism flagged exhausted in prior runs. June 25 article contains no AI or data center mention."
+    }
   ],
   "_validation_note": "21-day window (June 3-24, 2026) was sufficient; no broadening to 28 days required. Selected mechanism (HEX MMPA IHA) passes all seven gates. Gate 4 passes under the loosened AI-enabling infrastructure standard: Cook Inlet gas to Railbelt power to Southcentral data center power chain is structurally established, with Chugach Electric June 2026 Glenfarne LOI confirming current Cook Inlet gas dependence. ADN May 5 data-center-gas article returned 404 and could not be re-verified, but the Gate 4 chain does not depend solely on it. Gate 3 Layer 3 (ESA Section 7 BiOp) noted unverified at primary source, but this minor layer does not break the chokepoint chain (chokepoint sits in Layer 4, fully sourced from govinfo). Confidence medium because the AI-enabling chain requires one inferential step. First shipped mechanism after an 11-cycle no-target streak; gate calibration was loosened per maintainer direction (21-day window, government-doc triggers, de facto controlling node) to let verified cream-of-crop mechanisms through."
 }

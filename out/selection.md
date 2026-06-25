@@ -1,4 +1,4 @@
-# The Stack — Selection — 2026-06-24
+# The Stack — Selection — 2026-06-25
 
 **Mechanism:** NMFS MMPA IHA Cook Inlet Natural Gas Production Authorization
 **Category:** REGULATORY
