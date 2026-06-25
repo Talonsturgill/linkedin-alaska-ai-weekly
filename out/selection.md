@@ -1,27 +1,13 @@
-# Anchorage Desk Selection — 20 May 2026
+# Anchorage Desk — Selection (2026-06-25)
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
-
-## Role
-FOUNDER (kicker middle slot)
-
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
-
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
-
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
-
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+- **Subject:** Benjamin Kellie
+- **Role:** CEO and Founder
+- **Org:** Applied Atomics (HQ Anchorage, Alaska)
+- **Role category / ROLE:** founder → FOUNDER
+- **Decision:** Applied Atomics secured an exclusive land-based license from BWX Technologies (NYSE: BWXT) to commercialize the mPower small modular reactor (195-MWe PWR). BWXT retains the mPower IP, exclusive component manufacturing rights, and royalties. Applied Atomics will re-engage the NRC to resume mPower design certification (a program BWXT suspended in 2017). Primary initial market named as AI data center / industrial tech-sector power supply.
+- **Decision date:** 2026-06-17 (within the 60-day window, 2026-04-26 to 2026-06-25)
+- **Primary source:** GlobeNewswire (Applied Atomics official release) — https://www.globenewswire.com/news-release/2026/06/17/3313477/0/en/Applied-Atomics-Secures-Exclusive-Land-Based-License-for-mPower-Small-Modular-Reactor-Technology-from-BWX-Technologies.html
+- **Independent corroboration:** Bloomberg (Mengqi Sun, June 17 2026, decision); Alaska Business Magazine (subject + Alaska targets).
+- **Structural read (desk position):** Tactically shrewd, strategically constrained. Capital-efficient entry to a $900M+ engineered-and-abandoned design, riding genuine AI-data-center power demand that did not exist in mPower's first life. But BWXT owns the IP and holds manufacturing exclusivity, so Applied Atomics is a commercialization wrapper around a design it cannot fully control, with NRC-restart risk and an $8.3M seed far below the capital required. Not obviously wrong, not obviously right.
+- **Forward implication:** Watch for an NRC pre-application filing within 90 to 180 days; absence by Q4 2026 hardens the license-without-a-path read. Secondary watch: any non-binding MOU from Chugach Electric, Golden Valley Electric, or Matanuska Electric Association.
+- **ROLE (image middle slot):** FOUNDER
