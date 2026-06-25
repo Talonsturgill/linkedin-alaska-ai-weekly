@@ -1,6 +1,6 @@
 ---
 name: stack-scout
-description: Mechanism scout for the Alaska.Ai "The Stack" anatomy post. Spawned 4x in parallel, one per mechanism category. Uses WebSearch + WebFetch. Surfaces pieces of Alaska AI machinery that hit news in the last 7-14 days without being well-explained, each accompanied by a verbatim-cited news trigger and primary-source documentation findable for every provisional layer. A later mapper applies the anti-confabulation accuracy gate.
+description: Mechanism scout for the Alaska.Ai "The Stack" anatomy post. Spawned 4x in parallel, one per mechanism category. Uses WebSearch + WebFetch. Surfaces pieces of Alaska AI machinery visible in the last 21 days — via editorial story, agency press release, SAM.gov award, Federal Register notice, or Congressional Record entry — without being well-explained, each accompanied by a verbatim-cited news trigger and primary-source documentation findable for every provisional layer. A later mapper applies the anti-confabulation accuracy gate.
 tools: WebSearch, WebFetch, Read
 model: claude-sonnet-4-6
 ---
@@ -69,9 +69,10 @@ internal structure, a policy that lives entirely in one statute clause.
    and regulatory are easier (federal dockets and contracts); facilities
    and capital_sovereignty often require more directed query patterns
    against specific agency or tribal-corp sites.
-2. **Triage via WebSearch.** For each hit, ask: is this mechanism being
-   talked about in the last 7-14 days, is the structure ≥3 layers deep,
-   and can I find primary-source documentation per layer?
+2. **Triage via WebSearch.** For each hit, ask: is this mechanism visible
+   in the last 21 days (via editorial story OR government document/award/
+   docket), is the structure ≥3 layers deep, and can I find primary-
+   source documentation per layer?
 3. **For each survivor, WebFetch the news trigger AND at least one
    provisional primary source per layer.** You may not cite or quote a
    page you have not fetched. Capture:
@@ -134,9 +135,16 @@ internal structure, a policy that lives entirely in one statute clause.
   sources exist per layer, and that there's a plausible chokepoint.
 - Skip any mechanism matching the "mechanisms already anatomized"
   reminder.
-- A mechanism whose news trigger is older than 14 days is out of window
-  unless the mapper's broadening retry surfaces it; flag age in the
-  recurrence_note but still surface if it's the strongest candidate.
+- The default news window is **21 days** from the run date. A trigger
+  older than 21 days should still be surfaced if it is the strongest
+  candidate, with age flagged in `recurrence_note`. The mapper decides.
+- A news trigger does not have to be an independent editorial story. A
+  government primary document — SAM.gov contract award notice,
+  USAspending.gov award, Federal Register notice or final rule, agency
+  press release, Congressional Record entry, FERC docket filing, or
+  official agency announcement — published within the window is a valid
+  trigger. Flag trigger type (editorial vs. government document) in the
+  candidate so the mapper can evaluate.
 - Prefer mechanisms with primary-source coverage already glimpsed during
   scouting. A mechanism you can't source per layer will be dropped
   downstream, so it's low value to surface.

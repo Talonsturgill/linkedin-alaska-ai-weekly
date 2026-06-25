@@ -1,123 +1,127 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-25",
+  "news_window_days": 21,
+  "gate_applied": true,
+  "no_target_this_cycle": false,
+  "mechanisms_already_anatomized": [
+    "DAF Alaska Enhanced Use Lease AI Data Center Program (facilities, June 10, 2026)",
+    "BLM Alaska NPR-A Production Site Streamlined Permit Rulemaking (regulatory, June 7, 2026)",
+    "STAK Energy North Slope AI Campus DNR Permitting Stack (regulatory/facilities, May 30, 2026)",
+    "ANC 8(a) Sole-Source Federal Contracting Pipeline (capital_sovereignty, May 25, 2026)",
+    "Railbelt Large-Load Interconnection Review (regulatory/facilities, May 20, 2026)",
+    "Alaska Rural Health Transformation Program CMS Cooperative Agreement (vehicles, June 13, 2026)"
+  ],
   "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
+    "name": "NMFS MMPA IHA Cook Inlet Natural Gas Production Authorization",
     "category": "regulatory",
     "category_label": "REGULATORY",
     "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+      "what_happened": "Takes of Marine Mammals Incidental to Specified Activities; Taking Marine Mammals Incidental to HEX Operating, LLC Natural Gas Activities in Cook Inlet, Alaska. NMFS issued a one-year renewal Incidental Harassment Authorization allowing HEX Operating, LLC (formerly Furie Operating Alaska, LLC) to incidentally harass marine mammals incidental to natural gas activities in Cook Inlet, Alaska, specifically relocating the Enterprise 151 jack-up production rig to the Allegra Lee Platform through rig towing activities. Signed June 16, 2026 by Kimberly Damon-Randall, Director, Office of Protected Resources. Effective September 13, 2026 through September 12, 2027.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-22/html/2026-12463.htm",
+      "outlet": "GovInfo / Federal Register Vol. 91 No. 118",
+      "pub_date": "2026-06-22"
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    "one_line_definition": "Under MMPA Section 101(a)(5)(D), NMFS's Office of Protected Resources Director issues or denies annual Incidental Harassment Authorizations that are the sole legal permission allowing Cook Inlet natural gas operators to conduct production activities, without which platforms go offline and the gas supply underpinning Southcentral Alaska's Railbelt electricity grid is curtailed. The IHA is a single-signature authorization that no other agency or body can substitute.",
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "MMPA Statutory Authority",
+        "what_it_does": "Establishes that any U.S. citizen engaged in a specified activity other than commercial fishing that may incidentally take small numbers of marine mammals must obtain prior authorization from NMFS under Section 101(a)(5)(A) or (D). Without statutory compliance, Cook Inlet production activities are illegal regardless of state permits or leases.",
+        "controlling_actor": "U.S. Congress (enacted authority); administered by NMFS under Department of Commerce",
+        "primary_source": {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-22/html/2026-12463.htm",
+          "outlet": "GovInfo / Federal Register cites 16 U.S.C. 1361 et seq. (MMPA) as authority",
+          "doc_type": "statute"
+        }
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Applicant Layer HEX Operating LLC Application",
+        "what_it_does": "HEX Operating, LLC (formerly Furie Operating Alaska, LLC), the Cook Inlet gas producer, must apply annually to NMFS OPR for renewal of its IHA, providing activity descriptions, take estimates, and mitigation plans. The application defines the scope of what is authorized. If HEX does not apply or NMFS does not renew, the rig relocation enabling production access is blocked.",
+        "controlling_actor": "HEX Operating, LLC, Cook Inlet natural gas producer operating the Allegra Lee Platform and Enterprise 151 jack-up rig",
+        "primary_source": {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-22/html/2026-12463.htm",
+          "outlet": "GovInfo / Federal Register 2026-12463 names HEX Operating LLC and describes the rig towing activities authorized",
+          "doc_type": "docket"
+        }
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "ESA Section 7 Biological Opinion NMFS Alaska Regional",
+        "what_it_does": "Before the IHA can be issued, NMFS must complete an ESA Section 7 consultation to ensure the authorized activity will not jeopardize endangered species (Cook Inlet beluga whales are listed). The Alaska Regional Office issues a Biological Opinion that is a prerequisite gate within the MMPA authorization process. An adverse BiOp or jeopardy finding blocks IHA issuance.",
+        "controlling_actor": "NMFS Alaska Regional Office, conducts ESA Section 7 consultation",
+        "primary_source": {
+          "url": "https://www.fisheries.noaa.gov/about/office-protected-resources",
+          "outlet": "NOAA Fisheries, Office of Protected Resources page establishing OPR authority over MMPA/ESA coordination",
+          "doc_type": "agency_page"
+        }
       },
       {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "OPR Director IHA Issuance Asymmetric Chokepoint",
+        "what_it_does": "The Director of NMFS Office of Protected Resources issues or denies the IHA by individual signature. No committee vote, no co-signature, no external ratification is required. The IHA signed by Kimberly Damon-Randall on June 16, 2026 is the single document that legally permits HEX Operating to conduct rig towing in Cook Inlet for the September 2026 to September 2027 production season. Denial or non-renewal halts Cook Inlet gas production activities.",
+        "controlling_actor": "Kimberly Damon-Randall, Director, NMFS Office of Protected Resources, sole signing authority confirmed in FR document",
+        "primary_source": {
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-22/html/2026-12463.htm",
+          "outlet": "GovInfo / Federal Register 2026-12463 signature block names Kimberly Damon-Randall, Director, Office of Protected Resources, National Marine Fisheries Service",
+          "doc_type": "docket"
+        }
       },
       {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Cook Inlet Gas to Railbelt Power to Southcentral Alaska Electricity Supply",
+        "what_it_does": "Cook Inlet natural gas is the primary fuel for gas-fired power generation serving the Railbelt grid (Anchorage, Kenai Peninsula, Mat-Su), which supplies electricity to all proposed AI data center sites in Southcentral Alaska. Cook Inlet gas production constraints directly cap available power for large AI loads. Chugach Electric Association's June 2026 LOI with Glenfarne for Alaska LNG pipeline gas supply signals current Cook Inlet gas dependence and forward supply risk.",
+        "controlling_actor": "Chugach Electric Association (largest Railbelt utility, gas-fired generation operator) and other Railbelt utilities",
+        "primary_source": {
+          "url": "https://www.chugachelectric.com/",
+          "outlet": "Chugach Electric Association homepage June 2026 news item on Glenfarne LOI for natural gas from Alaska LNG pipeline confirming current Cook Inlet gas dependence",
+          "doc_type": "agency_page"
+        }
       }
     ],
-    "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
-    },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
+    "chokepoint": "Layer 4, OPR Director IHA issuance. Kimberly Damon-Randall (Director, NMFS Office of Protected Resources) holds genuine unilateral signing authority over the annual IHA renewal. She is the single institutional role whose signature is the rate-limiting step. Without the signed IHA, HEX Operating cannot legally conduct rig towing or platform operations in Cook Inlet, cannot produce gas, and the binary she owns is issue versus deny or delay, with no committee override, no co-signer, no substitute authorization pathway available under MMPA for this class of activity.",
+    "ak_consequence": "Cook Inlet gas sector (HEX Operating, Allegra Lee Platform). If the FY2027 IHA renewal effective September 13, 2026 is denied, conditioned, or delayed by the OPR Director, Cook Inlet gas production from the Allegra Lee Platform ceases, tightening the Railbelt gas supply that Chugach Electric and other Southcentral Alaska utilities depend on for gas-fired generation, directly constraining the power supply available to proposed AI data center projects (STAK 1 to 3 GW, DigitalBridge Southcentral sites) by Q4 2026.",
+    "structural_read": "The HEX IHA mechanism is the upstream gas-production permitting chokepoint for Southcentral Alaska's power supply. Every proposed AI data center in the Anchorage, Kenai, and Mat-Su corridor depends on Railbelt electricity. Railbelt electricity is majority gas-fired. Cook Inlet gas is the primary fuel source. And Cook Inlet production rights are gated annually by a single NMFS OPR Director signature under MMPA. The mechanism is not about environmental politics. It is about the administrative annual renewal cycle that silently governs whether Cook Inlet gas production can physically continue each operating season. Chugach's June 2026 LOI with Glenfarne for future LNG pipeline gas is an acknowledgment that this annual NMFS gate is a long-term structural vulnerability. The utilities are already seeking supply diversification precisely because the Cook Inlet IHA renewal cycle is a chokepoint they cannot control.",
+    "forward_implication": "Any AI data center developer (STAK, DigitalBridge, or a hyperscale anchor tenant) pursuing a Southcentral Alaska site should obtain from Chugach Electric written confirmation that their power supply contract is not contingent on Cook Inlet gas production from platforms requiring MMPA IHAs, and should assess whether the September 13, 2026 effective date of the HEX IHA creates a Q3 to Q4 2026 gas-supply gap that would affect construction-phase power procurement timelines.",
+    "confidence": "medium",
+    "gate_results": {
+      "news_tie_pass": true,
+      "anatomizable_pass": true,
+      "per_layer_primary_source_pass": true,
+      "ak_consequence_pass": true,
+      "chokepoint_asymmetry_pass": true,
+      "mechanism_not_actor_pass": true,
+      "not_recent_repeat_pass": true
+    }
   },
   "dropped_mechanisms": [
     {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
+      "name": "Koniag CASPER Army Contracting Agentic AI Suite",
+      "drop_reason": "no_news_tie. WashingtonExec June 17 trigger returned HTTP 403 on two fetch attempts, unverifiable. Most recent verifiable KGS item (ACT-IAC award May 19) is 37 days old, outside both 21 and 28 day windows."
     },
     {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
+      "name": "Aleutian Thunder ANC Mentor-Protege AI JV",
+      "drop_reason": "diffuse_chokepoint. Gate 1 marginal (corporate PR Newswire launch is neither independent editorial nor government document). Gate 5 fails, stated chokepoint (Trzcinski authorizing JV) is a completed one-time event not an ongoing rate-limiting node."
     },
     {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
+      "name": "NDAA FY2027 SASC Alaska Defense Data Center and Arctic Satellite Package",
+      "drop_reason": "recent_repeat. Only named asymmetric chokepoint (Robert Moriarty, DASAF Installations, EUL execution) duplicates already-anatomized DAF EUL mechanism #1. The new congressional mandate layer has no single named controlling officer (Sec Army + conference process are multi-member)."
     },
     {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
+      "name": "FERC RM26-4 Large Load and Alaska Non-RTO Gap",
+      "drop_reason": "diffuse_chokepoint. FERC and RCA both 5-member commissions; AEA Thayer authority undocumented. Gate 7 repeat risk with Railbelt Large-Load #5. Utility Dive article has no Alaska-specific content."
     },
     {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
+      "name": "NFWF-NOAA EMR Grant Program Alaska AI Vessel Deployment",
+      "drop_reason": "no_news_tie. Primary trigger (NFWF April 9) is 77 days old. Federal Register June 1 NPFMC meeting notice is peripheral and does not name the EMR grant or AI vessel deployment."
     },
     {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
+      "name": "GCI-Starlink Bonded Gateway",
+      "drop_reason": "no_ak_consequence. Gate 4 fail, no AI-enabling consequence established, broadband resiliency only."
     },
     {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
+      "name": "Quintillion Nome-Homer FWS Compatibility Determination",
+      "drop_reason": "diffuse_chokepoint. FWS Refuge Manager unnamed in any fetchable source. Gate 4 also fails, AI-enabling consequence too inferential."
+    },
+    {
+      "name": "AGDC State Investment Option and 8 Star Alaska Governance",
+      "drop_reason": "recent_repeat and no_ak_consequence. Same underlying Alaska LNG / Glenfarne mechanism flagged exhausted in prior runs. June 25 article contains no AI or data center mention."
     }
   ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  "_validation_note": "21-day window (June 3-24, 2026) was sufficient; no broadening to 28 days required. Selected mechanism (HEX MMPA IHA) passes all seven gates. Gate 4 passes under the loosened AI-enabling infrastructure standard: Cook Inlet gas to Railbelt power to Southcentral data center power chain is structurally established, with Chugach Electric June 2026 Glenfarne LOI confirming current Cook Inlet gas dependence. ADN May 5 data-center-gas article returned 404 and could not be re-verified, but the Gate 4 chain does not depend solely on it. Gate 3 Layer 3 (ESA Section 7 BiOp) noted unverified at primary source, but this minor layer does not break the chokepoint chain (chokepoint sits in Layer 4, fully sourced from govinfo). Confidence medium because the AI-enabling chain requires one inferential step. First shipped mechanism after an 11-cycle no-target streak; gate calibration was loosened per maintainer direction (21-day window, government-doc triggers, de facto controlling node) to let verified cream-of-crop mechanisms through."
 }

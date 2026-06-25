@@ -97,6 +97,14 @@ These ADDITIONAL conditions each trigger `revise`:
 - The bullet block, when present, has fewer than 3 or more than 5
   items, or doesn't follow the `[layer name] — [what it does],
   [controlling actor]` shape.
+- Date inconsistency. The orchestrator's spawn message states the
+  verified current run date (America/Anchorage). Any date the body
+  presents as the run date or "this week" that contradicts that verified
+  run date is a reject. Source dates inside the dossier (a docket's
+  publication date, a signing date, an effective date) are fine and
+  should match `selected_mechanism`; the failure is a wrong RUN date,
+  e.g. the post implies today is a different day than the verified one.
+  If the body carries no run-date reference, this check passes silently.
 
 If `stack_anatomy.json` has `no_target_this_cycle: true`, there is no
 post to grade. Return `VERDICT: revise` with a one-line note that the
