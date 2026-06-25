@@ -22,38 +22,65 @@ the "mechanisms already anatomized" reminder, and (on retry) a broadened
 
 ## The seven-point accuracy gate (a mechanism is dropped unless ALL hold)
 
-1. **News tie.** The mechanism appears in or is implicated by a story
-   published in the last 14 days (or 21 on broadening retry). `WebFetch`
-   the news trigger URL and confirm the story is real, names the
-   mechanism, and is in window. Drop if not.
+1. **News tie.** The mechanism appears in or is implicated by a story or
+   document published in the last **21 days** (default; 28 days on
+   broadening retry). The trigger can be an independent editorial story
+   OR a primary government document (SAM.gov award notice,
+   USAspending.gov award, Federal Register notice, agency press release,
+   Congressional Record entry, agency docket filing). `WebFetch` the
+   trigger URL and confirm it is real, names or clearly implicates the
+   mechanism, and is in window. Drop only if the trigger cannot be
+   verified at all, or is clearly older than the window. A law firm
+   client advisory alone does not qualify; a government agency press
+   release does.
 2. **Anatomizable.** The mechanism has ≥3 distinguishable
    layers/actors/decision points. A black box (one actor doing one opaque
    thing) doesn't qualify. Drop if you cannot enumerate ≥3.
-3. **Per-layer primary-source coverage.** EVERY layer has its own
+3. **Per-layer primary-source coverage.** Every layer should have a
    primary-source citation: a statute, agency org chart, docket filing,
    contract document, official agency page, university PR, earnings call,
-   or 10-K. `WebFetch` each layer's primary source and confirm it names
-   the controlling actor in that layer. A layer whose controlling actor
-   cannot be traced is dropped. If removing it breaks the chain, the
-   whole mechanism is dropped. No fan blogs, no Wikipedia, no marketing
-   pages.
+   10-K, or Federal Register document. `WebFetch` each layer's primary
+   source. A layer whose controlling actor cannot be traced from ANY
+   fetchable authoritative source is dropped — but if the agency website
+   returns 403/503, try the Federal Register, govinfo.gov, or a
+   Congressional Research Service document for the same authority. Drop a
+   layer only after at least two fetch attempts fail. If removing a
+   single minor layer does not break the chokepoint chain, the mechanism
+   survives with that layer noted as "unverified." No fan blogs, no pure
+   marketing pages. Wikipedia may be used for background only, not as a
+   primary-source citation.
 4. **AK consequence.** The mechanism has a concrete Alaska industry
    consequence reducible to one sentence: sector + decision/risk/
-   opportunity + named actor + timeframe. Drop if you can't reduce it.
-5. **Chokepoint asymmetry.** Identify at least one named layer where ONE
-   actor (or a binary majority of one named body) can block, approve, or
-   reprice the mechanism within their own authority. A chokepoint where
-   five actors share decision rights is a committee, not a chokepoint —
-   drop. Diffuse-veto layers like "Congress" or "the agency" don't
-   qualify; the layer must name a specific desk, division, board, or
-   officer.
+   opportunity + named actor + timeframe. The consequence may be
+   "AI-enabling" — the mechanism controls infrastructure (power, fiber,
+   compute, facilities, capital) that directly enables AI workloads in
+   Alaska even if the word "AI" does not appear in the news trigger.
+   Drop only if no Alaska consequence can be established.
+5. **Chokepoint asymmetry.** Identify at least one named role in the
+   mechanism where the controlling actor holds asymmetric leverage — the
+   person or role whose action is the rate-limiting step, without whom
+   the next phase cannot proceed. This may be a program executive
+   director, a named contracting officer, a division chief who drafts
+   the decisive recommendation, a single-administrator agency head, or a
+   named corporate officer with documented authority over a specific
+   decision. The actor does not need to hold SOLE legal authority — they
+   need to be the controlling node in practice: the desk that scores
+   applications, the officer whose recommendation drives board votes, the
+   named individual who signs the award or permit. Pure 5-member
+   commission votes with no controlling staff officer do not qualify. A
+   named program director or executive whose recommendation is
+   structurally determinative does qualify. When in doubt, ask: could
+   the mechanism's next phase begin WITHOUT this person's specific
+   action? If no, that is a chokepoint.
 6. **Mechanism-not-actor.** Substitution test: if the named individual
    actor in each layer were replaced tomorrow, the mechanism's structure
    would persist. This prevents drift into personality coverage (which
    belongs to the weekly recap). Drop if the mechanism collapses without
    a specific named person.
 7. **Not a recent repeat.** The mechanism is not in the "mechanisms
-   already anatomized" reminder.
+   already anatomized" reminder. A new news trigger or new decision
+   point on a previously covered structural layer MAY qualify as a
+   distinct mechanism if the chokepoint is different.
 
 ## Overlap-handling rule
 
@@ -145,7 +172,12 @@ line is rendered as `THE STACK · <CATEGORY_LABEL> · DATE`.
 - A weighted-down candidate is still a drop. There is no partial pass.
   All seven points hold, or the mechanism is dropped.
 - Do not flatter the scouts. A rich candidate list with no defensible
-  target still returns `no_target_this_cycle: true`.
+  target still returns `no_target_this_cycle: true`. But do not drop a
+  mechanism on a gate it actually passes just because a scout flagged
+  uncertainty. Re-verify yourself. The column has a standing obligation
+  to ship the best available verified mechanism, not a perfect one. A
+  medium-confidence mechanism with a clean layer chain is better than a
+  no-target cycle.
 - Personality coverage belongs to the recap, not The Stack. If the
   mechanism's structure depends on the specific person in office, the
   Mechanism-not-actor gate fails.

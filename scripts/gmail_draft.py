@@ -18,70 +18,123 @@ table.score{width:100%;border-collapse:collapse;font-size:13px;}
 table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-align:left;}
 .foot{color:#888;font-size:11px;margin-top:22px;}
 .flag{background:#fff4e5;border-left:3px solid #f0a500;padding:10px 12px;border-radius:4px;margin:14px 0;}
+.no-target{background:#fef2f2;border-left:4px solid #ef4444;padding:14px 16px;border-radius:6px;margin:20px 0;font-size:15px;}
 """
 
 
-def render(post_text, image_b64, sources, score, date_str, branch,
-           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn"):
+def render(post_text, image_src, sources, score, date_str, branch,
+           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn",
+           no_target=False, editor_note=""):
+    # image_src: either "data:image/png;base64,..." or "https://..." or "" (no image)
+    if image_src:
+        img_block = f'<div class="img"><img src="{image_src}" alt="Alaska.Ai {label} image"/></div>'
+    else:
+        img_block = ""
+
+    if no_target:
+        post_block = """
+  <div class="no-target">
+    <b>No defensible target this cycle.</b> The mechanism-discovery scouts ran
+    and the accuracy gate found no mechanism that cleared all seven gates.
+    See the dropped mechanisms list below and the Editor&rsquo;s note for details.
+  </div>"""
+    else:
+        post_block = f"""
+  <h2>Copy this for LinkedIn</h2>
+  <pre class="post">{post_text}</pre>"""
+
     src_items = "\n".join(
-        f'<li><a href="{s["url"]}">{s["outlet"]}</a> &mdash; '
-        f'{s.get("pub_date","")} &mdash; {s.get("story_title","")}</li>'
+        f'<li><a href="{s["url"]}">{s.get("outlet", s["url"])}</a>'
+        + (f' &mdash; {s.get("pub_date","")}' if s.get("pub_date") else "")
+        + (f' &mdash; {s.get("story_title","")}' if s.get("story_title") else "")
+        + "</li>"
         for s in sources.get("sources", [])
-    )
+    ) if sources.get("sources") else "<li>No sources recorded.</li>"
+
     score_rows = "\n".join(
         f'<tr><td>{c["name"]}</td><td>{c["score"]}</td>'
         f'<td>{c["weight"]}</td><td>{c.get("notes","")}</td></tr>'
         for c in score.get("criteria", [])
-    )
+    ) if score.get("criteria") else ""
+
     ship_flag = "" if score.get("ship") else (
         f'<div class="flag"><b>Below threshold.</b> Weakest: '
         f'{score.get("weakest_criterion","?")}. '
         f'Fix: {score.get("one_sentence_fix","?")}</div>'
     )
-    return f"""<!doctype html><html><head><style>{CSS}</style></head><body>
-<div class="wrap">
-  <h1>Alaska.Ai &mdash; {label} Draft</h1>
-  <div class="sub">{date_str} &middot; branch <code>{branch}</code></div>
-  <h2>Copy this for LinkedIn</h2>
-  <pre class="post">{post_text}</pre>
-  <div class="img"><img src="data:image/png;base64,{image_b64}" alt="Alaska.Ai weekly image"/></div>
-  {ship_flag}
-  <h2>Sources</h2>
-  <ul>{src_items}</ul>
-  <h2>Editor's report card</h2>
+
+    score_section = f"""
+  <h2>Editor&rsquo;s report card</h2>
   <table class="score">
     <tr><th>Criterion</th><th>Score</th><th>Weight</th><th>Notes</th></tr>
     {score_rows}
   </table>
-  <p><b>Weighted total:</b> {score.get("weighted_total","?")} / 10 &middot;
-     <b>Threshold:</b> {score.get("threshold","?")} &middot;
+  <p><b>Weighted total:</b> {score.get("weighted_total","N/A")} / 10 &middot;
+     <b>Threshold:</b> {score.get("threshold","8.0")} &middot;
      <b>Ship:</b> {"yes" if score.get("ship") else "no &mdash; see flag above"}</p>
+""" if score_rows else ""
+
+    editor_section = f"""
+  <h2>Editor&rsquo;s note</h2>
+  <div class="flag">{editor_note}</div>
+""" if editor_note else ""
+
+    return f"""<!doctype html><html><head><style>{CSS}</style></head><body>
+<div class="wrap">
+  <h1>Alaska.Ai &mdash; {label} Draft</h1>
+  <div class="sub">{date_str} &middot; branch <code>{branch}</code></div>
+  {post_block}
+  {img_block}
+  {ship_flag}
+  <h2>Sources</h2>
+  <ul>{src_items}</ul>
+  {score_section}
+  {editor_section}
   <div class="foot">Generated {dt.datetime.utcnow().isoformat()}Z by the Alaska.Ai {footer_label} routine.</div>
 </div></body></html>"""
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--post-md", required=True)
-    ap.add_argument("--image",   required=True)
-    ap.add_argument("--sources", required=True)
-    ap.add_argument("--score",   required=True)
-    ap.add_argument("--date",    required=True)
-    ap.add_argument("--branch",  required=True)
+    ap.add_argument("--post-md",    default=None,   help="Path to final post markdown (omit for no-target)")
+    ap.add_argument("--image",      default=None,   help="Path to PNG image file (base64 inline)")
+    ap.add_argument("--image-url",  default=None,   help="Hosted image URL (takes precedence over --image)")
+    ap.add_argument("--sources",    required=True)
+    ap.add_argument("--score",      required=True)
+    ap.add_argument("--date",       required=True)
+    ap.add_argument("--branch",     required=True)
     ap.add_argument("--label",        default="Weekly LinkedIn Recap")
     ap.add_argument("--footer-label", default="Weekly LinkedIn")
+    ap.add_argument("--no-target",  action="store_true", help="No mechanism shipped this cycle")
+    ap.add_argument("--editor-note", default="",    help="Free-text editor's note for deviations")
     args = ap.parse_args()
 
-    post_text = Path(args.post_md).read_text()
-    image_b64 = base64.b64encode(Path(args.image).read_bytes()).decode("ascii")
+    # Post text
+    post_text = Path(args.post_md).read_text() if args.post_md else ""
+
+    # Image source: hosted URL takes precedence; else base64 inline; else empty
+    if args.image_url:
+        image_src = args.image_url
+    elif args.image:
+        image_b64 = base64.b64encode(Path(args.image).read_bytes()).decode("ascii")
+        image_src = f"data:image/png;base64,{image_b64}"
+    else:
+        image_src = ""
+
     sources = json.loads(Path(args.sources).read_text())
-    score = json.loads(Path(args.score).read_text())
+    score   = json.loads(Path(args.score).read_text())
+
+    html_body = render(
+        post_text, image_src, sources, score,
+        args.date, args.branch, args.label, args.footer_label,
+        no_target=args.no_target,
+        editor_note=args.editor_note,
+    )
 
     payload = {
         "subject": f"Alaska.Ai — {args.label} Draft — {args.date}",
         "to": "me",
-        "html_body": render(post_text, image_b64, sources, score, args.date,
-                            args.branch, args.label, args.footer_label),
+        "html_body": html_body,
     }
     print(json.dumps(payload))
 
