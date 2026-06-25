@@ -1,27 +1,50 @@
-# Anchorage Desk Selection — 20 May 2026
+# Cold Take / Received Wisdom — Selection — NO. 25 — 2026-06-24
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim (verbatim)
+"We are going to embark upon a very robust fiber process so Alaska can become the center of data transmission for three continents."
+— Governor Mike Dunleavy, at a data-center investment event, reported by Broadband Breakfast, 2026-04-24.
 
-## Role
-FOUNDER (kicker middle slot)
+## Why it circulates (received wisdom)
+The "Alaska as the fiber hub for three continents" framing is the spine of the state's
+data-center recruitment pitch. Dunleavy has repeated it across at least three industry
+conferences in nine months (Data Center World Oct 2025, CES 2026, the April 2026 event).
+Capital allocators and data-center developers evaluating Alaska are explicitly told that an
+intercontinental routing advantage is imminent.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman (state it at its strongest, fairly)
+Alaska's Arctic geography really is the shortest routing path between Asia, Europe, and North
+America. Proposed subsea projects have identified Alaskan routes as among the shortest between
+continents. Real capital is moving, GCI's $310M Quintillion acquisition builds a self-healing
+ring of roughly 3,316 route miles, and cold-climate data centers post strong PUE. If an
+intercontinental cable lands on the Governor's timeline, the hub ambition is geographically
+grounded.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## The load-bearing piece it leaves out
+No intercontinental cable linking Alaska to Asia or Europe is contracted, financed, or under
+construction. The GCI-Quintillion ring is entirely intra-Alaska. And the only Arctic subsea
+cable that exists, Quintillion's, was severed by sea-ice scour in January 2025, the second
+break at nearly the same spot in two years, leaving roughly 20,000 Northwest Alaska residents
+offline for months. Geographic potential is not operational reality.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## One-sentence corrective thesis
+Alaska's three-continent data-hub pitch rides on an intercontinental cable that nobody has yet
+contracted and on Arctic subsea fiber that has broken twice in two years, so allocators should
+price the hub as an aspirational 2031-plus scenario, not a near-term infrastructure fact.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Evidence spine (all in claim_dossier.json, primary, fetched)
+1. ADN, 2025-02-04: Beaufort Sea ice severed Quintillion's cable; ~20,000 residents offline
+   until late summer 2025; second break in two years.
+2. GCI press release, 2026-04-22: $310M Quintillion acquisition creates a ~3,316-mile
+   self-healing ring entirely within Alaska, no intercontinental component.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## AK business consequence
+AIDEA, DCCED, and private data-center developers betting on the 2031 hub window carry real
+stranded-investment risk if the intercontinental routing assumption isn't stress-tested
+against the fact that the cable isn't under contract and the existing Arctic cable is
+unreliable.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Orchestrator note
+Thematically adjacent to a heavy recent data-center streak (06-17, 06-17-02, 06-22, 06-23),
+but defensibly distinct: this corrects the TRANSPORT layer (intercontinental subsea fiber,
+Arctic cable reliability), not energy/power for data centers. Recommend steering future cycles
+toward non-infrastructure topics to avoid groove fatigue.
