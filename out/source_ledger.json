@@ -1,48 +1,19 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "volume": "VOL. 07",
+  "surface": "LinkedIn",
+  "date": "2026-06-24",
+  "window": ["2026-06-17", "2026-06-24"],
+  "mode": "Deep Dive",
+  "lead_frame": "Who captures Alaska's federal AI dollar, and through which procurement vehicle",
   "sources": [
-    {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
-    }
+    {"story_title": "Koniag AFRL AI/ML attrition-retention award (LEAD)", "url": "https://orangeslices.ai/koniag-subsidiary-secures-u-s-air-force-ai-ml-attrition-risk-and-retention-strategy-solution-contract/", "outlet": "OrangeSlices AI (federal award tracker)", "pub_date": "2026-06-22", "confidence": "medium", "note": "Single source; dollar/ID softened to 'per a federal-award tracker' (USAspending/SAM not independently fetchable)."},
+    {"story_title": "Chenega CDC IT/INFOSEC award", "url": "https://orangeslices.ai/chenega-subsidiary-secures-cdc-information-security-infosec-and-it-shared-services-support-contract/", "outlet": "OrangeSlices AI (federal award tracker)", "pub_date": "2026-06-18", "confidence": "medium", "note": "IT/INFOSEC, not AI; dollar softened."},
+    {"story_title": "Alaska May jobs report: federal civilian workforce down ~10%", "url": "https://labor.alaska.gov/news/2026/news26-11.htm", "outlet": "Alaska Dept. of Labor & Workforce Development", "pub_date": "2026-06-18", "confidence": "high", "note": "Primary government release."},
+    {"story_title": "Sullivan FY2027 NDAA $2.6B incl. Arctic autonomous systems + Analytics Lab", "url": "https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-secures-56-provisions-historic-26-billion-for-alaska-in-fy-2027-defense-authorization", "outlet": "Sen. Dan Sullivan (primary)", "pub_date": "2026-06-23", "confidence": "high", "note": "Committee-advanced authorization, not appropriated."},
+    {"story_title": "Sullivan FY2027 NDAA (corroboration)", "url": "https://www.alaskasnewssource.com/2026/06/24/sullivan-touts-alaska-defense-provisions-ndaa-bill-advances/", "outlet": "Alaska's News Source", "pub_date": "2026-06-24", "confidence": "high"},
+    {"story_title": "FY2027 NDAA agentic-AI deployment mandate + CMMC Level 2 small-biz grant", "url": "https://www.govinfosecurity.com/ndaa-drafts-bolster-contractor-cyber-ai-rules-a-32029", "outlet": "GovInfoSecurity", "pub_date": "2026-06-19", "confidence": "high"},
+    {"story_title": "FY2027 NDAA Senate details (corroboration)", "url": "https://federalnewsnetwork.com/federal-newscast/2026/06/senate-armed-services-committee-releases-ndaa-details/", "outlet": "Federal News Network", "pub_date": "2026-06-17", "confidence": "high"},
+    {"story_title": "SBA 8(a) race-eligibility overhaul; ANCs carved out (texture)", "url": "https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting", "outlet": "U.S. Small Business Administration (primary)", "pub_date": "2026-06-11", "confidence": "medium", "note": "Background; '26%/$800M decline' figure dropped as unverified."},
+    {"story_title": "SBA 8(a) overhaul (AK lens, corroboration)", "url": "https://alaskapublic.org/news/alaska-desk/2026-06-12/federal-officials-say-proposed-drastic-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations", "outlet": "Alaska Public Media", "pub_date": "2026-06-12", "confidence": "medium"}
   ]
 }
