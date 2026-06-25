@@ -18,7 +18,7 @@ rubric:
     - name: "subject_named_and_anchorage_tied"
       rule: "The post names the subject by full name + role + institutional affiliation AND establishes an Anchorage tie (bowl-based residency or work, or a decision that materially affects the bowl). A profile that doesn't name the subject's full identity, or doesn't ground them in Anchorage, automatically forces revise."
     - name: "recent_decision_named_with_primary_source"
-      rule: "The post names a SPECIFIC decision the subject made or owns in the last 30 days (45 if the validator broadened the window), citing the primary-source URL from desk_dossier.json selected_decision.primary_source. Career history or undated achievements automatically force revise. Decision dates outside the window force revise."
+      rule: "The post names a SPECIFIC decision the subject made or owns in the last 60 days (90 if the validator broadened the window), citing the primary-source URL from desk_dossier.json selected_decision.primary_source. Career history or undated achievements automatically force revise. Decision dates outside the window force revise."
     - name: "multi_source_corroboration"
       rule: "The body's account of the decision matches the dossier's selected_decision.corroborating_sources[] (at least 2 sources, at least one independent of the subject's organization). A post sourced only to a press release controlled by the subject's org automatically forces revise."
     - name: "not_a_puff_piece"
