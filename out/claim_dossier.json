@@ -1,0 +1,64 @@
+{
+  "no_target_this_cycle": false,
+  "issue_label": "NO. 25",
+  "run_date": "2026-06-24",
+  "selected_claim": {
+    "id": "D",
+    "claim_verbatim": "We are going to embark upon a very robust fiber process so Alaska can become the center of data transmission for three continents.",
+    "claim_paraphrase_fair": "Alaska will build out fiber infrastructure sufficient to position itself as the primary data-transmission hub linking Asia, North America, and Europe.",
+    "theme": "Alaska as intercontinental data-transmission hub",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "is_primary": true
+      }
+    ],
+    "circulation_note": "Governor Dunleavy made this statement at a data-center investment event covered by Broadband Breakfast (April 24, 2026). The 'three continents' / Alaska-as-fiber-hub framing recurs across the Governor's data-center recruitment pitch: it appeared at his October 2025 Data Center World appearance (reported by Data Center Knowledge, 2025-10-07) and at CES 2026 (Broadband Breakfast). At least three industry-conference repetitions in a nine-month span make this an independently circulating piece of state economic-development received wisdom, not a one-off boast.",
+    "steelman": "Alaska occupies a genuinely unique geographic position at the crossroads of trans-Pacific and Arctic routing between Asia, North America, and Europe. Proposed subsea projects like Far North Fiber have identified Alaskan routes as among the shortest paths between those continents. Real capital is moving, GCI's $310 million acquisition of Quintillion creates roughly 3,316 combined route miles with a self-healing ring. Cold climate gives Alaska data centers strong power-usage-effectiveness numbers. If an intercontinental cable buildout materializes on the Governor's timeline, Alaska could anchor a meaningful share of trans-Pacific and Arctic data traffic. The ambition is geographically grounded.",
+    "why_smart_people_believe_it": "Alaska's Arctic geography is objectively the shortest routing path between Asia, Europe, and North America. Real money is moving through the GCI-Quintillion transaction. The Governor is the state's chief executive describing active state policy, and investors evaluating long-horizon plays reasonably treat official gubernatorial infrastructure timelines as investable signals.",
+    "where_it_breaks": "No intercontinental cable linking Alaska to Asia or Europe is contracted, financed, or under construction. The GCI-Quintillion self-healing ring is entirely intra-Alaska with no intercontinental component. The Quintillion Arctic cable was severed by sea-ice scour in January 2025, the second break at nearly the same location in two years, leaving about 20,000 Northwest Alaska residents offline for months. Geographic potential is not operational reality.",
+    "more_accurate_frame": "Alaska has real geographic and infrastructure assets that make intercontinental fiber routing plausible, but no intercontinental cable is yet contracted or built, and the Quintillion cable's two sea-ice breaks in two years show Arctic subsea reliability remains unsolved. Capital allocators should treat the three-continent hub as an aspirational 2031-plus scenario, not a near-term infrastructure fact.",
+    "counter_evidence": [
+      {
+        "fact": "Beaufort Sea ice severed Quintillion's Arctic fiber cable in January 2025, leaving roughly 20,000 residents in Northwest Alaska offline until late summer 2025, the second break at nearly the same location in two years (the first was June 2023). No intercontinental fiber route from Alaska is described.",
+        "url": "https://www.adn.com/alaska-news/rural-alaska/2025/02/04/beaufort-sea-ice-snips-fiber-optic-cable-limiting-internet-for-some-20000-in-northwest-alaska-until-after-summer/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2025-02-04",
+        "is_primary": true,
+        "verified_via_fetch": true
+      },
+      {
+        "fact": "GCI's $310 million acquisition of Quintillion creates a self-healing ring network spanning roughly 3,316 route miles entirely within Alaska. The announcement describes no intercontinental routes to Asia or Europe and no intercontinental cable component.",
+        "url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
+        "outlet": "GCI press release",
+        "pub_date": "2026-04-22",
+        "is_primary": true,
+        "verified_via_fetch": true
+      }
+    ],
+    "ak_business_consequence": "Data-center operators, cloud providers, and infrastructure investors are being told by the Governor that Alaska will be a three-continent data hub. Capital allocation decisions made on that premise, site selection, long-lead procurement, permitting, and power contracts, are exposed to the gap between the claim and the reality that no intercontinental cable is under contract and the only Arctic subsea cable in existence has broken twice in two years. Alaska economic-development bodies (AIDEA, DCCED) and private developers betting on the 2031 window carry real stranded-investment risk if the intercontinental routing assumption is not stress-tested.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary_evidence": true,
+      "not_a_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {"id": "A", "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "reason": "Gate 4 (steelman survives) fails. 'No comprehensive AI policy' remains essentially true after correction. HB 239 is a criminal omnibus with one AI-CSAM provision; the DEED K-12 framework is advisory. The steelman collapses into the correction, leaving no corrective post to write."},
+    {"id": "B", "claim_verbatim": "If Alaska moves forward with the changes, it would put the state at the forefront of a shift to using artificial intelligence for state government functions", "reason": "Gate 1 (attribution) fails. The verbatim quote does not appear on either cited page; BiometricUpdate carries only a differently worded paraphrase and StateScoop lacks it entirely. Paraphrase drift is a hard drop, even though the AVA court-chatbot counter-evidence is real and verified."},
+    {"id": "C", "claim_verbatim": "Until Alaska modernizes our fiber infrastructure, the state will remain an isolated cul-de-sac, unqualified to compete for hyperscale computing.", "reason": "Gate 2 borderline plus conflict of interest. Single asserter (Berkowitz, co-founder of the cable company he advocates for) with no independent corroborating voice; connectivity-adjacent to the recent streak."},
+    {"id": "E", "claim_verbatim": "These funds will go a long way toward the goal of connecting every Alaskan, which will unlock possibilities of expanded telehealth, education and small business opportunities.", "reason": "Gate 4 fails. '$629M will go a long way toward connecting every Alaskan' does not assert completion; the steelman is essentially true."},
+    {"id": "F", "claim_verbatim": "the way that the feds designed it is almost directing us to AI", "reason": "Gate 3 fails. Asserter (Rep. Mina) is herself the skeptic; not circulating as triumphalist received wisdom that capital or policy actors rely on."},
+    {"id": "G", "claim_verbatim": "GCI and Databricks look forward to ensuring that Alaskans have access to the same high-performance networks as New Yorkers or San Franciscans.", "reason": "Gate 4 fails plus connectivity-streak adjacent. Forward-looking aspiration ('look forward to ensuring'), not a present factual assertion of parity."},
+    {"id": "H", "claim_verbatim": "basic domain awareness remains a challenge at the top of the world", "reason": "Gate 5 fails. Counter-evidence is on the same page as the claim; single asserter; the claim is a qualified acknowledgment, hard to rebut."},
+    {"id": "I", "claim_verbatim": "It positions Alaska to be highly competitive for federal AI education grants and other funding opportunities by demonstrating a clear, unified-level strategy.", "reason": "Gate 5 fails. Proposed counter-evidence (a DOL release) does not verify the specific non-application fact; niche, low load-bearing weight."}
+  ],
+  "_validation_note": "Both orchestrator front-runners failed honestly: B on attribution (scout paraphrase, not a verbatim span on the page), A on steelman-survival (Alaska genuinely still lacks comprehensive AI policy). Selected D (Dunleavy 'three continents' fiber claim): quote confirmed verbatim on the Broadband Breakfast page; circulation confirmed across three conference appearances; counter-evidence (ADN Quintillion sea-ice break, GCI acquisition release) fetched and verified. ORCHESTRATOR FLAG: D is thematically adjacent to a heavy recent data-center streak (06-17, 06-17-02, 06-22, 06-23). It is defensibly distinct, the corrective is about intercontinental subsea fiber viability and Arctic cable reliability, a transport-layer claim the desk has NOT corrected, not energy/power for data centers. Accepted on that basis; recommend steering future cycles toward non-infrastructure topics (defense AI, AI policy with a fresh asserter, workforce, tribal data) to avoid groove fatigue. GCI release date corrected to 2026-04-22."
+}
