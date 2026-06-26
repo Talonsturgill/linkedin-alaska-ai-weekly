@@ -82,8 +82,11 @@ These ADDITIONAL conditions each trigger `revise`:
   "Congress", "the agency") instead of the specific layer + actor +
   binary decision from `selected_mechanism.chokepoint`. Diffuse-veto
   framings fail.
-- No genuine structural read. The post is pure neutral description with
-  no position on what this mechanism produces. The desk takes positions.
+- No genuine structural read. The post is pure flat description with no
+  honest position on what this mechanism produces or what it means for
+  Alaska. The desk takes a position. An affirmative read ("this is a
+  strong move, here's why it matters") counts as a position when it is
+  grounded in the mechanism. Do not reject a post for being positive.
 - No concrete forward implication. The post does not name the next
   decision point, when it happens, or who's positioned. The reader gets
   no decision trigger from `selected_mechanism.forward_implication`.
@@ -132,9 +135,14 @@ These ADDITIONAL conditions each trigger `revise`:
   quotes are an automatic reject.
 - Bio recap exceeds decision treatment in word count. The post is
   about the decision, not the resume. Bio gets 1-2 sentences max.
-- Pure neutral description with no desk position on the decision.
-  Pure boosterism or hagiography also fails. The structural read must
-  do real analytical work.
+- Pure neutral description with no desk position on the decision. The
+  structural read must do real analytical work. An honest affirmative
+  read ("this was a sharp call, here's why it matters for Alaska")
+  counts as a position when it is grounded in the evidence. What fails
+  is the ungrounded kind: fabricated praise and hagiography, or
+  recycled press-release superlatives. Grounded positive assessment is
+  not boosterism. Do not reject a post for being positive, and do not
+  require it to find fault.
 - Hagiographic verbs in the body ("transforming", "spearheading",
   "championing", "visionary", "trailblazing") without independent
   grounding from the dossier.

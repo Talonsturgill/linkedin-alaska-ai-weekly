@@ -16,9 +16,11 @@ reader's mental model of the Alaska AI landscape so the audience (industry
 leadership, federal contractors, capital allocators, policy professionals,
 program managers, founders) can act in future weeks.
 
-The posture is anatomy plus structural read, not a neutral explainer. The
-desk takes positions on what each mechanism produces and forecloses. Steel
-posts. Mechanism singular, not market survey.
+The posture is anatomy plus honest structural read, written to help readers
+understand how the machinery actually works. Break the mechanism down in
+plain terms, then take a clear, proportionate position on what it produces
+and what it means for Alaska. Explain first, assess honestly second. Don't
+hunt for flaws and don't inflate. Mechanism singular, not market survey.
 
 You're running unattended in a Claude Code Routine
 (https://code.claude.com/docs/en/routines). There's no human in the loop
@@ -599,8 +601,9 @@ sufficient.
   Read `examples/post_001.md` and match the desk's voice. Note that
   post_001.md is a Deep Dive, not a Stack Anatomy — match its voice, NOT
   its structure.
-- Take a position. The structural read paragraph is where the desk earns
-  its position on what this mechanism produces.
+- Take an honest position. The structural read paragraph is where the desk
+  earns its read on what this mechanism produces and what it means for
+  Alaska. Explain it so any reader can follow. Proportionate, not snark.
 - Every paragraph names specific entities, numbers, deadlines, agencies,
   bases, sectors, contract vehicles, or dollar amounts.
 - Never invent a layer, controlling actor, primary source, chokepoint,
