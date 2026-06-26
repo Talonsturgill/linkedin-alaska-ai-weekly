@@ -1,0 +1,97 @@
+{
+  "_validation_summary": "Validated 5 input stories (3 in-window, 2 background_context). All 5 retained with at least one working source. Key softening: E1 drop unverified $124M BEAD / 9,000 / 21,000 / 12,000 figures (use qualitative BEAD language); E2 replace '91 E175s' with 'entire regional fleet'; A1 do not cite a single training-cut dollar figure (ADN itemizes per-line, Alaska Public groups as $16M) but $89.5M total is confirmed; A2 AI-feature specifics appear only on a blog, soften and attribute; E3 drop '4,700 acres', carry as background texture only. BusinessWire (E1) and Alaska Beacon (A1) URLs dead this cycle and removed.",
+  "window": ["2026-06-19", "2026-06-26"],
+  "verified_findings": [
+    {
+      "id": "E1_ALSKCOMM_CEO",
+      "story_title": "Alaska Communications names fiber-specialist CEO mid-BEAD buildout",
+      "summary_2_sentences": "Alaska Communications announced June 24, 2026 that its board appointed Courtland Madock president and CEO effective September 1, 2026, succeeding Paul Fenaroli. Madock brings more than 18 years in broadband including senior leadership at Brightspeed where he led fiber expansion connecting over 1.4 million locations; he arrives as Alaska Communications executes its NTIA BEAD grant to connect thousands of unserved and underserved Alaska locations.",
+      "industry_consequence": "Broadband/telecom: Alaska Communications (ATN International, NASDAQ ATNI) and its BEAD co-grantees must assess by September 1, 2026 whether the leadership transition risks NTIA milestone slippage across its planned BEAD-funded buildout locations.",
+      "sources": [
+        {"url": "https://sg.finance.yahoo.com/news/alaska-communications-appoints-chief-executive-200500983.html", "outlet": "Yahoo Finance / BusinessWire", "pub_date": "2026-06-24"},
+        {"url": "https://briefglance.com/articles/new-ceo-at-alaska-communications-a-fresh-vision-for-the-final-frontier", "outlet": "BriefGlance", "pub_date": "2026-06-24"}
+      ],
+      "confidence": "medium",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "verified": true,
+      "needs_softening": true,
+      "softening_note": "Remove or hedge '$124M BEAD grant', '9,000 unserved locations', '21,000 total locations', '12,000 company-capital locations' — none appear on a fetched page. Use qualitative BEAD language. Verified: Courtland Madock, Sept 1 2026 effective, Paul Fenaroli predecessor, 18+ years, Brightspeed 1.4M locations.",
+      "dead_urls": ["https://www.businesswire.com/news/home/20260624158601/en/Alaska-Communications-Appoints-New-Chief-Executive-Officer"]
+    },
+    {
+      "id": "E2_ALK_STARLINK",
+      "story_title": "Alaska Airlines completes Starlink across full regional fleet",
+      "summary_2_sentences": "Alaska Air Group announced June 25, 2026 it has finished equipping its entire Embraer E175 regional fleet with Starlink WiFi, plus the first 50 mainline 737s, totaling more than 150 aircraft live at up to 500 Mbps across Alaska and Hawaiian combined. Free service for Atmos Rewards members via T-Mobile activates fleet-wide by mid-July 2026, with 787-9 widebodies targeted for fall 2026.",
+      "industry_consequence": "Aviation/LEO satellite: Alaska Air Group must complete 787-9 and remaining 737 mainline installs through 2027 to honor T-Mobile Atmos Rewards commitments.",
+      "sources": [
+        {"url": "https://news.alaskaair.com/guest-experience/atmos-rewards-members-unlock-free-inflight-wi-fi-on-alaska-hawaiian-airlines-thanks-to-t-mobile/", "outlet": "Alaska Airlines official newsroom", "pub_date": "2026-06-25"},
+        {"url": "https://www.prnewswire.com/news-releases/atmos-rewards-members-now-unlock-free-inflight-wi-fi-on-alaska-airlines-and-hawaiian-airlines-thanks-to-t-mobile-302810067.html", "outlet": "PRNewswire", "pub_date": "2026-06-25"},
+        {"url": "https://simpleflying.com/alaska-airlines-shifts-focus-to-mainline-after-completing-regional-starlink-wifi-rollout/", "outlet": "Simple Flying", "pub_date": "2026-06-25"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": true,
+      "background_context": false,
+      "verified": true,
+      "needs_softening": true,
+      "softening_note": "Use 'entire Embraer E175 regional fleet', not '91 E175s' (number not on any fetched page). Verified: 50 mainline 737s, more than 150 total, up to 500 Mbps, mid-July activation, 787-9 fall 2026, Atmos Rewards via T-Mobile.",
+      "dead_urls": []
+    },
+    {
+      "id": "A1_DUNLEAVY_VETO_TRAINING",
+      "story_title": "Dunleavy vetoes ~$89.5M from FY27 budget, including workforce-training expansions",
+      "summary_2_sentences": "On June 24, 2026 Governor Mike Dunleavy struck $89.5 million from Alaska's FY2027 budget, citing long-term fiscal sustainability, while leaving most K-12 school funding intact. Among the cuts were multiple workforce and vocational-training appropriations including expansions at the Alaska Vocational Technical Center, pipeline construction driver training, and related technical-school programs.",
+      "industry_consequence": "Workforce/training: Alaska technical schools lose planned FY2027 expansion funding effective the July 1, 2026 fiscal year start.",
+      "sources": [
+        {"url": "https://www.adn.com/politics/alaska-legislature/2026/06/24/gov-dunleavy-vetoes-nearly-90-million-from-alaska-state-budget/", "outlet": "Anchorage Daily News", "pub_date": "2026-06-24"},
+        {"url": "https://alaskapublic.org/news/politics/alaska-legislature/2026-06-24/gov-dunleavy-vetoes-89-5m-from-alaska-budget-but-leaves-school-funding-intact", "outlet": "Alaska Public Media", "pub_date": "2026-06-24"}
+      ],
+      "confidence": "high",
+      "is_in_window": true,
+      "primary_source": false,
+      "background_context": false,
+      "verified": true,
+      "needs_softening": true,
+      "softening_note": "Do not cite one training-cut dollar figure. ADN itemizes ($5.3M AVTEC, $5.2M Teamsters driver training, $4M Fairbanks pipeline training, $6.4M early-ed workforce); Alaska Public groups as '$16M for worker training at technical schools.' Describe qualitatively or use ADN per-line with attribution. $89.5M total confirmed by both.",
+      "dead_urls": ["https://alaskabeacon.com/2026/06/25/dunleavy-vetoes-some-health-and-education-increases-approved-by-alaska-lawmakers/"]
+    },
+    {
+      "id": "A2_NANA_WORKS",
+      "story_title": "NANA launches AI-assisted NANA Works employment platform for 15,000 shareholders",
+      "summary_2_sentences": "On May 26, 2026 NANA Regional Corporation and Geographic Solutions launched NANA Works, an employment platform serving NANA's 15,000-plus Inupiat shareholders across Northwest Alaska. The platform provides job matching, training access, and career resources; AI-assisted resume and interview-prep tools are described in secondary coverage.",
+      "industry_consequence": "Alaska Native corporate workforce: NANA now runs a live AI-assisted hiring and training platform for its full shareholder base across its subsidiaries and government contracts.",
+      "sources": [
+        {"url": "https://www.prnewswire.com/news-releases/geographic-solutions-partners-with-nana-regional-corporation-to-launch-nana-works-employment-platform-302782219.html", "outlet": "PR Newswire", "pub_date": "2026-05-26"},
+        {"url": "https://briefglance.com/articles/nana-works-tech-platform-to-boost-iupiat-workforce-in-northwest-alaska", "outlet": "BriefGlance", "pub_date": "2026-05-26"}
+      ],
+      "confidence": "medium",
+      "is_in_window": false,
+      "primary_source": true,
+      "background_context": true,
+      "verified": true,
+      "needs_softening": true,
+      "softening_note": "Primary source confirms 15,000+ shareholders, Northwest Alaska, Geographic Solutions VOS Sapphire, job matching, training access. AI resume/interview-prep specifics appear only on a blog; attribute to secondary coverage or soften to 'AI-assisted features.' Background item (May 26, out of window).",
+      "dead_urls": []
+    },
+    {
+      "id": "E3_DAF_RFLP",
+      "story_title": "DAF AI data-center lease proposals close June 29 at JBER, Eielson, Clear SFS",
+      "summary_2_sentences": "The Air Force Installation Contracting Agency RFLP (AFCEC-26-R-0006) for commercial AI data-center development at JBER, Eielson AFB, and Clear Space Force Station closes June 29, 2026 after a deadline extension; the last amendment was posted June 15, 2026. Offerors bear financing, construction, and operation costs, and the Air Force has not disclosed bidders.",
+      "industry_consequence": "Defense/data center: offerors who bid by June 29 will learn within weeks whether the DAF selects a lessee, triggering power, fiber, and water planning decisions for GVEA and GCI by late summer 2026.",
+      "sources": [
+        {"url": "https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/", "outlet": "HigherGov", "pub_date": "2026-06-15"},
+        {"url": "https://www.newsminer.com/news/local_news/proposed-air-force-data-center-land-leases-raise-some-concerns/article_98cbed0c-6574-464a-8097-c054c46cb699.html", "outlet": "Fairbanks Daily News-Miner", "pub_date": "2026-06-09"}
+      ],
+      "confidence": "medium",
+      "is_in_window": false,
+      "primary_source": true,
+      "background_context": true,
+      "verified": true,
+      "needs_softening": true,
+      "softening_note": "Remove '4,700 acres' (not on fetched pages). Use 'multiple sites across three Alaska military installations.' Verified: AFCEC-26-R-0006, June 29 deadline, June 15 last amendment, JBER/Eielson AFB/Clear SFS. Carry as background texture only (covered in prior run 06-23).",
+      "dead_urls": []
+    }
+  ]
+}
