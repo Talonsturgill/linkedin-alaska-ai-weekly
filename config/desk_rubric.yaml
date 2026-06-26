@@ -21,8 +21,8 @@ rubric:
       rule: "The post names a SPECIFIC decision the subject made or owns in the last 30 days (45 if the validator broadened the window), citing the primary-source URL from desk_dossier.json selected_decision.primary_source. Career history or undated achievements automatically force revise. Decision dates outside the window force revise."
     - name: "multi_source_corroboration"
       rule: "The body's account of the decision matches the dossier's selected_decision.corroborating_sources[] (at least 2 sources, at least one independent of the subject's organization). A post sourced only to a press release controlled by the subject's org automatically forces revise."
-    - name: "not_a_puff_piece"
-      rule: "The post takes a position on the decision (sharp, mediocre, or wrong, with reasoning). Hagiographic verbs ('transforming', 'spearheading', 'championing', 'visionary', 'trailblazing') without independent grounding force revise. Pure neutral biography forces revise. The structural read must do real analytical work."
+    - name: "grounded_not_press_release"
+      rule: "The post does real analytical work explaining the decision and why it matters to Alaska, grounded in independently corroborated evidence. Taking a position means an honest, evidence-led read of significance and consequence. Celebrate genuinely strong work where the evidence supports it, and name real risks or gaps proportionately where they exist. The post does NOT need to find fault. Manufactured criticism is as much a failure as empty boosterism. What forces revise: recycled press-release language, hagiographic verbs ('transforming', 'spearheading', 'championing', 'visionary', 'trailblazing') without independent grounding, pure neutral biography, or any praise or critique not traceable to evidence."
     - name: "no_invented_quotes"
       rule: "Every quote attributed to the subject must be verbatim from desk_dossier.json selected_subject.subject_quotes[] (with matching source_url). A quote not in the dossier is fabricated and automatically forces revise."
   criteria:
@@ -57,10 +57,10 @@ rubric:
     - name: "Structural read"
       weight: 0.13
       descriptors:
-        10: "Takes a real, debatable position on whether the decision was sharp, mediocre, or wrong, with reasoning. Matches the post_001.md energy. Not neutral description, not boosterism."
+        10: "Takes a real, honest position on what the decision means for Alaska and why it matters, grounded in the evidence. Celebrates strong work where warranted, names real risks proportionately where they exist. Matches the post_001.md energy. Not neutral description, not press-release boosterism, not manufactured criticism."
         7:  "Position present but soft, slightly hedged."
         4:  "Mostly description, position implied but not stated."
-        0:  "Pure boosterism, or pure neutral biography. No position."
+        0:  "Pure boosterism, pure neutral biography, or criticism not grounded in evidence. No honest position."
     - name: "Forward implication"
       weight: 0.08
       descriptors:
@@ -71,7 +71,7 @@ rubric:
     - name: "Voice match"
       weight: 0.10
       descriptors:
-        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate. Not press-release recap. Not LinkedIn-influencer cadence. Not hagiographic."
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate, and Alaska-first. Explains the decision in plain language any reader can follow without losing sophistication. Not press-release recap. Not LinkedIn-influencer cadence. Not hagiographic."
         7:  "Mostly on voice, one drift moment into press-release language or folksy boosterism."
         4:  "Drifts into hagiography or press-release cadence."
         0:  "Off-voice throughout."
@@ -88,11 +88,11 @@ rubric:
         7:  "Question present and on-topic but slightly generic."
         4:  "Generic prompt or LinkedIn-influencer-style rhetorical."
         0:  "No closing question, or replaced with CTA."
-    - name: "Anti-puff guard"
+    - name: "Credibility guard"
       weight: 0.10
       descriptors:
-        10: "Reads like an institutional accountability piece. Bio recap minimal, decision treatment substantial, structural read takes a position. Could plausibly be critical of the subject if the evidence warranted."
-        7:  "Mostly accountable but one paragraph drifts into superlative-without-grounding."
+        10: "Reads like grounded, independent analysis. Bio recap minimal, decision treatment substantial, every claim traceable to corroborated evidence. Praise and critique alike are earned by the evidence, never recycled from a press release and never invented."
+        7:  "Mostly grounded but one paragraph drifts into superlative-without-grounding."
         4:  "Tilts toward press-release recap. Hagiographic verbs sneak in. Bio recap > decision treatment in word count."
-        0:  "Pure boosterism or pure neutral biography. No accountability stance."
+        0:  "Ungrounded boosterism or ungrounded criticism. Claims not traceable to evidence."
   # Weight sum check: 0.10 + 0.16 + 0.10 + 0.14 + 0.13 + 0.08 + 0.10 + 0.05 + 0.04 + 0.10 = 1.00

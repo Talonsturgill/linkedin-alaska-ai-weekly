@@ -52,10 +52,10 @@ rubric:
     - name: "Structural read"
       weight: 0.12
       descriptors:
-        10: "Takes a real, debatable position on what this mechanism produces and why. Matches the post_001.md energy. Not neutral description."
+        10: "Explains clearly what this mechanism produces and what it means for Alaska, then takes a real, honest position on it, grounded in how the machinery actually works. Proportionate, not snark. Matches the post_001.md energy. Not a flat neutral explainer."
         7:  "Position present but soft, slightly hedged."
         4:  "Mostly description, position implied but not stated."
-        0:  "Pure neutral explainer. No position."
+        0:  "Pure neutral explainer with no read, or a position not grounded in the mechanism."
     - name: "Forward implication"
       weight: 0.08
       descriptors:
@@ -73,7 +73,7 @@ rubric:
     - name: "Voice match"
       weight: 0.08
       descriptors:
-        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate. Not explainer-bot. Not LinkedIn-influencer cadence."
+        10: "Reads like examples/post_001.md. Analytical, position-taking, structural, business-literate, and Alaska-first. Breaks the machinery down in plain language any reader can follow without losing sophistication. Not explainer-bot. Not LinkedIn-influencer cadence."
         7:  "Mostly on voice, one drift moment into folksy, corporate, or pure descriptive."
         4:  "Drifts into industry overview or thought-leadership cadence."
         0:  "Off-voice throughout."

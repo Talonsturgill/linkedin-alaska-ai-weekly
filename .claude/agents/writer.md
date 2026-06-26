@@ -163,10 +163,11 @@ anchor.
 4. **The chokepoint (1 paragraph)** — name the specific layer where
    leverage sits, the controlling actor, and the binary decision they
    own within their own authority. From `selected_mechanism.chokepoint`.
-5. **Structural read (1 to 2 paragraphs)** — the desk's position on what
-   this mechanism actually produces and what it forecloses or enables
-   for Alaska industry. This is the analytical core. From
-   `selected_mechanism.structural_read` plus `ak_consequence`.
+5. **Structural read (1 to 2 paragraphs)** — explain clearly what this
+   mechanism produces and what it means for Alaska industry, then take an
+   honest, proportionate position on it. This is the analytical core. Say
+   what it enables, and name a real risk only where the evidence warrants.
+   From `selected_mechanism.structural_read` plus `ak_consequence`.
 6. **Forward implication (1 paragraph)** — name the next decision point,
    the date or window, who's positioned and who isn't. From
    `selected_mechanism.forward_implication`.
@@ -187,8 +188,10 @@ Use this structure ONLY when the orchestrator's spawn message contains
 "Profile mode". Your input is `desk_dossier.json` (in place of verified
 findings) plus `examples/post_001.md`. The voice is identical to the
 house voice; the unit of work is a person plus a specific recent
-decision they made or own. The posture is institutional accountability,
-not promotion. Bio gets minimal treatment; the decision is the post.
+decision they made or own. The posture is to shine a light on the work
+and explain it plainly, then give an honest, proportionate read. Not
+promotion, not a takedown. Bio gets minimal treatment; the decision is
+the post.
 
 1. **Hook (2 sentences, ≤210 chars)** — name subject (full name +
    role) + the recent decision that triggered the profile. The
@@ -202,10 +205,11 @@ not promotion. Bio gets minimal treatment; the decision is the post.
    source + the binary the subject owned (approved/blocked,
    funded/cut, hired/passed). Cite source inline. Pull from
    `selected_decision`.
-4. **Structural read (1-2 paragraphs)** — the desk's position on
-   whether the decision was sharp, mediocre, or wrong, and why. The
-   analytical core. From `structural_read` + the
-   `selected_decision.debatable_axis`.
+4. **Structural read (1-2 paragraphs)** — explain what the decision
+   means for Alaska and why it matters, then take an honest position on
+   it. The analytical core. When the work is strong, say so and say why.
+   Name a real risk only where the evidence warrants. From
+   `structural_read` plus the `selected_decision.debatable_axis`.
 5. **Forward implication (1 paragraph)** — name the next decision the
    subject owns, the date or window, what to watch. From
    `forward_implication`.
