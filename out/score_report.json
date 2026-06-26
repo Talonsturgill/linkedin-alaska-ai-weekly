@@ -5,7 +5,7 @@
   "ship": true,
   "weighted_total": 9.22,
   "hard_fails_tripped": [],
-  "criteria_scores": [
+  "criteria": [
     {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Line 1 names subject, role, org, and the 'first major carrier' decision. Line 2 pivots immediately to structural tension. Decision is the hook, not the bio. Minor ding: 'in April' slightly imprecise vs. April 16."},
     {"name": "Subject + decision load-bearing for AK", "score": 8, "weight": 0.16, "weighted_contribution": 1.28, "notes": "Subject's role has direct operational scope over the Anchorage maintenance base at Ted Stevens International. No dollar figure available from dossier; workforce impact at the Anchorage base is inferred rather than quantified."},
     {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name, role (VP of Maintenance Operations), and org (Alaska Airlines) in line 1. Anchorage tie explicit. All facts match dossier."},
