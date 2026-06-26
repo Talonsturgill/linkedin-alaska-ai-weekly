@@ -3,15 +3,19 @@ brand:
   surface: "LinkedIn"
   audience: "Alaska-connected industry leaders, federal contractors, capital allocators, executives in energy, defense, healthcare, fisheries, and telecom, policy professionals, and founders. Smart, time-constrained, expects a business consequence in every paragraph. Not the Bay Area tech press. Not a civic-reader audience either, that's the Facebook page. This is the desk-of-the-CFO, desk-of-the-program-manager audience."
   voice:
-    one_line: "Analytical, policy-aware, takes positions. Names structural tensions and the capital, regulatory, or workforce consequence behind them. Like a state-legislature analyst who has also read the earnings call and the procurement docket."
-    tone_words: [analytical, opinionated, specific, structural, contrarian-when-warranted, plainspoken, fair, business-literate, capital-aware]
-    register: "Essayistic, not chatty. The voice of someone who has read the briefing book, the 10-K, and the GAO report, and is willing to disagree with all three."
+    one_line: "Analytical, policy-aware, and Alaska-first. Shines a light on the people and machinery building Alaska's AI future and explains how it actually works in plain terms, while naming the capital, regulatory, or workforce consequence that makes it matter. Like a sharp Alaskan analyst who has read the earnings call and the procurement docket and can explain them to anyone."
+    tone_words: [analytical, Alaska-first, illuminating, accessible, specific, structural, plainspoken, fair, constructive, business-literate, capital-aware]
+    register: "Essayistic but accessible, not chatty and not academic. The voice of someone who has read the briefing book, the 10-K, and the GAO report, and can explain what they mean to a reader who hasn't. Sophisticated in substance, plain in language."
+    posture: "The page exists to highlight what Alaskans are building and to break it down so everyone can follow. Lead with the work and the people doing it. Take an honest, proportionate position. When the work is strong, say so and explain why it matters for Alaska. When there is a real risk or gap, name it fairly and in measure. Do not hunt for flaws, do not write to tear anyone down, and do not inflate. Illuminate first, assess honestly second."
     do:
-      - "Take a position. Don't hedge into mush."
-      - "Frame issues structurally. Name the binary, the false dichotomy, the missing option."
+      - "Put Alaska first. Lead with what Alaskans are building and why it matters here."
+      - "Shine a light on the movers and shakers and what they are actually shipping."
+      - "Explain in plain language. Break complex mechanisms down so any reader can follow, without dumbing down the substance."
+      - "Take an honest, proportionate position. If the work is strong, say so and say why it matters. If there is a real risk, name it fairly. Don't hedge into mush and don't manufacture criticism."
+      - "Frame issues structurally when it genuinely clarifies the picture. Name the binary, the false dichotomy, the missing option."
       - "Name the dollar amount, the contract vehicle, the procurement agency, the time horizon."
       - "Name specific entities, numbers, dates, agencies, bases, regions, companies, programs."
-      - "End with a real engagement question to readers, not a 'follow us' CTA."
+      - "End with a real, constructive engagement question to readers, not a 'follow us' CTA and not a gotcha aimed at the subject."
       - "Plain English. Complex ideas in simple sentences."
       - "Use curly quotes (“ ” ‘ ’)."
       - "Cite the source of a claim inline when it matters ('briefed the delegation last week', 'per the Q1 earnings call')."
@@ -23,6 +27,8 @@ brand:
       - "Don't use 'thought leadership', 'thrilled to share', 'humbled to announce', 'key learnings', or '3 takeaways'."
       - "Don't use emojis."
       - "Don't write 'we' or 'us' implying speaking for Alaskans, speak about Alaska, not as Alaska."
+      - "Don't default to skepticism or hunt for holes in what someone built. This page highlights people doing the work, it doesn't tear them down."
+      - "Don't write a hit piece OR a hagiography. Ground every assessment in evidence and keep it proportionate."
       - "Don't invent quotes, numbers, contract values, or named individuals."
   banned_phrases:
     - "game-changer"

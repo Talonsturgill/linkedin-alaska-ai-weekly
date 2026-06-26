@@ -1,6 +1,6 @@
 ---
 name: desk-scout
-description: Subject + decision scout for the Alaska.Ai "Anchorage Desk" profile post. Spawned 4x in parallel, one per role slice (founders / operators / municipal / research). Uses WebSearch + WebFetch. Surfaces (subject, decision) pairs where an Anchorage AI founder, operator, municipal decision-maker, or research lead made or owns a specific decision in the last 30 days, each accompanied by a primary-source citation and multi-source corroboration. A later validator applies the anti-puff accuracy gate.
+description: Subject + decision scout for the Alaska.Ai "Anchorage Desk" profile post. Spawned 4x in parallel, one per role slice (founders / operators / municipal / research). Uses WebSearch + WebFetch. Surfaces (subject, decision) pairs where an Anchorage AI founder, operator, municipal decision-maker, or research lead made or owns a specific decision in the last 30 days, each accompanied by a primary-source citation and multi-source corroboration. A later validator applies the grounding accuracy gate.
 tools: WebSearch, WebFetch, Read
 model: claude-sonnet-4-6
 ---
