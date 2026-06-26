@@ -1,23 +1,20 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Governor Mike Dunleavy says Alaska’s cold could save a one-gigawatt data center upwards of $150 million a year. The cooling math is real. The siting math is where it falls apart.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Pitching the state to hyperscalers at the data-center conference circuit, the Governor put a number on the cold. “Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year.” He has repeated it across at least two venues since October 2025, and it has become the quantified anchor of Alaska’s recruitment pitch.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The physics behind it is sound, and that is worth saying plainly. A colder ambient genuinely lets a facility shed heat with economizers instead of running mechanical chillers around the clock, which shrinks the cooling slice of PUE. The Nordic build-out at Lulea and across Iceland is the textbook precedent. At gigawatt scale, a real efficiency gain is real money, so the cold-equals-cheaper-cooling intuition is grounded in operating reality, not invented.
 
-Five layers sit between an Air Force land offer and a powered data center.
+The magnitude is where it breaks. UAF’s Alaska Center for Energy and Power, in a February 2024 reality-check, finds cooling typically runs 5 percent or less of ongoing operations and maintenance cost, and notes the cold winters may not offer quite as many thermal advantages as one would think. The line that actually decides siting is the electricity that runs the chips, and on that line Alaska is worst in the nation. Per an ADN analysis, large commercial users on Chugach’s system pay roughly 14 to 17 cents per kilowatt-hour, against Virginia at 8.99 cents and Texas at 6.12 cents. ACEP’s March 2025 follow-up names power price, not cooling, as the dominant site-selection variable.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The more accurate frame, in short.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+- Free cooling is genuine but is a rounding error next to power cost.
+- Alaska’s commercial power price is the highest in the United States.
+- Chugach says it does not currently have gas to serve a large data center.
+- GVEA’s Cook Inlet gas fell from about 30 percent of supply to under 1 percent.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+This matters because the $150 million number is doing load-bearing work. It is being cited in the SB 250 tax-incentive debate and in land-lease terms at JBER, Eielson, and Clear. If the cooling edge is marginal and the power-cost gap is structural, then any incentive package and any capital allocator’s siting model is sized against the wrong variable. The cold is a true advantage. It is just not the one a CFO is solving for.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+If you were modeling an Alaska data center, what power price would change your answer, and could any incentive get you there?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #DataCenters #EnergyPolicy #AIPolicy #GridPolicy

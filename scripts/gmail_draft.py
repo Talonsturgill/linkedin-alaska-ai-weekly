@@ -22,7 +22,8 @@ table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-
 
 
 def render(post_text, image_b64, sources, score, date_str, branch,
-           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn"):
+           label="Weekly LinkedIn Recap", footer_label="Weekly LinkedIn",
+           editor_note="", image_src=None):
     src_items = "\n".join(
         f'<li><a href="{s["url"]}">{s["outlet"]}</a> &mdash; '
         f'{s.get("pub_date","")} &mdash; {s.get("story_title","")}</li>'
@@ -38,14 +39,20 @@ def render(post_text, image_b64, sources, score, date_str, branch,
         f'{score.get("weakest_criterion","?")}. '
         f'Fix: {score.get("one_sentence_fix","?")}</div>'
     )
+    img_uri = image_src if image_src else f"data:image/png;base64,{image_b64}"
+    editor_block = (
+        f'<h2>Editor\'s note</h2><div class="flag">{editor_note}</div>'
+        if editor_note else ""
+    )
     return f"""<!doctype html><html><head><style>{CSS}</style></head><body>
 <div class="wrap">
   <h1>Alaska.Ai &mdash; {label} Draft</h1>
   <div class="sub">{date_str} &middot; branch <code>{branch}</code></div>
   <h2>Copy this for LinkedIn</h2>
   <pre class="post">{post_text}</pre>
-  <div class="img"><img src="data:image/png;base64,{image_b64}" alt="Alaska.Ai weekly image"/></div>
+  <div class="img"><img src="{img_uri}" alt="Alaska.Ai post image"/></div>
   {ship_flag}
+  {editor_block}
   <h2>Sources</h2>
   <ul>{src_items}</ul>
   <h2>Editor's report card</h2>
@@ -70,10 +77,16 @@ def main():
     ap.add_argument("--branch",  required=True)
     ap.add_argument("--label",        default="Weekly LinkedIn Recap")
     ap.add_argument("--footer-label", default="Weekly LinkedIn")
+    ap.add_argument("--editor-note",  default="")
+    ap.add_argument("--image-url",    default=None,
+                    help="If set, use this hosted URL for the image instead of inline base64.")
     args = ap.parse_args()
 
     post_text = Path(args.post_md).read_text()
-    image_b64 = base64.b64encode(Path(args.image).read_bytes()).decode("ascii")
+    if args.image_url:
+        image_b64 = ""
+    else:
+        image_b64 = base64.b64encode(Path(args.image).read_bytes()).decode("ascii")
     sources = json.loads(Path(args.sources).read_text())
     score = json.loads(Path(args.score).read_text())
 
@@ -81,7 +94,8 @@ def main():
         "subject": f"Alaska.Ai — {args.label} Draft — {args.date}",
         "to": "me",
         "html_body": render(post_text, image_b64, sources, score, args.date,
-                            args.branch, args.label, args.footer_label),
+                            args.branch, args.label, args.footer_label,
+                            args.editor_note, args.image_url),
     }
     print(json.dumps(payload))
 
