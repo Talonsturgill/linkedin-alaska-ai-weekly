@@ -1,32 +1,32 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-25",
   "rubric_used": "config/desk_rubric.yaml",
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
+  "weighted_total": 9.22,
   "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Line 1 names subject, role, org, and the 'first major carrier' decision. Line 2 pivots immediately to structural tension. Decision is the hook, not the bio. Minor ding: 'in April' slightly imprecise vs. April 16."},
+    {"name": "Subject + decision load-bearing for AK", "score": 8, "weight": 0.16, "weighted_contribution": 1.28, "notes": "Subject's role has direct operational scope over the Anchorage maintenance base at Ted Stevens International. No dollar figure available from dossier; workforce impact at the Anchorage base is inferred rather than quantified."},
+    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name, role (VP of Maintenance Operations), and org (Alaska Airlines) in line 1. Anchorage tie explicit. All facts match dossier."},
+    {"name": "Decision specificity + primary-source", "score": 9, "weight": 0.14, "weighted_contribution": 1.26, "notes": "Decision named with what, when, binary. Independent corroborating source named inline (ePlane AI News, April 16). Date within broadened 90-day window. Minor: does not distinguish primary-source URL inline."},
+    {"name": "Structural read", "score": 10, "weight": 0.13, "weighted_contribution": 1.30, "notes": "Takes a clear, debatable position: the decision is defensible, but the communication framing overstates certainty for a pre-production validation phase. Critiques Engel's quote language directly. Not neutral, not boosterism."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "weighted_contribution": 0.72, "notes": "Named concrete signals: Q3/Q4 2026 10-Q filings, Tailsight customer announcements, second-carrier test. Date window specific. Minor: does not name a next decision Engel himself owns."},
+    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, structural, position-taking throughout. No hagiographic verbs, no banned phrases. One minor soft moment: 'a genuine de-risking signal'."},
+    {"name": "Readability (LinkedIn)", "score": 10, "weight": 0.05, "weighted_contribution": 0.50, "notes": "Paragraphs 2-4 sentences. Word count 426 within range. Total chars ~2,874 under cap. Bio one sentence. Scannable on mobile and desktop."},
+    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied to post's central analytical tension. Debatable, not generic. Minor: 'If you were the VP' framing introduces slight role-play persona."},
+    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "No hagiographic verbs. Bio one sentence. Four+ paragraphs on decision treatment and structural critique. Explicitly states communication choice was suboptimal."}
   ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
+    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "4 hashtags at end only, all on the whitelist."},
     {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,874 characters, under 3,000 cap."},
+    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 426, within 350-475."},
+    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Nathan Engel + VP of Maintenance Operations + Alaska Airlines named in line 1; Anchorage tie named in paragraph 2."},
+    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "April 16 announcement cited. Decision dated April 16, 2026, within broadened 90-day window. ePlane AI News corroborator named inline."},
+    {"name": "multi_source_corroboration", "result": "PASS", "detail": "Alaska Airlines Newsroom (primary) + ePlane AI News (independent corroborator) both documented in dossier. ePlane AI News independent of subject's org."},
+    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear position: decision defensible but communication overstates certainty. Critiques Engel's quote framing directly."},
+    {"name": "no_invented_quotes", "result": "PASS", "detail": "Engel quote verbatim-matched to dossier subject_quotes[0].verbatim."}
   ],
-  "one_sentence_fix": null
+  "one_sentence_fix": "If a revision cycle opens, add one sentence naming the approximate scale of the Anchorage maintenance base workforce or the operational consequence unit to close the dollar/workforce quantification gap."
 }

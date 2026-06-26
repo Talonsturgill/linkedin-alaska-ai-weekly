@@ -1,27 +1,31 @@
-# Anchorage Desk Selection — 20 May 2026
+# Anchorage Desk — Selection — 2026-06-25
 
 ## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Nathan Engel**
+- Role: Vice President of Maintenance Operations
+- Org: Alaska Airlines
+- Role category: operator
+- Role label (image): OPERATOR
 
-## Role
-FOUNDER (kicker middle slot)
+## Anchorage tie
+Alaska Airlines operates one of its largest maintenance bases at Ted Stevens Anchorage International Airport. Engel's VP of Maintenance Operations role has direct operational scope over that facility. The Tailsight AI deployment covers all maintenance stations, materially affecting the Anchorage hub's maintenance planning infrastructure. Bowl tie is through operational impact, not personal bowl residency.
 
 ## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Alaska Airlines announces multiyear investment and partnership with Tailsight AI maintenance planning platform (April 16, 2026)**
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+Alaska Airlines became the first major airline to deploy Tailsight's AI-powered maintenance planning platform, announcing a multiyear investment partnership. The platform integrates maintenance system inputs, flight schedules, staffing, station capability, and parts availability into a unified planning environment with a real-time optimization engine.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+Decision date: 2026-04-16 (within 90-day broadened window; 10 days outside 60-day window)
+
+Primary source: https://news.alaskaair.com/innovation/alaska-airlines-and-tailsight-launch-ai-powered-maintenance-planning-solution/
+
+Independent corroboration: https://www.eplaneai.com/news/alaska-airlines-partners-with-tailsight-to-reduce-aircraft-downtime-using-ai
 
 ## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+Defensible first-mover bet with real execution risk. Engel committed Alaska Airlines as Tailsight's launch customer, bearing integration risk in exchange for favorable pricing and co-development leverage. Two years of co-development is a genuine de-risking signal, but the public framing centers on team confidence rather than demonstrated fleet-level outcomes. Reasonable decision; communication optimistic beyond the evidence.
 
 ## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+Watch Q3/Q4 2026 10-Q filings for maintenance reliability data; watch whether Tailsight signs additional airline customers (which would reduce Alaska's launch-customer exposure risk); watch for any explicit naming of the Anchorage maintenance base in milestone announcements.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## ROLE for image
+OPERATOR
