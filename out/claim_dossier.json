@@ -1,0 +1,123 @@
+{
+  "issue_label": "NO. 26",
+  "run_date": "2026-06-25",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "id": "cool_dunleavy_150M",
+    "theme": "data-center economics (cooling / PUE)",
+    "discourse_slice": "policy_official|ak_press",
+    "claim_verbatim": "Think on average, we are 30 degrees cooler than Texas, which, when you look at your PUE math, could save a one-gigawatt plant upwards of $150 million a year.",
+    "claim_paraphrase_fair": "Governor Dunleavy argues that Alaska's cold climate is a decisive, quantifiable data-center advantage worth up to $150 million a year per gigawatt of compute versus a warm-climate site like Texas.",
+    "asserters": [
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://www.datacenterknowledge.com/data-center-site-selection/alaska-governor-pitches-state-as-a-data-center-hub-for-ai-era-compute",
+        "outlet": "Data Center Knowledge",
+        "pub_date": "2025-10-07",
+        "is_primary": false,
+        "independently_originated": true
+      },
+      {
+        "name": "Mike Dunleavy",
+        "title_or_org": "Governor of Alaska",
+        "url": "https://broadbandbreakfast.com/alaska-pushes-for-data-center-investment/",
+        "outlet": "Broadband Breakfast",
+        "pub_date": "2026-04-24",
+        "is_primary": false,
+        "independently_originated": false
+      }
+    ],
+    "circulation_count": 5,
+    "why_smart_people_believe_it": "The physics of free-air cooling is real. A colder ambient genuinely lets a data center shed heat with economizers instead of running mechanical chillers nonstop, which lowers the cooling component of PUE. The Nordic data-center build-out (Lulea, Iceland) is the textbook precedent, and at gigawatt scale even a small efficiency gain is real money. So the cold-equals-cheaper-cooling intuition is grounded in operating reality, not invented.",
+    "steelman": "Alaska's climate does cut mechanical cooling load. Free cooling is available most of the year, the cooling slice of PUE genuinely shrinks in a cold climate, and hyperscalers have demonstrably sited for thermal efficiency before. For a one-gigawatt plant, a measurable PUE improvement does translate into a real annual number. The Governor is pointing at a true physical advantage that warm-climate sites cannot replicate.",
+    "where_it_breaks": "Cooling is the smallest cost line, not the largest. UAF's Alaska Center for Energy and Power finds cooling typically runs 5% or less of ongoing operations and maintenance cost, so even erasing it entirely cannot move the economics the way the $150 million figure implies. The cost that actually decides siting is the electricity that runs the chips, and on that line Alaska is worst in the nation. ACEP and state rate data put large commercial Railbelt power around 14 to 17 cents per kilowatt-hour against single digits in Virginia and Texas. The cold shaves a sliver off the smallest cost while the biggest cost runs the wrong way.",
+    "corrective_thesis": "Alaska's cold is a real but minor cooling perk that primary research pegs at 5 percent or less of operating cost, while the line that actually decides data-center siting, electricity, is where Alaska runs worst in the nation, so the Governor's $150 million cooling pitch sells the smallest lever and buries the biggest one.",
+    "more_accurate_frame": "Free cooling is a genuine Alaska advantage, but it is a rounding error next to the cost that drives every hyperscale siting decision. Cooling is at most 5 percent of operating cost per UAF ACEP, and Alaska's commercial power price, the dominant data-center cost, is the highest in the United States. A recruitment pitch and a tax-incentive package built on the cooling number is sized against the wrong variable. The binding constraint is power price and firm power supply, not thermal efficiency.",
+    "counter_evidence": [
+      {
+        "fact": "UAF Alaska Center for Energy and Power: cooling costs typically represent 5% or less of ongoing operations and maintenance costs, and the cold winters may not offer quite as many thermal energy advantages as one would think.",
+        "url": "https://www.uaf.edu/acep-blog/alaskas-data-center-opportunity-a-reality-check-and-possible-next-steps.php",
+        "outlet": "UAF Alaska Center for Energy and Power",
+        "pub_date": "2024-02-09",
+        "is_primary": true
+      },
+      {
+        "fact": "UAF ACEP follow-up: Alaska's cost of electricity is among the highest in the U.S., identifying electricity price, not cooling efficiency, as the dominant data-center site-selection variable.",
+        "url": "https://www.uaf.edu/acep-blog/can-data-centers-lower-alaskas-high-energy-costs.php",
+        "outlet": "UAF Alaska Center for Energy and Power",
+        "pub_date": "2025-03-25",
+        "is_primary": true
+      },
+      {
+        "fact": "Large commercial users on Chugach's system pay roughly 14 to 17 cents per kilowatt-hour, versus Virginia at 8.99 cents and Texas at 6.12 cents, according to data aggregated in an ADN analysis.",
+        "url": "https://www.adn.com/opinions/2026/04/12/opinion-alaskas-data-center-dreams-need-a-reality-check/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-04-12",
+        "is_primary": false
+      },
+      {
+        "fact": "Chugach Electric Association: 'We currently do not have gas to serve a large data center.' GVEA reported Cook Inlet gas dropped from about 30% of its fuel supply to less than 1% last year, underscoring that firm power supply, not cooling, is the binding constraint.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": true
+      }
+    ],
+    "industry_consequence": "The Governor's cooling-savings figure is the quantified anchor of the state's hyperscaler recruitment pitch and is being cited in the SB 250 data-center tax-incentive debate and in land-lease terms at JBER, Eielson, and the North Slope. If the cooling advantage is marginal and the electricity-cost disadvantage is structural, then any incentive package and any capital allocator's Alaska siting model is sized against the wrong variable. The decision a CFO or program manager should reframe is whether to discount Alaska's worst-in-nation commercial power rates against a cooling number that primary research says is a rounding error.",
+    "ak_stakes": "Federal and commercial data-center siting, SB 250 tax incentives, Railbelt utility planning, and the Air Force base land-lease program at JBER, Eielson, and Clear.",
+    "confidence": "high",
+    "gate_results": {
+      "attribution_pass": true,
+      "attribution_note": "Verbatim quote confirmed on Data Center Knowledge; asserter is the sitting Governor of Alaska, maximally named and verifiable.",
+      "circulation_pass": true,
+      "circulation_note": "Repeated by Dunleavy across at least two venues (Oct 2025, Apr 2026) and echoed by Rep. Begich, Rep. McCabe, Stak Energy, and a Landye Bennett Blumstein brief.",
+      "load_bearing_pass": true,
+      "load_bearing_note": "Anchor figure in the state's hyperscaler pitch and the SB 250 incentive debate; real capital and incentive-sizing decisions ride on it.",
+      "steelman_survives_pass": true,
+      "steelman_note": "Free cooling is a genuine physical advantage; the steelman is honest and strong, but the load-bearing $150M magnitude does not survive the 5%-of-O&M primary finding.",
+      "rebuttable_pass": true,
+      "rebuttable_note": "Correction rests on two primary UAF ACEP findings plus utility statements, all re-verifiable.",
+      "not_recent_repeat_pass": true,
+      "not_recent_repeat_note": "Distinct mechanism from the corrected 4-5 cent power-price claim (06-22) and the stranded-gas claim (06-17); the cooling/PUE advantage has not been corrected by the desk."
+    },
+    "_selection_note": "Selected by the orchestrator in Phase 4, overriding the validator's first pick (anc_8a_fastlane). The validator graded the ANC 8(a) claim medium confidence and flagged that the 'durable fast-lane' framing being corrected is inferred from the article rather than asserted by the named source (BriefGlance, an unmasthead 2026-vintage outlet), which is a strawman risk and an editor hard-fail for this column. The validator confirmed this cooling claim passes all six gates and dropped it only on a thematic-freshness preference. For a corrective column, attribution integrity outweighs theme rotation, and the Governor-attributed, verbatim, primary-rebuttable cooling claim is the strongest available target."
+  },
+  "dropped_claims": [
+    {
+      "id": "anc_8a_fastlane",
+      "claim_verbatim": "This is about speed to mission, not just speed to contract",
+      "drop_reason": "Validator's first pick, overridden in Phase 4. Medium confidence: BriefGlance is an unmasthead 2026-vintage outlet, and the 'durable fast-lane' framing to be corrected is inferred from the article structure rather than asserted by the named source, creating strawman risk (an editor hard-fail). Counter-evidence (Hegseth $20M+ review, SBA audit) is strong and primary, so this is a viable future target with a cleaner asserter, but not the strongest this cycle."
+    },
+    {
+      "id": "rhtp_directs_ai",
+      "claim_verbatim": "The way that the feds designed it is almost directing us to AI",
+      "drop_reason": "Gate 1 partial fail: the candidate verbatim is a mid-sentence excerpt that drops the framing clause present on the GovTech page. Gate 5 weakened: the specific 'connectivity is not an eligible expense' counter could not be confirmed from a primary RHTP docket (program pages returned 403; BPC lists health IT infrastructure as eligible)."
+    },
+    {
+      "id": "arctic_satellites_dont_work",
+      "claim_verbatim": "Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?",
+      "drop_reason": "Gate 4 fail: the steelman survives as largely true. Military GEO SATCOM genuinely has a coverage gap above ~65N, confirmed by the counter-source itself, so the correction would be too narrow."
+    },
+    {
+      "id": "gage_load_lowers_rates",
+      "claim_verbatim": "The path to lower electric rates isn't only about securing gas supply and building new clean energy. It's also about growing demand, and making better use of the infrastructure we've already built.",
+      "drop_reason": "Gate 2 marginal: circulates mainly through a single op-ed by a board candidate; no independently-originated second asserter. Also a data-center-economics theme."
+    },
+    {
+      "id": "brookings_989_dod",
+      "claim_verbatim": "In 2026, the department's total potential value of contracts rose an astounding 1,605% to $90.7 billion from 2024, which represents 98.9% of the federal AI spend",
+      "drop_reason": "Gate 3 fail: national federal market-sizing statistic with no named Alaska actor or Alaska procurement decision riding on it; weak AK-specific tie."
+    },
+    {
+      "id": "mahoney_inevitable",
+      "claim_verbatim": "The AI data center load shape is changing and data architectures have advanced, so places like Alaska's North Slope become not only viable, but we argue that they have become inevitable.",
+      "drop_reason": "Gate 6 fail: overlaps the already-corrected stranded-gas / North Slope cluster (issue 06-17)."
+    },
+    {
+      "id": "alaska_no_ai_policy",
+      "claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.",
+      "drop_reason": "Gate 4 fail: steelman survives as essentially true. HB 47 is a narrow criminal statute and the OIT rollout is a tool deployment, not a comprehensive AI policy framework, so there is nothing load-bearing left to correct."
+    }
+  ]
+}
