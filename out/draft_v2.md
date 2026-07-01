@@ -1,23 +1,21 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Alaska’s fiscal year turned on July 1, and every piece of machinery that would actually build its AI economy sat idle. The defense money, the pipeline power, the data-center leases, the training dollars. Nothing that builds the industry closed.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Start with defense. On June 30 a House rule vote failed 198 to 224, so the FY2027 NDAA never reached the floor and the House left for July 4 recess. That bill carries Senator Sullivan’s 56 provisions and, per his office, roughly $2.6 billion in Alaska authorizations, including $15 million for resilient autonomous Arctic sensing and $10 million for autonomy inside Golden Dome. Read the mechanics carefully. This is committee-advanced authorization, not appropriated money, and it stalled on a House procedural vote, not on the Senate provisions themselves. Either way, the calendar won.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The same pattern repeated across every layer of the stack.
 
-Five layers sit between an Air Force land offer and a powered data center.
+- The Alaska LNG tax bill (HB 381), Glenfarne’s condition for the roughly $55 billion pipeline per ADN, missed its July 1 target.
+- The Air Force AI data-center lease RFLP (AFCEC-26-R-0006) at JBER, Eielson, and Clear SFS closed June 29 into silent evaluation, no award.
+- Alaska DNR pushed the STAK Energy North Slope data-center comment period to July 17.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+All dates, no closes. The pipeline bill stalled on a prevailing-wage amendment beyond the June 11 union MOU and a corporate income tax Governor Dunleavy has said he would veto, so lawmakers return July 16 and the session expires July 19. And on June 24, signing the FY2027 budget with about $89.5 million in vetoes, Dunleavy cut roughly $16 million from pipeline and vocational training, including AVTEC, the Fairbanks Pipeline Training Center, and the Teamsters driver program. Senate Finance co-chair Bert Stedman said “We’re trying to push forward for a gas line.” The human pipeline got cut the same week the gas-line tax bill stalled.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+Here is the tell. The only Alaska AI statute that actually took effect July 1 was Representative Sarah Vance’s criminal ban on AI-generated CSAM. The one AI decision that closed this week regulated harm. It didn’t build industry.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+Under Secretary Matthew Lohmeier toured JBER and Eielson June 22 to 24, called Alaska “the crossroads of the Arctic and the Pacific,” and pointed to about $8 billion in Air Force investment over five years. The demand signal is loud. The binding constraint this week wasn’t capital or demand. It was the calendar.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+The next real close is August 1, when the state names awardees from the roughly $272 million Year-1 CMS Rural Health Transformation pool, where AI tools and drone delivery are eligible and Tanana Chiefs Conference and Providence are among applicants.
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
+When a recess, a veto pen, and a session clock all bite in one week, is Alaska’s AI bottleneck really capital, or is it the legislative calendar?
 
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #EnergyPolicy #DefenseTech #RuralHealth #AIPolicy
