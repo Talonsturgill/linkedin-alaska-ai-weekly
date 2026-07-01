@@ -1,27 +1,56 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom / Cold Take — NO. 27 — Selection
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## Discourse category (kicker middle slot)
+DEFENSE
 
-## Role
-FOUNDER (kicker middle slot)
+## The claim (verbatim)
+"By making this land available, we are supporting the growing demands of the AI
+industry while generating value that directly supports our missions and the
+readiness of our Airmen and Guardians"
+— Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations
+(Air & Space Forces Magazine, 2026-04-10), on the Enhanced Use Lease offer of
+land at JBER, Eielson AFB, and Clear Space Force Station for AI data centers.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Why it circulates
+The line is the official rationale for the DAF Enhanced Use Lease program on the
+three Alaska bases. It was carried across Air & Space Forces Magazine, ExecutiveGov,
+GovTech, and Alaska's News Source, and Sen. Dan Sullivan publicly claimed credit
+for getting the Alaska bases included. It is the sentence bidders, lawmakers, and
+communities are reading to decide whether this is mission-aligned.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Steelman (stated fairly, before any correction)
+The Air Force sits on underused land at three strategically placed Alaska bases.
+Enhanced Use Lease authority exists precisely to turn idle acreage into
+non-appropriated revenue that funds base operations and quality-of-life programs,
+cutting reliance on annual appropriations. Monetizing land while pulling technology
+investment into Alaska is coherent defense-business logic, and the RFLP was written
+with mitigation requirements.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Corrective thesis (one sentence)
+The Air Force's own lease document treats base power as an unsolved constraint, and
+West Point's Modern War Institute now calls concentrated AI compute "key terrain"
+and an "attractive target," so putting that compute on a high-value base can subtract
+from readiness rather than add to it.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Evidence spine (all from claim_dossier.json)
+1. Moriarty's "supports readiness" quote — Air & Space Forces Magazine, 2026-04-10 (primary).
+2. Vogt & Kollars (US Naval War College / West Point MWI), 2026-06-09: data centers
+   are "key terrain" and "attractive targets" (primary).
+3. The RFLP requires offerors to keep base and community utilities "accessible and
+   affordable," and the Air Force cited a study projecting resident bill increases of
+   $14 to $37/month by 2040 — power is a live constraint (primary, Air & Space Forces).
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## AK business consequence
+Alaska ANCs, construction contractors, and utilities (Chugach Electric) weighing bids
+on the JBER / Eielson / Clear SFS Enhanced Use Leases. If the readiness rationale is
+contested, the program carries a policy-reversal risk that firms building pipelines
+around it may be underpricing.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Handling notes for the writer
+- Represent the MWI counter fairly: it addresses AI-compute concentration generally.
+  The application to Alaska bases is the desk's structural argument, not a direct MWI
+  statement about these specific bases. Do not put words in MWI's mouth.
+- Do NOT assert a single exact RFLP deadline date (coverage varies). Say bids were
+  solicited in 2026.
+- The fresh angle is the SECURITY INVERSION, not power economics (power is a supporting
+  point only). Prior issues already corrected Alaska data-center power/cooling claims.

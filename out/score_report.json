@@ -1,32 +1,112 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "rubric_file": "config/contrarian_rubric.yaml",
+  "weighted_total": 8.9,
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "hard_fails": [
+    {
+      "name": "hashtag_count_in_range",
+      "passed": true,
+      "note": "5 hashtags (#AlaskaAI #DefenseTech #AIPolicy #DataCenters #FederalContracting), all from brand.yaml whitelist, placed at end only."
+    },
+    {
+      "name": "punctuation_bans_held",
+      "passed": true,
+      "note": "No em-dash, en-dash, double-hyphen, colon, or semicolon found anywhere in the body text."
+    },
+    {
+      "name": "total_char_count_under_linkedin_cap",
+      "passed": true,
+      "note": "Measured 2940 characters total (body + hashtag line), under the 3000-character LinkedIn cap."
+    },
+    {
+      "name": "word_count_in_range",
+      "passed": true,
+      "note": "Body word count 442 (hashtag line excluded), within the 350-475 range."
+    },
+    {
+      "name": "claim_is_attributed",
+      "passed": true,
+      "note": "Robert Moriarty named with full title and outlet (Air & Space Forces Magazine); the claim is quoted verbatim exactly as in claim_dossier.json selected_claim.claim_verbatim."
+    },
+    {
+      "name": "steelman_present",
+      "passed": true,
+      "note": "Paragraph 2 presents a genuine, generous steelman (EUL revenue logic, Congressional independence, idle-acreage monetization, RFLP mitigation) before any rebuttal."
+    }
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "weight": 0.13,
+      "score": 8,
+      "justification": "Opening names the three bases, the actors, the EUL mechanism, and the tension within ~210 characters; no banned opener or snark, but the AK-firm downside is implied rather than named concretely.",
+      "notes": "Opening names the three bases, the actors, the EUL mechanism, and the tension within ~210 characters; no banned opener or snark, but the AK-firm downside is implied rather than named concretely."
+    },
+    {
+      "name": "Claim load-bearing + AK stakes",
+      "weight": 0.2,
+      "score": 9,
+      "justification": "Load-bearing (ANCs, contractors, Chugach Electric evaluating 2026 RFLP bids at three named bases); correction names a concrete consequence (underpriced policy-reversal risk); missing only a dollar figure on the bids.",
+      "notes": "Load-bearing (ANCs, contractors, Chugach Electric evaluating 2026 RFLP bids at three named bases); correction names a concrete consequence (underpriced policy-reversal risk); missing only a dollar figure on the bids."
+    },
+    {
+      "name": "Steelman fairness",
+      "weight": 0.12,
+      "score": 9,
+      "justification": "Strongest honest case stated generously (non-appropriated revenue, Congressional independence, idle acreage, RFLP mitigation) before any rebuttal; a believer would feel fairly represented.",
+      "notes": "Strongest honest case stated generously (non-appropriated revenue, Congressional independence, idle acreage, RFLP mitigation) before any rebuttal; a believer would feel fairly represented."
+    },
+    {
+      "name": "Counter-evidence quality",
+      "weight": 0.1,
+      "score": 9,
+      "justification": "Two independent rebuttal threads trace to primary sources in the dossier (Vogt/Kollars MWI article; RFLP affordability constraint plus the $14-$37/month figure); slight deduction as the dollar range is cited via the magazine rather than the study directly.",
+      "notes": "Two independent rebuttal threads trace to primary sources in the dossier (Vogt/Kollars MWI article; RFLP affordability constraint plus the $14-$37/month figure); slight deduction as the dollar range is cited via the magazine rather than the study directly."
+    },
+    {
+      "name": "Factual density",
+      "weight": 0.1,
+      "score": 9,
+      "justification": "Named individuals, entities, agencies, bases, dates, and a specific dollar range appear at roughly one specificity marker per 1-2 sentences.",
+      "notes": "Named individuals, entities, agencies, bases, dates, and a specific dollar range appear at roughly one specificity marker per 1-2 sentences."
+    },
+    {
+      "name": "Source quality",
+      "weight": 0.13,
+      "score": 9,
+      "justification": "Attribution traces to Air & Space Forces Magazine; counter-evidence to West Point MWI and the RFLP government document; all documented in claim_dossier.json.",
+      "notes": "Attribution traces to Air & Space Forces Magazine; counter-evidence to West Point MWI and the RFLP government document; all documented in claim_dossier.json."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.12,
+      "score": 9,
+      "justification": "Analytical, structural, position-taking, corrective not contemptuous, plain language, genuine industry binary close; no banned phrases or influencer cadence; matches examples/post_001.md.",
+      "notes": "Analytical, structural, position-taking, corrective not contemptuous, plain language, genuine industry binary close; no banned phrases or influencer cadence; matches examples/post_001.md."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.05,
+      "score": 9,
+      "justification": "Paragraphs of 2-4 sentences, one bullet block of 3 single-clause items, 442 words and 2940 characters, scannable on mobile and desktop.",
+      "notes": "Paragraphs of 2-4 sentences, one bullet block of 3 single-clause items, 442 words and 2940 characters, scannable on mobile and desktop."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 10,
+      "justification": "Closes with a genuine debatable binary tied directly to the corrected frame (defensibility as a hard selection criterion vs. revenue upside), no softener or CTA.",
+      "notes": "Closes with a genuine debatable binary tied directly to the corrected frame (defensibility as a hard selection criterion vs. revenue upside), no softener or CTA."
+    },
+    {
+      "name": "Business actionability",
+      "weight": 0.02,
+      "score": 9,
+      "justification": "An ANC exec, contractor, or utility bidder can immediately reframe RFLP bid risk around the contested readiness rationale and the named policy-reversal trigger.",
+      "notes": "An ANC exec, contractor, or utility bidder can immediately reframe RFLP bid risk around the contested readiness rationale and the named policy-reversal trigger."
+    }
   ],
-  "one_sentence_fix": null
+  "one_sentence_fix": null,
+  "threshold": 8.0
 }
