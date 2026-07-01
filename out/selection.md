@@ -1,27 +1,40 @@
-# Anchorage Desk Selection — 20 May 2026
+# Selection — Alaska.Ai LinkedIn — VOL. 08 — 2026-07-01
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+Mode: **Weekly Brief.** Kicker: WEEKLY BRIEF.
+Window: 2026-06-24 to 2026-07-01 inclusive. Anchorage local date 2026-07-01.
 
-## Role
-FOUNDER (kicker middle slot)
+## Lead frame (NEW — not a re-lead of the last 4 LinkedIn leads)
+**Alaska's fiscal year turned on July 1 with the only AI decision that actually closed being a criminal ban. Every dollar and every lease that would build the industry stayed stuck behind a vote, a signature, or an evaluation.** The axis is **timing, not capital**: this week the binding constraint on Alaska's AI buildout wasn't money, power, or engineers, it was that nothing crossed the finish line before the July 4 recess. A procedural / the-calendar-is-the-constraint frame.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+Why it is NOT a repeat of the last 4 LinkedIn leads:
+- 06-26 VOL07 lead: substrate-not-software, which LAYER attracted capital (pipes/land vs application).
+- 06-24 VOL07 lead: who CAPTURES the federal AI dollar and via which vehicle (ANCs/8(a)/CMMC).
+- 06-23 VOL07 lead: who WRITES the large-load grid interconnection rule (FERC governance gap).
+- 06-22 VOL06 lead: can Alaska OPERATE autonomous wildfire AI (XPRIZE operating-readiness).
+This week's axis is **procedural timing / nothing-closed-before-recess** — the money (NDAA), the power (LNG), the land (DAF leases), and the workforce (veto) all exist but none advanced. Distinct from "which layer gets capital" (06-26) because the point here is that no layer closed at all. The lead is anchored on a brand-new, in-window event never covered by this desk: the June 30 House procedural failure on the FY2027 NDAA.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Lead thread (the stall)
+- **NDAA_BLOCK (Beat D, verified high, primary).** June 30 House rule vote (198-224) fails to bring the FY2027 NDAA to the floor; House adjourns for July 4 recess. Stalls the broader NDAA carrying Sullivan's $2.6B Alaska package incl. $15M Arctic autonomous sensing and $10M Golden Dome autonomy. GUARDRAILS: committee-advanced authorization NOT appropriated; attribute $2.6B to Sullivan's office; frame as the HOUSE rule failing, not Sullivan's Senate provisions being voted down.
+- **LNG_TAX_STALL (Beat E/A, verified high, needs_softening).** HB 381 conference misses July 1 target; back July 16, session expires July 19. Glenfarne's Adam Prestidge objects to prevailing-wage/apprenticeship amendments; corporate income tax is a Dunleavy veto threat. The power under the data centers. GUARDRAILS: project cost $55B per ADN (NOT $44B).
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Supporting (each reinforces "the buildout exists but nothing closed")
+1. **DAF_RFLP_CLOSE + LOHMEIER_8B (Beat C/B/E, verified).** The AI data-center lease RFLP (AFCEC-26-R-0006) at JBER/Eielson/Clear SFS closed June 29 into a silent evaluation, no award. The same week USecAF Lohmeier toured JBER/Eielson, called Alaska "the crossroads of the Arctic and the Pacific," and pointed to about $8B in Air Force investment over five years. The demand and the endorsement are loud; the award is a blank. GUARDRAILS: attribute ~$8B to Air Force officials; keep AFCEC-26-R-0006, June 29, three installations.
+2. **WORKFORCE_VETO (Beat A/B, verified high, needs_softening).** Dunleavy signed the FY27 budget June 24 and vetoed ~$16M in pipeline/vocational training (AVTEC, Fairbanks Pipeline Training Center, Teamsters). Stedman: "We're trying to push forward for a gas line." The human pipeline cut the same week the gas-line tax bill stalled. GUARDRAILS: $89.5M total safe; "roughly $16M" workforce grouping.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Texture / bullet block (the slipped clocks)
+- **STAK_DNR_EXT (Beat E, verified, primary).** DNR pushes the STAK Energy North Slope data-center lease comment period to July 17. Another buildout clock that slipped.
+- Plus the NDAA (post-recess), the LNG bill (July 16), the RFLP (evaluation pending) — all dates, no closes.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+## Contrast / kicker (the one thing that landed)
+- **AI_CSAM_LAW (Beat D, verified medium, primary-adjacent).** The only Alaska AI-specific statute to take effect July 1 was a criminal ban on AI-generated CSAM (Rep. Sarah Vance). The one AI decision that closed this week regulated harm, not built industry. Use as the ironic hinge, NOT re-litigating the law itself (it was the 06-21 lead subject).
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Forward-look (the next real date)
+- **RHTP_272M (Beat B, background, needs_softening).** The next actual Alaska AI-capital date is Aug 1, when the state names implementation-grant awardees from the ~$272M Year-1 Rural Health Transformation pool (AI-enabled tools, drone delivery eligible; Tanana Chiefs, Providence among applicants). Attribute $272M as Year-1 CMS per GovTech; no "largest in history."
+
+## Held / not used as load-bearing
+- **MIN_WAGE** — weakened by validation (exempt threshold + Dan Robinson quote unverified). At most a one-clause mention of the $14/hr July 1 floor, likely cut.
+- **WORKFORCE_PELL** — weakened (sources don't name Alaska/UA). Cut the "UA locked out" claim; not used.
+- **NDAA_GRID_MANDATE** — DROPPED by validator (source didn't support the claim).
+
+## Package angle (one paragraph)
+The week Alaska's fiscal year turned, the machinery that would build its AI economy idled in place. The largest defense authorization ever secured for the state stalled on a House procedural vote three days before the July 4 recess. The tax bill that underwrites the gas the data centers would run on missed its July 1 deadline and pushed to a July 19 cliff. The Air Force closed its data-center lease window at three Alaska bases into a silent evaluation while its own Under Secretary called Alaska the crossroads of the Arctic and the Pacific and floated $8 billion. The state signed its budget and cut the very workforce training the gas line needs. The only AI decision that actually took effect July 1 was a criminal ban. For an allocator or program manager, the signal isn't that Alaska lacks capital or demand. It's that this week the binding constraint was the calendar, and the next real close is August 1.

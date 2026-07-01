@@ -1,0 +1,137 @@
+{
+  "window": ["2026-06-24", "2026-07-01"],
+  "volume": "VOL. 08",
+  "verified": [
+    {
+      "id": "NDAA_BLOCK",
+      "beat": "D",
+      "story_title": "House GOP blocks FY2027 NDAA procedural vote June 30, stalling Sullivan's $2.6B Alaska package",
+      "usable_facts": "On June 30, 2026 House Republicans (a 198-224 rule vote) failed to bring the FY2027 NDAA to the floor, canceling the week before the July 4 recess. The broader NDAA carries Sen. Sullivan's 56 provisions and $2.6 billion in Alaska authorizations, incl. $15M resilient autonomous Arctic sensing and $10M autonomy within Golden Dome. Committee-advanced AUTHORIZATION, not appropriated.",
+      "industry_consequence": "Alaska defense contractors and technology vendors at JBER, Eielson, Fort Wainwright face continued authorization uncertainty on the $2.6B FY2027 package incl. autonomy/Arctic sensing; timeline unclear past early July.",
+      "sources": [
+        {"url":"https://breakingdefense.com/2026/06/house-gop-defectors-tank-procedural-vote-to-bring-ndaa-to-floor/","outlet":"Breaking Defense","pub_date":"2026-06-30"},
+        {"url":"https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-secures-56-provisions-historic-26-billion-for-alaska-in-fy-2027-defense-authorization","outlet":"Sen. Dan Sullivan (official)","pub_date":"2026-06-23"}
+      ],
+      "confidence":"high","primary_source":true,"needs_softening":false,
+      "writer_guidance":"Attribute $2.6B / provisions to Sullivan's office; call it committee-advanced authorization NOT appropriated. Frame the June 30 failure as the HOUSE rule vote stalling the broader NDAA; do not assert Sullivan's Senate provisions were themselves voted down."
+    },
+    {
+      "id": "LNG_TAX_STALL",
+      "beat": "E/A",
+      "story_title": "Alaska LNG tax bill (HB 381) misses July 1 target; conference to July 16, session expires July 19",
+      "usable_facts": "Conference committee on HB 381 (the tax-relief package Glenfarne says is essential to the Alaska LNG pipeline, project cost estimated at $55 billion per ADN) failed to finish by its informal July 1 target; lawmakers back July 16, special session expires July 19. Glenfarne President Adam Prestidge objected to a Senate amendment adding prevailing-wage/apprenticeship mandates beyond the June 11 union MOU; a proposed corporate income tax on private developers that Dunleavy has said he'd veto is the other open issue.",
+      "industry_consequence": "Every Railbelt/North Slope large-load data-center case is premised on affordable North Slope gas via the pipeline; a delayed or dead bill raises power-cost forecasts for any AI compute operator. Glenfarne/AGDC face a July 19 cliff.",
+      "sources": [
+        {"url":"https://www.adn.com/politics/2026/06/30/lawmakers-delay-vote-on-tax-breaks-for-alaska-lng-as-negotiations-continue/","outlet":"Anchorage Daily News","pub_date":"2026-06-30"},
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-29/gas-pipeline-developer-raises-issues-with-lng-tax-bill-as-lawmakers-work-out-final-draft","outlet":"Alaska Public Media","pub_date":"2026-06-29"}
+      ],
+      "confidence":"high","primary_source":false,"needs_softening":true,
+      "writer_guidance":"Use $55 billion (ADN) NOT $44B, or hedge 'tens of billions'. Keep Glenfarne, Adam Prestidge, July 16 return, July 19 expiry. Corporate income tax = Dunleavy veto threat."
+    },
+    {
+      "id": "DAF_RFLP_CLOSE",
+      "beat": "C/B/E",
+      "story_title": "DAF AI data-center lease RFLP (AFCEC-26-R-0006) closed June 29 at JBER, Eielson, Clear SFS; evaluation begins",
+      "usable_facts": "AFICA's RFLP for commercial AI data centers across JBER, Eielson, Clear SFS hit its amended June 29, 2026 deadline and moved to evaluation, no award as of July 1. Best-value lease; selected partners would self-finance, build, operate.",
+      "industry_consequence": "Railbelt utilities (Chugach Electric, GVEA) and broadband providers face a step-change in industrial load requests once a lessee is named; would be Alaska's first large-scale private AI compute campuses on federal land.",
+      "sources": [
+        {"url":"https://www.highergov.com/contract-opportunity/rflp-artificial-intelligence-ai-data-center-deve-afcec-26-r-0006-o-db695/","outlet":"HigherGov (SAM.gov tracker)","pub_date":"2026-06-29"},
+        {"url":"https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/","outlet":"Air and Space Forces Magazine","pub_date":"2026-04-11"}
+      ],
+      "confidence":"high","primary_source":true,"needs_softening":false,
+      "writer_guidance":"Keep AFCEC-26-R-0006, June 29, three named installations, 'no award yet / evaluation phase'. Safe to note ~4,700 acres / multiple parcels per Air & Space Forces if useful."
+    },
+    {
+      "id": "LOHMEIER_8B",
+      "beat": "B/E",
+      "story_title": "Air Force Under Secretary Lohmeier tours JBER and Eielson, signals ~$8B Alaska investment over five years",
+      "usable_facts": "USecAF Matthew Lohmeier visited JBER and Eielson June 22-24, called Alaska 'the crossroads of the Arctic and the Pacific' (quote confirmed verbatim in ExecutiveGov), pointed to roughly $8 billion in Air Force investment over five years. Visit coincided with the final week of the RFLP window that closed June 29.",
+      "industry_consequence": "Most explicit senior Air Force endorsement yet of Alaska as a multi-year federal capital destination; utilities/contractors seeking site-prep or power roles must engage the contracting office during evaluation.",
+      "sources": [
+        {"url":"https://www.executivegov.com/articles/matthew-lohmeier-air-force-visit-alaska-jber-eielson","outlet":"ExecutiveGov","pub_date":"2026-06-26"}
+      ],
+      "confidence":"medium","primary_source":false,"needs_softening":true,
+      "writer_guidance":"JBER.mil primary 403'd; survives on ExecutiveGov which confirms both the quote and 'about $8 billion over five years'. Attribute figure to Air Force officials / the Under Secretary, phrase as 'about $8 billion'. Quote 'crossroads of the Arctic and the Pacific' is safe verbatim."
+    },
+    {
+      "id": "WORKFORCE_VETO",
+      "beat": "A/B",
+      "story_title": "Dunleavy vetoes ~$16M in pipeline and vocational workforce training from FY2027 budget (June 24)",
+      "usable_facts": "Dunleavy signed the FY2027 budget June 24 while vetoing about $89.5M total, including roughly $16M across workforce-training facilities (AVTEC ~$5.3M, Alaska Teamsters construction driver training ~$5.2M, Fairbanks Pipeline Training Center ~$4M per ADN itemization). Senate Finance co-chair Bert Stedman said 'We're trying to push forward for a gas line' (verbatim confirmed in Alaska Public Media).",
+      "industry_consequence": "AVTEC, Fairbanks Pipeline Training Center, Teamsters training lose expansion funding, shrinking the in-state credentialed labor pool for pipeline preconstruction the same week the LNG tax bill stalled.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/politics/alaska-legislature/2026-06-24/gov-dunleavy-vetoes-89-5m-from-alaska-budget-but-leaves-school-funding-intact","outlet":"Alaska Public Media","pub_date":"2026-06-24"},
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/24/gov-dunleavy-vetoes-nearly-90-million-from-alaska-state-budget/","outlet":"Anchorage Daily News","pub_date":"2026-06-25"}
+      ],
+      "confidence":"high","primary_source":false,"needs_softening":true,
+      "writer_guidance":"$89.5M total is safe. Use 'roughly $16 million' for the workforce grouping (Alaska Public Media). Stedman quote 'We're trying to push forward for a gas line' is safe verbatim if attributed. Named facilities safe."
+    },
+    {
+      "id": "AI_CSAM_LAW",
+      "beat": "D",
+      "story_title": "Alaska AI-generated CSAM ban takes effect July 1 as part of omnibus crime package",
+      "usable_facts": "A new Alaska law banning creation/possession of AI-generated child sexual abuse material took effect July 1, 2026, part of an omnibus crime package sponsored by Rep. Sarah Vance; creates state felony charges independent of federal law. Confirmed in ADN.",
+      "industry_consequence": "Alaska-operating AI developers/platforms face new state criminal exposure effective July 1. Editorial use: the one AI decision that actually took effect this week.",
+      "sources": [
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/30/education-funding-age-of-consent-and-more-several-alaska-laws-go-into-effect-july-1/","outlet":"Anchorage Daily News","pub_date":"2026-06-30"}
+      ],
+      "confidence":"medium","primary_source":true,"needs_softening":false,
+      "writer_guidance":"Single-sourced but primary-adjacent (public law). Use as the contrast/kicker device (the only AI thing that landed), not a load-bearing economic claim. Keep Rep. Sarah Vance, July 1."
+    },
+    {
+      "id": "STAK_DNR_EXT",
+      "beat": "E",
+      "story_title": "Alaska DNR extends STAK Energy North Slope data-center lease comment period to July 17",
+      "usable_facts": "Alaska DNR Division of Oil and Gas posted an updated notice extending the comment deadline on its preliminary best-interest finding for STAK Energy's proposed gas-powered HPC campus (715.4 acres, ~26 mi south of Deadhorse, accessed via Dalton Highway corridor) from June 15 to July 17, 2026; extension reflects public interest not new applicant info; preliminary decision toward a 50-year lease unchanged.",
+      "industry_consequence": "STAK's path to final lease execution now runs at least through late July, another buildout clock that slipped this week.",
+      "sources": [
+        {"url":"https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=224224","outlet":"Alaska Online Public Notices (DNR, primary)","pub_date":"2026-06-24"},
+        {"url":"https://northern.org/news/stak-energy-campus-what-the-states-lease-documents-reveal-about-scale-risk-and-unanswered-questions/","outlet":"Northern Alaska Environmental Center","pub_date":"2026-05-28"}
+      ],
+      "confidence":"medium","primary_source":true,"needs_softening":false,
+      "writer_guidance":"Keep STAK Energy, North Slope / Dalton Highway, comment period extended to July 17, 50-year lease preliminary. Good as a 'slipped clock' texture item."
+    },
+    {
+      "id": "RHTP_272M",
+      "beat": "B",
+      "story_title": "Alaska RHTP $272M application cycle closed June 22; AI-enabled healthcare grants expected Aug 1",
+      "usable_facts": "Alaska's application portal for the CMS Rural Health Transformation Program closed June 22 after advancing 400+ projects; implementation grants expected Aug 1, 2026. AI-enabled tools and drone-supported delivery are eligible categories (GovTech). $272M is the Year 1 CMS allocation per GovTech (Alaska Public says >$1B over five years). Rep. Genevieve Mina said the design is 'almost directing us to AI' (GovTech). Applicants incl. Tanana Chiefs Conference (drone delivery) and Providence.",
+      "industry_consequence": "Aug 1 is the next real Alaska AI-capital date: the state names implementation-grant awardees from the ~$272M Year-1 pool.",
+      "sources": [
+        {"url":"https://alaskapublic.org/news/health/2026-06-22/state-advances-over-four-hundred-projects-in-bid-for-rural-health-transformation-program-funding","outlet":"Alaska Public Media","pub_date":"2026-06-22"},
+        {"url":"https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai","outlet":"Government Technology","pub_date":"2026-06-09"}
+      ],
+      "confidence":"medium","primary_source":true,"background_context":true,"needs_softening":true,
+      "writer_guidance":"Background/forward-look. Attribute '$272M Year 1' to GovTech/CMS; do NOT say 'largest in Alaska history'. Aug 1 grant date is the forward hook. Mina quote safe verbatim if attributed."
+    },
+    {
+      "id": "MIN_WAGE",
+      "beat": "A",
+      "story_title": "Alaska minimum wage rises to $14/hr July 1 (Ballot Measure 1)",
+      "usable_facts": "Alaska minimum wage rose to $14/hr effective July 1, 2026 (Ballot Measure 1), confirmed via ADN July-1-laws article. The $1,120/week exempt salary threshold and the Dan Robinson quote could NOT be verified (Alaska Beacon 403, DOLWD URL was the wrong release).",
+      "industry_consequence": "Weak/optional. $14/hr floor for AK employers effective July 1.",
+      "sources": [
+        {"url":"https://www.adn.com/politics/alaska-legislature/2026/06/30/education-funding-age-of-consent-and-more-several-alaska-laws-go-into-effect-july-1/","outlet":"Anchorage Daily News","pub_date":"2026-06-30"}
+      ],
+      "confidence":"low","primary_source":false,"needs_softening":true,
+      "writer_guidance":"OPTIONAL/likely cut. If used, ONLY the $14/hr July 1 fact (ADN-confirmed). DROP the $1,120 exempt threshold and the Dan Robinson quote entirely (unverified)."
+    },
+    {
+      "id": "WORKFORCE_PELL",
+      "beat": "A",
+      "story_title": "Workforce Pell Grants launch July 1; only 12 states had published eligibility frameworks",
+      "usable_facts": "Federal Workforce Pell Grant program opened July 1, 2026 for short-term certificate programs; per KMXT/NPR only 12 states had published eligible-program frameworks. The specific claim that Alaska/UA is locked out could NOT be verified from cited sources (neither names Alaska or UA).",
+      "industry_consequence": "Weak/optional. National launch; states without frameworks can't disburse yet.",
+      "sources": [
+        {"url":"https://www.kmxt.org/2026-06-30/federal-money-for-workforce-training-begins-but-few-programs-qualify","outlet":"KMXT / NPR","pub_date":"2026-06-30"},
+        {"url":"https://www.ed.gov/about/news/press-release/us-department-of-education-issues-final-rule-create-new-workforce-pell-grant-program","outlet":"U.S. Dept. of Education (primary)","pub_date":"2026-05-18"}
+      ],
+      "confidence":"low","primary_source":false,"needs_softening":true,
+      "writer_guidance":"OPTIONAL/likely cut. Do NOT assert 'Alaska/UA locked out' (unverified). If touched at all, only the national fact: Workforce Pell opened July 1, only 12 states had frameworks published."
+    }
+  ],
+  "dropped": [
+    {"id":"NDAA_GRID_MANDATE","reason":"Sole source (MeriTalk) resolves but contains no mention of a DOD grid-assessment mandate, data-center EULs, AFCEC-26-R-0006, or Alaska. Claim unverifiable. Dropped."}
+  ],
+  "validator_summary": "9 of 10 verified; NDAA_GRID_MANDATE dropped. Strongest: NDAA procedural block (Breaking Defense + Sullivan primary), DAF RFLP close (HigherGov primary-adjacent + Air & Space Forces), STAK DNR extension (DNR primary). Required softenings: LNG project figure $55B not $44B; strip Dan Robinson quote and $1,120 exempt threshold from MIN_WAGE; soften Workforce Pell Alaska-specific claim (sources don't name Alaska/UA); drop RHTP 'largest in history' and attribute $272M as Year-1 CMS per GovTech; attribute Lohmeier ~$8B to Air Force officials (JBER.mil 403'd, survives on ExecutiveGov with quote confirmed). Two sources paywalled (Washington Times, Alaska Beacon)."
+}
