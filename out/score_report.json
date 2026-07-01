@@ -3,28 +3,28 @@
   "rubric_used": "config/desk_rubric.yaml",
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.40,
+  "weighted_total": 9.4,
   "hard_fails_tripped": [],
   "criteria": [
     {
       "name": "Hook strength",
       "score": 8,
-      "weight": 0.10,
-      "weighted": 0.80,
+      "weight": 0.1,
+      "weighted": 0.8,
       "notes": "First line names the subject, the dollar amount, the acquired company, the date, and the strategic stake in one sentence. Decision is the hook, not the bio. Minor deduction: the subject's role (CEO) does not appear until paragraph 2."
     },
     {
       "name": "Subject + decision load-bearing for AK",
       "score": 10,
       "weight": 0.16,
-      "weighted": 1.60,
+      "weighted": 1.6,
       "notes": "Duncan is the named CEO-decision-owner of Alaska's largest telecom. The decision consolidates both of the state's private subsea fiber networks for $310M-plus. Consequence is named with sector, dollar figures, named affected actors (rural carriers, ANCs, healthcare systems, JBER, Eielson, North Slope AI proposals), and a timeframe."
     },
     {
       "name": "Subject identification fidelity",
       "score": 10,
-      "weight": 0.10,
-      "weighted": 1.00,
+      "weight": 0.1,
+      "weighted": 1.0,
       "notes": "Full name (Ron Duncan), role (CEO and co-founder), org (GCI Communication Corp), and Anchorage tie (headquartered on Denali St, leading the company since 1979) all present and match the dossier."
     },
     {
@@ -38,7 +38,7 @@
       "name": "Structural read",
       "score": 10,
       "weight": 0.13,
-      "weighted": 1.30,
+      "weighted": 1.3,
       "notes": "Takes a real, honest, evidence-grounded position on both sides (resilience gain vs. monopoly/leverage cost). Closing judgment is earned by evidence, not manufactured. No boosterism, no hagiographic verbs."
     },
     {
@@ -51,29 +51,29 @@
     {
       "name": "Voice match",
       "score": 9,
-      "weight": 0.10,
-      "weighted": 0.90,
+      "weight": 0.1,
+      "weighted": 0.9,
       "notes": "Analytical, structural, Alaska-first throughout. No hagiographic verbs, no press-release cadence, no banned phrases."
     },
     {
       "name": "Readability (LinkedIn)",
       "score": 10,
       "weight": 0.05,
-      "weighted": 0.50,
+      "weighted": 0.5,
       "notes": "419 body words (within 350-475). Total 2,757 characters (under 3,000 cap). Paragraphs are 2-4 sentences. Bio confined to one sentence."
     },
     {
       "name": "Engagement question",
       "score": 10,
       "weight": 0.04,
-      "weighted": 0.40,
+      "weighted": 0.4,
       "notes": "Closes with a real, debatable industry question tied directly to the post's structural tension between monopoly risk and resilience gain."
     },
     {
       "name": "Credibility guard",
       "score": 10,
-      "weight": 0.10,
-      "weighted": 1.00,
+      "weight": 0.1,
+      "weighted": 1.0,
       "notes": "Every claim traces to primary source or independent corroborators. Quote attributed to Wailand (not Duncan), matching the dossier's explicit caveat. AI data-center link explicitly caveated inline."
     }
   ],
@@ -89,5 +89,6 @@
     "no_invented_quotes": "PASS - sole quoted phrase is a substring of the verified Wailand verbatim in dossier subject_quotes[0], attributed correctly to Wailand not Duncan"
   },
   "weakest_criterion": "Hook strength",
-  "one_sentence_fix": "Add Duncan's role ('GCI CEO and co-founder') into the first sentence so the hook carries subject, role, decision, and stake before the LinkedIn 'see more' cutoff."
+  "one_sentence_fix": "Add Duncan's role ('GCI CEO and co-founder') into the first sentence so the hook carries subject, role, decision, and stake before the LinkedIn 'see more' cutoff.",
+  "threshold": 8.0
 }
