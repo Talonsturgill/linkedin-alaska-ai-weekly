@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# Received Wisdom NO. 29 — Selection — 2026-07-03
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+## The claim
+"You name a program 'transformation,' but the way that the feds designed it is almost directing us to AI."
+— Rep. Genevieve Mina (D-Anchorage), member of Alaska's Rural Health Transformation Program advisory council, quoted in Government Technology, 2026-06-09.
 
-## Role
-FOUNDER (kicker middle slot)
+## Why it was selected
+Most load-bearing candidate of 14 across four discourse slices: $272 million in RHTP Year 1 funds (second-largest state allocation nationally, largest per capita), 400-plus Alaska proposals advanced to full application, award determinations expected July 2026, budget period closing October 30, 2026. Surfaced independently by two scout slices from the same article, which signals discourse weight. The claim family (rural health funding + AI) is untouched by the desk's prior 28 issues, which leaned heavily on data-center power/siting.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+## Steelman
+RHTP's structural constraints (no new facilities, no Medicaid replacement, rapid spend) genuinely eliminate the most common rural health investments and leave technology as the dominant viable category. AI tools match the compressed timeline: fast, scalable, no capital asset. A legislator on the advisory council watching software vendors dominate the proposal pool would reasonably read the design as pushing toward AI.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+## Corrective thesis (one sentence)
+The RHTP's design rules out buildings, not non-AI technology, and Alaska's own advancing proposal pool (drones, aircraft, wearables, VR, telehealth) proves it, while the binding constraint the "AI mandate" framing skips is that most rural Alaska health facilities lack the broadband to run cloud AI at all.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+## Evidence spine
+1. Telehealth Broadband Project measurement data (primary): only 6.6% of speed tests at 42 evaluated Alaska healthcare facilities met the 100/20 Mbps telehealth benchmark; more than 63% of Alaska consumer speed tests fell below 25/3 Mbps. https://telehealthbroadbandproject.com/findings/alaska/
+2. GovTech (2026-06-09): Alaska's advancing RHTP proposals include Tanana Chiefs Conference drone vaccine delivery, Ryan Air medical-supply aircraft, wearable monitors, Wrangell School District VR career-training headsets, behavioral telehealth apps, majority non-AI. https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
-
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+## Stakes
+400-plus applicants and the tribal health system are allocating $272 million now, with award determinations expected July 2026. If the "program forces AI" frame wins, purchase orders go to AI vendor software ahead of the connectivity and logistics spending that the same program can fund and that rural delivery actually needs first.

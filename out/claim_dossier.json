@@ -1,0 +1,67 @@
+{
+  "issue_label": "NO. 29",
+  "run_date": "2026-07-03",
+  "selected_claim": {
+    "claim_verbatim": "You name a program 'transformation,' but the way that the feds designed it is almost directing us to AI.",
+    "claim_paraphrase_fair": "The CMS Rural Health Transformation Program's prohibitions on infrastructure and Medicaid-replacement spending, combined with compressed spending timelines, effectively channel Alaska applicants toward AI solutions specifically.",
+    "asserters": [
+      {
+        "name": "Genevieve Mina",
+        "title_or_org": "Alaska State Representative (D-Anchorage); member, Alaska Rural Health Transformation Program advisory council",
+        "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+        "outlet": "Government Technology",
+        "pub_date": "2026-06-09",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_count": 1,
+    "discourse_slice": "policy_official",
+    "why_smart_people_believe_it": "The RHTP explicitly bans spending on new healthcare facilities and Medicaid-service replacement, so traditional infrastructure investments are ruled out. With 400-plus organizations competing to obligate $272 million in months before it reverts to federal coffers, scalable technology solutions are the obvious category, and AI vendors are the loudest, most organized force pitching fast deployments.",
+    "steelman": "RHTP's structural constraints (no new facilities, no Medicaid replacement, rapid spend) genuinely eliminate the most common rural health investments and leave technology as the dominant viable category. AI tools offer the combination of speed, scalability, and no-capital-asset requirement that matches the program's compressed timeline. A state legislator reviewing hundreds of advancing proposals dominated by software and device vendors would reasonably conclude the design pushes applicants toward AI.",
+    "where_it_breaks": "The RHTP prohibition covers brick-and-mortar and Medicaid replacement, not non-AI technology. Alaska's own 400-plus advancing proposals confirm this: they include drone delivery of vaccines to Interior villages (Tanana Chiefs Conference), new aircraft for rural medical supply transport (Ryan Air), wearable health monitors, and VR career-training headsets alongside AI tools. The program channels toward innovative service delivery broadly; 'directing us to AI' conflates 'cannot build a clinic' with 'must buy an AI product.'",
+    "counter_evidence": [
+      {
+        "fact": "Only 6.6% of speed tests at 42 evaluated Alaska healthcare facilities met the 100/20 Mbps benchmark required for high-quality telehealth. More than 63% of Alaska consumer broadband speed tests fell below the outdated 25/3 Mbps threshold. Cloud-dependent AI tools require sustained broadband that the vast majority of rural Alaska health sites cannot deliver.",
+        "url": "https://telehealthbroadbandproject.com/findings/alaska/",
+        "outlet": "Telehealth Broadband Project (original measurement data)",
+        "pub_date": "unknown",
+        "is_primary": true
+      },
+      {
+        "fact": "Alaska's own RHTP proposals advancing to full application include drone vaccine and pharmaceutical delivery to Interior villages (Tanana Chiefs Conference), new aircraft for rural medical supply transport (Ryan Air), VR headsets for healthcare career training (Wrangell School District), and behavioral telehealth apps, the majority non-AI technologies, showing the program funds innovative service delivery broadly, not AI specifically.",
+        "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai",
+        "outlet": "Government Technology",
+        "pub_date": "2026-06-09",
+        "is_primary": false
+      }
+    ],
+    "more_accurate_frame": "RHTP prohibits facilities and Medicaid-replacement spending, not non-AI spending. Alaska's 400-plus advancing proposals show the program directing toward innovative service-delivery technology in all forms (drones, aircraft, wearables, VR, and yes, AI), not AI exclusively. For the 93% of Alaska healthcare facilities below broadband benchmarks, the more urgent framing is: AI tools requiring cloud connectivity are inaccessible to most target communities regardless of what the grant allows, and the $272 million decision-window closing in July 2026 is where the 'AI first' assumption does the most harm.",
+    "ak_stakes": "Rural health sector; Alaska DHSS, tribal health organizations (including Tanana Chiefs, Southcentral Foundation, tribal compacts), and 400-plus RHTP applicants making $272 million allocation decisions with final award determinations expected July 2026 and the budget period closing October 30, 2026; risk that the 'AI mandate' narrative, amplified by an advisory council legislator, causes organizations to purchase AI vendor software before addressing the connectivity and logistics infrastructure that would actually serve rural communities.",
+    "confidence": "medium",
+    "gate_results": {
+      "attribution_pass": true,
+      "circulation_pass": true,
+      "load_bearing_pass": true,
+      "steelman_survives_pass": true,
+      "rebuttable_pass": true
+    }
+  },
+  "dropped_claims": [
+    {"claim_verbatim": "Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "Alaska must act at the state level, as dozens of other states already have. We cannot afford to wait for Washington.", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "Coupled with the fact that satellite and broadband internet now covers the entire state, there's an unprecedented opportunity to help rural and remote businesses and organizations overcome longstanding barriers to success.", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "We've been using AI for decades. It is getting better and better.", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Uncrewed systems matter in the High North not because they're revolutionary but because they enable persistence where continuous human presence is really impractical.", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "autonomous completion of multi-step government service transactions on behalf of users", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "AI in this context functions as a direct capability enabler, allowing for expanded reach without expanded presence.", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Something has to aggregate those and then see things that human beings can't see", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "Only U.S.-based certified 8(a) Government Contractor approved as AWS Generative AI Competency Partner", "drop_reason": "strawman"},
+    {"claim_verbatim": "modern monitoring tools are not just theoretical—they are actively supporting fishing communities and improving fisheries management in Alaska", "drop_reason": "true_as_stated"},
+    {"claim_verbatim": "GenAI has become essential for organizations because of its ability to accelerate problem-solving, increase productivity and aid decision-making while reducing the time employees spend on repetitive tasks which frees them up to focus on more strategic work", "drop_reason": "not_load_bearing"},
+    {"claim_verbatim": "Tailsight will transform Alaska's maintenance operations by offering real-time insights beyond current capabilities", "drop_reason": "not_load_bearing"}
+  ],
+  "no_target_this_cycle": false,
+  "_validation_note": "Gate 5 confidence note: No primary CMS/HHS RHTP documentation was accessible (cms.gov and hhs.gov pages all returned 404 or 403 on multiple URL attempts; Alaska DHSS returned 401). Gate 5 passes on the strength of one confirmed primary source, the Telehealth Broadband Project's original measurement data showing only 6.6% of Alaska healthcare facilities meet the 100/20 Mbps benchmark (WebFetch confirmed), plus the GovTech article's own factual reporting on funded non-AI project types as a credible secondary source. Verbatim confirmation: the GovTech WebFetch confirmed the quote appears on the page with attribution to Rep. Mina. SBDC broadband claim drop note: passes gate 1 on akbizmag.com but the reported aksbdc.org republication was NOT confirmed by direct WebFetch; displaced by the more urgent Mina RHTP claim in the same rural-connectivity-for-AI family. Koniag drop note: scout verbatim strips the time-qualifier 'To date' and truncates the sentence; per gate 1 that is a paraphrase, not a verbatim span. ADN/Kaye governance claims: ailawsbystate.com July 2026 guide confirms 'No AI-specific legislation has been enacted in Alaska'; steelman survives as essentially true. Dual-slice note: the Mina RHTP claim was independently surfaced by both trade_analyst and policy_official scouts from the same GovTech article; confirms discourse importance but counts as one circulation event."
+}
