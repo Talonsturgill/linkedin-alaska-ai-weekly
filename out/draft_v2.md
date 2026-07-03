@@ -6,7 +6,7 @@ The logic deserves a fair hearing. The Slope sits beside one of North America’
 
 The break is in the contracting. Per Anchorage Daily News reporting on the DNR filing this May, STAK had no firm gas supply agreement when it filed. The application leaves the pipeline route at “anywhere between 25 and 90 miles” and names no source field. Scott’s read was blunt. “That means they don’t have a gas supply.” Scale compounds the gap. By ADN’s math, the plant would burn more than twice the gas urban Alaska uses for all power generation and heating combined, on a Slope where producers have almost exclusively shipped oil because minimal infrastructure exists to move gas to market. The ORNL proceedings describe power from the adjacent Prudhoe Bay field, a sourcing claim the filing itself doesn’t back.
 
-The accurate frame is that the site is conditionally possible. The site becomes buildable when three things exist that didn’t in mid-2026.
+The accurate frame is that the site is conditionally possible. It becomes buildable when three things exist that didn’t in mid-2026.
 
 - A firm gas supply contract with a named North Slope producer
 - A financed pipeline spur on a defined route
