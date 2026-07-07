@@ -5,3 +5,5 @@ __pycache__/
 .venv/
 .env
 .claude/skills/alaska-ai-brief/fonts/
+.claude/skills/alaska-ai-artwork/fonts/
+.claude/skills/alaska-ai-artwork/__pycache__/

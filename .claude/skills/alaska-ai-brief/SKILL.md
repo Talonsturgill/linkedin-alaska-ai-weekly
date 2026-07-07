@@ -1,9 +1,15 @@
 ---
 name: alaska-ai-brief
-description: Generate the Alaska.Ai weekly brief post graphic — a 1080x1080 square PNG with the locked Alaska.Ai brand design tokens (state-flag gold, aurora wash, Polaris star, Fraunces Black headline, JetBrains Mono telemetry). Use whenever creating the visual header for a new weekly Alaska AI news brief that will be posted to the Alaska.Ai LinkedIn page. Parameterized for volume, topic (quotable headline), date, byline, kicker.
+description: EMERGENCY FALLBACK image path — the locked aurora/starfield Alaska.Ai template (1080x1080 PNG). The primary image path for every column is the alaska-ai-artwork skill (bespoke editorial art per issue); use this template ONLY when the artwork pipeline is unrecoverable this run (4 consecutive render-script crashes or environment failure), and flag the fallback in the Editor's note.
 ---
 
 # Alaska.Ai Weekly Brief Template — LinkedIn Square
+
+> **STATUS: EMERGENCY FALLBACK ONLY.** The primary image path for every
+> column is now the `alaska-ai-artwork` skill (bespoke editorial art per
+> issue). Use this locked template only when the artwork pipeline is
+> unrecoverable this run (see that skill's Step 7), and flag the
+> fallback in the Editor's note.
 
 Generate the Alaska.Ai weekly brief post graphic for the LinkedIn surface.
 Use when creating the visual header for a new weekly Alaska AI news brief

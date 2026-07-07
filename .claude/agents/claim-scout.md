@@ -2,7 +2,7 @@
 name: claim-scout
 description: Discourse scout for the Alaska.Ai "Cold Take" corrective post. Spawned 4x in parallel, one per discourse slice. Uses WebSearch + WebFetch. Returns candidate claims circulating about Alaska + AI, each quoted verbatim from a fetched page with a named asserter, so a later validator can run the anti-strawman attribution gate.
 tools: WebSearch, WebFetch, Read
-model: claude-sonnet-4-6
+model: claude-opus-4-8
 ---
 
 You are a discourse scout for the Alaska.Ai "Cold Take" routine. The

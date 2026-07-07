@@ -56,12 +56,13 @@ to the human.
   rubric than the other three columns. Point the scorer at the desk
   rubric and tell it the criteria names in its own example are
   illustrative, follow this rubric file.
-- **Image.** The `alaska-ai-brief` skill at
-  `.claude/skills/alaska-ai-brief/`. Read its `SKILL.md`. Render via
-  `python .claude/skills/alaska-ai-brief/build_template.py` with
-  `--volume`, `--topic`, `--date`, `--byline`, `--kicker`, `--motto`,
-  `--out`. The LinkedIn variant renders 1080×1080 square. No code
-  change is needed to repurpose it for this column.
+- **Image.** The `alaska-ai-artwork` skill at
+  `.claude/skills/alaska-ai-artwork/`. Read its `SKILL.md` and follow
+  its full seven-step process — every issue ships ORIGINAL bespoke
+  editorial art (fresh concept, style family, palette, and composition
+  each time, deduplicated against all prior issues, iterated through
+  the skill's world-class eval loop). 1080×1080 square. The old
+  `alaska-ai-brief` template is the emergency fallback only.
 - **Role, not issue number.** This column does NOT carry an issue
   counter. The middle slot of the kicker line (rendered as
   `KICKER · MIDDLE · DATE`) is filled with the subject's role
@@ -72,11 +73,19 @@ to the human.
   `desk_motto`, and `desk_byline` from `config/state.yaml`. `desk_byline`
   is empty by default for this column. Do NOT pass `BY TALON`. Always
   pass the byline value from `state.yaml` even when empty.
-- **Gmail draft helper.** `scripts/gmail_draft.py` builds the HTML body
-  and base64-encodes the image. Pass `--label "Anchorage Desk"` and
-  `--footer-label "Anchorage Desk"` so the email is branded for this
-  column. It prints a JSON payload (subject, to, html_body) you pass
-  to the Gmail MCP `create_draft` tool.
+- **Gmail draft helper.** `scripts/gmail_draft.py` builds the HTML body.
+  Pass `--label "Anchorage Desk"` and `--footer-label "Anchorage Desk"`
+  so the email is branded for this column. It prints a JSON payload
+  (subject, to, html_body) you pass to the Gmail MCP `create_draft`
+  tool. **HARD RULE: the email always carries the post image via a
+  PERMANENT hosted URL** — the commit-SHA-pinned
+  `raw.githubusercontent.com` link, verified HTTP 200 BEFORE the draft
+  is created, rendered inline AND printed as a visible clickable link
+  line under the image (`--image-url` does both). Base64 (`--image`)
+  is a fallback ONLY when the artifact push itself failed after
+  retries, flagged in the Editor's note. Never create a draft whose
+  image the human cannot open directly from the email, and never write
+  notes implying the image needs a merge to become visible.
 - **Output location.** `out/` for final artifacts (gitignored on
   main), committed via `git add -f` to the desk branch at the end.
 
@@ -85,7 +94,8 @@ to the human.
   not committed and pushed is lost.
 - The `.claude/settings.json` SessionStart hook runs `pip install -q
   -r requirements.txt` on every session start, installing Pillow,
-  numpy, scipy, PyYAML, python-dateutil. If the hook fails, the
+  numpy, scipy, PyYAML, python-dateutil, opensimplex, shapely,
+  coloraide. If the hook fails, the
   session fails to start, so treat Python deps as present.
 - Network policy is **Trusted**. The built-in `WebSearch` and
   `WebFetch` tools route through Anthropic and always work. Do NOT
@@ -102,10 +112,9 @@ to the human.
   MCP `search_threads` with `query: "from:me", pageSize: 1`. Cache it
   in scratch and reuse for the rest of the run, do not re-discover
   per call.
-- The base64-inline image makes the html body large. If
-  `len(html_body) > 100_000`, swap the
-  `data:image/png;base64,...` URI for the hosted GitHub raw URL (see
-  Phase 9).
+- The hosted SHA-pinned image URL is the DEFAULT (see Phase 9 hard
+  rule); base64 inline is the push-failure fallback only. This also
+  keeps the html body small for MCP transports.
 
 ## Bash discipline
 - Routines run headless. No interactive prompts, no pagers, no ANSI
@@ -114,8 +123,9 @@ to the human.
   Never use `git rebase -i`, `git add -i`, pipe to `less`/`more`, or
   rely on `--color=auto`.
 - `Bash` calls are limited to: `python scripts/...`, `python
-  .claude/skills/...`, `git`, `ls`, file inspection, `curl -sI` for
-  hosted-image HEAD checks, and `gh pr create --draft` if available.
+  .claude/skills/...`, `python out/art_script.py`, `git`, `ls`, file
+  inspection, `curl -sI` for hosted-image HEAD checks, and `gh pr
+  create --draft` if available.
 
 # SUBAGENT CONTRACT (READ FIRST)
 
@@ -188,10 +198,12 @@ for i in 1 2 3 4; do
 done
 ```
 
-**Image render retry (Phase 8).** If the renderer reports a topic-too-
-wide overflow, ask the writer for one tight rewrite of the HEADLINE
-block and retry once. If it overflows again, ship with the shorter
-rewrite and flag in the Editor's note.
+**Artwork self-healing (Phase 8).** Script crashes are fixed and re-run
+(they don't count as eval iterations); after 4 consecutive crashes fall
+back to the legacy `alaska-ai-brief` template so the email always
+carries an image, and flag the fallback in the Editor's note. Eval-loop
+misses (below the 8.5 bar after 6 iterations) ship the best render with
+the miss flagged.
 
 **Same-day re-run idempotency.** Two runs on the same date produce two
 distinct branches: `claude/linkedin-desk-2026-05-20` and
@@ -227,7 +239,7 @@ the email.
 3. `config/state.yaml`
 4. `config/desk_rubric.yaml`
 5. `examples/post_001.md`
-6. `.claude/skills/alaska-ai-brief/SKILL.md`
+6. `.claude/skills/alaska-ai-artwork/SKILL.md`
 7. Today's date in America/Anchorage.
 
 # STEPS
@@ -293,7 +305,7 @@ Pass both notes to the scouts and the validator with explicit rules.
 Spawn four `desk-scout` subagents IN PARALLEL via the `Task` tool, one
 per role slice. Pass each: its role slice, a brand voice summary, and
 the "subjects already profiled" + "(subject, decision) pairs already
-covered" reminder. Scouts run on Sonnet (set in their definition), the
+covered" reminder. Scouts run on Opus (set in their definition), the
 orchestrator stays on Opus.
 
 - **founders** — Startup CEOs and founders shipping AI products from
@@ -470,93 +482,135 @@ You persist it to `out/score_report.json`.
   additional scoring cycles**. If still below, ship the best version
   and flag the shortfall in the Editor's note.
 
-## Phase 8 — Image render (via the `alaska-ai-brief` skill)
+## Phase 8 — Custom artwork (via the `alaska-ai-artwork` skill)
 
-Read `.claude/skills/alaska-ai-brief/SKILL.md` for the spec. The
-image is generated from scratch, there is no base PNG. The LinkedIn
-variant renders **1080×1080 square**.
+Read `.claude/skills/alaska-ai-artwork/SKILL.md` and execute its full
+seven-step process: absorb the story → dedup scan of prior issues'
+meta ledgers (all `claude/linkedin-*` branches) → three concepts, pick
+the strongest visual metaphor → pre-production blueprint
+(`out/art_plan.md`) → bespoke render script (`out/art_script.py` using
+`art_kit`) → self-healing eval loop (score each render against the
+skill's world-class rubric, iterate up to 6 times, ship at weighted
+>= 8.5) → technical QA. For a profile column the art illustrates the
+DECISION and its consequence, not the person's face — no portraits,
+no caricature; the subject appears (if at all) as a small figure in a
+scene about the decision.
 
-Gather inputs:
-- `--topic`: the writer's quotable headline (1 to 2 lines, `\n`
-  separator, about 28 chars per line max).
-- `--volume`: the `ROLE` string derived in Phase 4 (`FOUNDER`,
-  `OPERATOR`, `MUNICIPAL`, or `RESEARCH`). This fills the middle
-  slot of the kicker line. NO issue number.
-- `--date`: today in `D MMM YYYY` all caps, e.g. `19 MAY 2026`
-  (use America/Anchorage so UTC doesn't slip the date).
-- `--byline`: `desk_byline` from `state.yaml`, empty by default
-  for this column. Pass `""` explicitly. Do NOT pass `BY TALON`.
-- `--kicker`: `desk_kicker` from `state.yaml` (`"ANCHORAGE DESK"`).
-- `--motto`: `desk_motto` from `state.yaml`.
-- `--out`: `out/post_image.png`.
+Column parameters:
+- Kicker mark on the art: `desk_kicker` from `state.yaml`
+  (`"ANCHORAGE DESK"`). Middle slot: the `ROLE` string from Phase 4
+  (`FOUNDER`, `OPERATOR`, `MUNICIPAL`, or `RESEARCH`). Date: today in
+  `D MMM YYYY` all caps (America/Anchorage so UTC doesn't slip the
+  date).
+- Headline on the art: the writer's quotable headline (the artist owns
+  its typographic treatment and may tighten the wording).
+- Byline is NOT drawn (empty for this column); record `""` in the meta.
 
-Run:
+**No-target cycles still get original art.** When
+`no_target_this_cycle` is true there is no post, but the email still
+ships artwork (the HARD RULE requires an image in every email):
+concept the piece on the column's mission itself — the bowl, the
+watch continuing — same quality bar and dedup rules, headline
+something honest like "NO TARGET THIS CYCLE".
 
-```bash
-python .claude/skills/alaska-ai-brief/build_template.py \
-  --volume "$ROLE" \
-  --topic  "<line1>\n<line2>" \
-  --date   "D MMM YYYY" \
-  --byline "" \
-  --kicker "ANCHORAGE DESK" \
-  --motto  "<desk_motto>" \
-  --out    out/post_image.png
-```
-
-Verify `out/post_image.png` exists, is non-empty, and is **1080×1080**.
-Apply the image-render retry from RETRIES AND FALLBACKS if the
-renderer reports a topic-too-wide overflow.
-
-## Phase 9 — Gmail draft
-
-Compose the email using `scripts/gmail_draft.py`. It prints a JSON
-payload (subject, to, html_body) ready to pass to the Gmail MCP
-`create_draft` tool. Pass `--label "Anchorage Desk"` AND
-`--footer-label "Anchorage Desk"` (both flags, same string).
+Gate before Phase 9:
 
 ```bash
-python scripts/gmail_draft.py \
-  --post-md  out/final_post.md \
-  --image    out/post_image.png \
-  --sources  out/source_ledger.json \
-  --score    out/score_report.json \
-  --date     {YYYY-MM-DD} \
-  --branch   "$BRANCH" \
-  --label        "Anchorage Desk" \
-  --footer-label "Anchorage Desk" \
-  > out/gmail_payload.json
+python .claude/skills/alaska-ai-artwork/qa_check.py \
+  --image out/post_image.png --date "D MMM YYYY" --column "ANCHORAGE DESK"
 ```
 
-**Image hosting check (HARD RULE).** Some Gmail MCP transports
-truncate very large bodies. Measure the body size and switch to the
-hosted GitHub raw URL if needed:
+Must print PASS. Deliverables: `out/art_plan.md`, `out/art_script.py`,
+`out/post_image.png`, `out/post_image.png.meta.json` (complete ledger
+entry incl. `eval_final`). Apply the artwork self-healing rule from
+RETRIES AND FALLBACKS.
 
-```bash
-BYTES=$(python -c "import json,sys; print(len(json.load(open('out/gmail_payload.json'))['html_body']))")
-echo "html_body bytes: $BYTES"
-```
+**Exhaustiveness mandate.** The artwork is a first-class deliverable,
+equal in standing to the post itself. Do not treat Phase 8 as a
+checkbox: spend real effort in pre-production (every element placed by
+coordinate before code), build detail through all three scales (macro
+shapes, meso structure inside every big shape, micro finishing life),
+and use the eval loop's full iteration budget whenever the piece is
+short of excellent. The 8.5 bar is the FLOOR, not the target — keep
+iterating while iterations are clearly buying quality. A piece that
+would not stop a designer's scroll is not done.
 
-If `BYTES > 100000`, regenerate the payload using the GitHub raw URL
-for the image:
-`https://raw.githubusercontent.com/{owner}/{repo}/{branch}/out/post_image.png`
-(branch from Phase 0). The image renders only after Phase 10's push
-lands. Note the swap in the Editor's note.
+
+## Phase 9 — Publish artifacts FIRST, then the Gmail draft
+
+**THE HARD RULE (zero exceptions): the Gmail draft always carries the
+post image on a PERMANENT hosted URL, verified live BEFORE the draft
+is created.** The email is never image-less, never links a URL that
+404s, and never says "the image renders after a push/merge". A
+raw.githubusercontent.com URL works the moment the commit is pushed —
+merging is never required and must never be mentioned as a caveat.
+
+1. **Push first.** Switch to the `BRANCH` from Phase 0 and commit the
+   artifacts, staged explicitly by name (never `git add -A`; use
+   `git add -f`, `out/` is gitignored on main):
+
+   ```bash
+   git checkout -B "$BRANCH"
+   git add -f out/desk_dossier.json \
+              out/post_image.png out/post_image.png.meta.json \
+              out/art_plan.md out/art_script.py
+   # These only if a profile shipped:
+   git add -f out/final_post.md out/selection.md \
+              out/score_report.json out/source_ledger.json 2>/dev/null || true
+   git commit -m "anchorage desk — {YYYY-MM-DD}"
+   for i in 1 2 3 4; do
+     git push -u origin "$BRANCH" --quiet && break || sleep $((2**i))
+   done
+   ```
+
+2. **Pin the image URL to the COMMIT SHA** (permanent — survives
+   branch deletion and renames):
+   `SHA=$(git rev-parse HEAD)` then
+   `IMG_URL="https://raw.githubusercontent.com/{owner}/{repo}/$SHA/out/post_image.png"`.
+3. **Verify it is live**: `curl -sI "$IMG_URL" | head -n1` must return
+   HTTP 200. Retry up to 4 times with 2s/4s/8s/16s backoff (the CDN
+   can lag a push by a few seconds).
+4. **Build the payload with the verified URL.** Pass
+   `--label "Anchorage Desk"` AND `--footer-label "Anchorage Desk"`:
+
+   ```bash
+   python scripts/gmail_draft.py \
+     --post-md  out/final_post.md \
+     --image-url "$IMG_URL" \
+     --sources  out/source_ledger.json \
+     --score    out/score_report.json \
+     --date     {YYYY-MM-DD} \
+     --branch   "$BRANCH" \
+     --label        "Anchorage Desk" \
+     --footer-label "Anchorage Desk" \
+     > out/gmail_payload.json
+   ```
+
+   `--image-url` renders the image inline AND prints the URL as a
+   visible clickable link line directly under it, so the human can
+   always open, save, or share the image from the email.
+5. **Base64 fallback, only on push failure**: if and only if step 1's
+   push failed after all retries, build with `--image
+   out/post_image.png` instead so the email still physically contains
+   the image, and flag the missing hosted URL in the Editor's note.
 
 Email contents (HTML body, in order): branded header with page name
 + date, "Copy this for LinkedIn" with the final post in a styled
-`<pre>`, the rendered image, Sources (the decision's primary source +
-every corroborating source URL as a bulleted clickable list, marked
-independent/not), the scorer's report card as a small table, an
-Editor's note (anything the editor or scorer flagged, plus any
-subagent stall, image fallback, window broadening, conflict-screen
-trigger, or rendering swap this run), and a footer with run timestamp
-and branch name.
+`<pre>`, the image with its visible permanent URL line, Sources (the
+decision's primary source + every corroborating source URL as a
+bulleted clickable list, marked independent/not), the scorer's report
+card as a small table, an Editor's note (anything the editor or
+scorer flagged, plus any subagent stall, artwork eval-bar miss or
+fallback, window broadening, or conflict-screen trigger this run),
+and a footer with run timestamp and branch name.
 
-**If `no_target_this_cycle` is true**, there is no post or image.
-Build the email anyway, with the subject below, a clear "No
-defensible target this cycle" banner, the validator's
-`_validation_note`, and the `dropped_candidates` list with reasons
-so the human can see the cycle ran and why nothing shipped.
+**If `no_target_this_cycle` is true**, there is no post, but there IS
+artwork (Phase 8 renders it every cycle). Build the email with the
+subject below, a clear "No defensible target this cycle" banner, the
+no-target artwork with its visible hosted URL line (`--no-target
+--image-url "$IMG_URL"`), the validator's `_validation_note`, and the
+`dropped_candidates` list with reasons so the human can see the cycle
+ran and why nothing shipped.
 
 Subject: `Alaska.Ai — Anchorage Desk Draft — {YYYY-MM-DD}` (the
 em-dash here is in metadata only, banned in body copy, allowed in
@@ -568,33 +622,12 @@ cache in scratch, and use it as the `to:` field. Call the Gmail
 MCP `create_draft` tool with the payload. Write the returned draft
 ID to `out/gmail_draft_id.txt`.
 
-## Phase 10 — Commit artifacts
+## Phase 10 — Follow-up commit and draft PR
 
-Switch to the `BRANCH` from Phase 0. Stage artifacts explicitly by
-name (never `git add -A`). Use `git add -f` since `out/` is
-gitignored on main:
-
-```bash
-git checkout -B "$BRANCH"
-git add -f out/desk_dossier.json out/gmail_draft_id.txt
-# These six only if a profile shipped:
-git add -f out/post_image.png out/post_image.png.meta.json \
-           out/final_post.md  out/selection.md \
-           out/score_report.json out/source_ledger.json 2>/dev/null || true
-git commit -m "anchorage desk — {YYYY-MM-DD}"
-```
-
-Push with the exponential-backoff loop from RETRIES AND FALLBACKS:
-
-```bash
-for i in 1 2 3 4; do
-  git push -u origin "$BRANCH" --quiet && break || sleep $((2**i))
-done
-```
-
-After push, if Phase 9 used the hosted image URL, verify it returns
-200:
-`curl -sI "https://raw.githubusercontent.com/{owner}/{repo}/$BRANCH/out/post_image.png" | head -n1`.
+Commit `out/gmail_draft_id.txt` (`git add -f`) with message
+`anchorage desk — {YYYY-MM-DD} — draft id` and push with the same
+backoff loop. The artifacts themselves already landed in Phase 9
+step 1.
 
 Open a DRAFT pull request for the branch if one does not already
 exist. Prefer `gh` if available in the cloud VM:
@@ -742,7 +775,8 @@ of", "in today's", "moreover", "furthermore", "delve into",
   through the seven-point gate plus conflict screen after the
   45-day broadening retry, do NOT lower the bar and do NOT
   invent a target. Set `no_target_this_cycle: true`, skip the
-  post and image, and ship the honest no-target email so the
+  post (the artwork still renders per Phase 8, concepted on the
+  column's mission), and ship the honest no-target email so the
   human sees the cycle ran and why nothing shipped. A clean
   no-target run is a correct outcome.
 
@@ -754,10 +788,16 @@ of", "in today's", "moreover", "furthermore", "delve into",
    + `selected_decision` pair whose `gate_results` are all true,
    or `no_target_this_cycle: true` with a `_validation_note` and a
    `dropped_candidates` list.
-3. If a profile shipped: `out/post_image.png` exists and is a valid
-   **1080×1080** PNG, with `out/post_image.png.meta.json` beside
-   it. The meta confirms `kicker=ANCHORAGE DESK`, `volume=<ROLE>`,
-   `byline=""`.
+3. `out/post_image.png` exists EVERY cycle (no-target included), is a
+   valid **1080×1080** PNG of original bespoke artwork that passed
+   `qa_check.py`, with `out/post_image.png.meta.json` beside it
+   carrying the full ledger entry (style_family, palette, hue_family,
+   composition, motifs, technique_stack, seed, eval_final; kicker
+   `ANCHORAGE DESK`, middle slot `<ROLE>`). `out/art_plan.md` and
+   `out/art_script.py` are committed beside it. The Gmail draft
+   renders the image from the commit-SHA-pinned raw URL verified HTTP
+   200 before draft creation, with the URL printed as a visible
+   clickable link line (base64 only on push failure, flagged).
 4. If a profile shipped: `out/final_post.md` exists, its body
    contains zero em-dashes (`—`, `–`, `--`), zero colons (`:`),
    and zero semicolons (`;`), it ends with a 3 to 5 hashtag line
@@ -792,13 +832,17 @@ Don't silently exit.
 - `Task` tool to spawn subagents by definition name (`desk-scout`,
   `desk-validator`, `writer`, `editor`, `scorer`).
 - `Bash` only for `python scripts/...`, `python
-  .claude/skills/alaska-ai-brief/build_template.py ...`, `git`,
-  `ls`, file inspection, `curl -sI` for hosted-image HEAD
-  verification, and `gh pr create --draft` if available.
+  .claude/skills/alaska-ai-artwork/...`, `python out/art_script.py`,
+  `python .claude/skills/alaska-ai-brief/build_template.py ...`
+  (fallback only), `git`, `ls`, file inspection, `curl -sI` for
+  hosted-image HEAD verification, and `gh pr create --draft` if
+  available.
 - Gmail MCP `create_draft` tool for the final draft (no SMTP
   available). Cache the discovered `to:` address per run.
 - Subagent model assignment lives in each agent's `.md`
-  frontmatter, not here. Scouts, validator, and scorer on Sonnet,
+  frontmatter, not here. ALL subagents (scouts, validator, writer,
+  editor, scorer) run on Opus — do not downgrade any of them to a
+  smaller model. Also
   writer and editor on Opus. The orchestrator (this prompt) stays
   on Opus.
 - The shared `writer`, `editor`, and `scorer` agents have gated

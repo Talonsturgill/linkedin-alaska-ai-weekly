@@ -13,6 +13,8 @@ h2{font-size:16px;margin-top:28px;border-bottom:1px solid #eee;padding-bottom:6p
 pre.post{white-space:pre-wrap;background:#f6f6f6;padding:16px;border-radius:8px;font-family:ui-monospace,Menlo,monospace;font-size:14px;line-height:1.5;}
 .img{text-align:center;margin:18px 0;}
 .img img{max-width:100%;height:auto;border-radius:8px;border:1px solid #e5e5e5;}
+.imglink{font-size:12px;color:#555;margin-top:8px;word-break:break-all;}
+.imglink a{color:#2a66cc;}
 ul{padding-left:22px;} li{margin:4px 0;font-size:14px;}
 table.score{width:100%;border-collapse:collapse;font-size:13px;}
 table.score th,table.score td{border-bottom:1px solid #eee;padding:6px 8px;text-align:left;}
@@ -42,9 +44,18 @@ def render(post_text, image_src, sources, score, date_str, branch,
         f'Fix: {score.get("one_sentence_fix","?")}</div>'
     )
     if image_is_url:
-        img_tag = f'<img src="{image_src}" alt="Alaska.Ai weekly image"/>'
+        img_tag = (
+            f'<img src="{image_src}" alt="Alaska.Ai post image"/>'
+            f'<div class="imglink">Image (permanent link, click to open '
+            f'or save): <a href="{image_src}">{image_src}</a></div>'
+        )
     elif image_src:
-        img_tag = f'<img src="data:image/png;base64,{image_src}" alt="Alaska.Ai weekly image"/>'
+        img_tag = (
+            f'<img src="data:image/png;base64,{image_src}" '
+            f'alt="Alaska.Ai post image"/>'
+            f'<div class="imglink">Image embedded directly in this email '
+            f'(hosted URL unavailable this run, see Editor note).</div>'
+        )
     else:
         img_tag = ""
 
