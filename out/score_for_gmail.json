@@ -1,17 +1,81 @@
 {
-  "ship": true,
-  "weighted_total": 9.48,
-  "threshold": 8.0,
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
-  ]
+    {
+      "name": "Hook strength",
+      "weight": 0.1,
+      "score": 9,
+      "note": "Names mechanism (Aleutian Thunder SBA Mentor-Protege JV), trigger (June 4 launch), $100M DoD sole-source ceiling, and tension ('One SBA desk decides whether it lives') within ~210 chars. No snark.",
+      "notes": "Names mechanism (Aleutian Thunder SBA Mentor-Protege JV), trigger (June 4 launch), $100M DoD sole-source ceiling, and tension ('One SBA desk decides whether it lives') within ~210 chars. No snark."
+    },
+    {
+      "name": "Mechanism load-bearing + AK consequence",
+      "weight": 0.18,
+      "score": 9,
+      "note": "Genuine capital-sovereignty procurement mechanism; AK consequence names sector, decision, Aleut 5,000+ shareholders, AMS. Docked one: explicit 6-18 month window implied not stated.",
+      "notes": "Genuine capital-sovereignty procurement mechanism; AK consequence names sector, decision, Aleut 5,000+ shareholders, AMS. Docked one: explicit 6-18 month window implied not stated."
+    },
+    {
+      "name": "Layer fidelity",
+      "weight": 0.14,
+      "score": 10,
+      "note": "All 5 layers match selected_mechanism.layers[] exactly: Nelson/Vergen, Aleut Federal exec team, Waldman, SBA AA/BD per 13 CFR 125.9, Fanguy. No confabulation.",
+      "notes": "All 5 layers match selected_mechanism.layers[] exactly: Nelson/Vergen, Aleut Federal exec team, Waldman, SBA AA/BD per 13 CFR 125.9, Fanguy. No confabulation."
+    },
+    {
+      "name": "Chokepoint clarity",
+      "weight": 0.13,
+      "score": 10,
+      "note": "Layer four named; actor SBA AA/BD under 13 CFR 125.9; binary approve/reject stated precisely; asymmetry confirmed (no agency/Congress override). 'One desk, one valve.'",
+      "notes": "Layer four named; actor SBA AA/BD under 13 CFR 125.9; binary approve/reject stated precisely; asymmetry confirmed (no agency/Congress override). 'One desk, one valve.'"
+    },
+    {
+      "name": "Structural read",
+      "weight": 0.12,
+      "score": 8,
+      "note": "Real debatable position: gate is the conversion mechanism not friction; reproducibility is the edge. Docked: forward paragraph lapses into advisory mode.",
+      "notes": "Real debatable position: gate is the conversion mechanism not friction; reproducibility is the edge. Docked: forward paragraph lapses into advisory mode."
+    },
+    {
+      "name": "Forward implication",
+      "weight": 0.08,
+      "score": 9,
+      "note": "Concrete actors (federal AI PMs, AK contracting officers), action (sole-source before competitive base period), domain (Agentforce-adjacent), boundary (six-year JV clock / SBA rulemaking).",
+      "notes": "Concrete actors (federal AI PMs, AK contracting officers), action (sole-source before competitive base period), domain (Agentforce-adjacent), boundary (six-year JV clock / SBA rulemaking)."
+    },
+    {
+      "name": "Primary-source quality",
+      "weight": 0.1,
+      "score": 7,
+      "note": "Layer 4 govinfo.gov 13 CFR 125.9 primary; Layers 1-2 company org charts; Layers 3 and 5 cite company site (thundersf.com); trigger is company press release. Fits 7-descriptor: all sourced, mix of credible secondary.",
+      "notes": "Layer 4 govinfo.gov 13 CFR 125.9 primary; Layers 1-2 company org charts; Layers 3 and 5 cite company site (thundersf.com); trigger is company press release. Fits 7-descriptor: all sourced, mix of credible secondary."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.08,
+      "score": 9,
+      "note": "Analytical, position-taking, structural. 'One desk, one valve' punchy not snarky. No influencer cadence. Matches post_001.md energy.",
+      "notes": "Analytical, position-taking, structural. 'One desk, one valve' punchy not snarky. No influencer cadence. Matches post_001.md energy."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.04,
+      "score": 10,
+      "note": "436 words, 2997 chars, 5-item single-clause bullet block, tight paragraphs. Scans on desktop and mobile.",
+      "notes": "436 words, 2997 chars, 5-item single-clause bullet block, tight paragraphs. Scans on desktop and mobile."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 9,
+      "note": "Tied directly to AA/BD chokepoint, genuinely debatable, no softener or CTA.",
+      "notes": "Tied directly to AA/BD chokepoint, genuinely debatable, no softener or CTA."
+    }
+  ],
+  "weighted_total": 8.99,
+  "hard_fails": [],
+  "ship": true,
+  "one_sentence_fix": "Replace the implied shareholder timeframe with the explicit '6-18 months of the June 2026 launch' window from the dossier, and swap Layer 3/5 citations to a government-accessible record (SAM.gov entity page or SBA MPP intake) if one becomes readable, to lift Primary-source quality toward 9.",
+  "confidence_note": "Medium-confidence mechanism cleared the seven-point gate; news trigger is a company press release and Layer 3 source is the company site, reflected in the Primary-source quality score of 7. Shipped at 8.99 weighted per orchestrator instruction to ship the strongest verified mechanism.",
+  "threshold": 8.0,
+  "weakest_criterion": "Primary-source quality"
 }

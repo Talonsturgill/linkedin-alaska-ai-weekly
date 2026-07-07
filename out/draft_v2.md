@@ -1,23 +1,21 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+On June 4, Aleut Federal launched Aleutian Thunder, an SBA Mentor-Protege joint venture that can take sole-source AI awards up to $100M at DoD with no competition and no protest. One SBA desk decides whether it lives.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Aleutian Thunder is an SBA-approved Mentor-Protege JV between Aleut Management Services, the 8(a) subsidiary of The Aleut Corporation, and Thunder, a Salesforce-backed federal AI consultancy. It routes AI modernization to federal agencies through Alaska Native sole-source authority, not competitive bidding.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The stack runs five layers.
 
-Five layers sit between an Air Force land offer and a powered data center.
+- Aleut Corporation parent governance, sets contracting strategy for 5,000+ shareholders, controlled by board chair Jenifer Samuelson Nelson and CEO Skoey Vergen.
+- Aleut Federal LLC holding structure, holds the 8(a) certification and 16 subsidiaries, controlled by the Aleut Federal executive team.
+- Aleut Management Services 8(a) participation, the protege whose 8(a) status is the legal basis for sole-source access, run by GM Jason Waldman.
+- SBA Mentor-Protege approval gate, validates the agreement under 13 CFR 125.9, controlled by the SBA Associate Administrator for Business Development.
+- Thunder technology contribution, supplies Agentforce, Amazon Connect, and multi-cloud delivery, led by federal head Maurine Fanguy.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+Leverage sits at layer four. Under 13 CFR 125.9, the SBA Associate Administrator for Business Development, or a designee, must approve every mentor-protege agreement before it is valid. The decision is binary. Approve, and the JV’s combined 8(a) status turns on, opening sole-source awards up to $100M at DoD and $30M at civilian agencies that cannot be competed or protested. Reject, and the combined status collapses and AMS competes the hard way. No contracting agency or member of Congress can override that rejection short of judicial review. One desk, one valve.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The desk reads the gate as the conversion mechanism, not the friction. Mentor-Protege turns ANC status from a passive preference into an active AI platform, and the AA/BD desk decides whether modernization dollars flow through ANC-controlled channels or to non-ANC incumbents. The structural edge isn’t any single contract. It’s reproducibility. Once the JV is confirmed, each new task order can be awarded sole-source without competition, compounding fast, with Aleut’s shareholders downstream.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+So the move is concrete. Federal AI program managers and Alaska contracting officers should treat the SBA-confirmed JV as a protest-proof lane and weigh a sole-source award before the competitive base period, particularly for Agentforce-adjacent work where Thunder has delivery history. If SBA sustains the approval, that window stays open only until the six-year JV clock or new SBA rulemaking narrows it.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+If one AA/BD signature can switch a protest-proof $100M AI lane on or off, should agencies be racing into it or should that single-desk veto worry them?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #FederalContracting #ProcurementReform #IndigenousData #DefenseTech

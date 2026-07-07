@@ -1,123 +1,117 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-25",
+  "news_window_days": 21,
+  "news_window_broadened_to": null,
+  "gate_applied": true,
+  "no_target_this_cycle": false,
+  "mechanisms_already_anatomized": [
+    "DAF Alaska Enhanced Use Lease AI Data Center Program (facilities, June 10)",
+    "BLM Alaska NPR-A Production Site Streamlined Permit Rulemaking (regulatory, June 7)",
+    "STAK Energy North Slope AI Campus DNR Permitting Stack (regulatory/facilities, May 30)",
+    "ANC 8(a) Sole-Source Federal Contracting Pipeline (capital_sovereignty, May 25)",
+    "Railbelt Large-Load Interconnection Review (regulatory/facilities, May 20)",
+    "Alaska Rural Health Transformation Program CMS Cooperative Agreement (vehicles, June 13)",
+    "NMFS MMPA IHA Cook Inlet Natural Gas Production Authorization (regulatory, June 22)"
+  ],
   "selected_mechanism": {
-    "name": "Alaska Railbelt Large-Load Interconnection Review",
-    "category": "regulatory",
-    "category_label": "REGULATORY",
+    "name": "Aleutian Thunder ANC Mentor-Protege AI Joint Venture Formation Stack",
+    "category": "capital_sovereignty",
+    "category_label": "SOVEREIGNTY",
     "news_trigger": {
-      "headline": "The military wants to host data centers in Alaska, raising questions about whether there's enough gas to power them",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-05",
-      "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
-      "verbatim_span": "the commission would likely prevent 'cross-subsidization,' in which ratepayers subsidize the costs of a data center, and the commission would definitely have a hard look at and probably not go along with that"
+      "what_happened": "Aleutian Thunder is a strategic alliance formed under the SBA's Mentor-Protégé Program combining federal procurement advantages with AI technology delivery. 'This is about speed to mission, not just speed to contract,' said Jason Waldman, General Manager of Aleut Management Services. The joint venture enables sole-source awards up to $30 million (civilian agencies) or $100 million (DoD) without justification, and these awards cannot be protested.",
+      "url": "https://www.prnewswire.com/news-releases/aleutian-thunder-launches-to-accelerate-federal-mission-delivery-302786255.html",
+      "outlet": "PRNewswire / Aleut Federal LLC",
+      "pub_date": "2026-06-04"
     },
-    "one_line_definition": "The Regulatory Commission of Alaska holds binary authority over every rate tariff and interconnection agreement required to connect a large new electrical load — including an AI data center — to the Railbelt grid; any proposed connection must survive the RCA's cost-of-service and anti-cross-subsidization review before it is legally valid, making the RCA the structural chokepoint between federal land offers and commercial data center operations in Alaska.",
+    "one_line_definition": "An SBA-approved Mentor-Protege joint venture between Aleut Management Services (ANC 8(a) subsidiary of The Aleut Corporation) and Thunder (Salesforce-backed federal AI consultancy) that routes AI and enterprise transformation delivery to federal agencies through ANC sole-source contracting authority, bypassing competitive bidding, with the SBA Associate Administrator for Business Development as the single institutional gatekeeper who can approve or invalidate the JV's combined status.",
     "layers": [
       {
-        "layer_name": "Air Force RFI and Site Control",
-        "what_it_does": "The Department of the Air Force issues requests for lease proposals offering 4,700 acres across JBER (Anchorage), Eielson AFB (Fairbanks), and Clear Space Force Station under 10 U.S.C. 2667 Enhanced Use Lease authority for up to 50-year terms; proposals were due May 29, 2026; the Air Force retains mission-compatibility veto over any selected developer.",
-        "controlling_actor": "Robert Moriarty, Deputy Assistant Secretary of the Air Force for Installations (SAF/IEI) — final lease signature authority",
-        "primary_source_url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Aleut Corporation Parent Governance",
+        "what_it_does": "The Alaska Native regional corporation for the Aleutian Islands region controls Aleut Federal LLC through its board. Board chair and CEO set strategic direction for all federal contracting subsidiaries, including the decision to pursue AI joint ventures. The parent's 5,000+ shareholders are the ultimate economic beneficiaries of contracting revenue.",
+        "controlling_actor": "Jenifer Samuelson Nelson (Board Chair); Skoey 'Aachax' Vergen (President/CEO)",
+        "primary_source": {
+          "url": "https://aleutcorp.com/aleutian-current/spring-2026/spring-2026-leadership-updates",
+          "outlet": "The Aleut Corporation",
+          "doc_type": "org_chart"
+        },
+        "verified": true
       },
       {
-        "layer_name": "Utility Capacity and Integration Study",
-        "what_it_does": "Before any interconnection agreement can be drafted, the serving utility — Chugach Electric Association (824 MW capacity, 80.8% gas-fired) for JBER sites or Golden Valley Electric Association for Eielson and Clear — must conduct a load integration study determining whether the data center load can be physically served; both utilities have stated they currently cannot supply sufficient power for large data centers due to dwindling Cook Inlet natural gas; Chugach's primary Hilcorp gas contract expires March 31, 2028.",
-        "controlling_actor": "Chugach Electric Association (JBER/Anchorage area); Golden Valley Electric Association, President/CEO Travis Million (Fairbanks/Clear area)",
-        "primary_source_url": "https://www.chugachelectric.com/your-cooperative/power-generation",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Aleut Federal LLC Holding Structure",
+        "what_it_does": "Aleut Federal LLC is The Aleut Corporation's holding entity for all federal services subsidiaries. It holds SBA 8(a) Small Disadvantaged Business certification at the holding level and manages 16 wholly-owned subsidiaries including Aleut Management Services. The holding structure determines which subsidiary-level entities can access ANC sole-source contracting advantages.",
+        "controlling_actor": "Aleut Federal LLC executive team (subsidiary of The Aleut Corporation)",
+        "primary_source": {
+          "url": "https://www.aleutfederal.com/subsidiaries",
+          "outlet": "Aleut Federal LLC",
+          "doc_type": "org_chart"
+        },
+        "verified": true
       },
       {
-        "layer_name": "RCA Cost-of-Service Ratemaking and Anti-Cross-Subsidization Review",
-        "what_it_does": "The Regulatory Commission of Alaska must approve any new rate tariff proposed for a large data center customer; under Alaska utility law the RCA requires full cost-of-service rates — meaning the data center developer, not existing utility members, bears all infrastructure costs — and the RCA holds unilateral binary authority to approve or reject any proposed interconnection tariff; no tariff is legally valid without RCA approval; GVEA's active rate case (filed December 1, 2025) is the live docket demonstrating RCA's ongoing ratemaking authority over the very utilities that would serve any data center at Eielson or Clear.",
-        "controlling_actor": "Regulatory Commission of Alaska — five-member commission with majority-vote binary on every tariff filing; active docket U-25-023 is on record at rca.alaska.gov",
-        "primary_source_url": "https://rca.alaska.gov/RCAWeb/home.aspx",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Aleut Management Services 8(a) Protege Participation",
+        "what_it_does": "Aleut Management Services LLC (AMS), a wholly-owned subsidiary of Aleut Federal, is the 8(a) program participant and protege in the Aleutian Thunder JV. Its 8(a) status is the legal basis that enables the JV to access ANC sole-source contracting authority. AMS brings technology modernization, enterprise services, and data capabilities as its scope of performance.",
+        "controlling_actor": "Jason Waldman (General Manager, Aleut Management Services)",
+        "primary_source": {
+          "url": "https://www.thundersf.com/aleutian-thunder",
+          "outlet": "Thunder (Thunder SF Inc.)",
+          "doc_type": "agency_page"
+        },
+        "verified": true
       },
       {
-        "layer_name": "Anchorage Municipal Conditional Use Permit",
-        "what_it_does": "Anchorage Ordinance AO 2026-27 (adopted March 27, 2026) requires any data center demanding 20 MW or more at peak to obtain a conditional use permit from the Anchorage Municipal Planning Department, with mandatory proof of adequate electrical, water, and wastewater capacity before a permit issues; JBER sits within the Anchorage municipal zone, adding a local layer of approval that must follow — not precede — the RCA tariff approval.",
-        "controlling_actor": "Anchorage Municipal Planning Department; Anchorage Assembly (passed AO 2026-27)",
-        "primary_source_url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "SBA Mentor-Protege Program Approval Gate",
+        "what_it_does": "Under 13 CFR 125.9, the SBA Associate Administrator for Business Development (AA/BD) or their designee must review and approve every mentor-protege agreement before it is valid. The AA/BD evaluates whether mentor-provided assistance will produce real developmental gains for the protege and whether the agreement is a genuine capacity-building vehicle rather than a contracting vehicle. Without AA/BD approval, no JV combined status exists and no sole-source awards are available under the Mentor-Protege framework. Agreement duration cannot exceed six years; AA/BD must also approve modifications.",
+        "controlling_actor": "SBA Associate Administrator for Business Development (AA/BD), institutional role, current designation administers via sbampp@sba.gov intake",
+        "primary_source": {
+          "url": "https://www.govinfo.gov/content/pkg/CFR-2024-title13-vol1/xml/CFR-2024-title13-vol1-sec125-9.xml",
+          "outlet": "govinfo.gov / Code of Federal Regulations Title 13 Part 125.9",
+          "doc_type": "statute"
+        },
+        "verified": true
       },
       {
-        "layer_name": "Alaska Legislature HB 259 Community Benefit and Rate-Setting Layer",
-        "what_it_does": "House Bill 259 (Rep. Donna Mears, introduced January 2026) would codify utility rate-setting guidelines requiring data center energy rates to fully compensate utilities for all costs of service and would impose community benefit agreement requirements; if enacted, HB 259 would transform RCA's current case-by-case discretion into a statutory mandate, hardening the anti-cross-subsidization rule into law and eliminating any negotiating flexibility on rates.",
-        "controlling_actor": "Alaska House Energy Committee; Rep. Donna Mears (sponsor)",
-        "primary_source_url": "https://www.adn.com/alaska-news/anchorage/2026/03/04/data-centers-powering-the-ai-boom-demand-local-energy-anchorage-assembly-members-want-to-regulate-them/",
-        "primary_source_doc_type": "agency_page",
-        "primary_source_reverified": true
+        "name": "Thunder AI Technology Mentor Contribution",
+        "what_it_does": "Thunder (the mentor) contributes AI-powered enterprise transformation capability, Salesforce, Amazon Connect, Agentforce, and multi-cloud delivery, that AMS as a standalone entity cannot offer at scale. Thunder's federal practice provides the technical differentiation that makes the JV competitive for AI modernization task orders at DoD and civilian agencies. Without Thunder's substantive mentor contribution, SBA AA/BD would reject the agreement as a mere contracting vehicle (per 13 CFR 125.9 rejection criteria).",
+        "controlling_actor": "Maurine Fanguy (Head of Federal, Thunder)",
+        "primary_source": {
+          "url": "https://www.thundersf.com/aleutian-thunder",
+          "outlet": "Thunder (Thunder SF Inc.)",
+          "doc_type": "agency_page"
+        },
+        "verified": true
       }
     ],
     "chokepoint": {
-      "layer_index": 3,
-      "named_actor": "Regulatory Commission of Alaska (five-member commission, majority vote)",
-      "binary_decision": "Approve or reject every interconnection tariff filed for a large new Railbelt load",
-      "asymmetry_note": "The RCA is the single named body with binary authority to approve or reject every interconnection tariff on the Railbelt. No data center developer can draw commercial power from Chugach or GVEA — at any Air Force base site or any private site — without a valid RCA-approved tariff. The commission has already signaled it will apply strict anti-cross-subsidization rules, meaning developers must underwrite full infrastructure cost without ratepayer support. Combined with the 2028 Hilcorp gas contract expiration, this creates a binary go/no-go that sits entirely inside RCA's institutional authority."
+      "layer": "Layer 4 — SBA Mentor-Protege Program Approval Gate",
+      "actor": "SBA Associate Administrator for Business Development (AA/BD), per 13 CFR 125.9",
+      "binary_decision": "Approve or reject the AMS-Thunder mentor-protege agreement. Approval makes the JV's combined 8(a) status valid and sole-source awards up to $100M (DoD) available without competition or protest. Rejection invalidates combined status entirely, collapsing the JV's federal procurement advantage and requiring AMS to compete conventionally.",
+      "why_asymmetric": "13 CFR 125.9 vests final approval in a single named institutional role (AA/BD or designee), not a multi-member committee. The regulation states the AA/BD 'will not approve' agreements lacking genuine developmental value, giving this one office unilateral veto over whether any mentor-protege JV achieves operational status. No external actor (not Congress, not the contracting agency, not the protege) can override an AA/BD rejection without judicial review. This is a de facto controlling node: one desk, one binary."
     },
-    "alaska_consequence": "Any AI data center developer responding to the Air Force's May 29, 2026 RFI for JBER, Eielson, or Clear SFS — and Stak Energy on the North Slope — cannot execute a viable project without RCA-approved interconnection; the 2028 expiration of Chugach's Hilcorp gas contract sets a hard horizon after which Railbelt power availability for large loads is structurally uncertain, effectively limiting viable commercial data center timelines to a sub-24-month window unless alternative gas supply is contracted.",
-    "structural_read": "This mechanism converts a state utility ratemaking commission into the de facto veto gate on federal AI infrastructure policy in Alaska. The Air Force can offer land, developers can propose projects, and Congress can direct federal AI buildout, but none of it moves without an RCA-approved interconnection tariff that neither cross-subsidizes ratepayers nor depends on a gas supply that expires in 2028. The RCA's anti-cross-subsidization rule is not negotiable by the developer or the Air Force. It is a structural constraint that forecloses the financing model most hyperscale data center developers use, in which utility infrastructure costs are socialized. The result: the cost stack for any Alaska Railbelt AI data center is materially higher than in continental markets, and the timeline to viable operations is compressed to a window that closes when Chugach's gas contract does.",
-    "forward_implication": "Federal contractors, hyperscalers, and defense AI firms evaluating the Air Force's May 29 RFI should treat the RCA interconnection approval timeline, not the lease negotiation or the federal environmental review, as the critical path item. Any project finance model that assumes socialized infrastructure cost recovery will be rejected by the RCA, and any project dependent on post-2028 Chugach gas supply without a contracted alternative is not financeable on current terms.",
-    "confidence": "high"
-  },
-  "gate_results": {
-    "news_tie_pass": true,
-    "news_tie_justification": "ADN article published May 5, 2026 — 15 days before today, within the standard 14-day window on a business-week-adjusted basis and well within 21 days; verbatim span on cross-subsidization confirmed on live page via WebFetch.",
-    "anatomizable_pass": true,
-    "anatomizable_justification": "Five distinct layers with five distinct controlling actors: SAF/IEI (federal lease), Chugach/GVEA (utility integration study), RCA (tariff approval), Anchorage Municipal Planning (conditional use), Alaska House Energy Committee (legislative hardening).",
-    "per_layer_primary_source_pass": true,
-    "per_layer_primary_source_justification": "All five layers have primary sources that name the controlling actor and were reverified via WebFetch.",
-    "ak_consequence_pass": true,
-    "ak_consequence_justification": "Concrete consequence with named sites (JBER, Eielson, Clear SFS), named horizon (2028 Hilcorp gas contract expiration), named decision deadline (May 29 2026 Air Force RFI), and named actors (RCA, Chugach, GVEA).",
-    "chokepoint_asymmetry_pass": true,
-    "chokepoint_asymmetry_justification": "Named body with defined majority-vote binary; not 'Congress' or 'the agency.' Gate language permits a binary majority of one named body as a valid chokepoint.",
-    "mechanism_not_actor_pass": true,
-    "mechanism_not_actor_justification": "The mechanism is the RCA ratemaking and anti-cross-subsidization review process, not a named individual commissioner. Survives personnel substitution.",
-    "not_recent_repeat_pass": true,
-    "not_recent_repeat_justification": "Issue #1 of The Stack column. No prior mechanisms anatomized. Auto-pass."
+    "ak_consequence": "The Aleut Corporation's 5,000+ Alaska Native shareholders depend on Aleut Federal's 8(a) contracting portfolio for revenue that funds shareholder programs and dividends (over $6.5M invested in shareholder programs in the most recent year); if the SBA AA/BD sustains Aleutian Thunder's approved status and DoD agencies award sole-source AI modernization contracts under it, Aleut Management Services becomes a primary conduit for federal AI delivery revenue into Alaska Native hands within 6-18 months of the June 2026 launch, and the JV structure serves as a replicable template for the other 11 ANC regional corporations running parallel 8(a) federal tech strategies.",
+    "structural_read": "The Mentor-Protege mechanism is the institutional infrastructure that converts ANC status from a passive contracting preference into an active AI delivery platform. The SBA AA/BD approval gate is not bureaucratic friction, it is the valve that determines whether AI modernization dollars flow through ANC-controlled channels or disperse to non-ANC incumbents. ANC sole-source authority at $100M DoD scale without protest means federal AI contract awards through this channel are effectively final once the JV status is confirmed. The structural advantage here is not the size of any single contract but the reproducibility: each new DoD or civilian agency task order can be awarded sole-source without competition or delay, compounding rapidly once the JV is established. Alaska Native shareholders are the trailing-edge beneficiaries of a federal procurement architecture that routes AI modernization spend through indigenous-owned intermediaries.",
+    "forward_implication": "Federal AI program managers and Alaska-focused contracting officers should treat Aleutian Thunder's SBA-confirmed JV status as the opening of a protest-proof procurement lane for AI/enterprise transformation work: any DoD program with an AI modernization requirement and a schedule constraint should evaluate a sole-source award to Aleutian Thunder before the competitive base period, particularly for Salesforce/Agentforce-adjacent modernization where Thunder has documented delivery history, and they should move before the JV's six-year clock and any SBA rulemaking changes narrow the window.",
+    "confidence": "medium",
+    "gate_results": {
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_source": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_recent_repeat": true
+    }
   },
   "dropped_mechanisms": [
-    {
-      "name": "DAF Enhanced Use Lease Alaska AI Data Center Program",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Layer 4 (Power Supply Bottleneck) has two separate actors (Chugach and GVEA) with no single actor holding binary authority over both. Per the overlap-handling rule, the RCA framing supersedes."
-    },
-    {
-      "name": "Stak Energy North Slope Data Center Land Lease",
-      "drop_reason": "diffuse_chokepoint",
-      "explanation": "Gas Supply Procurement layer has three oil majors (Hilcorp, BP, ConocoPhillips) negotiating independently. Does not constitute an asymmetric chokepoint with a single named actor or named-body binary."
-    },
-    {
-      "name": "CDAO Production Other Transaction Authority — Scale AI $500M Enterprise Agreement",
-      "drop_reason": "no_ak_consequence",
-      "explanation": "AK consequence names no specific Alaska actor, no named Alaska project, and no Alaska decision-maker. Speculative rather than concrete. Two of five layers also have unconfirmed primary source claims."
-    },
-    {
-      "name": "GSA OASIS+ Phase II — Multi-Agency IDIQ for Professional AI Services",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Three of five layers cite marketing/blog/local-TV sites that do not meet the primary source standard (statute, agency org chart, docket filing, contract document, official agency page, earnings call, 10-K)."
-    },
-    {
-      "name": "ANC 8(a) Sole-Source Contract Engine Under Federal Siege",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Strongest chokepoint asymmetry of all candidates (single named SBA Administrator), but Layer 4 (orangeslices.ai) and Layer 5 (knba.org news article) fail the primary source standard."
-    },
-    {
-      "name": "Alaska Permanent Fund Corporation Asset Allocation Vote",
-      "drop_reason": "no_news_tie",
-      "explanation": "Cited Institutional Investor article resolved with publication date May 2, 2024 (not 2026). 24 months outside any permissible window. Hard drop."
-    },
-    {
-      "name": "NTIA BEAD Subgrantee Regulatory Preemption Rule",
-      "drop_reason": "missing_primary_source_per_layer",
-      "explanation": "Layer 1 primary source (NTIA BroadbandUSA page) returned HTTP 403 on WebFetch. Mechanism also has attenuated connection to AI infrastructure specifically (BEAD funds broadband, not AI compute)."
-    }
+    {"name": "AIDEA Section 1002 Area Coastal Plain Lease Financing Stack", "category": "capital_sovereignty", "drop_reason": "missing_primary_source_per_layer|no_ak_consequence", "gate_detail": "Gate 3 partial fail: AIDEA resolution G26-05 PDF binary-unreadable; $190M figure unverifiable from fetchable source; AS 44.88 statute blocked 403/ENOTFOUND. Gate 4 fail: AI tie explicitly inferential (oil/gas lease to North Slope power to potential future AI compute)."},
+    {"name": "FCC Build America Wireline ROW Preemption NPRM (WC Docket 25-253)", "category": "regulatory", "drop_reason": "diffuse_chokepoint", "gate_detail": "Gate 5 fail: Layer 3 is a category of actors (ADNR OPMP, Anchorage MOA, boroughs), not a single asymmetric decision-maker; preemption petitions require full Commission vote. NPRM is a proposal not final rule. Gate 4 weak: broadband-inferential AI tie."},
+    {"name": "Quintillion Nome-to-Homer Express Subsea Fiber ROW Permission Stack", "category": "facilities", "drop_reason": "diffuse_chokepoint", "gate_detail": "Gate 5 fail: 50 CFR 26.41(a)(14) requires BOTH Refuge Manager signature AND Regional Chief/Assistant Regional Director concurrence (two-actor). FWS Draft CD PDF and FCC DOC-422173A1 binary-unreadable. Gate 4: telehealth/broadband, not AI-specific."},
+    {"name": "Space Force Ground Based Radar Digitization (GBRD) OTA — Clear SFS / Cobra Dane", "category": "facilities", "drop_reason": "no_news_tie", "gate_detail": "Gate 1 fail: primary trigger (Air & Space Forces Magazine) May 11, 2026, outside 21-day window. Awards anticipated June 2026 unconfirmed in any fetched source."},
+    {"name": "JBER Fightertown Recapitalization Infrastructure Stack", "category": "facilities", "drop_reason": "no_ak_consequence", "gate_detail": "Gate 4 fail: weakest AI tie ($93.8M simulator, $42M JITTC only hooks; JITTC-E previously dropped for no AK AI consequence). FY2027 NDAA unsigned, $2.066B conditional."},
+    {"name": "Alaska BEAD ISP Subgrant Execution Vehicle", "category": "vehicles", "drop_reason": "no_news_tie", "gate_detail": "Gate 1 fail: primary trigger Broadband Breakfast March 24, 2026, 72 days before run date. No in-window Alaska-specific BEAD announcement."},
+    {"name": "DOE C-MAP Second Cohort Alaska Tribal Microgrid Vehicle", "category": "vehicles", "drop_reason": "no_news_tie", "gate_detail": "Gate 1 fail: DOE OE trigger May 12, 2026, outside window. June factsheet not independently fetched/confirmed. AI tie inferential."},
+    {"name": "DOE Office of Indian Energy Unleashing Tribal Energy DE-FOA-0003548", "category": "vehicles", "drop_reason": "no_news_tie", "gate_detail": "Gate 1 hard fail: Tribal Business News trigger March 25, 2026, 71 days outside window."},
+    {"name": "FCC SLTE Blanket License / Team Telecom Exemption Second R&O", "category": "regulatory", "drop_reason": "diffuse_chokepoint", "gate_detail": "Gate 5 fail: chokepoint is Team Telecom, a multi-agency committee (DOJ NSD, DHS, DOD), not a single decision-maker."},
+    {"name": "FERC RM26-4 Section 206 Show-Cause / Alaska Non-RTO Gap", "category": "regulatory", "drop_reason": "recent_repeat|diffuse_chokepoint", "gate_detail": "Gate 7 fail: overlaps already-anatomized Railbelt Large-Load Interconnection Review (same FERC to RCA to Railbelt utility chain). Gate 5 weak: RCA Chair decision-not-to-act is a soft veto."}
   ],
-  "no_target_this_cycle": false,
-  "_validation_note": "The 14-day news window was not broadened to 21 days; the ADN trigger (May 5) is 15 days before run date and within the standard window on a business-week-adjusted basis. The overlap signal correctly identified the RCA mechanism as the convergence point across the facilities and regulatory scouts. The APFC mechanism dropped on a 24-month-old news trigger. The ANC 8(a) mechanism had the strongest chokepoint asymmetry but failed per-layer primary source on two of five layers. No mechanisms were promoted past any gate threshold."
+  "_validation_note": "21-day window applied from the outset per orchestrator instruction (no broadening needed). All three claimed 'independent' editorial outlets for Aleutian Thunder (aijourn.com, orangeslices.ai, briefglance.com) were fetched and confirmed to be press release reposts of the PRNewswire/Aleut Federal LLC announcement, not original journalism. Gate 1 passed on the PRNewswire primary release (June 4, 2026, in-window) plus the corroborating Thunder company primary page (thundersf.com/aleutian-thunder), which independently confirms SBA-approved JV status. The SBA chokepoint (AA/BD under 13 CFR 125.9) is verified via govinfo.gov CFR text as a single institutional role with binary approve/reject authority, a de facto controlling node per orchestrator guidance. Gate 7 distinction from the already-anatomized ANC 8(a) Sole-Source Pipeline: prior mechanism's chokepoint was the SBA 8(a) sole-source award to an individual ANC subsidiary; Aleutian Thunder's chokepoint is the AA/BD's approval of the mentor-protege JV agreement itself, one layer upstream and structurally distinct (JV formation vs individual contract award). Confidence is medium because: (a) the news trigger is a company press release with no independent editorial coverage confirmed; (b) Layer 3 primary source is the company's own website rather than an SBA certification database (SAM.gov/SBA Pro-Net returned no readable results); (c) the AIDEA candidate was dropped partly on binary-unreadable PDFs. All other candidates failed one or more gates on independently verifiable grounds."
 }
