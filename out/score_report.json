@@ -1,32 +1,33 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "run_date": "2026-07-07",
+  "column": "The Stack",
+  "post": "out/final_post.md",
+  "rubric": "config/stack_rubric.yaml",
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First ~210 chars stand alone, name the mechanism (the fuel gate) and the news trigger (June 23 Alaska Energy, RCA cost-inflation quote verbatim), signal the reframe without snark."},
+    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Mechanism gates AK data-center siting; concrete consequence (facilities/power; DAF 4,700-acre JBER/Eielson/Clear + Chugach; firm-fuel gating milestone; first gas 2028-2029)."},
+    {"name": "Layer fidelity", "score": 9, "weight": 0.14, "notes": "All five body layers appear in dossier layers[] with matching controlling actors. No invented layers."},
+    {"name": "Chokepoint clarity", "score": 7, "weight": 0.13, "notes": "Names the RCA cost-allocation/cross-subsidization gate, RCA, and a 3-2 docketed approve/deny. Held to 7 because the actor is a five-member commission, the weaker single-actor form."},
+    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Honest grounded position (depletion converts Railbelt fuel into a natural-monopoly build, RCA reprices the AI-power question). Proportionate, not snark."},
+    {"name": "Forward implication", "score": 8, "weight": 0.08, "notes": "Concrete this-week read with dated window. Short of 10 because it does not name which competing developer is positioned."},
+    {"name": "Primary-source quality", "score": 7, "weight": 0.10, "notes": "Chokepoint layer traces to primary statute AS 42.05.141; other four layers on credible re-fetched journalism because agency primaries were host-blocked. Descriptor-7 case."},
+    {"name": "Voice match", "score": 8, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, business-literate, no banned phrases, no influencer cadence."},
+    {"name": "Readability (LinkedIn)", "score": 8, "weight": 0.04, "notes": "423 words in range, under 3000 chars, tight paragraphs, single 5-item bullet block."},
+    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Real debatable question tied directly to the chokepoint. No CTA."}
   ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "result": "pass"},
+    {"name": "punctuation_bans_held", "result": "pass"},
+    {"name": "total_char_count_under_linkedin_cap", "result": "pass"},
+    {"name": "word_count_in_range", "result": "pass"},
+    {"name": "mechanism_named_and_news_tied", "result": "pass"},
+    {"name": "every_layer_attributed", "result": "pass"},
+    {"name": "chokepoint_named", "result": "pass"}
   ],
-  "one_sentence_fix": null
+  "weighted_total": 8.34,
+  "threshold": 8.0,
+  "hard_fail": null,
+  "ship": true,
+  "weakest_criterion": "Chokepoint clarity",
+  "one_sentence_fix": "Optional polish since it ships: foreground the one-terminal structural asymmetry over the five-member commission framing."
 }

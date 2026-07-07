@@ -1,27 +1,27 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-07
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism:** Railbelt LNG-Import Fuel Gate for AI Data-Center Power
+**Category:** facilities → **CATEGORY = FACILITIES**
+**Confidence:** medium (mapper)
 
-## Role
-FOUNDER (kicker middle slot)
+**News trigger (verbatim, in-window 2026-06-23):**
+"The Regulatory Commission of Alaska is concerned that customers will end up stuck paying unreasonably inflated infrastructure costs to construct multiple facilities for a single small market"
+— Alaska Energy (alaskaenergy.org), 2026-06-23
+https://www.alaskaenergy.org/p/four-years-after-hilcorps-announcement
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Layer count:** 5
+1. Upstream gas supply (monopoly producer withdrawal) — Hilcorp / Harvest Alaska
+2. LNG import terminal (physical replacement-fuel chokepoint) — Glenfarne/Enstar; Harvest/CEA; Cook Inlet Energy, gated by RCA cost recovery
+3. Railbelt utility generation — Chugach Electric; Golden Valley Electric
+4. RCA cost-allocation / cross-subsidization gate (CHOKEPOINT) — Regulatory Commission of Alaska (AS 42.05.141)
+5. Data-center demand (the AI load) — Department of the Air Force / DoD RFLP + private developers
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Chokepoint:** The RCA's binary approve/deny (a docketed 3-2 majority vote under AS 42.05.141) on utility cost recovery for one Cook Inlet LNG-import terminal, plus whether a data-center load must fully cover its own cost of service. Because one small market justifies only one terminal, that single cost-recovery decision is the switch on whether any replacement fuel gets financed at all.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Structural read:** Cook Inlet depletion has turned Railbelt fuel supply into a natural-monopoly build. The RCA, not the developers or utilities or the Air Force, reprices the whole AI-data-center power question. First gas is not before 2028-2029, so firm fuel is the binding constraint on siting, ahead of interconnection or permitting.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Forward implication:** A developer or PM scoping a Railbelt AI/data-center site this week should treat firm-fuel availability (an RCA-approved import terminal delivering first gas 2028-2029), not land or interconnection, as the gating milestone, and assume the load will have to fully cover its own cost of service.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Honest caveats (from mapper, to carry into Editor's note):**
+- Chokepoint is a five-member commission (binary-majority of one named body), the weaker single-actor form, scored at medium confidence.
+- 4 of 5 layers are anchored to re-fetched journalism rather than agency primaries because every agency-primary host (rca.alaska.gov, chugachelectric.com, sam.gov, defense.gov, glenfarne.com, gasline.alaska.gov) was blocked this run. The load-bearing chokepoint layer IS anchored to a primary statute (AS 42.05.141). AI tie is DIRECT, not inferential.

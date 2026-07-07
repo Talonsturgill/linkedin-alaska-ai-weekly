@@ -1,23 +1,21 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Every proposed Railbelt AI data center runs through one fuel gate before it runs through anything else. On June 23 Alaska Energy reported the Regulatory Commission of Alaska worries customers get stuck paying “unreasonably inflated infrastructure costs to construct multiple facilities for a single small market.”
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+The mechanism is a physical fuel-supply stack that decides whether any Railbelt AI data center gets powered. Cook Inlet gas is depleting, so the answer depends on which competing LNG-import terminal the RCA lets utilities recover costs for, and on whether a data-center load can be firewalled from existing ratepayers.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+The stack has five layers.
 
-Five layers sit between an Air Force land offer and a powered data center.
+- Upstream gas supply, controlled by Hilcorp and Harvest Alaska, which declined in May 2022 to renew long-term Cook Inlet contracts as the basin is projected to run dry around 2033.
+- LNG import terminal, the physical replacement-fuel chokepoint, with three developers competing (Glenfarne and Enstar, Harvest and CEA, and Cook Inlet Energy) though only one is economically justifiable for one small market.
+- Railbelt utility generation, run by Chugach Electric and Golden Valley Electric, where Chugach’s Cook Inlet gas fell from about 30% of supply to under 1% last year.
+- RCA cost-allocation and cross-subsidization gate, the Regulatory Commission of Alaska acting under AS 42.05.141.
+- Data-center demand, the AI load, driven by the Department of the Air Force land-use proposals across 4,700 acres at JBER, Eielson, and Clear plus private developers.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The leverage sits in one layer. Under AS 42.05.141 the RCA holds a docketed approve or deny vote, a 3-2 binary majority of five commissioners, on whether a utility may recover the cost of a specific import terminal, and whether a data-center load must fully cover its own cost of service. Because one small market justifies only one terminal, that single vote is the switch on whether replacement fuel exists at all.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+Cook Inlet’s depletion turned Railbelt fuel into a natural-monopoly build, so the RCA, not the developers, not the utilities, not the Air Force, reprices the entire AI-power question. First gas is not expected before 2028 or 2029, which makes firm fuel the binding constraint on siting, ahead of interconnection or permitting.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+For anyone scoping a Railbelt site this week, the practical read follows. Treat firm-fuel availability, meaning an RCA-approved terminal delivering first gas around 2028 or 2029, as the gating milestone rather than land or interconnection, and assume the load fully covers its own cost of service.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+Should the RCA firewall data-center costs entirely, or is some shared recovery the only way one terminal ever gets financed?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #DataCenters #EnergyPolicy #GridPolicy #ArcticInnovation
