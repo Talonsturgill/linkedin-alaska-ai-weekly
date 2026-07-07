@@ -8,36 +8,37 @@
     "outlet": "Alaska Energy (alaskaenergy.org)",
     "pub_date": "2026-06-23"
   },
-  "layer_sources": [
+  "sources": [
     {
-      "layer": "Upstream gas supply (Hilcorp / Harvest Alaska)",
       "url": "https://www.alaskaenergy.org/p/four-years-after-hilcorps-announcement",
       "outlet": "Alaska Energy",
-      "doc_type": "news_report"
+      "pub_date": "2026-06-23",
+      "story_title": "News trigger, plus layers 1-2 (Hilcorp/Harvest upstream gas withdrawal and the competing LNG-import terminals)"
     },
     {
-      "layer": "LNG import terminal (Glenfarne/Enstar; Harvest/CEA; Cook Inlet Energy)",
-      "url": "https://www.alaskaenergy.org/p/four-years-after-hilcorps-announcement",
-      "outlet": "Alaska Energy",
-      "doc_type": "news_report"
-    },
-    {
-      "layer": "Railbelt utility generation (Chugach Electric; Golden Valley Electric)",
       "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
       "outlet": "Anchorage Daily News",
-      "doc_type": "news_report"
+      "pub_date": "2026-05-05",
+      "story_title": "Layer 3 (Chugach Electric and Golden Valley Electric generation) and the direct AI data-center power constraint"
     },
     {
-      "layer": "RCA cost-allocation / cross-subsidization gate (CHOKEPOINT)",
       "url": "https://codes.findlaw.com/ak/title-42-public-utilities-and-carriers-and-energy-programs/ak-st-sect-42-05-141/",
       "outlet": "Alaska Statutes 42.05.141 (FindLaw)",
-      "doc_type": "statute"
+      "pub_date": "statute",
+      "story_title": "Layer 4 CHOKEPOINT, RCA rate and cost-recovery authority (primary statute)"
     },
     {
-      "layer": "Data-center demand (DAF / DoD RFLP + private developers)",
       "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
       "outlet": "Air & Space Forces Magazine",
-      "doc_type": "news_report"
+      "pub_date": "2026",
+      "story_title": "Layer 5 (Department of the Air Force RFLP, 4,700 acres at JBER, Eielson, and Clear for AI data centers)"
     }
+  ],
+  "layer_sources": [
+    {"layer": "Upstream gas supply (Hilcorp / Harvest Alaska)", "url": "https://www.alaskaenergy.org/p/four-years-after-hilcorps-announcement", "outlet": "Alaska Energy", "doc_type": "news_report"},
+    {"layer": "LNG import terminal (Glenfarne/Enstar; Harvest/CEA; Cook Inlet Energy)", "url": "https://www.alaskaenergy.org/p/four-years-after-hilcorps-announcement", "outlet": "Alaska Energy", "doc_type": "news_report"},
+    {"layer": "Railbelt utility generation (Chugach Electric; Golden Valley Electric)", "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/", "outlet": "Anchorage Daily News", "doc_type": "news_report"},
+    {"layer": "RCA cost-allocation / cross-subsidization gate (CHOKEPOINT)", "url": "https://codes.findlaw.com/ak/title-42-public-utilities-and-carriers-and-energy-programs/ak-st-sect-42-05-141/", "outlet": "Alaska Statutes 42.05.141 (FindLaw)", "doc_type": "statute"},
+    {"layer": "Data-center demand (DAF / DoD RFLP + private developers)", "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/", "outlet": "Air & Space Forces Magazine", "doc_type": "news_report"}
   ]
 }
