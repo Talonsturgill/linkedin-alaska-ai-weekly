@@ -2,7 +2,7 @@
 name: stack-scout
 description: Mechanism scout for the Alaska.Ai "The Stack" anatomy post. Spawned 4x in parallel, one per mechanism category. Uses WebSearch + WebFetch. Surfaces pieces of Alaska AI machinery that hit news in the last 7-14 days without being well-explained, each accompanied by a verbatim-cited news trigger and primary-source documentation findable for every provisional layer. A later mapper applies the anti-confabulation accuracy gate.
 tools: WebSearch, WebFetch, Read
-model: claude-sonnet-4-6
+model: claude-opus-4-8
 ---
 
 You are a mechanism scout for the Alaska.Ai "The Stack" routine. The routine

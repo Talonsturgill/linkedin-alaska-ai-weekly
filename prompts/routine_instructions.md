@@ -13,11 +13,11 @@ You're running unattended in a Claude Code Routine. There's no human in the loop
 - Source seeds: `config/sources.yaml` (seed outlets including a `business_trade` block, plus a `discover` block, you must also surface new credible biz/trade sources).
 - Style anchor: `examples/post_001.md`. Read it. The new post should feel like the same desk wrote it.
 - Scoring: `config/scoring_rubric.yaml` (weighted criteria plus hard-fail checks plus the numeric ship threshold).
-- Image: the `alaska-ai-brief` skill at `.claude/skills/alaska-ai-brief/`. Read its `SKILL.md` for spec. Render via `python .claude/skills/alaska-ai-brief/build_template.py` with `--volume`, `--topic`, `--date`, `--byline`, `--kicker`, `--out`. No base PNG, generated from scratch each run. **The LinkedIn variant renders 1080x1080 square.**
+- Image: the `alaska-ai-artwork` skill at `.claude/skills/alaska-ai-artwork/`. Read its `SKILL.md` and follow its full seven-step process. Every issue ships ORIGINAL bespoke editorial art — a fresh concept, style family, palette, and composition each time, deduplicated against all prior issues, iterated through the skill's world-class eval loop. **1080x1080 square.** The old `alaska-ai-brief` template is the emergency fallback only.
 - Volume counter: derive from `config/state.yaml` `launch_date` using `volume = floor((today - launch_date).days / 7) + 1`, formatted as `"VOL. 0N"` (zero-pad to 2 digits).
-- Gmail draft helper: `scripts/gmail_draft.py` builds the HTML body and base64-encodes the image. It returns a JSON payload you pass to the Gmail MCP `create_draft` tool.
+- Gmail draft helper: `scripts/gmail_draft.py` builds the HTML body and returns a JSON payload you pass to the Gmail MCP `create_draft` tool. **HARD RULE: the email always carries the post image via a PERMANENT hosted URL** — the commit-SHA-pinned `raw.githubusercontent.com` link, verified HTTP 200 BEFORE the draft is created, rendered inline AND printed as a visible clickable link line under the image (`--image-url` does both). Base64 inline (`--image`) is a fallback ONLY when the artifact push itself failed after retries, and must be flagged in the Editor's note. Never create a draft whose image the human cannot open or download directly from the email.
 - Output location: `out/` for final artifacts, then committed to a `claude/linkedin-weekly-{YYYY-MM-DD}` branch at the end.
-- The cloud VM has Python 3 with Pillow + numpy + scipy + PyYAML + python-dateutil installed by the SessionStart hook.
+- The cloud VM has Python 3 with Pillow + numpy + scipy + PyYAML + python-dateutil + opensimplex + shapely + coloraide installed by the SessionStart hook.
 - Network is "Trusted". Use the built-in `WebSearch` and `WebFetch` tools for research, they route through Anthropic and work regardless of network settings. Don't rely on `curl` or `requests`.
 - The Gmail MCP connector is enabled. Use the Gmail MCP `create_draft` tool to drop the finished draft. The `to:` field requires a plain email address (not `"me"`). If you don't know the connected address, discover it once via `mcp__Gmail__search_threads` with `query: "from:me", pageSize: 1` and reuse it for the rest of the run.
 
@@ -41,7 +41,7 @@ Subagent return contracts:
 3. `config/state.yaml`
 4. `config/scoring_rubric.yaml`
 5. `examples/post_001.md`
-6. `.claude/skills/alaska-ai-brief/SKILL.md`
+6. `.claude/skills/alaska-ai-artwork/SKILL.md`
 7. Today's date in America/Anchorage. The 7-day window is `[today - 7 days, today]` inclusive.
 
 # STEPS
@@ -73,7 +73,7 @@ From the output, write a short "recent frames" note to scratch listing the lead 
 
 ## Phase 2 — Deep Research (parallel)
 
-Spawn five `researcher` subagents in parallel via the Task tool, one per beat. Pass each subagent: the date window, the brand voice summary, the beat description, and a one-line "recent frames" reminder so they don't bring you obvious repeats. Researcher subagents run on Sonnet by default (set via their definition), the orchestrator stays on Opus.
+Spawn five `researcher` subagents in parallel via the Task tool, one per beat. Pass each subagent: the date window, the brand voice summary, the beat description, and a one-line "recent frames" reminder so they don't bring you obvious repeats. All subagents run on Opus (set via their definitions) — quality over cost across the board.
 
 - **Beat A — Workforce & jobs.** Hiring, layoffs, training programs, H-1B / immigration, university-to-industry pipelines (UAF, UAA, APU, ANSEP), Indigenous workforce programs, apprenticeship and reskilling, unionization in AK tech and AI-adjacent roles.
 - **Beat B — Capital & contracts.** Federal grants (DOE, DOD, NSF, USDA Rural, NOAA, NIH), procurement awards (SAM.gov, BPAs, IDIQs, OTAs), venture capital into AK-headquartered or AK-deploying startups, tribal corporation investments, state CIP and RAB appropriations, philanthropic capital touching AK AI.
@@ -155,46 +155,93 @@ Spawn the `scorer` subagent. It grades `out/final_post.md` against `config/scori
 - At or above threshold AND no hard-fail check tripped: proceed to Phase 8.
 - Below threshold OR any hard-fail tripped: send the report card back to the writer for one more revision, then re-score. Max **2 additional scoring cycles**. If still below, ship the best version and flag the shortfall in the email body's Editor's note section.
 
-## Phase 8 — Image render (via the `alaska-ai-brief` skill)
+## Phase 8 — Custom artwork (via the `alaska-ai-artwork` skill)
 
-Read `.claude/skills/alaska-ai-brief/SKILL.md` for the spec. The image is generated from scratch, there's no base PNG. The LinkedIn variant renders **1080x1080 square**.
+Read `.claude/skills/alaska-ai-artwork/SKILL.md` and execute its full
+seven-step process: absorb the story → dedup scan of prior issues'
+meta ledgers → three concepts, pick the strongest visual metaphor →
+pre-production blueprint (`out/art_plan.md`) → bespoke render script
+(`out/art_script.py` using `art_kit`) → self-healing eval loop (score
+every render against the skill's world-class rubric, iterate up to 6
+times, ship at weighted >= 8.5) → technical QA. The piece must be
+original to THIS issue: different style family, palette, composition,
+and motif from recent issues per the skill's cooldown rules.
 
-Gather inputs:
-- `--topic`: the writer's quotable headline (1 to 2 lines, `\n` separator, about 28 chars per line max).
-- `--volume`: the volume number from Phase 1, formatted `"VOL. 0N"`.
-- `--date`: today in `D MMM YYYY` all caps, e.g. `12 MAY 2026`.
-- `--byline`: `"BY TALON"` (default, override only if `state.yaml` changes).
-- `--kicker`: `"WEEKLY BRIEF"` by default. Swap to `"DEEP DIVE"` if Phase 5 picked Deep Dive mode and the package merits the label.
-- `--out`: `out/post_image.png`.
+Column parameters:
+- Kicker mark on the art: `"WEEKLY BRIEF"` (swap to `"DEEP DIVE"` if
+  Phase 5 picked Deep Dive mode). Middle slot: the volume number
+  `"VOL. 0N"`. Date: today in `D MMM YYYY` all caps.
+- Headline on the art: the writer's quotable headline (the artist owns
+  its typographic treatment and may tighten the wording).
+- Byline is NOT drawn; record `"BY TALON"` in the meta only.
 
-Run:
+Gate before Phase 9:
 
 ```
-python .claude/skills/alaska-ai-brief/build_template.py \
-  --volume "VOL. 0N" \
-  --topic "<line1>\n<line2>" \
-  --date  "D MMM YYYY" \
-  --byline "BY TALON" \
-  --kicker "WEEKLY BRIEF" \
-  --out out/post_image.png
+python .claude/skills/alaska-ai-artwork/qa_check.py \
+  --image out/post_image.png --date "D MMM YYYY" --column "WEEKLY BRIEF"
 ```
 
-Verify `out/post_image.png` exists, is non-empty, and is **1080×1080**. The script's output validation also asserts this, fail fast if it doesn't. If the renderer reports a topic-too-wide overflow, ask the writer subagent for a shorter quotable headline (one tight rewrite) and retry once.
+Must print PASS. Deliverables: `out/art_plan.md`, `out/art_script.py`,
+`out/post_image.png`, `out/post_image.png.meta.json` (the complete
+ledger entry incl. `eval_final`). Fallback: only after 4 consecutive
+script crashes, render the legacy `alaska-ai-brief` template instead
+and flag the fallback in the Editor's note.
 
-## Phase 9 — Gmail draft
+**Exhaustiveness mandate.** The artwork is a first-class deliverable,
+equal in standing to the post itself. Do not treat Phase 8 as a
+checkbox: spend real effort in pre-production (every element placed by
+coordinate before code), build detail through all three scales (macro
+shapes, meso structure inside every big shape, micro finishing life),
+and use the eval loop's full iteration budget whenever the piece is
+short of excellent. The 8.5 bar is the FLOOR, not the target — keep
+iterating while iterations are clearly buying quality. A piece that
+would not stop a designer's scroll is not done.
 
-Compose the email using `scripts/gmail_draft.py`, which returns a JSON payload (subject, html_body, base64 image embedded inline) ready to pass to the Gmail MCP `create_draft` tool.
 
-**Image hosting note.** The base64 inline image makes the html body large enough that some MCP transports truncate it. If `len(html_body)` exceeds 100 KB, swap the `data:image/png;base64,...` URI for the GitHub raw URL `https://raw.githubusercontent.com/{owner}/{repo}/{branch}/out/post_image.png` (the branch from Phase 0). The image renders after Phase 10 push lands. Note this in the Editor's note.
+## Phase 9 — Publish artifacts FIRST, then the Gmail draft
+
+**THE HARD RULE (zero exceptions): the Gmail draft always carries the
+post image on a PERMANENT hosted URL, verified live BEFORE the draft
+is created.** The email is never image-less, never links a URL that
+404s, and never says "the image will render after a push/merge". A
+raw.githubusercontent.com URL works the moment the commit is pushed —
+merging is never required and must never be mentioned as a caveat.
+
+1. **Push first.** Switch to the `BRANCH` from Phase 0 and commit the
+   artifacts (use `git add -f`, `out/` is gitignored on main):
+   `out/post_image.png`, `out/post_image.png.meta.json`,
+   `out/art_plan.md`, `out/art_script.py`, `out/final_post.md`,
+   `out/source_ledger.json`, `out/score_report.json`.
+   Commit message: `weekly linkedin recap — {YYYY-MM-DD}`. Push with
+   the backoff loop (`for i in 1 2 3 4; do git push -u origin "$BRANCH" && break || sleep $((2**i)); done`).
+2. **Pin the image URL to the COMMIT SHA** (permanent — survives
+   branch deletion and renames):
+   `SHA=$(git rev-parse HEAD)`
+   `IMG_URL="https://raw.githubusercontent.com/{owner}/{repo}/$SHA/out/post_image.png"`
+3. **Verify it is live**: `curl -sI "$IMG_URL" | head -n1` must return
+   HTTP 200. Retry up to 4 times with 2s/4s/8s/16s backoff (the CDN
+   can lag a push by a few seconds).
+4. **Build the payload with the verified URL**:
+   `python scripts/gmail_draft.py --post-md out/final_post.md
+   --image-url "$IMG_URL" --sources ... --score ... --date ...
+   --branch "$BRANCH" ... > out/gmail_payload.json`.
+   `--image-url` renders the image inline AND prints the URL as a
+   visible clickable link line directly under it, so the human can
+   always open, save, or share the image from the email.
+5. **Base64 fallback, only on push failure**: if and only if step 1's
+   push failed after all retries, build with `--image
+   out/post_image.png` instead so the email still physically contains
+   the image, and flag the missing hosted URL in the Editor's note.
 
 Email contents (HTML body, in order):
 
 1. Branded header with page name + date.
 2. **"Copy this for LinkedIn"**: the final post text inside a styled `<pre>` so it copies cleanly (including the hashtag block on the final line).
-3. The rendered image (inline base64 OR hosted URL per the size rule above).
+3. The image (hosted URL inline render) followed by its visible, clickable permanent URL line.
 4. **Sources**: bulleted clickable list of every story's sources.
 5. **Editor's report card**: scorer's JSON rendered as a small table (score per criterion, weighted total, threshold, ship or revise, hard-fail rule if any).
-6. **Editor's note**: anything the editor or scorer flagged the human should know, plus any subagent stall, validator promotion, or rendering fallback that happened this run.
+6. **Editor's note**: anything the editor or scorer flagged the human should know, plus any subagent stall, validator promotion, artwork eval-bar miss, or rendering fallback that happened this run.
 7. Footer with run timestamp and the `claude/linkedin-weekly-*` branch name.
 
 Subject: `Alaska.Ai — Weekly LinkedIn Recap Draft — {YYYY-MM-DD}` (the em-dash here is in metadata only, banned in body copy, allowed in subjects and code).
@@ -203,18 +250,12 @@ To: the connected Gmail address discovered in CONTEXT (the Gmail MCP `to` field 
 
 Write the returned draft ID to `out/gmail_draft_id.txt`.
 
-## Phase 10 — Commit artifacts
+## Phase 10 — Follow-up commit
 
-Switch to the `BRANCH` name chosen in Phase 0. Commit (use `git add -f` since `out/` is gitignored on main):
-
-- `out/post_image.png`
-- `out/post_image.png.meta.json`
-- `out/final_post.md`
-- `out/source_ledger.json`
-- `out/score_report.json`
-- `out/gmail_draft_id.txt`
-
-Commit message: `weekly linkedin recap — {YYYY-MM-DD}`. Push the branch. After push, verify the hosted image URL (if used in Phase 9) returns HTTP 200.
+Commit `out/gmail_draft_id.txt` (`git add -f`) with message
+`weekly linkedin recap — {YYYY-MM-DD} — draft id` and push with the
+same backoff loop. The artifacts themselves already landed in Phase 9
+step 1.
 
 # STYLE GUARDRAILS (PASS THESE TO THE WRITER VERBATIM)
 
@@ -296,8 +337,8 @@ You may keep the un-contracted form when the sentence carries weight, e.g. "Alas
 # OUTPUT SUCCESS CRITERIA (all must hold)
 
 1. A Gmail draft exists with subject `Alaska.Ai — Weekly LinkedIn Recap Draft — {YYYY-MM-DD}`.
-2. `out/post_image.png` exists and is a valid **1080×1080** PNG.
-3. `out/post_image.png.meta.json` exists with the render parameters.
+2. `out/post_image.png` exists, is a valid **1080×1080** PNG of original bespoke artwork (not the fallback template unless flagged), and `qa_check.py` passed. The Gmail draft renders it from the commit-SHA-pinned raw URL, verified HTTP 200 before draft creation, with the URL printed as a visible clickable link line in the email (base64 only on push failure, flagged).
+3. `out/post_image.png.meta.json` exists with the full artwork ledger entry (style_family, palette, hue_family, composition, motifs, technique_stack, seed, eval_final), and `out/art_plan.md` + `out/art_script.py` are committed beside it.
 4. `out/final_post.md` exists with the final post text.
 5. `out/final_post.md` body contains zero em-dashes (`—`, `–`, `--`), zero colons (`:`), and zero semicolons (`;`).
 6. `out/final_post.md` ends with a 3 to 5 hashtag line drawn from `brand.yaml` (one off-whitelist max).
@@ -313,9 +354,9 @@ If any of these fail, surface the failure in the Gmail draft body. Don't silentl
 
 - Built-in `WebSearch` + `WebFetch` for all research.
 - `Task` tool to spawn subagents by their definition names (`researcher`, `validator`, `writer`, `editor`, `scorer`).
-- `Bash` only for `python scripts/...`, `python .claude/skills/alaska-ai-brief/build_template.py ...`, `git`, `ls`, file inspection, simple `curl -I` for hosted-image verification.
+- `Bash` only for `python scripts/...`, `python .claude/skills/alaska-ai-artwork/...`, `python out/art_script.py`, `python .claude/skills/alaska-ai-brief/build_template.py ...` (fallback only), `git`, `ls`, file inspection, simple `curl -I` for hosted-image verification.
 - Gmail MCP tool for the final draft (no SMTP available).
-- Subagent model assignment lives in each agent's `.md` frontmatter, not here. Researchers, validator, and scorer on Sonnet, writer and editor on Opus. The orchestrator (this prompt) stays on Opus.
+- Subagent model assignment lives in each agent's `.md` frontmatter, not here. ALL subagents (researchers, validator, writer, editor, scorer) run on Opus — do not downgrade any of them to a smaller model. The orchestrator (this prompt) stays on Opus.
 - **Repo-level pairing fix that needs to land separately from this prompt:** `.claude/agents/validator.md`, `writer.md`, `editor.md`, and `scorer.md` should all keep their `tools:` lines Read-only (or Read + WebFetch where needed), the orchestrator persists. If any of those agent files lists `Write` in `tools:`, remove it. The subagent contract above only works when subagents return text and the orchestrator owns the filesystem side effects.
 
 Now begin Phase 0.
