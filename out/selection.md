@@ -1,27 +1,23 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-07
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism:** ADNR State-Land Disposal Gate for the Stak Energy North Slope AI Data-Center Lease
 
-## Role
-FOUNDER (kicker middle slot)
+**Category:** FACILITIES
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger (verbatim, in-window 2026-07-06):**
+"More than 500 public comments were received before a preliminary deadline set by the Alaska Department of Natural Resources."
+— Copper River Country Journal / Northcountry News, 2026-07-06
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count:** 4 verified decision points
+1. DMLW lease-application intake and administration (AS 38.05.070/.073/.075)
+2. DMLW Director written best-interest finding + public comment (extended to July 17, 2026)
+3. Final Finding and Decision requiring Commissioner consent — **CHOKEPOINT** (AS 38.05.035(e))
+4. Post-decision 20-day appeal + 10-day Commissioner reconsideration
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Chokepoint:** Commissioner of the Alaska Department of Natural Resources consenting to the DMLW Final Finding and Decision. AS 38.05.035(e) makes the director's approval conditional on the commissioner's consent and vests the commissioner with final authority for transactions above the rental threshold. One statutory officer, single approve/deny gate, institutional (survives any change of incumbent).
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read:** A project with statewide economic and precedent-setting stakes reduces to whether a single cabinet officer signs off on a best-interest finding. The 500+ opposing comments are input to that finding, not the decision. The revolving-door optics (Stak CSO John Boyle was DNR commissioner 2023-2025) are real context but do not change the machinery.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Forward implication:** Treat the Commissioner's post-July-17 decision on the Stak best-interest finding as the binding date, not the comment volume. The 20-day appeal / 10-day reconsideration window is where the disposal can still be reopened.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**CATEGORY (kicker middle slot):** FACILITIES

@@ -1,17 +1,78 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
+  "date": "7 JUL 2026",
+  "column": "The Stack",
+  "kicker": "THE STACK",
+  "middle_slot": "FACILITIES",
+  "headline": "ONE SIGNATURE / FIFTY-YEAR GATE",
   "byline": "",
-  "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
-  "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
-  "seed": 11,
-  "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "style_family": "cadastral_ledger",
+  "palette": [
+    "#ece3cf",
+    "#d8c9a3",
+    "#241f18",
+    "#7a6f57",
+    "#c0341d",
+    "#4d6473",
+    "#ffc72c"
+  ],
+  "hue_family": "red",
+  "composition": "central_icon",
+  "motifs": [
+    "cadastral plat",
+    "consent seal",
+    "comment-mark drift",
+    "survey ticks",
+    "north arrow"
+  ],
+  "technique_stack": [
+    "field",
+    "warp",
+    "hatch",
+    "stipple",
+    "hand_line",
+    "grain",
+    "mottle"
+  ],
+  "seed": 738,
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 8.45,
+      "weakest": "detail/craft",
+      "note": "strong first render; comment drift wispy, flat edge acreage"
+    },
+    {
+      "iter": 2,
+      "weighted": 8.74,
+      "weakest": "craft",
+      "note": "added legal neatline border + graticule, denser drift with paper slips, second corner hatch"
+    },
+    {
+      "iter": 3,
+      "weighted": 8.8,
+      "weakest": "composition/color",
+      "note": "tightened drift into a substantial pile pressed at the gate, heavier front ranks"
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.8,
+    "scores": {
+      "concept": 9,
+      "focal": 9,
+      "composition": 8.5,
+      "color": 8.5,
+      "detail": 8.5,
+      "craft": 8.5,
+      "typography": 9,
+      "originality": 9,
+      "fidelity": 10
+    }
+  },
   "canvas": [
     1080,
     1080
   ],
-  "out_path": "out/post_image.png"
+  "rendered_at_utc": "2026-07-08T03:44:18.544022Z",
+  "out_path": "out/post_image.png",
+  "dedup_clearance": "prior stack 7 JUL was iso_cutaway/blue-teal/thirds_focal; this is cadastral_ledger/red/central_icon, distinct motifs"
 }
