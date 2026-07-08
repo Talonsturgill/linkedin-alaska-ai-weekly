@@ -1,0 +1,139 @@
+{
+  "issue_label": "NO. 28",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "The AI data center load shape is changing and data architectures have advanced, so places like Alaska's North Slope become not only viable, but we argue that they have become inevitable.",
+    "asserters": [
+      {
+        "name": "Sparrow Mahoney",
+        "title_or_org": "CEO, STAK Energy",
+        "url": "https://www.ornl.gov/news/workshop-tackles-ai-data-center-power-security-challenges",
+        "outlet": "Oak Ridge National Laboratory (DOE workshop proceedings)",
+        "pub_date": "2026-03-16",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_note": "Claim originated at the March 2026 DOE/ORNL workshop on AI data-center power and security (federal agency proceedings, verified). Independently reported by Anchorage Daily News (2026-05-18, verified). Scout identified five additional outlets covering the same claim or event: Alaska Beacon (2026-05-14, 403 during verification), Northern Journal (2026-05-13, not attempted), Alaska Public Media (2026-05-26, 404), Data Center Dynamics (2026 series, 404), Alaska Business Magazine (2026-05-21, 404). The 'inevitable' framing is the lead articulation of the North Slope AI data center case in Alaska capital-recruitment and state energy-conference discourse as of mid-2026. Gate 2 passes under rule 2(b): Mahoney is a named CEO asserting the claim in first person at a federal DOE-affiliated venue.",
+    "steelman": "North Slope AI data centers bypass the Railbelt grid constraints that are actively preventing Southcentral Alaska from hosting large industrial loads — former DNR analyst Antony Scott himself said North Slope operators would 'likely be willing to sell gas' and that a remote North Slope location avoids driving up electricity prices in urban Alaska. Modern AI inference workloads tolerate latency better than earlier cloud architectures, making remote co-location with fuel sources more viable than it was five years ago. If North Slope operators can be contracted as gas suppliers and a pipeline spur can be financed alongside the project, the combination of available land, natural cold, proximity to one of North America's largest gas accumulations, and zero grid competition creates a genuinely distinctive industrial proposition.",
+    "load_bearing_rationale": "STAK Energy holds an active Alaska DNR land application for a one-square-mile North Slope industrial site and is actively recruiting capital partners and vendors for a proposed $500M, 3 GW facility. State officials and gubernatorial-level energy conferences are citing the 'inevitable' framing as validation of Alaska's AI industrial strategy. 'Inevitable' removes the conditional infrastructure preconditions from capital-partner and state land-grant due diligence, substituting certainty for a list of unmet threshold conditions (gas contracts, pipeline spur, regulatory approvals). Sector: energy/data infrastructure. Named actor: STAK Energy (DNR applicant), Alaska DNR (land decision), capital partners evaluating $500M commitment. Timeframe: active application mid-2026.",
+    "more_accurate_frame": "North Slope is conditionally possible — not inevitable. As of mid-2026 STAK Energy had not secured a firm natural gas supply agreement; its own DNR application left the pipeline route at '25 to 90 miles' with no specific source field identified. North Slope petroleum operators have almost exclusively extracted oil because minimal gas-to-market infrastructure exists. STAK's proposed power plant would consume more than twice the natural gas that all of urban Alaska currently uses for electricity generation and heating combined — a volume with no contractual supply path. Calling that convergence of unmet prerequisites 'inevitable' is precisely backwards: the site is merely possible under conditions that did not exist at the time the claim was made.",
+    "counter_evidence": [
+      {
+        "fact": "STAK Energy had not secured a firm natural gas supply agreement at the time of its DNR land application; the filing leaves the pipeline route at 'anywhere between 25 and 90 miles,' with no specific North Slope field identified as the fuel source. Former Alaska DNR commercial petroleum analyst Antony Scott, reviewing the application: 'That means they don't have a gas supply.'",
+        "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-18",
+        "is_primary": false
+      },
+      {
+        "fact": "STAK's proposed power plant would consume 'more than twice as much' natural gas as urban Alaska uses for all electrical generation and all home and commercial heating combined, per ADN's reporting on the DNR application — a scale of demand with no existing contractual supply path on the North Slope.",
+        "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-18",
+        "is_primary": false
+      },
+      {
+        "fact": "North Slope petroleum companies have 'almost exclusively extracted oil' from North Slope fields because oil is energy-dense and transportable via TAPS; 'minimal infrastructure exists to move North Slope natural gas to market' as of 2026.",
+        "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-18",
+        "is_primary": false
+      },
+      {
+        "fact": "Chugach Electric Association spokesperson Julie Hasquet: 'We currently do not have gas to serve a large data center.' Former RCA Commissioner Robert Pickett: 'The whole electric industry right now in Southcentral Alaska is in a world of hurt.' Chugach's gas supply contract with Hilcorp Alaska concludes in 2028 with no replacement secured.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": false
+      },
+      {
+        "fact": "Golden Valley Electric Association reported Cook Inlet gas dropped from approximately 30% to less than 1% of GVEA's fuel supply in the prior year, forcing near-emergency LNG imports as a stopgap — demonstrating the systemic gas supply crisis across all of Alaska's existing gas infrastructure.",
+        "url": "https://www.adn.com/alaska-news/military/2026/05/05/the-military-wants-to-host-data-centers-in-alaska-raising-questions-about-whether-theres-enough-gas-to-power-them/",
+        "outlet": "Anchorage Daily News",
+        "pub_date": "2026-05-05",
+        "is_primary": false
+      },
+      {
+        "fact": "The ORNL workshop proceedings record Mahoney positioning the project as 'powered by natural gas from the adjacent Prudhoe Bay field' — a specific sourcing claim that the DNR application itself contradicts by leaving the pipeline route undetermined at 25-90 miles and naming no Prudhoe Bay operator agreement.",
+        "url": "https://www.ornl.gov/news/workshop-tackles-ai-data-center-power-security-challenges",
+        "outlet": "Oak Ridge National Laboratory (DOE)",
+        "pub_date": "2026-03-16",
+        "is_primary": true
+      }
+    ],
+    "ak_consequence": "Energy / land-use / capital allocation: Alaska DNR is evaluating STAK Energy's lease application for a one-square-mile North Slope industrial site; capital partners and Alaska vendors are sizing development budgets for a proposed $500M, 3 GW facility; state energy officials and gubernatorial candidates are citing the 'inevitable' claim as evidence Alaska's AI industrial strategy is grounded. If capital is committed or DNR land decisions are made before gas supply contracts exist, investors and the state will have bet on an infrastructure assumption — North Slope gas commercially available for a third-party buyer at twice urban Alaska's total consumption — that had not been demonstrated as of mid-2026.",
+    "date_note": "Claim originated at the March 16, 2026 ORNL/DOE workshop and recirculated through ADN and multiple Alaska outlets in May 2026. Still the lead articulation of the North Slope AI data center case as of July 2026; Mahoney repeated closely related language at the Governor's Energy Conference (Alaska Business Magazine, May 2026).",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary": true,
+      "not_a_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim": "ADN Editorial Board: 'Alaska has done none of that. No comprehensive policy, no clear direction, no coordinated strategy.'",
+      "reason": "true_as_stated — Alaska genuinely lacked a comprehensive AI policy as of April 4, 2026; scattered actions (Admin Order 359 Aug 2025, HCR 3 task force Feb 2026, HB 47) do not rebut the editorial's specific benchmark of 38 states passing ~100 laws; the claim is a defensible description of the policy gap, not a correctable misrepresentation."
+    },
+    {
+      "claim": "ADN Editorial Board: 'needs a workforce that is prepared to step into these roles instead of watching them go to Outside hires'",
+      "reason": "not_load_bearing — vague aspiration; no specific verifiable assertion to rebut; same source URL as the policy-vacuum claim; UAA MS in AI launched before the editorial was published, partly rebutting it, but the claim is too diffuse to correct precisely."
+    },
+    {
+      "claim": "LeiLauni Scheideman (AFA Council 30): 'Congress' effort to ban state AI laws is an effort that would benefit Silicon Valley alone, leaving Alaska out to dry.'",
+      "reason": "single_non_primary — union president op-ed; the piece identifies no enacted Alaska AI worker-protection statute to be preempted; claim is advocacy framing, not a correctable factual assertion; no independent Alaska circulation of the specific 'Silicon Valley alone' framing verified."
+    },
+    {
+      "claim": "Timothy Schuerch: 'Port MacKenzie is one of the few places on Earth where a 10–20 gigawatt AI cluster is physically plausible…proximity to a large-scale gas supply spine that is not dependent on a constrained electrical grid.'",
+      "reason": "superseded by STAK selection — Cook Inlet gas supply spine is in the same correction mechanism family (Alaska gas-to-data-center infrastructure gap); STAK/North Slope selection carries stronger verified counter-evidence and fresher May 2026 circulation; selecting both would re-run the same correction."
+    },
+    {
+      "claim": "Troy Boufard (UAF/CASR): 'Since satellites don't work up here, we've got to figure out how to use all the other sensors, right?'",
+      "reason": "no_primary_counter — quote confirmed at MeriTalk; primary sources for polar-orbiting satellite Arctic coverage (MDA LRDR fact sheet, Space Force documentation) returned HTTP 503 on two attempts and 403; could not verify the key counter-fact from any reachable primary source."
+    },
+    {
+      "claim": "Trent Emeneker (DIU): 'If we had to go to war tomorrow, do we have what we need? No.'",
+      "reason": "no_primary_counter — quote confirmed at ArcticToday; counter-argument (Artemis tested only two specific long-range strike drones in a Ukraine-scenario mission, not the full US UAS portfolio) is well-supported contextually but could not be verified from DoD primary documentation of existing Alaska-theater UAS capability."
+    },
+    {
+      "claim": "Rep. Genevieve Mina (AK State House): 'You name a program \"transformation,\" but the way that the feds designed it is almost directing us to AI.'",
+      "reason": "no_primary_counter — quote confirmed at GovTech (June 2026); CMS RHTP program documentation returned HTTP 404 and Alaska DHSS page returned 403; only one credible secondary source (GovTech itself, which also hosts the claim) confirms AI is not specifically required; the two-independent-secondary-source substitution provision requires two different outlets, not one."
+    },
+    {
+      "claim": "Ted Stevens Center: 'AI in this context functions as a direct capability enabler, allowing for expanded reach without expanded presence.'",
+      "reason": "true_as_stated — military doctrine claim that AI extends sensing reach without requiring physical forward deployment is broadly accurate as a statement of strategic intent and is supported by real deployed sensor programs; Fort Wainwright drone trial provides a partial but narrow counter-example that does not rebut the general capability claim."
+    },
+    {
+      "claim": "Masao Dahlgren (CSIS): 'If you don't have a space-based sensor layer, you can't do hypersonic defense.'",
+      "reason": "no_primary_counter — quote confirmed at GovCIO Media; MDA LRDR fact sheet returned HTTP 503; Space Force satellite documentation inaccessible; could not verify from any reachable primary source that LRDR or HEO satellites provide an existing counter-example to the claim."
+    },
+    {
+      "claim": "Sen. Dan Sullivan: 'This will help our military. It will help increase domestic demand for our gas and lower the costs of building and financing the pipeline.'",
+      "reason": "not_load_bearing as a single correctable mechanism — the claim bundles AI data centers, military utility, LNG pipeline financing, and gas demand into one causal chain with no isolatable correctable assertion; sullivan.senate.gov URL was not independently fetched for verbatim verification."
+    },
+    {
+      "claim": "Fadil Limani (AK Dept. of Revenue Deputy Commissioner): 'which promises to revolutionize how we process PFD applications — a true game changer for generations of Alaskans'",
+      "reason": "no_primary_counter — quote confirmed at StateScoop (Dec 2024); only one counter-evidence fact verified (vendor Charles Hu in same article: 'an analyst will still need to ensure that all application information is correct'); DOR website returned DNS error; govtech.com PFD AI article returned 404; insufficient verified counter-evidence for a three-to-six-fact rebuttal."
+    },
+    {
+      "claim": "Gov. Dunleavy (Admin Order 359): 'Utilize technology and artificial intelligence (AI) to review large datasets in order to determine how State of Alaska funds are actually being spent.'",
+      "reason": "not_load_bearing — an executive directive is not a correctable factual claim; the admin order states policy intent, not a verifiable assertion about AI capability or outcomes that smart people could be misled by."
+    },
+    {
+      "claim": "Sam Enoka (Greensparc CEO): 'our mission is to make equitable computing power at scale a reality regardless of geography'",
+      "reason": "not_load_bearing — confirmed at akbizmag (April 2024, 27 months old); aspirational mission language not driving a specific current Alaska capital or policy decision at scale; the Cordova 170 kW hydro-surplus model is real but the 'regardless of geography' implication for diesel-grid villages requires independent circulation verification that was not completed."
+    },
+    {
+      "claim": "Clay Koplin (Cordova Electric CEO): 'Greensparc has elevated Cordova, Alaska, from a remote community at risk of being left behind by next-generation technologies to one that is leading at the intersection of sustainable energy, high-speed communications, and transformative cloud computing.'",
+      "reason": "not_load_bearing — local utility CEO promotional quote about a 170 kW pilot installation; does not drive capital allocation or policy decisions for named state or federal actors beyond one cooperative; April 2024 source."
+    },
+    {
+      "claim": "Dale Knipp (Alaska Communications CRO): 'GenAI has become essential for organizations because of its ability to accelerate problem-solving, increase productivity and aid decision-making while reducing the time employees spend on repetitive tasks which frees them up to focus on more strategic work.'",
+      "reason": "not_load_bearing — standard enterprise AI sales boilerplate; no Alaska-specific correctable element; does not drive a named Alaska capital, procurement, or policy decision."
+    }
+  ],
+  "_validation_note": "No fresh-territory candidate (state services AI, healthcare AI, defense sensors, workforce) cleared gate 5 with three or more independently verifiable counter-evidence facts. PFD AI (Limani, Dec 2024): one verified fact, DOR site DNS-dead, govtech.com 404. RHTP healthcare (Mina, June 2026): CMS 404, DHSS 403, only GovTech itself as sole secondary source. Boufard satellites (Jan 2026): MDA.mil 503 twice, NOAA 403. No fresh-territory candidate could satisfy the three-to-six verified counter-evidence requirement for a full rebuttal post. STAK Energy 'inevitable' (Mahoney) is therefore selected. The correction mechanism — no gas supply agreement, minimal North Slope gas-to-market infrastructure, and a project requiring more than twice urban Alaska's total gas consumption — is demonstrably distinct from all six prior data-center corrections (which addressed power price, cooling, construction jobs, fiber, DAF land-lease readiness, and Army savings). This is the seventh consecutive data-center-cluster correction; the validator confirms this outcome is unavoidable given gate 5 failure across all fresh-territory candidates."
+}
