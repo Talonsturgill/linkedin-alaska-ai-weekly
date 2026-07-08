@@ -1,48 +1,32 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-30",
   "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "subject": "Ron Duncan, CEO and Co-Founder, GCI Communication Corp",
+  "decision": "GCI Holdings, LLC signed a definitive agreement to acquire 100% of Quintillion for $310M enterprise value (April 22, 2026)",
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
+      "url": "https://news.gci.com/news-releases/gci-to-acquire-quintillion-strengthening-alaskas-fiber-infrastructure",
+      "outlet": "GCI Newsroom (subject's own organization)",
+      "pub_date": "2026-04-22",
+      "story_title": "GCI to Acquire Quintillion, Strengthening Alaska's Fiber Infrastructure",
       "role": "primary",
-      "independent_of_subject": true
+      "independent_of_subject": false
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
+      "url": "https://www.adn.com/business-economy/2026/04/22/gci-to-acquire-alaska-fiber-developer-quintillion-for-more-than-300-million/",
+      "outlet": "Anchorage Daily News (Alex DeMarban)",
+      "pub_date": "2026-04-22",
+      "story_title": "GCI to acquire Alaska fiber developer Quintillion for more than $300 million",
       "role": "corroborating",
       "independent_of_subject": true
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
+      "url": "https://www.kucb.org/regional/2026-04-28/fiber-internet-company-quintillion-to-be-acquired-by-gci",
+      "outlet": "KUCB / KNOM (Ben Townsend)",
+      "pub_date": "2026-04-28",
+      "story_title": "Fiber internet company, Quintillion, to be acquired by GCI",
+      "role": "corroborating, includes independent phone interview with SVP Billy Wailand",
       "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
     }
   ]
 }

@@ -1,32 +1,94 @@
 {
-  "run_date": "2026-05-20",
+  "run_date": "2026-06-30",
   "rubric_used": "config/desk_rubric.yaml",
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
+  "weighted_total": 9.4,
   "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "score": 8,
+      "weight": 0.1,
+      "weighted": 0.8,
+      "notes": "First line names the subject, the dollar amount, the acquired company, the date, and the strategic stake in one sentence. Decision is the hook, not the bio. Minor deduction: the subject's role (CEO) does not appear until paragraph 2."
+    },
+    {
+      "name": "Subject + decision load-bearing for AK",
+      "score": 10,
+      "weight": 0.16,
+      "weighted": 1.6,
+      "notes": "Duncan is the named CEO-decision-owner of Alaska's largest telecom. The decision consolidates both of the state's private subsea fiber networks for $310M-plus. Consequence is named with sector, dollar figures, named affected actors (rural carriers, ANCs, healthcare systems, JBER, Eielson, North Slope AI proposals), and a timeframe."
+    },
+    {
+      "name": "Subject identification fidelity",
+      "score": 10,
+      "weight": 0.1,
+      "weighted": 1.0,
+      "notes": "Full name (Ron Duncan), role (CEO and co-founder), org (GCI Communication Corp), and Anchorage tie (headquartered on Denali St, leading the company since 1979) all present and match the dossier."
+    },
+    {
+      "name": "Decision specificity + primary-source",
+      "score": 9,
+      "weight": 0.14,
+      "weighted": 1.26,
+      "notes": "What/when/binary all present. Primary source cited inline, two independent corroborators named (ADN, KUCB). Decision date within the authorized 90-day broadened window. Minor deduction: 'signed off on' is a slightly informal rendering of the binary."
+    },
+    {
+      "name": "Structural read",
+      "score": 10,
+      "weight": 0.13,
+      "weighted": 1.3,
+      "notes": "Takes a real, honest, evidence-grounded position on both sides (resilience gain vs. monopoly/leverage cost). Closing judgment is earned by evidence, not manufactured. No boosterism, no hagiographic verbs."
+    },
+    {
+      "name": "Forward implication",
+      "score": 8,
+      "weight": 0.08,
+      "weighted": 0.64,
+      "notes": "Names the next decision (regulatory review outcome), the window, and what to watch for. Minor deduction for vague timing ('sometime in 2026')."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.1,
+      "weighted": 0.9,
+      "notes": "Analytical, structural, Alaska-first throughout. No hagiographic verbs, no press-release cadence, no banned phrases."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 10,
+      "weight": 0.05,
+      "weighted": 0.5,
+      "notes": "419 body words (within 350-475). Total 2,757 characters (under 3,000 cap). Paragraphs are 2-4 sentences. Bio confined to one sentence."
+    },
+    {
+      "name": "Engagement question",
+      "score": 10,
+      "weight": 0.04,
+      "weighted": 0.4,
+      "notes": "Closes with a real, debatable industry question tied directly to the post's structural tension between monopoly risk and resilience gain."
+    },
+    {
+      "name": "Credibility guard",
+      "score": 10,
+      "weight": 0.1,
+      "weighted": 1.0,
+      "notes": "Every claim traces to primary source or independent corroborators. Quote attributed to Wailand (not Duncan), matching the dossier's explicit caveat. AI data-center link explicitly caveated inline."
+    }
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "hard_fail_checks": {
+    "hashtag_count_in_range": "PASS - 5 hashtags, all on brand.yaml whitelist, end-only placement",
+    "punctuation_bans_held": "PASS - zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body",
+    "total_char_count_under_linkedin_cap": "PASS - 2,757 total characters, under 3,000 cap",
+    "word_count_in_range": "PASS - 419 body words, within 350-475 range",
+    "subject_named_and_anchorage_tied": "PASS - full name, role, org, Anchorage tie all present",
+    "recent_decision_named_with_primary_source": "PASS - decision dated 2026-04-22, within the authorized 90-day broadened window",
+    "multi_source_corroboration": "PASS - GCI primary source plus two independent corroborators (ADN, KUCB) cited by name",
+    "grounded_not_press_release": "PASS - names specific outage history, monopoly risk, speculative AI-demand thesis; no hagiographic verbs",
+    "no_invented_quotes": "PASS - sole quoted phrase is a substring of the verified Wailand verbatim in dossier subject_quotes[0], attributed correctly to Wailand not Duncan"
+  },
+  "weakest_criterion": "Hook strength",
+  "one_sentence_fix": "Add Duncan's role ('GCI CEO and co-founder') into the first sentence so the hook carries subject, role, decision, and stake before the LinkedIn 'see more' cutoff.",
+  "threshold": 8.0
 }

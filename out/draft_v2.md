@@ -1,23 +1,15 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+Ron Duncan signed off on GCI’s $310 million acquisition of Quintillion on April 22, buying out Alaska’s only other subsea fiber network and betting the combined system becomes the backbone the state’s AI buildout needs.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Duncan is CEO and co-founder of GCI Communication Corp, headquartered on Denali St in Anchorage, where he’s run the company since 1979. The deal he signed adds Quintillion, GCI’s Nome-to-Homer Express project, and a self-healing 3,316 route mile fiber ring stretching from the North Slope to Southcentral.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+Per GCI’s announcement and confirmed by Anchorage Daily News and KUCB, the definitive agreement covers 100 percent of Quintillion at $310 million enterprise value, plus up to $50 million in capex reimbursement and earnouts through 2031, on top of a $160 million unsecured loan GCI extended Quintillion. SVP Billy Wailand, GCI’s named spokesperson, called the combination “more than the sum of its parts.” The deal hasn’t closed yet, it’s pending state and federal regulatory review, with closing targeted for later this year.
 
-Five layers sit between an Air Force land offer and a powered data center.
+The resilience case is real and specific. Quintillion’s subsea cable went dark twice in three years, most recently in January 2025 when shifting sea ice knocked it offline for months before repairs finished that fall. A single ring removes that single point of failure for a state with exactly one other option. That matters for JBER, Eielson, rural health providers, and the AI data center proposals circulating around DoD compute solicitations on the North Slope, though the deal itself was not framed publicly as AI-driven.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The tradeoff is just as real. GCI now owns Alaska’s only two subsea fiber networks, so rural carriers, Alaska Native corporations, and healthcare systems lose their one wholesale alternative to GCI’s pricing and terms. And $310 million plus a $160 million loan is a large bet on an asset with a documented outage history, justified partly by an AI demand thesis that stays speculative until DoD RFPs turn into signed leases. Duncan traded a competitive market for resilience, betting on a demand curve that hasn’t fully arrived. That’s defensible given the outage record, but regulators reviewing the merger should weigh the leverage question as seriously as the reliability one.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+The next marker is the regulatory decision itself, expected sometime in 2026, which will determine whether the deal closes as structured or draws conditions on wholesale access. Watch whether state or federal reviewers attach any competitive-access requirements before sign-off.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+Does Alaska’s AI infrastructure buildout need a single resilient fiber backbone more than it needs a second wholesale seller in the market?
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
-
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #BroadbandAlaska #DataCenters #DefenseTech #FederalContracting
