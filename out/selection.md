@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# Anchorage Desk — Selection (2026-07-08)
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
-
-## Role
-FOUNDER (kicker middle slot)
+- **Subject:** Anna Brawley
+- **Role:** Anchorage Assembly Chair (District 3, West Anchorage); co-sponsor of AO 2026-62
+- **Org:** Anchorage Assembly, Municipality of Anchorage
+- **ROLE (kicker middle slot):** MUNICIPAL
 
 ## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+On **June 6, 2026**, Brawley (with co-sponsor Kameron Perez-Verdia and former member Felix Rivera) released a substantially revised **AO 2026-62**, the ordinance rebooting Anchorage's civilian public safety commission. The revision cut community-member commissioners from 14 to 9 and converted five public-safety-agency seats (police, fire, health, emergency management, and the Dept. of Law/prosecutor's office) from non-voting ex-officio to full voting members, while barring the commission from personnel records, disciplinary investigations, active-investigation interference, non-public information, and case-specific oversight. After public pushback, the Assembly voted **8-4 on June 10, 2026** to delay final action and add a public hearing.
+
+## Decision date
+2026-06-06 (in 60-day window; delay vote 2026-06-10)
 
 ## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+https://www.muni.org/Departments/Assembly/Documents/10.G.5.--AO%202026-62.pdf (MOA / Anchorage Assembly)
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
-
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+## Structural read (desk position)
+Sharp-but-caveated. Brawley traded oversight independence for workability, seating APD and the prosecutor as voting members of the very body meant to review them and cutting civilian seats. The AI-landscape nexus is INDIRECT and must be presented as inferred: this commission is the venue where APD's automated-surveillance stack (Real-Time Crime Center, ~750 camera feeds; pending ALPR; Axon Draft One AI report-writing) is slated to face civilian policy review. Neither the ordinance nor the reporting names surveillance as the commission's remit.
 
 ## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+Watch the additional public hearing and the delayed final vote on AO 2026-62 (July 2026): whether the five agency seats stay voting, whether the non-public-information bar survives amendment, and whether APD's surveillance/ALPR/RTCC policies are actually referred to this commission at the Public Health & Safety Committee. Brawley, as Chair and co-sponsor, owns the final-vote framing.
