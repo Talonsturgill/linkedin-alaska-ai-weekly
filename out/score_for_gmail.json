@@ -1,17 +1,70 @@
 {
-  "ship": true,
-  "weighted_total": 9.48,
-  "threshold": 8.0,
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
-  ]
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.13,
+      "notes": "First two lines deliver $272M, Alaska, the AI-directing claim, and a clean non-snarky correction signal within the ~210-char 'see more' window; stakes are concrete and the load-bearing claim is named upfront."
+    },
+    {
+      "name": "Claim load-bearing + AK stakes",
+      "score": 9,
+      "weight": 0.2,
+      "notes": "Correction rides on a live $272M allocation decision with named Alaska organizations (Tanana Chiefs Conference, Ryan Air, Wrangell School District), a July 2026 award date, and a hard October 30, 2026 close; both the claim and the consequence are specific and urgent."
+    },
+    {
+      "name": "Steelman fairness",
+      "score": 9,
+      "weight": 0.12,
+      "notes": "Paragraph 3 grants the structural logic generously (no-facilities rule, compressed timeline, AI-vendor dominance in the proposal pool) without snark; the dossier's additional nuance that AI fits the no-capital-asset requirement is the only missing element."
+    },
+    {
+      "name": "Counter-evidence quality",
+      "score": 8,
+      "weight": 0.1,
+      "notes": "Telehealth Broadband Project is a primary measurement source in the dossier; the advancing-proposals point traces to GovTech, a credible secondary outlet, but is not corroborated by a second independent outlet, preventing a 10."
+    },
+    {
+      "name": "Factual density",
+      "score": 9,
+      "weight": 0.1,
+      "notes": "Named entities, dollar amounts, percentages, Mbps benchmarks, facility counts, dates, and agencies appear every 1-2 sentences throughout the body."
+    },
+    {
+      "name": "Source quality",
+      "score": 8,
+      "weight": 0.13,
+      "notes": "Claim attribution confirmed verbatim to a primary source; counter-evidence pairs a primary source (Telehealth Broadband Project) with one credible secondary (GovTech) rather than two independent outlets, limiting the ceiling."
+    },
+    {
+      "name": "Voice match",
+      "score": 9,
+      "weight": 0.12,
+      "notes": "Analytical, corrective without contempt, structurally precise; no banned phrases or LinkedIn-influencer cadence; the bullet intro 'They include the following.' is the single mildly listicle-y moment."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 9,
+      "weight": 0.05,
+      "notes": "441 words and 2917 chars are within rubric bounds; one bullet block with 5 single-clause items; tight 2-4 sentence paragraphs throughout."
+    },
+    {
+      "name": "Engagement question",
+      "score": 9,
+      "weight": 0.03,
+      "notes": "Closing question is debatable, time-anchored to this month, targets the right decision-maker, and maps directly to the corrected frame; no rhetorical softener or follow CTA."
+    },
+    {
+      "name": "Business actionability",
+      "score": 9,
+      "weight": 0.02,
+      "notes": "A program manager finishing the post can name the specific revisit: re-sequence RHTP spend toward connectivity and logistics before AI tools, with named non-AI examples and a hard October 30, 2026 deadline."
+    }
+  ],
+  "weighted_total": 8.77,
+  "ship_threshold": 8.0,
+  "ship": true,
+  "weakest_criterion": "Counter-evidence quality",
+  "one_sentence_fix": null,
+  "threshold": 8.0
 }
