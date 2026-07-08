@@ -1,17 +1,86 @@
 {
+  "weighted_total": 9.4,
   "ship": true,
-  "weighted_total": 9.48,
   "threshold": 8.0,
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
-  ]
+    {
+      "name": "Hook strength",
+      "score": 9,
+      "weight": 0.15,
+      "note": "First two lines stand alone within ~210 chars, name a specific deadline (July 1 fiscal year), establish a live structural tension (every AI-economy mechanism sat idle). A 9 not 10 because no dollar figure or named contract appears in the opener itself.",
+      "notes": "First two lines stand alone within ~210 chars, name a specific deadline (July 1 fiscal year), establish a live structural tension (every AI-economy mechanism sat idle). A 9 not 10 because no dollar figure or named contract appears in the opener itself."
+    },
+    {
+      "name": "Industry relevance",
+      "score": 10,
+      "weight": 0.2,
+      "note": "Every story carries both an AK anchor and a named industry consequence: NDAA/defense contractors at JBER/Eielson/Fort Wainwright ($2.6B); LNG/AI-compute power-cost ($55B); RFLP/Railbelt utilities; workforce vetoes with dollar amounts; Lohmeier $8B signal; RHTP Aug 1 grants.",
+      "notes": "Every story carries both an AK anchor and a named industry consequence: NDAA/defense contractors at JBER/Eielson/Fort Wainwright ($2.6B); LNG/AI-compute power-cost ($55B); RFLP/Railbelt utilities; workforce vetoes with dollar amounts; Lohmeier $8B signal; RHTP Aug 1 grants."
+    },
+    {
+      "name": "Factual density",
+      "score": 10,
+      "weight": 0.15,
+      "note": "Specifics every 1-2 sentences: 198-224 vote, AFCEC-26-R-0006, named bases, dollar amounts, named individuals and orgs, and a dense date spine (June 29/30, July 1/16/17/19, Aug 1).",
+      "notes": "Specifics every 1-2 sentences: 198-224 vote, AFCEC-26-R-0006, named bases, dollar amounts, named individuals and orgs, and a dense date spine (June 29/30, July 1/16/17/19, Aug 1)."
+    },
+    {
+      "name": "Source quality",
+      "score": 7,
+      "weight": 0.15,
+      "note": "All claims sourced; most high-confidence items double-sourced with a primary. Two single-sourced items (Lohmeier ExecutiveGov-only, JBER.mil 403'd, not primary; AI CSAM ADN-only, primary-adjacent public law) cap this at 7 per rubric.",
+      "notes": "All claims sourced; most high-confidence items double-sourced with a primary. Two single-sourced items (Lohmeier ExecutiveGov-only, JBER.mil 403'd, not primary; AI CSAM ADN-only, primary-adjacent public law) cap this at 7 per rubric."
+    },
+    {
+      "name": "Voice match",
+      "score": 10,
+      "weight": 0.15,
+      "note": "Analytical, structural, position-taking. 'All dates, no closes' and 'The human pipeline got cut the same week the gas-line tax bill stalled' land the desk voice. No influencer cadence or boilerplate.",
+      "notes": "Analytical, structural, position-taking. 'All dates, no closes' and 'The human pipeline got cut the same week the gas-line tax bill stalled' land the desk voice. No influencer cadence or boilerplate."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 10,
+      "weight": 0.1,
+      "note": "~466 words, ~2900 chars, tight 2-3 sentence paragraphs, one 3-item single-clause bullet block. Scans on desktop and mobile.",
+      "notes": "~466 words, ~2900 chars, tight 2-3 sentence paragraphs, one 3-item single-clause bullet block. Scans on desktop and mobile."
+    },
+    {
+      "name": "Engagement question",
+      "score": 10,
+      "weight": 0.08,
+      "note": "Names the specific capital-vs-calendar tension, two genuine opposing positions, no softener or CTA.",
+      "notes": "Names the specific capital-vs-calendar tension, two genuine opposing positions, no softener or CTA."
+    },
+    {
+      "name": "Business actionability",
+      "score": 10,
+      "weight": 0.02,
+      "note": "Concrete revisit triggers: Aug 1 RHTP awardees, July 16-19 LNG window, DAF RFLP evaluation open now, shrinking workforce credential pipeline.",
+      "notes": "Concrete revisit triggers: Aug 1 RHTP awardees, July 16-19 LNG window, DAF RFLP evaluation open now, shrinking workforce credential pipeline."
+    }
+  ],
+  "hard_fails": [
+    {
+      "name": "hashtag_count_in_range",
+      "passed": true,
+      "detail": "Exactly 5 whitelist hashtags on a single closing line; none inline."
+    },
+    {
+      "name": "punctuation_bans_held",
+      "passed": true,
+      "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in the body or hashtag line."
+    },
+    {
+      "name": "total_char_count_under_linkedin_cap",
+      "passed": true,
+      "detail": "~2900 characters (body + hashtag line), under the 3000 cap."
+    },
+    {
+      "name": "word_count_in_range",
+      "passed": true,
+      "detail": "~466 words (hashtags excluded), within 350-475."
+    }
+  ],
+  "one_sentence_fix": ""
 }
