@@ -1,0 +1,80 @@
+{
+  "issue_label": "NO. 27",
+  "no_target_this_cycle": false,
+  "selected_claim": {
+    "claim_verbatim": "By making this land available, we are supporting the growing demands of the AI industry while generating value that directly supports our missions and the readiness of our Airmen and Guardians",
+    "asserters": [
+      {
+        "name": "Robert Moriarty",
+        "title_or_org": "Deputy Assistant Secretary of the Air Force for Installations",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air & Space Forces Magazine",
+        "pub_date": "2026-04-10",
+        "is_primary": true,
+        "independently_originated": true
+      },
+      {
+        "name": "Jason Vogt and Nina A. Kollars",
+        "title_or_org": "Cyber and Innovation Policy Institute, US Naval War College (published by Modern War Institute at West Point)",
+        "url": "https://mwi.westpoint.edu/data-center-warfare-defending-the-key-terrain-of-ai-infrastructure/",
+        "outlet": "Modern War Institute at West Point",
+        "pub_date": "2026-06-09",
+        "is_primary": true,
+        "independently_originated": true
+      }
+    ],
+    "circulation_note": "The Moriarty statement is a named DAF official speaking in an official capacity, qualifying as an authoritative primary asserter. The Air & Space Forces Magazine article is the original source; the claim was also reported across GovTech, ExecutiveGov, and Alaska's News Source, and Sen. Dan Sullivan publicly claimed credit for pushing DAF to include the Alaska bases. The West Point MWI article by Vogt and Kollars is an independently originated primary counter-source, not a replication of the original assertion.",
+    "steelman": "The Air Force controls large parcels of underutilized land at three strategically located Alaska bases. Leasing that land to AI data center operators generates non-appropriated revenue that directly funds base operations and quality-of-life programs for servicemembers, reducing reliance on annual Congressional appropriations. From a pure resource-optimization standpoint, turning idle acreage into mission-funding income while attracting technology investment to Alaska is coherent defense-business logic. Enhanced Use Lease authority exists precisely for this purpose, and the Air Force structured the RFLP with mitigation requirements meant to minimize community and base impacts.",
+    "load_bearing_rationale": "Alaska-based construction firms, ANCs with federal contracting capacity, utilities such as Chugach Electric, and DoD integrators have been evaluating whether and how to respond to the DAF Request for Lease Proposal for JBER, Eielson AFB, and Clear Space Force Station. The framing that data centers on these bases 'support readiness' is the dispositive justification driving those bids. If the security trade-off inverts that readiness calculus, the entire basis for the lease program, and the Alaska economic opportunity attached to it, rests on a contested premise that bidders, lawmakers, and base commanders need to weigh before contracts are awarded.",
+    "more_accurate_frame": "The Air Force's own RFLP requires offerors to keep base and community utilities accessible and affordable, signaling that power at JBER, Eielson, and Clear SFS is a real constraint, not a solved problem. More fundamentally, the US Naval War College analysts writing for West Point's Modern War Institute established in June 2026 that concentrated AI compute is now 'key terrain' that adversaries find 'attractive targets,' so placing that compute on high-value military installations can compound the targeting incentive rather than mitigate it, which inverts the readiness rationale.",
+    "counter_evidence": [
+      {
+        "fact": "The Modern War Institute at West Point (Vogt and Kollars, US Naval War College) published in June 2026 that 'Data centers are now key terrain, and military commanders need to consider not just how best to leverage them to create opportunities but also how to defend them during conflict,' and that 'For adversaries looking to impose costs, signal resolve, or disrupt military operations, data centers make attractive targets.' The article addresses AI-compute concentration generally; the targeting logic applies with added force when that compute sits on a high-value installation, which contradicts the Air Force's public readiness justification for the Alaska Enhanced Use Lease program.",
+        "url": "https://mwi.westpoint.edu/data-center-warfare-defending-the-key-terrain-of-ai-infrastructure/",
+        "outlet": "Modern War Institute at West Point",
+        "pub_date": "2026-06-09",
+        "is_primary": true
+      },
+      {
+        "fact": "The Air Force's own RFLP language requires offerors to demonstrate that utilities at the base and the surrounding community remain accessible and affordable, reflecting a live concern about power capacity at JBER, Eielson, and Clear SFS. Air & Space Forces Magazine reported the Air Force cited community utility affordability as a selection criterion and referenced a study finding data center concentration could raise residents' energy bills by 14 to 37 dollars per month by 2040, evidence that the power infrastructure required to make these sites viable is not yet in place and carries real cost risk.",
+        "url": "https://www.airandspaceforces.com/usaf-land-ai-data-centers-three-alaska-bases/",
+        "outlet": "Air & Space Forces Magazine",
+        "pub_date": "2026-04-10",
+        "is_primary": true
+      }
+    ],
+    "ak_consequence": "Defense and federal leasing. Alaska-based ANCs, construction contractors, and utilities have been weighing bids on the DAF Enhanced Use Lease RFLPs for JBER, Eielson AFB, and Clear Space Force Station, with proposals solicited during 2026. If the security-inversion risk is real, the readiness justification that underwrites the entire lease program is contested, which affects whether Congress, base commanders, and community stakeholders sustain or curtail the initiative, and whether Alaska firms building long-term pipelines around this opportunity are pricing a policy-reversal risk they may be ignoring.",
+    "date_note": "Reported RFLP response deadlines vary across coverage (mid-2026); the post should say bids were solicited in 2026 rather than assert a single exact deadline date.",
+    "gate_results": {
+      "attribution": true,
+      "independent_circulation": true,
+      "load_bearing": true,
+      "steelman_survives": true,
+      "rebuttable_from_primary": true,
+      "not_a_recent_repeat": true
+    }
+  },
+  "dropped_claims": [
+    {
+      "claim": "AI can streamline permitting for large-scale energy and critical mineral projects in Alaska (Murkowski / Dunleavy AO 360)",
+      "reason": "no_primary_counter. Could not confirm via WebFetch a primary-source document establishing that Alaska's operative permitting bottlenecks (Ambler Road, Graphite One, Cook Inlet) are BLM NEPA scope, Army Corps Section 404, and litigation risk rather than data-processing capacity. Gate 5 (rebuttable from primary) fails without that confirmed counter."
+    },
+    {
+      "claim": "The Rural Health Transformation Program is 'almost directing us to AI' (Rep. Genevieve Mina)",
+      "reason": "not_load_bearing. Mina is a critic of the AI-direction framing, not an advocate, so this is an inverted assertion rather than circulating received wisdom to correct."
+    },
+    {
+      "claim": "GenAI has become essential for organizations (Dale Knipp, Alaska Communications)",
+      "reason": "not_load_bearing. Vendor-PR boilerplate from a telecom CRO press release; generic enterprise-adoption language not reducible to a specific Alaska capital, procurement, or policy decision."
+    },
+    {
+      "claim": "AI must aggregate sensors to fill the Arctic satellite gap (Troy Boufard, UAF)",
+      "reason": "strawman. The proposed rebuttal (Arctic Satellite Broadband Mission) addresses satellite communications, while the claim concerns AI sensor-fusion for domain awareness; these are categorically different problems, so the rebuttal would be a strawman. Gate 4 fails."
+    },
+    {
+      "claim": "Alaska has no comprehensive AI policy or coordinated strategy (ADN Editorial Board)",
+      "reason": "true_as_stated. At the statewide comprehensive-policy level the characterization was substantially accurate; the education-sector framework and an unpassed order do not amount to a funded, cross-agency strategy, so no corrective post is warranted."
+    }
+  ],
+  "_validation_note": ""
+}
