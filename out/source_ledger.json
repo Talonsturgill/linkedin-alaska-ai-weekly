@@ -1,6 +1,26 @@
 {
   "mechanism": "ADNR State-Land Disposal Gate for the Stak Energy North Slope AI Data-Center Lease",
   "category_label": "FACILITIES",
+  "sources": [
+    {
+      "outlet": "Copper River Country Journal / Northcountry News",
+      "url": "https://www.countryjournal2020.com/2026/07/alaskans-say-no-hell-no-to-north-slope.html",
+      "pub_date": "2026-07-06",
+      "story_title": "News trigger — more than 500 public comments filed before the DNR deadline"
+    },
+    {
+      "outlet": "Alaska DNR — Division of Mining, Land & Water (state land leasing)",
+      "url": "https://dnr.alaska.gov/mlw/lands/leasing/",
+      "pub_date": "primary",
+      "story_title": "Layers 1 & 4 — lease-application intake, plus the 20-day appeal and 10-day Commissioner reconsideration"
+    },
+    {
+      "outlet": "Alaska Statutes AS 38.05.035 (FindLaw)",
+      "url": "https://codes.findlaw.com/ak/title-38-public-land/ak-st-sect-38-05-035.html",
+      "pub_date": "statute",
+      "story_title": "Layers 2 & 3 — the DMLW Director best-interest finding and the Commissioner consent chokepoint under AS 38.05.035(e)"
+    }
+  ],
   "news_trigger": {
     "quote": "More than 500 public comments were received before a preliminary deadline set by the Alaska Department of Natural Resources.",
     "url": "https://www.countryjournal2020.com/2026/07/alaskans-say-no-hell-no-to-north-slope.html",
@@ -12,10 +32,5 @@
     {"layer": "DMLW Director written best-interest finding + public comment (extended to July 17, 2026)", "controlling_actor": "DMLW Director (AS 38.05.035(e))", "url": "https://codes.findlaw.com/ak/title-38-public-land/ak-st-sect-38-05-035.html"},
     {"layer": "Final Finding and Decision requiring Commissioner consent (CHOKEPOINT)", "controlling_actor": "Commissioner of Natural Resources (AS 38.05.035(e))", "url": "https://codes.findlaw.com/ak/title-38-public-land/ak-st-sect-38-05-035.html"},
     {"layer": "20-day appeal + 10-day Commissioner reconsideration", "controlling_actor": "DNR Commissioner", "url": "https://dnr.alaska.gov/mlw/lands/leasing/"}
-  ],
-  "corroborating_sources": [
-    {"outlet": "Copper River Country Journal / Northcountry News", "url": "https://www.countryjournal2020.com/2026/07/alaskans-say-no-hell-no-to-north-slope.html"},
-    {"outlet": "Alaska DNR Division of Mining, Land & Water — state land leasing", "url": "https://dnr.alaska.gov/mlw/lands/leasing/"},
-    {"outlet": "Alaska Statutes AS 38.05.035 (FindLaw)", "url": "https://codes.findlaw.com/ak/title-38-public-land/ak-st-sect-38-05-035.html"}
   ]
 }
