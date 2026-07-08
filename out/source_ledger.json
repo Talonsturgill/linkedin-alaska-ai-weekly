@@ -1,48 +1,61 @@
 {
-  "run_date": "2026-05-20",
-  "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "subject": "Anna Brawley",
+  "decision": "Revised AO 2026-62 rebooting Anchorage's civilian public safety commission (2026-06-06)",
+  "primary_source": {
+    "url": "https://www.muni.org/Departments/Assembly/Documents/10.G.5.--AO%202026-62.pdf",
+    "outlet": "Municipality of Anchorage / Anchorage Assembly",
+    "doc_type": "vote_record",
+    "independent_of_subject": false,
+    "note": "Ordinance PDF; fetched HTTP 200 but image/binary, not parsed to text. Decision confirmed via the independent corroborators below."
+  },
+  "corroborating_sources": [
+    {
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/06/08/revised-public-safety-commission-proposal-gives-more-sway-to-anchorage-police-and-city-agencies/",
+      "outlet": "Anchorage Daily News",
+      "date": "2026-06-08",
+      "independent_of_subject": true,
+      "note": "Reports the revised seat structure and carries the verbatim Brawley quote."
+    },
+    {
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/06/10/assembly-delays-vote-on-anchorages-rebooted-public-safety-commission-following-wave-of-pushback/",
+      "outlet": "Anchorage Daily News",
+      "date": "2026-06-10",
+      "independent_of_subject": true,
+      "note": "Reports the 8-4 delay vote and additional hearing."
+    },
+    {
+      "url": "https://www.kyuk.org/alaska-state-news/2026-05-19/anchorage-assembly-considers-public-safety-advisory-commission-reboot",
+      "outlet": "KYUK / Alaska Public Media",
+      "date": "2026-05-19",
+      "independent_of_subject": true,
+      "note": "Names 'AO 2026-62 PUBLIC SAFETY COMMISSION' and the reboot context."
+    }
+  ],
+  "nexus_note": "AI-landscape nexus is INDIRECT/inferred: the commission is the venue for civilian policy review of APD's automated-surveillance stack (Real-Time Crime Center ~750 camera feeds, pending ALPR, Axon Draft One AI report-writing). The ordinance text does not name surveillance/ALPR/RTCC as the commission's remit.",
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
+      "url": "https://www.muni.org/Departments/Assembly/Documents/10.G.5.--AO%202026-62.pdf",
+      "outlet": "Municipality of Anchorage / Anchorage Assembly (AO 2026-62)",
+      "pub_date": "2026-06-06",
+      "story_title": "Primary source (ordinance PDF); NOT independent of subject"
+    },
+    {
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/06/08/revised-public-safety-commission-proposal-gives-more-sway-to-anchorage-police-and-city-agencies/",
       "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "primary",
-      "independent_of_subject": true
+      "pub_date": "2026-06-08",
+      "story_title": "Revised commission gives more sway to police/agencies; carries the verbatim quote. Independent of subject"
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating",
-      "independent_of_subject": true
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/06/10/assembly-delays-vote-on-anchorages-rebooted-public-safety-commission-following-wave-of-pushback/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-06-10",
+      "story_title": "Assembly delays vote 8-4, adds hearing. Independent of subject"
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "url": "https://www.kyuk.org/alaska-state-news/2026-05-19/anchorage-assembly-considers-public-safety-advisory-commission-reboot",
+      "outlet": "KYUK / Alaska Public Media",
+      "pub_date": "2026-05-19",
+      "story_title": "Names AO 2026-62 public safety commission reboot. Independent of subject"
     }
   ]
 }
