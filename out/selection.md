@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-08
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism:** DAF Enhanced-Use-Lease Source Selection for Commercial AI Data Centers at JBER, Eielson AFB & Clear SFS (AFCEC-26-R-0006)
 
-## Role
-FOUNDER (kicker middle slot)
+**Category:** VEHICLES
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger:** "Responses to the Air Force's Request for Lease Proposals are due by June 29." — Fairbanks Daily News-Miner, 2026-06-11. Offer close June 29, 2026; now in non-public source selection.
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count:** 4
+1. Statutory outlease authority (10 U.S.C. 2667 Enhanced Use Lease) — Secretary of the Air Force via AFCEC EUL program
+2. Source-selection / contracting authority (AFCEC-26-R-0006) — AFICA, CO Julia A. Cantrell
+3. Utility-accessibility requirement embedded in the RFLP — offeror as risk-bearer; GVEA as prospective interconnector
+4. Selected developer (lessee) finance-build-operate — to-be-named commercial developer
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Chokepoint:** The AFICA source-selection authority (CO Julia A. Cantrell). One federal contracting desk owns the binary go/no-go on entering lease negotiations. Not a committee. The overlap rule picked this single-desk vehicles framing over the facilities framing (GVEA board + RCA tariff, a multi-actor committee).
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read:** This is a procurement vehicle, not a real-estate story. The Air Force structured the deal so a single federal source-selection board decides whether Alaska gets a hyperscale AI build, and it pushed the hardest Alaska-specific constraint (firm dispatchable power on a capacity-uncertain Railbelt) onto the private lessee as a scored evaluation factor. Government keeps title and rent; developer eats the power risk. That inversion makes the AFICA best-value tradeoff the real chokepoint and turns bankable power into the pass/fail variable inside it.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Forward implication:** Source selection is closed to the public; next observable event is a lease-negotiation or award announcement in H2 2026. Track which offeror can evidence firm dispatchable power (on-site generation vs a GVEA 138-kV interconnection of unproven capacity), because that single factor, scored by AFICA, likely decides whether the award lands at Eielson (GVEA) or defaults to JBER (Chugach).
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**CATEGORY (for art middle slot):** VEHICLES
