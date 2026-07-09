@@ -1,0 +1,8 @@
+draft_id: r7386882876149253792
+subject: Alaska.Ai — The Stack Draft — 2026-07-08
+to: talon.sturgill@gmail.com
+mechanism: DAF Enhanced-Use-Lease Source Selection for Commercial AI Data Centers (AFCEC-26-R-0006)
+category: VEHICLES
+image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e76a410d472b32739c61a1c465f76b3548d1f4c8/out/post_image.png
+score: 8.74/10 ship=yes
+artwork_eval_final: 8.94 (qa_check PASS)
