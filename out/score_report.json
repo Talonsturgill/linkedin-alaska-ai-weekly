@@ -1,32 +1,32 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
-  "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
   "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+    {"name": "hashtag_count_in_range", "result": "pass", "notes": "Exactly 5 end-only hashtags (#AlaskaAI #HealthcareAI #IndigenousData #AIPolicy #RuralHealth), all on brand.yaml whitelist, none inline."},
+    {"name": "punctuation_bans_held", "result": "pass", "notes": "No em-dashes, en-dashes, double-hyphens, colons, or semicolons in body. Only single hyphens in compounds and a slash in AI/ML. Curly quotes used."},
+    {"name": "total_char_count_under_linkedin_cap", "result": "pass", "notes": "Body plus hashtag line is roughly 2758 characters, under the 3000 cap."},
+    {"name": "word_count_in_range", "result": "pass", "notes": "Body counts 419 words (hashtag line excluded), inside 350 to 475."},
+    {"name": "subject_named_and_anchorage_tied", "result": "pass", "notes": "Full name Vanessa Hiratsuka, role senior researcher in the Southcentral Foundation Research Department, UAA affiliate, Anchorage tie explicit (Tudor Centre Drive, since 1999)."},
+    {"name": "recent_decision_named_with_primary_source", "result": "pass", "notes": "Decision dated 2026-05-23, 48 days before the run, inside the operative 60-day window (rubric's 30-day text is stale). Primary source cited (International Journal of Circumpolar Health, PMC, PubMed PMID 42176020)."},
+    {"name": "multi_source_corroboration", "result": "pass", "notes": "Corroborated by CrossRef/Informa and PubMed/NLM (PMID 42176020), both independent of Southcentral Foundation. Not a subject-controlled press release."},
+    {"name": "grounded_not_press_release", "result": "pass", "notes": "Real analytical read crediting the early citable-consensus move and naming proportionate limits. No hagiographic verbs."},
+    {"name": "no_invented_quotes", "result": "pass", "notes": "subject_quotes[] empty; the single quotation is attributed to the paper, not to Hiratsuka personally."}
   ],
-  "one_sentence_fix": null
+  "criteria": [
+    {"name": "Hook strength", "score": 8, "weight": 0.10, "notes": "Decision-led, concrete first two lines; short of 10 because the hook names subject but not her role."},
+    {"name": "Subject + decision load-bearing for AK", "score": 7, "weight": 0.16, "notes": "Named affected actors and timeframe present, but consequence is genuinely soft (perspectives paper with no enforcement teeth; subject is an author, not a capital/procurement owner)."},
+    {"name": "Subject identification fidelity", "score": 9, "weight": 0.10, "notes": "Full name, role, org, UAA affiliation, explicit Anchorage tie, matching the dossier."},
+    {"name": "Decision specificity + primary-source", "score": 9, "weight": 0.14, "notes": "What + when + owned binary explicit, traces to primary source, corroboration survives independence rule, date in window."},
+    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Honest, proportionate position: credits timing advantage, then names real limits. Matches post_001 energy."},
+    {"name": "Forward implication", "score": 8, "weight": 0.08, "notes": "Concrete trigger to watch with a coming-months window; below 10 because the next decision belongs to the institutions, not the subject."},
+    {"name": "Voice match", "score": 8, "weight": 0.10, "notes": "Analytical, structural, Alaska-first, no influencer cadence; a notch under 10 on concrete-stakes density vs post_001."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.05, "notes": "Tight paragraphs, 419 words, under 3000 chars, bio held to two sentences."},
+    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Real debatable question tied to the specific sovereignty-gate decision. No CTA."},
+    {"name": "Credibility guard", "score": 9, "weight": 0.10, "notes": "Grounded independent analysis, minimal bio, substantial decision treatment, claims traceable."}
+  ],
+  "weighted_total": 8.40,
+  "math": "0.80 + 1.12 + 0.90 + 1.26 + 1.17 + 0.64 + 0.80 + 0.45 + 0.36 + 0.90 = 8.40",
+  "threshold": 8.0,
+  "hard_fail": null,
+  "ship": true,
+  "weakest_criterion": "Subject + decision load-bearing for AK",
+  "one_sentence_fix": "Optional lift: name a concrete forthcoming vendor or procurement moment the consensus reference would gate, so the material consequence reads less contingent."
 }
