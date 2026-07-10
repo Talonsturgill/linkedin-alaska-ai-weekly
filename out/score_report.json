@@ -1,32 +1,28 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "weighted_total": 8.99,
+  "threshold": 8.0,
+  "weakest_criterion": "Readability (LinkedIn)",
+  "one_sentence_fix": "Tighten the four layer bullets to single-clause items (move the award-number and dollar parentheticals into prose) and split the 85-word fifth paragraph so it scans cleanly on mobile.",
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "tripped": false, "note": "4 hashtags, all whitelist, end-only, none inline."},
+    {"name": "punctuation_bans_held", "tripped": false, "note": "No em/en dashes, double-hyphens, colons, or semicolons in body; only single-hyphen compounds."},
+    {"name": "total_char_count_under_linkedin_cap", "tripped": false, "note": "~2785 chars including hashtag line, under 3,000."},
+    {"name": "word_count_in_range", "tripped": false, "note": "Body ~406 words, within 350-475."},
+    {"name": "mechanism_named_and_news_tied", "tripped": false, "note": "CMS RHTP named and tied to mid-July final-funding-decision trigger in dossier."},
+    {"name": "every_layer_attributed", "tripped": false, "note": "All four body layers and controlling actors present in selected_mechanism.layers[]."},
+    {"name": "chokepoint_named", "tripped": false, "note": "Layer 2 DOH Commissioner binary award/deny matches dossier chokepoint; not a generic stand-in."}
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "criteria": [
+    {"name": "Hook strength", "score": 8, "weight": 0.10, "notes": "First two lines are concrete and specific (actor, $272.2M, 403 applications, this-week news trigger), signal a correction is coming without snark, fit under ~210-char cutoff. Short of 10 because the mechanism by name (CMS Rural Health Transformation Program) only appears in line 3."},
+    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Mechanism genuinely drives an AK procurement/capital decision; consequence fully specified: sector (rural health data/AI), decision (who anchors FHIR-native interoperability), named actors (ANTHC, Southcentral, YKHC, SEARHC, vendors), timeframe (this week, budget close 10/30/2026)."},
+    {"name": "Layer fidelity", "score": 9, "weight": 0.14, "notes": "All four body layers and controlling actors match the dossier exactly; chain complete and readable. No invented layers."},
+    {"name": "Chokepoint clarity", "score": 10, "weight": 0.13, "notes": "Names ONE layer (Layer 2), single actor (DOH Commissioner), binary decision (award/deny 403 applications, ~$272M), explicitly contrasted against ACF/CMS/Advisory Council. Asymmetric, not a committee."},
+    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Real grounded position ('a federal-to-state funnel that narrows, by design, to one desk'), proportionate and machinery-based, not snark. Not a flat explainer."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names concrete next decision points (notifications this week, budget close 10/30/2026), who is positioned, and what allocators should treat as the definitive map."},
+    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source (TAGGS award RHTCMS332062, DOH program page, state public notice); chokepoint cited to DOH page; inline attribution; correctly drops the unsourced two-thirds ANTHC figure."},
+    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, business-literate, plain. No banned phrases, no influencer cadence."},
+    {"name": "Readability (LinkedIn)", "score": 8, "weight": 0.04, "notes": "406 words, under 3,000 chars, well-formed 4-item bullet block. Held back because bullets are multi-clause with parentheticals and the fifth paragraph runs long as one block."},
+    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Real, debatable question tied directly to the chokepoint. No CTA, no rhetorical softener."}
+  ]
 }
