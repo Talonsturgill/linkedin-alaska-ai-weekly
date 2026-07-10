@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-10
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism:** CMS Rural Health Transformation Program — Alaska DOH Subrecipient Award Gate
+**Category:** capital_sovereignty → **CATEGORY = SOVEREIGNTY**
 
-## Role
-FOUNDER (kicker middle slot)
+**News trigger (verbatim):** "Mid-July: Notification of final funding decisions for implementation pathway applicants. Final funding decisions are made by the DOH Commissioner."
+Source: State of Alaska Department of Health, RHTP program page (2026-07). Today is 2026-07-10, so the decision lands this week.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Layer count:** 4
+1. Federal appropriation / award — CMS (award RHTCMS332062, $272,174,856 FY2026)
+2. State recipient & funding-decision authority — Alaska DOH Commissioner (the chokepoint)
+3. Subrecipient application administrator — The Alaska Community Foundation (barred from deciding)
+4. Subrecipients — tribal health corps + health-IT/AI vendors among 403 implementation applicants
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Chokepoint:** Layer 2. The Alaska DOH Commissioner's binary award/deny on 403 implementation applications, allocating the ~$272M Year-1 pool in the mid-July 2026 notification. Asymmetric because the primary source places final authority with a single state officer, strips the Alaska Community Foundation of any decision role, and reduces CMS to compliance rails and the Advisory Council to recommendations.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Structural read:** A federal-to-state capital funnel that narrows by design to one state officer. The interoperability spine of Alaska rural health, and any AI layer that sits on it, is routed this week through a single grant decision, not a market or a competitive federal process. Whoever wins inherits a multi-year, standards-setting position in the state's health-data architecture.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Forward implication:** Award notifications land this week; the Year-1 budget period closes 10/30/2026. Vendors and tribal health corporations positioned as subrecipients should confirm award status and lock integration commitments to the dominant tribal EHR backbone before the budget period compresses. The published DOH award list becomes the definitive map of who holds the FHIR-native buildout.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Honesty caveat carried to the writer:** The "ANTHC Oracle domain carries ~two-thirds of tribal outpatient encounters" figure is NOT sourced on the DOH page. Treat it as unstated context, do not use it as a load-bearing number in the post.

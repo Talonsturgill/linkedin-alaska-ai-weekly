@@ -1,17 +1,79 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
+  "date": "10 JUL 2026",
+  "column": "The Stack",
+  "kicker": "THE STACK",
+  "middle_slot": "SOVEREIGNTY",
+  "headline": "ONE DESK DECIDES",
   "byline": "",
-  "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
-  "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
-  "seed": 11,
-  "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "style_family": "flow_field",
+  "palette": [
+    "#f3ead4",
+    "#10261c",
+    "#6b4a1e",
+    "#c8892f",
+    "#f0bf55",
+    "#fdeec2",
+    "#f2c14e"
+  ],
+  "hue_family": "gold",
+  "composition": "converging_funnel",
+  "motifs": [
+    "capital current",
+    "converging funnel throat",
+    "single desk gate",
+    "403 applicant fan",
+    "handful of lit winners"
+  ],
+  "technique_stack": [
+    "gradient_v",
+    "angle_field",
+    "streamlines",
+    "ramp",
+    "glow",
+    "stipple",
+    "grain",
+    "vignette"
+  ],
+  "seed": 272,
+  "concept": "A $272M federal health-capital current forced through one luminous throat (the DOH Commissioner's desk) then fanning to 403 applicant plots, only ~18 lit.",
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 7.45,
+      "weakest": "focal/composition",
+      "note": "read as a symmetric warp-tunnel; desk too small; 403 fan barely visible; bottom type too dark."
+    },
+    {
+      "iter": 2,
+      "weighted": 8.47,
+      "weakest": "composition",
+      "note": "dropped desk to lower third, enlarged desk+gate, made 403 fan explicit; still faint side-arc tunnel feel and dim bottom type."
+    },
+    {
+      "iter": 3,
+      "weighted": 8.78,
+      "weakest": "detail",
+      "note": "deeper vignette focused the funnel and killed the tunnel arcs; brightened bottom telemetry to legible cream. Ships."
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.78,
+    "scores": {
+      "concept": 9,
+      "focal": 9,
+      "composition": 8.5,
+      "color": 9,
+      "detail": 8,
+      "craft": 9,
+      "typography": 9,
+      "originality": 8.5,
+      "fidelity": 9
+    }
+  },
   "canvas": [
     1080,
     1080
   ],
+  "rendered_at_utc": "2026-07-10T09:45:17.008316Z",
   "out_path": "out/post_image.png"
 }
