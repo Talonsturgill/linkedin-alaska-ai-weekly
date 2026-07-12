@@ -1,32 +1,23 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "scores": {
+    "Hook strength": {"score": 9, "weight": 0.15, "note": "Opens with named entity (Koniag subsidiary), specific dollar ($1.2M), named agency (AFRL), time-stake ('this month'). 'Unambiguous' implies a field of failed capturers, hinting at the structural tension. Lands inside the 'see more' cutoff at ~220 chars. Below 10 only because the capital consequence for non-ANC firms is implied rather than stated in the first two lines."},
+    "Industry relevance": {"score": 9, "weight": 0.20, "note": "Every thread names an AK entity AND a sector consequence with dollars and contract vehicles: Koniag/AFRL, Chenega/CDC, Sullivan NDAA ($2.6B, Analytics & Simulation Lab, $10M Golden Dome), agentic-AI/CMMC gate, SBA 8(a) overhaul, AK federal jobs (-1,500, -10%). Half-point off: Chenega's own IT/cyber consequence is absorbed into the pattern sentence rather than given its own line."},
+    "Factual density": {"score": 10, "weight": 0.15, "note": "Specifics every 1-2 sentences: FA701426C0017, $1.2M, June 22, 18-month sole-source, AFRL; $2.4M, June 18, Chenega, CDC; 18-9 vote, June 23, 56 provisions, $2.6B, Ted Stevens Center, $10M, Golden Dome; June 11 SBA 8(a); 1,500 federal jobs, ~10%, June 18 DOLWD. Meets the 10-descriptor precisely."},
+    "Source quality": {"score": 8, "weight": 0.15, "note": "All claims sourced with validator-directed softeners: 'per a federal-award tracker' for B1/B2 (OrangeSlices, federal primary not independently fetchable); Sullivan NDAA primary; agentic-AI/CMMC two outlets; SBA primary + Alaska Public; DOLWD primary. The unverified 26%/$800M figure correctly dropped. Lead claim rests on a single secondary tracker, the sole reason this isn't 9."},
+    "Voice match": {"score": 10, "weight": 0.15, "note": "Matches post_001.md nearly perfectly. 'Conventional read / structural read' mirrors the anchor's 'conventional framing / third path'. Uses 'the desk argued' as continuity. Zero influencer cadence, zero hype, zero boilerplate."},
+    "Readability (LinkedIn)": {"score": 9, "weight": 0.10, "note": "Six paragraphs, all 2-4 sentences. Body within 350-475 words; total ~2795 chars under cap. No wall-of-text. Para 4 (~112 words) is densest but scannable. No optional bullet block, the only gap from 10."},
+    "Engagement question": {"score": 9, "weight": 0.08, "note": "Closes with 'who in Alaska beyond the ANCs actually banks the next federal AI award?' tied to the central capture-concentration tension, genuinely debatable, no softeners or CTA. Slightly rhetorical, the only thing short of 10."},
+    "Business actionability": {"score": 9, "weight": 0.02, "note": "Reader leaves with named triggers: CMMC Level 2 positioning, agentic-AI mandate compliance on current bids, ANC teaming given 8(a) dynamics, positioning for Sullivan NDAA task orders in the ~6-month window. Below 10 only because no pullable solicitation number is named."}
+  },
+  "weighted_total": 9.15,
   "ship_threshold": 8.0,
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "passed": true, "note": "5 hashtags on the closing line, none inline. Within 3-5."},
+    {"name": "punctuation_bans_held", "passed": true, "note": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body. Compound-adjective hyphens are standard hyphenation, not banned."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "note": "Total (body + hashtag line) ~2795 characters, under the 3000 cap."},
+    {"name": "word_count_in_range", "passed": true, "note": "Body word count within 350-475 (scorer count 456; orchestrator lint 438; both in range, hashtag line excluded)."}
+  ],
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "one_sentence_fix": "If a future revision is needed, source the Koniag AFRL award (FA701426C0017) directly from USAspending.gov or SAM.gov to replace the single OrangeSlices tracker citation and lift Source quality from 8 to 9.",
+  "summary": "Passes all four hard-fail checks and scores 9.15 weighted, well above the 8.0 ship threshold. Factual density and voice match hit 10; industry relevance and hook strength each 9. Sole scoring constraint is Source quality at 8, driven by the Koniag AFRL lead claim resting on a single secondary tracker (OrangeSlices), handled correctly with explicit softening. All findings used (B1, B2, B3, D2, D5, A1) trace to verified_findings.json. The dropped 26%/$800M figure is correctly absent. Ships."
 }

@@ -1,17 +1,17 @@
 {
-  "ship": true,
-  "weighted_total": 9.48,
-  "threshold": 8.0,
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First sentence lands before LinkedIn see-more cutoff and names subject + decision."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "notes": "Founder/CEO ownership of lease decision with sector, dollar, power capacity, workforce, tenure, timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name, role, org, Anchorage tie all present; every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "URL slug matches dossier primary_source_url. Northern Journal corroborator also cited."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Mediocre-to-speculative position with five named structural gaps."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names next decision, June 15 deadline, three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, position-taking, business-literate throughout."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "434 words, ~2,899 chars. One long paragraph plus inline URLs slightly disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Tied to the specific structural gaps named in the post."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "notes": "Bio minimal; decision dominates; STAK declining questions noted."}
-  ]
+    {"name": "Hook strength", "score": 9, "weight": 0.15, "notes": "Named entity, $1.2M, AFRL, time-stake in first two lines; inside the see-more cutoff."},
+    {"name": "Industry relevance", "score": 9, "weight": 0.20, "notes": "Every thread names an AK entity plus a sector consequence with dollars and contract vehicles."},
+    {"name": "Factual density", "score": 10, "weight": 0.15, "notes": "Specifics every 1-2 sentences: award ID, dollars, dates, vote count, agencies."},
+    {"name": "Source quality", "score": 8, "weight": 0.15, "notes": "All sourced with validator softeners; lead rests on a single secondary tracker (OrangeSlices)."},
+    {"name": "Voice match", "score": 10, "weight": 0.15, "notes": "Matches post_001.md; conventional/structural read architecture, no influencer cadence."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.10, "notes": "Six tight paragraphs, within word/char limits, easy to scan."},
+    {"name": "Engagement question", "score": 9, "weight": 0.08, "notes": "Debatable close tied to the ANC-capture tension."},
+    {"name": "Business actionability", "score": 9, "weight": 0.02, "notes": "Named triggers: CMMC Level 2, agentic-AI compliance, ANC teaming, NDAA positioning."}
+  ],
+  "weighted_total": 9.15,
+  "threshold": 8.0,
+  "ship": true,
+  "weakest_criterion": "Source quality (8)",
+  "one_sentence_fix": "Source the Koniag AFRL award (FA701426C0017) directly from USAspending.gov or SAM.gov to replace the single tracker citation."
 }

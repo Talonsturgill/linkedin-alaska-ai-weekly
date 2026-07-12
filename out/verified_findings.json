@@ -1,0 +1,116 @@
+{
+  "window": ["2026-06-17", "2026-06-24"],
+  "validator_summary": "All 10 findings retained, none dropped. B1/B2 (Koniag, Chenega) confirmed via OrangeSlices AI award-tracker but federal primary (USAspending/SAM rendered as JS SPAs) could not be independently fetched: present dollars as 'roughly' with 'per a federal-award tracker' attribution, confidence medium. B3: the '26%/$800M Indian Country DoD decline' figure does NOT appear in either verified source and must be dropped or qualified 'reportedly'. C2 (Santos Pikka): production figures confirmed, but ROC-live/digital-twin/AI framing NOT supported by in-window sources; do not call it AI. D2 (Sullivan NDAA): fully confirmed primary; committee-authorized NOT appropriated. E2 (LNG 45Q): figures confirmed with DOR attribution, single-source, soften. D1 (FERC): Railbelt-exclusion is analytical inference, already led 06-23, background only.",
+  "verified_findings": [
+    {
+      "id": "A1", "beat": "A",
+      "story_title": "Alaska May jobs report: federal civilian workforce down ~10%",
+      "summary": "AK DOLWD June 18 release: May 2026 total jobs roughly even YoY; ~1,500 federal civilian jobs (~10%) and ~700 state jobs lost over 12 months; Information sector -100; Professional/Business Services -300. Private gains in oil/gas and transportation offset public-sector losses.",
+      "why_it_matters_to_alaskans": "A 10% federal civilian workforce cut shrinks the local public-sector tech client base and frees a pool of displaced IT workers Alaska employers must absorb or lose within 60-90 days.",
+      "industry_consequence": "Government/federal-contracting: shrinking public-sector tech client base plus displaced federal IT talent; 60-90 day absorb-or-lose decision for AK defense/IT contractors.",
+      "sources": [{"url":"https://labor.alaska.gov/news/2026/news26-11.htm","outlet":"AK DOLWD","pub_date":"2026-06-18","author":"Karinne Wiebold"}],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": false,
+      "validation_note": "URL confirmed all figures: 1,500 federal (~10%), 700 state, Info -100, Prof/Business -300. Single primary government source."
+    },
+    {
+      "id": "A2", "beat": "A",
+      "story_title": "AK districts close 12 schools; ASD cuts IT staff, Campbell STEM closes",
+      "summary": "AK districts closed 12 schools in 2025-26 amid severe shortfalls (ASD ~$90M); Anchorage cut ~500 staff including IT, closed Campbell STEM Elementary (parent lawsuit pending). STEM-to-university feeder narrows.",
+      "why_it_matters_to_alaskans": "Closures reduce the STEM feeder pipeline for UA, ANSEP, and AK defense/energy employers on a 4-6 year horizon.",
+      "industry_consequence": "STEM-to-tech pipeline: UA system, ANSEP, AK employers face fewer locally produced STEM grads on a 4-6 yr horizon.",
+      "sources": [{"url":"https://alaskapublic.org/news/education/2026-06-17/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts","outlet":"Alaska Public","pub_date":"2026-06-17"},{"url":"https://www.juneauempire.com/2026/06/18/alaska-districts-close-12-schools-this-year-amid-severe-budget-cuts/","outlet":"Juneau Empire","pub_date":"2026-06-18"}],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": false,
+      "validation_note": "Both URLs confirmed 12 closures, ASD $90M shortfall, Campbell STEM closure, IT cuts. Two independent sources."
+    },
+    {
+      "id": "B1", "beat": "B",
+      "story_title": "Koniag Technology Solutions wins AFRL AI/ML attrition-retention contract",
+      "summary": "June 22: Koniag Technology Solutions (subsidiary of Koniag, an Alaska Native Corporation) awarded an Air Force Research Laboratory contract to build and deploy an AI/ML model that flags airmen at attrition risk and recommends retention interventions. Reported as roughly $1.2 million, 18-month sole-source small-business set-aside. Award ID FA701426C0017 per federal-award tracker OrangeSlices AI.",
+      "why_it_matters_to_alaskans": "An Alaska Native Corporation subsidiary is the Alaska entity capturing an AI/ML defense workforce-analytics award, positioning Koniag for follow-on DoD workforce-AI task orders.",
+      "industry_consequence": "Federal IT/defense workforce analytics: Koniag has an 18-month window to deliver a live AI retention model to AFRL; positions the subsidiary for follow-on DoD workforce-AI work.",
+      "sources": [{"url":"https://orangeslices.ai/koniag-subsidiary-secures-u-s-air-force-ai-ml-attrition-risk-and-retention-strategy-solution-contract/","outlet":"OrangeSlices AI (federal award tracker)","pub_date":"2026-06-22"}],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "validation_note": "OrangeSlices confirmed award FA701426C0017, $1,243,148, AI/ML attrition model, 18-mo sole-source. USAspending/SAM are JS SPAs, federal primary not independently fetchable. Present as 'roughly $1.2 million' with 'per a federal-award tracker' attribution."
+    },
+    {
+      "id": "B2", "beat": "B",
+      "story_title": "Chenega subsidiary wins CDC IT/INFOSEC contract",
+      "summary": "June 18: Chenega Services & Federal Solutions (subsidiary of Chenega, an Alaska Native Corporation) awarded a roughly $2.4 million, 4-year contract (Award ID 75D30126P20949 per a federal-award tracker) for information-security and IT shared services to the CDC, 8(a) sole-source under HHS. This is an IT/INFOSEC award; AI is NOT in scope.",
+      "why_it_matters_to_alaskans": "A second Alaska Native Corporation subsidiary booking a new federal IT award the same week, even amid SBA 8(a) overhaul uncertainty.",
+      "industry_consequence": "Federal health IT/cyber: Chenega adds a CDC IT task order amid 8(a) review uncertainty. NOTE: IT/INFOSEC, not AI — do not characterize as an AI award.",
+      "sources": [{"url":"https://orangeslices.ai/chenega-subsidiary-secures-cdc-information-security-infosec-and-it-shared-services-support-contract/","outlet":"OrangeSlices AI (federal award tracker)","pub_date":"2026-06-18"}],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "validation_note": "OrangeSlices confirmed 75D30126P20949, $2,428,750, 4-yr CDC INFOSEC/IT, 8(a) sole-source, June 18. Federal primary not fetchable. CRITICAL: IT/INFOSEC only, not AI. Present as 'roughly $2.4 million' per a federal-award tracker."
+    },
+    {
+      "id": "B3", "beat": "B/D",
+      "story_title": "SBA 8(a) race-eligibility overhaul; ANCs explicitly carved out",
+      "summary": "June 11: SBA proposed eliminating race as a standalone basis for individual 8(a) social-disadvantage eligibility; entity-owned participants (ANCs, tribes, NHOs) explicitly carved out with no direct change. Alaska Public (June 12) notes widened individual eligibility could erode ANCs' competitive buffer over time.",
+      "why_it_matters_to_alaskans": "The 8(a) program is a primary vehicle for Alaska Native Corporations to win federal IT/defense work; a shift in competitive dynamics affects ANC revenues and the communities they fund.",
+      "industry_consequence": "ANC federal contracting: comment period open; rule could reshape competition for sole-source/set-aside AI/IT awards in FY27 cycles. DROP the unverified 26%/$800M decline figure.",
+      "sources": [{"url":"https://www.sba.gov/article/2026/06/11/sba-reforms-8a-business-development-program-end-racial-discrimination-federal-contracting","outlet":"SBA","pub_date":"2026-06-11"},{"url":"https://alaskapublic.org/news/alaska-desk/2026-06-12/federal-officials-say-proposed-drastic-changes-to-a-contracting-program-wont-affect-tribes-and-native-corporations","outlet":"Alaska Public","pub_date":"2026-06-12"}],
+      "confidence": "medium", "is_in_window": false, "primary_source": true, "background_context": true, "needs_softening": true,
+      "validation_note": "SBA confirmed ANC/tribal carve-out explicitly. The '26%/$800M Indian Country DoD decline' figure is in NEITHER source — must be removed. Out of window (June 11-12); background only."
+    },
+    {
+      "id": "D2", "beat": "D",
+      "story_title": "Sullivan secures $2.6B and 56 provisions in SASC FY2027 NDAA incl. Arctic autonomous systems",
+      "summary": "June 23: Senate Armed Services Committee advanced FY2027 NDAA 18-9 with 56 Sullivan provisions totaling ~$2.6B for Alaska, including an Analytics and Simulation Laboratory at the Ted Stevens Center for Arctic Security Studies, $10M for autonomous systems within the Golden Dome missile-defense effort, and JBER recapitalization. Committee passage only; floor vote and conference pending; funds authorized, NOT appropriated.",
+      "why_it_matters_to_alaskans": "The autonomous-systems and analytics provisions open a ~6-month positioning window for Alaska AI/tech contractors to pursue JBER/Eielson/Ted Stevens task orders.",
+      "industry_consequence": "Defense/AI: ~6-month window for AK contractors to position for JBER/Eielson/Ted Stevens AI-integration task orders. Authorized only, not appropriated; floor + conference pending.",
+      "sources": [{"url":"https://www.sullivan.senate.gov/newsroom/press-releases/sullivan-secures-56-provisions-historic-26-billion-for-alaska-in-fy-2027-defense-authorization","outlet":"Sen. Sullivan (primary)","pub_date":"2026-06-23"},{"url":"https://www.alaskasnewssource.com/2026/06/24/sullivan-touts-alaska-defense-provisions-ndaa-bill-advances/","outlet":"Alaska's News Source","pub_date":"2026-06-24"}],
+      "confidence": "high", "is_in_window": true, "primary_source": true, "background_context": false, "needs_softening": false,
+      "validation_note": "Both URLs confirmed $2.6B, 56 provisions, 18-9 vote, Analytics & Simulation Lab at Ted Stevens Center, $10M Golden Dome autonomous systems. Maintain 'committee-authorized, not appropriated'."
+    },
+    {
+      "id": "D5", "beat": "D",
+      "story_title": "FY2027 NDAA drafts embed agentic-AI deployment mandate + CMMC Level 2 small-biz grant",
+      "summary": "June 17-19: Both House and Senate FY2027 NDAA drafts direct DoD to build a department-wide agentic-AI deployment ecosystem (Senate: 'stand up a department-wide system for the deployment of agentic AI systems'). Senate version adds a CMMC Level 2 grant program for small and nontraditional defense contractors.",
+      "why_it_matters_to_alaskans": "Alaska's small defense subcontractors would benefit from CMMC Level 2 grants to offset certification costs; the agentic-AI mandate signals AI-governance maturity becoming a contracting prerequisite.",
+      "industry_consequence": "Defense contracting/cyber: AK small-biz subs get a runway to fund CMMC Level 2 certification; agentic-AI mandate signals AI-governance maturity becomes a contracting gate. Pending enactment.",
+      "sources": [{"url":"https://www.govinfosecurity.com/ndaa-drafts-bolster-contractor-cyber-ai-rules-a-32029","outlet":"GovInfoSecurity","pub_date":"2026-06-19"},{"url":"https://federalnewsnetwork.com/federal-newscast/2026/06/senate-armed-services-committee-releases-ndaa-details/","outlet":"Federal News Network","pub_date":"2026-06-17"}],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": false,
+      "validation_note": "GovInfoSecurity confirmed agentic-AI mandate and CMMC Level 2 grant; FNN corroborates. Two sources. Verbatim 'stand up a department wide system for the deployment of agentic AI systems' confirmed."
+    },
+    {
+      "id": "E2", "beat": "E",
+      "story_title": "Alaska LNG CO2/45Q credits could add ~$285M/yr per DOR forecast",
+      "summary": "June 21 (ADN/Alaska Beacon, James Brooks): an Alaska Department of Revenue forecast estimates the Alaska LNG carbon-treatment plant would capture ~7M tons CO2/yr, qualifying for 45Q credits at $85/ton, ~$285M/yr (~$7.4B over 12 years) tradeable at 80-90 cents on the dollar. New arithmetic in the gasline tax-break debate.",
+      "why_it_matters_to_alaskans": "The 45Q arithmetic could shrink the legislative tax concession needed during the July 1-19 conference window, affecting whether the gasline advances.",
+      "industry_consequence": "Energy infrastructure: improves Glenfarne's debt-service case; could reduce the legislative concession needed. State-agency estimates, not audited financials.",
+      "sources": [{"url":"https://www.adn.com/business-economy/energy/2026/06/21/for-trans-alaska-gas-pipeline-operator-carbon-dioxide-may-be-a-lucrative-sideline/","outlet":"ADN / Alaska Beacon","pub_date":"2026-06-21","author":"James Brooks"}],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": false, "needs_softening": true,
+      "validation_note": "ADN confirmed all figures with DOR/AGDC attribution. Single source; attribute to 'an Alaska Department of Revenue forecast'."
+    },
+    {
+      "id": "C2", "beat": "C",
+      "story_title": "Santos Pikka Phase 1 enters continuous North Slope production",
+      "summary": "June 23: Santos announced continuous production at Pikka Phase 1 (North Slope), ~20,000 bopd initial, ~80,000 bopd Q3 plateau target. A remote operations center in Anchorage was designed into the project (Repsol, May 18) but in-window sources do not confirm it is live, and none describe digital-twin or AI systems.",
+      "why_it_matters_to_alaskans": "Largest new North Slope development in a generation; a remote-operations model could reshape slope workforce patterns and Anchorage office demand.",
+      "industry_consequence": "Oil and gas: remote-ops template implications for North Slope workforce and Anchorage office demand. NOT an AI/digital-twin story per verification; do not frame as AI.",
+      "sources": [{"url":"https://worldoil.com/news/2026/6/23/santos-brings-first-pikka-wells-online-in-alaska","outlet":"World Oil","pub_date":"2026-06-23"},{"url":"https://www.offshore-technology.com/news/santos-first-pikka-wells-online/","outlet":"Offshore Technology","pub_date":"2026-06-23"}],
+      "confidence": "medium", "is_in_window": true, "primary_source": false, "background_context": true, "needs_softening": true,
+      "validation_note": "Production figures confirmed. ROC-live, digital-twin, 601 W. Fifth Ave, and AI framing NOT supported by in-window sources. Not usable as an AI deployment story."
+    },
+    {
+      "id": "C1", "beat": "C",
+      "story_title": "NSF reverses course; Gulf of Alaska ocean-monitoring instruments preserved",
+      "summary": "June 20: NSF will not dismantle the Ocean Observatories Initiative, preserving ~900 monitoring instruments including Gulf of Alaska instruments, after the Senate passed the Saving the OOI Act. Feeds NOAA fisheries stock-assessment models.",
+      "why_it_matters_to_alaskans": "Continuous ocean data off Alaska feeds NOAA stock assessments that set harvest limits; preservation avoids a 2026-27 data-continuity gap.",
+      "industry_consequence": "Fisheries: avoids a data-continuity gap in Gulf of Alaska stock-assessment inputs for the 2026-27 harvest planning cycle.",
+      "sources": [{"url":"https://www.chilkatvalleynews.com/2026/06/21/u-s-scientific-instruments-in-oceans-off-alaska-and-elsewhere-to-remain-in-place/","outlet":"Chilkat Valley News","pub_date":"2026-06-21"},{"url":"https://alaskapublic.org/news/environment/2026-06-16/alaskas-murkowski-among-congress-members-seeking-to-save-ocean-science-network","outlet":"Alaska Public Media","pub_date":"2026-06-16"}],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": true, "needs_softening": false,
+      "validation_note": "Confirmed NSF reversal June 20, ~900 instruments, GoA included. ALREADY COVERED on 06-21 run; background only, do not re-lead."
+    },
+    {
+      "id": "D1", "beat": "D",
+      "story_title": "FERC show-cause orders on large-load interconnection; Railbelt outside jurisdiction",
+      "summary": "June 22: FERC ordered six RTOs/ISOs to revise large-load interconnection tariffs for data-center/AI load. Alaska's Railbelt is outside FERC RTO jurisdiction, so no federal floor applies (analytical inference, not in source).",
+      "why_it_matters_to_alaskans": "No federal cost-allocation framework reaches the Railbelt, a gap for AK data-center developers.",
+      "industry_consequence": "Grid/data-center: AK developers face a cost-allocation regulatory vacuum.",
+      "sources": [{"url":"https://www.utilitydive.com/news/ferc-doe-data-center-interconnection/823360/","outlet":"Utility Dive","pub_date":"2026-06-22"}],
+      "confidence": "high", "is_in_window": true, "primary_source": false, "background_context": true, "needs_softening": true,
+      "validation_note": "Confirmed FERC orders June 22; article does NOT mention Alaska. ALREADY LED on 06-23. Background only, do not reuse."
+    }
+  ]
+}
