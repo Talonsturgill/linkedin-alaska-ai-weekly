@@ -1,32 +1,20 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines stand alone, name the mechanism (submarine cable landing rules) and the concrete news trigger (July 8, 2026, DA-26-684), and land the AK stake (GCI Liberty/Quintillion, only Arctic fiber). Signals a correction ('who can close') without snark. Docket cite in line 1 slightly crowds the ~210-char cutoff but it still works."},
+    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Mechanism genuinely drives an AK underwriting decision. Concrete consequence: sector (connectivity substrate for North Slope/Railbelt AI data centers), named actor (Quintillion as only U.S.-Arctic subsea operator), decision/risk (delay-or-reprice), and timeframe (early-2027 in-service). Both sides fully carried."},
+    {"name": "Layer fidelity", "score": 9, "weight": 0.14, "notes": "All four body layers appear in the dossier with matching controlling actors (FCC under 1921 Act, OIA on OI Docket 24-523, full Commission FCC 25-49, Committee/AG). Chain is complete and readable; no invented layers. Actors summarized tightly and accurately rather than verbatim."},
+    {"name": "Chokepoint clarity", "score": 9, "weight": 0.13, "notes": "Names ONE specific layer (the fourth), the actor (Committee for the Assessment of Foreign Participation chaired by the AG), and the true binary (file an objection vs. return no objection and let the FCC grant). Asymmetric, not a diffuse Congress-style veto. Mention of Defense/Homeland Security as members marginally softens the single-actor framing."},
+    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, honest position ('the visible regulator is not the gate'; reprice/block authority parked in a DOJ-chaired committee invisible on the docket surface) grounded in how the referral machinery actually works. Proportionate, not a flat explainer, matches the dossier's structural read."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names a concrete next move: treat Team Telecom clearance (not the FCC grant) as the binding closing condition, stress-test schedule/financing against a mitigation-agreement scenario vs. an unconditional early-2027 date. Cites the referral dates (Feb 17 / Mar 20, 2026). Actionable this week; who carries risk is named."},
+    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (FCC public notices DA-26-684/DA-26-296, Report and Order FCC 25-49, OI Docket 24-523, docketed application SCL-MOD-20250930-00070). Chokepoint citation is primary. Unverified dollar figures correctly excluded."},
+    {"name": "Voice match", "score": 8, "weight": 0.08, "notes": "Analytical, position-taking, structural, business-literate, Alaska-first; breaks machinery down in plain language without losing sophistication. Not explainer-bot or influencer cadence. Minor stretches ('reprice-or-block authority is parked') read slightly dense but stay on voice."},
+    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count (435) and char count are in-window, paragraphs are tight (2-4 sentences), scans well. The bullet block is well-formed but the four items are multi-sentence rather than the single-clause items the top descriptor rewards, so it is slightly heavier to scan than ideal."},
+    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (if the Committee objects on the Quintillion referral, who carries the repriced risk, buyer/lenders/offtaker). No CTA, no rhetorical softener. On-topic and specific."}
+  ],
+  "weighted_total": 8.84,
+  "threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Readability (LinkedIn)",
+  "one_sentence_fix": "Tighten each of the four layer bullets to a single clause (move the descriptive second sentences into the surrounding prose) so the bullet block scans as clean single-clause items on mobile.",
+  "hard_fails": []
 }

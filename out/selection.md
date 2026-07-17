@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-17
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism.** FCC cable-landing-license transfer gated by executive-branch national-security review (GCI Liberty / Quintillion).
 
-## Role
-FOUNDER (kicker middle slot)
+**Category.** REGULATORY (middle kicker slot: `REGULATORY`).
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger.** FCC Public Notice DA-26-684 (OI Docket 24-523): the second-phase submarine cable landing license rules that did not take effect on Nov 26, 2025 became effective July 8, 2026. In-window primary source, fetched clean as .txt. (The underlying GCI Liberty acquisition of Quintillion, announced ~Apr 22, 2026, is out of window and is NOT relied on.)
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count.** 4 verified layers.
+1. Statutory delegation — FCC under the Submarine Cable Landing License Act of 1921 (47 U.S.C. 34-39) / EO 10530.
+2. FCC intake + second-phase rule regime — FCC Office of International Affairs, OI Docket 24-523 (47 CFR 1.70009, 1.70024, 43.82).
+3. Foreign-adversary substantive presumption — FCC full Commission, Report & Order FCC 25-49.
+4. Executive-branch national-security review — Committee for the Assessment of Foreign Participation ("Team Telecom"), chaired by the Attorney General (DOJ) with Defense and Homeland Security, plus State referral.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Chokepoint.** Layer 4. The DOJ-chaired Committee for the Assessment of Foreign Participation owns a binary on each referred transfer: file an objection / demand a binding mitigation agreement, or return no objection and let the FCC grant. The FCC will not grant a transfer over an unresolved executive-branch objection. Quintillion's cable-landing modification (SCL-MOD-20250930-00070) was referred to State Feb 17, 2026; the GCI Liberty transfer-of-control applications Mar 20, 2026.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read.** The visible regulator (FCC) is not the gate. The real reprice/block authority sits in an interagency committee that operates off the docket surface by referral and objection. Alaska's entire Arctic-fiber substrate for AI-data-center theses runs through one national-security veto whose timing the licensee does not control.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Forward implication.** Anyone underwriting an Alaska AI-data-center site tied to Arctic fiber should treat Team Telecom clearance of the GCI Liberty / Quintillion transfers — not the FCC's ministerial grant — as the binding closing condition, and stress-test schedule and financing against a mitigation-agreement scenario, not an unconditional early-2027 in-service date.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Hard constraint for the writer.** Do NOT use the reported $310M acquisition price or the ~$160M Nome-to-Homer backbone figure — neither was independently verified and both are excluded from the certified anatomy. Stay on the FCC-docket-verified facts only.
