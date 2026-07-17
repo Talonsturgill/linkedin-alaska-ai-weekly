@@ -1,0 +1,6 @@
+Gmail draft id: r8774408731850574522
+Subject: Alaska.Ai — The Stack Draft — 2026-07-17
+To: talon.sturgill@gmail.com
+Created: 2026-07-17 (America/Anchorage)
+Branch: claude/linkedin-stack-2026-07-17
+Image (SHA-pinned, verified HTTP 200): https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/2916612cbf62f94e54c2124b5c9332a18f815fd3/out/post_image.png
