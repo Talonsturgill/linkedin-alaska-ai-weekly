@@ -1,17 +1,84 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
+  "date": "17 JUL 2026",
+  "column": "The Stack",
+  "kicker": "THE STACK",
+  "middle_slot": "REGULATORY",
+  "headline": "The Real Gate Is Off The Docket",
   "byline": "",
-  "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
-  "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
-  "seed": 11,
-  "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "style_family": "bathymetric_blueprint",
+  "palette": [
+    "#020b24",
+    "#254067",
+    "#99afbb",
+    "#83cbdb",
+    "#eb9f2c",
+    "#ffe9b5",
+    "#e6f1f4"
+  ],
+  "hue_family": "indigo",
+  "composition": "submerged_section",
+  "motifs": [
+    "subsea fiber section",
+    "submerged sluice gate",
+    "bathymetric contours",
+    "docket surface waterline",
+    "three FCC surface markers",
+    "Arctic landing node"
+  ],
+  "technique_stack": [
+    "gradient_v",
+    "field",
+    "warp",
+    "contour_edges",
+    "ridge_pts",
+    "hand_line",
+    "radial_glow",
+    "echo_lines",
+    "fine_particulate",
+    "grain",
+    "vignette",
+    "soft_panel"
+  ],
+  "seed": 419,
+  "concept": "Subsea fiber descends from a lit docket surface (three visible FCC layers) into dark Arctic water where the one lit element is a submerged gate the line must pass \u2014 the Team Telecom national-security veto.",
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 8.08,
+      "weakest": "detail",
+      "note": "empty acreage in the deep; contours too faint; snow read as confetti"
+    },
+    {
+      "iter": 2,
+      "weighted": 8.45,
+      "weakest": "focal",
+      "note": "contours strengthened + gate light column added; contours slightly uniform, headline panel boxy"
+    },
+    {
+      "iter": 3,
+      "weighted": 8.62,
+      "weakest": "none>=7",
+      "note": "contour detail-hierarchy (calmer right), softer headline panel, brighter gate core, label cushion"
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.62,
+    "scores": {
+      "concept": 9,
+      "focal": 8.5,
+      "composition": 8.5,
+      "color": 8.5,
+      "detail": 8.5,
+      "craft": 8.5,
+      "typography": 8.5,
+      "originality": 8.5,
+      "fidelity": 9
+    }
+  },
   "canvas": [
     1080,
     1080
   ],
+  "rendered_at_utc": "2026-07-17T09:52:49.808891Z",
   "out_path": "out/post_image.png"
 }
