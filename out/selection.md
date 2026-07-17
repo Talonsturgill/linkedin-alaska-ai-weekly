@@ -1,27 +1,20 @@
-# Anchorage Desk Selection — 20 May 2026
+# Anchorage Desk Selection — 2026-07-17
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Subject:** Lee Ann Munk
+**Role:** Chief Executive Officer, NSF Critical Mineral Accelerator Engine in Alaska; Professor of Geological Sciences
+**Org:** University of Alaska (Engine housed at UAF Geophysical Institute; home appointment UAA Dept. of Geological Sciences, Anchorage)
+**ROLE (kicker middle slot):** RESEARCH
 
-## Role
-FOUNDER (kicker middle slot)
+**Decision:** NSF named Munk lead/CEO of the newly funded NSF Critical Mineral Accelerator Engine in Alaska, a Regional Innovation Engine that will use AI to help locate mineral deposits and study biological extraction methods, coordinating 40+ partners (NANA Regional Corp., Alaska Silver, state/federal agencies). Initial award $15M over two years, up to $160M over 10 years. Alaska is one of 12 engines selected.
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**Decision date:** 2026-07-14
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Primary source:** https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Corroborating (independent):**
+- NSF.gov — https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research
+- ADN (Alaska Beacon reporting reprint) — https://www.adn.com/alaska-news/education/2026/07/15/university-of-alaska-fairbanks-gets-funding-for-critical-minerals-center/
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read (desk position): SHARP.** Winning a competitively selected NSF Regional Innovation Engine (up to $160M) and betting differentiation on AI-enabled geochemical exploration plus bioextraction is a strong strategic get for Alaska. The fair critique is capture and opacity, not the decision to pursue it. The Anchorage angle: an Anchorage-based scientist leads an initiative whose institutional HQ and dollars land in Fairbanks.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
-
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**Forward implication:** Watch Year-1 deployment of the $15M — which partners get subawarded, whether AI-exploration and bioextraction show concrete Alaska field results, and whether NSF renews toward the $160M ceiling. The first go/no-go review inside the two-year initial window is the next decision Munk owns.

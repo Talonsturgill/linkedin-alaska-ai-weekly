@@ -1,32 +1,30 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
-  "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
+  "weighted_total": 8.94,
+  "threshold": 8.0,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First lines name subject, role, and the NSF CEO decision with dollar figures; 'whether AI can find minerals faster than a drill rig' makes the bet concrete. Decision is the hook, not the bio."},
+    {"name": "Subject + decision load-bearing for AK", "score": 8, "weight": 0.16, "notes": "Consequence well-specified (sector, $15M/$160M, NANA/Alaska Silver, 2026-2036), but the AI stake is one facet of a critical-minerals award and the 'binary she owned' is partly desk-constructed from an NSF selection she accepted."},
+    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name + CEO role + professor/UAA Dept affiliation + explicit Anchorage tie (3101 Science Circle). Every fact matches the dossier, including the Anchorage-home/Fairbanks-money axis."},
+    {"name": "Decision specificity + primary-source", "score": 9, "weight": 0.14, "notes": "What+when+binary named, traces to gi.alaska.edu primary and survives multi-source rule via independent NSF.gov; date in window. Binary described concretely (AI exploration+bioextraction vs conventional)."},
+    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Honest position ('reads the decision as sharp'), praises the competitive NSF win and names capture/opacity risk and the Anchorage-CEO/Fairbanks-money tension proportionately. Matches post_001 energy."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision Munk owns (Year-1 deployment, first go/no-go inside the two-year window) with specific things to watch: subawards, field results, renewal toward $160M."},
+    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, structural, Alaska-first, plainspoken; no banned phrases, no influencer cadence, no hagiography. Reads like the anchor post."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.05, "notes": "Tight 2-4 sentence paragraphs, 404 words, under 3000 chars, bio held to ~2 sentences, scans cleanly."},
+    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Closes with a genuine debatable binary tied to the specific decision (prove models on public field data first vs. concentrate the bet). No CTA, no softener."},
+    {"name": "Credibility guard", "score": 9, "weight": 0.10, "notes": "Decision treatment outweighs bio, every claim traceable to corroborated sources, praise and critique both earned. Not recycled or invented."}
   ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "tripped": false, "note": "5 whitelisted tags, end-only, in 3-5 range."},
+    {"name": "punctuation_bans_held", "tripped": false, "note": "No em/en-dashes, double-hyphens, colons, or semicolons in body."},
+    {"name": "total_char_count_under_linkedin_cap", "tripped": false, "note": "Well under 3000 characters."},
+    {"name": "word_count_in_range", "tripped": false, "note": "404 body words, within 350-475."},
+    {"name": "subject_named_and_anchorage_tied", "tripped": false, "note": "Full name + role + UAA affiliation and explicit Anchorage tie."},
+    {"name": "recent_decision_named_with_primary_source", "tripped": false, "note": "2026-07-14 decision, gi.alaska.edu primary cited, within window."},
+    {"name": "multi_source_corroboration", "tripped": false, "note": "gi.alaska.edu + independent NSF.gov, matches dossier."},
+    {"name": "grounded_not_press_release", "tripped": false, "note": "Real analytical position with proportionate critique, no hagiographic verbs."},
+    {"name": "no_invented_quotes", "tripped": false, "note": "Single quote verbatim from dossier subject_quotes[0]."}
   ],
-  "one_sentence_fix": null
+  "weakest_criterion": "Subject + decision load-bearing for AK",
+  "one_sentence_fix": ""
 }
