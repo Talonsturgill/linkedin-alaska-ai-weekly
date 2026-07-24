@@ -1,27 +1,21 @@
-# Anchorage Desk Selection — 20 May 2026
+# The Stack — Selection — 2026-07-24
 
-## Subject
-**Sparrow Mahoney**, Founder and CEO, **STAK Energy** (Anchorage-headquartered)
+**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
 
-## Role
-FOUNDER (kicker middle slot)
+**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
 
-## Decision
-On May 12, 2026 the Alaska Department of Natural Resources issued a preliminary "best interest" determination on STAK Energy's application for a 715.4-acre, 50-year lease on the North Slope to build a $500 million, up-to-3-gigawatt off-grid natural-gas-powered AI and cloud computing data center campus. Mahoney filed the application in November 2025; DNR solicited competing bids and received none. The public comment period closes June 15, 2026.
+**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
 
-## Primary source
-[Anchorage Daily News, May 18, 2026](https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/)
+**Layer count.** 4 layers, each primary-sourced.
+1. NSF award authority / source-selection — NSF TIP Directorate.
+2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
+3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
+4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
 
-## Corroborators
-- [Northern Journal, May 13, 2026](https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/) (independent original reporting by Nathaniel Herz)
-- Data Center Dynamics (surfaced but unverified, 403 on revalidation)
+**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
 
-## Structural read
-MEDIOCRE-TO-SPECULATIVE. The DNR preliminary determination is a real milestone, but the project has no disclosed equity financing, no named anchor tenant, no interconnection agreement (because it proposes to be off-grid), and the same site was previously pitched for crypto mining. The stranded-gas-plus-Arctic-cooling case is real strategic logic, but North Slope gas requires gathering and processing infrastructure that hasn't been announced. STAK declined to answer specific questions. DNR best-interest determinations are a procedural step any unopposed application can achieve; the hard test is whether financing closes before the final lease.
+**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
 
-## Forward implication
-Public comment period closes June 15, 2026. Watch for any project financing announcement, an interconnect or gas supply agreement filing, or a competing lease challenge during the comment period. If no financing is disclosed by the time the comment period closes, the project's credibility deteriorates sharply.
+**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
 
-## Constraints for writer
-- No verbatim Mahoney quotes are available. STAK declined to respond to specific questions. The writer MUST NOT attribute any STAK company statement to Mahoney personally.
-- The decision is real and dated; the project's substance is contested.
+**CATEGORY (Phase 8 middle slot).** VEHICLES
