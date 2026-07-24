@@ -1,48 +1,46 @@
 {
-  "run_date": "2026-05-20",
   "column": "Anchorage Desk",
-  "subject": "Sparrow Mahoney, Founder and CEO, STAK Energy",
-  "decision": "DNR preliminary best-interest determination on 715.4-acre, 50-year North Slope lease for proposed $500M AI data center campus (May 12, 2026)",
+  "date": "2026-07-24",
+  "subject": "John Boyle, Chief Strategy Officer, Stak Energy",
+  "decision_date": "2026-07-07",
+  "window": {"start": "2026-05-25", "end": "2026-07-24", "days": 60, "broadened": false},
   "sources": [
     {
-      "url": "https://www.adn.com/business-economy/2026/05/18/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Anchorage Daily News",
-      "pub_date": "2026-05-18",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
       "role": "primary",
-      "independent_of_subject": true
+      "outlet": "Anchorage Daily News",
+      "url": "https://www.adn.com/business-economy/2026/07/07/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/",
+      "date": "2026-07-07",
+      "independent_of_subject": true,
+      "note": "Primary source for the decision, Boyle's verbatim quotes, his 2023-2025 DNR Commissioner tenure, the $10B+ project cost, the 1GW+ capacity, the 'roughly one square mile' footprint, and the July 17 extended comment deadline."
     },
     {
-      "url": "https://www.northernjournal.com/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Northern Journal (Nathaniel Herz)",
-      "pub_date": "2026-05-13",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
       "role": "corroborating",
-      "independent_of_subject": true
+      "outlet": "Northern Journal",
+      "url": "https://www.northernjournal.com/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/",
+      "date": "2026-07-03",
+      "independent_of_subject": true,
+      "note": "Independent of Stak Energy, but carries the same Nathaniel Herz reporting and interview as the ADN version. Not independent of the primary. Disclosed as this cycle's corroboration soft spot."
     },
     {
-      "url": "https://www.datacenterdynamics.com/en/news/stak-energy-proposes-3gw-natural-gas-powered-data-center-in-alaskas-north-slope/",
-      "outlet": "Data Center Dynamics",
-      "pub_date": "2026-05",
-      "story_title": "Stak Energy proposes 3GW natural gas-powered data center in Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
+      "role": "context_opposing_party",
+      "outlet": "Northern Alaska Environmental Center",
+      "url": "https://northern.org/news/stak-energy-campus-what-the-states-lease-documents-reveal-about-scale-risk-and-unanswered-questions/",
+      "date": "2026-07",
+      "independent_of_subject": true,
+      "note": "ADVOCACY ORGANIZATION AND OPPOSING PARTY, not a neutral corroborator. Surfaced the extended comment deadline and lease-document questions. Its $500M, 3GW, and 715.4-acre figures were EXCLUDED as unverified and are not used in the post."
     },
     {
-      "url": "https://alaskabeacon.com/2026/05/14/a-huge-data-center-could-rise-on-alaskas-north-slope/",
-      "outlet": "Alaska Beacon",
-      "pub_date": "2026-05-14",
-      "story_title": "A huge data center could rise on Alaska's North Slope",
-      "role": "corroborating (surfaced; HTTP 403 on revalidation, treat as unverified)",
-      "independent_of_subject": true
-    },
-    {
-      "url": "https://www.stak.energy/",
-      "outlet": "STAK Energy (subject's company website)",
-      "pub_date": "n/a",
-      "story_title": "STAK Energy corporate site, confirming Anchorage HQ",
-      "role": "context (subject-controlled)",
-      "independent_of_subject": false
+      "role": "institutional_verification",
+      "outlet": "Alaska DNR Division of Oil and Gas",
+      "url": "https://dog.dnr.alaska.gov",
+      "date": "2026-07-24",
+      "independent_of_subject": true,
+      "note": "Used to confirm the reviewing division is headquartered at 550 W. 7th Ave, Anchorage, supporting the Anchorage tie."
     }
+  ],
+  "sources_attempted_and_unavailable": [
+    {"outlet": "Alaska Beacon", "url": "https://alaskabeacon.com/2026/07/06/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/", "reason": "403-blocked on three fetch attempts"},
+    {"outlet": "Stak Energy", "url": "https://stakenergy.com", "reason": "returned empty or unloadable content on three attempts; could not independently confirm Boyle's title or DNR tenure from the company's own site"},
+    {"outlet": "Alaska Public Media, KTUU/Alaska's News Source, Alaska Journal of Commerce, Must Read Alaska, KTOO, Fairbanks Daily News-Miner, Data Center Dynamics, Reuters", "url": "various", "reason": "searched for a wholly separate independent corroborator of the Boyle comment-triage statement; none carried the story"}
   ]
 }

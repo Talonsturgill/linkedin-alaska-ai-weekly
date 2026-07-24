@@ -1,32 +1,35 @@
 {
-  "run_date": "2026-05-20",
-  "rubric_used": "config/desk_rubric.yaml",
+  "column": "Anchorage Desk",
+  "date": "2026-07-24",
+  "rubric_file": "config/desk_rubric.yaml",
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "passed": true, "evidence": "4 hashtags at the end: #AlaskaAI #EnergyPolicy #DataCenters #AIPolicy, all on brand.yaml whitelist, none inline."},
+    {"name": "punctuation_bans_held", "passed": true, "evidence": "Scanned full body: zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Only single hyphens in compound words, which are permitted."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "evidence": "Body plus hashtag line totals 2842 characters as posted, under the 3000-character LinkedIn cap."},
+    {"name": "word_count_in_range", "passed": true, "evidence": "Body word count (hashtag line excluded) is 454 words, within the 350-475 window."},
+    {"name": "subject_named_and_anchorage_tied", "passed": true, "evidence": "'John Boyle, chief strategy officer at Anchorage-based Stak Energy' plus 'The DNR Division of Oil and Gas that will rule on the application is headquartered in Anchorage too.' Full name, role, org, and explicit Anchorage tie present."},
+    {"name": "recent_decision_named_with_primary_source", "passed": true, "evidence": "'According to the Anchorage Daily News on July 7' names the outlet and date matching dossier primary_source (ADN, 2026-07-07). July 7 falls inside the 2026-05-25 to 2026-07-24 window per the 60-day window override."},
+    {"name": "multi_source_corroboration", "passed": true, "evidence": "Dossier corroborating_sources[] includes Northern Journal (independent of Stak) alongside ADN, satisfying the letter of the rule per the validation note. The post attributes to exactly one named outlet and never claims multiple outlets confirmed anything, so it does not overstate its sourcing."},
+    {"name": "grounded_not_press_release", "passed": true, "evidence": "No hagiographic verbs appear. The post explicitly rejects the scandal framing ('That isn't bad faith', 'It isn't corruption') while still naming a real cost, an evidence-led read rather than recycled promotional language."},
+    {"name": "no_invented_quotes", "passed": true, "evidence": "Exactly three quotes used, all verbatim matches to desk_dossier.json selected_subject.subject_quotes[]. No fourth quote present."}
+  ],
+  "any_hard_fail": false,
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.10, "score": 9, "rationale": "First paragraph (204 chars, essentially the full pre-'see more' window) names subject, role, org, and the decision itself, and plants the conflict ('He ran DNR until 2025') in the same breath. The decision is the hook.", "fix": ""},
+    {"name": "Subject + decision load-bearing for AK", "weight": 0.16, "score": 9, "rationale": "Boyle is a public-facing decision-owner on a $10B+, 1GW+ North Slope project. The post names sector, dollar figure, affected actors (North Slope Borough, hyperscalers pricing Alaska power into 2027), and a timeframe.", "fix": ""},
+    {"name": "Subject identification fidelity", "weight": 0.10, "score": 9, "rationale": "Full name, title, organization, and DNR tenure (2023-2025) all match the dossier exactly. Anchorage tie stated twice.", "fix": ""},
+    {"name": "Decision specificity + primary-source", "weight": 0.14, "score": 8, "rationale": "Decision is dated, sourced by name to ADN, and the binary is described concretely. Held to 8 rather than 9-10 because the corroboration underlying the decision is thin (ADN and Northern Journal share the same Nathaniel Herz reporting per the validation note), a limitation of the record the post does not paper over but also does not fully surface.", "fix": ""},
+    {"name": "Structural read", "weight": 0.13, "score": 9, "rationale": "Genuinely steelmans the sharp reading before turning to the mediocre position. Lands a falsifiable position without manufacturing scandal, matching the post_001.md structural-read energy.", "fix": ""},
+    {"name": "Forward implication", "weight": 0.08, "score": 9, "rationale": "Names the next decision (DNR's Finding and Decision), is honest that no date has been announced, and gives a concrete trigger to watch plus named readers.", "fix": ""},
+    {"name": "Voice match", "weight": 0.10, "score": 9, "rationale": "Analytical, structural, business-literate cadence consistent with post_001.md. No press-release recap, no LinkedIn-influencer tone, no hagiography.", "fix": ""},
+    {"name": "Readability (LinkedIn)", "weight": 0.05, "score": 7, "rationale": "Word count (454) and char count (2842) both land inside range, and most paragraphs are tight, but the quote-heavy third paragraph runs to roughly 129 words in a single block, which reads as a wall of text on mobile.", "fix": "Split the long quote-and-figures paragraph into two shorter paragraphs to ease mobile scanning."},
+    {"name": "Engagement question", "weight": 0.04, "score": 9, "rationale": "Closing question is specific, debatable, and tied directly to the decision, with no CTA softener.", "fix": ""},
+    {"name": "Credibility guard", "weight": 0.10, "score": 9, "rationale": "Bio recap is two sentences and the bulk of the post is decision treatment. Every factual claim traces to the dossier's cleared figures and quotes, and the critique is earned by the evidence rather than invented or recycled.", "fix": ""}
+  ],
+  "weighted_total": 8.76,
   "ship_threshold": 8.0,
   "ship": true,
-  "weighted_total": 9.48,
-  "hard_fails_tripped": [],
-  "criteria_scores": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "First sentence (~163 chars) lands before the LinkedIn 'see more' cutoff, names subject, role, org, $500M, and the procedural action. Decision is the hook, not the bio."},
-    {"name": "Subject + decision load-bearing for AK", "score": 10, "weight": 0.16, "weighted_contribution": 1.60, "notes": "Subject is founder/CEO with direct ownership of the lease decision. Consequence named with sector, dollar figure, power capacity, workforce, land tenure, and timeframe."},
-    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Full name + role + institutional affiliation + Anchorage tie all present. Every fact matches the dossier."},
-    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "weighted_contribution": 1.40, "notes": "Hard-fail cleared. Decision named with what, when, and binary. Primary-source URL slug matches the dossier exactly. Northern Journal corroborating URL also present."},
-    {"name": "Structural read", "score": 9, "weight": 0.13, "weighted_contribution": 1.17, "notes": "Post explicitly labels the project 'mediocre-to-speculative' with five named structural gaps. Acknowledges genuine strategic logic without retreating. Slight density deduction."},
-    {"name": "Forward implication", "score": 10, "weight": 0.08, "weighted_contribution": 0.80, "notes": "Names the next decision, the specific deadline (June 15), and three concrete watchpoints."},
-    {"name": "Voice match", "score": 9, "weight": 0.10, "weighted_contribution": 0.90, "notes": "Analytical, position-taking, business-literate throughout. Minor density in one compressed sentence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "weighted_contribution": 0.35, "notes": "434 words, ~2,899 chars. Structural read paragraph runs long; long URLs in paragraph 3 disrupt scan flow."},
-    {"name": "Engagement question", "score": 9, "weight": 0.04, "weighted_contribution": 0.36, "notes": "Tied directly to the specific structural gaps named. Real, debatable, not generic."},
-    {"name": "Anti-puff guard", "score": 10, "weight": 0.10, "weighted_contribution": 1.00, "notes": "Bio recap minimal. Decision treatment dominates. Position taken with named accountability beat (STAK declining questions)."}
-  ],
-  "hard_fail_checks": [
-    {"name": "hashtag_count_in_range", "result": "PASS", "detail": "5 hashtags at end only, all on the whitelist."},
-    {"name": "punctuation_bans_held", "result": "PASS", "detail": "Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons in body."},
-    {"name": "total_char_count_under_linkedin_cap", "result": "PASS", "detail": "Total post length ~2,899 characters, under 3,000 cap."},
-    {"name": "word_count_in_range", "result": "PASS", "detail": "Body word count 434, within 350-475."},
-    {"name": "subject_named_and_anchorage_tied", "result": "PASS", "detail": "Sparrow Mahoney + founder/CEO + STAK Energy named in line 1; Anchorage tie in paragraph 2."},
-    {"name": "recent_decision_named_with_primary_source", "result": "PASS", "detail": "ADN URL slug matches dossier primary_source_url. Decision dated May 12, 2026, within window."},
-    {"name": "multi_source_corroboration", "result": "PASS", "detail": "ADN + Northern Journal both cited; Northern Journal independent of subject's org."},
-    {"name": "not_a_puff_piece", "result": "PASS", "detail": "Clear 'mediocre-to-speculative' position with five named gaps."},
-    {"name": "no_invented_quotes", "result": "PASS", "detail": "No quotes attributed to any subject. Dossier subject_quotes is empty."}
-  ],
-  "one_sentence_fix": null
+  "measured": {"body_word_count": 454, "total_char_count": 2842, "hashtag_count": 4, "em_dashes": 0, "colons": 0, "semicolons": 0},
+  "one_sentence_fix": "",
+  "notes": "All nine hard-fail checks pass, including the four cleared figures ($10B+, 1GW+, roughly one square mile, July 17 deadline) with none of the forbidden numbers ($500M, 3GW, 715.4 acres) appearing, and exactly three verbatim subject quotes with no invention. The post correctly handles the known corroboration soft spot by naming only ADN and never overclaiming multi-outlet confirmation, so it was graded honestly on Decision specificity rather than hard-failed. The post lands the intended 'mediocre' position (ordinary triage, wrong messenger) with a genuine steelman-then-turn structure and no manufactured scandal. Weighted total 8.76 clears the 8.0 threshold on the first scoring pass; the only real drag is a dense quote-heavy paragraph under Readability."
 }

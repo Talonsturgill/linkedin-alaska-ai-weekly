@@ -1,23 +1,17 @@
-The Regulatory Commission of Alaska would likely prevent ratepayer cross-subsidization on any AI data center the Air Force builds at JBER, Eielson, or Clear, per ADN May 5. The RFI covers 4,700 acres.
+John Boyle, chief strategy officer at Anchorage-based Stak Energy, publicly graded the opposition comments on his own company’s North Slope lease while DNR’s review was still open. He ran DNR until 2025.
 
-That sentence is the load-bearing constraint on the federal AI buildout in Alaska, and almost no one underwriting these projects is pricing it.
+Boyle served as Alaska’s commissioner of natural resources from 2023 to 2025. The DNR Division of Oil and Gas that will rule on the application is headquartered in Anchorage too.
 
-The mechanism is the Railbelt large-load interconnection review. Every tariff connecting a large load to Chugach or GVEA must survive the RCA's cost-of-service and anti-cross-subsidization screen to be legally valid.
+According to the Anchorage Daily News on July 7, with the comment period still running, Boyle said “Our initial assessment is that the vast majority of the comments are form letters lacking substance other than reflecting an individual’s point of view.” He also said “Some of the comments are more substantive and will be addressed in due course.” In the same reporting he confirmed Stak intends to sell power rather than operate data centers itself, saying “Stak will be able to provide power to any entity interested in purchasing it.” The proposal covers roughly one square mile, carries 1 gigawatt or more of generation, and would cost more than $10 billion by Boyle’s own figure. DNR had already extended the public comment deadline by a month, to July 17.
 
-Five layers sit between an Air Force land offer and a powered data center.
+The triage itself is ordinary. Large land-use reviews draw mass-mobilized form letters, agencies sort them from technical objections as routine work, and Boyle committed on the record that the substantive ones get answered. That isn’t bad faith, and reading it as a scandal would be wrong.
 
-- Air Force RFI and site control, 4,700 acres at JBER, Eielson, and Clear under 50-year Enhanced Use Leases, controlled by Robert Moriarty at SAF/IEI, proposals due May 29, 2026.
-- Utility capacity and integration study, controlled by Chugach Electric (824 MW capacity, 80.8% gas-fired) and GVEA under President Travis Million, with Chugach's Hilcorp gas contract expiring March 31, 2028.
-- RCA cost-of-service and anti-cross-subsidization review, controlled by the five-member Regulatory Commission of Alaska, active docket U-25-023.
-- Anchorage municipal conditional use permit, AO 2026-27 adopted March 27 2026, controlled by the Anchorage Planning Department and Assembly, triggered at 20 MW.
-- HB 259, controlled by the House Energy Committee and Rep. Donna Mears, would codify the anti-cross-subsidization rule into statute.
+The problem is the messenger. Sorting public opposition into substantive and non-substantive piles is the referee’s job, and the referee here is DNR. Alaska’s immediate past commissioner, now the applicant’s chief strategy officer, publicly grading the opposition to his own $10 billion application mid-review at the agency he used to run is a revolving-door fact worth naming plainly. It isn’t corruption, and nothing in the record suggests it is. It’s a cost. Boyle handed critics a process argument that will travel further than the form letters ever would.
 
-The chokepoint sits at the RCA. Five commissioners, majority vote, binary approve or reject on every interconnection tariff filed on the Railbelt. Docket U-25-023 (the live GVEA rate case) is the operational proof that this body still owns the pen. A state utility ratemaking commission, sized for a population under 800,000, holds veto authority over the federal AI infrastructure footprint the Department of the Air Force is actively soliciting.
+Alaska needs projects of this class to be permittable, which is exactly why the optics of the process matter. The largest AI-adjacent project on Alaska’s books can’t afford a Finding that looks pre-graded by the applicant.
 
-That asymmetry is the point. The RCA's anti-cross-subsidization rule isn't negotiable by the developer or the Air Force, and it forecloses the financing model hyperscalers default to, in which utility infrastructure costs get socialized across the ratepayer base. Any Railbelt AI project carries the full cost stack on the developer's balance sheet, and the financeable window closes when Chugach's gas contract does in March 2028.
+DNR’s Finding and Decision on the lease is expected after the July 17 comment close, with no announced date as of this week. Does that Finding engage the more substantive comments Boyle said would be addressed in due course, on lease valuation, water use, and risk allocation, or does it move past them? The North Slope Borough and any hyperscaler pricing Alaska power into 2027 will read that document closely.
 
-Federal contractors, hyperscalers, and defense AI firms responding to the May 29 RFI should treat the RCA tariff approval timeline, not the lease negotiation and not the federal environmental review, as the critical path. Project finance assuming socialized cost recovery will be rejected. Any model dependent on post-2028 Chugach gas without a contracted alternative isn't financeable on current terms.
+When the applicant’s executive is also the agency’s most recent commissioner, who should be the one publicly sorting substantive comments from form letters?
 
-If you're underwriting a JBER or Eielson proposal, what's the tariff structure that survives an RCA cost-of-service review without ratepayer support?
-
-#AlaskaAI #GridPolicy #DataCenters #EnergyPolicy #FederalContracting
+#AlaskaAI #EnergyPolicy #DataCenters #AIPolicy

@@ -1,17 +1,90 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
-  "byline": "",
+  "date": "24 JUL 2026",
+  "column": "Anchorage Desk",
   "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
-  "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
-  "seed": 11,
-  "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "middle_slot": "OPERATOR",
+  "byline": "",
+  "headline": "Ex-Commissioner Grades His Own Lease Opposition",
+  "style_family": "paper_collage",
+  "palette": [
+    "#ece3d1",
+    "#dbd0b8",
+    "#c3b394",
+    "#9d8b6c",
+    "#6b5c46",
+    "#332b21",
+    "#cf4520"
+  ],
+  "hue_family": "neutral-warm",
+  "composition": "scatter_field",
+  "motifs": [
+    "torn public-comment paper drift",
+    "red pen stroke",
+    "three kept scraps",
+    "North Slope horizon"
+  ],
+  "technique_stack": [
+    "mottle",
+    "ridge_fill",
+    "wobble_pts torn quads",
+    "layered poly scraps",
+    "chips",
+    "hand_line",
+    "grain",
+    "vignette"
+  ],
+  "seed": 724,
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 6.6,
+      "weakest": "composition",
+      "note": "pen stroke read as a walking stick, empty acreage mid-left, scraps read as confetti, wordmark struck through by the stroke"
+    },
+    {
+      "iter": 2,
+      "weighted": 7.6,
+      "weakest": "craft",
+      "note": "rebuilt drift as a real dune mass with a crest silhouette and aggressive scale ramp; horizon still read as a hard scan-line band and the stroke still read as a uniform rod"
+    },
+    {
+      "iter": 3,
+      "weighted": 8.2,
+      "weakest": "craft",
+      "note": "removed the horizon band, rebuilt the stroke as a filled tapered polygon, moved the kept scraps down onto the drift; offset dark underlay read as a hard black rim"
+    },
+    {
+      "iter": 4,
+      "weighted": 8.7,
+      "weakest": "composition",
+      "note": "swapped the rim for a blurred cast shadow plus a pooled-ink underlay; added a bridging squall, but the squall sheets were uniform in size and read flat"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.89,
+      "weakest": "craft",
+      "note": "gave the squall real size variance, depth sorting and ruled lines on the near sheets so scale reads as distance"
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.89,
+    "scores": {
+      "concept": 9,
+      "focal": 9,
+      "composition": 8.5,
+      "color": 9,
+      "detail": 9,
+      "craft": 8.5,
+      "typography": 9,
+      "originality": 9,
+      "fidelity": 9
+    }
+  },
   "canvas": [
     1080,
     1080
   ],
-  "out_path": "out/post_image.png"
+  "rendered_at_utc": "2026-07-24T19:47:38.899942Z",
+  "out_path": "out/post_image.png",
+  "fallback_used": false
 }
