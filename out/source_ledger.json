@@ -3,7 +3,12 @@
   "date": "2026-07-24",
   "subject": "John Boyle, Chief Strategy Officer, Stak Energy",
   "decision_date": "2026-07-07",
-  "window": {"start": "2026-05-25", "end": "2026-07-24", "days": 60, "broadened": false},
+  "window": {
+    "start": "2026-05-25",
+    "end": "2026-07-24",
+    "days": 60,
+    "broadened": false
+  },
   "sources": [
     {
       "role": "primary",
@@ -11,7 +16,10 @@
       "url": "https://www.adn.com/business-economy/2026/07/07/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/",
       "date": "2026-07-07",
       "independent_of_subject": true,
-      "note": "Primary source for the decision, Boyle's verbatim quotes, his 2023-2025 DNR Commissioner tenure, the $10B+ project cost, the 1GW+ capacity, the 'roughly one square mile' footprint, and the July 17 extended comment deadline."
+      "note": "Primary source for the decision, Boyle's verbatim quotes, his 2023-2025 DNR Commissioner tenure, the $10B+ project cost, the 1GW+ capacity, the 'roughly one square mile' footprint, and the July 17 extended comment deadline.",
+      "pub_date": "2026-07-07",
+      "story_title": "PRIMARY. Data center critics flood Alaska land managers with opposition to North Slope project. INDEPENDENT of Stak Energy.",
+      "independent": "independent"
     },
     {
       "role": "corroborating",
@@ -19,7 +27,10 @@
       "url": "https://www.northernjournal.com/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/",
       "date": "2026-07-03",
       "independent_of_subject": true,
-      "note": "Independent of Stak Energy, but carries the same Nathaniel Herz reporting and interview as the ADN version. Not independent of the primary. Disclosed as this cycle's corroboration soft spot."
+      "note": "Independent of Stak Energy, but carries the same Nathaniel Herz reporting and interview as the ADN version. Not independent of the primary. Disclosed as this cycle's corroboration soft spot.",
+      "pub_date": "2026-07-03",
+      "story_title": "CORROBORATING. Same Nathaniel Herz reporting as the ADN version. INDEPENDENT of Stak Energy, but NOT independent of the primary.",
+      "independent": "independent"
     },
     {
       "role": "context_opposing_party",
@@ -27,7 +38,10 @@
       "url": "https://northern.org/news/stak-energy-campus-what-the-states-lease-documents-reveal-about-scale-risk-and-unanswered-questions/",
       "date": "2026-07",
       "independent_of_subject": true,
-      "note": "ADVOCACY ORGANIZATION AND OPPOSING PARTY, not a neutral corroborator. Surfaced the extended comment deadline and lease-document questions. Its $500M, 3GW, and 715.4-acre figures were EXCLUDED as unverified and are not used in the post."
+      "note": "ADVOCACY ORGANIZATION AND OPPOSING PARTY, not a neutral corroborator. Surfaced the extended comment deadline and lease-document questions. Its $500M, 3GW, and 715.4-acre figures were EXCLUDED as unverified and are not used in the post.",
+      "pub_date": "2026-07",
+      "story_title": "CONTEXT ONLY. Advocacy organization and opposing party, NOT a neutral corroborator. Its $500M / 3GW / 715.4-acre figures were excluded and are not used in the post.",
+      "independent": "independent"
     },
     {
       "role": "institutional_verification",
@@ -35,12 +49,27 @@
       "url": "https://dog.dnr.alaska.gov",
       "date": "2026-07-24",
       "independent_of_subject": true,
-      "note": "Used to confirm the reviewing division is headquartered at 550 W. 7th Ave, Anchorage, supporting the Anchorage tie."
+      "note": "Used to confirm the reviewing division is headquartered at 550 W. 7th Ave, Anchorage, supporting the Anchorage tie.",
+      "pub_date": "2026-07-24",
+      "story_title": "INSTITUTIONAL VERIFICATION. Confirms the reviewing division is Anchorage-headquartered, supporting the Anchorage tie. INDEPENDENT of Stak Energy.",
+      "independent": "independent"
     }
   ],
   "sources_attempted_and_unavailable": [
-    {"outlet": "Alaska Beacon", "url": "https://alaskabeacon.com/2026/07/06/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/", "reason": "403-blocked on three fetch attempts"},
-    {"outlet": "Stak Energy", "url": "https://stakenergy.com", "reason": "returned empty or unloadable content on three attempts; could not independently confirm Boyle's title or DNR tenure from the company's own site"},
-    {"outlet": "Alaska Public Media, KTUU/Alaska's News Source, Alaska Journal of Commerce, Must Read Alaska, KTOO, Fairbanks Daily News-Miner, Data Center Dynamics, Reuters", "url": "various", "reason": "searched for a wholly separate independent corroborator of the Boyle comment-triage statement; none carried the story"}
+    {
+      "outlet": "Alaska Beacon",
+      "url": "https://alaskabeacon.com/2026/07/06/data-center-critics-flood-alaska-land-managers-with-opposition-to-north-slope-project/",
+      "reason": "403-blocked on three fetch attempts"
+    },
+    {
+      "outlet": "Stak Energy",
+      "url": "https://stakenergy.com",
+      "reason": "returned empty or unloadable content on three attempts; could not independently confirm Boyle's title or DNR tenure from the company's own site"
+    },
+    {
+      "outlet": "Alaska Public Media, KTUU/Alaska's News Source, Alaska Journal of Commerce, Must Read Alaska, KTOO, Fairbanks Daily News-Miner, Data Center Dynamics, Reuters",
+      "url": "various",
+      "reason": "searched for a wholly separate independent corroborator of the Boyle comment-triage statement; none carried the story"
+    }
   ]
 }
