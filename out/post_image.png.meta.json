@@ -1,17 +1,79 @@
 {
-  "volume": "FOUNDER",
-  "topic": "North Slope AI Bet\nNeeds A Financier",
-  "date": "20 MAY 2026",
+  "date": "24 JUL 2026",
+  "column": "The Stack",
+  "kicker": "THE STACK",
+  "middle_slot": "VEHICLES",
+  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
   "byline": "",
-  "kicker": "ANCHORAGE DESK",
-  "motto": "decisions, not biographies",
-  "coords": "61\u00b013\u2032N  \u00b7  149\u00b054\u2032W",
-  "seed": 11,
-  "topic_font_size_used": 88,
-  "rendered_at_utc": "2026-05-21T07:07:30.719138Z",
+  "style_family": "geologic_engraving",
+  "palette": [
+    "#d9eedf",
+    "#a0c8bc",
+    "#759983",
+    "#0a2416",
+    "#04130a",
+    "#9ab1a6",
+    "#e68c2c"
+  ],
+  "hue_family": "green",
+  "composition": "bilateral_gate",
+  "motifs": [
+    "critical-mineral ore body",
+    "two series valves",
+    "AI triangulation reticle",
+    "geologic strata cross-section",
+    "subsurface conduit"
+  ],
+  "technique_stack": [
+    "gradient_v",
+    "ridge_fill",
+    "voronoi_polys",
+    "hatch",
+    "glow",
+    "stipple",
+    "chips",
+    "hand_line",
+    "grain"
+  ],
+  "seed": 724,
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 8.13,
+      "weakest": "craft",
+      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+    },
+    {
+      "iter": 2,
+      "weighted": 8.6,
+      "weakest": "detail",
+      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+    },
+    {
+      "iter": 3,
+      "weighted": 8.73,
+      "weakest": "typography",
+      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.73,
+    "scores": {
+      "concept": 9,
+      "focal": 9,
+      "composition": 8.5,
+      "color": 8.5,
+      "detail": 8.5,
+      "craft": 9,
+      "typography": 8.5,
+      "originality": 8.5,
+      "fidelity": 9
+    }
+  },
   "canvas": [
     1080,
     1080
   ],
+  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
   "out_path": "out/post_image.png"
 }

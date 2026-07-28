@@ -125,8 +125,11 @@ the human.
   `mcp__Gmail__search_threads` with `query: "from:me", pageSize: 1`. Cache
   it in scratch and reuse for the rest of the run, do not re-discover per
   call. If this call hits the `requires approval` error, apply the
-  diagnostic rule above before falling back to the userEmail context
-  value.
+  diagnostic rule above before falling back to the connected mailbox
+  address `docket@alaskaaihq.com` (the Google Workspace account this
+  repo's Gmail connector now authenticates as). Do NOT fall back to the
+  personal userEmail context value, the connector was repointed off that
+  account.
 - The hosted SHA-pinned image URL is the DEFAULT (see Phase 9 hard
   rule); base64 inline is the push-failure fallback only. This also
   keeps the html body small for MCP transports.

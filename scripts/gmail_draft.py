@@ -110,7 +110,7 @@ def main():
     ap.add_argument("--image-url")
     ap.add_argument("--no-target", action="store_true")
     ap.add_argument("--editor-note", default="")
-    ap.add_argument("--to", default="talon.sturgill@gmail.com")
+    ap.add_argument("--to", default="docket@alaskaaihq.com")
     ap.add_argument("--sources", required=True)
     ap.add_argument("--score",   required=True)
     ap.add_argument("--date",    required=True)
