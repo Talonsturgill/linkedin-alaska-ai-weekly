@@ -1,4 +1,4 @@
-On 6 August the FCC considers whether Alaska’s rural clinics can reuse previously approved circuit prices for a fourth straight funding year. The vote is the visible part. The real power sits one level down.
+The FCC votes 6 August on whether Alaska’s rural clinics can reuse previously approved circuit prices for a fourth straight funding year. The vote is the visible part. The real power sits one level down.
 
 In WC Docket 17-310, the rural rate machinery sets what a carrier may charge an Alaska clinic and how much universal service money follows.
 
