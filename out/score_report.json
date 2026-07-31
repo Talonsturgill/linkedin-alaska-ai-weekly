@@ -1,22 +1,35 @@
 {
   "column": "The Stack",
-  "date": "2026-07-24",
+  "date": "2026-07-31",
+  "rubric": "config/stack_rubric.yaml",
+  "graded_file": "out/final_post.md",
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two sentences carry a specific agency, date, stake, and the misdirection setup without snark. Lands inside the see-more window at 207 characters. The scorer's one deduction (the post said 'The FCC votes 6 August' where the primary source says the item was circulated for tentative consideration) was fixed after scoring, reworded to 'On 6 August the FCC considers whether'."},
+    {"name": "Mechanism load-bearing + AK consequence", "score": 8, "weight": 0.18, "notes": "The mechanism genuinely governs what Alaska rural health providers pay for dedicated circuits and how much USF money follows, and the consequence is concrete across sector, decision, actors (GCI, Alaska Communications, USAC) and timeframe (FY2027 filing cycle, 26 August webinar, FY2028). The AI relevance is placed honestly at bandwidth economics rather than compute, which is the accurate placement and is stated outright rather than smuggled. But that AI link is one sentence with no named Alaska actor, no upgrade decision owner and no date, so on an Alaska.Ai page the AI side is asserted rather than demonstrated. Real but minor thinness on one side."},
+    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All five bullets appear in selected_mechanism.layers[] with controlling actors matching, including the split actor on Methods 1-3 (WCB interstate, RCA intrastate) and the division-level actor on layer five. No invented layers, actors or numbers. The chain reads in order from statute to methodology to administration to Alaska concentration to the waiver gate, which is what makes the chokepoint paragraph land."},
+    {"name": "Chokepoint clarity", "score": 9, "weight": 0.13, "notes": "Names one layer, the controlling division, the binary, and the reason it is asymmetric, with the paragraph 47 delegation and the FY2026 Bureau-issued waiver as evidence. Held the division framing ('One division, one binary') rather than sliding to the full Commission. Short of 10 because the chokepoint paragraph itself says 'the Bureau', one unit up from the Telecommunications Access Policy Division named in the bullet, and it drops the Bureau's second binary (approve or reject each interstate Method 3 cost study), a defensible simplification but a simplification."},
+    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "'A rate-setting mechanism wearing a subsidy mechanism's clothes' is a real position grounded in the machinery rather than in attitude. The statute presumes a comparable-rate market, Alaska lacks one, so the safety valve became the default and three years of waivers converted a stopgap into the rate regime. Proportionate, not snark. Not a 10 because the read is compressed into one paragraph and never names the false dichotomy or the third option nobody is naming, which is what post_001 does best."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Concrete and actionable this week: inventory sites against paragraph 48's reuse scope, identify sites with no FY2024-26 predicate, and the 100 Mbps to 1 Gbps upgrade is named as the specific unpositioned case. Dates are real (FY2027 cycle open, 26 August USAC Telecom webinar). Loses a point for dropping the dossier's second live trigger, the WC Docket 17-310 comment window closing 30 days after Federal Register publication."},
+    {"name": "Primary-source quality", "score": 10, "weight": 0.10, "notes": "Every layer traces to a primary document and every one was fetched and read directly: 47 U.S.C. 254, 47 CFR 54.605, the USAC RHC program page, and the FCC draft item FCC-CIRC2608-04 at docs.fcc.gov for both the Alaska concentration figures (para. 14, n.52) and the waiver gate (paras. 45-48, n.100). The chokepoint citation is primary and is the delegating document itself. The news trigger is confirmed verbatim in the FCC document rather than resting on the Benton secondary."},
+    {"name": "Voice match", "score": 8, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, business-literate, curly quotes, no banned phrases, no 'we' speaking for Alaskans, no CTA. But the register runs denser and more clipped than post_001, and it partially misses brand.yaml's plain-language mandate. 'Method 3 cost study', 'Telecom Program requests' and 'Anchorage MPLS table' arrive with little unpacking, and Methods 1 and 2 are never actually explained even though the whole argument turns on why Alaska cannot use them."},
+    {"name": "Readability (LinkedIn)", "score": 9, "weight": 0.04, "notes": "469 words and 2971 characters, both in window, with a single well-formed five-item bullet block and paragraphs of two to five sentences. Scans cleanly. Minor drag: bullet four runs to a full second clause with a statistic in it, and the structural-read paragraph is five sentences, the densest block in the post."},
+    {"name": "Engagement question", "score": 10, "weight": 0.03, "notes": "Closes on a genuinely debatable question tied to the chokepoint itself, whether one Bureau division should hold the annual call or whether the FY2028 waiver decision belongs back on the Commission's open meeting agenda. No CTA, no rhetorical softener, and it is the exact institutional question the mechanism raises."}
   ],
-  "weighted_total": 8.93,
+  "weighted_total": 9.01,
   "threshold": 8.0,
   "ship": true,
-  "hard_fails": [],
-  "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "passed": true},
+    {"name": "punctuation_bans_held", "passed": true},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true},
+    {"name": "word_count_in_range", "passed": true},
+    {"name": "mechanism_named_and_news_tied", "passed": true},
+    {"name": "every_layer_attributed", "passed": true},
+    {"name": "chokepoint_named", "passed": true}
+  ],
+  "weakest_criterion": "Mechanism load-bearing + AK consequence",
+  "one_sentence_fix": "In the bandwidth paragraph, attach the AI nexus to a named Alaska actor and clock, for example a GCI-served tribal or regional health provider stepping from 100 Mbps to 1 Gbps for remote read and AI-assisted diagnostics before the FY2027 Telecom cycle, so the AI stake carries the same actor-plus-timeframe specificity the rest of the post already has.",
+  "post_scoring_note": "One edit was applied after scoring, addressing the scorer's own Hook strength deduction. 'The FCC votes 6 August on whether' became 'On 6 August the FCC considers whether', matching the primary source's 'circulated for tentative consideration'. Net effect on counts: 2971 characters and 469 words, both still in range, hook block 207 characters. No other text changed and no score was revised upward on the strength of it.",
+  "editor_cycles": 2,
+  "editor_final_verdict": "ship"
 }
