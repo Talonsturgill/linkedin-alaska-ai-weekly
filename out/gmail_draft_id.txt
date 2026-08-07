@@ -1,5 +1,11 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+draft_id: r7478853423714017649
+to: docket@alaskaaihq.com
+subject: Alaska.Ai — The Stack Draft — 2026-08-07
+branch: claude/linkedin-stack-2026-08-07
+commit: 730cb659414dfcb9ee3d2f57b4dc93cda35fd427
+image_url: https://raw.githubusercontent.com/talonsturgill/linkedin-alaska-ai-weekly/730cb659414dfcb9ee3d2f57b4dc93cda35fd427/out/post_image.png
+image_verified: HTTP/2 200, 1419206 bytes, byte-identical to local file
+mechanism: AS 38.05.810 public and charitable use conveyance of ~19,950 acres to AIDEA (ADL 234762)
+category: SOVEREIGNTY
+post_score: 8.59 / 10 (threshold 8.0, ship true, zero hard-fails)
+artwork_score: 8.59 weighted (floor 8.5, no dimension below 7, 6 eval iterations)
