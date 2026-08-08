@@ -1,22 +1,34 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "outlet": "Alaska's News Source / KTUU (PRIMARY SOURCE — independent of the subject's organization)",
+      "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+      "pub_date": "2026-08-05",
+      "story_title": "Primary source — Anchorage police seeking upgrades to real-time crime monitoring. Carries the 4 Aug 2026 decision, the ~$600K three-year Thundercat Technology Inc. contract, the postponement to the 18 Aug 2026 Assembly meeting, and all three verbatim Sean Case quotes (each re-verified word-for-word by the validator). NOTE: this is the ONLY reputable outlet carrying the specific Thundercat item."
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "outlet": "Alaska Public Media (INDEPENDENT of subject)",
+      "url": "https://alaskapublic.org/news/public-safety/2025-09-25/anchorage-police-plan-12m-tech-rollout-including-new-drones-tasers-and-camera-network",
+      "pub_date": "2025-09-25",
+      "story_title": "Independent corroboration — Anchorage police plan $12M tech rollout including new drones, Tasers and camera network. Corroborates Case's ownership of the RTCC program, the up-to-750-camera network, license-plate and object recognition, and the ~$12M Axon contract. PROGRAM-level corroboration only; predates and does not confirm the specific August 2026 Thundercat upgrade."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "outlet": "Anchorage Police Department official site (subject's organization — identity confirmation only)",
+      "url": "https://www.anchoragepolice.com/",
+      "pub_date": "2026-08",
+      "story_title": "Used solely to confirm Sean Case's role as Chief of Police. Not relied on for any claim about the decision."
+    },
+    {
+      "outlet": "Municipality of Anchorage — Assembly Public Health & Safety Committee (DROPPED at validation)",
+      "url": "https://www.muni.org/Departments/Assembly/Pages/Public-Health-and-Safety-Committee.aspx",
+      "pub_date": "2026-08-06",
+      "story_title": "DROPPED — the linked 'APD Technology Upgrade.pdf' committee packet returned as unextractable binary, so its text could not be verified. Not relied on in the post."
+    },
+    {
+      "outlet": "alaskanews.com (DROPPED at validation)",
+      "url": "https://www.alaskanews.com/",
+      "pub_date": "2026-08",
+      "story_title": "DROPPED — surveillance-network article carried a 'Walter AlaskaNews' byline matching the AI-generated SEO-spam pattern the scouts flagged this cycle. Could not be trusted as independent original reporting. Not relied on in the post."
     }
   ]
 }

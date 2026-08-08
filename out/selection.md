@@ -1,21 +1,56 @@
-# The Stack — Selection — 2026-07-24
+# Anchorage Desk — Selection, 2026-08-07
 
-**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
+**Subject.** Sean Case, Chief of Police, Anchorage Police Department
+(Municipality of Anchorage).
 
-**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
+**Role category.** `municipal` → **ROLE = MUNICIPAL** (kicker middle slot).
 
-**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
+**Anchorage tie.** Direct. Case runs the municipal police department for the
+Anchorage bowl. The Real-Time Crime Center he oversees connects up to 750
+cameras across Anchorage into a centralized monitoring hub and runs automated
+license-plate and object-recognition analytics on residents and businesses
+inside the bowl.
 
-**Layer count.** 4 layers, each primary-sourced.
-1. NSF award authority / source-selection — NSF TIP Directorate.
-2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
-3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
-4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
+**The decision.** On 4 August 2026, Case brought a roughly $600,000 three-year
+audio-visual equipment contract with Thundercat Technology Inc. to the
+Anchorage Assembly for approval, upgrading the Real-Time Crime Center with
+video displays, sound equipment, and video processing capacity. The Assembly
+postponed the vote to its 18 August 2026 regular meeting after members raised
+concerns that Anchorage code contains no binding surveillance-governance rules.
 
-**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
+**Decision date.** 2026-08-04 (in the 60-day window; window was NOT broadened).
 
-**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
+**Primary source.** Alaska's News Source (KTUU/KTVA), 5 August 2026 —
+https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/
 
-**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
+**Corroborating source (independent).** Alaska Public Media, 25 September 2025 —
+https://alaskapublic.org/news/public-safety/2025-09-25/anchorage-police-plan-12m-tech-rollout-including-new-drones-tasers-and-camera-network
+Corroborates the RTCC program, the up-to-750-camera network, license-plate and
+object recognition, and the roughly $12M Axon contract at the PROGRAM level.
+It does not corroborate the specific August Thundercat item.
 
-**CATEGORY (Phase 8 middle slot).** VEHICLES
+**The binary Case owned.** Procure and publicly defend an expansion of APD's
+AI-enabled surveillance stack now, or pause pending a municipal
+surveillance-governance ordinance. He chose to procure and defend.
+
+**Structural read (desk position).** Genuine AI-governance decision with a real
+accountable owner. Case is not hiding the ball — he is on the record calling
+the RTCC "a very significant move for the municipality" and pledging committee
+review before activating bundled analytics, which is more transparency than
+most surveillance-procurement fights get. But the guardrails he cites are
+internal APD policy, not municipal code. The Assembly is being asked to fund an
+expansion of automated license-plate and object-recognition capability before
+it has written binding rules on collection, access, or retention. Buying
+capability first and governing it later is a defensible operational instinct
+and a real civil-liberties gamble at the same time.
+
+**Forward implication.** The 18 August 2026 regular Assembly meeting, where the
+postponed Thundercat contract returns for a vote. Watch whether APD accepts
+binding surveillance-governance code as a condition of approval, or whether the
+Assembly funds the upgrade on internal policy alone. Either outcome sets the
+precedent for how Anchorage governs AI-enabled municipal surveillance.
+
+**Caveat the writer must carry.** The specific ~$600K Thundercat upgrade is
+reported by a single reputable outlet. Attribute it inline.
+
+**Validator confidence.** medium. Shipped caveated on corroboration depth.
