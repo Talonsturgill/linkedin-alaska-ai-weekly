@@ -1,0 +1,253 @@
+{
+  "run_date_anchorage": "2026-08-07",
+  "window_60_day": "2026-06-08 to 2026-08-07 inclusive",
+  "window_90_day_if_broadened": "2026-05-09 to 2026-08-07 inclusive",
+  "subjects_blocked_last_21_days": [
+    "Billy Wailand (GCI) - profiled 2026-07-31",
+    "John Boyle (Stak Energy) - profiled 2026-07-24",
+    "Lee Ann Munk (University of Alaska) - profiled 2026-07-17"
+  ],
+  "subject_decision_pairs_permanently_blocked": [
+    "Billy Wailand / GCI Starlink dedicated service + bonded gateways deployment / 2026-06-11",
+    "John Boyle / Stak Energy public-comment dismissal statement / 2026-07-07",
+    "Lee Ann Munk / NSF Critical Mineral Accelerator Engine in Alaska lead-CEO appointment / 2026-07-14",
+    "Vanessa Hiratsuka / Southcentral Foundation symposium perspectives paper on AI/ML + data sovereignty / 2026-05-23",
+    "Anna Brawley / revised AO 2026-62 commission restructure / 2026-06-06",
+    "Ron Duncan / GCI-Quintillion $310M acquisition agreement / 2026-04-22",
+    "Nathan Engel / Alaska Airlines Tailsight AI maintenance partnership + investment / 2026-04-16",
+    "Benjamin Kellie / Applied Atomics BWXT mPower exclusive license / 2026-06-17",
+    "Sparrow Mahoney / AK DNR preliminary decision to lease 715.4 acres North Slope to STAK Energy / 2026-05-12"
+  ],
+  "candidate_subjects": [
+    {
+      "rank_hint": 1,
+      "slice": "municipal",
+      "subject": {
+        "full_name": "Sean Case",
+        "role": "Chief of Police, Anchorage Police Department",
+        "org": "Municipality of Anchorage (Anchorage Police Department)",
+        "role_category": "municipal",
+        "anchorage_tie": "Runs the municipal police department for the Anchorage bowl. The Real-Time Crime Center he oversees monitors camera feeds and license-plate reads across Anchorage (Town Square Park, APD properties, and up to 750 registered public/private cameras).",
+        "subject_quotes": [
+          {
+            "verbatim": "Unfortunately, some of the information that's been put out about the capabilities of the system that the Anchorage Police Department has is inaccurate.",
+            "context": "Chief Case responding to Assembly members' concerns that the RTCC resembles Flock ALPR networks used elsewhere, at the August 2026 Assembly discussion of the Thundercat upgrade.",
+            "source_url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+            "source_doctype": "interview"
+          },
+          {
+            "verbatim": "Some of those types of technologies come with the equipment that we have. And prior to using any of those sorts of pieces of technology, we will come to the body generally in the form of the Public Health and Safety Committee.",
+            "context": "Chief Case describing how APD would seek Assembly/committee review before activating additional analytics capabilities bundled with the RTCC equipment.",
+            "source_url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+            "source_doctype": "interview"
+          },
+          {
+            "verbatim": "We don't just view this as a tech upgrade",
+            "context": "Chief Case on the original September 2025 RTCC rollout (Axon $11.8M + $375K AI service contract).",
+            "source_url": "https://www.adn.com/alaska-news/anchorage/2025/09/27/anchorage-police-unveil-plans-to-use-license-plate-readers-array-of-security-cameras/",
+            "source_doctype": "interview"
+          }
+        ]
+      },
+      "decision": {
+        "what_happened": "Anchorage Police are seeking new technology for their 'Real Time Crime Center,' (RTCC) roughly $600,000 worth of audio visual equipment that requires approval from the Anchorage Assembly. A three-year contract with Thundercat Technology Inc. was postponed to the Anchorage Assembly meeting of August 18 due to some concerns from members. The RTCC 'uses object recognition for license plate readers.'",
+        "when": "2026-08-04",
+        "primary_source": {
+          "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+          "outlet": "Alaska's News Source (KTUU/KTVA)",
+          "doc_type": "press_statement"
+        },
+        "corroborating_sources": [
+          {"url": "https://www.muni.org/Departments/Assembly/Pages/Public-Health-and-Safety-Committee.aspx", "outlet": "MOA Assembly Public Health & Safety Committee", "independent_of_subject": true},
+          {"url": "https://www.adn.com/alaska-news/anchorage/2025/09/27/anchorage-police-unveil-plans-to-use-license-plate-readers-array-of-security-cameras/", "outlet": "Anchorage Daily News", "independent_of_subject": true}
+        ],
+        "the_binary": "Case chose to procure and defend an expansion of APD's AI-enabled surveillance stack, a roughly $600K three-year Thundercat Technology Inc. contract adding video processing/analytics capacity to the RTCC whose license-plate readers already run object recognition, and to bring it to the Assembly for approval rather than pause pending a municipal surveillance-governance code.",
+        "ak_consequence": "Public safety and surveillance sector. A roughly $600K upgrade layered on APD's existing roughly $11.8M Axon RTCC program plus a $375K AI-services contract, affecting Anchorage residents and businesses (data collection, retention, access across up to 750 camera feeds and ALPR object recognition), vendors Thundercat Technology Inc. and Axon Enterprise, and setting the near-term precedent (August 18, 2026 vote) for municipal AI-surveillance expansion absent code.",
+        "prelim_debatable_axis": "Pro: real-time intelligence and ALPR object recognition can speed identification of vehicles tied to serious crimes, and APD says facial recognition remains prohibited and analytics require committee review before activation. Con: Anchorage code has no legislative guardrails defining what is collected, who can access it, or retention limits, concentrating discretionary surveillance power in the executive branch."
+      },
+      "scout_confidence": "high",
+      "scout_caveat": "Thundercat contract specifics are carried primarily by one outlet (Alaska's News Source). The MOA Public Health & Safety Committee page corroborates in-window RTCC handling but did not name Thundercat in the fetched view. The ADN piece corroborates the underlying RTCC/ALPR program but is dated Sept 2025."
+    },
+    {
+      "rank_hint": 2,
+      "slice": "municipal",
+      "subject": {
+        "full_name": "Keith McCormick",
+        "role": "Anchorage Assembly Member",
+        "org": "Municipality of Anchorage (Anchorage Assembly)",
+        "role_category": "municipal",
+        "anchorage_tie": "Elected Anchorage Assembly member voting on municipal police-surveillance procurement affecting the Anchorage bowl.",
+        "subject_quotes": [
+          {
+            "verbatim": "All the guardrails that you just stated are policy and when my constituents ask, 'what are we collecting? Who can see it? How long do we keep it?' Anchorage code can't answer any of those questions.",
+            "context": "McCormick to Chief Case during the August 2026 Assembly discussion of the RTCC/Thundercat upgrade.",
+            "source_url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+            "source_doctype": "testimony"
+          }
+        ]
+      },
+      "decision": {
+        "what_happened": "Assembly members raised concerns about the precedent for expanded surveillance. Any further action on the three-year contract with Thundercat Technology Inc. was postponed to the Anchorage Assembly meeting of August 18 due to some concerns from members, with McCormick objecting that Anchorage code cannot answer what data is collected, who can see it, or how long it is kept.",
+        "when": "2026-08-04",
+        "primary_source": {
+          "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+          "outlet": "Alaska's News Source (KTUU/KTVA)",
+          "doc_type": "testimony"
+        },
+        "corroborating_sources": [
+          {"url": "https://www.muni.org/Departments/Assembly/Pages/Public-Health-and-Safety-Committee.aspx", "outlet": "MOA Assembly Public Health & Safety Committee", "independent_of_subject": true}
+        ],
+        "the_binary": "McCormick chose to withhold approval and push the Thundercat RTCC surveillance-upgrade contract to postponement, taking the public position that the Assembly should not expand AI-enabled surveillance until Anchorage passes binding code governing collection, access, and retention.",
+        "ak_consequence": "Policy and governance for the surveillance sector. Forces a legislative-guardrails question onto a roughly $600K police AI-surveillance procurement, affecting APD deployment timeline, vendors Thundercat and Axon, and civil-liberties exposure for Anchorage residents.",
+        "prelim_debatable_axis": "Pro: demanding a municipal surveillance-data ordinance before expansion is a legitimate check on executive discretion. Con: postponement delays a public-safety tool APD says targets serious crime, over policy that already exists internally at APD."
+      },
+      "scout_confidence": "medium",
+      "scout_caveat": "Shares the SAME August 2026 event as the Sean Case candidate but is a distinct decision (legislative withholding vs executive procurement). Only one outlet carries his specific remarks."
+    },
+    {
+      "rank_hint": 3,
+      "slice": "operators",
+      "subject": {
+        "full_name": "Jason Waldman",
+        "role": "General Manager, Aleut Management Services (Aleut Federal subsidiary)",
+        "org": "Aleut Management Services / Aleut Federal, subsidiaries of The Aleut Corporation (ANCSA regional corporation, HQ Anchorage)",
+        "role_category": "operators",
+        "anchorage_tie": "Aleut Management Services and Aleut Federal are operating subsidiaries of The Aleut Corporation, headquartered at Denali Tower North, 2550 Denali Street, Suite 1050, Anchorage. Revenue and 8(a) contracting proceeds flow up to the Anchorage-HQ parent and its Alaska Native shareholders. WEAKNESS: bowl-impact tie via parent HQ, not personal bowl residency. Waldman's federal-services role is DC-metro/Reston-based.",
+        "subject_quotes": [
+          {
+            "verbatim": "This is about speed to mission, not just speed to contract",
+            "context": "Waldman describing the purpose of the Aleutian Thunder joint venture at its launch.",
+            "source_url": "http://www.prnewswire.com/news-releases/aleutian-thunder-launches-to-accelerate-federal-mission-delivery-302786255.html",
+            "source_doctype": "press_statement"
+          }
+        ]
+      },
+      "decision": {
+        "what_happened": "Aleut Management Services launched 'Aleutian Thunder,' a joint venture formed under the SBA Mentor-Protege Program with Thunder (a Salesforce Ventures-backed consultancy), to deliver AI-powered federal solutions including Salesforce Government Cloud (FedRAMP), Amazon Connect (AI-powered contact center), and Salesforce Agentforce (AI agents) to federal customers using Aleut's SBA 8(a) contracting advantages.",
+        "when": "2026-06-04",
+        "primary_source": {
+          "url": "http://www.prnewswire.com/news-releases/aleutian-thunder-launches-to-accelerate-federal-mission-delivery-302786255.html",
+          "outlet": "PR Newswire (Aleut Federal, LLC)",
+          "doc_type": "press_statement"
+        },
+        "corroborating_sources": [
+          {"url": "https://briefglance.com/articles/aleutian-thunder-the-new-federal-fast-lane-for-ai-and-indigenous-enterprise", "outlet": "BriefGlance", "independent_of_subject": true},
+          {"url": "https://orangeslices.ai/aleutian-thunder-jv-launches-to-accelerate-federal-mission-delivery/", "outlet": "OrangeSlices AI", "independent_of_subject": true}
+        ],
+        "the_binary": "Waldman chose to enter the federal agentic-AI delivery market by standing up a mentor-protege JV with an outside Salesforce/AI consultancy rather than building agentic-AI delivery capability in-house or staying out of the AI-services lane, trading equity and control in the JV for speed to market.",
+        "ak_consequence": "Federal IT/AI services plus the Alaska Native corporate economy. Positions an Anchorage-HQ ANC to capture federal AI delivery revenue via 8(a) set-asides, with proceeds feeding shareholder distributions. Consequence realized as task orders are won over 1 to 3 fiscal years.",
+        "prelim_debatable_axis": "Sharp: an Alaska Native enterprise moving early into the highest-growth federal procurement lane using the 8(a) advantage plus a proven commercial partner. Mediocre: a marketing launch with no announced contract value or awarded task order, reselling Salesforce Agentforce rather than proprietary capability, while ANC 8(a) preferences are under Pentagon review."
+      },
+      "scout_confidence": "medium",
+      "scout_caveat": "PR Newswire primary source is controlled by the subject's own organization. Both corroborators are trade aggregators of uncertain editorial independence. No dollar value or awarded task order. Anchorage tie is corporate-parent only."
+    },
+    {
+      "rank_hint": 4,
+      "slice": "operators",
+      "subject": {
+        "full_name": "UNRESOLVED - Koniag Technology Solutions Inc. (no named decision owner)",
+        "role": "Awardee entity only; no named contracting officer or KTS executive surfaced",
+        "org": "Koniag Technology Solutions Inc. / Koniag Government Services",
+        "role_category": "operators",
+        "anchorage_tie": "ANC with Anchorage-area operations; bowl-impact only.",
+        "subject_quotes": []
+      },
+      "decision": {
+        "what_happened": "Koniag Technology Solutions Inc. awarded a Department of the Air Force (AFRL XP) contract to deliver an AI and Machine Learning solution that proactively identifies personnel at risk of attrition and recommends targeted retention strategies. Award ID FA701426C0017, value $1,243,148.04, roughly 18-month period, Small Business Set-Aside, single bidder.",
+        "when": "2026-06-22",
+        "primary_source": {"url": "https://orangeslices.ai/koniag-subsidiary-secures-u-s-air-force-ai-ml-attrition-risk-and-retention-strategy-solution-contract/", "outlet": "OrangeSlices AI", "doc_type": "contract_award"},
+        "corroborating_sources": [
+          {"url": "https://www.koniag-gs.com/companies/koniag-technology-solutions-inc/", "outlet": "Koniag Government Services", "independent_of_subject": false}
+        ],
+        "the_binary": "AFRL selected an ANC-owned small business (sole bidder) to build an AI/ML attrition-prediction tool.",
+        "ak_consequence": "Defense AI plus ANC economy. Roughly $1.24M AI/ML task to an Alaska Native-owned firm.",
+        "prelim_debatable_axis": "Sharp: a genuine AI/ML DoD award to an Alaska Native firm. Weak: single-bidder, small dollar, no named human decision owner."
+      },
+      "scout_confidence": "low",
+      "scout_caveat": "EXPECTED TO FAIL the named-subject gate. No named human owner on either the government or contractor side."
+    },
+    {
+      "rank_hint": 5,
+      "slice": "founders",
+      "subject": {
+        "full_name": "Erik Williams",
+        "role": "Co-Founder, beadedcloud (also COO of parent hardware firm BeadedStream)",
+        "org": "beadedcloud (beaded.cloud), Anchorage",
+        "role_category": "founder",
+        "anchorage_tie": "beadedcloud is headquartered in Anchorage. Software/analytics spinout of Anchorage-based BeadedStream. Platform runs on 700+ Arctic monitoring sites.",
+        "subject_quotes": []
+      },
+      "decision": {
+        "what_happened": "beadedcloud was selected into the gBETA Alaska Winter 2026 cohort run by gener8tor with UAF's Center for Innovation. Company compiles data from remote sensors across 700+ sites and recently expanded into automated insights for pipelines cracking from wind-induced vibrations.",
+        "when": "2026-03-11",
+        "primary_source": {"url": "https://www.akbizmag.com/industry/small-business/gbeta-chooses-six-alaska-businesses-for-accelerator-support/", "outlet": "Alaska Business Magazine", "doc_type": "press_statement"},
+        "corroborating_sources": [
+          {"url": "https://www.gener8tor.com/news/six-alaska-based-startups-selected-for-accelerator", "outlet": "gener8tor", "independent_of_subject": true},
+          {"url": "https://beaded.cloud/about", "outlet": "beadedcloud", "independent_of_subject": false}
+        ],
+        "the_binary": "Whether to build beadedcloud as a standalone VC-track ML forecasting product versus keeping analytics bundled inside BeadedStream's hardware business.",
+        "ak_consequence": "Energy/pipeline and critical-infrastructure monitoring on the North Slope.",
+        "prelim_debatable_axis": "Sharp: a physics-informed ML product on a real 700+ site data moat. Mediocre: accelerator selection is the accelerator's decision more than the founder's."
+      },
+      "scout_confidence": "low",
+      "scout_caveat": "OUT OF WINDOW at 60 days (2026-03-11) and out of window at 90 days as well. Binary is weak. Surfaced only as the strongest real Anchorage-AI-founder thread found."
+    },
+    {
+      "rank_hint": 6,
+      "slice": "research",
+      "subject": {
+        "full_name": "Alpana Desai",
+        "role": "Faculty, College of Engineering (Project PI), with Co-PI Marie Lowe, Research Professor, Institute of Social and Economic Research",
+        "org": "University of Alaska Anchorage",
+        "role_category": "research",
+        "anchorage_tie": "UAA main campus, Anchorage. ISER is Anchorage-based.",
+        "subject_quotes": []
+      },
+      "decision": {
+        "what_happened": "2026 UA Faculty Investment Fund Tier 1 award: 'High Impact Community Planning System: Leveraging AI to Improve Access to Infrastructure Development Opportunities for Rural Alaska', PI Alpana Desai, Co-PI Marie Lowe, award $29,989.00.",
+        "when": "2026-02-12",
+        "primary_source": {"url": "https://www.alaska.edu/research/initiative/2026%20fif%20awardees.php", "outlet": "University of Alaska", "doc_type": "press_statement"},
+        "corroborating_sources": [],
+        "the_binary": "Fund/decline on an AI infrastructure-planning proposal for rural capital improvement.",
+        "ak_consequence": "Rural infrastructure and economic development. An AI tool to widen rural Alaska access to capital-improvement funding pipelines.",
+        "prelim_debatable_axis": "Pro: could democratize access to infrastructure dollars. Con: a $30K internal seed grant is a small early-stage bet, and algorithmic prioritization risks encoding bias about which communities are investment-worthy."
+      },
+      "scout_confidence": "low",
+      "scout_caveat": "OUT OF WINDOW (2026-02-12, roughly 5.9 months). ZERO independent corroboration, single-sourced to a UA-system-controlled page."
+    },
+    {
+      "rank_hint": 7,
+      "slice": "research",
+      "subject": {
+        "full_name": "Andrew Harnish",
+        "role": "FIF Project PI, organizer of the Second UA Statewide AI Symposium",
+        "org": "University of Alaska Anchorage",
+        "role_category": "research",
+        "anchorage_tie": "UAA Anchorage PI. Symposium planned to convene in Anchorage September 2026.",
+        "subject_quotes": []
+      },
+      "decision": {
+        "what_happened": "2026 UA Faculty Investment Fund Tier 1 award: 'Second UA Statewide AI Symposium: Implementing AI Integration Across the University of Alaska System', PI Andrew Harnish, award $29,998.84, including an Infrastructure, Policy, and Governance working group.",
+        "when": "2026-02-12",
+        "primary_source": {"url": "https://www.alaska.edu/research/initiative/2026%20fif%20awardees.php", "outlet": "University of Alaska", "doc_type": "press_statement"},
+        "corroborating_sources": [],
+        "the_binary": "Fund/decline on the systemwide AI-integration symposium and who shapes UA AI infrastructure/policy recommendations.",
+        "ak_consequence": "Higher-ed, workforce, and AI policy. The working paper is positioned to shape UA-system AI governance affecting Alaska's AI workforce pipeline.",
+        "prelim_debatable_axis": "Pro: a coordinated statewide AI governance framework could prevent fragmented ad-hoc adoption. Con: a symposium is soft power without budget authority."
+      },
+      "scout_confidence": "low",
+      "scout_caveat": "OUT OF WINDOW (2026-02-12). ZERO independent corroboration, single-sourced to a UA-controlled page."
+    }
+  ],
+  "cross_slice_leads_not_developed": [
+    "DOE Genesis Mission 'AURORA-AI: Alaska Utility Resilience and Optimization Using Real-Time AI' award to University of Alaska Fairbanks, announced 2026-07-22, IN WINDOW and well corroborated (DOE energy.gov, NLR press release), but NO publicly named PI and UAF/rural-microgrid focus, weak Anchorage-bowl tie. Research scout flagged this as the top item for the validator to develop if it can find a named Anchorage-tied PI.",
+    "AIDEA Executive Director Randy Ruaro, Mat-Su industrial park with data centers, Alaska Beacon 2026-07-16, IN WINDOW. Mat-Su not Anchorage bowl. Ruaro publicly disclaimed a firm land-use decision ('there are no pre-determined and set land use decisions made by AIDEA'). Note Alaska Beacon returned 403 to WebFetch; use alaskasnewssource.com or northernjournal.com mirrors.",
+    "USAF Request for Lease Proposal for AI data centers at JBER, Clear, and Eielson. RFLP issued April 2026 (out of window), offers due 2026-06-29, no award announced as of Aug 2026.",
+    "Chugach Electric CEO Arthur Miller on large-load/data-center cost-of-service rates, statements dated May 2026 (out of window). Economic Development Rate filing pending at the RCA."
+  ],
+  "scout_warnings": [
+    "The 'Anchorage AI startup' search space is heavily polluted with AI-generated SEO spam that fabricates companies, founders, funding figures and dates (nucamp, fundraiseinsider, ventureburn, mean.ceo, aifundingtracker, 50pros). The founders scout excluded all of them.",
+    "'Anchorage Digital' is a San Francisco crypto bank, NOT an Anchorage, Alaska company. It dominates 'Anchorage + AI' search results and must be hard-blocked.",
+    "The Anchorage Assembly is in its August recess, sharply limiting in-window municipal decisions."
+  ]
+}
