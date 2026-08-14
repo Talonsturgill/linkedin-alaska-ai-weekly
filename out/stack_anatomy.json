@@ -1,68 +1,98 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
+  "window": "2026-07-31 through 2026-08-14 (14 days, not broadened)",
   "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
+    "name": "FERC non-capacity license amendment on the delegated-authority track, Bradley Lake Expansion / Dixon Diversion, Project No. P-8221-124",
+    "category": "regulatory",
+    "category_label": "REGULATORY",
+    "one_line_definition": "The Federal Power Act process by which an existing hydro licensee amends its license without adding meaningful nameplate capacity. Because 18 CFR 375.308(b) lets a single delegated FERC officer act on uncontested amendment applications, the 5:00 p.m. ET 2026-08-28 intervention deadline is the hour that decides whether a 38 percent increase in the output of Alaska's largest hydro plant is disposed of by one officer or by a contested Commission proceeding.",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "verbatim_quote": "The licensee proposes to: (1) build a new diversion dam to divert meltwater and surface runoff coming from the Dixon Glacier, located at the headwaters of the Martin River, into Bradley Lake; (2) raise the normal maximum operating pool elevation of Bradley Lake by about 16 feet through a combination of raising the concrete spillway crest elevation, adding spillway crest gates, and raising the dam embankment crest; and (3) install a 0.3-megawatt (MW) micro-hydro turbine in one of the Bradley Lake Dam's fishwater release valves.",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/html/2026-15691.htm",
+      "outlet": "Federal Register (FERC notice, FR Doc. 2026-15691), via govinfo.gov",
+      "pub_date": "2026-08-03",
+      "supporting_verbatim_deadline": "Deadline for filing comments, motions to intervene, and protests: August 28, 2026 5:00 p.m. Eastern Time",
+      "supporting_verbatim_output": "average annual power generation by approximately 38 percent",
+      "supporting_verbatim_standing": "only those who file a motion to intervene in accordance with the Commission's Rules may become a party to the proceeding"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
+        "name": "Licensee filing layer",
+        "what_it_does": "Alaska Energy Authority, licensee of record for FERC Project No. 8221, filed the Final License Amendment Application on 2026-06-30 seeking to modify the existing license rather than obtain a new one, which is what keeps the matter on the amendment track instead of a relicensing proceeding.",
+        "controlling_actor": "Alaska Energy Authority as FERC licensee of record for Project No. 8221; applicant contact of record Ryan McLaughlin, 813 W Northern Lights Blvd., Anchorage, AK 99503",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
+          "url": "https://www.akenergyauthority.org/BLEP",
+          "outlet": "Alaska Energy Authority",
           "doc_type": "agency_page"
-        }
+        },
+        "verified": true,
+        "verification_note": "Fetched. Page states the Final License Amendment Application was filed with FERC on June 30, 2026, that estimated construction cost is approximately 400 million dollars, that the construction funding source is yet to be determined, and that the schedule is roughly three years of study and permitting followed by three years of construction. The Federal Register notice separately names Alaska Energy Authority as the licensee and McLaughlin as applicant contact."
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
+        "name": "Acceptance and standing layer",
+        "what_it_does": "The Commission Secretary issues the notice accepting the application for filing and setting the single hard deadline for comments, motions to intervene, and protests. This notice, not any later order, is what determines who has party status in the docket at all.",
+        "controlling_actor": "Secretary of the Federal Energy Regulatory Commission (signature block: Debbie-Anne A. Reese, Secretary; dated July 29, 2026)",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/html/2026-15691.htm",
+          "outlet": "Federal Register / FERC, via govinfo.gov",
+          "doc_type": "docket"
+        },
+        "verified": true,
+        "verification_note": "Fetched twice. Confirmed on page: the deadline line, the sentence 'Anyone may submit comments, a protest, or a motion to intervene in accordance with the requirements of Rules of Practice and Procedure', and the standing-limiting sentence 'only those who file a motion to intervene in accordance with the Commission's Rules may become a party to the proceeding'. Signature block confirmed as Debbie-Anne A. Reese, Secretary."
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
+        "name": "Delegated-disposition layer (CHOKEPOINT)",
+        "what_it_does": "Standing Commission regulation delegates to one officer the power to act on uncontested amendment applications under Part I of the Federal Power Act. Whether this 400 million dollar amendment stays on that one-officer track or leaves it is decided entirely by whether any protest or intervention is on file when the 2026-08-28 clock runs out.",
+        "controlling_actor": "Director, FERC Office of Energy Projects, or the Director's designee, acting under delegated authority in 18 CFR 375.308(b)(1)",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.law.cornell.edu/cfr/text/18/375.308",
+          "outlet": "Legal Information Institute, Cornell Law School (18 CFR 375.308)",
+          "doc_type": "statute"
+        },
+        "verified": true,
+        "verification_note": "Fetched twice with a targeted verbatim prompt. Confirmed section heading 'Delegations to the Director of the Office of Energy Projects.'; the delegating sentence 'The Commission authorizes the Director or the Director's designee to:'; and paragraph (b) reading 'Take appropriate action on uncontested applications for: (1) Amendments (including changes in the use or disposal of water power project lands or waters or in the boundaries of water power projects) to licenses (including original, new, and transmission line licenses) under part I of the Federal Power Act, exemptions from all or part of the requirements of part I of the Federal Power Act, and preliminary permits'. The qualifier 'uncontested' is confirmed present in the introductory clause of (b)."
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
+        "name": "Project governance layer",
+        "what_it_does": "The Bradley Lake Project Management Committee, seated under the 1987 Power Sales Agreement, runs management, operation, maintenance and improvement of the project. It is the body through which the amendment's physical and cost consequences reach the five purchaser utilities that resell the power.",
+        "controlling_actor": "Bradley Lake Project Management Committee: Alaska Energy Authority plus the five purchaser utilities (Chugach Electric Association, Golden Valley Electric Association, Homer Electric Association, Matanuska Electric Association, Seward Electric Association), subject to AEA's non-delegable duties",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
+          "url": "https://www.akenergyauthority.org/What-We-Do/Railbelt-Energy/Bradley-Lake-Hydroelectric-Project/Bradley-Lake-Project-Management-Committee",
+          "outlet": "Alaska Energy Authority",
           "doc_type": "agency_page"
-        }
+        },
+        "verified": true,
+        "verification_note": "Fetched. Page states verbatim: 'The Bradley Lake Project Management Committee (BPMC) consists of the Alaska Energy Authority (AEA) and the five utilities that purchase the power' and 'BPMC is responsible for the management, operation, maintenance, and improvement of the Bradley Lake Project, subject to the non-delegable duties of AEA.' All five named utilities confirmed on page. NOTE: the '10 percent of Railbelt annual power' and '75 percent of Alaska's population' figures the scouts attributed to this page did NOT appear on the page fetched; both are struck and must not be used."
+      },
+      {
+        "name": "Financing framework layer",
+        "what_it_does": "The AEA Board advanced a financing framework and forwarded it to the Railbelt utilities for review, after which it returns to the board for final terms. This is where the approximately 400 million dollar construction cost, whose source AEA's own page says is still undetermined, gets attached to specific balance sheets and eventually to rates.",
+        "controlling_actor": "Alaska Energy Authority Board of Directors (board chair Clay Koplin, per Petroleum News 2026-08-09; role not confirmable from an AEA-hosted page)",
+        "primary_source": {
+          "url": "https://www.akenergyauthority.org/Who-We-Are/Newsroom/Press-Releases",
+          "outlet": "Alaska Energy Authority Newsroom",
+          "doc_type": "agency_page"
+        },
+        "verified": true,
+        "verification_note": "Fetched. Confirmed release titles and dates on page: 'AEA Board Advances Financing Framework for Bradley Lake Expansion Project' dated July 23, 2026, and 'AEA Files Final Amendment Application for Bradley Lake Expansion Project' dated July 20, 2026. Corroborated by Petroleum News 2026-08-09 (fetched), which carries the verbatim Koplin quote 'This action reflects years of planning and collaboration among AEA, the Railbelt utilities, and project partners to advance one of Alaska's most significant energy infrastructure investments.'"
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "Delegated-disposition layer (18 CFR 375.308(b)(1)), gated by the 2026-08-28 5:00 p.m. ET intervention deadline set in the acceptance notice",
+      "controlling_actor": "Director, FERC Office of Energy Projects, or the Director's designee",
+      "binary_decision": "If no protest or motion to intervene is on file at 5:00 p.m. Eastern Time on 2026-08-28, the application is uncontested and one delegated officer may take appropriate action on it, including issuing the amending order with conditions. If it is contested, that officer's delegated authority does not reach it.",
+      "why_asymmetric": "One officer, one binary, inside their own delegated authority, and the switch that arms or disarms that authority is a clock, not a vote. No committee sits between the Director and the order on the uncontested track. The Bradley Lake Project Management Committee, by contrast, is six members and is a governance body, not a chokepoint. The asymmetry is doubled by the standing rule in the same notice: only those who file a motion to intervene may become a party. A party that misses the hour does not merely lose a vote, it loses the ability to contest the terms at all, which is also what keeps the delegated track open.",
+      "primary_source": "https://www.law.cornell.edu/cfr/text/18/375.308 read against https://www.govinfo.gov/content/pkg/FR-2026-08-03/html/2026-15691.htm"
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
+    "ak_consequence": {
+      "sector": "Railbelt electric generation and the firm-power headroom underneath any Anchorage- or Fairbanks-interconnected AI compute load",
+      "decision_or_risk": "Whether the largest identified block of new firm non-gas Railbelt energy in any regulatory queue, an approximately 38 percent increase in Bradley Lake's average annual power generation, is disposed of on a one-officer delegated track with conditions no Alaska load developer had standing to shape, is fixed at 5:00 p.m. Eastern Time on 2026-08-28.",
+      "named_actors": "Alaska Energy Authority (licensee, FERC Project No. 8221); Director, FERC Office of Energy Projects; the five BPMC purchaser utilities (Chugach, Golden Valley, Homer, Matanuska, Seward Electric); AEA Board of Directors",
+      "timeframe": "Intervention deadline 2026-08-28; AEA board returns to final financing terms after Railbelt utility review this fall; per AEA's own schedule, roughly three years of study and permitting followed by three years of construction."
+    },
+    "structural_read": "This is the power gate underneath Alaska AI, not an AI mechanism, and the desk says so plainly. Bradley Lake is the state's largest hydro plant and the amendment would raise its average annual generation by about 38 percent while adding only 0.3 MW of nameplate. That nameplate arithmetic is the whole trick. Because the capacity does not meaningfully move, the project rides the non-capacity amendment track rather than a relicensing, and non-capacity amendments are exactly the class that 18 CFR 375.308(b) hands to a single delegated officer when nobody contests them. So the largest single addition of firm non-gas energy on the Railbelt is, procedurally, a routine amendment. That is not a scandal. It is the ordinary shape of Federal Power Act administration, and it is why the leverage in this mechanism sits in a clock rather than in a hearing. The honest limits: AEA's own page says the construction funding source is yet to be determined, and its own schedule puts first power at the far end of a six-year study-permit-build sequence. Nothing here relieves the Cook Inlet gas problem constraining Railbelt interconnection today, and any pitch that this is near-term capacity for a 2027 or 2028 data center is wrong. What it is, is the one place in the current queue where the terms of Alaska's late-decade firm energy supply are being set, on a docket where the list of people entitled to argue about those terms closes in fourteen days.",
+    "forward_implication": "Any Railbelt-connected load developer, independent power producer, or prospective large-tenant offtaker that expects to negotiate against Bradley Lake energy after 2030 should decide this week whether to file a motion to intervene in FERC Project No. P-8221-124 before 5:00 p.m. Eastern Time on 2026-08-28. Positioned today: AEA as licensee, the five BPMC purchaser utilities who already sit inside project governance, and the resource agencies. Not positioned: every non-utility load developer and offtaker who is not on the docket, and who after that hour will have no party status and no standing to contest operating conditions, pool-elevation constraints, or the terms that ultimately flow into what they are quoted. Second date to hold: the AEA board's return to final financing terms after Railbelt utility review this fall, where the approximately 400 million dollar cost with a still-undetermined funding source gets assigned.",
+    "recurrence_note": "This gate fires on a per-application basis and has fired three times on this project (draft application 2026-02-13, final application 2026-06-30, acceptance and intervention notice 2026-08-03). The delegated-authority switch in 18 CFR 375.308(b) is standing and recurs on every uncontested FPA Part I amendment nationally. The same FERC hydro machinery opened a second Alaska docket eight days later at Terror Lake (P-2743-112). FERC hydropower licensing has never been mapped by this column and the controlling actor is new to the series.",
     "confidence": "high",
     "gate_results": {
       "news_tie_pass": true,
@@ -72,14 +102,50 @@
       "chokepoint_asymmetry_pass": true,
       "mechanism_not_actor_pass": true,
       "not_recent_repeat_pass": true
-    }
+    },
+    "overlap_resolution": "The facilities scout and the regulatory scout surfaced the same trigger with different chokepoints. Resolved against the regulatory scout's CWA Section 401 framing and in favor of a sharpened version of the facilities scout's FERC framing, on two grounds. First, sourcing: the 401 layer required asserting that ADEC is Alaska's Section 401 certifying authority for this project, and that could not be confirmed from any fetchable primary source. dec.alaska.gov returns HTTP 403 and EPA's own CWA 401 page defines the certifying-authority power generically without naming any state agency. Neither the Federal Register notice nor AEA's BLEP page mentions Section 401, water quality certification, or ADEC. The 401 layer was dropped rather than asserted, and the chain does not break. Second, on the merits: the facilities scout located the asymmetry in the 2026-08-28 deadline but attributed the binary to the Office of Energy Projects as an office. The verifiable version, which neither scout identified, is 18 CFR 375.308(b)(1), under which the Commission has already delegated to one named officer the authority to act on uncontested amendment applications. The 2026-08-28 hour is the switch that determines whether that one-officer authority applies at all."
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {
+      "name": "FERC Integrated Licensing Process relicensing, Terror Lake, Docket P-2743-112 (Kodiak Electric Association)",
+      "reason": "Same FERC hydro machinery as the selected pick so shipping it would read as repetition, its study-request record stays open until 2026-10-02 so there is no timed asymmetry inside this window, and its Alaska consequence runs to spaceport and Coast Guard load rather than to AI compute or data infrastructure."
+    },
+    {
+      "name": "CWA Section 401 state water-quality certification layer (regulatory scout's proposed chokepoint for the selected mechanism)",
+      "reason": "missing_primary_source_per_layer. ADEC as Alaska's Section 401 certifying authority for this project could not be confirmed from any fetchable primary source, so the layer was dropped rather than asserted."
+    },
+    {
+      "name": "Direct 8(a) sole-source award pathway to an ANC-owned firm (Air Force AFIMSC/AFSFC IT consolidation)",
+      "reason": "no_ak_consequence. Performance is at JBSA and Tyndall rather than in Alaska, the work is enterprise IT rather than AI machinery, and the scout could not name which ANC received the award."
+    },
+    {
+      "name": "SBA 8(a) entity-owned eligibility and intake valve, 13 CFR 124.103 final rule RIN 3245-AI75",
+      "reason": "no_ak_consequence. Federal services contracting policy generally, with no tie to the power, data, or compute that Alaska AI deployment depends on, and the news trigger offered is a law-firm client alert rather than the rule text."
+    },
+    {
+      "name": "ISDEAA contract-support-cost claim and Judgment Fund, ANTHC 400 million dollars",
+      "reason": "no_news_tie. The trigger dates to 2026-07-21 through 2026-07-24, outside the window, as the scout itself flagged, and no in-window documentary trigger was produced."
+    },
+    {
+      "name": "UAF DoD University Affiliated Research Center sole-source IDIQ, W911NF-26-D-A013",
+      "reason": "confabulation_risk. The scout stated outright that the AI/ML content of this vehicle is inferential and unsourced, with gi.alaska.edu and watc.alaska.edu both returning 503, so the column's AI framing would rest on an assumption rather than a document."
+    },
+    {
+      "name": "DOE Genesis Mission Phase I to Phase II conversion gate (DE-FOA-0003612), AURORA-AI at UAF/ACEP",
+      "reason": "diffuse_chokepoint. The federal layer is an unnamed Office of Science merit-review selection official choosing among 278 awards, which is a committee process, and the scout's sharper alternative (a co-op CEO's data-sharing discretion) is a private commercial choice with no docket, contract, or regulation establishing it as a gate."
+    },
+    {
+      "name": "DOE Genesis Mission SBIR/STTR pitch-first screening gate, FY26 Phase I",
+      "reason": "no_ak_consequence. The Alaska actor tie is inferential with no named award, and the chokepoint as described is an unscored screening with no published rubric, which cannot be traced to a controlling actor in a primary source."
+    },
+    {
+      "name": "RCA advance determination of decisional prudence on ENSTAR's 240 million dollar Kenai Loop gas storage conversion",
+      "reason": "missing_primary_source_per_layer. No RCA docket number is obtainable, rca.alaska.gov returns 403, no commissioner is identified, and all three core layers rest entirely on secondary trade reporting rather than any primary RCA order."
+    },
+    {
+      "name": "FPA Section 23(b)(1) Declaration of Intention, Chugach Electric Caribou Creek hydro",
+      "reason": "no_news_tie. The FERC comment deadline was 2026-04-20, far outside the window, and the trigger is a small local outlet with no stated publication day, as the scout self-flagged."
+    }
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "_validation_note": "Window was NOT broadened; the pick sits inside the original 14-day window (FR notice published 2026-08-03). Four items for the Editor's note. (1) DROPPED LAYER: the Clean Water Act Section 401 state water-quality certification layer was dropped, not softened, because ADEC as Alaska's certifying authority for this project could not be confirmed from any fetchable primary source. The post must not assert ADEC's role. (2) FIGURES STRUCK: the AEA BPMC page does NOT contain the 'approximately 10 percent of the total annual power used by Railbelt utilities' or 'about 75 percent of Alaska's population' figures the scouts attributed to it; both are struck and must not appear in the post. The '1.5 Bcf per year' gas displacement and the 2031 date come from Petroleum News (secondary), not from any verified primary source, and must be attributed to Petroleum News if used at all. The '38 percent' figure IS primary and is confirmed verbatim in the Federal Register notice. (3) NAMES: Clay Koplin as AEA Board Chair is confirmed only by Petroleum News 2026-08-09. Curtis Thayer's title was not verified and is not used. The incumbent Director of FERC's Office of Energy Projects is not named because ferc.gov returned HTTP 403; the layer names the institutional role exactly as 18 CFR 375.308 states it. (4) HOSTS THAT BLOCKED THE MAPPER: ferc.gov (403), ecfr.gov (302 to an anti-scraping wall), dec.alaska.gov (403). All routed around via govinfo.gov and law.cornell.edu, both fetched successfully with verbatim confirmation."
 }
