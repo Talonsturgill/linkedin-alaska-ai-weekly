@@ -539,7 +539,7 @@ meta = {
     "palette": PALETTE,
     "hue_family": "violet",
     "composition": "central_icon",
-    "motifs": ["spillway elevation", "seven crest gates and piers",
+    "motifs": ["spillway elevation", "five crest gates and piers",
                "one lit bay", "impounded voronoi water",
                "+16 ft pool raise", "falling nappe", "0.3 MW valve"],
     "technique_stack": ["gradient_v", "mottle", "ridge_pts", "voronoi_polys",
