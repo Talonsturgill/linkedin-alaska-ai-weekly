@@ -1,0 +1,120 @@
+{
+  "date": "14 AUG 2026",
+  "column": "The Stack",
+  "kicker": "THE STACK",
+  "middle_slot": "REGULATORY",
+  "byline": "",
+  "headline": "38% MORE POWER. UNCONTESTED.",
+  "style_family": "voronoi_impoundment",
+  "palette": [
+    "#ece9f2",
+    "#646276",
+    "#868496",
+    "#534a78",
+    "#282347",
+    "#0f081e",
+    "#f4aa2c"
+  ],
+  "hue_family": "violet",
+  "composition": "central_icon",
+  "motifs": [
+    "spillway elevation",
+    "seven crest gates and piers",
+    "one lit bay",
+    "impounded voronoi water",
+    "+16 ft pool raise",
+    "falling nappe",
+    "0.3 MW valve"
+  ],
+  "technique_stack": [
+    "gradient_v",
+    "mottle",
+    "ridge_pts",
+    "voronoi_polys",
+    "hatch",
+    "stipple",
+    "chips",
+    "hand_line",
+    "glow",
+    "nappe curve",
+    "grain",
+    "vignette",
+    "polaris"
+  ],
+  "seed": 8221,
+  "mechanism": "FERC non-capacity license amendment, Bradley Lake / Dixon Diversion, Project No. P-8221-124",
+  "eval_history": [
+    {
+      "iter": 1,
+      "weighted": 5.55,
+      "weakest": "craft",
+      "fix": "kicker collided with the headline; six flat horizontal bands; concrete out-brighted the focal; water read as dried mud"
+    },
+    {
+      "iter": 2,
+      "weighted": 7.26,
+      "weakest": "composition",
+      "fix": "added piers, staining streaks and a flared chute for vertical rhythm; retyped the header to clear the collision"
+    },
+    {
+      "iter": 3,
+      "weighted": 7.4,
+      "weakest": "color",
+      "fix": "added form ties, recessed apron panels, gate stiffeners and turbulence, but the stone went too light and ate the focal contrast"
+    },
+    {
+      "iter": 4,
+      "weighted": 7.44,
+      "weakest": "craft",
+      "fix": "darkened the stone and hoisted the lit gate leaf so the bay reads as open, but the shaft still read as a ramp"
+    },
+    {
+      "iter": 5,
+      "weighted": 7.84,
+      "weakest": "color",
+      "fix": "structural move: cropped in hard, 5 large bays instead of 7 small, and replaced the flat shaft with a ballistic falling nappe"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.125,
+      "weakest": "craft",
+      "fix": "stone shifted into the violet family, headline cleared off the ridge, spray rebuilt as soft droplets, crest walkway added"
+    },
+    {
+      "iter": 7,
+      "weighted": 8.39,
+      "weakest": "craft",
+      "fix": "light now emerges from a shadowed head with jamb shading; chute walls cast onto the sheet; closed leaves deepened toward ink"
+    },
+    {
+      "iter": 8,
+      "weighted": 8.585,
+      "weakest": "none below 8.5",
+      "fix": "shipped: nappe filaments and standing ridges, weathering variation across the apron, bounce light onto the flanking piers"
+    }
+  ],
+  "eval_final": {
+    "weighted": 8.585,
+    "scores": {
+      "concept": 8.5,
+      "focal": 9.0,
+      "composition": 8.5,
+      "color": 8.5,
+      "detail": 8.5,
+      "craft": 8.5,
+      "typography": 8.5,
+      "originality": 8.5,
+      "fidelity": 9.0
+    },
+    "bar": 8.5,
+    "passed": true,
+    "iterations_used": 8,
+    "note": "Nominal skill budget is 6 eval iterations. Iterations 7 and 8 were taken deliberately under the routine's exhaustiveness mandate ('8.5 is the FLOOR, not the target; keep iterating while iterations are clearly buying quality') because the score was still climbing (7.84 -> 8.125 -> 8.39 -> 8.585). One script crash occurred between iterations 7 and 8 (rectangle coordinate ordering in the jamb-shading loop); it was fixed and re-run and does not count as an eval iteration."
+  },
+  "canvas": [
+    1080,
+    1080
+  ],
+  "rendered_at_utc": "2026-08-14T09:31:39.035937Z",
+  "out_path": "out/post_image.png"
+}
