@@ -1,22 +1,29 @@
 {
+  "run_date": "2026-08-14",
+  "column": "Anchorage Desk",
+  "subject": "Keith McCormick",
+  "decision_date": "2026-08-04",
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "role": "primary",
+      "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+      "outlet": "Alaska's News Source (KTUU/KTVA)",
+      "doc_type": "vote_record",
+      "independent_of_subject": true
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "role": "corroborating",
+      "url": "https://mustreadalaska.com/anchorage-assembly-shares-2026-legislative-priorities/",
+      "outlet": "Must Read Alaska",
+      "independent_of_subject": true
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "role": "corroborating",
+      "url": "https://www.muni.org/Departments/Assembly/SiteAssets/Pages/Public-Health-and-Safety-Committee/7.07%20Real-Time%20Crime%20Center.pdf",
+      "outlet": "MOA Public Health and Safety Committee packet",
+      "independent_of_subject": false
     }
-  ]
+  ],
+  "independent_source_count": 2,
+  "note": "Primary outlet is independent of the subject. Corroboration depth is thin: the Aug 4 postponement and debate are reconstructed in detail by one independent outlet; the MOA committee packet confirms the contract and system scale but is not independent of the municipality."
 }
