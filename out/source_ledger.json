@@ -9,19 +9,25 @@
       "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
       "outlet": "Alaska's News Source (KTUU/KTVA)",
       "doc_type": "vote_record",
-      "independent_of_subject": true
+      "independent_of_subject": true,
+      "pub_date": "2026-08-05",
+      "story_title": "PRIMARY SOURCE. Anchorage police seeking upgrades to real-time crime monitoring. INDEPENDENT of the subject. Carries the Aug 4 postponement, the debate, and both McCormick quotes."
     },
     {
       "role": "corroborating",
       "url": "https://mustreadalaska.com/anchorage-assembly-shares-2026-legislative-priorities/",
       "outlet": "Must Read Alaska",
-      "independent_of_subject": true
+      "independent_of_subject": true,
+      "pub_date": "2026",
+      "story_title": "Corroborator. Anchorage Assembly 2026 legislative priorities. INDEPENDENT of the subject. Confirms the RTCC programme and scale, does not reconstruct the Aug 4 debate."
     },
     {
       "role": "corroborating",
       "url": "https://www.muni.org/Departments/Assembly/SiteAssets/Pages/Public-Health-and-Safety-Committee/7.07%20Real-Time%20Crime%20Center.pdf",
       "outlet": "MOA Public Health and Safety Committee packet",
-      "independent_of_subject": false
+      "independent_of_subject": false,
+      "pub_date": "2026",
+      "story_title": "Corroborator. Public Health and Safety Committee packet, item 7.07 Real-Time Crime Center. NOT INDEPENDENT (municipality's own document). Confirms the contract and system scope."
     }
   ],
   "independent_source_count": 2,

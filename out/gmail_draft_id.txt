@@ -1,5 +1,1 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+r-3931670292199611061
