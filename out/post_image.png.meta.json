@@ -1,79 +1,103 @@
 {
-  "date": "24 JUL 2026",
-  "column": "The Stack",
-  "kicker": "THE STACK",
-  "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "date": "14 AUG 2026",
+  "column": "Anchorage Desk",
+  "kicker": "ANCHORAGE DESK",
+  "middle_slot": "MUNICIPAL",
+  "headline": "Anchorage Code Can\u2019t Answer / What The Cameras Collect",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "style_family": "engraved_headworks",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#e9f0f4",
+    "#c9d8e0",
+    "#bbc7ce",
+    "#a6adb4",
+    "#879ca6",
+    "#04121b",
+    "#f1a41d"
   ],
-  "hue_family": "green",
-  "composition": "bilateral_gate",
+  "hue_family": "neutral-cool",
+  "composition": "frame_within",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "stop-log gate headworks",
+    "three empty slot bays",
+    "suspended crane load (the withheld contract)",
+    "single seated 2023 beam",
+    "braided glacial inflow",
+    "Chugach ridgeline"
   ],
   "technique_stack": [
     "gradient_v",
-    "ridge_fill",
-    "voronoi_polys",
+    "field",
+    "warp",
+    "streamlines",
+    "ridge_pts",
     "hatch",
-    "glow",
     "stipple",
     "chips",
     "hand_line",
-    "grain"
+    "glow",
+    "grain",
+    "vignette"
   ],
-  "seed": 724,
+  "seed": 818,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
-      "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "weighted": 6.51,
+      "weakest": "typography",
+      "note": "far ridge sliced headline line 2 in half; posterized water read as camouflage blobs with rain-like threads over it; gantry legs caged the focal; 750 FEEDS label dark-on-dark"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 7.77,
+      "weakest": "color",
+      "note": "headline, gantry air and the closed bay all fixed; water still camouflage-blobbed (the field stretch cancelled itself out), ridges too close in value, HELD tag collided with the deck"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
+      "weighted": 8.07,
+      "weakest": "craft",
+      "note": "water fixed (true anisotropic braid strip over a graded slack pool); but the draw-down current lines read as scratches, the tag's eyelet was drawn on top of its own last glyph, and the load read as a suitcase rather than slung freight"
+    },
+    {
+      "iter": 4,
+      "weighted": 8.26,
+      "weakest": "color",
+      "note": "scratches, tag eyelet and the suitcase read all fixed (spreader bar + lifting slings); grayscale check showed the white flow curtains out-punching the amber focal, and the sling had no visible air between spreader and load"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.3,
+      "weakest": "craft",
+      "note": "bays now read as dark apertures and the amber focal wins the grayscale check; but the spreader bar spanning the load read as a canopy/roof \u2014 the assembly looked like a shelter, not a lift"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.58,
       "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "note": "spreader replaced with a wide angled sling to two shackles and the load given an asymmetric equipment face (stencil plate left, louvred bay right) \u2014 reads as slung freight mid-lift. Ships."
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.58,
     "scores": {
-      "concept": 9,
+      "concept": 8.5,
       "focal": 9,
       "composition": 8.5,
       "color": 8.5,
       "detail": 8.5,
-      "craft": 9,
-      "typography": 8.5,
-      "originality": 8.5,
+      "craft": 8.5,
+      "typography": 8,
+      "originality": 9,
       "fidelity": 9
-    }
+    },
+    "weakest": "typography",
+    "note": "Headline is poster-scale and cleanly legible but sits on the sky rather than interlocking with the terrain; the planned ridge/baseline overlap was abandoned in iteration 2 because it was destroying line 2. Legibility was the right trade."
   },
   "canvas": [
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-08-15T08:37:42.692629Z",
   "out_path": "out/post_image.png"
 }
