@@ -1,20 +1,23 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+A Delaware LLC formed in January has filed to bank a stretch of Cook Inlet seabed off Nikiski for an underwater AI data center. No Alaska party is legally able to object to it yet.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+DeepGreen Cook Inlet SPV LLC proposed a 100-megawatt tidal data center with 350 underwater turbines and 66 “hives” housing AI servers, per Anchorage Daily News on 19 August. ADN describes only an application “to conduct preliminary environmental and engineering studies.” Read against 16 U.S.C. 798, that filing is a preliminary permit.
 
-Four layers carry the machinery.
+It authorizes no construction and no entry onto waters owned by others. Its only legal effect is to freeze first-in-time priority to file a license application over a defined corridor, four years, extendable four more.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+The layers.
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+- Corridor claim, 18 CFR 4.81 fixes the description, study plan and boundary maps, filed by the applicant.
+- Acceptance gate, 18 CFR 4.32(e) judges whether the filing conforms, controlled by the Director, FERC Office of Energy Projects.
+- The asset, priority in time and nothing else, set by Congress at 16 U.S.C. 798.
+- Public notice, which opens the intervention and competing-application window, issued by FERC Secretary Kimberly D. Bose.
+- Contested or uncontested fork, 18 CFR 375.308 delegated final action, back to that same Director.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn. A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+Layer 2 is the chokepoint. FERC’s Northwest Branch sent DeepGreen a deficiency letter on 18 June 2026. The cure window is capped at 45 days, and a failed cure means any resubmission carries a new filing date, sending the priority claim to the back of the queue. Conformance preserves the original date and triggers the notice. FERC spokesperson Celeste Miller told ADN the application is still under review, so the call is live. Not a hearing, not a vote. A letter.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+This is site-banking, not power development. A 100 MW behind-the-meter buyer solves the offtake problem that has killed every prior Cook Inlet tidal proposal, which is what makes this corridor worth optioning. The cost to Alaska is standing. AEA, whose CEO Curtis Thayer told ADN the authority had never heard of DeepGreen, plus Homer Electric at the Bernice Lake landfall, the Kenai Peninsula Borough and area tribes, can’t intervene or file a competing application until FERC accepts. FERC noticed a permit in this same corridor before, to Littoral Power Systems at P-15317-000, prescribing 60 days from issuance. Last week’s Bradley Lake anatomy shared the same delegation rule, but that was an amendment to an existing license decided on the merits. Here the gate decides a filing date before anyone can be heard.
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
+Draft the intervention now and set an eLibrary alert on Cook Inlet hydrokinetic filings. The clock runs from notice issuance, not from discovery.
 
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+Should Alaska utilities and boroughs file defensive preliminary permits on corridors they’ll need, instead of contesting someone else’s claim after that letter goes out?
+
+#AlaskaAI #EnergyPolicy #DataCenters #GridPolicy

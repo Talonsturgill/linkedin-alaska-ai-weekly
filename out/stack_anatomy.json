@@ -1,85 +1,137 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
+  "run_date": "2026-08-21",
+  "window": "2026-08-07..2026-08-21",
   "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
+    "name": "FERC preliminary permit site-banking under FPA sec. 4(f) / 16 U.S.C. 798, and the 18 CFR 4.32(e) deficiency-and-acceptance gate that manufactures the priority date",
+    "category": "regulatory",
+    "category_label": "REGULATORY",
+    "one_line_definition": "A FERC preliminary permit authorizes no construction whatsoever. Its only legal effect is to freeze a first-in-time priority to file a hydropower license application over a defined water corridor for up to four years, extendable four more. Whether an applicant keeps its original filing date, and therefore its priority, is decided by a paperwork-conformance determination inside FERC's Office of Energy Projects, and no competing party can file against the corridor until that determination goes the applicant's way.",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "verbatim_quote": "An East Coast company has proposed building an underwater artificial intelligence data center, powered by the strong tides of Cook Inlet, off the shore of Nikiski. Delaware-based DeepGreen Cook Inlet SPV LLC released plans for a 100-megawatt data center project with as many 350 underwater turbines and 66 \"hives\" housing AI servers, both powered and cooled by water of Cook Inlet.",
+      "outlet": "Anchorage Daily News (Bella Biondini)",
+      "url": "https://www.adn.com/business-economy/2026/08/19/underwater-data-center-proposed-for-alaskas-cook-inlet-by-east-coast-company/",
+      "published": "2026-08-19",
+      "reverified": true,
+      "why_underexplained": "ADN reported the proposal, the June 18 deficiency letter from the Northwest Branch Division of Hydropower Licensing, and that FERC 'found a number of deficiencies.' It never explains what the instrument is. The article never once uses the phrase 'preliminary permit', it says only that Wolfson 'sent in an application to the Federal Energy Regulatory Commission to conduct preliminary environmental and engineering studies.' A reader therefore cannot learn that the filing confers priority-in-time over a 1,650-acre corridor and no construction right; that the cure window is capped at 45 days and a rejection resets the filing date to the back of the queue; that no Alaska party can file a competing application until FERC accepts the application; or that an uncontested preliminary permit is acted on by one delegated office rather than by the five commissioners."
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer": "Layer 1, the corridor claim, what an applicant must put on paper to bank a stretch of water",
+        "what_it_does": "Fixes the contents of a preliminary permit application. Exhibit 1 project description, Exhibit 2 study plan, Exhibit 3 maps that must enclose a proposed project boundary. This is where a 1,650-acre operational envelope either is or is not adequately described, and it is the layer FERC's June 18 deficiency letter attacked.",
+        "controlling_actor": "The applicant, DeepGreen Cook Inlet SPV LLC, Louis Wolfson managing member (Needham, Massachusetts); DeepGreen Holdings LLC formed January 2026, one month before filing",
+        "primary_source_url": "https://www.law.cornell.edu/cfr/text/18/4.81",
+        "primary_source_type": "CFR (18 CFR 4.81, contents of preliminary permit application)",
+        "evidence_quote": "All lands of the United States that are enclosed within the proposed project boundary.",
+        "reverified": true
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer": "Layer 2, the deficiency-and-acceptance gate, where the priority date is kept or destroyed",
+        "what_it_does": "One office judges whether the application conforms. If it does not, the applicant gets a cure window capped at 45 days for a preliminary permit. If the revised application still does not conform, or the cure is late, it is rejected, and any resubmission carries a NEW filing date, collapsing the site-priority claim to the back of the queue. Conformance instead produces acceptance for filing, a project number, and a fixed acceptance date.",
+        "controlling_actor": "Director, FERC Office of Energy Projects (the regulation vests the judgment in this office; the 18 June 2026 letter to DeepGreen issued from the Northwest Branch, Division of Hydropower Licensing, under that authority)",
+        "primary_source_url": "https://www.law.cornell.edu/cfr/text/18/4.32",
+        "primary_source_type": "CFR (18 CFR 4.32(e))",
+        "evidence_quote": "An application that in the judgment of the Director of the Office of Energy Projects does not conform to the requirements of paragraphs (a), (b) and (c) of this section and of § 4.38, may be considered deficient. ... An applicant having a deficient application will be afforded additional time to correct deficiencies, not to exceed 45 days from the date of notification in the case of an application for a preliminary permit or exemption from licensing ... The date the rejected application is resubmitted will be considered the new filing date for purposes of determining its timeliness under § 4.36 and the disposition of competing applications under § 4.37.",
+        "reverified": true
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer": "Layer 3, what the instrument actually buys, statutory priority and nothing else",
+        "what_it_does": "Defines the asset being contested. Congress authorized preliminary permits for the sole purpose of maintaining priority of application for a license, for a term not exceeding four years, extendable once by up to four more on a showing of good faith and reasonable diligence, and non-transferable. No construction right, no entry right, no property interest.",
+        "controlling_actor": "Congress, via FPA section 4(f) as codified; the Commission exercising the term discretion Congress granted",
+        "primary_source_url": "https://www.law.cornell.edu/uscode/text/16/798",
+        "primary_source_type": "statute (16 U.S.C. 798)",
+        "evidence_quote": "Each preliminary permit issued under this subchapter shall be for the sole purpose of maintaining priority of application for a license ... Such permits shall not be transferable, and may be canceled by order of the Commission upon failure of permittees to comply with the conditions thereof or for other good cause shown after notice and opportunity for hearing.",
+        "reverified": true
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer": "Layer 4, public notice, and the moment Alaska parties first acquire standing",
+        "what_it_does": "Only once FERC accepts the application does the Secretary issue a notice opening the window in which anyone else, a utility, a borough, a tribe, a state authority, may intervene or file a competing preliminary permit application over the same waters. 18 CFR 4.36 ties competing filings to the intervention deadline prescribed in that notice; FERC's standard practice in Cook Inlet preliminary permit notices has been 60 days from issuance. Until the notice issues, no Alaska party can obtain competing priority.",
+        "controlling_actor": "Kimberly D. Bose, Secretary, Federal Energy Regulatory Commission (issues the notice); 18 CFR 4.36 governs the competing filings",
+        "primary_source_url": "https://public-inspection.federalregister.gov/2023-19568.pdf?1694436347=",
+        "primary_source_type": "FERC notice, Federal Register public-inspection PDF (Project No. 15317-000, Littoral Power Systems, Upper Cook Inlet Tidal Energy Project, dated 5 Sept 2023)",
+        "evidence_quote": "The sole purpose of a preliminary permit is to grant the permit holder priority to file a license application during the permit term. A preliminary permit does not authorize the permit holder to perform any land-disturbing activities or otherwise enter upon lands or waters owned by others without the owners' express permission. ... Comments, motions to intervene, competing applications (without notices of intent), or notices of intent to file competing applications should be submitted within 60 days from the issuance of this notice. Competing applications and notices of intent must meet the requirements of 18 CFR 4.36.",
+        "reverified": true
+      },
+      {
+        "layer": "Layer 5, the contested/uncontested fork, staff signature or five-member proceeding",
+        "what_it_does": "An uncontested preliminary permit application is acted on by the Director of the Office of Energy Projects under delegated authority, with no commissioner vote. A protest or opposed intervention flips the matter to the Commission itself. Whether any Alaska party files inside the prescribed deadline is therefore what decides whether this corridor is transferred by one delegated signature or litigated before five commissioners.",
+        "controlling_actor": "Director, FERC Office of Energy Projects (delegated authority)",
+        "primary_source_url": "https://www.law.cornell.edu/cfr/text/18/375.308",
+        "primary_source_type": "CFR (18 CFR 375.308(a)(3), delegations to the Director, Office of Energy Projects)",
+        "evidence_quote": "Preliminary permits for proposed projects.",
+        "reverified": true
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "Layer 2, the 18 CFR 4.32(e) deficiency-and-acceptance determination",
+      "actor": "Director, FERC Office of Energy Projects (institutional role; branch staff act under this authority)",
+      "binary_decision": "Determine that DeepGreen's cured application conforms, accepting it for filing, preserving its original filing date as the site-priority date, and triggering the Secretary's notice, or determine it does not conform, in which case any resubmission carries a new filing date and the priority claim over the Nikiski corridor collapses to the back of the queue.",
+      "why_asymmetric": "A preliminary permit's entire value is priority in time; the statute says so in terms. That asset is manufactured by a paperwork-conformance call vested by regulation in a single office, made before any commissioner votes, before any environmental review, and before any Alaska party is legally able to file a competing application, because the competing-application window does not open until this office says the application is complete. The same office holds the delegated final action at Layer 5 on any uncontested permit. It is not a committee and not a hearing. It is a letter. FERC spokesperson Celeste Miller told ADN the application is still under review, so the determination is live as of the run date.",
+      "primary_source_url": "https://www.law.cornell.edu/cfr/text/18/4.32"
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
+    "ak_consequence": "Alaska electric utilities and grid infrastructure. The Alaska Energy Authority (CEO Curtis Thayer, who told ADN AEA had never heard of DeepGreen nor received any contact from the company), Homer Electric Association (whose Bernice Lake substation is the confirmed landfall for this corridor), the Kenai Peninsula Borough, and Kenai-area tribes and ANCSA corporations cannot intervene or file a competing application over the roughly 1,650-acre Nikiski corridor until FERC's Office of Energy Projects accepts DeepGreen's application, a determination pending now, after which the prescribed intervention clock (60 days in FERC's standard Cook Inlet preliminary-permit notices) starts running from issuance, not from discovery.",
+    "structural_read": "This is site-banking, not power development. A Delaware SPV formed in January 2026, one month before it filed, is using a 1920 hydropower statute to place a four-to-eight-year exclusive priority claim over a stretch of Alaska seabed, using an instrument that costs almost nothing, confers no construction right, requires no environmental review to obtain, and is decided on paperwork conformance by one delegated office. The AI framing is not decoration. The compute load is what makes a tidal corridor in Cook Inlet worth optioning, because a 100 MW behind-the-meter buyer solves the offtake problem that has killed every prior Cook Inlet tidal proposal. The structural lesson for Alaska is about standing and timing, not about tidal power. The parties with the most to lose from a corridor claim, the state's own grid authority, the co-op at the landfall, the borough, the tribes, are structurally last to know and legally last to act, because the window that lets them object does not exist until the applicant has already cleared the only gate that matters. FERC has noticed a preliminary permit in this same corridor before, to Littoral Power Systems at P-15317-000, describing the identical geography and the same Homer Electric substation. The machinery recurs; the Alaska parties keep arriving after the clock starts.",
+    "forward_implication": "This week. AEA, Homer Electric Association and the Kenai Peninsula Borough should have a motion to intervene and, if warranted, a competing preliminary permit application drafted and ready to file BEFORE FERC issues the acceptance notice, not after. The deadline runs from notice issuance, and FERC does not extend it for parties who were not monitoring. Set an eLibrary docket alert on Cook Inlet hydrokinetic filings now. For allocators and developers, this is the cheap option-on-a-corridor play, and it is available to anyone with a competent Exhibit 3, which means Alaska-based parties can use it defensively on corridors their own projects need, at a fraction of the cost of contesting someone else's claim later.",
+    "recurrence": "Fires at every preliminary permit application, in the same water. FERC previously noticed a preliminary permit for the Upper Cook Inlet Tidal Energy Project, Project No. 15317-000, sited approximately 17 miles north-northwest of Kenai and 9.5 miles northwest of Nikiski, the same corridor, with the same Homer Electric Bernice Lake substation as landfall. It fires again at each 45-day cure cycle, at each acceptance notice, at each intervention deadline, and at every four-year permit term and extension.",
     "gate_results": {
-      "news_tie_pass": true,
-      "anatomizable_pass": true,
-      "per_layer_primary_source_pass": true,
-      "ak_consequence_pass": true,
-      "chokepoint_asymmetry_pass": true,
-      "mechanism_not_actor_pass": true,
-      "not_recent_repeat_pass": true
-    }
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_sources": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_a_recent_repeat": true,
+      "ai_tie": true
+    },
+    "uncertainty_flags": [
+      "The ADN article never uses the phrase 'preliminary permit.' It says Wolfson 'sent in an application to the Federal Energy Regulatory Commission to conduct preliminary environmental and engineering studies.' The identification of the instrument as an FPA sec. 4(f) preliminary permit is the desk's reading of that description against 16 U.S.C. 798 ('for making examinations and surveys') and against FERC's Northwest Branch Division of Hydropower Licensing handling it. This reading is sound but the writer must present it as the desk explaining what the filing IS, not as a phrase ADN used.",
+      "The 60-day figure is FERC's standard NOTICE practice, verified verbatim in the P-15317-000 notice. It is NOT a flat requirement of 18 CFR 4.36, which instead ties competing filings to the intervention deadline prescribed in the public notice. Do not write '18 CFR 4.36 gives 60 days.' Write that FERC's notice prescribes the deadline and has set 60 days in this corridor before.",
+      "The Cook Inlet PowerLink details (400 million dollars, 38-mile submarine line between Nikiski and Beluga) are as REPORTED BY ADN, and the tie-in claim is DeepGreen's own assertion. AEA's own website does not use the name 'Cook Inlet PowerLink'; it references a 'Railbelt Innovation Resiliency project' with a 206.5 million dollar grant for an HVDC submarine cable. Attribute to ADN; do not state as AEA-confirmed, and do not conflate the two project names.",
+      "Layer 5 (18 CFR 375.308 delegated authority to the Director, OEP) is the SAME delegation layer that appeared in the 2026-08-14 Bradley Lake anatomy. The writer should name Bradley Lake explicitly and draw the contrast, different instrument, different subpart, different chokepoint, rather than let a reader notice the adjacency unaided.",
+      "Category balance cost: this makes regulatory 4 of the last 7 issues. Flagged for the orchestrator's judgment, not a gate failure."
+    ],
+    "do_not_assert": [
+      "Any FERC project or docket number for DeepGreen Cook Inlet SPV LLC. eLibrary was unfetchable on four separate attempts and no Federal Register acceptance notice exists. P-15317-000 belongs to LITTORAL POWER SYSTEMS, a different applicant, do not attach it to DeepGreen.",
+      "The name of the FERC official who signed the 18 June 2026 deficiency letter. Unverified. Do NOT use Emily Carter, who is the New England branch chief on the Maine matter, a different person and branch. The mechanism does not need a name; cite the office.",
+      "That FERC has already issued, or has declined to issue, an acceptance notice for DeepGreen. As of the ADN report the application is still under review per FERC spokesperson Celeste Miller. Status is PENDING.",
+      "That the 1,650-acre corridor lies inside designated Cook Inlet beluga critical habitat Area 2, or any beluga/NMFS claim. This layer was DROPPED, containment could not be verified and was the scout's own inference.",
+      "Any characterization of the contents of DeepGreen's application or of the 18 June deficiency letter beyond what ADN reports. Neither primary filing was obtainable.",
+      "Any claim that DeepGreen has financing, an offtaker, equipment vendors, or committed capital. Nothing establishes any of these.",
+      "Any assertion that a preliminary permit authorizes surveys ON or entry INTO waters owned by others. The FERC notice expressly says the opposite."
+    ],
+    "confidence": "high"
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {
+      "name": "USACE Alaska District Regional General Permit RGP-05 (POA-2013-00094-M1), North Slope CWA sec. 404 fill fast-lane, reissued unchanged 17 Aug 2026",
+      "category": "facilities",
+      "reason": "AI-TIE FAILURE. Sourcing is otherwise the strongest in the sweep. The mapper fetched the SPN and the full 32-page permit as binary PDFs and re-verified every layer, the 10/20-acre caps, the North Section Chief verification address, Janet Post's 8/14/2026 signature 'FOR THE DISTRICT COMMANDER', and the embedded ADEC 401 Certificate signed by Nick Waldo on 10 Aug 2026. But the instrument contains zero reference to compute, data centers, or AI; no AI/data-center applicant has filed any RGP-05 verification request; and the quantified Alaska consequence depended entirely on STAK acreage figures (715 acres, ~640-acre pad, 7.1M CY) sourced to an advocacy organization's summary that could not be replaced with ADL 422741 primary documentation. Stripped of those numbers the consequence reduces to a structural observation with no named AI actor and no timeframe. Strong candidate for a facilities issue the moment a compute applicant actually files."
+    },
+    {
+      "name": "The entity-owned 8(a) direct-award channel, SBA final rule (RIN 3245-AI75) leaving the ANC unlimited-ceiling sole-source lane intact",
+      "category": "capital_sovereignty",
+      "reason": "NO AK-SPECIFIC AI CONSEQUENCE IN WINDOW; news tie is secondary. Surfaced from two scouts, so handled once under the overlap rule. Threshold conflict resolved against primary text: FAR 19.808-1 states 30 million dollars and does NOT distinguish DoD from civilian agencies, so the Koniag corporate page's 25M/100M split is wrong and the scout layer built on it fails. Beyond that, the in-window trigger is a law-firm client alert, not an Alaska story; neither scout could confirm any in-window ANC 8(a) sole-source award for AI work on sam.gov or usaspending.gov; and the AI anchor rests on an undated AWS vendor case study with no contract number. The chokepoint (SBA acceptance under 13 CFR 124.503) is genuinely asymmetric and should be revisited the moment a named Alaska AI award lands."
+    },
+    {
+      "name": "SBA pre-award approval of the 8(a) joint venture agreement (13 CFR 124.513(e)) and the 40 percent performance-of-work floor",
+      "category": "capital_sovereignty",
+      "reason": "NO AK NEWS TIE. The only in-window trigger (Tribal Business News, Rappahannock/Wihokan, 2026-08-20) is not an Alaska story. The Alaska exemplar, Aleutian Thunder, launched 2026-06-04, well outside the window, and no SBA-issued document confirms approval of that mentor-protege or JV agreement, the structure is self-described in a PR Newswire release. Post-award LOS layer rests on a law-firm alert rather than the Hegseth memo, which is not retrievable from a primary URL."
+    },
+    {
+      "name": "ENSTAR gas curtailment stack, RCA Tariff No. 4 Section 1220 Interruption Program priority ladder and the APC/HEX arbitration",
+      "category": "facilities",
+      "reason": "MISSING PRIMARY SOURCE PER LAYER. Only the tariff itself is primary. Four of five layers rest on trade press and broadcast news: the APC-HEX gas sales agreement and Sixth Amendment, the 1 Mar 2026 side letter, the 16 Jul demand letter, ENSTAR's 4 Aug supplemental RCA filing, and Chugach's 17 Aug letter were all unobtainable, and rca.alaska.gov 403s. The relevant RCA docket number could not be identified. AI nexus is inferential, no fetched document names a data center as a curtailment-tier customer, and the 100 MW JBER figure derives from a hard-excluded prior issue."
+    },
+    {
+      "name": "UARC sole-source IDIQ, Contract W911NF-26-D-A013, UAF Geophysical Institute (499M ceiling)",
+      "category": "vehicles",
+      "reason": "AI-TIE FAILURE plus DIFFUSE CHOKEPOINT. None of the six fetched primary sources contains the words 'artificial intelligence' or 'machine learning'; the AI framing is wholly inferential. Separately, the proposed chokepoint, the sponsoring program office and the ordering contracting officer deciding task order by task order, is a standing funding posture spread across two actors, not one actor owning one binary. The SAM.gov/USAspending record and the J&A were unverified, and the '10x prior contract' framing rests on an undated UAF news page. Worth a future issue if a documented AI/ML task order lands."
+    },
+    {
+      "name": "DAF Micro-Reactor Pilot at Eielson AFB, FY2019 NDAA sec. 327 executed as a 30-year DLA Energy PPA",
+      "category": "facilities",
+      "reason": "NO NEWS TIE IN WINDOW. Trigger dated 2026-08-06, one day before the window opens, and it announces an event on 26 Aug, five days after the run date. The only substantive fetched document is a May 2025 DAF FAQ describing the procurement as currently paused, with no source establishing status as of Aug 2026. No NRC docket for an Eielson-sited reactor could be confirmed. AI nexus indirect."
+    }
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "_validation_note": "TARGET SELECTED at 14 days; no broadening required. THE DISTINCTNESS CALL: the DeepGreen preliminary permit was judged sufficiently distinct from the 2026-08-14 Bradley Lake anatomy. Both are FERC hydropower and both touch the 18 CFR 375.308 delegated-authority layer, which is a real cost, not hidden. But the instrument, the subpart, the chokepoint and the consequence structure are all different: Bradley Lake was a non-capacity AMENDMENT to an existing 40-year license held by a state authority, decided on the merits via a delegated order. This is the PRE-LICENSE site-banking instrument under 16 U.S.C. 798, where the chokepoint is a paperwork-conformance determination under 4.32(e) that controls a FILING DATE, and where the Alaska story is about standing and timing rather than about what gets built. Nothing about the layer chain is re-mapped. The shared delegation layer is flagged so the writer draws the contrast explicitly. Decisive against the main rival: RGP-05 has the better document trail of any candidate this cycle, but the 32-page instrument never mentions compute, no AI applicant has filed, and its quantified Alaska consequence rested on advocacy-sourced acreage that could not be replaced. Taking it would have meant running an AI column about a gravel-fill permit on an inferred AI connection, which is precisely the confabulation this gate exists to stop. DeepGreen is the only candidate whose AI tie is documentary rather than analogical: the application is itself for an AI data center. THRESHOLD CONFLICT RESOLVED against primary text: FAR 19.808-1 states 30 million dollars with no DoD/civilian distinction; DFARS 219.808-1 returns 404; the Koniag marketing page's 25M/100M claim is wrong and the layer built on it was dropped. SCOUT ERRORS CORRECTED: (1) the ADN trigger quote was misquoted twice by the regulatory scout ('Cook Inlet's strong tides' should be 'the strong tides of Cook Inlet'; 'as many as 350' should be 'as many 350'), the corrected text above is what resolves on the live page; (2) the scout's '60-day competing-application window under 18 CFR 4.36' is a misreading, 4.36 prescribes a deadline set BY THE NOTICE, and the 60 days is FERC's notice practice, verified verbatim in the P-15317-000 notice; (3) the chokepoint actor is better and more verifiably identified as the Director, Office of Energy Projects, whom 4.32(e) names directly, which both eliminates the unverifiable branch-chief-name problem and strengthens the mechanism-not-actor gate. LAYER DROPPED: the Cook Inlet beluga critical habitat layer (50 CFR 226.220), containment within Area 2 could not be verified and was the scout's own inference. The chain stands at five layers without it. UNVERIFIABLE AND EXCLUDED: the FERC docket number (eLibrary unfetchable on four attempts), the deficiency-letter signatory, and whether an acceptance notice has issued. All are in do_not_assert; none is load-bearing. Category balance is the one editorial cost: this makes regulatory 4 of the last 7 issues, flagged rather than treated as a gate failure."
 }

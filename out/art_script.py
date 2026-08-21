@@ -1,230 +1,295 @@
-"""The Stack — 2026-07-24 — bespoke cover.
-Concept: two valves in series on a conduit rising from an AI-pinned
-critical-mineral ore body. Value reaches the surface only if BOTH
-valves open (NSF TIP money key + NANA ground key). style_family
-geologic_engraving; hue green + copper ore focal; composition
-bilateral_gate. SEED 724.
 """
-import sys, math, traceback
+Alaska.Ai — The Stack — 21 AUG 2026
+"Cook Inlet, Banked / Before Alaska Can Object"
+
+Concept: a hard-edged surveyed claim boundary platted across open tidewater,
+with the Cook Inlet current pouring straight through it. Physically the line
+is not there. Legally it is, and it is the only thing in frame that does not
+move. Style family: hydrographic_claim (tidal streamline field x survey
+cadastral linework). See out/art_plan.md for the full blueprint.
+"""
+import sys, math
 sys.path.insert(0, ".claude/skills/alaska-ai-artwork")
+import numpy as np
+from PIL import Image, ImageFilter
 import art_kit as k
-from PIL import Image, ImageDraw
 
-SEED = 724
+SEED = 1650  # the corridor acreage, per the dossier
 
-def dashed(c, p0, p1, color, width=2, dash=15, gap=11, d=None):
-    x0, y0 = p0; x1, y1 = p1
-    ln = math.hypot(x1 - x0, y1 - y0)
-    if ln < 1: return
-    ux, uy = (x1 - x0) / ln, (y1 - y0) / ln
-    t = 0.0
-    while t < ln:
-        a = (x0 + ux * t, y0 + uy * t)
-        t2 = min(ln, t + dash)
-        b = (x0 + ux * t2, y0 + uy * t2)
-        k.line(c, [a, b], color, width, d=d)
-        t += dash + gap
+D = k.DESIGN  # 1080
 
-def valve(c, vx, vy, r, rim, spoke, hub, dark):
-    # handwheel: outer ring, spokes, hub
-    k.circle(c, vx, vy, r, outline=dark, width=6)
-    k.circle(c, vx, vy, r * 0.86, outline=rim, width=4)
-    for i in range(6):
-        a = math.radians(i * 60 + 8)
-        k.line(c, [(vx + math.cos(a) * r * 0.16, vy + math.sin(a) * r * 0.16),
-                   (vx + math.cos(a) * r * 0.84, vy + math.sin(a) * r * 0.84)],
-               spoke, width=5)
-    k.circle(c, vx, vy, r * 0.20, fill=hub)
-    k.circle(c, vx, vy, r * 0.20, outline=dark, width=3)
+# ---------------------------------------------------------------- palette
+PAPER   = "#f0eade"   # cold sand, type zone + brightest rip crests
+WATER   = "#7d9187"   # slate green, dominant mass
+DEEP    = "#374b43"   # troughs, current shadow
+INK     = "#1b2622"   # shoreline wedge, wordmark
+ACCENT  = "#c8552c"   # vermilion, claim linework + monuments
+HALO    = "#3d1d12"   # dark stroke under accent (grayscale insurance)
 
-def main():
-    c = k.Canvas(bg="#e7efe5", ss=2)
+PALETTE = [PAPER, WATER, DEEP, INK, ACCENT, HALO]
 
-    # ---- palette (OKLCH; dominant green, warm copper focal) ----
-    paper   = k.oklch(0.93, 0.030, 155)   # pale mint sky/light
-    sky_lo  = k.oklch(0.80, 0.045, 176)   # teal-green above ground
-    ground_line_col = k.oklch(0.42, 0.045, 160)
-    strata_light = k.oklch(0.65, 0.052, 158)
-    strata_deep  = k.oklch(0.235, 0.042, 158)
-    seam    = k.oklch(0.30, 0.040, 158)
-    ink     = k.oklch(0.17, 0.030, 158)
-    metal   = k.oklch(0.74, 0.030, 165)   # pale metallic for valve rims
-    ore     = k.oklch(0.72, 0.150, 62)     # copper focal accent
-    ore_hi  = k.oklch(0.86, 0.110, 78)
-    ore_dk  = k.oklch(0.46, 0.130, 52)
-    NB = 6
-    GY = 470.0
+def lerp_pre(a, b, t):
+    return (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
 
-    # ---- 1-2 sky ----
-    k.gradient_v(c, (0, 0, 1080, GY + 6), paper, sky_lo, ease=1.25)
 
-    # ---- 3 subsurface deep base ----
-    k.poly(c, [(0, GY), (1080, GY), (1080, 1080), (0, 1080)], fill=strata_deep)
+c = k.Canvas(bg=PAPER, ss=2)
+rng = np.random.default_rng(SEED)
 
-    # ---- 4 strata bands (ridge_fill stacking: light near surface -> dark deep) ----
-    bounds = [GY, 556, 640, 726, 818, 918, 1080]
-    band_cols = k.ramp([strata_light, strata_deep], NB)
-    for i in range(NB):
-        pts = k.ridge_pts(bounds[i], amp=15, scale=2.4, octaves=4, seed=SEED + i * 7)
-        poly_pts = [(pts[0][0], 1080)] + pts + [(pts[-1][0], 1080)]
-        k.poly(c, poly_pts, fill=band_cols[i])
-        # thin seam line along the band top
-        k.line(c, pts, seam, width=2)
+# ================================================================ 1-2. water
+# Tonal field: warped fractal noise mapped paper -> deep, so the water has
+# large slow value structure before a single streamline is drawn.
+f = k.field(scale=2.6, octaves=5, seed=SEED)
+f = k.warp(f, strength=88, scale=2.1, seed=SEED + 1)
 
-    # ---- 4b voronoi fracture seams (meso structure inside the ground) ----
-    cells = k.voronoi_polys(n=74, seed=SEED, bbox=(-40, GY + 8, 1120, 1080), relax=1)
-    seamlay, sd = c.layer()
-    for cell in cells:
-        if len(cell) >= 3:
-            sd.line(c.pts(cell + [cell[0]]), fill=(*k.hex_to_rgb(seam), 90),
-                    width=max(1, int(c.s(1.1))), joint="curve")
-    c.composite(seamlay)
+# Density/darkness ramp: calm + pale upper-left, dense + dark lower-right.
+yy, xx = np.mgrid[0:D, 0:D] / float(D)
+ramp = np.clip((xx * 0.66 + yy * 0.62) - 0.14, 0, 1) ** 1.28
+fw = np.clip(f * 0.42 + ramp * 0.94, 0, 1)
 
-    # ---- 5 engraving hatch over subsurface (denser deep) ----
-    m_top, dtop = c.mask()
-    dtop.rectangle([0, c.s(GY), c.W, c.s(760)], fill=255)
-    k.hatch(c, m_top, spacing=17, angle=-16, color=seam, width=1.0)
-    m_deep, ddeep = c.mask()
-    ddeep.rectangle([0, c.s(740), c.W, c.W], fill=255)
-    k.hatch(c, m_deep, spacing=11, angle=-16, color=k.darken(seam, 0.05), width=1.2)
+water_img = k.field_img(fw, k.mix(PAPER, WATER, 0.30), DEEP, gamma=1.02)
+c.paste_img(water_img, alpha=1.0)
 
-    # ---- 6 dark collar around ore ----
-    OX, OY = 540.0, 832.0
-    collar = k.blob_pts(OX, OY, 210, wobble=0.10, harmonics=(1, 2, 3), points=150, seed=SEED + 3)
-    k.poly(c, collar, fill=strata_deep)
-    collar2 = k.blob_pts(OX, OY, 150, wobble=0.12, harmonics=(1, 2, 3, 5), points=150, seed=SEED + 4)
-    k.poly(c, collar2, fill=k.darken(strata_deep, 0.03))
+# ============================================================ 3-6. current
+# Angle field for the tide. Quantised so the flow reads sculpted and tidal
+# rather than smooth decorative Perlin, then given a slight constant curl.
+# Dominant diagonal set-and-drift with large meanders plus fine shear, so the
+# field braids like a tidal stream instead of falling like rain.
+_n1 = k.field(scale=1.35, octaves=3, seed=SEED + 5)   # large meanders
+_n2 = k.field(scale=4.20, octaves=4, seed=SEED + 6)   # fine shear
+ang = (math.radians(203)
+       + (_n1 - 0.5) * math.tau * 0.34
+       + (_n2 - 0.5) * math.tau * 0.085)
 
-    # ---- 7 conduit channel (ore -> surface) ----
-    CX = 540.0
-    k.poly(c, [(CX - 15, GY), (CX + 15, GY), (CX + 12, OY - 10), (CX - 12, OY - 10)],
-           fill=k.mix(strata_deep, metal, 0.22))
-    k.hand_line(c, [(CX - 15, GY), (CX - 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 5)
-    k.hand_line(c, [(CX + 15, GY), (CX + 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 6)
-    # surface manifold cap
-    k.poly(c, [(CX - 40, GY - 12), (CX + 40, GY - 12), (CX + 40, GY + 6), (CX - 40, GY + 6)],
-           fill=metal, outline=ink, width=3)
+# The claim overlay goes down BEFORE the current, so the water visibly runs
+# over the top of it. Also removes the dead flat fill inside the parcel.
+CX, CY = 628.0, 646.0
+HW, HH = 215.0, 165.0
+ROT = math.radians(-14.0)
 
-    # ---- 8 ore body: glow + lens + vein tendrils + sparkle ----
-    k.glow(c, OX, OY, 190, ore, alpha=70)
-    k.glow(c, OX, OY, 120, ore_hi, alpha=70)
-    lens = k.blob_pts(OX, OY, 104, wobble=0.12, harmonics=(1, 2, 3), points=160, seed=SEED + 8)
-    k.poly(c, lens, fill=ore)
-    lens_hi = k.blob_pts(OX - 14, OY - 16, 56, wobble=0.13, harmonics=(1, 2, 3), points=140, seed=SEED + 9)
-    k.poly(c, lens_hi, fill=ore_hi)
-    # internal crystalline facet lines (nose-length structure)
-    for fa in [(-60, -30, 70, 40), (30, -50, -40, 55), (-20, 20, 60, -60)]:
-        k.line(c, [(OX + fa[0], OY + fa[1]), (OX + fa[2], OY + fa[3])],
-               k.mix(ore_hi, ore, 0.4), width=2)
-    # vein tendrils out of the lens (irregular, thin, veinlike — not a burst)
-    tangles = [18, 74, 129, 196, 251, 312]
-    for i, deg in enumerate(tangles):
-        a = math.radians(deg)
-        r0 = 92; r1 = 92 + 26 + (i % 3) * 18
-        mid = ((OX + math.cos(a) * (r0 + r1) / 2 + (12 if i % 2 else -10)),
-               (OY + math.sin(a) * (r0 + r1) / 2))
-        k.hand_line(c, [(OX + math.cos(a) * r0, OY + math.sin(a) * r0), mid,
-                        (OX + math.cos(a) * r1, OY + math.sin(a) * r1)],
-                    ore_dk, width=2, amp=2.6, seed=SEED + 20 + i)
-    # ore sparkle micro
-    m_ore, mo = c.mask()
-    mo.polygon(c.pts(lens), fill=255)
-    k.stipple(c, m_ore, density=0.16, r=(0.7, 1.7), color=ore_hi, seed=SEED + 30)
-    k.chips(c, 46, (OX - 150, OY - 150, OX + 150, OY + 150),
-            size=(2.5, 6.5), colors=(ore_hi, ore, ore_dk), seed=SEED + 31)
+def rot(px, py):
+    dx, dy = px - CX, py - CY
+    return (CX + dx * math.cos(ROT) - dy * math.sin(ROT),
+            CY + dx * math.sin(ROT) + dy * math.cos(ROT))
 
-    # ---- 9 valves in series + stems + node chips ----
-    VA = (CX, 690.0)   # lower / deeper valve  -> stem LEFT to NSF TIP
-    VB = (CX, 556.0)   # upper valve           -> stem RIGHT to NANA
-    # stems
-    k.hand_line(c, [VA, (300, 690)], ink, width=4, amp=1.2, seed=SEED + 40)
-    k.hand_line(c, [VB, (792, 556)], ink, width=4, amp=1.2, seed=SEED + 41)
-    valve(c, VA[0], VA[1], 46, metal, ink, ore, ink)
-    valve(c, VB[0], VB[1], 46, metal, ink, ore, ink)
+corners = [rot(CX - HW, CY - HH), rot(CX + HW, CY - HH),
+           rot(CX + HW, CY + HH), rot(CX - HW, CY + HH)]
+k.poly(c, corners, fill=k.mix(WATER, PAPER, 0.13))
+# faint interior survey hatching, meso structure inside the big shape
+for t in range(1, 9):
+    a = lerp_pre(corners[0], corners[3], t / 9.0)
+    b = lerp_pre(corners[1], corners[2], t / 9.0)
+    k.line(c, [a, b], k.mix(WATER, PAPER, 0.22), width=0.9)
 
-    # ---- 10 AI reticle: sightlines from the right sky converge on the wellhead,
-    #        kept clear of the headline/kicker; plumb drops to the ore ----
-    TGT = (CX + 6, GY - 4)
-    for p in [(772, 306), (872, 328), (972, 356)]:
-        dashed(c, p, TGT, k.mix(ink, sky_lo, 0.34), width=2, dash=16, gap=12)
-    dashed(c, TGT, (CX, OY - 96), ore_dk, width=2, dash=14, gap=10)
-    k.circle(c, TGT[0], TGT[1], 15, outline=ink, width=3)
-    k.line(c, [(TGT[0] - 24, TGT[1]), (TGT[0] + 24, TGT[1])], ink, width=2)
-    k.line(c, [(TGT[0], TGT[1] - 24), (TGT[0], TGT[1] + 24)], ink, width=2)
 
-    # ---- 11 grain finish (restrained) ----
-    k.grain(c, amount=6.0, seed=SEED)
+def flow(n, length, width, color, alpha, seed, min_dist=0.0, curl=0.0,
+         gate=None):
+    """Trace streamlines and draw them, gated by the density ramp so the
+    upper-left quiet zone stays open for type."""
+    lines = k.streamlines(ang, n=n, step=3.2, length=length, seed=seed,
+                          min_dist=min_dist, margin=0.18, curl=curl)
+    for pts in lines:
+        if not pts:
+            continue
+        mx = sum(p[0] for p in pts) / len(pts) / D
+        my = sum(p[1] for p in pts) / len(pts) / D
+        dens = np.clip(mx * 0.62 + my * 0.58 - 0.06, 0, 1)
+        if gate is not None and rng.random() > gate(dens):
+            continue
+        w = width * (0.55 + 0.9 * dens)
+        k.line(c, pts, color, width=max(0.7, w))
 
-    # ---- 12 type ----
-    # eyebrow
-    eb = k.fraunces(c, 30, weight=650, opsz=40)
-    k.text(c, (86, 96), "ALASKA’S MINERAL ENGINE", eb,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.02)
-    # big headline
-    hcol = k.ensure_contrast(ink, paper)
-    s1 = k.fit_size(c, "RUNS ON", 560, lo=70, hi=150, weight=900, opsz=144)
-    f1 = k.fraunces(c, s1, weight=900, opsz=144)
-    k.text(c, (84, 132), "RUNS ON", f1, hcol, anchor="la")
-    s2 = k.fit_size(c, "TWO KEYS", 600, lo=70, hi=168, weight=900, opsz=144)
-    f2 = k.fraunces(c, s2, weight=900, opsz=144)
-    k.text(c, (84, 132 + s1 * 0.96), "TWO KEYS", f2, ore_dk, anchor="la")
+# MESO a: broad slow current bands, low contrast, establish direction
+flow(120, (520, 980), 7.5, k.mix(WATER, DEEP, 0.30), 255, SEED + 11,
+     min_dist=15.0, curl=0.0016, gate=lambda t: 0.30 + 0.70 * t)
+# MESO a2: broad soft tonal sweeps, near-invisible individually, but they
+# give the water body mass so the strands sit ON something
+flow(70, (620, 1120), 17.0, k.mix(WATER, DEEP, 0.16), 255, SEED + 16,
+     min_dist=26.0, curl=0.0012, gate=lambda t: 0.25 + 0.75 * t)
+# MESO b: the main tidal texture
+flow(430, (320, 760), 2.7, k.mix(WATER, DEEP, 0.62), 255, SEED + 12,
+     min_dist=5.6, curl=0.0022, gate=lambda t: 0.16 + 0.84 * t)
+# MESO c: darker deep threads, only in the dense field
+flow(300, (240, 560), 2.0, k.mix(DEEP, INK, 0.35), 255, SEED + 13,
+     min_dist=4.8, curl=0.0030, gate=lambda t: max(0.0, t * 1.15 - 0.22))
+# Tide-rip crests: pale high-value shear lines, the sparkle of the piece
+flow(110, (300, 700), 1.8, k.mix(PAPER, WATER, 0.22), 255, SEED + 14,
+     min_dist=7.0, curl=0.0035, gate=lambda t: 0.10 + 0.72 * t)
+# MICRO: fine hairline eddies, mid-field only
+flow(240, (90, 240), 1.0, k.mix(WATER, DEEP, 0.78), 255, SEED + 15,
+     min_dist=2.8, curl=0.010,
+     gate=lambda t: 0.85 if 0.28 < t < 0.86 else 0.05)
 
-    # kicker
-    kf = k.mono(c, 18, medium=True)
-    k.text(c, (86, 132 + s1 * 0.96 + s2 * 1.02 + 20),
-           "THE STACK · VEHICLES · 24 JUL 2026", kf,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.20)
+# ============================================================== 7. silt/foam
+mid_mask = Image.fromarray(
+    (np.clip(ramp * 1.25 - 0.12, 0, 1) * 255).astype(np.uint8), "L")
+k.stipple(c, mid_mask, density=0.055, r=(0.5, 1.35),
+          color=k.mix(PAPER, WATER, 0.35), seed=SEED + 21)
+k.chips(c, 150, (60, 300, D, D - 40), size=(2, 6),
+        colors=(k.mix(DEEP, INK, 0.4), k.mix(WATER, DEEP, 0.5)),
+        seed=SEED + 22, mask_img=mid_mask)
 
-    # valve labels (chips)
-    lf = k.mono(c, 17, medium=True)
-    k.chip(c, (296, 690), "NSF TIP · $15M", lf, paper, ink, pad=9, anchor="ra")
-    k.chip(c, (796, 556), "NANA · GROUND", lf, paper, ink, pad=9, anchor="la")
-    # option tag: the $160M tranche above the valves (legible ghost chip)
-    of = k.mono(c, 16, medium=True)
-    k.chip(c, (470, 502), "$160M · OPTION", of, ink, strata_light, pad=8, anchor="ra")
+# ============================================================ 8-9. shoreline
+# Kenai shore sliver, bottom-left. Dark anchor + the darkest value in frame.
+def tilted_coast(y_base, amp, slope, seed, x1=880, scale=1.9, octaves=6):
+    """Ridgeline with a linear tilt added so the shore runs off the BOTTOM
+    edge on a diagonal instead of being cut by a vertical canvas seam."""
+    pts = k.ridge_pts(y_base=y_base, amp=amp, scale=scale, octaves=octaves,
+                      seed=seed, x0=-40, x1=x1, step=4)
+    return [(x, y + (x + 40) * slope) for x, y in pts]
 
-    # wordmark chip + polaris colophon
-    wf = k.fraunces(c, 27, weight=900, opsz=40)
-    k.chip(c, (84, 1006), "ALASKA.AI", wf, paper, ink, pad=11, anchor="ls")
-    k.polaris(c, 986, 118, r=13, color=ore, core=ore_hi)
+# outer wet-sand rim, palest land tone, reads as the tideline
+rim = tilted_coast(796, 128, 0.34, SEED + 30)
+rim = k.wobble_pts(rim, amp=6.5, scale=5.0, seed=SEED + 34)
+k.poly(c, [(-40, D + 60)] + rim + [(880, D + 60)], fill=k.mix(DEEP, PAPER, 0.20))
 
-    meta = {
-        "date": "24 JUL 2026", "column": "The Stack", "kicker": "THE STACK",
-        "middle_slot": "VEHICLES",
-        "headline": "Alaska’s Mineral Engine Runs On Two Keys",
-        "byline": "",
-        "style_family": "geologic_engraving",
-        "palette": [paper, sky_lo, strata_light, strata_deep, ink, metal, ore],
-        "hue_family": "green",
-        "composition": "bilateral_gate",
-        "motifs": ["critical-mineral ore body", "two series valves",
-                   "AI triangulation reticle", "geologic strata cross-section",
-                   "subsurface conduit"],
-        "technique_stack": ["gradient_v", "ridge_fill", "voronoi_polys",
-                            "hatch", "glow", "stipple", "chips", "hand_line",
-                            "grain"],
-        "seed": SEED,
-        "eval_history": [
-            {"iter": 1, "weighted": 8.13, "weakest": "craft",
-             "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"},
-            {"iter": 2, "weighted": 8.60, "weakest": "detail",
-             "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"},
-            {"iter": 3, "weighted": 8.73, "weakest": "typography",
-             "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"}
-        ],
-        "eval_final": {
-            "weighted": 8.73,
-            "scores": {"concept": 9, "focal": 9, "composition": 8.5,
-                       "color": 8.5, "detail": 8.5, "craft": 9,
-                       "typography": 8.5, "originality": 8.5, "fidelity": 9}
-        },
-    }
-    c.finish("out/post_image.png", meta)
-    print("rendered out/post_image.png")
+# main landmass, darkest value in frame
+coast = tilted_coast(824, 134, 0.34, SEED + 31)
+coast = k.wobble_pts(coast, amp=5.2, scale=6.0, seed=SEED + 32)
+k.poly(c, [(-40, D + 60)] + coast + [(880, D + 60)], fill=INK)
 
-if __name__ == "__main__":
-    try:
-        main()
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+# interior tonal banding, meso structure inside the big dark shape
+for bi, (yb, am, sl, tone) in enumerate([
+        (896, 70, 0.325, 0.19), (968, 50, 0.315, 0.34)]):
+    b = tilted_coast(yb, am, sl, SEED + 35 + bi, x1=840, scale=2.6, octaves=5)
+    k.poly(c, [(-40, D + 60)] + b + [(840, D + 60)],
+           fill=k.mix(INK, DEEP, tone))
+
+# --- land surface detail: mask off the coast polygon and work into it
+from PIL import ImageDraw as _ID
+_lm = Image.new("L", (D, D), 0)
+_ID.Draw(_lm).polygon([(-40, D + 60)] + [(int(x), int(y)) for x, y in coast]
+                      + [(880, D + 60)], fill=255)
+k.stipple(c, _lm, density=0.085, r=(0.5, 1.5),
+          color=k.mix(INK, DEEP, 0.55), seed=SEED + 51)
+k.stipple(c, _lm, density=0.030, r=(0.4, 1.0),
+          color=k.mix(DEEP, PAPER, 0.30), seed=SEED + 52)
+k.chips(c, 220, (-20, 700, 900, D), size=(2, 7),
+        colors=(k.mix(INK, DEEP, 0.62), k.mix(INK, PAPER, 0.10)),
+        seed=SEED + 53, mask_img=_lm)
+
+# surf debris riding the tideline, micro life where land meets water
+for i, (px, py) in enumerate(coast[::7]):
+    if rng.random() < 0.55:
+        rr = rng.uniform(0.8, 2.1)
+        k.circle(c, px + rng.uniform(-5, 5), py + rng.uniform(1, 9), rr,
+                 fill=k.mix(DEEP, PAPER, 0.42))
+
+# substation glyph at the Bernice Lake landfall — micro built detail
+sx, sy = 132, 858
+k.poly(c, [(sx, sy), (sx + 34, sy), (sx + 34, sy + 17), (sx, sy + 17)],
+       fill=k.mix(PAPER, WATER, 0.55))
+for i in range(4):
+    k.line(c, [(sx + 5 + i * 8, sy + 2), (sx + 5 + i * 8, sy + 15)],
+           k.mix(DEEP, INK, 0.5), width=1.2)
+# little pylon
+k.line(c, [(sx + 46, sy + 18), (sx + 46, sy - 12)], k.mix(PAPER, WATER, 0.5), width=1.4)
+k.line(c, [(sx + 39, sy - 8), (sx + 53, sy - 8)], k.mix(PAPER, WATER, 0.5), width=1.2)
+k.line(c, [(sx + 42, sy - 12), (sx + 50, sy - 12)], k.mix(PAPER, WATER, 0.5), width=1.2)
+
+# ======================================================= 10-12. claim parcel
+def lerp(a, b, t):
+    return lerp_pre(a, b, t)
+
+# dark halo stroke first — this is what keeps the accent alive in grayscale
+for i in range(4):
+    a, b = corners[i], corners[(i + 1) % 4]
+    k.line(c, [(a[0] + 2.0, a[1] + 2.4), (b[0] + 2.0, b[1] + 2.4)],
+           HALO, width=4.6)
+# the ruled claim edge
+for i in range(4):
+    a, b = corners[i], corners[(i + 1) % 4]
+    k.line(c, [a, b], ACCENT, width=2.5)
+
+# dimension ticks every ~42px, perpendicular, outward
+for i in range(4):
+    a, b = corners[i], corners[(i + 1) % 4]
+    seg = math.hypot(b[0] - a[0], b[1] - a[1])
+    ux, uy = (b[0] - a[0]) / seg, (b[1] - a[1]) / seg
+    nx, ny = -uy, ux
+    n_ticks = int(seg // 42)
+    for t in range(1, n_ticks + 1):
+        p = lerp(a, b, t / (n_ticks + 1))
+        k.line(c, [(p[0] + 2.0, p[1] + 2.4),
+                   (p[0] + nx * 7 + 2.0, p[1] + ny * 7 + 2.4)], HALO, width=3.0)
+        k.line(c, [p, (p[0] + nx * 7, p[1] + ny * 7)], ACCENT, width=1.6)
+
+# corner monuments — filled squares with a tick cross. Upper-left is FOCAL.
+for idx, (mx, my) in enumerate(corners):
+    r = 6.0 if idx != 0 else 7.5
+    k.poly(c, [(mx - r - 1.4, my - r + 1.6), (mx + r - 1.4, my - r + 1.6),
+               (mx + r - 1.4, my + r + 1.6), (mx - r - 1.4, my + r + 1.6)],
+           fill=HALO)
+    k.poly(c, [(mx - r, my - r), (mx + r, my - r),
+               (mx + r, my + r), (mx - r, my + r)], fill=ACCENT)
+    k.line(c, [(mx - r - 5, my), (mx + r + 5, my)], ACCENT, width=1.3)
+    k.line(c, [(mx, my - r - 5), (mx, my + r + 5)], ACCENT, width=1.3)
+
+# focal emphasis: a whisper of glow at the upper-left monument only
+k.glow(c, corners[0][0], corners[0][1], 62, ACCENT, alpha=34)
+
+# ============================================================ 13. mono labels
+def leader(p_from, p_to, color):
+    k.line(c, [(p_from[0] + 1.6, p_from[1] + 1.8),
+               (p_to[0] + 1.6, p_to[1] + 1.8)], HALO, width=2.6)
+    k.line(c, [p_from, p_to], color, width=1.3)
+
+# acreage, tagged off the lower edge into open water
+acre_edge = lerp(corners[3], corners[2], 0.30)
+acre_pt = (acre_edge[0] - 96, acre_edge[1] + 92)
+leader(acre_edge, acre_pt, ACCENT)
+k.chip(c, (acre_pt[0] - 6, acre_pt[1] + 4), "≈1,650 ACRES", k.mono(c, 16),
+       ACCENT, HALO, pad=8, anchor="ra", tracking=0.20)
+
+# what the instrument actually confers, tagged off the upper edge
+pr_edge = lerp(corners[0], corners[1], 0.26)
+pr_pt = (302.0, 452.0)
+leader(pr_edge, (pr_pt[0] + 150, pr_pt[1] + 16), ACCENT)
+k.chip(c, (pr_pt[0], pr_pt[1]), "PRIORITY ONLY · NO CONSTRUCTION RIGHT",
+       k.mono(c, 12), ACCENT, HALO, pad=8, anchor="la", tracking=0.15)
+
+# ============================================================ 14-15. finish
+k.grain(c, amount=6.0, seed=SEED + 41)
+k.vignette(c, strength=0.14, spread=1.40)
+
+# ================================================================== 16. type
+# Quiet zone is upper-left by construction (density ramp). Headline sits in it.
+hl1 = k.fraunces(c, 96, weight=900, opsz=144)
+hl2 = k.fraunces(c, 96, weight=900, opsz=144)
+k.text(c, (88, 104), "COOK INLET,", hl1, INK, anchor="la", tracking=0.012)
+k.text(c, (88, 202), "BANKED", hl2, ACCENT, anchor="la", tracking=0.012)
+
+k.text(c, (90, 322), "BEFORE ALASKA CAN OBJECT",
+       k.fraunces(c, 27, weight=600, opsz=72), INK,
+       anchor="la", tracking=0.055)
+
+k.text(c, (90, 372), "THE STACK · REGULATORY · 21 AUG 2026",
+       k.mono(c, 15), k.mix(INK, DEEP, 0.45), anchor="la", tracking=0.24)
+
+k.text(c, (992, 1006), "ALASKA.AI", k.fraunces(c, 30, weight=900, opsz=144),
+       PAPER, anchor="rs", tracking=0.045)
+
+k.polaris(c, 978, 96, r=13, color="#e8b23c", core="#fff3d2", halo=0.30)
+
+# ===================================================================== meta
+c.finish("out/post_image.png", {
+    "date": "21 AUG 2026",
+    "column": "The Stack",
+    "kicker": "THE STACK",
+    "middle_slot": "REGULATORY",
+    "byline": "",
+    "headline": "Cook Inlet, Banked / Before Alaska Can Object",
+    "style_family": "hydrographic_claim",
+    "palette": PALETTE,
+    "hue_family": "green",
+    "composition": "offset_parcel_drift",
+    "motifs": ["surveyed claim quadrilateral over open water",
+               "tidal current streamlines", "corner monuments and dimension ticks",
+               "Kenai shore sliver", "Bernice Lake substation glyph"],
+    "technique_stack": ["field", "warp", "angle_field", "streamlines",
+                        "stipple", "chips", "ridge_pts", "wobble_pts",
+                        "poly", "glow", "grain", "vignette", "polaris"],
+    "seed": SEED,
+    "eval_history": [{"iter": 1, "weighted": 6.72, "weakest": "craft", "note": "current read as RAIN not tide (quantized near-vertical angle field); wordmark invisible on dark landmass; straight vertical cut in coast; parcel interior dead flat fill"}, {"iter": 2, "weighted": 7.35, "weakest": "craft", "note": "rebuilt angle field as diagonal set-and-drift with large meanders + fine shear; parcel tint moved UNDER the current so water runs over the claim; braided/curled streamlines"}, {"iter": 3, "weighted": 7.9, "weakest": "craft", "note": "hand-rolled rotated label plates did not register with text rotation; replaced with kit chips + leader lines; fixed 'COOKINLET,' collapse from negative tracking"}, {"iter": 4, "weighted": 8.28, "weakest": "craft", "note": "PRIORITY chip was clipped by right canvas edge, moved into open-water band above parcel; coast slope shallowed and wobble raised to break the ruled look"}, {"iter": 5, "weighted": 8.45, "weakest": "detail", "note": "coast polygons run off the bottom edge, killing the vertical wall artifact; added broad low-contrast tonal sweeps to give the water body mass"}, {"iter": 6, "weighted": 8.565, "weakest": "craft", "note": "landmass was the last near-flat region; added stipple tooth, rock chips, tideline surf debris, stronger interior banding"}],
+    "eval_final": {"weighted": 8.565, "scores": {"concept": 8.5, "focal": 8.5, "composition": 8.5, "color": 8.5, "detail": 8.5, "craft": 8.5, "typography": 9, "originality": 8.5, "fidelity": 9}, "bar": 8.5, "passed": true, "note": "Above the 8.5 floor with no dimension below 7. Six iterations; the first render was well short and every pass was a targeted fix of the weakest dimension."},
+})
+print("wrote out/post_image.png")
