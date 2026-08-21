@@ -1,22 +1,56 @@
 {
+  "column": "The Stack",
+  "date": "2026-08-21",
+  "mechanism": "FERC preliminary permit site-banking under FPA sec. 4(f) / 16 U.S.C. 798, and the 18 CFR 4.32(e) deficiency-and-acceptance gate that manufactures the priority date",
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://www.adn.com/business-economy/2026/08/19/underwater-data-center-proposed-for-alaskas-cook-inlet-by-east-coast-company/",
+      "outlet": "Anchorage Daily News (Bella Biondini)",
+      "pub_date": "2026-08-19",
+      "story_title": "NEWS TRIGGER. DeepGreen Cook Inlet SPV LLC proposes a 100 MW underwater AI data center off Nikiski powered and cooled by Cook Inlet tides, with as many 350 underwater turbines and 66 'hives' housing AI servers. Source of the 18 June 2026 FERC deficiency letter, the Northwest Branch attribution, AEA CEO Curtis Thayer's statement that AEA had never heard of DeepGreen, and FERC spokesperson Celeste Miller's confirmation that the application is still under review. Quote re-verified against the live page by the mapper, which corrected two misquotes carried by the scout."
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://www.law.cornell.edu/cfr/text/18/4.32",
+      "outlet": "Cornell Legal Information Institute (18 CFR 4.32(e))",
+      "pub_date": "standing regulation",
+      "story_title": "CHOKEPOINT layer (Layer 2). Acceptance for filing, rejection and deficiency procedure. Vests the conformance judgment in the Director of the Office of Energy Projects, caps the preliminary-permit cure window at 45 days, and provides that a resubmitted application carries a NEW filing date for purposes of timeliness under 4.36 and competing applications under 4.37."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.law.cornell.edu/uscode/text/16/798",
+      "outlet": "Cornell Legal Information Institute (16 U.S.C. 798)",
+      "pub_date": "standing statute",
+      "story_title": "Layer 3, the asset. Preliminary permits issued for the sole purpose of maintaining priority of application for a license, term not exceeding four years, non-transferable, cancellable by Commission order."
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/18/4.81",
+      "outlet": "Cornell Legal Information Institute (18 CFR 4.81)",
+      "pub_date": "standing regulation",
+      "story_title": "Layer 1, the corridor claim. Contents of a preliminary permit application. Exhibit 1 project description, Exhibit 2 study plan, Exhibit 3 maps enclosing the proposed project boundary."
+    },
+    {
+      "url": "https://public-inspection.federalregister.gov/2023-19568.pdf?1694436347=",
+      "outlet": "FERC notice via Federal Register public inspection (Project No. 15317-000, Littoral Power Systems, Upper Cook Inlet Tidal Energy Project)",
+      "pub_date": "2023-09-05",
+      "story_title": "Layer 4, public notice and standing. Carries the verbatim statement that the sole purpose of a preliminary permit is priority to file, that it authorizes no land-disturbing activity or entry onto waters owned by others, and the 60-day intervention and competing-application deadline FERC has prescribed in this corridor. NOTE: this project number belongs to LITTORAL POWER SYSTEMS, a different applicant, and must never be attached to DeepGreen."
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/18/375.308",
+      "outlet": "Cornell Legal Information Institute (18 CFR 375.308)",
+      "pub_date": "standing regulation",
+      "story_title": "Layer 5, the contested/uncontested fork. Delegations to the Director, Office of Energy Projects, including appropriate action on uncontested applications for preliminary permits."
+    },
+    {
+      "url": "https://www.acquisition.gov/far/19.808-1",
+      "outlet": "Acquisition.gov (FAR 19.808-1)",
+      "pub_date": "standing regulation",
+      "story_title": "NOT USED IN THE POST. Fetched by the mapper to resolve a conflict between two scouts on the 8(a) sole-source justification threshold. FAR 19.808-1 states 30 million dollars with no DoD/civilian split, which falsified a contractor marketing page claiming 25M civilian / 100M defense and caused that candidate mechanism to be dropped. Recorded for audit."
+    },
+    {
+      "url": "https://www.poa.usace.army.mil/Portals/34/docs/regulatory/2026/RGP/POA-2013-00094-M1_RGP05_SPN.pdf",
+      "outlet": "USACE Alaska District, Special Public Notice POA-2013-00094-M1",
+      "pub_date": "2026-08-17",
+      "story_title": "NOT USED IN THE POST. The runner-up mechanism (North Slope RGP-05 wetland-fill fast lane, reissued unchanged through 31 Aug 2031). Re-verified in full by the mapper but dropped at the gate for failing the AI-tie requirement, since the 32-page instrument contains no reference to compute, data centers or AI and no compute applicant has filed a verification request. Recorded so the desk can pick it up the moment one does."
     }
-  ]
+  ],
+  "dropped_note": "Five other mechanisms were dropped at the accuracy gate this cycle. See out/stack_anatomy.json dropped_mechanisms for the full reasons."
 }
