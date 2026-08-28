@@ -1,85 +1,217 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
-  "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
+    "name": "The Anchorage utility capacity statement: AO 2026-27 / AMC Title 21 data center conditional-use gate",
+    "category": "facilities",
+    "category_label": "FACILITIES",
+    "one_line_definition": "Anchorage made data centers (defined as 20 MW or more at peak) a conditional use in industrial districts only, and made a written system-capacity statement from the serving electrical utility a mandatory component of the permit application, delegating the binding siting determination to a non-municipal member-owned cooperative that sits upstream of any public hearing.",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "what_happened": "“The larger it gets, the more detailed the analysis gets,” he explained. “That would determine if we have the ability to serve it or not.”",
+      "speaker": "Nathan Minnema, Chief Operating Officer, Golden Valley Electric Association",
+      "url": "https://www.alaskasnewssource.com/2026/08/28/alaska-municipal-league-confronts-alaskas-future-with-data-centers/",
+      "outlet": "Alaska's News Source (KTUU/KTVF)",
+      "pub_date": "2026-08-27",
+      "age_days": 1,
+      "verified_verbatim": true,
+      "corroborating_quote": "“We have a way of saying, ‘Does this work for the community or does it not?’” Klouda said. “I think that having that kind of framework in place is really important.”"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
+        "name": "L1 - Use classification (the Assembly's enabling act)",
+        "what_it_does": "Amends AMC Title 21 to make data centers a conditional use in the I-1 light industrial, I-2 heavy industrial and I-3 rural industrial districts, and no residential district, while waiving Planning and Zoning Commission review of the ordinance itself.",
+        "controlling_actor": "Anchorage Assembly (adopted 2026-03-27, 10-2; introduced by Assembly Vice Chair Brawley and Assembly Member Volland)",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.muni.org/Departments/Assembly/Documents/AO%202026-27.pdf",
+          "outlet": "Municipality of Anchorage",
+          "doc_type": "statute",
+          "tier": "primary"
+        },
+        "verified": true,
+        "verbatim_anchor": "“18. Data centers.” listed under I-1 conditional uses; “11. Data centers.” under I-2; title reads “...AND WAIVING PLANNING AND ZONING COMMISSION REVIEW.”"
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
+        "name": "L2 - Definition and threshold (who is captured)",
+        "what_it_does": "Sets the jurisdictional trigger at 20 MW and splits small/large at 2,000 servers; imposes a 200-foot setback from residential or noise-sensitive uses, waivable by the Director only for small data centers; aggregates geographically dispersed infrastructure under common ownership into a single facility.",
+        "controlling_actor": "Planning Department Director (holds the setback waiver and the mechanical-feasibility determination on equipment enclosure)",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.muni.org/Departments/Assembly/Documents/AO%202026-27.pdf",
+          "outlet": "Municipality of Anchorage",
+          "doc_type": "statute",
+          "tier": "primary"
+        },
+        "verified": true,
+        "verbatim_anchor": "“Data Center means facility or co-located facilities that house computer servers for processing and storing data and requires at least 20 megawatts of electrical demand at peak operation.” / “The Director may waive this requirement only for small data centers.”"
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
+        "name": "L3 - Electrical utility written statement (THE CHOKEPOINT)",
+        "what_it_does": "Makes a written statement from the serving electrical utility, demonstrating sufficient system capacity at peak demand, a mandatory component of the conditional use application whenever the facility connects to the grid. The ordinance provides no rebuttal path for a withheld or negative statement.",
+        "controlling_actor": "The serving electrical utility. In the Anchorage Bowl, Chugach Electric Association, an independent member-owned cooperative, not a municipal department",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.muni.org/Departments/Assembly/Documents/AO%202026-27.pdf",
+          "outlet": "Municipality of Anchorage",
+          "doc_type": "statute",
+          "tier": "primary"
+        },
+        "secondary_source_for_actor_identity": {
+          "url": "https://www.chugachelectric.com/about-us",
+          "outlet": "Chugach Electric Association",
+          "doc_type": "agency_page",
+          "tier": "primary",
+          "verbatim_anchor": "“Chugach is the largest member-owned electric cooperative in Alaska”; service territory “extends from Anchorage to the northern Kenai Peninsula”"
+        },
+        "verified": true,
+        "verbatim_anchor": "“If the facility requires connecting to and drawing power from the surrounding electrical grid, the application must include a written statement from the electrical utility or utilities demonstrating that there is sufficient system capacity to meet the facility’s projected demand at peak operation.”"
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
+        "name": "L4 - Wastewater utility statement and codified burden shift",
+        "what_it_does": "Requires a written statement from the wastewater utility on sewer capacity, and expressly empowers that utility to state that the discharge is likely to cause significant adverse impacts, which creates a presumption that an approval criterion is NOT met, overcome only by clear and convincing evidence before the commission.",
+        "controlling_actor": "The serving wastewater utility (as named in the ordinance text)",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+          "url": "https://www.muni.org/Departments/Assembly/Documents/AO%202026-27.pdf",
+          "outlet": "Municipality of Anchorage",
+          "doc_type": "statute",
+          "tier": "primary"
+        },
+        "verified": true,
+        "source_caveat": "AS-INTRODUCED TEXT ONLY, NOT CORROBORATED POST-ENACTMENT. Supporting color only. The writer must lead with L3.",
+        "verbatim_anchor": "“Such a statement by the wastewater utility creates a presumption that the approval criterion at 21.03.080D.7 is not met. This presumption may only be overcome by clear and convincing evidence presented to the commission.”"
+      },
+      {
+        "name": "L5 - Conditional use adjudication",
+        "what_it_does": "Hears the conditional use application and grants or denies it; may impose additional screening through the review. Requires a supermajority in effect: five affirmative votes regardless of how many commissioners are seated.",
+        "controlling_actor": "Anchorage Planning and Zoning Commission, nine citizens appointed by the Mayor",
+        "primary_source": {
+          "url": "https://www.muni.org/Departments/OCPD/Planning/zoning/selfHelp/Pages/CondUsePermits.aspx",
+          "outlet": "Municipality of Anchorage, Office of Community Planning and Development",
+          "doc_type": "agency_page",
+          "tier": "primary"
+        },
+        "verified": true,
+        "verbatim_anchor": "“No matter how many Commissioners are present it takes 5 yes votes to approve the conditional use permit.”"
+      },
+      {
+        "name": "L6 - State water appropriation (the off-grid path)",
+        "what_it_does": "Where a facility uses onsite water rather than the public system, cooling water becomes a state water-rights question: a significant appropriation requires a DNR permit, and appropriations above 5,000 gpd trigger public notice.",
+        "controlling_actor": "ADNR Division of Mining, Land and Water, Water Resources Section",
+        "primary_source": {
+          "url": "https://dnr.alaska.gov/mlw/water/rights/",
+          "outlet": "Alaska Department of Natural Resources",
+          "doc_type": "agency_page",
+          "tier": "primary"
+        },
+        "verified": true,
+        "verbatim_anchor": "“Public notice is required if the appropriation is greater than 5,000 gpd.”"
+      },
+      {
+        "name": "L7 - Appeal",
+        "what_it_does": "A denial is appealed by filing a notice of appeal with the Municipal Clerk, which sends the Commission's action to the Board of Adjustment for review.",
+        "controlling_actor": "Municipality of Anchorage Board of Adjustment (via the Municipal Clerk)",
+        "primary_source": {
+          "url": "https://www.muni.org/Departments/OCPD/Planning/zoning/selfHelp/Pages/CondUsePermits.aspx",
+          "outlet": "Municipality of Anchorage, Office of Community Planning and Development",
+          "doc_type": "agency_page",
+          "tier": "primary"
+        },
+        "verified": true,
+        "verbatim_anchor": "“File a notice of appeal with the Municipal Clerk’s office to have the Planning and Zoning Commission’s action reviewed by the Board of Adjustment.”",
+        "scout_claims_dropped": "The scouts' 20-day appeal clock and the 'strict legal review, not a re-hearing' standard do NOT appear on the fetched page and are excluded rather than asserted."
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "L3 - Electrical utility written statement",
+      "actor": "The serving electrical utility as an institutional role. In the Anchorage Bowl, Chugach Electric Association, an independent member-owned cooperative",
+      "binary_decision": "Issue, or withhold, a written statement demonstrating sufficient system capacity to meet the facility's projected demand at peak operation.",
+      "why_asymmetric": "It is a mandatory application component, not an approval criterion weighed in the balance: no statement, no complete application, no hearing. It sits entirely upstream of the visible five-vote Planning and Zoning hearing. It is held by a single non-municipal, unelected cooperative that no municipal body can override. It carries no published timeline. And decisively, the ordinance drafters knew how to write a rebuttal path when they wanted one, giving the wastewater presumption an express clear-and-convincing escape, but gave the electrical statement none at all."
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
+    "ak_consequence": {
+      "sector": "Data center and AI compute siting, and the utilities that serve it",
+      "decision_or_risk": "Any grid-connected data center of 20 MW or more proposed in Anchorage must obtain a written system-capacity statement from Chugach Electric Association before its conditional use application is even complete, a determination with no published timeline, no municipal override, and no rebuttal path in the code.",
+      "named_actor": "Chugach Electric Association (Anchorage); Golden Valley Electric Association plays the equivalent role in the Fairbanks template",
+      "timeframe": "In force now. The ordinance took effect on passage 2026-03-27; Mat-Su Borough still has no data-center regulation and FNSB's comprehensive plan is in draft, with the 2026-08-27 Alaska Municipal League conference in Fairbanks positioning Anchorage's ordinance as the statewide template."
+    },
+    "structural_read": "Anchorage built the gate before the applicants arrived, and in doing so it did something more consequential than zoning: it converted a private interconnection study into a precondition for a public land-use approval. The politically visible layer is the five-vote Planning and Zoning hearing, which is a committee and therefore not where leverage lives. The leverage lives in a load study performed by a member-owned cooperative that answers to its ratepayers, not to the Assembly, on no clock. The ordinance also writes its own escape: every utility-statement requirement is conditioned on connecting to the grid, the public water system, or the public sewer. A facility that generates behind the meter and runs closed-loop water triggers none of them. Anchorage has thus priced grid-connected compute and left off-grid compute comparatively unpriced, which is precisely the configuration the live Alaska proposals already favor. The binding constraint on Alaska compute is not zoning. It is interconnection, and the utility owns it.",
+    "forward_implication": {
+      "next_decision_point": "Model the grid-connect path against the behind-the-meter path explicitly for any Alaska compute siting decision, and treat the utility capacity statement, not the zoning hearing, as the schedule-driving milestone. For anyone drafting in Mat-Su or FNSB off the Anchorage template, the question to raise now is whether a withheld electrical statement gets any rebuttal path at all, since Anchorage gave one to wastewater and none to power.",
+      "date_or_window": "This week, while FNSB's comprehensive plan is still in draft and Mat-Su has no data-center rule on the books. The AML conference of 2026-08-27 opened the copying window.",
+      "who_is_positioned": "Developers with captive or behind-the-meter generation are positioned to bypass the chokepoint entirely; grid-dependent hyperscale entrants into Anchorage are exposed to an untimed Chugach load study with no appeal."
+    },
+    "confidence": "medium",
     "gate_results": {
-      "news_tie_pass": true,
-      "anatomizable_pass": true,
-      "per_layer_primary_source_pass": true,
-      "ak_consequence_pass": true,
-      "chokepoint_asymmetry_pass": true,
-      "mechanism_not_actor_pass": true,
-      "not_recent_repeat_pass": true
+      "news_tie_pass": {
+        "pass": true,
+        "reason": "KTUU story of 2026-08-27 fetched and confirmed 1 day old, inside the 14-day window; the Minnema and Klouda quotes were verified verbatim on the live page."
+      },
+      "anatomizable_pass": {
+        "pass": true,
+        "reason": "Seven distinguishable layers with distinct controlling actors, from Assembly enactment through utility statements and P&Z adjudication to Board of Adjustment appeal."
+      },
+      "per_layer_primary_source_pass": {
+        "pass": true,
+        "reason": "All seven layers rest on primary sources, the AO 2026-27 text itself, two Municipality agency pages, a DNR agency page, and Chugach's corporate page, each fetched and each confirming its layer's controlling actor."
+      },
+      "ak_consequence_pass": {
+        "pass": true,
+        "reason": "Grid-connected 20 MW or larger compute in Anchorage cannot complete a permit application without a Chugach Electric capacity statement, in force now, with Mat-Su and FNSB copying the template."
+      },
+      "chokepoint_asymmetry_pass": {
+        "pass": true,
+        "reason": "One non-municipal cooperative holds a mandatory-component binary upstream of the hearing, with no municipal override and, unlike the wastewater presumption, no rebuttal path written into the code."
+      },
+      "mechanism_not_actor_pass": {
+        "pass": true,
+        "reason": "Every layer is an institutional role. Replace every incumbent and the structure is unchanged; Brawley and Volland are historical sponsors, not load-bearing."
+      },
+      "not_recent_repeat_pass": {
+        "pass": true,
+        "reason": "Municipal land-use and utility-interconnection chain; not among the six prior anatomies nor the CMS or DAF EUL items."
+      }
     }
   },
+  "overlap_rule_applied": {
+    "finalists": [
+      "Candidate A - Anchorage data center conditional-use gate",
+      "Candidate B - 8(a) entity-owned sole-source track"
+    ],
+    "resolution": "Chokepoint asymmetry decided it. Both nominal chokepoints are single-actor, but asymmetry must be documented, not asserted. Candidate B's single-officer authority appears only in secondary law-firm text; SBA Policy Notice 6000-876995 was unreachable and 13 CFR 124.112 and 124.503 name no individual official, only 'SBA'. Candidate A's chokepoint is in primary code text. A wins.",
+    "category_choice": "The facilities framing locates leverage at the utility capacity statement; the regulatory framing locates it at the five-vote P&Z hearing, which is a committee and explicitly disqualified as a chokepoint. Leverage decides, so FACILITIES."
+  },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {
+      "name": "8(a) entity-owned sole-source track for Alaska Native Corporation subsidiaries",
+      "drop_reason": "missing_primary_source_per_layer",
+      "reason": "Lost the overlap tiebreak and independently fails the source gate at its chokepoint. SBA Policy Notice 6000-876995 was unreachable in primary form; the AA/GCBD sole-authorization language exists only in law-firm text; and 13 CFR 124.112 and 124.503 name no individual official, leaving a diffuse 'SBA' chokepoint. The statutory spine (43 U.S.C. 1626(e), 13 CFR 124.506(b), FAR 19.808-1, the FR rule) IS verified primary. Re-queue if the policy notice becomes retrievable on a .gov domain."
+    },
+    {
+      "name": "Cook Inlet gas-storage pore-space stack (DNR storage lease into RCA advance prudency)",
+      "drop_reason": "confabulation_risk",
+      "reason": "The verified Petroleum News trigger covers only the 3-2 RCA prudency denial; it does not mention DNR storage leases, the competing Enstar and Hilcorp applications, or data centers and AI. rca.alaska.gov 403'd, leaving Order U-26-0003(5) unfetched."
+    },
+    {
+      "name": "ADNR AS 38.05.070 negotiated 50-year lease, ADL 422741 STAK Energy Campus",
+      "drop_reason": "no_news_tie",
+      "reason": "No in-window story names ADL 422741. Crowther's AML remarks on cooling water do not name the mechanism. Filings are 6-15 weeks old, and it would repeat the ADNR land-disposal shape of issue 3."
+    },
+    {
+      "name": "Cook Inlet PowerLink non-federal cost-share gate (AEA / DOE Grid Deployment Office)",
+      "drop_reason": "missing_primary_source_per_layer",
+      "reason": "Two of four layers rest on the same AEA web page and the board packet PDFs are unfetchable."
+    },
+    {
+      "name": "FTA Ferry Service for Rural Communities Program NOFO-to-obligation chain (AMHS)",
+      "drop_reason": "confabulation_risk",
+      "reason": "Structurally sound with a real September 2026 contract-authority expiry, but the AI nexus is essentially absent, a roughly $4M operations-modernization line. Selecting it would require inflating an incidental IT line into an AI story."
+    },
+    {
+      "name": "AIDEA development-finance chain (Revolving Fund / Alaska Data Corporation LLC)",
+      "drop_reason": "no_news_tie",
+      "reason": "Trigger is 78 days old and from an advocacy outlet; the in-window 2026-08-26 board action concerned West Susitna infrastructure, not compute."
+    },
+    {
+      "name": "DeepGreen Cook Inlet underwater AI data center (ADN 2026-08-19)",
+      "drop_reason": "recent_repeat",
+      "reason": "Controlling layer is the FERC preliminary permit, already anatomized as issue 1."
+    }
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "no_target_this_cycle": false,
+  "window_used_days": 14,
+  "_validation_note": "REVERSAL ON RE-RUN, RECORDED IN FULL. The mapper's first pass returned no_target and dropped Candidate A on the ground that no source identified who makes the capacity determination. That was an ENVIRONMENTAL failure, not an evidentiary one: this container lacked poppler-utils, so AO 2026-27.pdf rendered as binary and the mapper fell back on a Davis Wright Tremaine analysis stating 'The text does not explicitly identify which entity makes the capacity determination.' The orchestrator installed poppler-utils and extracted the ordinance; it says it outright. The mapper then independently re-read the raw pdftotext output and confirmed each quote at its line number rather than trusting the orchestrator's evidence pack. VERSION CAVEAT: the recovered PDF header reads 'For reading: February 17, 2026' with a blank PASSED AND APPROVED block, so this is the AS-INTRODUCED text; enactment was 2026-03-27, 10-2. library.municode.com 403'd on two retries, so the codified enacted text could not be read. Post-enactment DWT independently corroborates the three provisions that carry the mechanism (20 MW threshold, 200-foot setback, capacity-demonstration requirement), so the chokepoint is double-sourced across introduced text and post-enactment analysis. The L4 wastewater clear-and-convincing burden flip rests on as-introduced text ALONE and is NOT corroborated; it is supporting color and the writer must lead with the L3 electrical statement. That single-sourcing is why confidence is medium rather than high. Further honesty notes: awwu.biz 403'd, so the identity and municipal status of Anchorage's wastewater utility was NOT verified and L4's actor is named only as 'the wastewater utility' exactly as the ordinance does; and the scouts' 20-day appeal clock and 'strict legal review' standard were dropped rather than asserted. Window used 14 days for the selected mechanism (trigger 1 day old); Candidate B was evaluated under the 21-day outer allowance and still failed."
 }
