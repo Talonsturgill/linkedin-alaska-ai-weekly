@@ -1,5 +1,8 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+draft_id:   r4124862535283149489
+message_id: 1a06ba29fd5beadd
+thread_id:  1a06ba29fd5beadd
+to:         docket@alaskaaihq.com
+subject:    Alaska.Ai — The Stack Draft — 2026-09-04
+image_url:  https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/0dae21250d9a10c9ca17a4e9e0e2084b7aa0fd10/out/post_image.png
+image_http: 200 verified before draft creation (content-type image/png, 1580994 bytes)
+ship_by:    2026-09-10 (federal scoping close)
