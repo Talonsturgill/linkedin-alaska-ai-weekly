@@ -43,7 +43,7 @@ BED_TOP = 900.0
 FEEDER_Y = 742.0        # the claimed feeder run, in open water
 FEEDER_END = 596.0      # where it simply stops
 GAP_X = 596.0
-MOUND_CX = 786.0
+MOUND_CX = 838.0
 
 ak.ensure_fonts()
 c = ak.Canvas(bg=PAPER, ss=2)
@@ -81,42 +81,59 @@ wd.rectangle(c.pts([(0, WATERLINE), (1080, BED_TOP)]), fill=255)
 ak.stipple(c, wmask, density=0.012, r=(0.6, 1.7),
            color=ak.lighten(WATER, 0.30), seed=SEED + 9)
 
+# slow current striations, meso structure through the open water
+for i in range(11):
+    yy = 336.0 + i * 46.0
+    pts = [(x, yy + 13 * math.sin(x / 210.0 + i * 0.7)
+            + 5 * math.sin(x / 63.0 + i)) for x in range(-10, 1092, 14)]
+    ak.line(c, pts, ak.mix(WATER_L, WATER, 0.22 + 0.05 * i), width=1)
+
 # ---------------------------------------------- 3. Nikiski shore + water
 land = [(-10, WATERLINE)]
 for x in range(0, 452, 12):
-    land.append((x, 262 - 16 * math.sin(x / 128.0) - 6 * math.sin(x / 33.0)))
+    land.append((x, 285 - 9 * math.sin(x / 128.0) - 4 * math.sin(x / 33.0)))
 land += [(452, WATERLINE), (-10, WATERLINE)]
 ak.poly(c, land, fill=LAND)
-# two tank farm cylinders on the shore, small
-for tx, tr in ((214, 15), (262, 12)):
-    ty = 250 - 16 * math.sin(tx / 128.0)
-    ak.poly(c, [(tx - tr, ty), (tx + tr, ty), (tx + tr, ty + 22),
-                (tx - tr, ty + 22)], fill=ak.darken(LAND, 0.22))
+for tx, tr in ((208, 11), (250, 9)):
+    ty = 278 - 9 * math.sin(tx / 128.0)
+    ak.poly(c, [(tx - tr, ty), (tx + tr, ty), (tx + tr, ty + 16),
+                (tx - tr, ty + 16)], fill=ak.darken(LAND, 0.24))
+ak.text(c, (470, 276), "NIKISKI", ak.mono(c, 12),
+        ak.mix(INK, PAPER, 0.50), anchor="la", tracking=0.20)
 wl = ak.wobble_pts([(x, WATERLINE) for x in range(-10, 1092, 16)],
                    amp=2.2, scale=9.0, seed=SEED + 2)
 ak.line(c, wl, ak.mix(INK, WATER_L, 0.40), width=2)
 
+# survey vessel at the surface
+vx = 806.0
+ak.poly(c, [(vx - 44, 300), (vx + 44, 300), (vx + 34, 282), (vx - 30, 282)],
+        fill=ak.mix(INK, PAPER, 0.20))
+ak.poly(c, [(vx - 14, 282), (vx + 12, 282), (vx + 12, 266), (vx - 14, 266)],
+        fill=ak.mix(INK, PAPER, 0.20))
+ak.line(c, [(vx + 6, 266), (vx + 6, 246)], ak.mix(INK, PAPER, 0.20), width=2)
+
 # ------------------------------------------------ 4. depth scale, left
 mono_xs = ak.mono(c, 12)
 for d_m, yy in ((0, WATERLINE), (40, 490), (80, 680), (120, 868)):
-    ak.line(c, [(34, yy), (58, yy)], ak.mix(INK, WATER_L, 0.42), width=2)
-    ak.text(c, (34, yy + 6), f"{d_m} M", mono_xs,
+    ak.line(c, [(66, yy), (90, yy)], ak.mix(INK, WATER_L, 0.42), width=2)
+    ak.text(c, (66, yy + 6), f"{d_m} M", mono_xs,
             ak.mix(INK, WATER_L, 0.46), anchor="la", tracking=0.16)
-ak.line(c, [(34, WATERLINE), (34, 868)], ak.mix(INK, WATER_L, 0.55), width=1)
+ak.line(c, [(66, WATERLINE), (66, 868)], ak.mix(INK, WATER_L, 0.55), width=1)
 
 # ------------------------------------------------------- 5. tidal rotors
-for i in range(4):
-    tx = 214.0 + i * 96.0
+for i, (tx, hy, rr) in enumerate(((196.0, 566.0, 62.0), (330.0, 632.0, 52.0),
+                                  (452.0, 690.0, 43.0), (556.0, 738.0, 35.0))):
     by = bed_y(tx)
-    col = ak.mix(INK, WATER_L, 0.34 + i * 0.05)
-    ak.poly(c, [(tx - 15, by), (tx + 15, by), (tx + 7, by - 52),
-                (tx - 7, by - 52)], fill=col)
-    hy = by - 62
+    col = ak.mix(INK, WATER_L, 0.26 + i * 0.09)
+    ak.poly(c, [(tx - 11, by), (tx + 11, by), (tx + 5, hy), (tx - 5, hy)],
+            fill=col)
+    ak.poly(c, [(tx - 26, by), (tx + 26, by), (tx + 20, by - 12),
+                (tx - 20, by - 12)], fill=ak.darken(col, 0.14))
     for k in range(3):
-        a = math.radians(-90 + k * 120 + i * 22)
-        ak.line(c, [(tx, hy), (tx + math.cos(a) * 30, hy + math.sin(a) * 30)],
-                col, width=4)
-    ak.circle(c, tx, hy, 5, fill=ak.darken(col, 0.2))
+        a = math.radians(-90 + k * 120 + i * 26)
+        ak.line(c, [(tx, hy), (tx + math.cos(a) * rr, hy + math.sin(a) * rr)],
+                col, width=max(3, int(rr / 11)))
+    ak.circle(c, tx, hy, rr * 0.13, fill=ak.darken(col, 0.24))
 
 # --------------------------------------------------------- 6. seabed band
 bed = [(x, bed_y(x)) for x in range(-10, 1092, 10)]
@@ -125,7 +142,7 @@ bedmask, bd = c.mask()
 bd.polygon(c.pts(bed + [(1092, 1090), (-10, 1090)]), fill=255)
 for cell in ak.voronoi_polys(n=130, seed=SEED + 4,
                              bbox=(-20, BED_TOP - 30, 1100, 1090), relax=1):
-    v = float(rng.uniform(-0.09, 0.12))
+    v = float(rng.uniform(-0.07, 0.07))
     ak.poly(c, cell, fill=(ak.lighten(SEABED, v) if v > 0
                            else ak.darken(SEABED, -v)),
             outline=ak.darken(SEABED, 0.12), width=1)
@@ -139,7 +156,7 @@ ak.chips(c, 80, (0, BED_TOP - 20, 1080, 1080), size=(3, 8),
 cab = [(x, cable_y(x)) for x in range(40, 1046, 8)]
 ak.line(c, cab, ak.lighten(INK, 0.50), width=13)
 ak.line(c, cab, INK, width=9)
-ak.line(c, [(x, y - 3.0) for x, y in cab], ak.lighten(INK, 0.46), width=2)
+ak.line(c, [(x, y - 3.4) for x, y in cab], ak.lighten(INK, 0.72), width=3)
 for ax in (150.0, 470.0, 596.0, 900.0):
     ay = cable_y(ax)
     ak.poly(c, [(ax - 14, ay - 13), (ax + 14, ay - 13),
@@ -194,9 +211,9 @@ ak.chip(c, (GAP_X + 40, (gy0 + gy1) / 2 - 12), "NO TIE-IN", mono_lbl,
 # blueprint callouts, both traceable to the dossier
 mono_c = ak.mono(c, 13)
 ak.text(c, (150, cable_y(150) + 40), "COOK INLET POWERLINK  ·  $400M",
-        mono_c, ak.lighten(SEABED, 0.62), anchor="la", tracking=0.18)
-ak.text(c, (MOUND_CX, top_hive_y - 46), "DEEPGREEN  ·  100 MW  ·  PROPOSED",
-        mono_c, ak.mix(WATER_L, INK, 0.30), anchor="ma", tracking=0.18)
+        mono_c, ak.lighten(SEABED, 0.78), anchor="la", tracking=0.18)
+ak.text(c, (MOUND_CX, top_hive_y - 48), "DEEPGREEN  ·  100 MW  ·  PROPOSED",
+        mono_c, ak.lighten(WATER_L, 0.55), anchor="ma", tracking=0.18)
 
 # ------------------------------------------------------- 10. typography
 h1, h2 = "AEA Never Got the Call", "The Filing Said Otherwise"
@@ -246,6 +263,10 @@ c.finish("out/post_image.png", {
         {"iter": 1, "weighted": 5.6, "weakest": "concept",
          "note": "spur arced over the cable and read as a crossing; two "
                  "soft_panel blur smudges; flat water acreage"}
+        {"iter": 2, "weighted": 7.1, "weakest": "detail",
+         "note": "gap read correctly, but motto collided with the shore, "
+                 "labels ran dark-on-dark, depth scale sat inside the edge "
+                 "margin, and the upper water was empty acreage"}
     ],
     "eval_final": {},
 })
