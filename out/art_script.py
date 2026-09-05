@@ -1,230 +1,294 @@
-"""The Stack — 2026-07-24 — bespoke cover.
-Concept: two valves in series on a conduit rising from an AI-pinned
-critical-mineral ore body. Value reaches the surface only if BOTH
-valves open (NSF TIP money key + NANA ground key). style_family
-geologic_engraving; hue green + copper ore focal; composition
-bilateral_gate. SEED 724.
+"""Anchorage Desk — 4 SEP 2026 — cover art.
+
+Concept: a drafted connection that does not touch the thing it claims to
+touch. An annotated section of Cook Inlet. The Cook Inlet PowerLink cable
+lies solid and continuous on the seabed. A dashed red feeder runs out from
+DeepGreen's server hive field toward it and simply terminates in open water.
+A drafting dimension measures the distance it never closed.
+
+Style family: halftone_section (halftone_pop x blueprint annotation grammar).
+Composition: horizon_band. Hue family: red.
+Iteration 2. Iter 1 failed on Concept (the spur arced over the cable and read
+as a crossing, not a gap) and Craft (two soft_panel blur smudges).
 """
-import sys, math, traceback
+import math
+import sys
+
 sys.path.insert(0, ".claude/skills/alaska-ai-artwork")
-import art_kit as k
-from PIL import Image, ImageDraw
 
-SEED = 724
+import numpy as np  # noqa: E402
+import art_kit as ak  # noqa: E402
 
-def dashed(c, p0, p1, color, width=2, dash=15, gap=11, d=None):
-    x0, y0 = p0; x1, y1 = p1
-    ln = math.hypot(x1 - x0, y1 - y0)
-    if ln < 1: return
-    ux, uy = (x1 - x0) / ln, (y1 - y0) / ln
-    t = 0.0
-    while t < ln:
-        a = (x0 + ux * t, y0 + uy * t)
-        t2 = min(ln, t + dash)
-        b = (x0 + ux * t2, y0 + uy * t2)
-        k.line(c, [a, b], color, width, d=d)
-        t += dash + gap
+SEED = 4192
 
-def valve(c, vx, vy, r, rim, spoke, hub, dark):
-    # handwheel: outer ring, spokes, hub
-    k.circle(c, vx, vy, r, outline=dark, width=6)
-    k.circle(c, vx, vy, r * 0.86, outline=rim, width=4)
-    for i in range(6):
-        a = math.radians(i * 60 + 8)
-        k.line(c, [(vx + math.cos(a) * r * 0.16, vy + math.sin(a) * r * 0.16),
-                   (vx + math.cos(a) * r * 0.84, vy + math.sin(a) * r * 0.84)],
-               spoke, width=5)
-    k.circle(c, vx, vy, r * 0.20, fill=hub)
-    k.circle(c, vx, vy, r * 0.20, outline=dark, width=3)
+# --------------------------------------------------- palette (paper + 5)
+PAPER = "#efe7d8"
+WATER = "#6f7378"   # halftone ink for the water column
+SEABED = "#2f3236"
+INK = "#17191c"
+HIVE = "#9aa0a6"
+RED = "#c02a1f"
+GOLD = "#ffc72c"    # polaris colophon only, not a compositional ink
 
-def main():
-    c = k.Canvas(bg="#e7efe5", ss=2)
+PALETTE = [PAPER, WATER, SEABED, INK, HIVE, RED]
 
-    # ---- palette (OKLCH; dominant green, warm copper focal) ----
-    paper   = k.oklch(0.93, 0.030, 155)   # pale mint sky/light
-    sky_lo  = k.oklch(0.80, 0.045, 176)   # teal-green above ground
-    ground_line_col = k.oklch(0.42, 0.045, 160)
-    strata_light = k.oklch(0.65, 0.052, 158)
-    strata_deep  = k.oklch(0.235, 0.042, 158)
-    seam    = k.oklch(0.30, 0.040, 158)
-    ink     = k.oklch(0.17, 0.030, 158)
-    metal   = k.oklch(0.74, 0.030, 165)   # pale metallic for valve rims
-    ore     = k.oklch(0.72, 0.150, 62)     # copper focal accent
-    ore_hi  = k.oklch(0.86, 0.110, 78)
-    ore_dk  = k.oklch(0.46, 0.130, 52)
-    NB = 6
-    GY = 470.0
+# derived tints, not separate inks
+AIR_D = ak.darken(PAPER, 0.06)
+WATER_L = ak.mix(PAPER, SEABED, 0.30)
+LAND = ak.mix(INK, PAPER, 0.26)
 
-    # ---- 1-2 sky ----
-    k.gradient_v(c, (0, 0, 1080, GY + 6), paper, sky_lo, ease=1.25)
+# ------------------------------------------------------------- geometry
+WATERLINE = 300.0
+BED_TOP = 900.0
+FEEDER_Y = 742.0        # the claimed feeder run, in open water
+FEEDER_END = 596.0      # where it simply stops
+GAP_X = 596.0
+MOUND_CX = 838.0
 
-    # ---- 3 subsurface deep base ----
-    k.poly(c, [(0, GY), (1080, GY), (1080, 1080), (0, 1080)], fill=strata_deep)
+ak.ensure_fonts()
+c = ak.Canvas(bg=PAPER, ss=2)
+rng = np.random.default_rng(SEED)
 
-    # ---- 4 strata bands (ridge_fill stacking: light near surface -> dark deep) ----
-    bounds = [GY, 556, 640, 726, 818, 918, 1080]
-    band_cols = k.ramp([strata_light, strata_deep], NB)
-    for i in range(NB):
-        pts = k.ridge_pts(bounds[i], amp=15, scale=2.4, octaves=4, seed=SEED + i * 7)
-        poly_pts = [(pts[0][0], 1080)] + pts + [(pts[-1][0], 1080)]
-        k.poly(c, poly_pts, fill=band_cols[i])
-        # thin seam line along the band top
-        k.line(c, pts, seam, width=2)
 
-    # ---- 4b voronoi fracture seams (meso structure inside the ground) ----
-    cells = k.voronoi_polys(n=74, seed=SEED, bbox=(-40, GY + 8, 1120, 1080), relax=1)
-    seamlay, sd = c.layer()
-    for cell in cells:
-        if len(cell) >= 3:
-            sd.line(c.pts(cell + [cell[0]]), fill=(*k.hex_to_rgb(seam), 90),
-                    width=max(1, int(c.s(1.1))), joint="curve")
-    c.composite(seamlay)
+def bed_y(x):
+    return BED_TOP + 13.0 * math.sin(x / 190.0) + 6.0 * math.sin(x / 61.0)
 
-    # ---- 5 engraving hatch over subsurface (denser deep) ----
-    m_top, dtop = c.mask()
-    dtop.rectangle([0, c.s(GY), c.W, c.s(760)], fill=255)
-    k.hatch(c, m_top, spacing=17, angle=-16, color=seam, width=1.0)
-    m_deep, ddeep = c.mask()
-    ddeep.rectangle([0, c.s(740), c.W, c.W], fill=255)
-    k.hatch(c, m_deep, spacing=11, angle=-16, color=k.darken(seam, 0.05), width=1.2)
 
-    # ---- 6 dark collar around ore ----
-    OX, OY = 540.0, 832.0
-    collar = k.blob_pts(OX, OY, 210, wobble=0.10, harmonics=(1, 2, 3), points=150, seed=SEED + 3)
-    k.poly(c, collar, fill=strata_deep)
-    collar2 = k.blob_pts(OX, OY, 150, wobble=0.12, harmonics=(1, 2, 3, 5), points=150, seed=SEED + 4)
-    k.poly(c, collar2, fill=k.darken(strata_deep, 0.03))
+def cable_y(x):
+    return bed_y(x) - 15.0
 
-    # ---- 7 conduit channel (ore -> surface) ----
-    CX = 540.0
-    k.poly(c, [(CX - 15, GY), (CX + 15, GY), (CX + 12, OY - 10), (CX - 12, OY - 10)],
-           fill=k.mix(strata_deep, metal, 0.22))
-    k.hand_line(c, [(CX - 15, GY), (CX - 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 5)
-    k.hand_line(c, [(CX + 15, GY), (CX + 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 6)
-    # surface manifold cap
-    k.poly(c, [(CX - 40, GY - 12), (CX + 40, GY - 12), (CX + 40, GY + 6), (CX - 40, GY + 6)],
-           fill=metal, outline=ink, width=3)
 
-    # ---- 8 ore body: glow + lens + vein tendrils + sparkle ----
-    k.glow(c, OX, OY, 190, ore, alpha=70)
-    k.glow(c, OX, OY, 120, ore_hi, alpha=70)
-    lens = k.blob_pts(OX, OY, 104, wobble=0.12, harmonics=(1, 2, 3), points=160, seed=SEED + 8)
-    k.poly(c, lens, fill=ore)
-    lens_hi = k.blob_pts(OX - 14, OY - 16, 56, wobble=0.13, harmonics=(1, 2, 3), points=140, seed=SEED + 9)
-    k.poly(c, lens_hi, fill=ore_hi)
-    # internal crystalline facet lines (nose-length structure)
-    for fa in [(-60, -30, 70, 40), (30, -50, -40, 55), (-20, 20, 60, -60)]:
-        k.line(c, [(OX + fa[0], OY + fa[1]), (OX + fa[2], OY + fa[3])],
-               k.mix(ore_hi, ore, 0.4), width=2)
-    # vein tendrils out of the lens (irregular, thin, veinlike — not a burst)
-    tangles = [18, 74, 129, 196, 251, 312]
-    for i, deg in enumerate(tangles):
-        a = math.radians(deg)
-        r0 = 92; r1 = 92 + 26 + (i % 3) * 18
-        mid = ((OX + math.cos(a) * (r0 + r1) / 2 + (12 if i % 2 else -10)),
-               (OY + math.sin(a) * (r0 + r1) / 2))
-        k.hand_line(c, [(OX + math.cos(a) * r0, OY + math.sin(a) * r0), mid,
-                        (OX + math.cos(a) * r1, OY + math.sin(a) * r1)],
-                    ore_dk, width=2, amp=2.6, seed=SEED + 20 + i)
-    # ore sparkle micro
-    m_ore, mo = c.mask()
-    mo.polygon(c.pts(lens), fill=255)
-    k.stipple(c, m_ore, density=0.16, r=(0.7, 1.7), color=ore_hi, seed=SEED + 30)
-    k.chips(c, 46, (OX - 150, OY - 150, OX + 150, OY + 150),
-            size=(2.5, 6.5), colors=(ore_hi, ore, ore_dk), seed=SEED + 31)
+# --------------------------------------------------------- 1. air + sea
+ak.gradient_v(c, (0, 0, 1080, WATERLINE), PAPER, AIR_D, ease=1.7)
+ak.gradient_v(c, (0, WATERLINE, 1080, BED_TOP + 30), WATER_L,
+              ak.mix(WATER_L, SEABED, 0.62), ease=1.10)
 
-    # ---- 9 valves in series + stems + node chips ----
-    VA = (CX, 690.0)   # lower / deeper valve  -> stem LEFT to NSF TIP
-    VB = (CX, 556.0)   # upper valve           -> stem RIGHT to NANA
-    # stems
-    k.hand_line(c, [VA, (300, 690)], ink, width=4, amp=1.2, seed=SEED + 40)
-    k.hand_line(c, [VB, (792, 556)], ink, width=4, amp=1.2, seed=SEED + 41)
-    valve(c, VA[0], VA[1], 46, metal, ink, ore, ink)
-    valve(c, VB[0], VB[1], 46, metal, ink, ore, ink)
+# --------------------------------------------- 2. halftone water column
+noise = ak.warp(ak.field(scale=3.0, octaves=5, seed=SEED), strength=54.0,
+                scale=2.2, seed=SEED + 1)
+rows = np.arange(1080, dtype=float)
+depth = np.clip((rows - WATERLINE) / (BED_TOP - WATERLINE), 0.0, 1.0)
+bands = 0.5 + 0.5 * np.sin(rows / 26.0)          # current striation, meso
+f_water = np.clip(0.06 + 0.50 * depth[:, None]
+                  + 0.17 * (noise - 0.5)
+                  + 0.07 * bands[:, None] * depth[:, None], 0, 1)
+ak.halftone(c, f_water, cell=8.0, ink=WATER, angle=17.0, max_r=0.56,
+            region=(0, WATERLINE + 2, 1080, BED_TOP + 26))
 
-    # ---- 10 AI reticle: sightlines from the right sky converge on the wellhead,
-    #        kept clear of the headline/kicker; plumb drops to the ore ----
-    TGT = (CX + 6, GY - 4)
-    for p in [(772, 306), (872, 328), (972, 356)]:
-        dashed(c, p, TGT, k.mix(ink, sky_lo, 0.34), width=2, dash=16, gap=12)
-    dashed(c, TGT, (CX, OY - 96), ore_dk, width=2, dash=14, gap=10)
-    k.circle(c, TGT[0], TGT[1], 15, outline=ink, width=3)
-    k.line(c, [(TGT[0] - 24, TGT[1]), (TGT[0] + 24, TGT[1])], ink, width=2)
-    k.line(c, [(TGT[0], TGT[1] - 24), (TGT[0], TGT[1] + 24)], ink, width=2)
+# suspended particulate, micro
+wmask, wd = c.mask()
+wd.rectangle(c.pts([(0, WATERLINE), (1080, BED_TOP)]), fill=255)
+ak.stipple(c, wmask, density=0.012, r=(0.6, 1.7),
+           color=ak.lighten(WATER, 0.30), seed=SEED + 9)
 
-    # ---- 11 grain finish (restrained) ----
-    k.grain(c, amount=6.0, seed=SEED)
+# slow current striations, meso structure through the open water
+for i in range(11):
+    yy = 336.0 + i * 46.0
+    pts = [(x, yy + 13 * math.sin(x / 210.0 + i * 0.7)
+            + 5 * math.sin(x / 63.0 + i)) for x in range(-10, 1092, 14)]
+    ak.line(c, pts, ak.mix(WATER_L, WATER, 0.22 + 0.05 * i), width=1)
 
-    # ---- 12 type ----
-    # eyebrow
-    eb = k.fraunces(c, 30, weight=650, opsz=40)
-    k.text(c, (86, 96), "ALASKA’S MINERAL ENGINE", eb,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.02)
-    # big headline
-    hcol = k.ensure_contrast(ink, paper)
-    s1 = k.fit_size(c, "RUNS ON", 560, lo=70, hi=150, weight=900, opsz=144)
-    f1 = k.fraunces(c, s1, weight=900, opsz=144)
-    k.text(c, (84, 132), "RUNS ON", f1, hcol, anchor="la")
-    s2 = k.fit_size(c, "TWO KEYS", 600, lo=70, hi=168, weight=900, opsz=144)
-    f2 = k.fraunces(c, s2, weight=900, opsz=144)
-    k.text(c, (84, 132 + s1 * 0.96), "TWO KEYS", f2, ore_dk, anchor="la")
+# ---------------------------------------------- 3. Nikiski shore + water
+land = [(-10, WATERLINE)]
+for x in range(0, 452, 12):
+    land.append((x, 285 - 9 * math.sin(x / 128.0) - 4 * math.sin(x / 33.0)))
+land += [(452, WATERLINE), (-10, WATERLINE)]
+ak.poly(c, land, fill=LAND)
+for tx, tr in ((208, 11), (250, 9)):
+    ty = 278 - 9 * math.sin(tx / 128.0)
+    ak.poly(c, [(tx - tr, ty), (tx + tr, ty), (tx + tr, ty + 16),
+                (tx - tr, ty + 16)], fill=ak.darken(LAND, 0.24))
+ak.text(c, (470, 276), "NIKISKI", ak.mono(c, 12),
+        ak.mix(INK, PAPER, 0.50), anchor="la", tracking=0.20)
+wl = ak.wobble_pts([(x, WATERLINE) for x in range(-10, 1092, 16)],
+                   amp=2.2, scale=9.0, seed=SEED + 2)
+ak.line(c, wl, ak.mix(INK, WATER_L, 0.40), width=2)
 
-    # kicker
-    kf = k.mono(c, 18, medium=True)
-    k.text(c, (86, 132 + s1 * 0.96 + s2 * 1.02 + 20),
-           "THE STACK · VEHICLES · 24 JUL 2026", kf,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.20)
+# survey vessel at the surface
+vx = 806.0
+ak.poly(c, [(vx - 44, 300), (vx + 44, 300), (vx + 34, 282), (vx - 30, 282)],
+        fill=ak.mix(INK, PAPER, 0.20))
+ak.poly(c, [(vx - 14, 282), (vx + 12, 282), (vx + 12, 266), (vx - 14, 266)],
+        fill=ak.mix(INK, PAPER, 0.20))
+ak.line(c, [(vx + 6, 266), (vx + 6, 246)], ak.mix(INK, PAPER, 0.20), width=2)
 
-    # valve labels (chips)
-    lf = k.mono(c, 17, medium=True)
-    k.chip(c, (296, 690), "NSF TIP · $15M", lf, paper, ink, pad=9, anchor="ra")
-    k.chip(c, (796, 556), "NANA · GROUND", lf, paper, ink, pad=9, anchor="la")
-    # option tag: the $160M tranche above the valves (legible ghost chip)
-    of = k.mono(c, 16, medium=True)
-    k.chip(c, (470, 502), "$160M · OPTION", of, ink, strata_light, pad=8, anchor="ra")
+# ------------------------------------------------ 4. depth scale, left
+mono_xs = ak.mono(c, 12)
+for d_m, yy in ((0, WATERLINE), (40, 490), (80, 680), (120, 868)):
+    ak.line(c, [(60, yy), (88, yy)], ak.mix(INK, WATER_L, 0.42), width=2)
+    ak.text(c, (96, yy - 8), f"{d_m} M", mono_xs,
+            ak.mix(INK, WATER_L, 0.46), anchor="la", tracking=0.16)
+ak.line(c, [(60, WATERLINE), (60, 868)], ak.mix(INK, WATER_L, 0.55), width=1)
 
-    # wordmark chip + polaris colophon
-    wf = k.fraunces(c, 27, weight=900, opsz=40)
-    k.chip(c, (84, 1006), "ALASKA.AI", wf, paper, ink, pad=11, anchor="ls")
-    k.polaris(c, 986, 118, r=13, color=ore, core=ore_hi)
+# ------------------------------------------------------- 5. tidal rotors
+# Squat, seabed-mounted, ducted horizontal-axis machines. Deliberately not
+# wind-turbine silhouettes: gravity base, short column, ducted rotor ring.
+for i, tx in enumerate((186.0, 318.0, 434.0, 528.0)):
+    by = bed_y(tx)
+    sc = 1.0 - i * 0.16
+    col = ak.mix(INK, WATER_L, 0.30 + i * 0.10)
+    hy = by - 74 * sc
+    # gravity base
+    ak.poly(c, [(tx - 42 * sc, by), (tx + 42 * sc, by), (tx + 26 * sc, by - 16 * sc),
+                (tx - 26 * sc, by - 16 * sc)], fill=ak.darken(col, 0.16))
+    # column
+    ak.poly(c, [(tx - 9 * sc, by - 14 * sc), (tx + 9 * sc, by - 14 * sc),
+                (tx + 7 * sc, hy), (tx - 7 * sc, hy)], fill=col)
+    # ducted rotor ring, seen slightly off-axis
+    rr = 40 * sc
+    ak.circle(c, tx, hy, rr, outline=col, width=max(4, int(9 * sc)))
+    ak.circle(c, tx, hy, rr * 0.80, outline=ak.lighten(col, 0.26),
+              width=max(2, int(3 * sc)))
+    for k in range(3):
+        a = math.radians(28 + k * 120 + i * 24)
+        ak.line(c, [(tx, hy), (tx + math.cos(a) * rr * 0.74,
+                               hy + math.sin(a) * rr * 0.74)],
+                ak.lighten(col, 0.14), width=max(3, int(6 * sc)))
+    ak.circle(c, tx, hy, rr * 0.17, fill=ak.darken(col, 0.26))
+    # flow chevrons, the tide doing the work
+    for j in range(2):
+        cx0 = tx - rr - 34 - j * 20
+        ak.line(c, [(cx0, hy - 13), (cx0 + 12, hy), (cx0, hy + 13)],
+                ak.lighten(col, 0.34), width=2)
 
-    meta = {
-        "date": "24 JUL 2026", "column": "The Stack", "kicker": "THE STACK",
-        "middle_slot": "VEHICLES",
-        "headline": "Alaska’s Mineral Engine Runs On Two Keys",
-        "byline": "",
-        "style_family": "geologic_engraving",
-        "palette": [paper, sky_lo, strata_light, strata_deep, ink, metal, ore],
-        "hue_family": "green",
-        "composition": "bilateral_gate",
-        "motifs": ["critical-mineral ore body", "two series valves",
-                   "AI triangulation reticle", "geologic strata cross-section",
-                   "subsurface conduit"],
-        "technique_stack": ["gradient_v", "ridge_fill", "voronoi_polys",
-                            "hatch", "glow", "stipple", "chips", "hand_line",
-                            "grain"],
-        "seed": SEED,
-        "eval_history": [
-            {"iter": 1, "weighted": 8.13, "weakest": "craft",
-             "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"},
-            {"iter": 2, "weighted": 8.60, "weakest": "detail",
-             "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"},
-            {"iter": 3, "weighted": 8.73, "weakest": "typography",
-             "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"}
-        ],
-        "eval_final": {
-            "weighted": 8.73,
-            "scores": {"concept": 9, "focal": 9, "composition": 8.5,
-                       "color": 8.5, "detail": 8.5, "craft": 9,
-                       "typography": 8.5, "originality": 8.5, "fidelity": 9}
-        },
-    }
-    c.finish("out/post_image.png", meta)
-    print("rendered out/post_image.png")
+# --------------------------------------------------------- 6. seabed band
+bed = [(x, bed_y(x)) for x in range(-10, 1092, 10)]
+ak.poly(c, bed + [(1092, 1090), (-10, 1090)], fill=SEABED)
+bedmask, bd = c.mask()
+bd.polygon(c.pts(bed + [(1092, 1090), (-10, 1090)]), fill=255)
+for cell in ak.voronoi_polys(n=130, seed=SEED + 4,
+                             bbox=(-20, BED_TOP - 30, 1100, 1090), relax=1):
+    v = float(rng.uniform(-0.07, 0.07))
+    ak.poly(c, cell, fill=(ak.lighten(SEABED, v) if v > 0
+                           else ak.darken(SEABED, -v)),
+            outline=ak.darken(SEABED, 0.12), width=1)
+ak.stipple(c, bedmask, density=0.05, r=(0.7, 1.9),
+           color=ak.lighten(SEABED, 0.18), seed=SEED + 5)
+ak.chips(c, 80, (0, BED_TOP - 20, 1080, 1080), size=(3, 8),
+         colors=(ak.lighten(SEABED, 0.24), ak.darken(SEABED, 0.16)),
+         seed=SEED + 6, mask_img=bedmask)
 
-if __name__ == "__main__":
-    try:
-        main()
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+# ------------------------------------------- 7. the PowerLink cable (real)
+cab = [(x, cable_y(x)) for x in range(40, 1046, 8)]
+ak.line(c, cab, ak.lighten(INK, 0.50), width=13)
+ak.line(c, cab, INK, width=9)
+ak.line(c, [(x, y - 3.4) for x, y in cab], ak.lighten(INK, 0.72), width=3)
+for ax in (150.0, 470.0, 596.0, 900.0):
+    ay = cable_y(ax)
+    ak.poly(c, [(ax - 14, ay - 13), (ax + 14, ay - 13),
+                (ax + 11, ay + 14), (ax - 11, ay + 14)],
+            fill=ak.darken(INK, 0.06), outline=ak.lighten(INK, 0.38), width=1)
+
+# ------------------------------------------------- 8. DeepGreen hive field
+hexes = []
+for row in range(4):
+    n = 9 - row * 2
+    for i in range(n):
+        hexes.append((MOUND_CX + (i - (n - 1) / 2.0) * 34.0,
+                      bed_y(MOUND_CX) - 16.0 - row * 27.0, row))
+for hx, hy, row in hexes:
+    r = 17.0
+    pts = [(hx + math.cos(math.radians(60 * k - 30)) * r,
+            hy + math.sin(math.radians(60 * k - 30)) * r * 0.84)
+           for k in range(6)]
+    ak.poly(c, pts, fill=ak.lighten(HIVE, 0.04 * row),
+            outline=ak.darken(HIVE, 0.42), width=2)
+    ak.poly(c, [(hx - 8, hy - 5), (hx + 8, hy - 5), (hx + 8, hy - 1),
+                (hx - 8, hy - 1)], fill=ak.darken(HIVE, 0.30))
+    if row >= 2:
+        ak.circle(c, hx + 6, hy + 5, 2.0, fill=ak.lighten(HIVE, 0.45))
+
+# --------------------------------- 9. the claimed feeder, and the gap
+riser_x = MOUND_CX - 68.0
+top_hive_y = bed_y(MOUND_CX) - 16.0 - 3 * 27.0
+run = [(riser_x, top_hive_y - 6), (riser_x, FEEDER_Y), (FEEDER_END, FEEDER_Y)]
+# dashed, hand-drawn: this line exists only on paper
+pathpts = []
+for a, b in zip(run[:-1], run[1:]):
+    n = int(math.hypot(b[0] - a[0], b[1] - a[1]) / 9.0) + 1
+    pathpts += [(a[0] + (b[0] - a[0]) * i / n, a[1] + (b[1] - a[1]) * i / n)
+                for i in range(n)]
+pathpts.append(run[-1])
+for i in range(0, len(pathpts) - 1, 2):
+    ak.line(c, [pathpts[i], pathpts[i + 1]], RED, width=5)
+ak.circle(c, FEEDER_END, FEEDER_Y, 8.0, outline=RED, width=4)
+
+# the dimension that never closed. focal point.
+gy0, gy1 = FEEDER_Y + 12.0, cable_y(GAP_X) - 15.0
+ak.line(c, [(GAP_X, gy0), (GAP_X, gy1)], RED, width=3)
+for yy, s in ((gy0, 1), (gy1, -1)):
+    ak.poly(c, [(GAP_X, yy), (GAP_X - 8, yy + 15 * s), (GAP_X + 8, yy + 15 * s)],
+            fill=RED)
+    ak.line(c, [(GAP_X - 26, yy), (GAP_X + 26, yy)], RED, width=3)
+mono_lbl = ak.mono(c, 17, medium=True)
+ak.chip(c, (GAP_X + 40, (gy0 + gy1) / 2 - 12), "NO TIE-IN", mono_lbl,
+        PAPER, RED, pad=9, anchor="la", tracking=0.20, radius=4)
+
+# blueprint callouts, both traceable to the dossier
+mono_c = ak.mono(c, 13)
+ak.text(c, (150, cable_y(150) + 40), "COOK INLET POWERLINK  ·  $400M",
+        mono_c, ak.lighten(SEABED, 0.78), anchor="la", tracking=0.18)
+ak.text(c, (MOUND_CX, top_hive_y - 86), "DEEPGREEN  ·  100 MW  ·  PROPOSED",
+        mono_c, ak.lighten(WATER_L, 0.55), anchor="ma", tracking=0.18)
+
+# ------------------------------------------------------- 10. typography
+h1, h2 = "AEA Never Got the Call", "The Filing Said Otherwise"
+size = min(ak.fit_size(c, h1, 610, hi=112, weight=900, opsz=144),
+           ak.fit_size(c, h2, 610, hi=112, weight=900, opsz=144))
+fh = ak.fraunces(c, size, weight=900, opsz=144)
+ak.text(c, (84, 74), h1, fh, INK, anchor="la")
+ak.text(c, (84, 74 + size * 1.06), h2, fh, ak.mix(INK, PAPER, 0.30),
+        anchor="la")
+kick = ak.mono(c, 16)
+ky = 84 + size * 2.22
+ak.line(c, [(86, ky - 14), (620, ky - 14)], ak.mix(INK, PAPER, 0.62), width=1)
+ak.text(c, (86, ky), "ANCHORAGE DESK · OPERATOR · 4 SEP 2026", kick,
+        ak.mix(INK, PAPER, 0.28), anchor="la", tracking=0.22)
+ital = ak.fraunces(c, 21, weight=500, italic=True)
+ak.text(c, (86, ky + 30), "decisions, not biographies", ital,
+        ak.mix(INK, PAPER, 0.44), anchor="la")
+
+wm = ak.fraunces(c, 32, weight=900, opsz=144)
+ak.text(c, (84, 1000), "ALASKA.AI", wm, PAPER, anchor="la", tracking=0.06)
+ak.polaris(c, 990, 92, r=13, color=GOLD)
+
+# ------------------------------------------------------- 11. finishing
+ak.mottle(c, strength=0.032, scale=3.0, seed=SEED + 7)
+ak.grain(c, amount=6.0, seed=SEED + 8)
+ak.vignette(c, strength=0.12, spread=1.42)
+
+c.finish("out/post_image.png", {
+    "date": "4 SEP 2026",
+    "column": "Anchorage Desk",
+    "kicker": "ANCHORAGE DESK",
+    "middle_slot": "OPERATOR",
+    "byline": "",
+    "headline": "AEA Never Got the Call / The Filing Said Otherwise",
+    "style_family": "halftone_section",
+    "palette": PALETTE,
+    "hue_family": "red",
+    "composition": "horizon_band",
+    "motifs": ["annotated water-column section", "seabed transmission cable",
+               "server hive field", "dashed feeder terminating in open water",
+               "the dimension that never closed", "tidal rotor rank"],
+    "technique_stack": ["gradient_v", "field", "warp", "halftone",
+                        "voronoi_polys", "wobble_pts", "stipple", "chips",
+                        "chip", "mottle", "grain", "vignette"],
+    "seed": SEED,
+    "eval_history": [
+        {"iter": 1, "weighted": 5.6, "weakest": "concept",
+         "note": "spur arced over the cable and read as a crossing; two "
+                 "soft_panel blur smudges; flat water acreage"},
+        {"iter": 2, "weighted": 7.1, "weakest": "detail",
+         "note": "gap read correctly, but motto collided with the shore, "
+                 "labels ran dark-on-dark, depth scale sat inside the edge "
+                 "margin, and the upper water was empty acreage"},
+        {"iter": 3, "weighted": 7.9, "weakest": "story fidelity",
+         "note": "layout resolved, but the rotors read as a wind farm rather "
+                 "than seabed tidal machines"}
+    ],
+    "eval_final": {"weighted": 8.6, "scores": {"concept": 9, "focal": 9,
+                   "composition": 8, "color": 9, "detail": 8, "craft": 8,
+                   "typography": 9, "originality": 9, "fidelity": 9}},
+})
+print("rendered out/post_image.png")
