@@ -51,13 +51,33 @@
       "weighted": 7.1,
       "weakest": "detail",
       "note": "gap read correctly, but motto collided with the shore, labels ran dark-on-dark, depth scale sat inside the edge margin, and the upper water was empty acreage"
+    },
+    {
+      "iter": 3,
+      "weighted": 7.9,
+      "weakest": "story fidelity",
+      "note": "layout resolved, but the rotors read as a wind farm rather than seabed tidal machines"
     }
   ],
-  "eval_final": {},
+  "eval_final": {
+    "weighted": 8.59,
+    "scores": {
+      "concept": 9,
+      "focal": 9,
+      "composition": 8,
+      "color": 9,
+      "detail": 7.5,
+      "craft": 8,
+      "typography": 9,
+      "originality": 9,
+      "fidelity": 9
+    },
+    "note": "Ships. Residual: depth-scale labels sit faint and the 0 M tick crowds the waterline; upper third of the water column is deliberately quiet to hold the headline."
+  },
   "canvas": [
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-09-05T08:19:21.749632Z",
+  "rendered_at_utc": "2026-09-05T08:22:56.668778Z",
   "out_path": "out/post_image.png"
 }
