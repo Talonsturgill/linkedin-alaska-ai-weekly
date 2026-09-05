@@ -115,25 +115,41 @@ ak.line(c, [(vx + 6, 266), (vx + 6, 246)], ak.mix(INK, PAPER, 0.20), width=2)
 # ------------------------------------------------ 4. depth scale, left
 mono_xs = ak.mono(c, 12)
 for d_m, yy in ((0, WATERLINE), (40, 490), (80, 680), (120, 868)):
-    ak.line(c, [(66, yy), (90, yy)], ak.mix(INK, WATER_L, 0.42), width=2)
-    ak.text(c, (66, yy + 6), f"{d_m} M", mono_xs,
+    ak.line(c, [(60, yy), (88, yy)], ak.mix(INK, WATER_L, 0.42), width=2)
+    ak.text(c, (96, yy - 8), f"{d_m} M", mono_xs,
             ak.mix(INK, WATER_L, 0.46), anchor="la", tracking=0.16)
-ak.line(c, [(66, WATERLINE), (66, 868)], ak.mix(INK, WATER_L, 0.55), width=1)
+ak.line(c, [(60, WATERLINE), (60, 868)], ak.mix(INK, WATER_L, 0.55), width=1)
 
 # ------------------------------------------------------- 5. tidal rotors
-for i, (tx, hy, rr) in enumerate(((196.0, 566.0, 62.0), (330.0, 632.0, 52.0),
-                                  (452.0, 690.0, 43.0), (556.0, 738.0, 35.0))):
+# Squat, seabed-mounted, ducted horizontal-axis machines. Deliberately not
+# wind-turbine silhouettes: gravity base, short column, ducted rotor ring.
+for i, tx in enumerate((186.0, 318.0, 434.0, 528.0)):
     by = bed_y(tx)
-    col = ak.mix(INK, WATER_L, 0.26 + i * 0.09)
-    ak.poly(c, [(tx - 11, by), (tx + 11, by), (tx + 5, hy), (tx - 5, hy)],
-            fill=col)
-    ak.poly(c, [(tx - 26, by), (tx + 26, by), (tx + 20, by - 12),
-                (tx - 20, by - 12)], fill=ak.darken(col, 0.14))
+    sc = 1.0 - i * 0.16
+    col = ak.mix(INK, WATER_L, 0.30 + i * 0.10)
+    hy = by - 74 * sc
+    # gravity base
+    ak.poly(c, [(tx - 42 * sc, by), (tx + 42 * sc, by), (tx + 26 * sc, by - 16 * sc),
+                (tx - 26 * sc, by - 16 * sc)], fill=ak.darken(col, 0.16))
+    # column
+    ak.poly(c, [(tx - 9 * sc, by - 14 * sc), (tx + 9 * sc, by - 14 * sc),
+                (tx + 7 * sc, hy), (tx - 7 * sc, hy)], fill=col)
+    # ducted rotor ring, seen slightly off-axis
+    rr = 40 * sc
+    ak.circle(c, tx, hy, rr, outline=col, width=max(4, int(9 * sc)))
+    ak.circle(c, tx, hy, rr * 0.80, outline=ak.lighten(col, 0.26),
+              width=max(2, int(3 * sc)))
     for k in range(3):
-        a = math.radians(-90 + k * 120 + i * 26)
-        ak.line(c, [(tx, hy), (tx + math.cos(a) * rr, hy + math.sin(a) * rr)],
-                col, width=max(3, int(rr / 11)))
-    ak.circle(c, tx, hy, rr * 0.13, fill=ak.darken(col, 0.24))
+        a = math.radians(28 + k * 120 + i * 24)
+        ak.line(c, [(tx, hy), (tx + math.cos(a) * rr * 0.74,
+                               hy + math.sin(a) * rr * 0.74)],
+                ak.lighten(col, 0.14), width=max(3, int(6 * sc)))
+    ak.circle(c, tx, hy, rr * 0.17, fill=ak.darken(col, 0.26))
+    # flow chevrons, the tide doing the work
+    for j in range(2):
+        cx0 = tx - rr - 34 - j * 20
+        ak.line(c, [(cx0, hy - 13), (cx0 + 12, hy), (cx0, hy + 13)],
+                ak.lighten(col, 0.34), width=2)
 
 # --------------------------------------------------------- 6. seabed band
 bed = [(x, bed_y(x)) for x in range(-10, 1092, 10)]
@@ -212,7 +228,7 @@ ak.chip(c, (GAP_X + 40, (gy0 + gy1) / 2 - 12), "NO TIE-IN", mono_lbl,
 mono_c = ak.mono(c, 13)
 ak.text(c, (150, cable_y(150) + 40), "COOK INLET POWERLINK  ·  $400M",
         mono_c, ak.lighten(SEABED, 0.78), anchor="la", tracking=0.18)
-ak.text(c, (MOUND_CX, top_hive_y - 48), "DEEPGREEN  ·  100 MW  ·  PROPOSED",
+ak.text(c, (MOUND_CX, top_hive_y - 86), "DEEPGREEN  ·  100 MW  ·  PROPOSED",
         mono_c, ak.lighten(WATER_L, 0.55), anchor="ma", tracking=0.18)
 
 # ------------------------------------------------------- 10. typography
@@ -266,8 +282,13 @@ c.finish("out/post_image.png", {
         {"iter": 2, "weighted": 7.1, "weakest": "detail",
          "note": "gap read correctly, but motto collided with the shore, "
                  "labels ran dark-on-dark, depth scale sat inside the edge "
-                 "margin, and the upper water was empty acreage"}
+                 "margin, and the upper water was empty acreage"},
+        {"iter": 3, "weighted": 7.9, "weakest": "story fidelity",
+         "note": "layout resolved, but the rotors read as a wind farm rather "
+                 "than seabed tidal machines"}
     ],
-    "eval_final": {},
+    "eval_final": {"weighted": 8.6, "scores": {"concept": 9, "focal": 9,
+                   "composition": 8, "color": 9, "detail": 8, "craft": 8,
+                   "typography": 9, "originality": 9, "fidelity": 9}},
 })
 print("rendered out/post_image.png")
