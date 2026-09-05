@@ -262,7 +262,7 @@ c.finish("out/post_image.png", {
     "eval_history": [
         {"iter": 1, "weighted": 5.6, "weakest": "concept",
          "note": "spur arced over the cable and read as a crossing; two "
-                 "soft_panel blur smudges; flat water acreage"}
+                 "soft_panel blur smudges; flat water acreage"},
         {"iter": 2, "weighted": 7.1, "weakest": "detail",
          "note": "gap read correctly, but motto collided with the shore, "
                  "labels ran dark-on-dark, depth scale sat inside the edge "
