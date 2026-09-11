@@ -1,5 +1,13 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+draft_id:   r-1973386570090556957
+message_id: 1a08faea5aeb64f5
+thread_id:  1a08faea5aeb64f5
+to:         docket@alaskaaihq.com
+subject:    Alaska.Ai — The Stack Draft — 2026-09-11
+branch:     claude/linkedin-stack-2026-09-11
+commit_sha: 2d697065c88b461feed181f4278dd9d181c98839
+image_url:  https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/2d697065c88b461feed181f4278dd9d181c98839/out/post_image.png
+image_http: 200 verified before draft creation (1,713,956 bytes, PNG 1080x1080)
+mechanism:  NTIA BEAD Supplemental Deployment Policy Notice (savings true-up redeployment)
+category:   VEHICLES
+score:      9.04 / 10 weighted vs config/stack_rubric.yaml (threshold 8.0), no hard-fail, ship=yes
+artwork:    bespoke "The Fabric" — woven_fabric / gold / weave_rupture / seed 911 — eval_final 8.76
