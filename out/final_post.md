@@ -2,7 +2,9 @@ Jared Goecker, Eagle River’s Anchorage Assembly member, voted Sept. 1 in the 8
 
 The contract is with Thundercat, not to exceed $598,998.10 per Alaska’s News Source, paid from federal asset forfeitures according to the memorandum ADN reported. It buys audio-visual equipment and desks to move a center that already exists out of what Chief Sean Case described as a small concrete box at the Elmore Road building.
 
-The hub can reach roughly 750 cameras, including more than 250 traffic cameras, body cameras, drones and volunteered private security feeds, per Alaska Public Media. Goecker took issue with the Assembly’s August postponement, citing a state Department of Public Safety report showing Anchorage property crime up 20% last year. On the record he said “Delaying resources for law enforcement while crime is surging is completely backwards and unacceptable.” He chose fund now, with seven colleagues, over the four (McCormick, Volland, Scout, Martinez) who wanted the surveillance-and-privacy ordinance adopted first.
+The hub can reach roughly 750 cameras, including more than 250 traffic cameras, body cameras, drones and volunteered private security feeds, per Alaska Public Media.
+
+Goecker took issue with the Assembly’s August postponement, citing a state Department of Public Safety report showing Anchorage property crime up 20% last year. On the record he said “Delaying resources for law enforcement while crime is surging is completely backwards and unacceptable.” He chose fund now, with seven colleagues, over the four (McCormick, Volland, Scout, Martinez) who wanted the surveillance-and-privacy ordinance adopted first.
 
 That’s a legitimate governing position rather than a talking point. Kameron Perez-Verdia, also in support, put the sunk-cost point plainly. Holding back audio-visual equipment for a center that’s already functioning and already processing information didn’t make sense to him. The forfeiture funding lowers the fiscal stakes of yes, and a month’s delay against that crime report is a real cost the privacy side has to answer for.
 
