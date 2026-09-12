@@ -1,22 +1,33 @@
 {
-  "column": "The Stack",
-  "date": "2026-07-24",
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines name subject, role, and the concrete Sept. 1 vote; 'Just under $600,000 moved before the rules for the system did' makes the decision itself the hook with a real stake inside the see-more window. Decision-led, not bio-led."},
+    {"name": "Subject + decision load-bearing for AK", "score": 9, "weight": 0.16, "notes": "Elected decision-owner; concrete consequence stated (municipal surveillance/AI governance, $598,998.10 Thundercat contract, federal forfeiture funding, named actors APD/Thundercat/residents, Sept. 15 timeframe). Both sides carry weight; nothing thin."},
+    {"name": "Subject identification fidelity", "score": 9, "weight": 0.10, "notes": "Full name + role + Anchorage Assembly affiliation, Anchorage tie explicit via Eagle River seat. Every fact matches the dossier. Docks one for compressing role/org into a single loose phrase rather than stating Eagle River sits inside the Municipality."},
+    {"name": "Decision specificity + primary-source", "score": 10, "weight": 0.14, "notes": "Names what (fund RTCC expansion), when (Sept. 1), and the binary Goecker owned (fund now vs. adopt the ordinance first, 8-4, four opponents named). Traces to Alaska Public Media primary and survives multi-source. Date within window."},
+    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Honest, proportionate position: credits the vote as 'a legitimate governing position rather than a talking point,' then names the evidence-backed sequencing risk of capability installed two weeks ahead of its rules. Not neutral, not boosterism, not manufactured criticism."},
+    {"name": "Forward implication", "score": 10, "weight": 0.08, "notes": "Names the next owned decision (Goecker's vote on the surveillance-and-privacy ordinance), the date (Sept. 15), and exactly what to watch (constrain, water down, or defer). Reader knows what to revisit this month."},
+    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, structural, Alaska-first, business-literate, plain language without dumbing down. No press-release cadence, no hagiography, no influencer tics. Reads like the post_001 register."},
+    {"name": "Readability (LinkedIn)", "score": 8, "weight": 0.05, "notes": "444 words, 2850 chars, bio minimal. Paragraph four (Goecker/DPS report/quote/roster) packs several facts into one dense block that slows the mobile scan; otherwise tight 2-4 sentence paragraphs."},
+    {"name": "Engagement question", "score": 10, "weight": 0.04, "notes": "Closes on a genuine, debatable question tied to the specific decision (fund two weeks ahead vs. tie the money to the rules). No CTA, no rhetorical softener."},
+    {"name": "Credibility guard", "score": 9, "weight": 0.10, "notes": "Grounded independent analysis; bio recap minimal, decision treatment dominant; every claim traceable to corroborated evidence and inline outlet attribution. Praise and risk are both earned by the record."}
   ],
-  "weighted_total": 8.93,
+  "weighted_total": 9.21,
+  "math": "0.90 (9x0.10) + 1.44 (9x0.16) + 0.90 (9x0.10) + 1.40 (10x0.14) + 1.17 (9x0.13) + 0.80 (10x0.08) + 0.90 (9x0.10) + 0.40 (8x0.05) + 0.40 (10x0.04) + 0.90 (9x0.10) = 9.21",
   "threshold": 8.0,
+  "hard_fail": null,
   "ship": true,
-  "hard_fails": [],
   "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "one_sentence_fix": "Split the dense fourth paragraph so the DPS property-crime figure, the on-record quote, and the four-member no roster sit in separate 2-3 sentence beats for easier mobile scanning.",
+  "hard_fail_checks": {
+    "hashtag_count_in_range": "pass",
+    "punctuation_bans_held": "pass",
+    "total_char_count_under_linkedin_cap": "pass (2850)",
+    "word_count_in_range": "pass (444)",
+    "subject_named_and_anchorage_tied": "pass",
+    "recent_decision_named_with_primary_source": "pass (2026-09-01, 60-day window)",
+    "multi_source_corroboration": "pass",
+    "grounded_not_press_release": "pass",
+    "no_invented_quotes": "pass"
+  },
+  "rubric": "config/desk_rubric.yaml"
 }

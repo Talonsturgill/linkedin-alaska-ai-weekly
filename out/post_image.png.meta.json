@@ -1,72 +1,96 @@
 {
-  "date": "24 JUL 2026",
-  "column": "The Stack",
-  "kicker": "THE STACK",
-  "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "date": "11 SEP 2026",
+  "column": "Anchorage Desk",
+  "kicker": "ANCHORAGE DESK",
+  "middle_slot": "MUNICIPAL",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "headline": "Goecker Funds The Hub / Before The Rules Land",
+  "style_family": "wpa_scaffold",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#dfe7e2",
+    "#12303a",
+    "#4f9a97",
+    "#0d1b1d",
+    "#f4e3b0",
+    "#e04c8b",
+    "#ffc72c"
   ],
-  "hue_family": "green",
-  "composition": "bilateral_gate",
+  "hue_family": "teal",
+  "composition": "diagonal_thrust",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "stair tower of lit consoles",
+    "dashed uninstalled handrail",
+    "hairline camera feeds from the ridge",
+    "Eagle River spruce line",
+    "teal dusk",
+    "long tower shadow on snow"
   ],
   "technique_stack": [
     "gradient_v",
+    "wobble_pts",
     "ridge_fill",
-    "voronoi_polys",
-    "hatch",
-    "glow",
     "stipple",
-    "chips",
+    "line",
     "hand_line",
-    "grain"
+    "glow",
+    "circle",
+    "chips",
+    "fraunces",
+    "mono",
+    "mottle",
+    "grain",
+    "vignette"
   ],
-  "seed": 724,
+  "seed": 9111,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
-      "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "weighted": 7.1,
+      "weakest": "detail/craft",
+      "note": "ridge and snowfield stipple read as confetti noise; tree-line shadow was a hard stripe; rail read as wiring"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 7.9,
+      "weakest": "craft",
+      "note": "snow caps and drifts fixed the noise; couloir lines read as stray scratches; spruce band flat; posts sank into trees"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 8.3,
+      "weakest": "composition/detail",
+      "note": "ridge shadow faces, two spruce rows, lit post rims; snowfield still lacked a leading line and human scale"
+    },
+    {
+      "iter": 4,
+      "weighted": 8.2,
+      "weakest": "craft",
+      "note": "access road and walker added, but the walker landed on the wordmark"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.48,
+      "weakest": "craft",
+      "note": "road rerouted along the bottom edge, walker clear of the wordmark, snow on landing beams; tire tracks invisible"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.6,
+      "weakest": "originality",
+      "note": "tracks deepened so the road carries texture to the focal"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.6,
     "scores": {
       "concept": 9,
       "focal": 9,
       "composition": 8.5,
       "color": 8.5,
       "detail": 8.5,
-      "craft": 9,
+      "craft": 8.5,
       "typography": 8.5,
-      "originality": 8.5,
+      "originality": 8,
       "fidelity": 9
     }
   },
@@ -74,6 +98,6 @@
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-09-12T08:06:49.415017Z",
   "out_path": "out/post_image.png"
 }
