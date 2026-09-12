@@ -1,69 +1,64 @@
-# The Stack — Art Plan — 2026-07-24
+# Art plan — Anchorage Desk — 11 SEP 2026
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+## Step 0 — Story absorbed
+- What happened: Eagle River Assembly member Jared Goecker voted in the 8-4 majority on Sept. 1 to fund (just under $600,000, Thundercat) the expansion of APD's Real-Time Crime Center, a hub that can reach up to 750 cameras.
+- Why it matters: the money moved two weeks before the Assembly returns (Sept. 15) to the ordinance that would gate AI deployment, footage retention and federal data sharing on that platform. Capability installed ahead of its guardrails.
+- Register: cautionary but fair, dusk-tense, not alarmist. The hub is real and working (credit); the railing is missing (risk).
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+## Step 1 — Dedup scan (16 prior ledgers read, see scratch/art_dedup.md)
+- Forbidden style families (last 8): woven_fabric, exploded_iso_docket, halftone_section, riso_form, landmark_mesh, hydrographic_claim, voronoi_impoundment, engraved_headworks (+ aurora_field always).
+- Forbidden hue families (last 4): gold, blue, red, orange.
+- Forbidden compositions (last 2): weave_rupture, exploded_iso_stack.
+- Forbidden motifs (last 10): woven cloth, iso corridor, water-column section/server hives, permit form, facial-landmark mesh, surveyed claim over water, spillway gates, stop-log headworks/crane, moored land raft, surveillance camera crowd + ordinance page.
+- This piece: style family `wpa_scaffold` (WPA layered landscape × blueprint dashed-ghost grammar), hue family `teal`, composition `diagonal_thrust`, primary motif "stair tower with a dashed, uninstalled handrail". All clear.
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+## Step 2 — Three concepts
+1. **The missing handrail.** A steel stair tower (the new hub) rising diagonally into an Eagle River dusk, every landing lit with monitor banks and fed by hairlines from distant camera points, but the handrail exists only as a dashed magenta outline. Guardrails, literally not installed yet. Reads in half a second, is of this story, and avoids the camera-crowd motif.
+2. Cart before horse on Old Glenn Highway. Too cliché, could run on any policy blog. Killed.
+3. A 12-panel video wall with 8 lit, 4 dark (the tally) and one blank "rules" panel. Clever but reads as a chart; also flirts with the 8/28 grid/mesh look. Killed.
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+Pick: concept 1.
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
+## Step 3 — Blueprint
 
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
+**Concept statement.** A working stair tower of lit consoles climbs out of a spruce line into a teal dusk, fed by thin lines of light from far-off cameras on the ridge. Its handrail is only a dashed magenta outline. The hub is built and busy; the rail is a drawing.
 
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
+**Register.** Cool teal dusk carries the caution; warm console light carries the credit (the center is real and working). The one hot magenta ink is the absence, so the eye lands on what is missing.
 
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
+**Style family.** `wpa_scaffold`: flat layered landscape (WPA) for sky, ridges, spruce and snow, with a blueprint grammar (thin ink frame, hairline feeds, dashed ghost rail, mono labels) for the built thing. WPA was last used 12 issues back (7/31) and only as a hybrid; blueprint has not been used in the ledger window. Clears all cooldowns.
 
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
+**Palette (7 inks incl. colophon).**
+- PAPER snow `#dfe7e2` (L≈0.91) — paper/light, snowfield, headline type.
+- SKY_TOP `#12303a` (L≈0.25) — deep teal night at the top.
+- SKY_LOW `#4f9a97` (L≈0.60) — teal-green dusk band near the horizon.
+- INK `#0d1b1d` (L≈0.14) — spruce, steel frame, figure, wordmark.
+- SCREEN `#f4e3b0` (L≈0.90, warm) — console light, glow.
+- RAIL `#e04c8b` (L≈0.60, highest chroma) — the dashed missing handrail. Focal accent.
+- GOLD `#ffc72c` — Polaris colophon only.
+Derived (not inks): ridge tones = mix(SKY_LOW, INK, 0.45 / 0.68); cloud bands = mix of the two sky inks.
+Value spine: darkest = INK frame/spruce (0.14); lightest = SCREEN and PAPER (0.90). The focal rail wins by chroma against a mid-value teal sky, and the screens win by value against the dark frame. Grayscale check: ridges step 0.45 → 0.35 → spruce 0.14 → snow 0.91.
 
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
+**Composition map (1080 grid, `diagonal_thrust`).**
+- Sky gradient box (0,0)-(1080,720), SKY_TOP → SKY_LOW, ease 1.25.
+- Cloud bands: 4 wobbled horizontal lenses between y=330 and y=520, x 0-1080, mix(SKY_LOW, SKY_TOP, 0.35).
+- Far ridge: ridge_fill y_base=605, amp=115, seed 3, mix(SKY_LOW, INK, 0.45); snow stipple on its upper 40 px.
+- Near ridge: ridge_fill y_base=665, amp=70, seed 9, mix(SKY_LOW, INK, 0.68).
+- Camera points: 26 tiny SCREEN dots scattered on the ridges (x 40-560, y 520-660) with hairline feeds converging to the tower landings.
+- Spruce band: ~70 individual spruce silhouettes along y_base 745 ± 8, heights 45-130, INK; denser on the left.
+- Snowfield: y 735-1080 PAPER, mottled, stipple shading in mix(PAPER, SKY_LOW, 0.35) rising toward the spruce line; chips (gravel/debris) around the tower base.
+- Tower: posts at x=640 and x=880, base y=905, top y=345. Six landings at y = 905, 795, 685, 575, 465, 355 (pitch 110). Stair flights zigzag between posts. Cross-bracing in each bay. Each landing: 3 SCREEN monitors (14×10) on a console bar with glow r=44. Top deck: roof line at y=330, a console, a tiny seated INK figure at (855, 340).
+- Dashed rail: along every flight, 30 px above the flight line, RAIL ink, dash 14 / gap 10, with dashed posts every 44 px; also along the top deck edge. A faint RAIL glow (alpha 28) under the dashes so they read at thumbnail.
+- Tower shadow: a soft INK-tinted diagonal on the snow toward lower-left.
+- Headline: two lines, Fraunces 900/opsz 144, PAPER, top-left at (84, 84), fit to 620 px (hi 104). Kicker mono 16 tracked 0.22 under it, then italic motto. Quiet zone: sky y<300 is kept free of ridges and clouds.
+- Wordmark ALASKA.AI Fraunces 32, INK, bottom-left (84, 1000). Polaris (992, 80) r=13 GOLD.
+- Eye path: headline → lit tower → magenta dashed rail → wordmark.
 
-SEED = 724
+**Layer build order.** paper → sky gradient → cloud bands → far ridge (+ snow stipple) → near ridge → camera dots + hairline feeds → spruce band → snowfield stipple → tower shadow → steel frame (posts, landings, flights, bracing, treads) → consoles + screens + glow → figure → dashed rail + glow → base chips → type + marks → mottle → grain → vignette.
+
+**Technique stack.** gradient_v, wobble_pts/poly (clouds, spruces), ridge_fill, stipple (mask), line/hand_line (frame, feeds, dashes), glow, circle (camera points), chips, fraunces/mono text, mottle, grain, vignette.
+
+**Risk list.**
+1. Tower reads as a dark blob against the spruce → keep the frame thin (3-4 px), let the screens carry value, lift the frame with a mix(INK, SKY_LOW, 0.15) rim, and set the base 160 px above the spruce line so it silhouettes against the ridge, not the trees.
+2. Dashed rail disappears at thumbnail → magenta at full chroma, 4 px dashes, underlying soft glow.
+3. Headline collides with ridge or clouds → ridge crest never above y=490, clouds start at y=330, headline block ends by ~300.
+4. Empty snow acreage → stipple gradient, tracks, chips, the tower shadow, and the wordmark occupy it.

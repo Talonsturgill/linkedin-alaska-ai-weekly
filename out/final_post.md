@@ -1,22 +1,15 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+Jared Goecker, Eagle River’s Anchorage Assembly member, voted Sept. 1 in the 8-4 majority that funded APD’s Real-Time Crime Center expansion. Just under $600,000 moved before the rules for the system did.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+The contract is with Thundercat, not to exceed $598,998.10 per Alaska’s News Source, paid from federal asset forfeitures according to the memorandum ADN reported. It buys audio-visual equipment and desks to move a center that already exists out of what Chief Sean Case described as a small concrete box at the Elmore Road building.
 
-Four layers carry the machinery.
+The hub can reach roughly 750 cameras, including more than 250 traffic cameras, body cameras, drones and volunteered private security feeds, per Alaska Public Media. Goecker took issue with the Assembly’s August postponement, citing a state Department of Public Safety report showing Anchorage property crime up 20% last year. On the record he said “Delaying resources for law enforcement while crime is surging is completely backwards and unacceptable.” He chose fund now, with seven colleagues, over the four (McCormick, Volland, Scout, Martinez) who wanted the surveillance-and-privacy ordinance adopted first.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+That’s a legitimate governing position rather than a talking point. Kameron Perez-Verdia, also in support, put the sunk-cost point plainly. Holding back audio-visual equipment for a center that’s already functioning and already processing information didn’t make sense to him. The forfeiture funding lowers the fiscal stakes of yes, and a month’s delay against that crime report is a real cost the privacy side has to answer for.
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+The evidence-backed risk is sequencing, and Goecker owns it. The majority authorized a platform that can reach 750 cameras two weeks before the Assembly returns to the ordinance that would require its own approval for any AI deployment on that platform, two-week deletion of footage not tied to active investigations, and warrants before sharing data with federal agencies. Case told the Assembly in August that “Code is not going to keep up with technology.” Capability is going in ahead of its rules, on a system whose own chief expects the code to lag.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn.
+His next vote is on that ordinance, sponsored by McCormick, Volland and Scout, which Volland says the sponsors plan to bring back before the Assembly on Sept. 15 after fine tuning with the mayor’s administration. Watch whether the same eight-member majority that funded the hardware now constrains the AI that will run on it, waters the provisions down, or defers the guardrails again. Goecker’s own reasoning cuts both ways. If delay is unacceptable for law-enforcement resources, the same clock is running on the rulebook.
 
-A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+Was funding the Thundercat buildout two weeks ahead of the ordinance the right sequence, or should the eight have tied the money to the rules?
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
-
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
-
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+#AlaskaAI #AIPolicy #ProcurementReform
