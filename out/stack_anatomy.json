@@ -1,85 +1,107 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
+  "run_date": "2026-09-21",
+  "window_days": 14,
   "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
+    "name": "The 10 U.S.C. 2922a purchase-approval gate on the Eielson micro-reactor",
     "category": "vehicles",
     "category_label": "VEHICLES",
+    "one_line_definition": "A private developer would build, own and operate a 5-megawatt nuclear micro-reactor inside the fence at Eielson AFB and sell the base electricity and heat under a contract of up to 30 years, but the Air Force cannot buy that power until the Secretary of Defense personally approves the proposed contract, and it cannot clear the preferred site until a wetlands finding clears the service's own NEPA regulation.",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "verbatim_quote": "The Air Force's preferred site is located near wetlands, so the agency must first ask for public comment on the project, as required by federal law.",
+      "secondary_verbatim_quote": "Members of the public can offer comments, but they must be submitted to the Eielson Public Affairs Office no later than Sept. 30.",
+      "url": "https://fm.kuac.org/sustainability/2026-09-20/air-force-asks-for-public-input-on-proposed-eielson-microreactor-site",
+      "outlet": "KUAC (Fairbanks) — Tim Ellis",
+      "date": "2026-09-20"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "Wetlands siting gate — Air Force EIAP",
+        "what_it_does": "Because the preferred Spruce Lake parcel sits in or near wetlands, the Environmental Assessment and an UNSIGNED Finding of No Significant Impact must be public for at least 30 days before approval, and a Finding of No Practicable Alternative must be routed to the MAJCOM Environmental Planning Function. This is the regulation that produces the comment window now running.",
+        "controlling_actor": "Air Force Environmental Protection Committee (EPC), at the approval level determined by the MAJCOM — an institutional body, not a named officer",
+        "primary_source_url": "https://www.law.cornell.edu/cfr/text/32/989.15",
+        "source_type": "regulation",
+        "verified": true
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "The substantive wetlands standard — EO 11990 Sec. 2(a)",
+        "what_it_does": "Supplies the actual legal test the FONPA must satisfy: no new construction in wetlands unless the agency head finds there is no practicable alternative AND that the action includes all practicable measures to minimize harm. Two prongs, one finding.",
+        "controlling_actor": "Head of the agency (Secretary of the Air Force), exercised through the EIAP delegation above",
+        "primary_source_url": "https://www.archives.gov/federal-register/codification/executive-order/11990.html",
+        "source_type": "executive_order",
+        "verified": true
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "Purchase authority — 10 U.S.C. 2922a",
+        "what_it_does": "Lets a service secretary contract for up to 30 years for the provision and operation of an energy production facility and the purchase of the energy it produces, with energy security and energy resilience mandated as critical factors. Subsection (b) conditions the entire authority on one external approval.",
+        "controlling_actor": "Secretary of the Air Force to propose; Secretary of Defense to approve under subsection (b)",
+        "primary_source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-section2922a&num=0&edition=prelim",
+        "source_type": "statute",
+        "verified": true
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "Counterparty layer — the tentatively selected developer",
+        "what_it_does": "The reactor is commercially owned and operated; the government buys power, not a reactor. The selected developer's own SEC filing states the selection is not final and is conditioned on Air Force requirements, meaning no executed power purchase agreement exists.",
+        "controlling_actor": "Oklo Inc. (CIK 0001849056), as the tentatively selected developer — the role, not the officeholder",
+        "primary_source_url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm",
+        "source_type": "10K",
+        "verified": true
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "Purchase authority — 10 U.S.C. 2922a(b)",
+      "actor": "Secretary of Defense (institutional role)",
+      "binary_decision": "Approve the proposed long-term energy purchase contract, or do not. Without that approval no contract may be made at all.",
+      "why_asymmetric": "The statute is unconditional and singular: 'A contract may be made under subsection (a) only after the approval of the proposed contract by the Secretary of Defense.' No vote, no board, no protest path, no delegation named in the text. Compare the two chokepoints the scouts proposed: the FONSI/FONPA is approved by the Environmental Protection Committee at a MAJCOM-determined level (32 CFR 989.15), a committee, and no primary source names a signer; and the NRC framing rests on a docket that does not exist for this site. 2922a(b) is the only layer in the chain where one officer owns a genuinely binary, statutorily mandatory yes/no.",
+      "verbatim_statutory_span": "A contract may be made under subsection (a) only after the approval of the proposed contract by the Secretary of Defense.",
+      "primary_source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-section2922a&num=0&edition=prelim"
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
+    "ak_consequence": "Interior Alaska power and compute siting: any developer, utility planner or allocator underwriting behind-the-fence firm generation at Eielson before 2030 is pricing a contract that does not yet exist. Oklo Inc.'s own FY2025 10-K says it has been 'tentatively selected' and that this 'has not been finalized,' and under 10 U.S.C. 2922a(b) no purchase contract can be made at all until the Secretary of Defense approves it. The nearest public input point on the site itself closes 2026-09-30.",
+    "structural_read": "The story in the window is a wetlands comment period, and the wetlands gate is real. It is what sets the September 30 clock and it is the only point where an outside party gets a channel. But it is not where the leverage sits. The Air Force's own regulation routes the finding to a committee and lets the MAJCOM pick the approval level, which is exactly the shape of a process designed to be survivable. The hard gate is upstream of the concrete: a thirty-year obligation to buy power from a privately owned reactor cannot be made without a single signature at the top of the Department. That is why the developer's SEC filing uses the word 'tentatively' in both the business section and the risk factors. The project is being narrated locally as an environmental review and structurally as an acquisition, and the acquisition is the part that has not happened.",
+    "forward_implication": "If you are modeling Interior Alaska firm power, a Fairbanks-area load, a Railbelt interconnection, or any siting decision that assumes Eielson gets 5 MW of behind-the-fence generation by 2030, do not carry it as contracted capacity this week. Carry it as an option contingent on a Secretary of Defense approval that has no public docket and no deadline, and build the case on the existing Interior grid. If you want the wetlands record to reflect your interest, the comment channel to Eielson Public Affairs closes 2026-09-30.",
+    "recurrence_note": "Not on the burned list. The chain here is federal energy-purchase authority (10 U.S.C. 2922a) plus EO 11990, which is legally distinct from every previously anatomized mechanism, including the Anchorage AMC Title 21 CUP gate, FPA 4(f) site-banking, and the AS 38.05.810 conveyance. The facilities scout's explicit repeat-risk flag ('third siting-adjacent piece in eight issues') attached to the 10 U.S.C. 2667 Enhanced Use Lease framing, which was NOT selected. Selecting the contract-approval framing over the siting framing also reduces that adjacency.",
     "gate_results": {
-      "news_tie_pass": true,
-      "anatomizable_pass": true,
-      "per_layer_primary_source_pass": true,
-      "ak_consequence_pass": true,
-      "chokepoint_asymmetry_pass": true,
-      "mechanism_not_actor_pass": true,
-      "not_recent_repeat_pass": true
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_sources": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_a_recent_repeat": true
     }
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {"name": "Eielson micro-reactor framed at NRC licensing (facilities scout chokepoint read)", "reason": "missing_primary_source_per_layer — no Eielson-specific NRC docket exists; the NRC Oklo Aurora pre-application page never names Eielson, and lists the Aurora at 75 MWe against a 5 MW reported unit. Framing dropped; the underlying mechanism was re-framed and retained."},
+    {"name": "Eielson micro-reactor framed at the EO 11990 Sec. 2(a) FONPA (regulatory scout chokepoint read)", "reason": "diffuse_chokepoint — re-verified 32 CFR 989.15: 'The same organizational level that prepares the EA also reviews and recommends the FONSI for approval by the EPC,' with MAJCOMs determining the approval level. A committee at a variable level, and no primary source names the FONPA signer. Retained as a LAYER, not the chokepoint."},
+    {"name": "Pub. L. 115-232 Sec. 327 as pilot-program authorization", "reason": "confabulation_risk — govinfo returns only the table-of-contents heading, which reads 'Report on pilot program for micro-reactors.' Operative text at 132 Stat. 1640 could not be retrieved on two attempts. Excluded as a layer entirely rather than softened."},
+    {"name": "GVEA tariff advice filing TA409-13 (Energy Emergency Alert / Controlled Load Shed Program)", "reason": "diffuse_chokepoint + missing_primary_source_per_layer — actual TA409-13 tariff sheets unretrievable (rca.alaska.gov 403s on every path); zone and exemption detail traces to GVEA's pre-existing CLSP page, not the new filing. The approve/suspend binary belongs to the RCA, a multi-member commission."},
+    {"name": "ANC entity-owned 8(a) sole-source pipeline + SBA HQ continued-eligibility gate", "reason": "missing_primary_source_per_layer — the chokepoint layer rests entirely on SBA Policy Notice 6000-876995, available only via a law-firm client alert. sba.gov 302s to legacy.sba.gov, which returns 404. Layers on 13 CFR 124.109, 13 CFR 124.506 and FR Doc 2026-16370 are sound; worth re-running if the notice becomes retrievable."},
+    {"name": "Alaska Rural Health Transformation Program subaward machinery (CMS RHTCMS332062)", "reason": "missing_primary_source_per_layer on re-verification. The load-bearing governance claim (authority rests with the Commissioner, Advisory Council explicitly non-binding) sits on a health.alaska.gov page that did not resolve on the path tested. Canonical Alaska Beacon trigger 403s; quote survives only in syndication. Structurally the strongest non-selected candidate."},
+    {"name": "USDA RUS Affordable Rural Cooperative (ARC) Program LOI gate (91 FR 58060)", "reason": "no_ak_consequence — no Alaska cooperative has publicly stated it will file, so the consequence cannot be reduced to a sector + decision + named Alaska actor + timeframe. Compounded by snippet-only figures."},
+    {"name": "DAF Enhanced Use Lease RFLP AFCEC-26-R-0006 (10 U.S.C. 2667 AI data center leases)", "reason": "no_news_tie + missing_primary_source_per_layer — procurement posted 2026-04-10, archived 2026-07-14; only coverage is in-window. No primary record retrievable (SAM.gov JS-only, HigherGov sign-in walled). Scout's repeat-risk flag also applies."},
+    {"name": "IHS-to-ANTHC title transfer of the Alaska Native Medical Center", "reason": "diffuse_chokepoint — decision sits with a 16-member board. AI nexus also indirect."},
+    {"name": "Alaska Connect Fund mobile performance plan approval (47 CFR 54.318, FCC WTB)", "reason": "no_news_tie — Law360 trigger dated 2026-09-02, 19 days old, outside the 14-day window. Adjacency to the already-anatomized FCC Rural Health Care WC 17-310 chain is aggravating."},
+    {"name": "Alaska DNR unit default-and-cure, Cook Inlet gas units (Cosmopolitan Unit / BlueCrest)", "reason": "missing_primary_source_per_layer — two of five layers rest on documents that could not be opened; DNR filings render as unopenable PDFs, RCA storage order and Enstar curtailment schedule entirely unverified with no docket number established."}
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "overlap_adjudication": "Candidate A surfaced from both the facilities and regulatory scouts on the same KUAC trigger, with competing chokepoint reads. Three candidate chokepoints were tested against the asymmetry point and both scout framings failed. (1) NRC licensing, the facilities read: fails per-layer sourcing — no Eielson-specific docket exists, the NRC page never names Eielson, and the Aurora is listed at 75 MWe against a 5 MW reported unit. (2) The EO 11990 Sec. 2(a) FONPA, the regulatory read: 32 CFR 989.15 fetched directly resolves the weak link the scout flagged — 'The same organizational level that prepares the EA also reviews and recommends the FONSI for approval by the EPC,' with MAJCOMs determining the approval level. A committee at a variable level; 989.14(g) adds only that the FONPA is submitted to the MAJCOM EPF. No primary source names a signer. Fails asymmetry. (3) The 10 U.S.C. 2922a(b) Secretary of Defense approval, which neither scout selected: verified verbatim on uscode.house.gov and corroborated on Cornell LII. One officer, statutorily mandatory, unconditional, binary, with no committee and no delegation in the text. Per the overlap rule, leverage decides, so the third framing wins. This also shifts the category from the scouts' facilities/regulatory to vehicles, because the chokepoint sits in the acquisition layer rather than the siting layer, a side benefit given the burned list is siting-heavy. The wetlands gate is retained as Layer 1, where it is accurate and where it carries the live September 30 date.",
+  "do_not_publish": [
+    "Any claim that a power purchase agreement, contract or award for the Eielson reactor has been EXECUTED. Oklo's FY2025 10-K says 'tentatively selected' and 'this has not been finalized and is subject to our completion of various requirements set forth by the U.S. Air Force.' Tense is load-bearing.",
+    "Any statement that an Eielson-specific NRC application or docket is pending. None was established.",
+    "The NRC's 75 MWe Aurora figure applied to the Eielson unit. KUAC reports 5 megawatts. Do not conflate.",
+    "Pub. L. 115-232 Sec. 327 as authorizing, directing or setting a deadline for the pilot program. Only the table-of-contents heading resolves, reading 'Report on pilot program for micro-reactors.'",
+    "Any named individual as the signer of the FONPA or FONSI, including Col. Paul Townsend. No person is sourced.",
+    "DLA Energy as the awarding office, and the 06.11.25 Notice of Intent to Award. The Oklo press release could not be retrieved on three URL attempts, and the 10-K contains no reference to DLA Energy or a notice of intent to award.",
+    "Solicitation number AFCEC-26-R-0006, the ~4,700 acres, the 12 parcels, and contracting officer Julia A. Cantrell. No primary record was retrievable.",
+    "HigherGov's '$1,000,000-$10,000,000' estimated contract value. It is an AI estimate on that page.",
+    "The Murkowski quote about data centers at JBER and Interior installations. Not re-verified in this pass.",
+    "'Heidi Hedberg' as Alaska DOH Commissioner. Search-snippet only.",
+    "'~1,800 letters of interest' for the Rural Health Transformation Program. Search-snippet only.",
+    "The ARC Program 75/25 cost share, the $175M total and the $20M per-recipient cap. Snippet-only.",
+    "The '46% year-over-year ANC obligation decline' and the '~50% / $1.7B sole-source decline.' Never fetched.",
+    "Any detail of GVEA's Rule 11 zone map, the exempt critical-infrastructure feeder list, GVEA's rate case, interim refundable rates, or the $100M gas turbine and BESS plan. TA409-13's tariff sheets were never retrieved.",
+    "Any dollar figure for the Eielson power purchase agreement. None was established.",
+    "The Sept. 30 comment deadline must be attributed to KUAC. No Federal Register or Air Force-hosted notice of this comment period was located (af.mil and eielson.af.mil both 403).",
+    "Any assertion that the Air Force has decided an EA suffices rather than an EIS. KUAC reports this as what officials anticipate, conditional on the draft EA."
+  ],
+  "_validation_note": "Window was NOT broadened; the selected trigger is one day old. Verbatim discipline: the news_trigger quote was returned character-identical by two independent WebFetch calls against the live KUAC page. All four selected layers were re-fetched by the mapper personally: law.cornell.edu/cfr/text/32/989.15, archives.gov EO 11990, uscode.house.gov 10 U.S.C. 2922a (corroborated at law.cornell.edu/uscode/text/10/2922a), and sec.gov Oklo Inc. FY2025 10-K. Two layers the scouts proposed were cut rather than softened: Pub. L. 115-232 Sec. 327 (operative text unreadable) and the 10 U.S.C. 2667 Enhanced Use Lease demand layer (no retrievable primary record). The chain reads clean at four layers without them. Category moved from the scouts' facilities/regulatory to vehicles because the surviving chokepoint sits in the acquisition layer. Candidates C (ANC 8(a)) and D (Alaska RHTP) were dropped on source-retrievability, not substance; both are worth re-running if SBA Policy Notice 6000-876995 becomes retrievable or if the health.alaska.gov RHTP governance page resolves."
 }
