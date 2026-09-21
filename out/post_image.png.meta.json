@@ -1,79 +1,116 @@
 {
-  "date": "24 JUL 2026",
+  "date": "21 SEP 2026",
   "column": "The Stack",
   "kicker": "THE STACK",
   "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "headline": "The reactor waits on one signature",
+  "style_family": "machined_plate",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#f4f0f8",
+    "#2b1f4a",
+    "#b295bd",
+    "#140e24",
+    "#9a86b8",
+    "#241b40",
+    "#e8913c"
   ],
-  "hue_family": "green",
-  "composition": "bilateral_gate",
+  "derived_tones": {
+    "EDGE": "#e0d8ea",
+    "UP_LIT": "#c7bad8",
+    "UP_DRK": "#4b4062",
+    "LO_LIT": "#675986",
+    "LO_DRK": "#1a132f",
+    "CONC": "#665b7e",
+    "GROUND": "#18112b",
+    "WATER": "#50406b",
+    "ICE": "#7c6790"
+  },
+  "hue_family": "violet",
+  "composition": "suspended_gap",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "split high-voltage coupling",
+    "the empty last inch",
+    "insulator sheds",
+    "amber conductors stopping at the gap",
+    "poured concrete pad",
+    "muskeg water pools",
+    "Eielson hangars and stack plume"
   ],
   "technique_stack": [
     "gradient_v",
+    "field@300+upscale",
     "ridge_fill",
-    "voronoi_polys",
-    "hatch",
-    "glow",
+    "voronoi_polys x2",
+    "blob_pts",
+    "wobble_pts",
+    "ell_pts",
     "stipple",
     "chips",
-    "hand_line",
+    "glow",
+    "soft_panel",
+    "chip",
+    "mottle",
     "grain"
   ],
-  "seed": 724,
+  "seed": 2609,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
-      "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "weighted": 6.12,
+      "weakest": "craft_finish",
+      "fix": "berm was a shapeless flat blob, the frost hatch read as rain, and the two halves read as one tower with a stripe"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 7.21,
+      "weakest": "craft_finish",
+      "fix": "elliptical insulator sheds read as torn rubber, conductors were candy-striped, slot read as a collar on the upper half"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 7.0,
+      "weakest": "craft_finish",
+      "fix": "value structure collapsed to mid-tones, sheds read as pancakes and the meltwater pools as lily pads"
+    },
+    {
+      "iter": 4,
+      "weighted": 7.93,
+      "weakest": "color_value",
+      "fix": "sampled the focal and found it peaked at 185/255, so the lightest light was a mid-grey; blur was eating the core"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.46,
+      "weakest": "craft_finish",
+      "fix": "upper half too plain, gap shadow read as a hard box, fin tips lacked specular life"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.59,
+      "weakest": "concept",
+      "fix": "shipped"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.59,
     "scores": {
-      "concept": 9,
-      "focal": 9,
+      "concept": 8.5,
+      "focal": 9.0,
       "composition": 8.5,
-      "color": 8.5,
+      "color_value": 8.5,
       "detail": 8.5,
-      "craft": 9,
+      "craft": 8.5,
       "typography": 8.5,
       "originality": 8.5,
-      "fidelity": 9
-    }
+      "fidelity": 9.0
+    },
+    "notes": "Above the 8.5 floor with no dimension below 7. Focal verified at 253/255 against a 0-255 global range, so the slot wins the contrast war outright. Six eval iterations plus one script crash (art_kit.chips mask index overflow, fixed, not counted)."
   },
   "canvas": [
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-09-21T20:57:43.453264Z",
   "out_path": "out/post_image.png"
 }
