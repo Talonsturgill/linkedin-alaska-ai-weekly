@@ -10,9 +10,7 @@ It’s a pass-through. Congress funds a $50 billion program, CMS allots it to st
 
 Layer three is the chokepoint. DOH states that “the DOH Commissioner retains final decision-making authority on all funding decisions.” The binary is fund or don’t fund, plus the pen on Year 2 criteria. The RHTP Advisory Council only advises. The one live upstream check is the CMS Administrator’s clawback.
 
-Congress wrote a technology tilt into the statute. Rep. Genevieve Mina has said the federal design is “almost directing us to AI,” according to GovTech. In Alaska that tilt passes through one office before it reaches anyone.
-
-Year 1 reportedly went out as stabilization in weekly batches. Year 2 narrows further, into “state-directed targeted innovation funding opportunities” in three focus areas ADN reports as pay-for-value reimbursement, care coordination, and emergency medical services. None is labeled technology.
+Congress wrote a technology tilt into the statute. Rep. Genevieve Mina has said the federal design is “almost directing us to AI,” according to GovTech. In Alaska that tilt passes through one office before it reaches anyone. Year 1 reportedly went out as stabilization in weekly batches. Year 2 narrows further, into “state-directed targeted innovation funding opportunities” in three focus areas ADN reports as pay-for-value reimbursement, care coordination, and emergency medical services. None is labeled technology.
 
 That’s a sensible design for Alaska’s provider map, and it gives CMS one accountable office. But it means the money is real for Alaska AI and health-IT vendors without being addressed to them. It arrives through providers. Foundation Health Partners’ $16 million award for data and technology to better focus on prevention, per Alaska’s News Source, shows the pattern. The provider holds the award and the technology rides inside a care project.
 

@@ -1,69 +1,69 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
-  "no_target_this_cycle": false,
+  "run_date": "2026-09-28",
+  "column": "The Stack",
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
+    "name": "Rural Health Transformation Program pass-through: CMS allotment to DOH Commissioner's discretionary subaward decision",
     "category": "vehicles",
     "category_label": "VEHICLES",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "quote": "The Alaska Department of Health is preparing to accept applications for the second year of a federal program intended to transform rural healthcare, even as the state has yet to finish distributing the first round of funding it received.",
+      "what_happened": "The Alaska Department of Health is preparing to accept applications for the second year of a federal program intended to transform rural healthcare, even as the state has yet to finish distributing the first round of funding it received.",
+      "url": "https://www.adn.com/alaska-news/2026/09/26/alaska-to-launch-second-funding-round-for-rural-health-transformation-program/",
+      "outlet": "Anchorage Daily News (Iris Samuels)",
+      "pub_date": "2026-09-26"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
+    "one_line_definition": "A $50B federal statutory fund (SSA 2105(h)) that CMS allots to states against a plan required to 'prioritize data and technology driven solutions', which in Alaska ($272,174,856 in Year 1) funnels through a single discretionary decision point, the DOH Commissioner, with the Alaska Community Foundation administering subawards on the Commissioner's behalf.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "name": "Statutory appropriation and plan mandate",
+        "what_it_does": "Appropriates $10B per year FY2026-FY2030; requires state rural health transformation plans that 'prioritize the use of new and emerging technologies' and 'prioritize data and technology driven solutions'.",
+        "controlling_actor": "Congress (fixed statute, 42 U.S.C. 1397ee(h)); not a live decision layer",
+        "primary_source": {"url": "https://www.law.cornell.edu/uscode/text/42/1397ee", "outlet": "Cornell LII (U.S. Code)", "doc_type": "statute"},
+        "verified": true
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "name": "Federal allotment and clawback",
+        "what_it_does": "Approves or denies state applications and sets each approved state's allotment annually; half allocated on rural-population and facility factors; the Administrator 'may withhold payments to, or reduce payments to, or recover previous payments from, the State... as the Administrator deems appropriate.'",
+        "controlling_actor": "Administrator of the Centers for Medicare & Medicaid Services (office)",
+        "primary_source": {"url": "https://www.medicaid.gov/resources-for-states/rural-health", "outlet": "CMS / Medicaid.gov (statutory authority 42 U.S.C. 1397ee(h))", "doc_type": "agency_page"},
+        "verified": true
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "name": "State lead agency and final award authority",
+        "what_it_does": "Receives Alaska's Year 1 award of $272,174,856 and makes all funding decisions: 'Under Alaska law and consistent with our CMS approved RHTP application, the DOH Commissioner retains final decision-making authority on all funding decisions.'",
+        "controlling_actor": "Commissioner, Alaska Department of Health (incumbent Heidi Hedberg), advised by the RHTP Advisory Council (advisory only)",
+        "primary_source": {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health", "doc_type": "agency_page"},
+        "verified": true
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "name": "Subaward administration and intake",
+        "what_it_does": "Runs the LOI/application portal and manages the subaward process: 'DOH has contracted with ACF to support implementation of RHTP in Alaska by managing the subaward process on behalf of DOH.'",
+        "controlling_actor": "Alaska Community Foundation, contracted subaward manager for DOH",
+        "primary_source": {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health", "doc_type": "agency_page"},
+        "verified": true
+      },
+      {
+        "name": "Year 2 state-directed targeting",
+        "what_it_does": "Shifts Year 2 from open calls toward 'state-directed targeted innovation funding opportunities focused on complex or statewide priority areas'; new LOI/application period 'as early as fall 2026'. ADN reports the three Year 2 focus areas: pay-for-value reimbursement, care coordination, and emergency medical services.",
+        "controlling_actor": "DOH Commissioner (sets criteria and final awards); public comment on criteria is advisory",
+        "primary_source": {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/for-rhtp-applicants/", "outlet": "Alaska Department of Health", "doc_type": "agency_page"},
+        "verified": true
       }
     ],
+    "illustrative_examples": [
+      {"what": "Foundation Health Partners $16M award for data and technology to better focus on prevention (example only, not a layer)", "url": "https://www.alaskasnewssource.com/2026/09/10/16m-awarded-expand-primary-care-interior-alaska/", "pub_date": "2026-09-09"},
+      {"what": "Rep. Genevieve Mina: federal design is 'almost directing us to AI'", "url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "pub_date": "2026-06-09"}
+    ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "State lead agency and final award authority",
+      "actor": "Commissioner, Alaska Department of Health (office; current incumbent Heidi Hedberg)",
+      "binary_decision": "Fund or do not fund each RHTP subaward, and set the Year 2 state-directed criteria; the program is discretionary and the Advisory Council only advises. Secondary upstream binary: CMS Administrator withhold/reduce/recover.",
+      "citation": "https://health.alaska.gov/en/education/rural-health-transformation-program/for-rhtp-applicants/"
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
+    "structural_read": "The federal statute tilts toward technology ('prioritize data and technology driven solutions'), but the Alaska layer routes that tilt through one discretionary office. Year 1 went out as stabilization in weekly batches, and Year 2 narrows discretion further into state-directed calls in three named areas, none labelled technology. For Alaska AI and health-IT vendors the money is real but not addressed to them; it arrives via provider subrecipients whose projects fit the Commissioner's categories, with the tech mandate sitting upstream. The CMS Administrator's withhold/recoup power pressures against slow disbursement.",
+    "forward_implication": "Health-tech and AI vendors should comment on the Year 2 criteria by the Oct. 9 deadline reported by ADN and line up a provider partner (hospital, tribal health organization, or EMS agency) whose project fits pay-for-value, care coordination, or EMS before state-directed calls open, rather than planning a standalone vendor application.",
+    "ak_consequence": "Health IT / AI: Alaska rural providers and their technology vendors must shape Year 2 proposals around the Commissioner's three state-directed focus areas, from now through the October 2026 criteria comment window and the end-of-October release of remaining Year 1 funds; Year 1 funds must be fully spent by 2027-09-30.",
+    "confidence": "medium",
     "gate_results": {
       "news_tie_pass": true,
       "anatomizable_pass": true,
@@ -75,11 +75,15 @@
     }
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {"name": "F1 Kenai LNG import stack (FERC CP26-61-000 / RCA I-26-001 / utility offtake)", "drop_reason": "missing_primary_source_per_layer", "detail": "FERC layer verified via FR 2026-10093, but the proposed RCA chokepoint and offtake layers rest on citizenportal.ai and ADN news (RCA pages 403); neither trigger mentions the RCA. Dropping the RCA layer breaks the chain."},
+    {"name": "F2 DeepGreen Cook Inlet subsea compute + tidal, FERC P-15423", "drop_reason": "recent_repeat", "detail": "FERC preliminary permit / competing-application chain is the 2026-08-21 mechanism."},
+    {"name": "V2 NSF 26-513 State and Regional AI Infrastructure Hubs", "drop_reason": "no_news_tie", "detail": "Announced 2026-08-04; no in-window Alaska story."},
+    {"name": "C1 ISDEAA 105(l) facility-lease capital stack after ANMC transfer", "drop_reason": "confabulation_risk", "detail": "No fetched page links 105(l)/leases/ISDEAA to ANMC; the core layer is inference."},
+    {"name": "C2 AGDC state equity back-in option at Alaska LNG FID", "drop_reason": "no_news_tie", "detail": "Trigger 9/8, outside the 14-day window."},
+    {"name": "C3 APFC Benchmark Review Committee charter", "drop_reason": "not_anatomizable"},
+    {"name": "R1 AS 38.05.810 conveyance to AIDEA ADL 234762", "drop_reason": "recent_repeat", "detail": "Same layer chain as the 2026-08-07 issue; no new chokepoint established."},
+    {"name": "R2 Governor's regulation gate (AO 358 freeze / AO 360 reduction quota / AS 44.62.060)", "drop_reason": "no_news_tie", "detail": "KTOO 9/24 trigger reports the freeze/waiver chokepoint being repealed; it does not mention AO 360 or data centers, and the gated rule does not exist."}
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "no_target_this_cycle": false,
+  "_validation_note": "No broadening; 14-day window. Corrections to scout data: (1) scout's 'obligate by 10/30/2026' not supported; DOH says first-year funds must be 'fully spent by September 30, 2027' and ADN says remaining Year 1 funds release at end of October; (2) 9/30 portal and 10/9 comment dates appear only in ADN; (3) '250 projects, $242.6M' unverified and omitted; (4) Foundation Health Partners article dated 2026-09-09, illustrative only; (5) Year 2 focus areas are not tech-specific; the AI tie rests on the statute plus GovTech 2026-06-09. The 2026-09-21 cycle dropped (did not anatomize) an RHTP subaward candidate, so this is not a repeat. Quotes captured via WebFetch extraction."
 }

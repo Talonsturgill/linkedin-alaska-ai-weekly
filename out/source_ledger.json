@@ -1,22 +1,14 @@
 {
+  "run_date": "2026-09-28",
+  "column": "The Stack",
+  "mechanism": "Rural Health Transformation Program pass-through: CMS allotment to DOH Commissioner's discretionary subaward decision",
   "sources": [
-    {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
-    },
-    {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
-    },
-    {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
-    }
+    {"url": "https://www.adn.com/alaska-news/2026/09/26/alaska-to-launch-second-funding-round-for-rural-health-transformation-program/", "outlet": "Anchorage Daily News (Iris Samuels)", "pub_date": "2026-09-26", "story_title": "NEWS TRIGGER. Alaska to launch second funding round for Rural Health Transformation Program. Also the source for the Oct. 9 comment deadline, the end-of-October Year 1 release, and the three Year 2 focus areas.", "role": "news_trigger"},
+    {"url": "https://www.law.cornell.edu/uscode/text/42/1397ee", "outlet": "Cornell LII (U.S. Code)", "pub_date": "statute", "story_title": "LAYER 1. 42 U.S.C. 1397ee(h) (SSA 2105(h)): $10B/yr FY2026-2030, plans must prioritize data and technology driven solutions.", "role": "layer_primary_source"},
+    {"url": "https://www.medicaid.gov/resources-for-states/rural-health", "outlet": "CMS / Medicaid.gov", "pub_date": "agency page", "story_title": "LAYER 2. Federal allotment and the Administrator's withhold, reduce, or recover authority.", "role": "layer_primary_source"},
+    {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/", "outlet": "Alaska Department of Health", "pub_date": "agency page", "story_title": "LAYERS 3-4. $272,174,856 Year 1 award; Commissioner's final decision-making authority; Alaska Community Foundation as subaward manager.", "role": "layer_primary_source"},
+    {"url": "https://health.alaska.gov/en/education/rural-health-transformation-program/for-rhtp-applicants/", "outlet": "Alaska Department of Health", "pub_date": "agency page", "story_title": "LAYER 5 + CHOKEPOINT. Year 2 state-directed targeted innovation funding opportunities; Commissioner retains final authority on all funding decisions.", "role": "chokepoint_primary_source"},
+    {"url": "https://www.alaskasnewssource.com/2026/09/10/16m-awarded-expand-primary-care-interior-alaska/", "outlet": "Alaska's News Source", "pub_date": "2026-09-09", "story_title": "Illustrative example. Foundation Health Partners $16M award for data and technology to better focus on prevention.", "role": "illustration"},
+    {"url": "https://www.govtech.com/health/do-alaska-rural-health-transformation-funds-point-to-ai", "outlet": "GovTech", "pub_date": "2026-06-09", "story_title": "Illustrative example. Rep. Genevieve Mina: the federal design is 'almost directing us to AI.'", "role": "illustration"}
   ]
 }
