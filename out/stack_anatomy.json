@@ -1,85 +1,44 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
-  "no_target_this_cycle": false,
-  "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
-    "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
-    },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
-    "layers": [
-      {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
-      },
-      {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
-      },
-      {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
-      },
-      {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
-      }
-    ],
-    "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
-    },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
-    "gate_results": {
-      "news_tie_pass": true,
-      "anatomizable_pass": true,
-      "per_layer_primary_source_pass": true,
-      "ak_consequence_pass": true,
-      "chokepoint_asymmetry_pass": true,
-      "mechanism_not_actor_pass": true,
-      "not_recent_repeat_pass": true
-    }
+ "selected_mechanism": {
+  "name": "DPA Title III grid-equipment determination to DOE intent-to-deploy for AEA Beluga-Healy transmission",
+  "category": "vehicles",
+  "category_label": "VEHICLES",
+  "news_trigger": {
+   "what_happened": "The Alaska Energy Authority's Beluga-Healy Transmission Project combines up to $150 million in DPA funding with $268 million in non-federal funding, representing a planned total investment of $418 million in Alaska's grid. ... Approximately 223 miles of new transmission line connecting Beluga and Healy will be built.",
+   "url": "https://www.energy.gov/articles/energy-department-announces-alaska-railbelt-transmission-project-receive-defense",
+   "outlet": "U.S. Department of Energy",
+   "pub_date": "2026-10-05"
   },
-  "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+  "one_line_definition": "Congress appropriated $1B to carry out the Defense Production Act (OBBBA Sec. 30004). A presidential determination under DPA Sec. 303 then declared transmission lines and grid equipment essential to national defense and directed the Secretary of Energy to make purchases and commitments. DOE is now using that authority to announce up to $150M toward an AEA-developed second Southcentral-Interior transmission line, conditioned on $268M in non-federal funding.",
+  "layers": [
+   {"name": "Appropriation", "what_it_does": "Provides the money. DOE describes it as $1 billion in federal funding appropriated for energy-related projects deemed critical to national security ($1B figure from DOE page; statute body not fetched).", "controlling_actor": "Congress (P.L. 119-21, Title III, Banking Committee, Sec. 30004 Appropriations for Defense Production Act); spent by the executive under DPA authority", "primary_source": {"url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm", "outlet": "GovInfo", "doc_type": "statute"}},
+   {"name": "Statutory authority (DPA Sec. 303, 50 USC 4533)", "what_it_does": "Lets the President make purchases and commitments to build domestic industrial base capability. Under (a)(5) that requires a written, non-delegable presidential determination. Under (a)(7) requirements can be waived in an emergency or to avert a shortfall.", "controlling_actor": "The President (determination is non-delegable)", "primary_source": {"url": "https://www.law.cornell.edu/uscode/text/50/4533", "outlet": "Cornell LII", "doc_type": "statute"}},
+   {"name": "Presidential Determination on grid infrastructure (dated 2026-04-20; DOE cites it as No. 2026-10)", "what_it_does": "Finds grid infrastructure, explicitly including transmission lines and conductors and substations, essential to national defense. Waives section 303(a)(1)-(a)(6). Directs the Secretary of Energy to implement, including making necessary purchases, commitments, and financial instruments.", "controlling_actor": "President (issuer); Secretary of Energy (implementer)", "primary_source": {"url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/", "outlet": "The White House", "doc_type": "agency_page"}},
+   {"name": "DOE project selection / intent to deploy", "what_it_does": "DOE announced its intent to deploy DPA funding of up to $150M to Beluga-Healy. It is an intent. No obligation, agreement terms or timeline are published.", "controlling_actor": "Secretary of Energy (Chris Wright), with the DOE Office of Electricity (Assistant Secretary Katie Jereza)", "primary_source": {"url": "https://www.energy.gov/articles/energy-department-announces-alaska-railbelt-transmission-project-receive-defense", "outlet": "U.S. Department of Energy", "doc_type": "agency_page"}},
+   {"name": "Project developer and non-federal share", "what_it_does": "AEA, a state public corporation that owns the existing 170-mile Willow-Healy Alaska Intertie, develops the project and must carry the $268M (about 64%) non-federal share. No fetched page names the source of that money.", "controlling_actor": "Alaska Energy Authority, through its 8-member Board of Directors (next scheduled meeting 2026-11-05)", "primary_source": {"url": "https://www.akenergyauthority.org/Who-We-Are/Governance/Board-Meeting-Schedule", "outlet": "Alaska Energy Authority", "doc_type": "agency_page"}}
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "chokepoint": {
+   "layer": "DOE project selection / intent to deploy",
+   "actor": "Secretary of Energy, the single officer the April 20, 2026 Presidential Determination authorized and directed to make purchases, commitments, and financial instruments",
+   "binary_decision": "Whether to turn the announced intent to deploy up to $150M into an obligated DPA Title III agreement with AEA, and on what terms."
+  },
+  "ak_consequence": "Railbelt power: up to $150M of the $418M budget is an unobligated DOE intent, so AEA has to line up $268M in non-federal money before the federal piece is real. AEA's board, next meeting Nov 5 2026, is the next public body positioned to act on financing.",
+  "structural_read": "DPA Title III is being used as a grant-like capital vehicle for a state-owned transmission asset. The defense finding is the legal hinge that lets $1B of Banking-committee money skip the normal DOE grant process. That makes it fast but discretionary. Until the Secretary obligates the money the announcement is a signal, not capital. About 64% of the cost sits on the non-federal side, so the real constraint is AEA's ability to finance its share. How costs would be recovered from Railbelt users is not established by any fetched source.",
+  "forward_implication": "Railbelt utility CFOs and large-load developers should not count on a second Beluga-Healy path being funded or on any delivery timeline until DOE publishes an obligated DPA agreement and AEA identifies the source of the $268M. Before the AEA board's Nov 5 2026 meeting, ask AEA directly for both.",
+  "confidence": "medium",
+  "gate_results": {"news_tie_pass": true, "anatomizable_pass": true, "per_layer_primary_source_pass": true, "ak_consequence_pass": true, "chokepoint_asymmetry_pass": true, "mechanism_not_actor_pass": true, "not_recent_repeat_pass": true}
+ },
+ "dropped_mechanisms": [
+  {"name": "AEA $268M non-federal share / pooled cost recovery (capital_sovereignty framing)", "drop_reason": "diffuse_chokepoint"},
+  {"name": "RTO tariff + RCA approval as Beluga-Healy cost-recovery layer", "drop_reason": "missing_primary_source_per_layer"},
+  {"name": "AS 38.05.810 DNR conveyance to AIDEA (Houston)", "drop_reason": "no_news_tie (trigger 9/16-17)"},
+  {"name": "EO 14421 vs Railbelt Reliability Council standards", "drop_reason": "no_news_tie"},
+  {"name": "Air Force 10 USC 2667 EUL data centers", "drop_reason": "no_news_tie"},
+  {"name": "ANC 8(a) preference chain / Koniag WHS award", "drop_reason": "no_news_tie"},
+  {"name": "NSF 26-513 AI Infrastructure Hubs", "drop_reason": "no_news_tie"},
+  {"name": "FCC WC 26-173 USAC rulemaking", "drop_reason": "no_ak_consequence"},
+  {"name": "Stak Energy DNR lease ADL 422741", "drop_reason": "no_news_tie"}
+ ],
+ "no_target_this_cycle": false,
+ "_validation_note": "14-day window held, no broadening. Do not state source of the $268M, any ratepayer cost, RTO/RCA linkage, obligation date, or any data-center/Air Force link. Use DOE figures $418M total, $150M (about 36%) federal, not Alaska Story's $400M/37.5%. VP Vance visit timing is context only. PD number 2026-10 comes from DOE's page only. $1B figure from DOE page, not statute text."
 }
