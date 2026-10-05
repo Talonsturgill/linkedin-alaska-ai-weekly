@@ -1,70 +1,67 @@
 {
-  "date": "24 JUL 2026",
+  "date": "5 OCT 2026",
   "column": "The Stack",
   "kicker": "THE STACK",
   "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "headline": "Beluga-Healy rides the Defense Production Act",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "style_family": "constructivist_switchgear",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#eee5d0",
+    "#bcd3c8",
+    "#2f7c78",
+    "#14403f",
+    "#0b1a1b",
+    "#c8743a",
+    "#ff5f1f"
   ],
-  "hue_family": "green",
-  "composition": "bilateral_gate",
+  "hue_family": "teal",
+  "composition": "knife_switch_diagonal",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "open knife switch",
+    "raised orange blade with insulated ring handle",
+    "ribbed ceramic insulators",
+    "lattice pylon line on ridge",
+    "copper jaw clips",
+    "intent versus obligation"
   ],
   "technique_stack": [
-    "gradient_v",
-    "ridge_fill",
-    "voronoi_polys",
+    "ridge_pts",
     "hatch",
-    "glow",
     "stipple",
     "chips",
-    "hand_line",
+    "rays",
+    "glow",
+    "mottle",
     "grain"
   ],
-  "seed": 724,
+  "seed": 5101,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
-      "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "weighted": 7.9,
+      "weakest": "typography/legibility (headline collided with blade ring, labels on noisy stipple, wordmark invisible)"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 8.3,
+      "weakest": "detail (flat teal acreage)"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 8.55,
+      "weakest": "detail"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.55,
     "scores": {
       "concept": 9,
-      "focal": 9,
+      "focal": 8.5,
       "composition": 8.5,
       "color": 8.5,
-      "detail": 8.5,
-      "craft": 9,
+      "detail": 8,
+      "craft": 8.5,
       "typography": 8.5,
       "originality": 8.5,
       "fidelity": 9
@@ -74,6 +71,6 @@
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-10-05T20:25:18.540628Z",
   "out_path": "out/post_image.png"
 }

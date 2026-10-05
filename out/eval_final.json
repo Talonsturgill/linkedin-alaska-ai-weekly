@@ -1,0 +1,33 @@
+{
+ "history": [
+  {
+   "iter": 1,
+   "weighted": 7.9,
+   "weakest": "typography/legibility (headline collided with blade ring, labels on noisy stipple, wordmark invisible)"
+  },
+  {
+   "iter": 2,
+   "weighted": 8.3,
+   "weakest": "detail (flat teal acreage)"
+  },
+  {
+   "iter": 3,
+   "weighted": 8.55,
+   "weakest": "detail"
+  }
+ ],
+ "final": {
+  "weighted": 8.55,
+  "scores": {
+   "concept": 9,
+   "focal": 8.5,
+   "composition": 8.5,
+   "color": 8.5,
+   "detail": 8,
+   "craft": 8.5,
+   "typography": 8.5,
+   "originality": 8.5,
+   "fidelity": 9
+  }
+ }
+}
