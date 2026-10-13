@@ -1,230 +1,325 @@
-"""The Stack — 2026-07-24 — bespoke cover.
-Concept: two valves in series on a conduit rising from an AI-pinned
-critical-mineral ore body. Value reaches the surface only if BOTH
-valves open (NSF TIP money key + NANA ground key). style_family
-geologic_engraving; hue green + copper ore focal; composition
-bilateral_gate. SEED 724.
-"""
-import sys, math, traceback
-sys.path.insert(0, ".claude/skills/alaska-ai-artwork")
-import art_kit as k
+"""Anchorage Desk, 24 SEP 2026 — trail markers behind the trail.
+Ben Shier / UA draft system-wide AI policy. See out/art_plan.md."""
+import math
+import sys
+
+import numpy as np
 from PIL import Image, ImageDraw
 
-SEED = 724
+sys.path.insert(0, ".claude/skills/alaska-ai-artwork")
+import art_kit as K
 
-def dashed(c, p0, p1, color, width=2, dash=15, gap=11, d=None):
-    x0, y0 = p0; x1, y1 = p1
-    ln = math.hypot(x1 - x0, y1 - y0)
-    if ln < 1: return
-    ux, uy = (x1 - x0) / ln, (y1 - y0) / ln
-    t = 0.0
-    while t < ln:
-        a = (x0 + ux * t, y0 + uy * t)
-        t2 = min(ln, t + dash)
-        b = (x0 + ux * t2, y0 + uy * t2)
-        k.line(c, [a, b], color, width, d=d)
-        t += dash + gap
+SEED = 924
+rng = np.random.default_rng(SEED)
 
-def valve(c, vx, vy, r, rim, spoke, hub, dark):
-    # handwheel: outer ring, spokes, hub
-    k.circle(c, vx, vy, r, outline=dark, width=6)
-    k.circle(c, vx, vy, r * 0.86, outline=rim, width=4)
-    for i in range(6):
-        a = math.radians(i * 60 + 8)
-        k.line(c, [(vx + math.cos(a) * r * 0.16, vy + math.sin(a) * r * 0.16),
-                   (vx + math.cos(a) * r * 0.84, vy + math.sin(a) * r * 0.84)],
-               spoke, width=5)
-    k.circle(c, vx, vy, r * 0.20, fill=hub)
-    k.circle(c, vx, vy, r * 0.20, outline=dark, width=3)
+PAPER = "#efe8d8"
+INK = "#1f2a4d"
+SHADE = "#6f7fa6"
+MIST = "#b9c2d6"
+ACCENT = "#d0452f"
+STAR = "#e0a526"
+SNOW2 = "#e2ddd4"  # faint cool snow tint
+SNOW3 = "#c9ccd6"  # trough / cups
+SHD2 = "#9aa5c0"   # shadow fill
+FAR = "#dcdcdf"    # far ridge fill
 
-def main():
-    c = k.Canvas(bg="#e7efe5", ss=2)
+c = K.Canvas(bg=PAPER)
+W = c.W
 
-    # ---- palette (OKLCH; dominant green, warm copper focal) ----
-    paper   = k.oklch(0.93, 0.030, 155)   # pale mint sky/light
-    sky_lo  = k.oklch(0.80, 0.045, 176)   # teal-green above ground
-    ground_line_col = k.oklch(0.42, 0.045, 160)
-    strata_light = k.oklch(0.65, 0.052, 158)
-    strata_deep  = k.oklch(0.235, 0.042, 158)
-    seam    = k.oklch(0.30, 0.040, 158)
-    ink     = k.oklch(0.17, 0.030, 158)
-    metal   = k.oklch(0.74, 0.030, 165)   # pale metallic for valve rims
-    ore     = k.oklch(0.72, 0.150, 62)     # copper focal accent
-    ore_hi  = k.oklch(0.86, 0.110, 78)
-    ore_dk  = k.oklch(0.46, 0.130, 52)
-    NB = 6
-    GY = 470.0
 
-    # ---- 1-2 sky ----
-    k.gradient_v(c, (0, 0, 1080, GY + 6), paper, sky_lo, ease=1.25)
+def fast_field(scale=4.0, octaves=4, seed=0, persistence=0.5):
+    """Fast value noise (numpy + scipy zoom); simplex field() is ~54s here."""
+    from scipy.ndimage import zoom
+    r = np.random.default_rng(seed)
+    out = np.zeros((1080, 1080))
+    amp, tot, freq = 1.0, 0.0, scale
+    for _ in range(octaves):
+        n = max(2, int(freq)) + 2
+        g = r.random((n, n))
+        z = zoom(g, 1080 / (n - 1), order=3)[:1080, :1080]
+        out += amp * z
+        tot += amp
+        amp *= persistence
+        freq *= 2
+    out /= tot
+    out = (out - out.min()) / (out.max() - out.min() + 1e-9)
+    return out
 
-    # ---- 3 subsurface deep base ----
-    k.poly(c, [(0, GY), (1080, GY), (1080, 1080), (0, 1080)], fill=strata_deep)
 
-    # ---- 4 strata bands (ridge_fill stacking: light near surface -> dark deep) ----
-    bounds = [GY, 556, 640, 726, 818, 918, 1080]
-    band_cols = k.ramp([strata_light, strata_deep], NB)
-    for i in range(NB):
-        pts = k.ridge_pts(bounds[i], amp=15, scale=2.4, octaves=4, seed=SEED + i * 7)
-        poly_pts = [(pts[0][0], 1080)] + pts + [(pts[-1][0], 1080)]
-        k.poly(c, poly_pts, fill=band_cols[i])
-        # thin seam line along the band top
-        k.line(c, pts, seam, width=2)
+def peaks(base, spec, seed, jag=6.0, step=6):
+    """Polyline of mountain peaks: spec = [(x_center, height, half_width)]."""
+    r = np.random.default_rng(seed)
+    xs = np.arange(-10, 1091, step)
+    ys = np.full(xs.shape, float(base))
+    for cx, hgt, hw in spec:
+        skew = r.uniform(0.65, 1.45)
+        d = np.where(xs < cx, (cx - xs) / (hw * skew), (xs - cx) / (hw / skew))
+        prof = np.clip(1 - d, 0, None) ** r.uniform(1.05, 1.6)
+        ys = np.minimum(ys, base - hgt * prof)
+    ys += np.cumsum(r.normal(0, jag * 0.35, xs.shape)) * 0.5 + r.normal(0, jag * 0.5, xs.shape) * (base - ys > 20)
+    ys -= np.linspace(0, ys[-1] - ys[0] - (ys[-1] - ys[0]), xs.shape[0]) * 0
+    ys = np.convolve(ys, np.ones(2) / 2, mode="same")
+    ys[0], ys[-1] = ys[1], ys[-2]
+    return list(zip(xs.tolist(), ys.tolist()))
 
-    # ---- 4b voronoi fracture seams (meso structure inside the ground) ----
-    cells = k.voronoi_polys(n=74, seed=SEED, bbox=(-40, GY + 8, 1120, 1080), relax=1)
-    seamlay, sd = c.layer()
-    for cell in cells:
-        if len(cell) >= 3:
-            sd.line(c.pts(cell + [cell[0]]), fill=(*k.hex_to_rgb(seam), 90),
-                    width=max(1, int(c.s(1.1))), joint="curve")
-    c.composite(seamlay)
 
-    # ---- 5 engraving hatch over subsurface (denser deep) ----
-    m_top, dtop = c.mask()
-    dtop.rectangle([0, c.s(GY), c.W, c.s(760)], fill=255)
-    k.hatch(c, m_top, spacing=17, angle=-16, color=seam, width=1.0)
-    m_deep, ddeep = c.mask()
-    ddeep.rectangle([0, c.s(740), c.W, c.W], fill=255)
-    k.hatch(c, m_deep, spacing=11, angle=-16, color=k.darken(seam, 0.05), width=1.2)
+def mask_poly(pts):
+    m, md = c.mask()
+    md.polygon(c.pts(pts), fill=255)
+    return m
 
-    # ---- 6 dark collar around ore ----
-    OX, OY = 540.0, 832.0
-    collar = k.blob_pts(OX, OY, 210, wobble=0.10, harmonics=(1, 2, 3), points=150, seed=SEED + 3)
-    k.poly(c, collar, fill=strata_deep)
-    collar2 = k.blob_pts(OX, OY, 150, wobble=0.12, harmonics=(1, 2, 3, 5), points=150, seed=SEED + 4)
-    k.poly(c, collar2, fill=k.darken(strata_deep, 0.03))
 
-    # ---- 7 conduit channel (ore -> surface) ----
-    CX = 540.0
-    k.poly(c, [(CX - 15, GY), (CX + 15, GY), (CX + 12, OY - 10), (CX - 12, OY - 10)],
-           fill=k.mix(strata_deep, metal, 0.22))
-    k.hand_line(c, [(CX - 15, GY), (CX - 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 5)
-    k.hand_line(c, [(CX + 15, GY), (CX + 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 6)
-    # surface manifold cap
-    k.poly(c, [(CX - 40, GY - 12), (CX + 40, GY - 12), (CX + 40, GY + 6), (CX - 40, GY + 6)],
-           fill=metal, outline=ink, width=3)
+def bez(p0, p1, p2, p3, t):
+    u = 1 - t
+    return (u**3 * p0[0] + 3 * u * u * t * p1[0] + 3 * u * t * t * p2[0] + t**3 * p3[0],
+            u**3 * p0[1] + 3 * u * u * t * p1[1] + 3 * u * t * t * p2[1] + t**3 * p3[1])
 
-    # ---- 8 ore body: glow + lens + vein tendrils + sparkle ----
-    k.glow(c, OX, OY, 190, ore, alpha=70)
-    k.glow(c, OX, OY, 120, ore_hi, alpha=70)
-    lens = k.blob_pts(OX, OY, 104, wobble=0.12, harmonics=(1, 2, 3), points=160, seed=SEED + 8)
-    k.poly(c, lens, fill=ore)
-    lens_hi = k.blob_pts(OX - 14, OY - 16, 56, wobble=0.13, harmonics=(1, 2, 3), points=140, seed=SEED + 9)
-    k.poly(c, lens_hi, fill=ore_hi)
-    # internal crystalline facet lines (nose-length structure)
-    for fa in [(-60, -30, 70, 40), (30, -50, -40, 55), (-20, 20, 60, -60)]:
-        k.line(c, [(OX + fa[0], OY + fa[1]), (OX + fa[2], OY + fa[3])],
-               k.mix(ore_hi, ore, 0.4), width=2)
-    # vein tendrils out of the lens (irregular, thin, veinlike — not a burst)
-    tangles = [18, 74, 129, 196, 251, 312]
-    for i, deg in enumerate(tangles):
-        a = math.radians(deg)
-        r0 = 92; r1 = 92 + 26 + (i % 3) * 18
-        mid = ((OX + math.cos(a) * (r0 + r1) / 2 + (12 if i % 2 else -10)),
-               (OY + math.sin(a) * (r0 + r1) / 2))
-        k.hand_line(c, [(OX + math.cos(a) * r0, OY + math.sin(a) * r0), mid,
-                        (OX + math.cos(a) * r1, OY + math.sin(a) * r1)],
-                    ore_dk, width=2, amp=2.6, seed=SEED + 20 + i)
-    # ore sparkle micro
-    m_ore, mo = c.mask()
-    mo.polygon(c.pts(lens), fill=255)
-    k.stipple(c, m_ore, density=0.16, r=(0.7, 1.7), color=ore_hi, seed=SEED + 30)
-    k.chips(c, 46, (OX - 150, OY - 150, OX + 150, OY + 150),
-            size=(2.5, 6.5), colors=(ore_hi, ore, ore_dk), seed=SEED + 31)
 
-    # ---- 9 valves in series + stems + node chips ----
-    VA = (CX, 690.0)   # lower / deeper valve  -> stem LEFT to NSF TIP
-    VB = (CX, 556.0)   # upper valve           -> stem RIGHT to NANA
-    # stems
-    k.hand_line(c, [VA, (300, 690)], ink, width=4, amp=1.2, seed=SEED + 40)
-    k.hand_line(c, [VB, (792, 556)], ink, width=4, amp=1.2, seed=SEED + 41)
-    valve(c, VA[0], VA[1], 46, metal, ink, ore, ink)
-    valve(c, VB[0], VB[1], 46, metal, ink, ore, ink)
+# ---- sky: engraved horizontal lines fading toward the ridge ----------
+sky = np.zeros((1080, 1080), np.uint8)
+for y in range(335, 560):
+    sky[y, :] = int(255 * min(1.0, (y - 335) / 170) ** 1.3)
+K.hatch(c, Image.fromarray(sky), spacing=7.5, angle=0, color=MIST, width=1.0)
 
-    # ---- 10 AI reticle: sightlines from the right sky converge on the wellhead,
-    #        kept clear of the headline/kicker; plumb drops to the ore ----
-    TGT = (CX + 6, GY - 4)
-    for p in [(772, 306), (872, 328), (972, 356)]:
-        dashed(c, p, TGT, k.mix(ink, sky_lo, 0.34), width=2, dash=16, gap=12)
-    dashed(c, TGT, (CX, OY - 96), ore_dk, width=2, dash=14, gap=10)
-    k.circle(c, TGT[0], TGT[1], 15, outline=ink, width=3)
-    k.line(c, [(TGT[0] - 24, TGT[1]), (TGT[0] + 24, TGT[1])], ink, width=2)
-    k.line(c, [(TGT[0], TGT[1] - 24), (TGT[0], TGT[1] + 24)], ink, width=2)
+# ---- far ridge (mist) --------------------------------------------------
+far = peaks(470, [(90, 70, 150), (300, 120, 170), (520, 95, 150), (760, 140, 190), (990, 90, 170)], SEED + 1, jag=4)
+far_poly = far + [(1090, 600), (-10, 600)]
+fm = mask_poly(far_poly)
+K.poly(c, far_poly, fill=FAR)
+K.hatch(c, fm, spacing=5.5, angle=40, color=MIST, width=1.0)
+K.line(c, far, SHADE, width=1.6)
 
-    # ---- 11 grain finish (restrained) ----
-    k.grain(c, amount=6.0, seed=SEED)
+# snowcaps on the far range: paper wedges under the highest crests
+far_arr = np.array(far)
+capr = np.random.default_rng(SEED + 5)
+for k in range(1, len(far_arr) - 1):
+    pass
+top_idx = [k for k in range(2, len(far_arr) - 2) if far_arr[k, 1] < 470 - 70
+           and far_arr[k, 1] <= far_arr[k - 2:k + 3, 1].min() + 0.01]
+for k in top_idx:
+    px, py = far_arr[k]
+    dep = 28 + capr.uniform(0, 22)
+    cap = [(far_arr[j, 0], far_arr[j, 1]) for j in range(max(0, k - 9), min(len(far_arr), k + 10))]
+    zig = []
+    for j, (qx, qy) in enumerate(reversed(cap)):
+        zig.append((qx, max(qy, py + dep * (0.55 + 0.45 * (j % 2)))))
+    capp = cap + zig
+    capm = mask_poly(capp)
+    carr = np.asarray(capm, float) * (np.asarray(fm, float) / 255.0)
+    K.poly(c, capp, fill=PAPER)
+    K.hatch(c, Image.fromarray(carr.astype(np.uint8)), spacing=11, angle=40, color=MIST, width=0.8)
+K.line(c, far, SHADE, width=1.6)
 
-    # ---- 12 type ----
-    # eyebrow
-    eb = k.fraunces(c, 30, weight=650, opsz=40)
-    k.text(c, (86, 96), "ALASKA’S MINERAL ENGINE", eb,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.02)
-    # big headline
-    hcol = k.ensure_contrast(ink, paper)
-    s1 = k.fit_size(c, "RUNS ON", 560, lo=70, hi=150, weight=900, opsz=144)
-    f1 = k.fraunces(c, s1, weight=900, opsz=144)
-    k.text(c, (84, 132), "RUNS ON", f1, hcol, anchor="la")
-    s2 = k.fit_size(c, "TWO KEYS", 600, lo=70, hi=168, weight=900, opsz=144)
-    f2 = k.fraunces(c, s2, weight=900, opsz=144)
-    k.text(c, (84, 132 + s1 * 0.96), "TWO KEYS", f2, ore_dk, anchor="la")
+# ---- near ridge (ink hatch, snow faces left open) ----------------------
+near = peaks(560, [(180, 110, 230), (470, 70, 200), (660, 125, 210), (930, 85, 220)], SEED + 2, jag=5)
+near_poly = near + [(1090, 640), (-10, 640)]
+nm = mask_poly(near_poly)
+K.poly(c, near_poly, fill=PAPER)
+rock = fast_field(scale=6.0, octaves=4, seed=SEED + 3)
+rockm = K.field_mask(rock, threshold=0.52, soft=0.04)
+rock_arr = np.asarray(rockm.resize((W, W)), float) / 255.0
+near_arr = np.asarray(nm, float) / 255.0
+fade = np.clip((620 * 2 - np.arange(W)[:, None]) / (2 * 110.0), 0, 1)
+near_arr = near_arr * fade
+rm = Image.fromarray((rock_arr * near_arr * 255).astype(np.uint8))
+K.hatch(c, rm, spacing=4.2, angle=-35, color=INK, width=1.2)
+lower = Image.fromarray((near_arr * (1 - rock_arr) * 150).astype(np.uint8))
+K.hatch(c, lower, spacing=9, angle=-35, color=SHADE, width=0.9)
+narr = np.array(near)
+ys_s = np.convolve(narr[:, 1], np.ones(9) / 9, mode="same")
+slm, sld = c.mask()
+for k in range(4, len(narr) - 5):
+    (x0, y0), (x1, y1) = narr[k], narr[k + 1]
+    if ys_s[k + 1] > ys_s[k] + 0.3 and y0 < 545:
+        d0, d1 = 50 + (545 - y0) * 0.3, 50 + (545 - y1) * 0.3
+        sl = [(x0 - 1, y0), (x1 + 1, y1), (x1 + 1, y1 + d1), (x0 - 1, y0 + d0)]
+        sld.polygon(c.pts(sl), fill=255)
+from PIL import ImageFilter
+slm = slm.filter(ImageFilter.GaussianBlur(c.s(6)))
+sla = np.asarray(slm, float) * (np.asarray(nm, float) / 255.0)
+K.hatch(c, Image.fromarray(sla.astype(np.uint8)), spacing=3.0, angle=-35, color=INK, width=1.0)
+K.line(c, near, INK, width=2.2)
 
-    # kicker
-    kf = k.mono(c, 18, medium=True)
-    k.text(c, (86, 132 + s1 * 0.96 + s2 * 1.02 + 20),
-           "THE STACK · VEHICLES · 24 JUL 2026", kf,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.20)
+# snow apron where ridge meets field
 
-    # valve labels (chips)
-    lf = k.mono(c, 17, medium=True)
-    k.chip(c, (296, 690), "NSF TIP · $15M", lf, paper, ink, pad=9, anchor="ra")
-    k.chip(c, (796, 556), "NANA · GROUND", lf, paper, ink, pad=9, anchor="la")
-    # option tag: the $160M tranche above the valves (legible ghost chip)
-    of = k.mono(c, 16, medium=True)
-    k.chip(c, (470, 502), "$160M · OPTION", of, ink, strata_light, pad=8, anchor="ra")
+# ---- snowfield: drift contours + stipple hollows -----------------------
+for i, y0 in enumerate([640, 740, 870, 1000]):
+    amp = 10 + i * 5
+    pts = K.ridge_pts(y0, amp * 1.6, scale=2.6 + i * 0.3, octaves=3, seed=SEED + 10 + i)
+    seg = []
+    for j, q in enumerate(pts):
+        if (j // 7 + i) % 2 == 1:
+            if len(seg) > 2:
+                K.hand_line(c, seg, SHD2, width=0.8 + i * 0.15, amp=1.4, seed=SEED + 20 + i + j)
+            seg = []
+        else:
+            seg.append(q)
+    if len(seg) > 2:
+        K.hand_line(c, seg, SHD2, width=0.8 + i * 0.15, amp=1.4, seed=SEED + 99 + i)
+    band = pts + [(1080, y0 + 40 + i * 8), (0, y0 + 40 + i * 8)]
+    bm = mask_poly(band)
+    hol = fast_field(scale=5, octaves=3, seed=SEED + 30 + i)
+    hm = np.asarray(K.field_mask(hol, 0.55, 0.1).resize((W, W)), float) / 255.0
+    bm = Image.fromarray((np.asarray(bm, float) * hm * 0.9).astype(np.uint8))
+    K.stipple(c, bm, density=0.10 + i * 0.015, r=(0.5, 1.1 + i * 0.1), color=SHADE, seed=SEED + 40 + i)
 
-    # wordmark chip + polaris colophon
-    wf = k.fraunces(c, 27, weight=900, opsz=40)
-    k.chip(c, (84, 1006), "ALASKA.AI", wf, paper, ink, pad=11, anchor="ls")
-    k.polaris(c, 986, 118, r=13, color=ore, core=ore_hi)
+# ---- the trail ---------------------------------------------------------
+P0, P1, P2, P3 = (150, 1110), (640, 930), (380, 690), (820, 548)
 
-    meta = {
-        "date": "24 JUL 2026", "column": "The Stack", "kicker": "THE STACK",
-        "middle_slot": "VEHICLES",
-        "headline": "Alaska’s Mineral Engine Runs On Two Keys",
-        "byline": "",
-        "style_family": "geologic_engraving",
-        "palette": [paper, sky_lo, strata_light, strata_deep, ink, metal, ore],
-        "hue_family": "green",
-        "composition": "bilateral_gate",
-        "motifs": ["critical-mineral ore body", "two series valves",
-                   "AI triangulation reticle", "geologic strata cross-section",
-                   "subsurface conduit"],
-        "technique_stack": ["gradient_v", "ridge_fill", "voronoi_polys",
-                            "hatch", "glow", "stipple", "chips", "hand_line",
-                            "grain"],
-        "seed": SEED,
-        "eval_history": [
-            {"iter": 1, "weighted": 8.13, "weakest": "craft",
-             "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"},
-            {"iter": 2, "weighted": 8.60, "weakest": "detail",
-             "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"},
-            {"iter": 3, "weighted": 8.73, "weakest": "typography",
-             "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"}
-        ],
-        "eval_final": {
-            "weighted": 8.73,
-            "scores": {"concept": 9, "focal": 9, "composition": 8.5,
-                       "color": 8.5, "detail": 8.5, "craft": 9,
-                       "typography": 8.5, "originality": 8.5, "fidelity": 9}
-        },
-    }
-    c.finish("out/post_image.png", meta)
-    print("rendered out/post_image.png")
 
+def path(t):
+    return bez(P0, P1, P2, P3, t)
+
+
+def tangent(t):
+    a, b = path(max(0, t - 0.002)), path(min(1, t + 0.002))
+    d = math.hypot(b[0] - a[0], b[1] - a[1]) or 1
+    return (b[0] - a[0]) / d, (b[1] - a[1]) / d
+
+
+def width_at(t):
+    return 44 * (1 - t) ** 1.3 + 3
+
+
+def footprint(x, y, tx, ty, s, color):
+    ang = math.atan2(ty, tx)
+    pts = []
+    for k in range(18):
+        a = 2 * math.pi * k / 18
+        ex, ey = math.cos(a) * 6.2 * s, math.sin(a) * 3.0 * s
+        # heel narrower than toe
+        if ex < 0:
+            ey *= 0.78
+        pts.append((x + ex * math.cos(ang) - ey * math.sin(ang),
+                    y + ex * math.sin(ang) + ey * math.cos(ang)))
+    K.poly(c, pts, fill=color)
+
+
+
+# trough (packed, slightly shaded)
+left, right = [], []
+for t in np.linspace(0, 1, 160):
+    x, y = path(t)
+    tx, ty = tangent(t)
+    nx, ny = -ty, tx
+    w = width_at(t)
+    left.append((x + nx * w, y + ny * w))
+    right.append((x - nx * w, y - ny * w))
+trough = left + right[::-1]
+K.poly(c, trough, fill=SNOW2)
+tm = mask_poly(trough)
+K.hatch(c, tm, spacing=6, angle=-12, color=SNOW3, width=0.8)
+K.hand_line(c, left, SHD2, width=1.2, amp=1.0, seed=SEED + 50)
+K.hand_line(c, right, SHD2, width=1.2, amp=1.0, seed=SEED + 51)
+
+
+# a fainter side trail peeling off to the right: use spreading past the markers
+B0 = path(0.47)
+B1, B2, B3 = (700, 760), (860, 700), (1100, 690)
+for side_k in range(2):
+    tt = 0.0
+    sd = 1
+    while tt < 1.0:
+        bx, by = bez(B0, B1, B2, B3, tt)
+        ax2, ay2 = bez(B0, B1, B2, B3, min(1, tt + 0.01))
+        dx, dy = ax2 - bx, ay2 - by
+        dd = math.hypot(dx, dy) or 1
+        dx, dy = dx / dd, dy / dd
+        sc = 0.62 - 0.25 * tt
+        ox = (side_k - 0.5) * 9 + sd * 4 * sc
+        footprint(bx - dy * ox, by + dx * ox, dx, dy, sc, SHD2)
+        sd *= -1
+        tt += 0.022
+
+# many walkers: several interleaved tracks inside the trough
+for track in range(4):
+    off = (track - 1.5) / 1.5 * 0.55
+    phase = rng.uniform(0, 0.02)
+    t = 0.015 + phase
+    side = 1
+    while t < 0.995:
+        x, y = path(t)
+        tx, ty = tangent(t)
+        nx, ny = -ty, tx
+        w = width_at(t)
+        s = 1.25 * (1 - t) ** 1.1 + 0.16
+        jx = rng.normal(0, 1.2 * s)
+        px = x + nx * (w * off + side * 7 * s) + jx
+        py = y + ny * (w * off + side * 7 * s) + jx
+        col = INK if t < 0.35 else SHADE
+        footprint(px, py, tx, ty, s, col)
+        side *= -1
+        t += 0.012 * (s ** 0.9) + 0.002
+
+# ---- markers (tripods) with long shadows --------------------------------
+MARKERS = [((236, 968), 226), ((372, 806), 140), ((486, 676), 86)]
+for (fx, fy), h in MARKERS:
+    sp = h * 0.2
+    feet = [(fx - sp, fy + h * 0.02), (fx + sp * 0.9, fy + h * 0.05), (fx + sp * 0.15, fy - h * 0.06)]
+    apex = (fx + h * 0.02, fy - h)
+    top = (apex[0] + h * 0.05, apex[1] - h * 0.12)
+    # shadow toward lower right (low sun upper-left)
+    shx, shy = h * 1.35, h * 0.30
+    sh = [(fx - sp * 0.7, fy), (fx + sp * 0.9, fy + 5), (fx + shx + 10, fy + shy + 6), (fx + shx - 8, fy + shy - 4)]
+    K.poly(c, sh, fill=SHD2)
+    K.hatch(c, mask_poly(sh), spacing=3.2, angle=-12, color=SHADE, width=0.9)
+    # poles
+    wpx = max(2.4, h / 40)
+    for (ax, ay) in feet:
+        tipx = apex[0] + (apex[0] - ax) * 0.13
+        tipy = apex[1] + (apex[1] - ay) * 0.13
+        K.hand_line(c, [(ax, ay), (tipx, tipy)], INK, width=wpx, amp=0.6, seed=int(ax))
+        # snow cup at foot
+        K.circle(c, ax, ay + 1, wpx * 1.4, fill=SNOW3)
+    # lashing
+    for k in range(4):
+        yy = apex[1] + h * 0.03 + k * wpx * 0.9
+        K.line(c, [(apex[0] - wpx * 1.6, yy), (apex[0] + wpx * 1.6, yy + wpx * 0.5)], PAPER, width=max(1, wpx * 0.35))
+    # flagging tape fluttering downwind (right)
+    ty0 = apex[1] + h * 0.02
+    tape = []
+    L = h * 0.42
+    for k in range(14):
+        u = k / 13
+        tape.append((apex[0] + u * L, ty0 + math.sin(u * 5.2 + h) * h * 0.035 + u * h * 0.06))
+    back = [(x, y + max(3.2, h * 0.045) * (1 - 0.4 * i / 13)) for i, (x, y) in enumerate(tape)]
+    K.poly(c, tape + back[::-1], fill=ACCENT)
+    K.line(c, tape, K.darken(ACCENT, 0.12), width=1.0)
+
+# ---- micro: wind-blown snow chips + tiny raven over the ridge ----------
+K.chips(c, 90, (0, 560, 1080, 1080), size=(1.5, 4), colors=(SNOW3,), seed=SEED + 60)
+rv = [(612, 372), (622, 366), (628, 370), (634, 365), (645, 371)]
+K.line(c, rv, INK, width=1.8)
+
+K.grain(c, amount=5, seed=SEED + 70)
+
+# ---- type --------------------------------------------------------------
+hf = K.fraunces(c, 80, weight=900, opsz=144)
+K.text(c, (70, 150), "UA Drafts Its AI Rules", hf, INK, anchor="ls")
+hf2 = K.fraunces(c, 80, weight=900, opsz=144, italic=True)
+K.text(c, (70, 242), "UAA Would Write a Plan", hf2, INK, anchor="ls")
+K.line(c, [(72, 272), (150, 272)], ACCENT, width=4)
+kf = K.mono(c, 17, medium=True)
+K.text(c, (72, 306), "ANCHORAGE DESK · RESEARCH · 24 SEP 2026", kf, INK, anchor="ls", tracking=0.2)
+K.polaris(c, 992, 94, r=15, color=STAR)
+wf = K.fraunces(c, 30, weight=900, opsz=144)
+K.chip(c, (1004, 1012), "ALASKA.AI", wf, PAPER, INK, pad=11, anchor="rs", tracking=0.04)
+
+meta = {
+    "date": "24 SEP 2026", "column": "Anchorage Desk", "kicker": "ANCHORAGE DESK",
+    "middle_slot": "RESEARCH", "volume": "RESEARCH", "byline": "",
+    "headline": "UA Drafts Its AI Rules / UAA Would Write a Plan",
+    "style_family": "engraving_trail", "palette": [PAPER, INK, SHADE, MIST, ACCENT, STAR],
+    "hue_family": "blue", "composition": "diagonal_thrust",
+    "motifs": ["trail-marker tripods", "packed footprint trail running past the markers",
+               "red flagging tape", "engraved Chugach-style ridge", "long low-sun shadows", "lone raven"],
+    "technique_stack": ["hatch", "stipple", "field", "field_mask", "ridge_pts", "hand_line", "chips", "grain"],
+    "seed": SEED,
+}
 if __name__ == "__main__":
-    try:
-        main()
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+    import json, pathlib
+    hist = pathlib.Path("out/art_eval.json")
+    if hist.exists():
+        meta.update(json.loads(hist.read_text()))
+    c.finish("out/post_image.png", meta)
+    print("rendered")

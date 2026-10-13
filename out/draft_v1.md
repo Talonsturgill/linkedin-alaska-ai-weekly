@@ -1,20 +1,15 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+Ben Shier, the University of Alaska’s Chief Information Technology Officer, has put a draft AI policy before the Board of Regents. If approved in November, UAA and every other UA campus must adopt an AI plan.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+Shier leads the UA System Office of Information Technology and is a former UAA Chief Information Officer. The policy would have him asking the Anchorage campus whose IT shop he once ran to write its own plan.
 
-Four layers carry the machinery.
+According to KTOO, Shier presented the draft at the September regents meeting at UAS in Juneau, first reported Sept. 16. Its guiding principles are to avoid replacing human talent, keep data secure, and use AI to widen access to education services. He framed the core governance problem as two questions. “How do you ensure data privacy and protection? How do you provide monitoring?” The regents now have a real choice to make. AI adoption can stay with campuses, departments and faculty under existing data rules, or a top-down framework can require UAA, UAF and UAS to each produce a plan for students, faculty and staff.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+The direction is right. A 2025 Inside Higher Ed survey cited by KTOO found about 85% of college students use generative AI in coursework, so use is already ahead of policy. UA isn’t starting from zero either. OIT’s Generative AI Security Standard, effective January 2025, already bars Internal and Restricted data, such as FERPA and HIPAA data, from unapproved generative AI tools. Shier’s draft moves UA from a data-handling rule to an institutional expectation. Setting guardrails before use spreads further is the correct order of operations.
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+The honest gap is process, and Shier named it himself. He said the draft came together over the summer without enough faculty and student feedback, and that UA can’t currently control and track every use of AI. Regent Christine Ressler raised concerns about data security capabilities, according to KTOO. That’s a reason for care, not alarm. The risk is a November vote that adopts principles before UA can enforce them. For UAA, the useful test is whether the campus plan requirement comes with the resources to carry it out.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn. A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+Next come fall student listening sessions and online surveys, which had no dates as of Sept. 16. After that, leadership plans to bring a finalized draft for approval at the November 2026 regents meeting. The thing to watch is whether faculty and student input visibly changes the final text, and whether the monitoring question Shier posed gets a concrete answer before the vote.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+Should the regents approve Shier’s framework in November as drafted, or hold it until faculty input and a monitoring plan are in hand?
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
-
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+#AlaskaAI #AIPolicy #WorkforceDevelopment
