@@ -1,5 +1,14 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+draft_id: r-4132919187070663348
+message_id: 1a0c5c508f6a9590
+thread_id: 1a0c5c508f6a9590
+subject: Alaska.Ai — The Stack Draft — 2026-09-21
+to: docket@alaskaaihq.com
+run_date: 2026-09-21
+branch: claude/linkedin-stack-2026-09-21
+artifact_commit: f4e7a48f596993befb476cf96cebabc0a054f1e4
+image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/f4e7a48f596993befb476cf96cebabc0a054f1e4/out/post_image.png
+image_verified: HTTP/2 200, image/png, content-length 1347404
+mechanism: The 10 U.S.C. 2922a purchase-approval gate on the Eielson micro-reactor
+category: VEHICLES
+post_score: 8.6 weighted (threshold 8.0, no hard fail)
+artwork_score: 8.59 weighted (floor 8.5, 6 eval iterations)

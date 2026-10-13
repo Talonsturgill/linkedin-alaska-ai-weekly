@@ -1,69 +1,139 @@
-# The Stack — Art Plan — 2026-07-24
+# Art plan — The Stack — 21 SEP 2026
+## "The Last Inch"
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+### Step 0 — Absorb the story
+- **What happened.** The Air Force opened a wetlands comment period, closing Sept. 30,
+  on the preferred site for a 5-megawatt micro-reactor inside the fence at Eielson AFB.
+- **Why it matters to Alaska.** It is the only firm behind-the-fence generation in motion
+  for Interior Alaska compute, but the Air Force cannot buy that power until the Secretary
+  of Defense approves a 30-year contract that does not yet exist.
+- **Register.** Wry, cool, quietly ironic. Tense but completely still. Everyone is working
+  at the visible gate down in the muskeg; the decisive one is silent and somewhere else.
+  Not cautionary, not triumphant. The emotion is *arrested motion*.
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+### Step 1 — Dedup confirmation
+Ledger scanned across all `claude/linkedin-*` branches, sorted by the date in the branch
+name (the skill's `sort -r` snippet sorts by column name and returns stale nulls — noted
+for the Editor's note).
+- **style_family, last 8 forbidden**: pixel_dither_aerial, woven_fabric, wpa_scaffold,
+  exploded_iso_docket, halftone_section, riso_form, landmark_mesh, hydrographic_claim.
+  → `machined_plate` is new to the ledger. CLEARS.
+- **hue_family, last 4 forbidden**: green, gold, teal, blue. → `violet` last appeared
+  14 AUG (position 9). CLEARS.
+- **composition, last 2 forbidden**: aerial_plan_view, weave_rupture (+diagonal_thrust).
+  → `suspended_gap` is a new pattern. CLEARS.
+- **motif, last 10 forbidden**: exploded isometric assemblies, permit forms and stamp
+  blocks, survey parcels / stakes / monuments / section lines, dithered aerial raster,
+  weaving and thread, spillway crest gates, moorage and mooring pins, bathymetric
+  contours, geologic strata, facial-landmark mesh, torn public-comment paper.
+  → No coupling, connector, busbar or insulator appears anywhere in 17 issues. CLEARS.
+- Deliberately pushing AWAY from the document/diagram/survey register The Stack has used
+  for eight consecutive issues. This piece is physical, material and industrial.
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+### Step 2 — Concepts considered
+1. **"The Last Inch"** *(CHOSEN)*. Two halves of a monumental high-voltage coupling, one
+   rising out of Alaska muskeg, one descending from off the top of the frame, held apart
+   by a narrow pale slot. Energized amber conductors climb the lower half and stop dead at
+   the slot. Metaphor: the unsigned approval as a physical air gap in a power connection.
+   Half-second read: *power that arrives and does not connect.*
+2. **"The Quiet Desk."** A tiny lit government desk on vast tundra, one unsigned page.
+   Killed: desks are generic office imagery, and "paper" sits too close to the burned
+   torn-public-comment-paper motif from 24 JUL.
+3. **"Thirty Winters."** The 30-year contract term as a receding rank of markers across
+   ice. Killed: too abstract, no focal point, and marker/stake geometry is burned.
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+### Step 3 — Blueprint
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
+**Concept statement.** A high-voltage coupling is split in two. Alaska has built and
+energized its half; the other half hangs from outside the frame, inert, and the last inch
+between them is empty.
 
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
+**Register carried by form.** Absolute vertical stillness, one hard horizontal void. The
+palette is a cold violet winter dusk so the single warm ink reads as the only live thing
+in the picture, and it is the thing that stops short.
 
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
+**Style family.** `machined_plate` — technical catalog illustration (hard stepped tonal
+shading on metal, precise specular edges, bolt-and-flange vocabulary) finished like a
+printed editorial plate (grain, faint mottle, slightly imperfect hand-drawn organic
+edges). Fits because the mechanism itself is an acquisition of hardware, and because a
+parts-catalog register is exactly the cold, administrative voice the post is critiquing.
 
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
+**Palette** (OKLCH-built, 6 inks + paper). Value spine enforced before hue.
+| role | hex | L | note |
+|---|---|---|---|
+| paper / lightest light | `#f4f0f8` | .95 | the GAP is this value — focal wins the contrast war |
+| sky deep | `#241a3e` | .22 | top of frame |
+| sky mauve | `#7d6590` | .52 | horizon band |
+| ink / darkest dark | `#150f28` | .13 | metal shadow, silhouettes |
+| metal light face | `#bcaad0` | .74 | lit faces of the coupling |
+| amber accent | `#e2883a` | .68 | conductor cores only, capped under 3% of canvas |
 
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
+Darkest dark `#150f28` sits directly against lightest light `#f4f0f8` at the gap — a
+value gap of .82, the largest in the piece, at the focal point. Grayscale squint test:
+everything else lives between .22 and .74, so the slot is the only near-white and reads
+first at 300px. Amber is the highest chroma but occupies tiny area, so it accents rather
+than competes.
 
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
+**Composition map — `suspended_gap`** (1080 grid, design units)
+- Horizon `y = 742`. Sky occupies the top 69%.
+- Coupling axis `x = 700`. Column half-width ~150, so the assembly spans `x ∈ [550, 850]`.
+- **Upper half**: enters at `y = 0` (cut by the frame, deliberately — it comes from
+  elsewhere), descends to its contact face at `y = 452`. Widest flange at `y ∈ [250, 300]`.
+- **THE GAP (focal)**: `y ∈ [452, 498]`, 46px tall, `x ∈ [560, 840]`. Pure paper value.
+- **Lower half**: contact face at `y = 498`, descends through insulator sheds
+  `y ∈ [520, 650]`, into a bolted base plinth `y ∈ [650, 726]`, rooted in the muskeg berm.
+- **Headline block**: `x ∈ [96, 520]`, three lines, top at `y = 120`, ~74px Fraunces Black,
+  leading 1.06. Sits entirely left of the column — quiet zone is `x < 540, y < 380`.
+- **Kicker** `THE STACK · VEHICLES · 21 SEP 2026`: JetBrains Mono 16px, tracked 0.22em,
+  at `(96, 392)`.
+- **Support label** `EIELSON AFB · 5 MW`: Mono 14px tracked, at `(556, 782)`, directly
+  under the plinth. Both facts are in the dossier.
+- **Eielson silhouette**: far left on the horizon, `x ∈ [104, 430]`, hangar roofs and the
+  1950s plant stack with a thin plume, capped at `y = 700`.
+- **Wordmark** `ALASKA.AI`: Fraunces Black 30px, bottom-left `(96, 988)`.
+- **Polaris**: `(956, 116)`, r = 13.
+- **Eye path**: headline → kicker → down the dark column → arrested at the pale slot →
+  down the amber conductors into the muskeg → left along the waterline to the base
+  silhouette → wordmark.
+- Nothing important within 48px of any edge except the upper half, which is cut by the top
+  edge on purpose.
 
-SEED = 724
+**Layer build order (back to front)**
+1. Paper base + faint paper mottle.
+2. Sky gradient `#241a3e → #7d6590`, with low-res noise banding.
+3. Far ridge (Interior hills), lightened toward the sky for atmosphere.
+4. Eielson installation silhouette on the horizon + stack plume.
+5. Muskeg ground mass, berm profile with hand-drawn wobble.
+6. Water pools (voronoi cells clipped to the ground), dark seams, thin ice sheets.
+7. Tussock and sedge meso banding.
+8. Lower coupling half: plinth → bolt ring → insulator sheds → conductor bundles → contact
+   face. Stepped 3-tone shading.
+9. Amber conductor cores + their glow, terminating hard at `y = 498`.
+10. Upper coupling half: shaft → flange → bolt ring → contact face. Same shading grammar,
+    but NO amber and a colder, greyer light — it is not energized.
+11. Micro pass: bolt heads, specular glints on flange corners, rime frost stipple on the
+    upper half only, ice chips at the waterline.
+12. Grain finish (single texture identity).
+13. Type: headline, kicker, support label, wordmark, polaris.
+
+**Technique stack.** `gradient_v` (sky), `field`/`field_mask` at **w=h=300 then upscale**
+(mottle + ground masks — full-resolution `field` costs 52s and `warp` 78s, measured; this
+is the runtime fix), `ridge_pts`/`ridge_fill` (hills), `voronoi_polys` (water cells,
+0.1s), `poly`/`circle` (machined parts), `hatch` (metal shading), `stipple` (rime),
+`chips` (ice debris), `wobble_pts`/`hand_line` (organic edges), `glow` (amber cores),
+`grain` (finish), `polaris`, `fraunces`/`mono`. **`angle_field` and `streamlines` are
+banned from this script** — `angle_field` takes 53s and accepts no resolution parameter.
+
+**Risk list**
+1. *The two halves read as one undifferentiated blob at thumbnail.* → Silhouette test in
+   isolation; give the halves different profiles (upper = plain shaft + one wide flange,
+   lower = stacked insulator sheds + plinth) so the gap is legible as a break, not a seam.
+   The near-white slot guarantees separation at 300px.
+2. *Mud in the midtones — violet metal against a violet sky.* → Force the value spine:
+   sky stays .22–.52, metal goes to .13–.25 in shadow with .74 lit faces only on
+   frame-facing planes. No metal tone may fall inside .45–.55, the sky's range.
+3. *Headline collides with the column or the busy muskeg.* → Hard quiet zone `x < 540,
+   y < 380`, column starts at x=550. Headline gets paper-value knockout, no chip needed.
+4. *Amber overwhelms and turns the piece into a power-company ad.* → Cap amber at <3% of
+   canvas, confined to conductor cores under 6px wide and three glints. No amber above
+   `y = 498`, ever — that is the whole point.

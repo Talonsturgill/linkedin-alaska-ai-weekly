@@ -1,22 +1,56 @@
 {
+  "run_date": "2026-09-21",
+  "column": "The Stack",
+  "mechanism": "The 10 U.S.C. 2922a purchase-approval gate on the Eielson micro-reactor",
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://fm.kuac.org/sustainability/2026-09-20/air-force-asks-for-public-input-on-proposed-eielson-microreactor-site",
+      "outlet": "KUAC (Fairbanks) — Tim Ellis",
+      "pub_date": "2026-09-20",
+      "story_title": "NEWS TRIGGER — Air Force asks for public input on proposed Eielson microreactor site. Comments to Eielson Public Affairs close Sept. 30.",
+      "role": "news_trigger"
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title10-section2922a&num=0&edition=prelim",
+      "outlet": "U.S. House Office of the Law Revision Counsel",
+      "pub_date": "statute",
+      "story_title": "CHOKEPOINT — 10 U.S.C. 2922a, contracts for energy or fuel for military installations. Subsection (b): a contract may be made only after approval by the Secretary of Defense.",
+      "role": "chokepoint_primary_source"
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.law.cornell.edu/uscode/text/10/2922a",
+      "outlet": "Cornell Legal Information Institute",
+      "pub_date": "statute",
+      "story_title": "Corroborating text of 10 U.S.C. 2922a.",
+      "role": "corroboration"
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/32/989.15",
+      "outlet": "Cornell Legal Information Institute",
+      "pub_date": "regulation",
+      "story_title": "LAYER 1 — 32 CFR 989.15, Air Force EIAP. FONSI approval routed to the Environmental Protection Committee at a MAJCOM-determined level.",
+      "role": "layer_primary_source"
+    },
+    {
+      "url": "https://www.archives.gov/federal-register/codification/executive-order/11990.html",
+      "outlet": "U.S. National Archives",
+      "pub_date": "executive order",
+      "story_title": "LAYER 2 — Executive Order 11990, Protection of Wetlands, Sec. 2(a). No new construction in wetlands absent a two-prong agency-head finding.",
+      "role": "layer_primary_source"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1849056/000162828026018698/oklo-20251231.htm",
+      "outlet": "SEC EDGAR — Oklo Inc. FY2025 Form 10-K (CIK 0001849056), filed 2026-03-17",
+      "pub_date": "2026-03-17",
+      "story_title": "LAYER 4 — the developer's own filing: 'tentatively selected' and 'this has not been finalized.' Settles that no power purchase agreement is executed.",
+      "role": "layer_primary_source"
+    },
+    {
+      "url": "https://www.law.cornell.edu/cfr/text/32/989.14",
+      "outlet": "Cornell Legal Information Institute",
+      "pub_date": "regulation",
+      "story_title": "Supporting — 32 CFR 989.14(g), Finding of No Practicable Alternative submitted to the MAJCOM Environmental Planning Function.",
+      "role": "supporting"
     }
   ]
 }

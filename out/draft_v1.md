@@ -1,20 +1,22 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+The Air Force opened a wetlands comment period on the proposed Eielson micro-reactor site, with comments due Sept. 30 according to KUAC. The wetlands gate isn’t where this project actually gets decided.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+A private developer would build, own and operate a 5-megawatt micro-reactor inside the fence at Eielson and sell the base its electricity and heat for up to 30 years.
 
-Four layers carry the machinery.
+The chain has four layers.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+- Wetlands siting gate under the Air Force’s environmental impact analysis process. Publishes the Environmental Assessment and an unsigned Finding of No Significant Impact for at least 30 days before approval, Air Force Environmental Protection Committee, not a named officer.
+- The substantive test, Executive Order 11990 Section 2(a). No new construction in wetlands unless the Secretary of the Air Force finds there is no practicable alternative and that the action includes all practicable measures to minimize harm.
+- Purchase authority, 10 U.S.C. 2922a. It lets a service secretary contract up to 30 years for an energy production facility and the energy it produces, with energy security and resilience named as critical factors.
+- Counterparty layer. The reactor would be commercially owned and operated, and the tentatively selected developer, Oklo Inc., says in its FY2025 10-K that the selection “has not been finalized.”
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+The binding decision sits in subsection (b), which reads, “A contract may be made under subsection (a) only after the approval of the proposed contract by the Secretary of Defense.” No committee, no board, no delegation in the text. One officer owns a binary yes or no, and without it there is no contract.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn. A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+The wetlands gate is real, and it’s the only channel an outside party gets right now. It sets the Sept. 30 clock, and KUAC reports officials anticipate an Environmental Assessment rather than a full impact statement. But the Air Force’s own regulation routes that finding to a committee at a level the MAJCOM picks. That is a process built to survive.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+The hard gate sits upstream of the concrete. A thirty-year obligation to buy power from a privately owned reactor can’t be made until one person at the top of the Department signs. Locally this reads as an environmental review. Structurally it’s an acquisition, and the acquisition hasn’t happened, which is why the developer’s SEC filing still says “tentatively.”
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
+If you’re modeling Interior Alaska firm power, a Fairbanks-area load, or a Railbelt interconnection that assumes Eielson gets 5 MW behind the fence by 2030, don’t carry it as contracted capacity. Carry it as an option contingent on an approval with no public docket and no deadline. The comment window closes Sept. 30.
 
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+Should a single approval under 2922a(b), with no docket and no deadline, decide whether Interior Alaska gets firm behind-the-fence generation, or should a 30-year power purchase draw a public record before it reaches that desk?
+
+#AlaskaAI #EnergyPolicy #GridPolicy #FederalContracting
