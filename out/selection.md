@@ -1,21 +1,10 @@
-# The Stack — Selection — 2026-07-24
+# The Stack — selection — 2026-09-28
 
-**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
-
-**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
-
-**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
-
-**Layer count.** 4 layers, each primary-sourced.
-1. NSF award authority / source-selection — NSF TIP Directorate.
-2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
-3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
-4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
-
-**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
-
-**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
-
-**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
-
-**CATEGORY (Phase 8 middle slot).** VEHICLES
+- **Mechanism:** Rural Health Transformation Program pass-through (CMS allotment to the Alaska DOH Commissioner's discretionary subaward decision)
+- **CATEGORY:** VEHICLES
+- **News trigger:** ADN, Iris Samuels, 2026-09-26: "The Alaska Department of Health is preparing to accept applications for the second year of a federal program intended to transform rural healthcare, even as the state has yet to finish distributing the first round of funding it received."
+- **Layer count:** 5 (statute 42 USC 1397ee(h) / CMS Administrator allotment + clawback / DOH Commissioner final award authority / Alaska Community Foundation subaward administration / Year 2 state-directed targeting)
+- **Chokepoint:** DOH Commissioner's final decision-making authority on all funding decisions (fund / don't fund each subaward; set Year 2 criteria). Advisory Council advisory only.
+- **Structural read:** Federal statute mandates data-and-technology priority, but Alaska routes it through one discretionary office whose Year 2 focus areas (pay-for-value, care coordination, EMS) are not tech-labelled. Tech money arrives through providers, not vendors.
+- **Forward implication:** Comment on Year 2 criteria by Oct. 9 (per ADN); pair with a provider (hospital, tribal health org, EMS agency) in one of the three focus areas before state-directed calls open.
+- **Dropped:** 8 other candidates (see stack_anatomy.json).

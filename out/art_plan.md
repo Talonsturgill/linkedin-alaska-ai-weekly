@@ -1,69 +1,53 @@
-# The Stack — Art Plan — 2026-07-24
+# Art plan — The Stack — 28 SEP 2026 — VEHICLES
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+## Step 0 — Story absorbed
+- **What happened:** Alaska DOH is opening Year 2 of the $272M Rural Health Transformation Program before it has finished distributing Year 1 (ADN, 26 Sep 2026).
+- **Why it matters to Alaska:** a federal fund with a written technology tilt reaches rural providers through ONE discretionary office, the DOH Commissioner, who holds final authority on every award and sets the Year 2 criteria. Tech vendors only get in through provider projects.
+- **Register:** measured, clarifying, a little tense (a bottleneck and a clock), constructive not accusatory.
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+## Step 1 — Dedup scan (16 most recent claude/linkedin-* ledgers)
+- Forbidden style_family (last 8): engraving_trail, machined_plate, pixel_dither_aerial, wpa_scaffold, woven_fabric, halftone_section, exploded_iso_docket, landmark_mesh (+ aurora_field permanently).
+- Forbidden hue_family (last 4): blue, violet, green, teal.
+- Forbidden composition (last 2): diagonal_thrust, suspended_gap.
+- Forbidden primary motifs (last 10): trail tripods, HV coupling gap, dithered aerial raster, console stair tower, woven cloth/threads, water-column section, exploded iso corridor, landmark mesh, permit form, surveyed claim quadrilateral.
+- Clears: style `still_life_gouache` (new: a lit museum-object still life, gouache-flat planes + stipple modelling), hue `red` (oxblood; last used 4 SEP, 5 issues back), composition `column_and_icon` (new), motif `hourglass` (never used).
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+## Step 2 — Three concepts
+1. **The hourglass (CHOSEN).** Federal gold sand fills the upper bulb; the whole fund must pass one pinched neck (the Commissioner's desk) grain by grain; the lower bulb holds a faint etched map of Alaska where rural village points wait, some lit, many still dark, and only a small pile has landed. A few ice-blue "technology" grains are mixed through the gold and, below, sit *inside* the lit village markers (tech rides inside care projects). Reads in half a second: one narrow neck, a lot of money, a clock. It is specific: the lag in the trigger, the deadlines, the single office.
+2. Airline-route-poster map with every route converging on one hub desk then fanning to villages. Killed: route-map/convergence is close to the 31 JUL "four-thread fan" and 17 SEP aerial map cooldowns.
+3. A prism splitting a "technology" beam into three colored beams (pay-for-value, care coordination, EMS), none of them the tech color. Killed: prism reads as a record-cover cliché and loses the Alaska specificity.
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+## Step 3 — Blueprint
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
-
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
-
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
-
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
-
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
-
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
-
-SEED = 724
+1. **Concept statement.** A $272M federal hourglass whose only passage is one pinched neck. The sand that has made it through is still a small pile, and the Alaska below it is mostly still waiting.
+2. **Register.** Quiet museum still life on a deep oxblood wall: the gravity of a single lit object. Warm gold is the only high-chroma thing; everything else recedes into wine-dark shadow. The mood is a clock ticking, not an alarm.
+3. **Style family.** `still_life_gouache`: flat gouache planes for the wall, wood and glass, modelled with stipple and fine hand lines, a single raking warm light from upper left. It fits a story about one object (one office) that governs a flow, and it clears every cooldown.
+4. **Palette (OKLCH).**
+   - Wall dark `oklch(0.20,0.055,18)`: darkest dark, the field and the vignette corners.
+   - Wall mid `oklch(0.30,0.085,22)` oxblood: the glow field behind the glass.
+   - Walnut `oklch(0.40,0.07,50)` + walnut light `oklch(0.58,0.08,62)`: the frame.
+   - Gold sand `oklch(0.80,0.145,82)`: FOCAL accent, highest chroma.
+   - Cream `oklch(0.94,0.03,85)`: glass highlights and headline type (lightest light).
+   - Ice `oklch(0.86,0.07,205)`: tiny "technology" grains only (<1% area, so hue_family stays red).
+   - Value spine: wall 0.20-0.30 / walnut 0.40-0.58 / sand 0.80 / cream 0.94. The focal neck wins because the gold stream (L .80, C .145) meets the darkest wall directly behind the neck, plus a soft glow.
+5. **Composition map (`column_and_icon`).** Left type column x∈[72, 500]; hourglass icon on the right third.
+   - Hourglass axis cx=772. Top plate y∈[92,124], x∈[566,978]; bottom plate y∈[956,988], same x. Plates are 60px+ from the canvas edge.
+   - Posts at x=596 and x=948 (front pair, radius ~15 with turned beads at y=190, 540, 890); a faint third post behind at cx.
+   - Upper bulb y∈[124,540], max half-width 178 at y≈300; neck at (772, 540), half-width 8.
+   - Lower bulb y∈[540,956], mirror profile.
+   - Upper sand: surface y=292 at the walls dipping to a crater at y≈338 on the axis, filling down to the neck.
+   - Stream: 3px gold line from (772,540) to the pile apex (772,902).
+   - Lower pile: cone base y=950, apex y=902, half-width 118.
+   - Etched Alaska map in the lower bulb, centered (770, 770), scale 11.5 px/deg-lat; ~44 rural village points; faint etched routes from the neck to each point; ~14 points lit gold, the rest hollow rings.
+   - Headline block: "$272M" Fraunces 900 opsz 144, ~150px gold, top at y=150; "runs through" / "one desk." cream ~76px at y≈330 and 410 ("one desk." italic).
+   - Supporting mono line at y≈520: "RURAL HEALTH TRANSFORMATION PROGRAM".
+   - Kicker "THE STACK · VEHICLES · 28 SEP 2026" mono 16, tracked 0.2, at (72, 96).
+   - Labels (telemetry, dossier-true): "YEAR 1 · $272,174,856" at the upper bulb's left edge; "FINAL DECISION-MAKING AUTHORITY" on a leader line from the neck to the left column (y=540); "RURAL PROVIDERS" at the lower-bulb left edge.
+   - Wordmark ALASKA.AI Fraunces 900 size 32 at (100, 992) baseline-left; polaris r=12 at (82, 980).
+   - Eye path: $272M → the leader line → the glowing neck → down the stream → lit villages → wordmark.
+6. **Layer build order.** Wall gradient + radial glow → mottle → cast shadow of the hourglass on the wall (offset right-down, blurred) → back post → glass interior tint → lower-bulb etched map + routes + villages → upper sand mass with stipple and crater → lower pile → stream + falling grains + neck glow → glass rim lines + highlight streaks → front posts (turned profile, hatch shade side) → plates (bevels, wood grain) → type + leader + labels → marks → grain + vignette.
+7. **Technique stack.** gradient_v, glow, mottle, poly (bulb profile), stipple (sand modelling, wall grain), chips (sand grains and ice grains), hand_line (map coast, wood grain, leader), hatch (post shadow sides), circle (villages), fraunces, mono, polaris, grain 6, vignette 0.2. Map coastline from a hand-coded lon/lat outline projected with cos(lat) scaling.
+8. **Risk list.**
+   - The glass reads as a flat outline, not glass. Mitigation: a tinted interior, a double rim line (bright on the lit left, dim on the right), two curved highlight streaks, and the wall showing through slightly darker.
+   - The map in the lower bulb turns to mush at thumbnail. Mitigation: keep it an etched whisper (low alpha); only the lit village dots and pile carry value, so the map is nose-length detail.
+   - The headline column feels empty below the type. Mitigation: the leader line from the neck crosses into the column, the mono labels sit on a vertical tick rail, and the wall carries stipple texture.
