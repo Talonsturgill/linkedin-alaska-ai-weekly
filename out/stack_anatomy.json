@@ -1,68 +1,51 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
-  "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
+    "name": "NTIA BEAD Supplemental Deployment Policy Notice (savings 'true-up' redeployment)",
     "category": "vehicles",
     "category_label": "VEHICLES",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "what_happened": "The Commerce Department announced it would \"accept new proposals from states under the Broadband Equity, Access and Deployment program\" targeting \"newly identified unserved locations\" that became eligible due to FCC map changes or program defaults. NTIA Administrator Roth \"visited Alaska and attended a roundtable with broadband providers,\" and Sen. Dan Sullivan stated \"the new round could make 'over 5,000' new locations eligible for broadband deployment funding in his state.\"",
+      "url": "https://rollcall.com/2026/09/04/ntia-opens-door-to-new-federal-broadband-grants/",
+      "outlet": "Roll Call",
+      "pub_date": "2026-09-04"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
+    "one_line_definition": "A September 2026 NTIA policy notice lets state broadband offices redeploy unspent BEAD 'Benefit of the Bargain' savings to fund builds at locations missing or mis-mapped in the first round, on a re-bid-then-reapprove cycle the NTIA Administrator must approve before any funds can be drawn.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
+        "name": "FCC Broadband Serviceable Location Fabric / National Broadband Map (eligibility trigger)",
+        "what_it_does": "The FCC's biannual updates to the location fabric and coverage map are what create 'newly identified unserved locations' — the statutory definition of who becomes BEAD-eligible for the supplemental round.",
+        "controlling_actor": "The Commission (Federal Communications Commission), per its statutory duty to build the location fabric and identify unserved areas",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section642&num=0&edition=prelim",
+          "outlet": "U.S. Code (Office of the Law Revision Counsel)",
+          "doc_type": "statute"
         }
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
+        "name": "NTIA BEAD approval & reallocation authority (Supplemental Deployment Policy Notice)",
+        "what_it_does": "NTIA issues the supplemental policy notice and approves or disapproves each state's supplemental final proposal, and holds statutory power to reallocate or deobligate unspent 'Benefit of the Bargain' savings before draw-down.",
+        "controlling_actor": "Assistant Secretary of Commerce for Communications and Information / NTIA Administrator (current incumbent Arielle Roth)",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
+          "url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title47-section1702&num=0&edition=prelim",
+          "outlet": "U.S. Code (Office of the Law Revision Counsel)",
+          "doc_type": "statute"
         }
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
+        "name": "Subgrantee deployment in rural Alaska",
+        "what_it_does": "Awarded providers build the last/middle-mile fiber and wireless to unserved rural Alaska locations; their rural construction is explicitly conditioned on BEAD/IIJA subsidy availability.",
+        "controlling_actor": "GCI Holdings (subsidiary of GCI Liberty), described in filings as 'the leading integrated communication services provider' in Alaska and a BEAD subgrantee for rural builds",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
-      },
-      {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
+          "url": "https://www.sec.gov/Archives/edgar/data/2057463/000110465926013442/tmb-20251231x10k.htm",
+          "outlet": "SEC EDGAR (GCI Liberty, Inc. Form 10-K, FY2025, filed 2026-02-11)",
+          "doc_type": "10K"
         }
       }
     ],
-    "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
-    },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
+    "chokepoint": "Layer 2 — the Assistant Secretary of Commerce for Communications and Information (NTIA Administrator) unilaterally approves or disapproves Alaska's supplemental final proposal and can reallocate or deobligate the roughly $370M+ in Alaska's unspent BEAD savings under 47 U.S.C. 1702(c)(5)(C) and (g)(3). One statutory officer owns the approve/reject/reallocate binary; the FCC (map) and the state broadband office are upstream, but the money gate sits at this single desk — not a committee.",
+    "ak_consequence": "Rural Alaska broadband/connectivity: whether ~5,000+ newly-mapped unserved Alaska locations and the ~$370M+ of Alaska's unspent BEAD savings get funded hinges on the NTIA Administrator's approval of Alaska's supplemental final proposal this fall (notice issued 2026-09-03), directly gating GCI Holdings' BEAD-dependent rural builds.",
+    "structural_read": "This is a funding-deployment vehicle whose entire flow narrows to one statutory officer. The FCC decides who counts as 'unserved,' but the NTIA Administrator decides whether Alaska's leftover savings may chase those locations at all — an approve/reject/reallocate power that persists no matter who holds the office. AI nexus: last- and middle-mile connectivity to newly-unserved rural Alaska is the physical substrate for any AI workload outside the Railbelt — edge compute, satellite/remote-sensing pipelines, and telehealth or resource-monitoring inference all die at the point where fiber and fixed wireless stop. Redeploying $370M+ of savings to 5,000+ Bush locations is, structurally, a decision about where Alaska AI can be deployed at all; the mechanism produces a single-desk gate over rural Alaska's AI-connectivity backbone.",
+    "forward_implication": "This week, a rural-connectivity or edge-compute allocator/operator should map exposure to GCI Holdings' BEAD-dependent rural Alaska builds and treat the NTIA Administrator's approval of Alaska's supplemental final proposal (submissions triggered by the 2026-09-03 notice, decision expected this fall) as the binary gating ~$370M of deployable capital — confirm which locations the state expects to put in the supplemental proposal before that submission window closes, rather than assuming first-round awards define the footprint.",
     "confidence": "high",
     "gate_results": {
       "news_tie_pass": true,
@@ -75,11 +58,14 @@
     }
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {"name": "SBA 8(a) sole-source machinery for Alaska Native Corporations (entity-owned carve-out)", "drop_reason": "missing_primary_source_per_layer"},
+    {"name": "FY2027 Continuing Resolution new-start prohibition + anomaly/apportionment gate", "drop_reason": "diffuse_chokepoint"},
+    {"name": "OMB federal AI acquisition regime (M-25-22 / M-25-21) via GSA OneGov", "drop_reason": "no_ak_consequence"},
+    {"name": "ISDEAA Title V compact / ANMC ownership transfer to ANTHC", "drop_reason": "missing_primary_source_per_layer"},
+    {"name": "DAF Enhanced-Use Lease for commercial AI data centers (10 U.S.C. 2667)", "drop_reason": "no_news_tie"},
+    {"name": "STAK Energy North Slope Campus state land lease (ADL 422741)", "drop_reason": "no_news_tie"},
+    {"name": "Alaska Permanent Fund POMV draw and ERA-spendability structure", "drop_reason": "diffuse_chokepoint"}
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "no_target_this_cycle": false,
+  "_validation_note": "Overlap resolved: the vehicles and regulatory framings of the NTIA BEAD supplemental notice were treated as one mechanism; the most asymmetric chokepoint is the NTIA Administrator's unilateral approve/reject/reallocate authority (not the Alaska Broadband Office's upstream selection), so leverage — not novelty — decided the framing. Category set to VEHICLES because the mechanism is a federal grant-deployment vehicle and the coverage note (regulatory saturated 3/6, vehicles absent 6 issues) tips a label choice that does not affect accuracy (the chokepoint is identical under either label). ACCESS LIMITATION, disclosed for the Editor's note: the actual NTIA Supplemental Deployment Policy Notice PDF could not be fetched (persistent HTTP 503 across every ntia.gov and broadbandusa.ntia.gov path — both scouts and the validator failed), and fcc.gov, broadbandmap.fcc.gov, and commerce.alaska.gov all returned 403. Rather than cite unfetched pages, each surviving layer was re-anchored to a fetched primary: 47 U.S.C. 642 (FCC mapping duty), 47 U.S.C. 1702 (NTIA Administrator's statutory approve/reallocate authority = chokepoint), and the GCI Liberty FY2025 10-K (provider layer, filed 2026-02-11; note GCI was divested from Liberty Broadband on 2025-07-14, so GCI Liberty — not Liberty Broadband — is the correct filer). The unverifiable Alaska Broadband Office director name (Thomas Lochner) was NOT shipped, and the ABO and NIST layers were dropped for lack of a fetchable primary source; dropping them does not break the FCC->NTIA->GCI chain or the chokepoint. The notice's issuance and terms are corroborated by two fetched, in-window news sources (Roll Call 2026-09-04; Telecompetitor 2026-09-03). Window NOT broadened; selection made at 14 days."
 }
