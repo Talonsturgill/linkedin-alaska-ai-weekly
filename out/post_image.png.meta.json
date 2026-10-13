@@ -1,71 +1,88 @@
 {
-  "date": "24 JUL 2026",
-  "column": "The Stack",
-  "kicker": "THE STACK",
-  "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "date": "17 SEP 2026",
+  "column": "Anchorage Desk",
+  "kicker": "ANCHORAGE DESK",
+  "middle_slot": "MUNICIPAL",
+  "volume": "MUNICIPAL",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "headline": "Ruaro Wants The Land / Before The Tenant",
+  "style_family": "pixel_dither_aerial",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#f2edde",
+    "#bedacd",
+    "#98b47b",
+    "#517848",
+    "#0f3620",
+    "#bf3584",
+    "#ffc72c"
   ],
   "hue_family": "green",
-  "composition": "bilateral_gate",
+  "composition": "aerial_plan_view",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "dithered aerial land raster",
+    "braided river",
+    "muskeg ponds",
+    "utility corridor with tower dots along the parcel edge",
+    "wobbled access road",
+    "township section lines",
+    "parcel lifted to blank paper",
+    "dashed fireweed boundary",
+    "ghost tenant footprint",
+    "lone survey stake with access track",
+    "tiny road structures",
+    "gravel pit"
   ],
   "technique_stack": [
-    "gradient_v",
-    "ridge_fill",
-    "voronoi_polys",
-    "hatch",
-    "glow",
-    "stipple",
+    "field",
+    "warp",
+    "noise1d",
+    "bayer_dither",
     "chips",
-    "hand_line",
-    "grain"
+    "stipple",
+    "blob_pts",
+    "cast_shadow",
+    "grain",
+    "mottle",
+    "line",
+    "circle",
+    "fraunces",
+    "mono",
+    "chip",
+    "glow",
+    "polaris",
+    "vignette"
   ],
-  "seed": 724,
+  "seed": 91726,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
-      "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "weighted": 7.3,
+      "weakest": "detail/composition",
+      "note": "river a blobby pale mass, corridor hidden under the parcel, dead paper inside the parcel"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
+      "weighted": 8.27,
       "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "note": "braided river, corridor with towers along the parcel edge, section lines; raster still flat away from the focal"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 8.33,
+      "weakest": "composition/craft",
+      "note": "sedge rims, muskeg stipple, road structures, gravel pit, access track; parcel still reads pasted rather than lifted"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.6,
     "scores": {
       "concept": 9,
-      "focal": 9,
+      "focal": 8.5,
       "composition": 8.5,
-      "color": 8.5,
+      "color": 8,
       "detail": 8.5,
-      "craft": 9,
-      "typography": 8.5,
+      "craft": 8.5,
+      "typography": 9,
       "originality": 8.5,
       "fidelity": 9
     }
@@ -74,6 +91,6 @@
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-09-17T20:04:46.975751Z",
   "out_path": "out/post_image.png"
 }
