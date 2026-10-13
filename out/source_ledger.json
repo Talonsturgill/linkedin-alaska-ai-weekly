@@ -1,22 +1,40 @@
 {
-  "sources": [
-    {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
-    },
-    {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
-    },
-    {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
-    }
-  ]
+ "sources": [
+  {
+   "url": "https://www.energy.gov/articles/energy-department-announces-alaska-railbelt-transmission-project-receive-defense",
+   "outlet": "DOE (news trigger)",
+   "pub_date": "2026-10-05",
+   "story_title": "Alaska Railbelt transmission project to receive DPA funding"
+  },
+  {
+   "url": "https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm",
+   "outlet": "GovInfo",
+   "pub_date": "",
+   "story_title": "Layer: Appropriation"
+  },
+  {
+   "url": "https://www.law.cornell.edu/uscode/text/50/4533",
+   "outlet": "Cornell LII",
+   "pub_date": "",
+   "story_title": "Layer: Statutory authority (DPA Sec. 303, 50 USC 4533)"
+  },
+  {
+   "url": "https://www.whitehouse.gov/presidential-actions/2026/04/presidential-determination-pursuant-to-section-303-of-the-defense-production-act-of-1950-as-amended-on-grid-infrastructure-equipment-and-supply-chain-capacity/",
+   "outlet": "The White House",
+   "pub_date": "",
+   "story_title": "Layer: Presidential Determination on grid infrastructure (dated 2026-04-20; DOE cites it as No. 2026-10)"
+  },
+  {
+   "url": "https://www.energy.gov/articles/energy-department-announces-alaska-railbelt-transmission-project-receive-defense",
+   "outlet": "U.S. Department of Energy",
+   "pub_date": "",
+   "story_title": "Layer: DOE project selection / intent to deploy"
+  },
+  {
+   "url": "https://www.akenergyauthority.org/Who-We-Are/Governance/Board-Meeting-Schedule",
+   "outlet": "Alaska Energy Authority",
+   "pub_date": "",
+   "story_title": "Layer: Project developer and non-federal share"
+  }
+ ]
 }

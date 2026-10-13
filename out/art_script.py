@@ -1,230 +1,295 @@
-"""The Stack — 2026-07-24 — bespoke cover.
-Concept: two valves in series on a conduit rising from an AI-pinned
-critical-mineral ore body. Value reaches the surface only if BOTH
-valves open (NSF TIP money key + NANA ground key). style_family
-geologic_engraving; hue green + copper ore focal; composition
-bilateral_gate. SEED 724.
-"""
-import sys, math, traceback
+import sys, math, json
 sys.path.insert(0, ".claude/skills/alaska-ai-artwork")
+import numpy as np
+from PIL import Image, ImageDraw, ImageFilter
 import art_kit as k
-from PIL import Image, ImageDraw
 
-SEED = 724
+SEED = 5101
+rng = np.random.default_rng(SEED)
 
-def dashed(c, p0, p1, color, width=2, dash=15, gap=11, d=None):
-    x0, y0 = p0; x1, y1 = p1
-    ln = math.hypot(x1 - x0, y1 - y0)
-    if ln < 1: return
-    ux, uy = (x1 - x0) / ln, (y1 - y0) / ln
-    t = 0.0
-    while t < ln:
-        a = (x0 + ux * t, y0 + uy * t)
-        t2 = min(ln, t + dash)
-        b = (x0 + ux * t2, y0 + uy * t2)
-        k.line(c, [a, b], color, width, d=d)
-        t += dash + gap
+PAPER = "#eee5d0"; PALE = "#bcd3c8"; FIELD = "#2f7c78"; SHADOW = "#14403f"
+INK = "#0b1a1b"; COPPER = "#c8743a"; SIGNAL = "#ff5f1f"; CERAMIC = "#e4d9bf"
 
-def valve(c, vx, vy, r, rim, spoke, hub, dark):
-    # handwheel: outer ring, spokes, hub
-    k.circle(c, vx, vy, r, outline=dark, width=6)
-    k.circle(c, vx, vy, r * 0.86, outline=rim, width=4)
-    for i in range(6):
-        a = math.radians(i * 60 + 8)
-        k.line(c, [(vx + math.cos(a) * r * 0.16, vy + math.sin(a) * r * 0.16),
-                   (vx + math.cos(a) * r * 0.84, vy + math.sin(a) * r * 0.84)],
-               spoke, width=5)
-    k.circle(c, vx, vy, r * 0.20, fill=hub)
-    k.circle(c, vx, vy, r * 0.20, outline=dark, width=3)
+c = k.Canvas(bg=PAPER)
+S = 1080
 
-def main():
-    c = k.Canvas(bg="#e7efe5", ss=2)
+# paper tooth
+k.mottle(c, strength=0.05, scale=3.0, seed=SEED)
 
-    # ---- palette (OKLCH; dominant green, warm copper focal) ----
-    paper   = k.oklch(0.93, 0.030, 155)   # pale mint sky/light
-    sky_lo  = k.oklch(0.80, 0.045, 176)   # teal-green above ground
-    ground_line_col = k.oklch(0.42, 0.045, 160)
-    strata_light = k.oklch(0.65, 0.052, 158)
-    strata_deep  = k.oklch(0.235, 0.042, 158)
-    seam    = k.oklch(0.30, 0.040, 158)
-    ink     = k.oklch(0.17, 0.030, 158)
-    metal   = k.oklch(0.74, 0.030, 165)   # pale metallic for valve rims
-    ore     = k.oklch(0.72, 0.150, 62)     # copper focal accent
-    ore_hi  = k.oklch(0.86, 0.110, 78)
-    ore_dk  = k.oklch(0.46, 0.130, 52)
-    NB = 6
-    GY = 470.0
+# ---- faint rays from the hinge ---------------------------------------
+HX, HY = 330, 716
+lay, ld = c.layer()
+k.rays(c, HX, HY, 28, 60, 1500, (*k.hex_to_rgb(PALE), 70), width_deg=4.2, jitter=0.6,
+       seed=SEED, d=ld)
+c.composite(lay)
 
-    # ---- 1-2 sky ----
-    k.gradient_v(c, (0, 0, 1080, GY + 6), paper, sky_lo, ease=1.25)
+# ---- ridges ------------------------------------------------------------
+def tilted(y_base, amp, seed, tilt, scale=3.0):
+    p = k.ridge_pts(y_base, amp, scale=scale, octaves=4, seed=seed)
+    return [(x, y - (x / S) * tilt) for x, y in p]
 
-    # ---- 3 subsurface deep base ----
-    k.poly(c, [(0, GY), (1080, GY), (1080, 1080), (0, 1080)], fill=strata_deep)
+def fill_ridge(pts, col, bottom=S):
+    k.poly(c, [(pts[0][0], bottom)] + pts + [(pts[-1][0], bottom)], fill=col)
 
-    # ---- 4 strata bands (ridge_fill stacking: light near surface -> dark deep) ----
-    bounds = [GY, 556, 640, 726, 818, 918, 1080]
-    band_cols = k.ramp([strata_light, strata_deep], NB)
-    for i in range(NB):
-        pts = k.ridge_pts(bounds[i], amp=15, scale=2.4, octaves=4, seed=SEED + i * 7)
-        poly_pts = [(pts[0][0], 1080)] + pts + [(pts[-1][0], 1080)]
-        k.poly(c, poly_pts, fill=band_cols[i])
-        # thin seam line along the band top
-        k.line(c, pts, seam, width=2)
+far = tilted(585, 70, 11, 150)
+mid = tilted(668, 55, 23, 120, scale=2.4)
+near = tilted(770, 40, 37, 60, scale=2.0)
+fill_ridge(far, k.mix(PAPER, PALE, 0.9))
+# far-ridge snow caps (meso)
+for x, y in far[::3]:
+    pass
+fill_ridge(mid, k.mix(PALE, FIELD, 0.55))
 
-    # ---- 4b voronoi fracture seams (meso structure inside the ground) ----
-    cells = k.voronoi_polys(n=74, seed=SEED, bbox=(-40, GY + 8, 1120, 1080), relax=1)
-    seamlay, sd = c.layer()
-    for cell in cells:
-        if len(cell) >= 3:
-            sd.line(c.pts(cell + [cell[0]]), fill=(*k.hex_to_rgb(seam), 90),
-                    width=max(1, int(c.s(1.1))), joint="curve")
-    c.composite(seamlay)
+# hatch strata on far ridge for texture
+m_im, md = c.mask()
+md.polygon(c.pts([(far[0][0], S)] + far + [(far[-1][0], S)]), fill=255)
+k.hatch(c, m_im, spacing=11, angle=62, color=k.mix(PALE, FIELD, 0.35), width=1.1)
+fill_ridge(mid, k.mix(PALE, FIELD, 0.55))
 
-    # ---- 5 engraving hatch over subsurface (denser deep) ----
-    m_top, dtop = c.mask()
-    dtop.rectangle([0, c.s(GY), c.W, c.s(760)], fill=255)
-    k.hatch(c, m_top, spacing=17, angle=-16, color=seam, width=1.0)
-    m_deep, ddeep = c.mask()
-    ddeep.rectangle([0, c.s(740), c.W, c.W], fill=255)
-    k.hatch(c, m_deep, spacing=11, angle=-16, color=k.darken(seam, 0.05), width=1.2)
+# ---- pylon line on mid ridge -------------------------------------------
+def ridge_y(pts, x):
+    xs = [p[0] for p in pts]
+    return float(np.interp(x, xs, [p[1] for p in pts]))
 
-    # ---- 6 dark collar around ore ----
-    OX, OY = 540.0, 832.0
-    collar = k.blob_pts(OX, OY, 210, wobble=0.10, harmonics=(1, 2, 3), points=150, seed=SEED + 3)
-    k.poly(c, collar, fill=strata_deep)
-    collar2 = k.blob_pts(OX, OY, 150, wobble=0.12, harmonics=(1, 2, 3, 5), points=150, seed=SEED + 4)
-    k.poly(c, collar2, fill=k.darken(strata_deep, 0.03))
+def tower(cx, base_y, h, col, w=None):
+    w = w or h * 0.34
+    top = base_y - h
+    # legs
+    k.line(c, [(cx - w / 2, base_y), (cx - w * 0.12, top + h * .28), (cx - w * .06, top)], col, 1.6)
+    k.line(c, [(cx + w / 2, base_y), (cx + w * 0.12, top + h * .28), (cx + w * .06, top)], col, 1.6)
+    # bracing
+    n = 5
+    for i in range(n):
+        t0, t1 = i / n, (i + 1) / n
+        yl0 = base_y - h * .72 * t0; yl1 = base_y - h * .72 * t1
+        wl0 = w * (1 - t0 * .76) / 2; wl1 = w * (1 - t1 * .76) / 2
+        k.line(c, [(cx - wl0, yl0), (cx + wl1, yl1)], col, 1.0)
+        k.line(c, [(cx + wl0, yl0), (cx - wl1, yl1)], col, 1.0)
+    # crossarms
+    arms = []
+    for frac, span in ((0.78, 1.0), (0.9, 0.8)):
+        ay = base_y - h * frac
+        k.line(c, [(cx - w * span, ay), (cx + w * span, ay)], col, 1.8)
+        arms += [(cx - w * span, ay + 4), (cx + w * span, ay + 4)]
+        for sx in (-1, 1):
+            k.line(c, [(cx + sx * w * span, ay), (cx + sx * w * span, ay + 4)], col, 1.2)
+    return arms
 
-    # ---- 7 conduit channel (ore -> surface) ----
-    CX = 540.0
-    k.poly(c, [(CX - 15, GY), (CX + 15, GY), (CX + 12, OY - 10), (CX - 12, OY - 10)],
-           fill=k.mix(strata_deep, metal, 0.22))
-    k.hand_line(c, [(CX - 15, GY), (CX - 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 5)
-    k.hand_line(c, [(CX + 15, GY), (CX + 12, OY - 10)], ink, width=3, amp=1.4, seed=SEED + 6)
-    # surface manifold cap
-    k.poly(c, [(CX - 40, GY - 12), (CX + 40, GY - 12), (CX + 40, GY + 6), (CX - 40, GY + 6)],
-           fill=metal, outline=ink, width=3)
+def sag(p0, p1, col, droop, width=1.1):
+    pts = []
+    for i in range(25):
+        t = i / 24
+        x = p0[0] + (p1[0] - p0[0]) * t
+        y = p0[1] + (p1[1] - p0[1]) * t + droop * 4 * t * (1 - t)
+        pts.append((x, y))
+    k.line(c, pts, col, width)
 
-    # ---- 8 ore body: glow + lens + vein tendrils + sparkle ----
-    k.glow(c, OX, OY, 190, ore, alpha=70)
-    k.glow(c, OX, OY, 120, ore_hi, alpha=70)
-    lens = k.blob_pts(OX, OY, 104, wobble=0.12, harmonics=(1, 2, 3), points=160, seed=SEED + 8)
-    k.poly(c, lens, fill=ore)
-    lens_hi = k.blob_pts(OX - 14, OY - 16, 56, wobble=0.13, harmonics=(1, 2, 3), points=140, seed=SEED + 9)
-    k.poly(c, lens_hi, fill=ore_hi)
-    # internal crystalline facet lines (nose-length structure)
-    for fa in [(-60, -30, 70, 40), (30, -50, -40, 55), (-20, 20, 60, -60)]:
-        k.line(c, [(OX + fa[0], OY + fa[1]), (OX + fa[2], OY + fa[3])],
-               k.mix(ore_hi, ore, 0.4), width=2)
-    # vein tendrils out of the lens (irregular, thin, veinlike — not a burst)
-    tangles = [18, 74, 129, 196, 251, 312]
-    for i, deg in enumerate(tangles):
-        a = math.radians(deg)
-        r0 = 92; r1 = 92 + 26 + (i % 3) * 18
-        mid = ((OX + math.cos(a) * (r0 + r1) / 2 + (12 if i % 2 else -10)),
-               (OY + math.sin(a) * (r0 + r1) / 2))
-        k.hand_line(c, [(OX + math.cos(a) * r0, OY + math.sin(a) * r0), mid,
-                        (OX + math.cos(a) * r1, OY + math.sin(a) * r1)],
-                    ore_dk, width=2, amp=2.6, seed=SEED + 20 + i)
-    # ore sparkle micro
-    m_ore, mo = c.mask()
-    mo.polygon(c.pts(lens), fill=255)
-    k.stipple(c, m_ore, density=0.16, r=(0.7, 1.7), color=ore_hi, seed=SEED + 30)
-    k.chips(c, 46, (OX - 150, OY - 150, OX + 150, OY + 150),
-            size=(2.5, 6.5), colors=(ore_hi, ore, ore_dk), seed=SEED + 31)
+xs = [58 + i * 91 for i in range(11)]
+prev = None
+TCOL = k.mix(INK, SHADOW, 0.35)
+towers = []
+for i, x in enumerate(xs):
+    by = ridge_y(mid, x) + 2
+    h = 40 + (i % 3) * 5 + (i / 10) * 18
+    towers.append((x, by, h))
+arm_sets = []
+for x, by, h in towers:
+    arm_sets.append(tower(x, by, h, TCOL))
+for a, b in zip(arm_sets[:-1], arm_sets[1:]):
+    for j in range(4):
+        sag(a[j + (2 if j < 2 else 0) if False else (2, 3, 0, 1)[j] if False else (1, 3, 1, 3)[j]] if False else a[(1,3,1,3)[j]],
+            b[(0,2,0,2)[j]], TCOL, 7)
+# lit end: Healy cluster at last tower
+hx, hy, hh = towers[-1]
+k.glow(c, hx + 6, hy - hh - 6, 40, SIGNAL, alpha=70)
 
-    # ---- 9 valves in series + stems + node chips ----
-    VA = (CX, 690.0)   # lower / deeper valve  -> stem LEFT to NSF TIP
-    VB = (CX, 556.0)   # upper valve           -> stem RIGHT to NANA
-    # stems
-    k.hand_line(c, [VA, (300, 690)], ink, width=4, amp=1.2, seed=SEED + 40)
-    k.hand_line(c, [VB, (792, 556)], ink, width=4, amp=1.2, seed=SEED + 41)
-    valve(c, VA[0], VA[1], 46, metal, ink, ore, ink)
-    valve(c, VB[0], VB[1], 46, metal, ink, ore, ink)
+fill_ridge(near, k.mix(FIELD, SHADOW, 0.55))
+m2, md2 = c.mask()
+md2.polygon(c.pts([(near[0][0], S)] + near + [(near[-1][0], S)]), fill=255)
+k.stipple(c, m2, density=0.28, r=(0.4, 1.0), color=k.mix(FIELD, PALE, 0.5), seed=SEED + 1)
+k.chips(c, 90, (0, 700, S, 840), size=(1.5, 3.4), colors=(PAPER, PALE), seed=SEED + 2, mask_img=m2)
+m4, md4 = c.mask()
+md4.polygon(c.pts([(mid[0][0], S)] + mid + [(mid[-1][0], S)]), fill=255)
+md4.polygon(c.pts([(0, 720), (S, 700), (S, S), (0, S)]), fill=0)
+k.stipple(c, m4, density=0.22, r=(0.4, 1.0), color=k.mix(PALE, PAPER, 0.5), seed=SEED + 9)
+k.chips(c, 60, (0, 560, S, 700), size=(1.4, 3.0), colors=(PAPER, PALE), seed=SEED + 10, mask_img=m4)
+# strata contour lines on mid and near ridges
+for off, col in ((16, k.mix(PALE, FIELD, 0.4)), (34, k.mix(PALE, FIELD, 0.7))):
+    k.hand_line(c, [(x, y + off) for x, y in mid], col, 1.4, amp=1.6, seed=off)
+for off in (14, 30, 48):
+    k.hand_line(c, [(x, y + off) for x, y in near], k.mix(FIELD, PALE, 0.28), 1.3, amp=1.4, seed=off)
+# spruce stand along the near ridge
+for x in range(8, S, 14):
+    yy = ridge_y(near, x) + 6
+    hh = 14 + (hash((x, 3)) % 14)
+    k.poly(c, [(x - 5, yy), (x, yy - hh), (x + 5, yy)], fill=k.mix(INK, SHADOW, 0.4))
+# fog band
+lay, ld = c.layer()
+k.poly(c, [(0, 640), (S, 600), (S, 700), (0, 740)], fill=(*k.hex_to_rgb(PAPER), 40), d=ld)
+lay = lay.filter(ImageFilter.GaussianBlur(26)); c.composite(lay)
+# ground below to the base
+k.poly(c, [(0, 830), (S, 830), (S, S), (0, S)], fill=SHADOW)
+m3, md3 = c.mask(); md3.rectangle(c.pts([(0, 830), (S, S)])[0] + c.pts([(0, 830), (S, S)])[1], fill=255)
+k.hatch(c, m3, spacing=9, angle=-28, color=k.mix(SHADOW, INK, 0.45), width=1.2)
 
-    # ---- 10 AI reticle: sightlines from the right sky converge on the wellhead,
-    #        kept clear of the headline/kicker; plumb drops to the ore ----
-    TGT = (CX + 6, GY - 4)
-    for p in [(772, 306), (872, 328), (972, 356)]:
-        dashed(c, p, TGT, k.mix(ink, sky_lo, 0.34), width=2, dash=16, gap=12)
-    dashed(c, TGT, (CX, OY - 96), ore_dk, width=2, dash=14, gap=10)
-    k.circle(c, TGT[0], TGT[1], 15, outline=ink, width=3)
-    k.line(c, [(TGT[0] - 24, TGT[1]), (TGT[0] + 24, TGT[1])], ink, width=2)
-    k.line(c, [(TGT[0], TGT[1] - 24), (TGT[0], TGT[1] + 24)], ink, width=2)
+# ---- feed wires ---------------------------------------------------------
+WIRE = INK
+def catenary(p0, p1, droop, col, w):
+    pts = []
+    for i in range(41):
+        t = i / 40
+        pts.append((p0[0] + (p1[0] - p0[0]) * t, p0[1] + (p1[1] - p0[1]) * t + droop * 4 * t * (1 - t)))
+    k.line(c, pts, col, w)
 
-    # ---- 11 grain finish (restrained) ----
-    k.grain(c, amount=6.0, seed=SEED)
+LJ = (HX, HY - 40)              # hinge terminal top
+RJ = (850, 676)
+catenary((HX - 40, 690), (-10, 560), 40, WIRE, 4)
+catenary((RJ[0] + 40, 690), (1090, 520), 30, WIRE, 4)
 
-    # ---- 12 type ----
-    # eyebrow
-    eb = k.fraunces(c, 30, weight=650, opsz=40)
-    k.text(c, (86, 96), "ALASKA’S MINERAL ENGINE", eb,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.02)
-    # big headline
-    hcol = k.ensure_contrast(ink, paper)
-    s1 = k.fit_size(c, "RUNS ON", 560, lo=70, hi=150, weight=900, opsz=144)
-    f1 = k.fraunces(c, s1, weight=900, opsz=144)
-    k.text(c, (84, 132), "RUNS ON", f1, hcol, anchor="la")
-    s2 = k.fit_size(c, "TWO KEYS", 600, lo=70, hi=168, weight=900, opsz=144)
-    f2 = k.fraunces(c, s2, weight=900, opsz=144)
-    k.text(c, (84, 132 + s1 * 0.96), "TWO KEYS", f2, ore_dk, anchor="la")
+# ---- base slab ----------------------------------------------------------
+k.poly(c, [(170, 842), (1010, 842), (1030, 956), (150, 956)], fill=INK)
+k.poly(c, [(170, 842), (1010, 842), (1006, 852), (174, 852)], fill=k.mix(INK, FIELD, 0.45))
+# scale ticks along slab top edge
+for i in range(0, 61):
+    tx = 190 + i * 13
+    k.line(c, [(tx, 856), (tx, 856 + (9 if i % 5 == 0 else 5))], k.mix(INK, PALE, 0.42), 1.1)
+# bolt heads
+for bx in (206, 330, 456, 600, 730, 850, 972):
+    k.circle(c, bx, 912, 8, fill=k.mix(INK, PALE, 0.28))
+    k.circle(c, bx, 912, 8, outline=k.mix(INK, PALE, 0.6), width=1.4)
+    k.line(c, [(bx - 5, 912), (bx + 5, 912)], k.mix(INK, PALE, 0.65), 1.4)
+for y in (894, ):
+    k.line(c, [(210, y), (970, y)], k.mix(INK, FIELD, 0.28), 1)
 
-    # kicker
-    kf = k.mono(c, 18, medium=True)
-    k.text(c, (86, 132 + s1 * 0.96 + s2 * 1.02 + 20),
-           "THE STACK · VEHICLES · 24 JUL 2026", kf,
-           k.ensure_contrast(ink, paper), anchor="la", tracking=0.20)
+# ---- insulator columns --------------------------------------------------
+def insulator(cx, y_top, y_bot, w=34):
+    # ceramic stack with ribbed sheds
+    n = 9
+    h = (y_bot - y_top) / n
+    k.poly(c, [(cx - w * .3, y_top), (cx + w * .3, y_top), (cx + w * .3, y_bot), (cx - w * .3, y_bot)], fill=k.mix(CERAMIC, INK, 0.25))
+    for i in range(n):
+        y = y_top + i * h
+        sw = w * (0.62 if i % 2 == 0 else 0.5)
+        k.poly(c, [(cx - sw, y + h * .2), (cx + sw, y + h * .2), (cx + sw * .88, y + h * .78), (cx - sw * .88, y + h * .78)],
+               fill=CERAMIC)
+        k.poly(c, [(cx + sw * .18, y + h * .2), (cx + sw, y + h * .2), (cx + sw * .88, y + h * .78), (cx + sw * .18, y + h * .78)],
+               fill=k.mix(CERAMIC, SHADOW, 0.35))
+        k.line(c, [(cx - sw, y + h * .78), (cx + sw * .88, y + h * .78)], k.mix(CERAMIC, INK, 0.5), 1.2)
+    # flange
+    k.poly(c, [(cx - w * .75, y_bot - 8), (cx + w * .75, y_bot - 8), (cx + w * .75, y_bot + 6), (cx - w * .75, y_bot + 6)], fill=k.mix(INK, PALE, 0.35))
 
-    # valve labels (chips)
-    lf = k.mono(c, 17, medium=True)
-    k.chip(c, (296, 690), "NSF TIP · $15M", lf, paper, ink, pad=9, anchor="ra")
-    k.chip(c, (796, 556), "NANA · GROUND", lf, paper, ink, pad=9, anchor="la")
-    # option tag: the $160M tranche above the valves (legible ghost chip)
-    of = k.mono(c, 16, medium=True)
-    k.chip(c, (470, 502), "$160M · OPTION", of, ink, strata_light, pad=8, anchor="ra")
+insulator(HX, 700, 846)
+insulator(850, 700, 846)
 
-    # wordmark chip + polaris colophon
-    wf = k.fraunces(c, 27, weight=900, opsz=40)
-    k.chip(c, (84, 1006), "ALASKA.AI", wf, paper, ink, pad=11, anchor="ls")
-    k.polaris(c, 986, 118, r=13, color=ore, core=ore_hi)
+# hinge terminal block (left)
+k.poly(c, [(HX - 46, 676), (HX + 46, 676), (HX + 46, 706), (HX - 46, 706)], fill=COPPER)
+k.poly(c, [(HX - 46, 676), (HX + 46, 676), (HX + 46, 683), (HX - 46, 683)], fill=k.lighten(COPPER, 0.25))
+k.circle(c, HX, 690, 15, fill=INK)
+k.circle(c, HX, 690, 15, outline=k.lighten(COPPER, .3), width=2)
+k.circle(c, HX, 690, 5, fill=k.lighten(COPPER, .35))
+# jaw (right): two copper clips
+JX = 850
+k.poly(c, [(JX - 52, 676), (JX + 52, 676), (JX + 52, 706), (JX - 52, 706)], fill=COPPER)
+k.poly(c, [(JX - 52, 676), (JX + 52, 676), (JX + 52, 683), (JX - 52, 683)], fill=k.lighten(COPPER, .25))
+k.poly(c, [(JX - 24, 676), (JX - 10, 676), (JX - 10, 600), (JX - 24, 600)], fill=k.darken(COPPER, .1))
+k.poly(c, [(JX + 10, 676), (JX + 24, 676), (JX + 24, 600), (JX + 10, 600)], fill=COPPER)
+k.poly(c, [(JX - 24, 600), (JX - 10, 600), (JX - 18, 586)], fill=k.lighten(COPPER, .15))
+k.poly(c, [(JX + 10, 600), (JX + 24, 600), (JX + 18, 586)], fill=k.lighten(COPPER, .15))
+k.line(c, [(JX - 10, 604), (JX - 10, 676)], k.darken(COPPER, .35), 1.5)
 
-    meta = {
-        "date": "24 JUL 2026", "column": "The Stack", "kicker": "THE STACK",
-        "middle_slot": "VEHICLES",
-        "headline": "Alaska’s Mineral Engine Runs On Two Keys",
-        "byline": "",
-        "style_family": "geologic_engraving",
-        "palette": [paper, sky_lo, strata_light, strata_deep, ink, metal, ore],
-        "hue_family": "green",
-        "composition": "bilateral_gate",
-        "motifs": ["critical-mineral ore body", "two series valves",
-                   "AI triangulation reticle", "geologic strata cross-section",
-                   "subsurface conduit"],
-        "technique_stack": ["gradient_v", "ridge_fill", "voronoi_polys",
-                            "hatch", "glow", "stipple", "chips", "hand_line",
-                            "grain"],
-        "seed": SEED,
-        "eval_history": [
-            {"iter": 1, "weighted": 8.13, "weakest": "craft",
-             "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"},
-            {"iter": 2, "weighted": 8.60, "weakest": "detail",
-             "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"},
-            {"iter": 3, "weighted": 8.73, "weakest": "typography",
-             "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"}
-        ],
-        "eval_final": {
-            "weighted": 8.73,
-            "scores": {"concept": 9, "focal": 9, "composition": 8.5,
-                       "color": 8.5, "detail": 8.5, "craft": 9,
-                       "typography": 8.5, "originality": 8.5, "fidelity": 9}
-        },
-    }
-    c.finish("out/post_image.png", meta)
-    print("rendered out/post_image.png")
+# ---- blade --------------------------------------------------------------
+ang = math.radians(48)
+L = 360
+tipx, tipy = HX + math.cos(ang) * L, 690 - math.sin(ang) * L
+nx, ny = -math.sin(ang), -math.cos(ang)   # normal toward upper-left
+bw = 15
+def bladepts(w0, w1):
+    return [(HX + nx * w0 * -1, 690 + ny * w0 * -1), (tipx + nx * w1 * -1, tipy + ny * w1 * -1),
+            (tipx + nx * w1, tipy + ny * w1), (HX + nx * w0, 690 + ny * w0)]
+# soft cast shadow on sky
+lay, ld = c.layer()
+k.poly(c, [(x + 14, y + 12) for x, y in bladepts(bw, bw * .8)], fill=(*k.hex_to_rgb(SHADOW), 60), d=ld)
+lay = lay.filter(ImageFilter.GaussianBlur(10)); c.composite(lay)
+k.poly(c, bladepts(bw, bw * .8), fill=SIGNAL)
+# bevel highlight and dark edge
+k.line(c, [(HX + nx * bw * .55, 690 + ny * bw * .55), (tipx + nx * bw * .45, tipy + ny * bw * .45)], k.lighten(SIGNAL, .35), 3)
+k.line(c, [(HX - nx * bw * .85, 690 - ny * bw * .85), (tipx - nx * bw * .68, tipy - ny * bw * .68)], k.darken(SIGNAL, .35), 3)
+# rivets along the blade
+for t in (0.12, 0.3, 0.5, 0.7):
+    px, py = HX + math.cos(ang) * L * t, 690 - math.sin(ang) * L * t
+    k.circle(c, px, py, 3.2, fill=k.darken(SIGNAL, .4))
+    k.circle(c, px - .8, py - .8, 1.4, fill=k.lighten(SIGNAL, .45))
+k.glow(c, tipx, tipy, 46, SIGNAL, alpha=55)
+# handle ring
+k.circle(c, tipx, tipy, 26, outline=INK, width=9)
+k.circle(c, tipx, tipy, 26, outline=k.mix(INK, FIELD, .4), width=2)
+k.circle(c, tipx, tipy, 6, fill=SIGNAL)
+# spark ticks where blade would meet the jaw
+for a in (-30, -10, 14, 36):
+    r0, r1 = 20, 36
+    cx0, cy0 = JX - 6, 580
+    k.line(c, [(cx0 + math.cos(math.radians(a - 90)) * r0, cy0 + math.sin(math.radians(a - 90)) * r0),
+               (cx0 + math.cos(math.radians(a - 90)) * r1, cy0 + math.sin(math.radians(a - 90)) * r1)], SIGNAL, 2.2)
 
-if __name__ == "__main__":
-    try:
-        main()
-    except Exception:
-        traceback.print_exc()
-        sys.exit(1)
+# hinge pin over blade root
+k.circle(c, HX, 690, 12, fill=k.mix(INK, PALE, .2)); k.circle(c, HX, 690, 4, fill=PALE)
+
+# ---- labels (dossier-only) ----------------------------------------------
+ml = k.mono(c, 14, medium=True)
+k.text(c, (HX - 60, 862), "INTENT TO DEPLOY", ml, PALE, tracking=0.12)
+k.text(c, (HX - 60, 880), "UP TO $150M", k.mono(c, 14, medium=True), SIGNAL, tracking=0.12)
+k.text(c, (JX - 60, 862), "NON-FEDERAL", ml, PALE, tracking=0.12)
+k.text(c, (JX - 60, 880), "$268M", k.mono(c, 14, medium=True), SIGNAL, tracking=0.12)
+# slab caption + wordmark
+k.text(c, (590, 940), "SEC. OF ENERGY  /  OBLIGATE  Y/N", k.mono(c, 12), k.mix(PALE, INK, .15), tracking=0.18, anchor="mm")
+
+# dimension line + geese (micro)
+DL = k.mix(SHADOW, PALE, 0.15)
+k.line(c, [(650, 404), (1018, 404)], DL, 1.5)
+for xx in (650, 1018):
+    k.line(c, [(xx, 396), (xx, 412)], DL, 1.5)
+k.text(c, (834, 386), "223 MI  BELUGA TO HEALY", k.mono(c, 13, medium=True), DL, tracking=0.16, anchor="mm")
+for gx, gy, gs in ((760, 215, 1.0), (800, 238, .8), (726, 244, .7), (846, 206, .6), (700, 190, .55), (880, 252, .5)):
+    k.line(c, [(gx - 11*gs, gy - 5*gs), (gx, gy), (gx + 11*gs, gy - 5*gs)], k.mix(SHADOW, PAPER, .25), 1.8)
+
+# ---- headline ------------------------------------------------------------
+hf = k.fraunces(c, 70, weight=900, opsz=144)
+lines = ["BELUGA-HEALY", "RIDES  THE", "DEFENSE", "PRODUCTION  ACT"]
+size = 70
+while max(k.measure(c, s, k.fraunces(c, size, weight=900), 0) for s in lines) > 540:
+    size -= 1
+hf = k.fraunces(c, size, weight=900, opsz=144)
+y = 62
+for i, s in enumerate(lines):
+    col = INK if i != 3 else SHADOW
+    k.text(c, (72, y), s, hf, col, tracking=0.012)
+    y += size * 1.03
+# orange rule under headline
+k.poly(c, [(72, y + 10), (72 + 90, y + 10), (72 + 90, y + 16), (72, y + 16)], fill=SIGNAL)
+kick = "THE STACK  ·  VEHICLES  ·  5 OCT 2026"
+k.text(c, (72, y + 32), kick, k.mono(c, 15, medium=True), SHADOW, tracking=0.2)
+
+# ---- marks ---------------------------------------------------------------
+wf = k.fraunces(c, 30, weight=900, opsz=144)
+k.text(c, (72, 1000), "ALASKA.AI", wf, PAPER)
+k.polaris(c, 996, 84, r=15, color=SIGNAL, core="#fff0c8")
+
+k.grain(c, amount=6, seed=SEED)
+
+meta = {
+    "date": "5 OCT 2026", "column": "The Stack", "kicker": "THE STACK",
+    "middle_slot": "VEHICLES", "headline": "Beluga-Healy rides the Defense Production Act",
+    "byline": "",
+    "style_family": "constructivist_switchgear",
+    "palette": [PAPER, PALE, FIELD, SHADOW, INK, COPPER, SIGNAL],
+    "hue_family": "teal", "composition": "knife_switch_diagonal",
+    "motifs": ["open knife switch", "raised orange blade with insulated ring handle", "ribbed ceramic insulators", "lattice pylon line on ridge", "copper jaw clips", "intent versus obligation"],
+    "technique_stack": ["ridge_pts", "hatch", "stipple", "chips", "rays", "glow", "mottle", "grain"],
+    "seed": SEED, "eval_history": [], "eval_final": {},
+}
+import os
+if os.path.exists("out/eval_final.json"):
+    ev = json.load(open("out/eval_final.json"))
+    meta["eval_history"] = ev.get("history", []); meta["eval_final"] = ev.get("final", {})
+c.finish("out/post_image.png", meta)
+print("rendered")
