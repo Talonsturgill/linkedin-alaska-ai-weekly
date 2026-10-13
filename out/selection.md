@@ -1,21 +1,47 @@
-# The Stack — Selection — 2026-07-24
+# Anchorage Desk — selection — 2026-09-04
 
-**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
+**Subject.** Curtis Thayer, Chief Executive Officer and Executive Director,
+Alaska Energy Authority (AEA), Anchorage.
 
-**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
+**Role slot (kicker middle).** `OPERATOR`
 
-**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
+**Anchorage tie.** AEA is headquartered in Anchorage and finances and operates
+Railbelt grid infrastructure, including the $400 million Cook Inlet PowerLink
+transmission project serving the Anchorage-area load center.
 
-**Layer count.** 4 layers, each primary-sourced.
-1. NSF award authority / source-selection — NSF TIP Directorate.
-2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
-3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
-4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
+**The decision.** On 2026-08-19 Thayer publicly refuted DeepGreen Cook Inlet
+SPV LLC's FERC preliminary-permit filing, which claimed its proposed 100 MW
+underwater AI data center off Nikiski (roughly 350 tidal turbines and 66 subsea
+server "hives") was designed to tie into AEA's Cook Inlet PowerLink line. Thayer
+said AEA had never been contacted and that the filing's facts were "dead wrong."
 
-**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
+**The binary he owned.** Let the claimed public-infrastructure partnership stand
+unchallenged in the federal permitting record, or publicly disavow it. He chose
+public refutation over silence or tacit accommodation.
 
-**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
+**Primary source.** Anchorage Daily News, 2026-08-19 —
+https://www.adn.com/business-economy/2026/08/19/underwater-data-center-proposed-for-alaskas-cook-inlet-by-east-coast-company/
 
-**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
+**Corroboration.**
+- The Center Square, 2026-08-24 (independent outlet, separate reporter) —
+  https://www.thecentersquare.com/national/article_d00f40ee-7e0b-4c01-96a9-adfc42c4d7ab.html
+- Federal Register / FERC, Project No. 15423-000, published 2026-09-04
+  (independently confirms the DeepGreen filing) —
+  https://www.federalregister.gov/documents/2026/09/04/2026-18151/deepgreen-cook-inlet-spv-llc-notice-of-preliminary-permit-application-accepted-for-filing-and
 
-**CATEGORY (Phase 8 middle slot).** VEHICLES
+**Structural read (desk position).** The correction was the right call and a
+legitimate use of institutional authority. It keeps an unverified interconnection
+claim out of the federal record and signals that Alaska's public power
+infrastructure is not a plug-and-play backdrop for speculative AI data-center
+pitches. The unresolved tension is that Alaska's utilities are actively courting
+large new industrial loads to spread fixed grid costs, and this landed as a public
+no rather than a public invitation to talk.
+
+**Forward implication.** The FERC comment and intervention period on Project No.
+15423-000 opened 2026-09-04. Watch whether AEA files formal comments or moves to
+intervene, whether DeepGreen amends or withdraws the PowerLink claim, and whether
+this becomes the template for how Railbelt authorities answer other speculative
+data-center developers invoking public infrastructure.
+
+**Confidence.** Medium. Both news sources trace back to one original ADN
+interview; the Federal Register notice corroborates the filing, not the rebuttal.

@@ -1,22 +1,81 @@
 {
-  "column": "The Stack",
-  "date": "2026-07-24",
   "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+    {
+      "name": "Hook strength",
+      "score": 8,
+      "weight": 0.10,
+      "notes": "First paragraph (~216 chars) names Curtis Thayer, his role, and the concrete decision (refuting the FERC tie-in claim as 'dead wrong') before the fold. Decision is the hook, not the bio. Docked slightly because the block is dense rather than a clean two-line punch."
+    },
+    {
+      "name": "Subject + decision load-bearing for AK",
+      "score": 8,
+      "weight": 0.16,
+      "notes": "Thayer's accountability is not soft; he owns the refutation outright. Consequence names sector (energy/AI infrastructure), dollar figure ($400M PowerLink), affected actors (DeepGreen, Kenai Peninsula stakeholders, future filers), and timeframe (Sept 4 comment window). Docked one tier because the decision is a reactive public correction rather than a capital, procurement, or funding allocation."
+    },
+    {
+      "name": "Subject identification fidelity",
+      "score": 9,
+      "weight": 0.10,
+      "notes": "Full name, title ('CEO and Executive Director'), org (AEA), and explicit Anchorage tie all match desk_dossier.json exactly. No invented biographical detail."
+    },
+    {
+      "name": "Decision specificity + primary-source",
+      "score": 8,
+      "weight": 0.14,
+      "notes": "What/when/binary all explicit and sharp, decision dated 2026-08-19, in-window under the 60-day override. Primary source (Anchorage Daily News) named inline. Corroboration present but implicit: the post uses Federal Register-sourced detail to corroborate the underlying filing but never surfaces that Thayer's rebuttal is single-sourced to ADN."
+    },
+    {
+      "name": "Structural read",
+      "score": 9,
+      "weight": 0.13,
+      "notes": "Takes a genuine, earned position ('He chose refutation, and it was the right call') and then names the real, proportionate tension (Chugach's appetite for large loads vs. a public no). post_001 energy: analytical, structural, not hedged mush, not boosterism, not manufactured criticism."
+    },
+    {
+      "name": "Forward implication",
+      "score": 8,
+      "weight": 0.08,
+      "notes": "Names a live, dated trigger (FERC comment/intervention window opened Sept 4, 2026) and concrete watch items. Specific rather than 'watch this space,' though presented as a list of possibilities rather than one crisp single trigger."
+    },
+    {
+      "name": "Voice match",
+      "score": 8,
+      "weight": 0.10,
+      "notes": "Analytical, business-literate, plain-language explanation of a regulatory mechanism, matching post_001's register. No hagiographic verbs, no press-release recap, no banned phrases. One mildly breezy turn ('the kind of load that math wants') is minor drift, not disqualifying."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "score": 7,
+      "weight": 0.05,
+      "notes": "449 body words and ~2,860 total characters both comfortably inside the windows. Two paragraphs ran 5-8 sentences each, longer than the tight 2-4 sentence target. ORCHESTRATOR NOTE: after scoring, those two paragraphs were split at sentence boundaries with no wording changed, addressing this exact point."
+    },
+    {
+      "name": "Engagement question",
+      "score": 9,
+      "weight": 0.04,
+      "notes": "Specific, debatable, tied directly to the decision's structural tension. No CTA, no rhetorical softener."
+    },
+    {
+      "name": "Credibility guard",
+      "score": 8,
+      "weight": 0.10,
+      "notes": "Bio recap minimal; decision treatment dominates word count. Both quotes verbatim matches to desk_dossier.json with correct source_url. Attribution honest and appropriately hedged rather than overclaiming independent confirmation of the rebuttal. Held back from 9-10 only because the post never signals that corroboration for Thayer's account is thinner than for the filing's existence."
+    }
   ],
-  "weighted_total": 8.93,
+  "weighted_total": 8.22,
   "threshold": 8.0,
+  "hard_fails": [
+    {"name": "hashtag_count_in_range", "passed": true, "note": "4 hashtags (#AlaskaAI #EnergyPolicy #GridPolicy #DataCenters), all on the brand.yaml whitelist, end placement only."},
+    {"name": "punctuation_bans_held", "passed": true, "note": "No em-dashes, en-dashes, double-hyphens, colons, or semicolons in the body. Compound-adjective single hyphens are not banned."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "note": "Body plus hashtag line is under the 3,000-char cap."},
+    {"name": "word_count_in_range", "passed": true, "note": "Body word count (hashtag line excluded) is 449, within 350-475."},
+    {"name": "subject_named_and_anchorage_tied", "passed": true, "note": "Curtis Thayer named with full name, title, and org; Anchorage tie stated explicitly."},
+    {"name": "recent_decision_named_with_primary_source", "passed": true, "note": "Decision dated 2026-08-19, within the 60-day window (on/after 2026-07-06); Anchorage Daily News named inline with the date."},
+    {"name": "multi_source_corroboration", "passed": true, "note": "The account of the underlying FERC filing is independently corroborated by the Federal Register notice per the dossier's corroborating_sources[]."},
+    {"name": "grounded_not_press_release", "passed": true, "note": "Real analytical work, no hagiographic verbs, no recycled press-release language."},
+    {"name": "no_invented_quotes", "passed": true, "note": "Both quotes verbatim matches to desk_dossier.json selected_subject.subject_quotes[] with matching source_url."}
+  ],
+  "hard_fail": null,
   "ship": true,
-  "hard_fails": [],
   "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "one_sentence_fix": "Break the two dense multi-sentence paragraphs into shorter 2-4 sentence chunks to improve mobile scannability without changing content. APPLIED after scoring, at sentence boundaries, with no wording changed."
 }

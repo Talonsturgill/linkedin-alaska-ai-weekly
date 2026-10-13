@@ -1,22 +1,22 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://www.adn.com/business-economy/2026/08/19/underwater-data-center-proposed-for-alaskas-cook-inlet-by-east-coast-company/",
+      "outlet": "Anchorage Daily News (PRIMARY SOURCE)",
+      "pub_date": "2026-08-19",
+      "story_title": "Underwater data center proposed for Alaska's Cook Inlet by East Coast company — carries Thayer's refutation verbatim"
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://www.thecentersquare.com/national/article_d00f40ee-7e0b-4c01-96a9-adfc42c4d7ab.html",
+      "outlet": "The Center Square (CORROBORATOR, independent of subject)",
+      "pub_date": "2026-08-24",
+      "story_title": "Independent outlet, separate reporter, covers the AEA/DeepGreen dispute with added context. Note: attributes Thayer's quote to ADN, so the two news sources share one original interview."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.federalregister.gov/documents/2026/09/04/2026-18151/deepgreen-cook-inlet-spv-llc-notice-of-preliminary-permit-application-accepted-for-filing-and",
+      "outlet": "Federal Register / FERC, Project No. 15423-000 (CORROBORATOR, independent of subject)",
+      "pub_date": "2026-09-04",
+      "story_title": "DeepGreen Cook Inlet SPV LLC notice of preliminary permit application accepted for filing; comment and intervention period opens. Corroborates the underlying filing, not the rebuttal."
     }
   ]
 }
