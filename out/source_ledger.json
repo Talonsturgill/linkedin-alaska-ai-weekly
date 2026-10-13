@@ -1,22 +1,34 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://alaskapublic.org/news/public-safety/2026-09-03/anchorage-assembly-approves-600k-police-crime-center-upgrade-holds-off-on-updating-privacy-protections",
+      "outlet": "Alaska Public Media",
+      "pub_date": "2026-09-03",
+      "story_title": "Assembly approves crime center upgrade"
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/09/02/anchorage-assembly-approves-police-crime-center-buildout-without-additional-surveillance-protections-in-place/",
+      "outlet": "Anchorage Daily News",
+      "pub_date": "2026-09-02",
+      "story_title": "Crime center buildout approved"
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.adn.com/opinions/2026/09/10/opinion-how-the-university-of-alaska-anchorage-is-helping-shape-the-states-ai-future/",
+      "outlet": "Anchorage Daily News (opinion)",
+      "pub_date": "2026-09-10",
+      "story_title": "UAA AI@UAA op-ed (Dotson)"
+    },
+    {
+      "url": "https://www.akbizmag.com/industry/finance/northrim-bank-turns-to-narmi-one-platform-for-digital-transformation/",
+      "outlet": "Alaska Business",
+      "pub_date": "2026-07-29",
+      "story_title": "Northrim selects Narmi One"
+    },
+    {
+      "url": "https://ffnews.com/news/northrim-bank-partners-with-narmi-to-revolutionize-digital-banking-across-alaska",
+      "outlet": "FF News",
+      "pub_date": "2026-07-29",
+      "story_title": "Northrim/Narmi (vendor-originated)"
     }
   ]
 }
