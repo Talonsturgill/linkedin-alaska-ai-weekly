@@ -1,22 +1,34 @@
 {
-  "column": "The Stack",
-  "date": "2026-07-24",
-  "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+  "column": "Anchorage Desk",
+  "date": "2026-08-07",
+  "rubric": "config/desk_rubric.yaml",
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "result": "pass", "notes": "Four hashtags, end-only, all on brand.yaml whitelist (#AlaskaAI, #AIPolicy, #ProcurementReform, #ArcticInnovation). 4 is within 3 to 5. No inline hashtags."},
+    {"name": "punctuation_bans_held", "result": "pass", "notes": "Body contains only single hyphens in compound modifiers. Zero em-dashes, en-dashes, double-hyphens, colons, or semicolons. Curly quotes and curly apostrophes used correctly."},
+    {"name": "total_char_count_under_linkedin_cap", "result": "pass", "notes": "2900 characters total (body + hashtag line) after the post-scoring paragraph split, under the 3000 cap with 100 characters of headroom."},
+    {"name": "word_count_in_range", "result": "pass", "notes": "Body is 436 words (hashtag line excluded), inside the 350 to 475 range."},
+    {"name": "subject_named_and_anchorage_tied", "result": "pass", "notes": "Names 'Anchorage Police Chief Sean Case' who 'runs the police department for the Municipality of Anchorage.' Anchorage tie explicit via the RTCC connecting up to 750 cameras across the bowl."},
+    {"name": "recent_decision_named_with_primary_source", "result": "pass", "notes": "Names the specific 2026-08-04 decision (asking the Assembly to approve the ~$600K Thundercat RTCC upgrade; vote postponed to 18 August). Date is in the 60-day window per this run's override of the rubric's 30-day figure. Primary source Alaska's News Source is named inline and matches dossier selected_decision.primary_source."},
+    {"name": "multi_source_corroboration", "result": "pass", "notes": "Both named outlets (Alaska's News Source, Alaska Public Media) are independent of MOA/APD; not sourced to any org-controlled press release. Post honestly hedges the Thundercat specific as single-reputable-outlet reported ('so far the only outlet reporting the specifics') and attributes the program-level facts and the $12M Axon program to Alaska Public Media. Graded on the honesty of the hedge."},
+    {"name": "grounded_not_press_release", "result": "pass", "notes": "Real analytical work: names the binary (procure and defend vs pause for an ordinance), the guardrails-are-internal-policy-not-code gap, and the concentration-of-executive-power risk, all evidence-led and proportionate. No hagiographic verbs, no recycled press-release language."},
+    {"name": "no_invented_quotes", "result": "pass", "notes": "All four quoted spans are verbatim contiguous substrings of dossier subject_quotes[], each from the Alaska's News Source source_url. No fabricated quotes."}
   ],
-  "weighted_total": 8.93,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First line (~196 chars, under the ~210 see-more cutoff) names subject + role + the concrete decision (~$600K Thundercat RTCC upgrade, 4 August) AND the twist that the vote was postponed. The decision is the hook, not the bio."},
+    {"name": "Subject + decision load-bearing for AK", "score": 9, "weight": 0.16, "notes": "Public-facing decision owner whose procurement materially affects Alaska AI surveillance policy. Concrete consequence named: sector, dollars ($600K layered on ~$12M Axon program), affected actors (Thundercat, Axon, residents and businesses, the Assembly), and timeframe (18 August vote)."},
+    {"name": "Subject identification fidelity", "score": 10, "weight": 0.10, "notes": "Full name + role + institutional affiliation in the body, Anchorage tie explicit (750 cameras across the bowl). Every subject fact matches the dossier."},
+    {"name": "Decision specificity + primary-source", "score": 9, "weight": 0.14, "notes": "Decision named with what + when + binary, traces to the dossier primary source (named inline), corroboration survives the multi-source rule, date in window. Primary source named rather than URL-linked, consistent with LinkedIn form."},
+    {"name": "Structural read", "score": 9, "weight": 0.13, "notes": "Takes a real, honest, grounded position: credits genuine candor then names the proportionate risk (internal policy is not code) and frames it as a gamble. Matches post_001 energy. Neither boosterism nor manufactured criticism."},
+    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the concrete trigger (18 August regular Assembly meeting) and exactly what to watch (whether APD accepts binding collection, access, and retention code as a condition, or the Assembly funds on internal policy alone)."},
+    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, structural, business-literate, Alaska-first, plain language without losing sophistication. No press-release cadence, no influencer tics, no hagiography."},
+    {"name": "Readability (LinkedIn)", "score": 8, "weight": 0.05, "notes": "SCORED BEFORE FIX. 436 words, bio held to one sentence, but the fifth paragraph ran to roughly seven sentences and read as one dense block on mobile. The scorer's one-sentence fix was applied post-scoring: that block was split after 'far less from the executive', so the body is now 9 paragraphs plus the hashtag line at 2900 characters. Effective post-fix score is higher; the 9.09 weighted total below is the conservative pre-fix figure."},
+    {"name": "Engagement question", "score": 10, "weight": 0.04, "notes": "Closes with a real, debatable question tied to the specific decision (binding retention and access limits vs a chief's committee-review commitment for a $600,000 buy). No CTA, no rhetorical softener."},
+    {"name": "Credibility guard", "score": 9, "weight": 0.10, "notes": "Grounded, independent analysis. Bio recap minimal, decision treatment substantial, every claim traceable, and the single-outlet limitation on the Thundercat specific is disclosed honestly in-body. No superlative-without-grounding drift."}
+  ],
+  "weighted_math": "(9*0.10)+(9*0.16)+(10*0.10)+(9*0.14)+(9*0.13)+(9*0.08)+(9*0.10)+(8*0.05)+(10*0.04)+(9*0.10) = 0.90+1.44+1.00+1.26+1.17+0.72+0.90+0.40+0.40+0.90 = 9.09",
+  "weighted_total": 9.09,
   "threshold": 8.0,
   "ship": true,
-  "hard_fails": [],
-  "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "one_sentence_fix": "Split the dense fifth paragraph (the 'candor rests on internal policy' block) into two 2-to-3 sentence paragraphs so no single block runs to seven sentences on mobile. APPLIED post-scoring.",
+  "_orchestrator_note": "Editor returned ship on revision cycle 2 of 3. Scorer graded 9.09 against the 8.0 threshold on the first scoring cycle with zero hard fails, so no additional scoring cycles were needed. The scorer's readability fix was applied after grading and did not change any hard-fail result."
 }

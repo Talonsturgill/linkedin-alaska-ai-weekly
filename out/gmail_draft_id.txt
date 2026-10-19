@@ -1,5 +1,6 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+r-1343005193720404182
+subject: Alaska.Ai — Anchorage Desk Draft — 2026-08-07
+to: docket@alaskaaihq.com
+created_utc: 2026-08-08T08:20Z
+branch: claude/linkedin-desk-2026-08-07
+image: hosted GitHub raw URL (inline base64 body was 2,052,204 bytes, over the 100KB threshold)
