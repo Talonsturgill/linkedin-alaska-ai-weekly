@@ -1,79 +1,103 @@
 {
-  "date": "24 JUL 2026",
+  "date": "21 AUG 2026",
   "column": "The Stack",
   "kicker": "THE STACK",
-  "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "middle_slot": "REGULATORY",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "headline": "Cook Inlet, Banked / Before Alaska Can Object",
+  "style_family": "hydrographic_claim",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#f0eade",
+    "#7d9187",
+    "#374b43",
+    "#1b2622",
+    "#c8552c",
+    "#3d1d12"
   ],
   "hue_family": "green",
-  "composition": "bilateral_gate",
+  "composition": "offset_parcel_drift",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "surveyed claim quadrilateral over open water",
+    "tidal current streamlines",
+    "corner monuments and dimension ticks",
+    "Kenai shore sliver",
+    "Bernice Lake substation glyph"
   ],
   "technique_stack": [
-    "gradient_v",
-    "ridge_fill",
-    "voronoi_polys",
-    "hatch",
-    "glow",
+    "field",
+    "warp",
+    "angle_field",
+    "streamlines",
     "stipple",
     "chips",
-    "hand_line",
-    "grain"
+    "ridge_pts",
+    "wobble_pts",
+    "poly",
+    "glow",
+    "grain",
+    "vignette",
+    "polaris"
   ],
-  "seed": 724,
+  "seed": 1650,
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
+      "weighted": 6.72,
       "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "note": "current read as RAIN not tide (quantized near-vertical angle field); wordmark invisible on dark landmass; straight vertical cut in coast; parcel interior dead flat fill"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 7.35,
+      "weakest": "craft",
+      "note": "rebuilt angle field as diagonal set-and-drift with large meanders + fine shear; parcel tint moved UNDER the current so water runs over the claim; braided/curled streamlines"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 7.9,
+      "weakest": "craft",
+      "note": "hand-rolled rotated label plates did not register with text rotation; replaced with kit chips + leader lines; fixed 'COOKINLET,' collapse from negative tracking"
+    },
+    {
+      "iter": 4,
+      "weighted": 8.28,
+      "weakest": "craft",
+      "note": "PRIORITY chip was clipped by right canvas edge, moved into open-water band above parcel; coast slope shallowed and wobble raised to break the ruled look"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.45,
+      "weakest": "detail",
+      "note": "coast polygons run off the bottom edge, killing the vertical wall artifact; added broad low-contrast tonal sweeps to give the water body mass"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.565,
+      "weakest": "craft",
+      "note": "landmass was the last near-flat region; added stipple tooth, rock chips, tideline surf debris, stronger interior banding"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.565,
     "scores": {
-      "concept": 9,
-      "focal": 9,
+      "concept": 8.5,
+      "focal": 8.5,
       "composition": 8.5,
       "color": 8.5,
       "detail": 8.5,
-      "craft": 9,
-      "typography": 8.5,
+      "craft": 8.5,
+      "typography": 9,
       "originality": 8.5,
       "fidelity": 9
-    }
+    },
+    "bar": 8.5,
+    "passed": true,
+    "note": "Above the 8.5 floor with no dimension below 7. Six iterations; the first render was well short and every pass was a targeted fix of the weakest dimension."
   },
   "canvas": [
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-08-21T09:11:07.432503Z",
   "out_path": "out/post_image.png"
 }

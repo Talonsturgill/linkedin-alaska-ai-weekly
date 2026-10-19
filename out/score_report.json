@@ -1,22 +1,35 @@
 {
   "column": "The Stack",
-  "date": "2026-07-24",
-  "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+  "date": "2026-08-21",
+  "rubric_file": "config/stack_rubric.yaml",
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "passed": true, "note": "4 hashtags (#AlaskaAI #EnergyPolicy #DataCenters #GridPolicy), all on brand.yaml whitelist, single terminal line, none inline. Within 3 to 5."},
+    {"name": "punctuation_bans_held", "passed": true, "note": "Zero em-dashes, en-dashes, double-hyphens, colons, semicolons. Curly quotes throughout. Bullet block uses comma constructions rather than colons."},
+    {"name": "total_char_count_under_linkedin_cap", "passed": true, "note": "2,944 characters body plus hashtag line against the 3,000 cap. 56 characters of headroom."},
+    {"name": "word_count_in_range", "passed": true, "note": "470 body words against the 350 to 475 range. Sits 5 words from the ceiling."},
+    {"name": "mechanism_named_and_news_tied", "passed": true, "note": "Named specifically as the FPA preliminary permit and the 18 CFR 4.32(e) acceptance gate. Tied to the dossier trigger by outlet and date. Correctly presents the instrument identification as the desk's own reading rather than attributing the phrase to ADN."},
+    {"name": "every_layer_attributed", "passed": true, "note": "All five body layers map one-to-one onto stack_anatomy layers[] with matching controlling actors. P-15317-000 correctly attached to Littoral Power Systems, not DeepGreen. No docket number, signatory, beluga claim, or financing claim asserted."},
+    {"name": "chokepoint_named", "passed": true, "note": "Names Layer 2 specifically, matches chokepoint.layer, carries the binary in both directions, preserves the asymmetry line 'Not a hearing, not a vote. A letter.'"}
   ],
-  "weighted_total": 8.93,
+  "criteria": [
+    {"name": "Hook strength", "weight": 0.10, "score": 9, "rationale": "First two lines run roughly 186 characters, inside the ~210 cutoff, and stand alone with a specific noun, verb and stake. Held back from 10 because the instrument is only named in verb form above the fold."},
+    {"name": "Mechanism load-bearing + AK consequence", "weight": 0.18, "score": 9, "rationale": "Sector named, actors named (AEA with Curtis Thayer on record, Homer Electric at Bernice Lake, Kenai Peninsula Borough, area tribes), consequence is a specific legal disability. AI tie documentary, not decorative. Short of 10 because the timeframe stays relative and the 1,650-acre corridor figure was cut."},
+    {"name": "Layer fidelity", "weight": 0.14, "score": 9, "rationale": "Five layers, all in dossier, all actors matching, causal order preserved. The Layer 5 loop-back makes the concentration of authority visible. One deduction for compressing Layer 1's actor to 'the applicant'."},
+    {"name": "Chokepoint clarity", "weight": 0.13, "score": 9, "rationale": "One layer, one office, one binary, both branches with consequences attached. Liveness sourced to Celeste Miller. Held to 9 because the paragraph says 'FERC's Northwest Branch' while the dossier's decider is the Director, OEP, named only in the bullet block."},
+    {"name": "Structural read", "weight": 0.12, "score": 9, "rationale": "Takes a real position grounded in the machinery, proportionate and fair to the applicant. Bradley Lake contrast drawn explicitly and does real work. Short of 10 because the sharpest dossier formulation is compressed into the single word 'standing'."},
+    {"name": "Forward implication", "weight": 0.08, "score": 8, "rationale": "Concrete and actionable with a real trigger, well above 'watch this space', but the thinnest block. No date in the forward paragraph itself despite the post owning two clocks, and it does not close who is positioned versus who is not."},
+    {"name": "Primary-source quality", "weight": 0.10, "score": 9, "rationale": "All five layers trace to primary text, four to CFR and statute, Layer 4 to the FERC notice itself. Chokepoint citation is primary. Held at 9 because the applied instance (18 June letter, pending status) rests solely on ADN, handled honestly by attribution."},
+    {"name": "Voice match", "weight": 0.08, "score": 8, "rationale": "Alaska-first, analytical, position-taking, no banned phrases. Best moments are post_001-grade. One sustained drift: clipped and citation-dense under word-cap pressure, with bullets reading as telegraphic comma-chains rather than plain-language breakdown."},
+    {"name": "Readability (LinkedIn)", "weight": 0.04, "score": 8, "rationale": "Both windows met, bullet block at max 5 items, most paragraphs 2 to 4 sentences. The chokepoint paragraph runs seven or eight sentences and is the densest block, and bullet items are not clean single clauses."},
+    {"name": "Engagement question", "weight": 0.03, "score": 10, "rationale": "Genuinely debatable, addressed to the audience holding the decision, tied to the chokepoint specifically via 'after that letter goes out'. No CTA, no rhetorical softener, proposes a real strategic alternative."}
+  ],
+  "weighted_total": 8.83,
   "threshold": 8.0,
   "ship": true,
-  "hard_fails": [],
-  "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "weakest_criterion": "Forward implication",
+  "one_sentence_fix": "Rebuild the closing forward paragraph around a dated trigger the post already owns, noting that the 18 June cure window has run and the acceptance determination is pending now, so the next clock is the 60 days FERC prescribed in the P-15317-000 notice, and name which parties lack standing today, paying for the added words by trimming the CFR cites out of the bullet labels since the post sits 5 words from the 475 cap.",
+  "scorer_notes": [
+    "Post sits 5 words and 56 characters from its ceilings, so any revision must be net-neutral or subtractive.",
+    "The dossier's uncertainty_flags note this makes regulatory 4 of the last 7 issues. That is a category-balance question for the editorial calendar, not a scoring failure, and was not penalized."
+  ]
 }
