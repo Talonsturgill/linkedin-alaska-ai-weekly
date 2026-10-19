@@ -1,69 +1,186 @@
-# The Stack — Art Plan — 2026-07-24
+# Art plan — The Stack — 14 AUG 2026
+### FERC non-capacity amendment, Bradley Lake / Dixon Diversion, P-8221-124
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+---
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+## Step 0 — Absorb the story
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+**What happened.** FERC accepted AEA's non-capacity license amendment for Bradley Lake on 3 August.
+It would raise the plant's average annual generation by about 38 percent while adding only 0.3 MW of
+nameplate, and the deadline to file a motion to intervene is 5 p.m. Eastern on 28 August.
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+**Why it matters to Alaska.** Because 18 CFR 375.308(b) delegates *uncontested* Part I amendment
+applications to a single officer, that hour decides whether the largest block of new firm non-gas
+Railbelt energy in the queue is disposed of by one person or by a contested proceeding. Anyone not on
+the docket by then has no standing to shape the conditions on Alaska's late-decade firm power.
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
+**Emotional register.** Taut, cold, procedural. A vast quantity of something held back by a very
+ordinary-looking piece of administration, with a clock running on an open door. Not alarmist, not
+triumphant. The feeling is *quiet consequence* — the enormous thing and the small hinge it turns on.
 
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
+---
 
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
+## Step 1 — Dedup scan (obeyed, full ledger in scratch)
 
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
+Scanned 18 prior issues across `claude/linkedin-stack-*`, `-desk-*`, `-contrarian-*`, `-weekly-*`.
 
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
+| Cooldown | Forbidden this issue |
+|---|---|
+| style_family (last 8+) | organic_rd / organic_rd_moorage, constructivist / constructivist_scatter, ukiyo_bokashi, wpa_layered / minimal_line hybrids, engraving / geologic_engraving, paper_collage, blueprint / bathymetric_blueprint, flow_field. Cooling and avoided: swiss_grid, cadastral_ledger, iso_cutaway. Permanently barred as main event: aurora_field. |
+| hue_family (last 4) | teal, blue, magenta, orange. Also avoided at 5-6 back: green, neutral-warm. |
+| composition (last 2) | thirds_focal, scatter_field. Also recent and avoided: diagonal_thrust, horizon_band. |
+| motifs (last 10) | moored raft, fraying filament, catwalk, series valves, ore body, subsea fiber, submerged sluice gate, bathymetric contours, capital-current streamlines, converging funnel, modular offer grid, transmission-tower glyph, cadastral plat, consent seal, exploded fuel stack, **gate iris**, surveillance cameras, ruled ordinance page, lit hub settlements, torn comment paper. |
 
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
+**Clearances claimed.** `mosaic_voronoi` has never been used. `violet` has never been used. `central_icon`
+last appeared 7 JUL (10 issues back). The **gate iris** motif from 7 JUL is forbidden, so this piece uses
+a *frontal elevation of crest gates*, not an iris or aperture device — no concentric or dilating forms
+anywhere in the composition.
 
-SEED = 724
+---
+
+## Step 2 — Concepts (three generated, one chosen)
+
+**A. The closing aperture.** A regulatory iris narrowing over the reservoir. **KILLED** — "gate iris" is a
+forbidden motif from 7 JUL, and an aperture is the lazy read of "chokepoint."
+
+**B. One line across a dark basin.** The reservoir as a vast voronoi field with a single hairline
+spillway crest and one lit passage. **KILLED as primary** — too close to 10 JUL's converging-funnel
+read, and it throws away the two best facts in the dossier (the 16-foot raise and the 0.3 MW).
+
+**C. The impoundment and the hinge. CHOSEN.** A monumental frontal elevation of the Bradley Lake
+spillway, holding back an enormous violet mass of water rendered cell by cell. Two horizontal pool
+lines with a `+16 FT` dimension between them. Seven crest gate bays across the structure, six dark,
+**one lit hot amber** with light falling through it. A near-invisible `0.3 MW` valve glyph low on the
+concrete face. The deadline sits as a tiny mono tick directly above the lit bay.
+
+**Why it's true.** Scale contrast plus synecdoche. The picture is literally the dossier's arithmetic:
+an immense volume of impounded water, a 16-foot raise, a 0.3 MW nameplate you have to hunt for, and
+one bay out of seven where the whole thing actually turns. Perfect bilateral order broken by a single
+lit element is the composition doing the argument's work — a routine, symmetrical administrative
+process with exactly one place where anything is decided.
+
+**Half-second read.** A huge held-back mass of water, and one small lit gate.
+
+---
+
+## Step 3 — Pre-production blueprint
+
+### 1. Concept statement
+A monumental elevation of a dam holding an immense cell-by-cell mass of water, with seven crest gate
+bays of which exactly one is lit. The reader sees enormous consequence resting on one small opening,
+which is the chokepoint argument stated as an image before a word is read.
+
+### 2. Register
+Taut and cold. Deep violet carries administrative chill and night-water mass; the concrete is a warm
+bone that reads as institutional and permanent; a single hot amber is the only warmth in the frame and
+it belongs entirely to the chokepoint. Forms are orthogonal and calm everywhere except the one lit bay
+and its falling light.
+
+### 3. Style family
+**`voronoi_impoundment`** — `mosaic_voronoi` (never used) hybridized toward a civil-engineering frontal
+elevation. Voronoi is the right grammar twice over: it renders deep water as structured mass rather
+than a flat fill, and its documented brief is many-parties stories, which is exactly what a docket with
+five purchaser utilities, resource agencies and everyone off the list is. Clears every cooldown.
+
+### 4. Palette (OKLCH, value spine first)
+
+| role | OKLCH | hex (approx) | job |
+|---|---|---|---|
+| `paper` | L 0.94 C 0.012 h 300 | `#f0ecf1` | sky band, headline ground |
+| `stone` | L 0.82 C 0.018 h 85 | `#d8d2c4` | concrete structure |
+| `field` | L 0.44 C 0.075 h 292 | `#5b4b7d` | mid water mass |
+| `shadow` | L 0.28 C 0.065 h 288 | `#382d55` | deep water, gate recesses |
+| `ink` | L 0.16 C 0.045 h 295 | `#1d1730` | darkest water, tailwater, type |
+| `accent` | L 0.79 C 0.155 h 75 | `#f0a23c` | the one lit bay, polaris, dimension ticks |
+
+**Value structure.** Lightest light is `paper` in the top band (L 0.94) where the headline lives.
+Darkest dark is `ink` in the tailwater and the deep pool (L 0.16). The focal wins the contrast war
+because `accent` at L 0.79 sits directly against `shadow`/`ink` at L 0.28/0.16 — a value gap of 0.5+
+and the highest chroma in the piece by a wide margin. The concrete at L 0.82 is bright but low-chroma
+and warm-neutral, so it reads as structure, not as focus. Grayscale check passes: in mono the only
+bright small object in the lower two thirds is the lit bay.
+
+### 5. Composition map — `central_icon`, symmetry broken by one element
+
+Eye path: **headline → lit bay → light shaft → +16 FT dimension → wordmark.**
+
+```
+y 0-300     SKY / QUIET ZONE (paper, texture only, no structure)
+            headline block    x [96, 984], first baseline y 132, 2 lines, leading 1.06
+            kicker line       x 96,  y 262   "THE STACK · REGULATORY · 14 AUG 2026"
+            polaris           (952, 96) r 13, accent core
+y 300-470   far ridge (Kenai wall) behind the impoundment, ridge_pts base y 452,
+            amp 46, lightened 0.42 toward paper for atmospheric depth
+y 470       NEW POOL LINE  — hard bright edge, full width, 3px, paper-tinted
+y 500       PRIOR POOL LINE — 1.5px ticked line, accent at 55% alpha
+            +16 FT dimension ticks and label at x 132, y 485 (mono 15px, accent)
+y 470-648   WATER MASS — voronoi cells, ~520 seeds, elongated 2.2:1 horizontally,
+            per-cell fill ramped field→shadow→ink by depth, seams darkened 0.12,
+            glint chips along the waterline
+y 648       CREST — top of structure, full-width stone band 14px
+y 648-760   SEVEN GATE BAYS, centers x = 210, 320, 430, 540, 650, 760, 870
+            bay width 92, height 104, gap 18
+            six bays: shadow fill, meso ribs (4 horizontal ribs each), trunnion dots
+            BAY 5 at x 650: accent-lit, glow r 150, light spilling to neighbours
+            deadline tick "28 AUG · 5 PM ET" centered (650, 626), mono 14px, accent
+y 760-944   SPILLWAY FACE — stone, 9 stepped courses, hatch pass at 52 degrees,
+            construction-joint hand_lines, crack micro-detail
+            LIGHT SHAFT from bay 5 down to y 944, width tapering 74→96, accent 30% alpha
+            0.3 MW valve glyph: small circle r 9 at (398, 872), stone outline, accent dot
+            label "0.3 MW" mono 13px at (398, 894) centered
+y 944-1080  TAILWATER — ink band, foam chips, stipple, darkest zone
+            wordmark  ALASKA.AI  Fraunces Black 34px at (96, 1002)
+            "P-8221-124" mono 14px right-anchored at (984, 1004)
+```
+
+Nothing important sits within 48px of any edge. The top band is the planned negative space and it is
+generous; the headline is not competing with a single structural element.
+
+### 6. Layer build order (back to front)
+1. paper base, `mottle` 0.045
+2. `gradient_v` sky, paper → faint violet tint down to the waterline
+3. far ridge `ridge_fill`, mixed 0.42 toward paper (atmosphere)
+4. water mass: `voronoi_polys` clipped to the pool rect, per-cell depth shading, dark seams
+5. waterline edge, prior-pool tick line, `+16 FT` dimension
+6. dam mass polygon in `stone`, stepped spillway courses
+7. `hatch` pass over the concrete at 52 degrees, low contrast
+8. six dark gate bays with ribs and trunnions
+9. lit bay 5, `glow`, spill onto neighbours and onto the water above
+10. light shaft down the spillway face
+11. micro pass: `chips` foam at the tailwater, `stipple` on concrete, cracks via `hand_line`, waterline glints
+12. `grain` 6 (the single texture identity)
+13. `vignette` 0.14
+14. type: headline, kicker, mono telemetry, wordmark, `polaris`
+
+### 7. Technique stack
+`gradient_v`, `ridge_pts` + `ridge_fill`, `voronoi_polys`, `poly`, `line`, `hand_line`, `wobble_pts`,
+`hatch`, `stipple`, `chips`, `glow`, `mottle`, `grain`, `vignette`, `fraunces`, `mono`, `polaris`.
+Ranges: voronoi 480-560 seeds with 1 relax pass; hatch spacing 11, width 1.3; grain 6; mottle 0.045;
+vignette 0.14; glow alpha 70 at r 150.
+
+### 8. Risk list
+1. **Mud in the midtones.** Violet water against violet structure would grey out. *Mitigation:* the
+   concrete is deliberately warm-neutral (h 85) at L 0.82 against water at L 0.44 and below — both a
+   hue break and a 0.38+ value gap. Squint test after every render.
+2. **Seven bays reading as a repetitive fence, killing the focal.** *Mitigation:* only one bay is lit,
+   its glow spills onto its two neighbours and up onto the water, and its light shaft is the only
+   vertical bright element anywhere in the lower half. Detail contrast is highest at bay 5 and calms
+   toward the frame edges.
+3. **Voronoi water reading as generic crazy-paving.** *Mitigation:* cells are elongated 2.2:1 on the
+   horizontal so they read as water rather than tile, they enlarge and darken with depth along a ramp,
+   and seams are darker than the cells, never lighter.
+4. **Telemetry labels tipping the piece from art into a flyer.** *Mitigation:* four micro labels only,
+   all 13-15px mono, all carrying facts verified in `stack_anatomy.json` (`+16 FT`, `28 AUG · 5 PM ET`,
+   `0.3 MW`, `P-8221-124`). No invented numbers, no decorative text.
+
+### 9. Headline
+**`38% MORE POWER.` / `UNCONTESTED.`**
+
+Tightened from the writer's "38 Percent More Power On A One Officer Track." Both facts are primary and
+verbatim-confirmed in the Federal Register notice and in 18 CFR 375.308(b). "Uncontested" is the
+load-bearing word of the whole mechanism, and standing alone under the number it asks the reader the
+post's own question. Fraunces Black, opsz 144, wght 900, two lines, leading 1.06, rag on meaning.
+
+### 10. Brand marks
+Kicker `THE STACK · REGULATORY · 14 AUG 2026`. Wordmark `ALASKA.AI` bottom-left. Polaris top-right in
+the sky band. Byline is empty for this column and is **not drawn**; recorded as `""` in the meta.

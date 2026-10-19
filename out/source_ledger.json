@@ -1,22 +1,62 @@
 {
+  "column": "The Stack",
+  "date": "2026-08-14",
+  "mechanism": "FERC non-capacity license amendment on the delegated-authority track, Bradley Lake Expansion / Dixon Diversion, Project No. P-8221-124",
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-08-03/html/2026-15691.htm",
+      "outlet": "Federal Register / FERC (FR Doc. 2026-15691)",
+      "pub_date": "2026-08-03",
+      "story_title": "NEWS TRIGGER + acceptance and standing layer. Notice of application for non-capacity amendment of license accepted for filing, Project No. P-8221-124. Carries the verbatim project description, the 38 percent generation figure, the 5:00 p.m. ET 28 August 2026 intervention deadline, and the standing rule."
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://www.law.cornell.edu/cfr/text/18/375.308",
+      "outlet": "Cornell Legal Information Institute (18 CFR 375.308)",
+      "pub_date": "standing regulation",
+      "story_title": "CHOKEPOINT layer. Delegations to the Director of the Office of Energy Projects. Paragraph (b) authorizes the Director or the Director's designee to take appropriate action on uncontested applications for amendments to Part I Federal Power Act licenses."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.akenergyauthority.org/BLEP",
+      "outlet": "Alaska Energy Authority",
+      "pub_date": "fetched 2026-08-14",
+      "story_title": "Licensee filing layer. Bradley Lake Expansion Project page. Final License Amendment Application filed with FERC 30 June 2026; construction cost approximately 400 million dollars; construction funding source yet to be determined; roughly three years of study and permitting followed by three years of construction."
+    },
+    {
+      "url": "https://www.akenergyauthority.org/What-We-Do/Railbelt-Energy/Bradley-Lake-Hydroelectric-Project/Bradley-Lake-Project-Management-Committee",
+      "outlet": "Alaska Energy Authority",
+      "pub_date": "fetched 2026-08-14",
+      "story_title": "Project governance layer. BPMC consists of AEA and the five purchaser utilities (Chugach, Golden Valley, Homer, Matanuska, Seward Electric) and is responsible for management, operation, maintenance and improvement of the project, subject to AEA's non-delegable duties."
+    },
+    {
+      "url": "https://www.akenergyauthority.org/Who-We-Are/Newsroom/Press-Releases",
+      "outlet": "Alaska Energy Authority Newsroom",
+      "pub_date": "2026-07-20 and 2026-07-23",
+      "story_title": "Financing framework layer. Release index confirms 'AEA Files Final Amendment Application for Bradley Lake Expansion Project' (20 July 2026) and 'AEA Board Advances Financing Framework for Bradley Lake Expansion Project' (23 July 2026)."
+    },
+    {
+      "url": "https://www.petroleumnews.com/story/2026/08/09/utilities/aea-oks-bradley-lake-expansion-financing/50302.html",
+      "outlet": "Petroleum News (secondary corroboration)",
+      "pub_date": "2026-08-09",
+      "story_title": "In-window trade coverage of the AEA board financing action. Source of the Clay Koplin board-chair attribution and of the 1.5 Bcf per year gas-displacement and 2031 in-service figures, all of which are SECONDARY and were not confirmed against a primary source."
     }
+  ],
+  "dropped_for_sourcing": [
+    {
+      "item": "Clean Water Act Section 401 state water-quality certification layer",
+      "reason": "ADEC as Alaska's Section 401 certifying authority for this project could not be confirmed from any fetchable primary source. dec.alaska.gov returns HTTP 403; EPA's CWA 401 page names no state agency; neither the Federal Register notice nor AEA's BLEP page mentions Section 401. Layer dropped rather than asserted."
+    },
+    {
+      "item": "'approximately 10 percent of the total annual power used by Railbelt utilities' and 'about 75 percent of Alaska's population'",
+      "reason": "Attributed by scouts to the AEA BPMC page, but not present on the page the mapper fetched. Struck from the dossier and barred from the post."
+    }
+  ],
+  "hosts_that_blocked_retrieval": [
+    "ferc.gov (HTTP 403)",
+    "ecfr.gov (302 to an anti-scraping wall)",
+    "dec.alaska.gov (HTTP 403)",
+    "rca.alaska.gov (HTTP 403)",
+    "federalregister.gov HTML (302; JSON API and full_text/text endpoints work)",
+    "gi.alaska.edu and watc.alaska.edu (HTTP 503)",
+    "poa.usace.army.mil (timeout)"
   ]
 }
