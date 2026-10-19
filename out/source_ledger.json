@@ -1,22 +1,40 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "outlet": "Alaska Public Media / Alaska Beacon",
+      "url": "https://alaskapublic.org/news/economy/energy/2026-08-31/regulatory-process-launched-for-30-more-years-of-trans-alaska-oil-pipeline-operations",
+      "pub_date": "2026-08-31",
+      "story_title": "News trigger — Regulatory process launched for 30 more years of Trans Alaska pipeline operations; BLM preparing an environmental assessment, a less-comprehensive review than an EIS, on a 15-day scoping window"
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "outlet": "Cornell Legal Information Institute (U.S. Code)",
+      "url": "https://www.law.cornell.edu/uscode/text/30/185",
+      "pub_date": "2026-09-04",
+      "story_title": "Layers 1-2 — 30 U.S.C. 185(n) caps the grant at thirty years and directs that the agency head shall renew so long as the project is in commercial operation; 185(f) vests open-ended power over extent, duration, survey, location, construction, operation, maintenance, use, and termination"
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "outlet": "U.S. Bureau of Land Management (press release)",
+      "url": "https://www.blm.gov/press-release/blm-prepares-permit-next-chapter-trans-alaska-pipeline-system-safeguarding-american",
+      "pub_date": "2026-08-26",
+      "story_title": "Layers 3-4 + CHOKEPOINT — NEPA Number DOI-BLM-AK-9410-2026-0009-EA; scoping Aug. 26 through Sept. 10, 2026; BLM Alaska State Director Kevin Pendergast; applicant Alyeska Pipeline Service Company on behalf of Harvest Alaska LLC, ConocoPhillips Transportation Alaska Inc. and ExxonMobil Pipeline Company LLC; over 19 billion barrels transported"
+    },
+    {
+      "outlet": "State of Alaska Online Public Notices (DNR, State Pipeline Coordinator's Section)",
+      "url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=224563",
+      "pub_date": "2026-08-21",
+      "story_title": "Layer 5 — TAPS Right-of-Way Lease Amendment ADL 63574 under AS 38.35.070 and AS 38.35.200; four riprap stockpile areas totaling approximately 26.1 acres at pipeline mileposts 77.5 through 82.4; deciding official Anthony Strupulis, P.E., State Pipeline Coordinator; written objections due September 21, 2026 at 5:00 p.m."
+    },
+    {
+      "outlet": "Anchorage Daily News (runner-up verification, not published)",
+      "url": "https://www.adn.com/business-economy/energy/2026/08/21/facing-natural-gas-crisis-alaska-threatens-cook-inlet-producer-with-loss-of-gas-field-for-not-meeting-timelines/",
+      "pub_date": "2026-08-21",
+      "story_title": "Runner-up gate check — Cosmopolitan Unit produces about 500 barrels of oil daily, which routes 11 AAC 83.374 to judicial rather than administrative termination and collapsed that candidate's chokepoint"
+    },
+    {
+      "outlet": "FCC Wireless Telecommunications Bureau (dropped candidate, verified for the record)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-922A1.txt",
+      "pub_date": "2026-08-28",
+      "story_title": "Dropped on adjacency, not accuracy — Alaska Connect Fund eligible-areas map correction DA 26-922 verified; contains no language extending the September 1, 2026 opt-in deadline. Banked for a later issue"
     }
   ]
 }

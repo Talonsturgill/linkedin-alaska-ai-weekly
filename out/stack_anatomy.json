@@ -1,85 +1,128 @@
 {
-  "as_of_date": "2026-07-24",
-  "news_trigger_window_days": 14,
+  "run_date": "2026-09-04",
+  "window_used": "14-day",
   "no_target_this_cycle": false,
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
+    "name": "Trans Alaska Pipeline System federal right-of-way renewal under 30 U.S.C. 185, the 185(n) mandatory-renewal floor against the 185(f) conditioning power, BLM NEPA Number DOI-BLM-AK-9410-2026-0009-EA",
+    "category": "facilities",
+    "category_label": "FACILITIES",
+    "one_line_definition": "Federal law says the government must renew the TAPS corridor grant so long as the pipeline keeps operating, which means the only thing actually being decided right now is the terms, and one BLM state office is setting those terms for the next thirty years on a fifteen-day comment window.",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "verbatim_quote": "The U.S. Bureau of Land Management has kicked off the process to renew the right-of-way agreement for the pipeline.",
+      "outlet": "Alaska Public Media (Alaska Beacon syndication)",
+      "url": "https://alaskapublic.org/news/economy/energy/2026-08-31/regulatory-process-launched-for-30-more-years-of-trans-alaska-oil-pipeline-operations",
+      "published": "2026-08-31",
+      "refetched_and_confirmed": true,
+      "why_underexplained": "Coverage led on review depth, a less-comprehensive review than an environmental impact statement on a 15-day comment period ending Sept. 10, and framed it as an environmental-shortcut story. What no outlet explained is why review depth is the entire fight. 30 U.S.C. 185(n) says the agency head shall renew the right-of-way so long as the project is in commercial operation, so BLM has almost no discretion over whether. All of the discretion sits in 185(f), which lets the agency head prescribe terms and conditions over extent, duration, survey, location, construction, operation, maintenance, use, and termination. The NEPA record is what the stipulations package gets built on. Nor did coverage note that a second, separate corridor authority, the State Pipeline Coordinator running lease ADL 63574 under AS 38.35, sits on a different clock, with a different officer, and a Sept. 21 objection deadline of its own."
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "The mandatory-renewal floor, 30 U.S.C. 185(n)",
+        "what_it_does": "Caps any Mineral Leasing Act right-of-way at thirty years, and then removes the agency's discretion to refuse renewal while the pipeline is still running. This is why will TAPS be renewed is not the live question.",
+        "controlling_actor": "Secretary of the Interior / agency head, as the renewal authority named in the statute",
+        "primary_source_url": "https://www.law.cornell.edu/uscode/text/30/185",
+        "primary_source_type": "statute",
+        "refetched_and_confirmed": true,
+        "key_fact_confirmed": "Verbatim: Each right-of-way or permit granted or renewed pursuant to this section shall be limited to a reasonable term in light of all circumstances concerning the project, but in no event more than thirty years. And: The Secretary or agency head shall renew any right-of-way, in accordance with the provisions of this section, so long as the project is in commercial operation and is operated and maintained in accordance with all of the provisions of this section."
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
-        "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "The conditioning power, 30 U.S.C. 185(f)",
+        "what_it_does": "Vests open-ended authority to attach terms and conditions to the grant. Because 185(n) forecloses refusal, 185(f) is where one hundred percent of the remaining leverage over the corridor lives, the statutory hook for every stipulation that will govern land use along the route for the next term.",
+        "controlling_actor": "Secretary of the Interior / agency head, exercised for TAPS through the BLM Alaska State Office",
+        "primary_source_url": "https://www.law.cornell.edu/uscode/text/30/185",
+        "primary_source_type": "statute",
+        "refetched_and_confirmed": true,
+        "key_fact_confirmed": "Verbatim: rights-of-way shall be subject to such terms and conditions as the Secretary or agency head may prescribe regarding extent, duration, survey, location, construction, operation, maintenance, use, and termination. The subsection contains no limiting standard and is not constrained by the mandatory-renewal language in 185(n)."
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "BLM Alaska renewal docket and the NEPA instrument, DOI-BLM-AK-9410-2026-0009-EA",
+        "what_it_does": "Runs the scoping, selects the depth of environmental review, and drafts the stipulations package that converts 185(f) authority into an actual thirty-year rulebook. The NEPA instrument chosen determines how thick that record, and therefore the stipulations and any later challenge to them, can be.",
+        "controlling_actor": "Kevin Pendergast, BLM Alaska State Director",
+        "primary_source_url": "https://www.blm.gov/press-release/blm-prepares-permit-next-chapter-trans-alaska-pipeline-system-safeguarding-american",
+        "primary_source_type": "agency page (BLM press release)",
+        "refetched_and_confirmed": true,
+        "key_fact_confirmed": "Verbatim: For more information on this project and how to comment, visit the BLM National NEPA Register (NEPA Number: DOI-BLM-AK-9410-2026-0009-EA). And: The scoping period starts Aug. 26, 2026, and extends through Sept. 10, 2026. The release names Kevin Pendergast as BLM Alaska State Director and quotes him: the Trans Alaska Pipeline is still an engineering marvel and only growing in its importance to Alaska's economy and global energy markets. The release also cites Executive Order 14153, Executive Order 14154 and Secretary's Order 3422 as the policy frame."
       },
       {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
+        "layer_name": "The grantee stack, who actually holds the corridor",
+        "what_it_does": "Identifies the operator that files the renewal application and the three owner companies whose asset the corridor is, the counterparty any third party seeking corridor access has to deal with once the stipulations are fixed.",
+        "controlling_actor": "Alyeska Pipeline Service Company as applicant and operator, on behalf of Harvest Alaska LLC, ConocoPhillips Transportation Alaska Inc., and ExxonMobil Pipeline Company LLC",
+        "primary_source_url": "https://www.blm.gov/press-release/blm-prepares-permit-next-chapter-trans-alaska-pipeline-system-safeguarding-american",
+        "primary_source_type": "agency page (BLM press release)",
+        "refetched_and_confirmed": true,
+        "key_fact_confirmed": "BLM identifies Alyeska Pipeline Service Company, which operates the pipeline on behalf of its three owner companies, and names them as Harvest Alaska LLC, ConocoPhillips Transportation Alaska Inc., and ExxonMobil Pipeline Company LLC. The release states the pipeline has transported over 19 billion barrels of oil from Alaska's North Slope to in-state refineries and the Valdez Marine Terminal."
+      },
+      {
+        "layer_name": "The parallel state corridor gate, AS 38.35.070 and ROW lease ADL 63574",
+        "what_it_does": "Runs a separate, continuous authorization docket over the state-land portion of the same corridor. Physical additions to the corridor footprint are approved here by a single state officer on a written-objection process, a live documented example of corridor terms being set outside the federal renewal entirely.",
+        "controlling_actor": "Anthony Strupulis, P.E., State Pipeline Coordinator, Alaska DNR Division of Oil and Gas",
+        "primary_source_url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=224563",
+        "primary_source_type": "state public notice (permit/lease amendment)",
+        "refetched_and_confirmed": true,
+        "key_fact_confirmed": "Notice of TAPS Right-of-Way Lease Amendment, ADL 63574, Stockpiles near East Bank of Sag River. DNR acts under AS 38.35.070 and AS 38.35.200; applicant is Alyeska Pipeline Service Company; the amendment adds state land to establish four riprap stockpile areas totaling approximately 26.1 acres along the east bank of the Sagavanirktok River near pipeline mileposts 77.5 through 82.4. Deciding official is Anthony Strupulis, P.E., State Pipeline Coordinator. Written objections are due September 21, 2026 at 5:00 p.m."
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer_name": "BLM Alaska renewal docket and the NEPA instrument, DOI-BLM-AK-9410-2026-0009-EA",
+      "actor": "Kevin Pendergast, BLM Alaska State Director",
+      "binary_decision": "Build the thirty-year renewal record on an environmental assessment closing scoping at fifteen days on Sept. 10, 2026, the posted path carried in the -EA designation of the official NEPA number, or elevate it to an environmental impact statement.",
+      "why_asymmetric": "185(n) takes the whether off the table and 185(f) puts the entire on-what-terms into one office, so the NEPA instrument is the whole decision. A thinner record supports a thinner stipulations package, and a thinner stipulations package is both easier to issue and harder for anyone to later contest or renegotiate, for thirty years, on the only continuous North Slope-to-tidewater industrial corridor in the state. This is one state director on a fifteen-day window: no committee vote, no rate case, no legislative concurrence, no comparable state forum. The parallel state gate at ADL 63574 has a different officer and a different deadline, so there is no single venue in which a party can raise both.",
+      "primary_source_url": "https://www.blm.gov/press-release/blm-prepares-permit-next-chapter-trans-alaska-pipeline-system-safeguarding-american"
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
-    "confidence": "high",
+    "structural_read": "This machinery produces a thirty-year land-use rulebook while looking like a routine permit renewal, and the statutory design is what makes that possible. Congress guaranteed the renewal in 185(n) and left every term unguarded in 185(f). The practical effect is that the loudest question, should TAPS be renewed, is already answered and generates all the public attention, while the question that actually allocates value for a generation, what conditions attach to corridor use, is being settled on a fifteen-day scoping window by one state office. Alaska's only continuous North Slope-to-tidewater corridor is also its default route for anything else that needs to move between the Slope and tidewater, and the terms governing access to it are being written now with almost nobody at the table. The state's own gate is proof the corridor is live and mutable, 26.1 acres of new stockpile ground is being added at ADL 63574 this month, but it is a second door with a second officer and a second clock.",
+    "ak_consequence": "Energy and infrastructure. Any party with a land-use interest in the TAPS corridor, Alyeska Pipeline Service Company and its three owner companies, plus Dalton Highway-corridor and North Slope developers needing access roads, gravel, water, workspace or crossings, has until Sept. 10, 2026 to put that interest on BLM Alaska State Director Kevin Pendergast's federal scoping record before the thirty-year stipulations package is drafted, and until 5:00 p.m. Sept. 21, 2026 to object to State Pipeline Coordinator Anthony Strupulis on the parallel state lease amendment at ADL 63574.",
+    "forward_implication": "Two dates, six and seventeen days out. File a federal scoping comment on DOI-BLM-AK-9410-2026-0009-EA by Sept. 10, 2026, the single cheapest action available, because it is the only step that builds a record before the stipulations exist. After Sept. 10 you are arguing against a draft rather than shaping one. Then decide by Sept. 21, 2026 at 5:00 p.m. whether to object at ADL 63574 with the State Pipeline Coordinator. Alyeska and the three owner companies are positioned in both forums as the applicant. Everyone else, Interior developers, Slope service firms, anyone modeling future corridor-dependent infrastructure, is positioned in neither unless they file this week.",
+    "recurrence_note": "Once-a-generation on the federal side; the previous renewal was completed on an environmental impact statement, which is what makes the instrument choice here the story. The state side recurs continuously: ADL 63574 generates a standing stream of lease-amendment notices, each with its own objection window and the same deciding officer. Next federal firing point is the Sept. 10, 2026 scoping close, then the EA and decision record; next state firing point is the Sept. 21, 2026 objection deadline.",
     "gate_results": {
-      "news_tie_pass": true,
-      "anatomizable_pass": true,
-      "per_layer_primary_source_pass": true,
-      "ak_consequence_pass": true,
-      "chokepoint_asymmetry_pass": true,
-      "mechanism_not_actor_pass": true,
-      "not_recent_repeat_pass": true
+      "news_tie": true,
+      "anatomizable_depth": true,
+      "per_layer_primary_source": true,
+      "ak_consequence": true,
+      "chokepoint_asymmetry": true,
+      "mechanism_not_actor": true,
+      "not_a_recent_repeat": true
     }
   },
+  "runner_up": {
+    "name": "Alaska oil-and-gas unit contraction machinery, 11 AAC 83.356(b)/(e) and 11 AAC 83.374, Cosmopolitan Unit, DNR Notice of Required Immediate Action dated 08/14/2026",
+    "why_not_selected": "Passes all seven gates and has the more visceral Alaska consequence (Enstar is short of 18 days of supply of natural gas for the coming winter), but loses on two counts. First, the live-instrument layer is verifiable only as an index entry: dog.dnr.alaska.gov confirms Cosmopolitan Unit - Notice of Required Immediate Action, dated 08/14/2026, signed by Commissioner Crowther, but the PDF itself would not render, so nothing inside the notice can be quoted and the scout's 30 days / ~Sept. 13 cure deadline could not be confirmed by any fetched source. Second, the producing-well question resolved against the scout's framing: ADN confirms the unit produces about 500 barrels of oil daily, which puts it in the 11 AAC 83.374 branch routing DNR to judicial termination, not fast administrative termination. The honest chokepoint collapses back to discretionary contraction under 11 AAC 83.356, but contraction re-tenders acreage over years, not weeks, so the mechanism does not bear on the winter gap the consequence paragraph leans on."
+  },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {
+      "name": "BEAD program-savings redeployment / location true-up round under 47 U.S.C. 1702 (merged: vehicles + facilities, same NTIA trigger)",
+      "gate_failed": "per_layer_primary_source",
+      "reason": "Overlap rule applied and both scouts' framings put the chokepoint on the same layer, NTIA's savings-redeployment policy gate. That layer has no fetchable primary source. Attempted ntia.gov/press-releases (503), broadbandusa.ntia.gov BEAD page (503), commerce.gov press releases (403) and a govinfo search (no documents). The gate rests entirely on trade press paraphrase of an announcement no one has produced. Because the unfetchable layer IS the chokepoint, removing it breaks the chain. Compounding: the two scouts disagree on the trigger's publication date (2026-09-03 vs 2026-09-04) and quoted different spans from the same article, and no published deadline, application form or approval standard for the round exists in anything fetched. Highest confabulation risk of the cycle, dropped rather than shipped thin."
+    },
+    {
+      "name": "AbilityOne Procurement List addition, JBER Base Operations Maintenance Services, 41 U.S.C. 8503-8504 (contract FA5000-26-C-0008)",
+      "gate_failed": "news_tie",
+      "reason": "The Federal Register final addition is dated 2026-07-30, twenty-two days outside the 14-day window. Its only in-window hook is the Sept. 1, 2026 Department of War contract announcement, unfetchable from war.gov, globalsecurity.org, hstoday.us, aerotechnews.com, sam.gov, govtribe or highergov. With no openable award record there is no in-window trigger. The $70,006,743 figure is unverified and must not be published."
+    },
+    {
+      "name": "RCA advance determination of decisional prudence, Docket U-26-003 (ENSTAR / Kenai Loop gas storage)",
+      "gate_failed": "per_layer_primary_source",
+      "reason": "Honoring the regulatory scout's own instruction to kill rather than ship thin. The RCA docket portal returned 403. Order U-26-003 and the 21 AUG reconsideration denial exist in the record only as quoted spans inside a subscription-truncated Petroleum News page, and Kenai Ordinance 3517-2026 is an unparseable scan. Two of five layers, including the docket layer the chokepoint sits on, cannot be re-verified. The Commission has also not yet issued its reasoned order."
+    },
+    {
+      "name": "Alaska Connect Fund hex-9 eligible-areas map, 47 CFR 54.318, WC Docket 23-328, WTB Public Notice DA 26-922",
+      "gate_failed": "not_a_recent_repeat",
+      "reason": "Passes on the merits, recorded for the record: DA-26-922A1.txt verified, 28 AUG 2026 release date and all three corrections confirmed, and the critical open question resolved, the notice contains NO language extending or changing the September 1, 2026 deadline, so the four-days-before-an-irrevocable-deadline framing holds. Dropped on adjacency and timing, not accuracy. It would be the third FCC chain in eight issues, regulatory has taken four of the last eight slots, and the Sept. 1 deadline has already passed, leaving only the 1 OCT RCA certification as a forward hook. Banked for a later week."
+    },
+    {
+      "name": "Permanent Fund inflation-proofing transfer, AS 37.13.145(c) ERA-to-Principal appropriation gate",
+      "gate_failed": "chokepoint_asymmetry",
+      "reason": "Cleanest trigger of the cycle and genuinely well sourced, but the chokepoint is a legislature. The scout names the House Finance and Senate Finance co-chairs, a diffuse multi-actor body rather than one desk owning one binary, and concedes the specific co-chairs were never verified. Compounding: the mechanism's defining feature is inaction, no vote was taken, so there is no identifiable actor who owned a yes/no. Secondary failure on AK consequence, the AI link runs through general state fiscal capacity rather than any named actor, project or decision."
+    },
+    {
+      "name": "ANCSA sec. 7(i)/7(j) revenue-sharing perimeter, 43 U.S.C. 1606(i)-(j) and the 1982 Settlement Agreement",
+      "gate_failed": "news_tie",
+      "reason": "The trigger is a DCSA contract-award story that never mentions 7(i), 7(j), revenue sharing, or the settlement agreement. The mechanism is inferred from the awardee's corporate structure, exactly the paraphrase-drift failure mode the gate exists to catch. Secondary failure on chokepoint asymmetry: leverage is located in twelve regional corporations acting through a private arbitration forum, the definition of a committee. The Alaska Supreme Court carbon-credit appeal has no located opinion and no outcome may be asserted."
+    },
+    {
+      "name": "8(a) entity-owned carve-out for ANCs, 13 C.F.R. 124.506(b) and FAR 19.808-1",
+      "gate_failed": "news_tie",
+      "reason": "Trigger published 2026-08-17, four days outside the window, and it is a law-firm client alert rather than a news outlet or the rule itself. The Federal Register text of the final rule could not be fetched (403), so the citation is unpinned. The Sept. 10, 2026 effective date is a forward hook, not a news tie. Circulating figures (ANC obligations down ~46%, 8(a) sole-source volume down ~50%) are unsourced and must not be published."
+    }
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "_validation_note": "SCOUT ERROR CORRECTED. The facilities scout described ADL 63574 as a parallel state ROW lease renewal covering 344 miles of state land on its own clock. That is wrong. The fetched notice is a lease AMENDMENT titled Stockpiles near East Bank of Sag River, adding approximately 26.1 acres for four riprap stockpile areas at pipeline mileposts 77.5-82.4. The writer must NOT describe it as a second 30-year renewal. Layer 5 is re-framed honestly as a separate, continuous state authorization docket with its own officer and objection window.\n\nHEDGE THE WRITER MUST CARRY. BLM's press release never uses the words environmental assessment in prose. The EA designation is carried by the -EA suffix in the official NEPA number BLM published (DOI-BLM-AK-9410-2026-0009-EA) and is independently reported by Alaska Public Media as a less-comprehensive review than an environmental impact statement. Two independent confirmations, but write it as the posted path is an EA rather than BLM announced an EA.\n\nAI-BRIDGE DISCIPLINE. No fetched document ties TAPS corridor stipulations to any compute, data-center or fiber project. Do NOT assert one. The consequence is written honestly as corridor access terms for future infrastructure generally. Do not name the STAK Energy Campus or any data-center project in connection with this mechanism.\n\nFIGURES THAT MUST NOT BE PUBLISHED: (1) 2034 as the current TAPS grant expiration, not confirmed. (2) 344 miles of state land in the corridor, unverified. (3) 800-mile pipeline, not in any fetched source. (4) The prior renewal being completed in 2003/2004; the EIS fact is confirmed but not the year, say the previous renewal or the early 2000s. (5) Cosmopolitan's 30-day / ~Sept. 13, 2026 cure deadline, not in any fetched source. (6) Skookum/Tessera $70,006,743, unverified. (7) BEAD Alaska ~$390M implied balance, arithmetic not sourced. (8) ANC obligations down ~46% and 8(a) sole-source volume down ~50%, unsourced.\n\nFIGURES CONFIRMED AND SAFE TO USE: 30-year statutory cap and shall renew language (30 U.S.C. 185(n)); the 185(f) terms list verbatim; NEPA Number DOI-BLM-AK-9410-2026-0009-EA; scoping Aug. 26 to Sept. 10, 2026; over 19 billion barrels transported; the three owner companies as named; ADL 63574, 26.1 acres, four stockpile areas, mileposts 77.5-82.4, objections due Sept. 21, 2026 at 5:00 p.m.; Anthony Strupulis, P.E., State Pipeline Coordinator; Kevin Pendergast, BLM Alaska State Director.\n\nTIMING RISK: federal scoping closes Sept. 10, 2026, six days out. If the post ships after Sept. 10 the comment-now framing is dead and only the Sept. 21 ADL 63574 state objection window remains live. Ship-by date for the editor.\n\nWindow was NOT broadened; a 14-day target was found."
 }
