@@ -1,21 +1,67 @@
-# The Stack — Selection — 2026-07-24
+# The Stack — Selection, 7 AUG 2026
 
-**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
+**CATEGORY: SOVEREIGNTY**  (kicker line renders `THE STACK · SOVEREIGNTY · 7 AUG 2026`)
 
-**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
+## Mechanism
+AS 38.05.810 "public and charitable use" noncompetitive conveyance of approximately
+19,950 acres of state land to AIDEA — ADL 234762, the Houston Industrial Park file.
 
-**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
+A DNR commissioner's discretionary written finding converts sovereign state land into a
+noncompetitive fee conveyance to a state development authority, under a statute whose
+eligible use is expressly "not commercial development," with the reversionary interest
+that normally polices that restriction waivable by the same officer.
 
-**Layer count.** 4 layers, each primary-sourced.
-1. NSF award authority / source-selection — NSF TIP Directorate.
-2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
-3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
-4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
+## News trigger
+ADN opinion, 2026-08-04, by Brandon Brefczynski, Deputy Director of AIDEA:
+> "There is no committed data center tenant, industrial developer, site plan, power
+> source, cooling system, water supply plan or construction schedule."
 
-**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
+## Layer count: 3 (verified; reduced from 5 proposed)
+- **L1** Statutory disposal authority + reversionary-interest waiver — DNR Commissioner
+- **L2** DMLW preliminary decision, comment window, appeal-standing filter — DNR Division
+  of Mining, Land and Water, Land Sales & Contracts (contact Daniel Jenkins)
+- **L3** Grantee as master developer, lessor and bond issuer — AIDEA under AS 44.88.080
+  (Exec Dir Randy Ruaro; Deputy Dir Brandon Brefczynski)
 
-**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
+Two proposed layers were DROPPED under verification and may not appear in the post:
+the AIDEA "Alaska Data Corporation LLC / $20M" subsidiary, and the City of Houston
+data-center ban ordinance.
 
-**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
+## Chokepoint
+**L1 — the AS 38.05.810 written determination. Actor: the DNR Commissioner.**
+Two binaries owned by one officer. (1) Sign or refuse to sign a finding that conveying
+~19,950 acres to a bonding development authority for an industrial park is a "public and
+charitable use" under a statute whose eligible-use clause reads "not commercial
+development." (2) Retain or waive the reversionary interest on a written determination
+that waiver "is in the public interest."
 
-**CATEGORY (Phase 8 middle slot).** VEHICLES
+Asymmetric because the statute assigns both decisions to "the commissioner" singular —
+no board, no vote, no scored evaluation, no competitive process, no standard beyond the
+commissioner's own public-interest determination. The reversionary interest is the only
+structural device tying the land to the restricted use, and the same officer who applies
+the restriction can delete the enforcement mechanism.
+
+The 2026-08-19 appeal-standing filter at L2 is the **actionable deadline**, not the
+chokepoint — no single actor owns a binary there.
+
+## Structural read
+A land-assembly mechanism wearing a charitable-use statute. AIDEA's own Deputy Director
+published, in the window, that there is no tenant, no power source, no cooling system, no
+water plan and no schedule — an argument for conveying land early, and simultaneously an
+admission that the "public and charitable use" finding cannot rest on any specific
+project. The AI story here is not a data center. It is the pre-positioning of sovereign
+land into a financing vehicle ahead of demand, on a discretion with no competitive test.
+
+## Forward implication
+Any utility, borough, tribe, landowner, competing developer or capital allocator with an
+interest in Mat-Su industrial siting or Railbelt load should file written comment with
+DNR DMLW LCS before 5:00 PM Wednesday 2026-08-19. That filing is the entire cost of
+preserving appeal rights. After that date the Final Finding and Decision can issue on the
+preliminary terms without further process. Ask whether the reversionary interest is retained.
+
+## Confidence: MEDIUM
+Gate-7 adjacency to issue #6 (ADNR / Stak Energy, 2026-07-07-02) adjudicated deliberately
+and passed on four grounds: different instrument (fee conveyance vs lease), different
+statute, different recipient class (state public corporation vs private developer),
+different chokepoint. Category moved FACILITIES to SOVEREIGNTY to follow the leverage.
+Flagged: a third DNR land mechanism this quarter would be drift regardless of statute.

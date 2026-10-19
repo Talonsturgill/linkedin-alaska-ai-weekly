@@ -1,22 +1,28 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "outlet": "Anchorage Daily News (opinion, Brandon Brefczynski, Deputy Director, AIDEA)",
+      "url": "https://www.adn.com/opinions/2026/08/04/opinion-the-best-time-to-shape-mat-su-development-is-before-it-begins/",
+      "pub_date": "2026-08-04",
+      "story_title": "News trigger — \"There is no committed data center tenant, industrial developer, site plan, power source, cooling system, water supply plan or construction schedule.\" Also confirms DNR is considering whether to convey the land to AIDEA, not whether to approve a finished industrial park; ~19,950 acres north of Houston."
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "outlet": "Alaska Online Public Notices (DNR Division of Mining, Land and Water)",
+      "url": "https://aws.state.ak.us/OnlinePublicNotices/Notices/View.aspx?id=224431",
+      "pub_date": "2026-07-10",
+      "story_title": "Layer 2 — ADL 234762, ~19,950 acres, noncompetitive public and charitable use conveyance to AIDEA. Comment deadline 5:00 PM Wednesday 19 August 2026. \"Only persons from whom DNR DMLW LCS receives timely, written comment during the identified comment period will be eligible to file an appeal.\" Adjudication contact Daniel Jenkins, 907-269-8609."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "outlet": "Alaska Statutes — AS 38.05.810 (via FindLaw)",
+      "url": "https://codes.findlaw.com/ak/title-38-public-land/ak-st-sect-38-05-810/",
+      "pub_date": "2026-08-07",
+      "story_title": "Layer 1 + chokepoint — \"Public and charitable use.\" Subsection (c) eligible use is \"not commercial development\"; subsection (g) \"The commissioner shall retain a reversionary interest ... The commissioner may waive the reversionary interest on a written determination that the waiver is in the public interest.\""
+    },
+    {
+      "outlet": "Alaska Statutes — AS 44.88.080 (via FindLaw)",
+      "url": "https://codes.findlaw.com/ak/title-44-state-government/ak-st-sect-44-88-080/",
+      "pub_date": "2026-08-07",
+      "story_title": "Layer 3 — \"Powers of the authority.\" AIDEA may \"lease to others a project acquired by it for the rentals and upon the terms and conditions the authority may consider advisable\" and \"issue bonds and otherwise ... incur indebtedness.\" The 32 enumerated powers do not include subsidiary creation."
     }
   ]
 }
