@@ -1,69 +1,162 @@
-# The Stack — Art Plan — 2026-07-24
+# Anchorage Desk — Art Plan — 2026-07-31
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+## Step 0 — Absorb the story
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+- **What happened.** On 11 June 2026 Billy Wailand committed GCI to Starlink bonded
+  gateways as the outage backup for the fiber and microwave serving Bethel, Sitka,
+  Kotzebue and Dillingham, choosing to buy orbital redundancy rather than build more
+  GCI-owned iron.
+- **Why it matters to Alaska.** Four hub communities now route their outage recovery,
+  and the health, education and public-safety traffic riding it, through one external
+  vendor on commercial terms nobody outside the two companies can see.
+- **Register.** Measured and quietly precarious. Not alarmed, not triumphant. The call
+  is defensible; the picture should carry the dependency without shouting about it.
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+## Step 1 — Dedup scan (performed, see scratch/art_dedup.md)
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+Scanned 20 prior `claude/linkedin-*` branches with meta ledgers.
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
+- **Forbidden style_family (last 8):** ukiyo_bokashi, geologic_engraving,
+  bathymetric_blueprint, flow_field, swiss_grid, cadastral_ledger, iso_cutaway.
+  Plus aurora_field permanently.
+- **Forbidden hue_family (last 4):** magenta, green, indigo, gold.
+- **Forbidden composition (last 2):** diagonal_thrust, bilateral_gate.
+- **Forbidden motifs (last 10):** converging funnel throat, capital current, single desk
+  gate, gate iris, exploded fuel stack, subsea fiber section, submerged sluice gate,
+  bathymetric contours, cadastral plat, consent seal, modular offer grid,
+  transmission-tower glyph, geologic strata, ore body, series valves, and the rest of
+  the ledger list.
 
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
+This piece clears all four cooldowns. Style is a **wpa_layered / minimal_line hybrid**
+(neither used recently), hue family is **orange** (not in the last four), composition is
+**horizon_band** (not in the last two), and the primary motif, a fan of taut threads from
+four settlements to one satellite, appears nowhere in the ledger. The nearest ledger
+neighbour is "converging funnel throat" (10 Jul); this is deliberately NOT a funnel. There
+is no throat, no narrowing channel, no fan of losers. Four equal peers each hold one line
+to one node, which is a different geometry and a different argument.
 
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
+## Step 2 — Concept (three generated, one chosen)
 
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
+**A. Two lifelines to a hub.** One village, a heavy ground line running off-frame and a
+thin line rising to a point of light. Reads the build-or-buy binary cleanly but only
+carries one community, so it loses the concentration argument entirely. Rejected.
 
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
+**B. Four fires, one sky-anchor. CHOSEN.** Four small lit settlements spaced along a low
+winter horizon. From each, a single fine taut thread rises into the sky, and all four
+threads terminate on ONE satellite node in the upper right. Along the ground between
+them runs the terrestrial path, drawn as a heavier stitched line that is visibly BROKEN
+in three places. The reader gets it in half a second. The ground is cut; everything now
+hangs from one point. It is the post's actual thesis rendered as geometry rather than
+illustrated as a scene.
 
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
+**C. The unbuilt tower.** A half-built relay tower in blueprint ghost beside a solid
+orbital node, the iron not built against the orbit bought. True to the binary but static,
+and it argues about GCI's capex rather than about the four communities. Rejected.
 
-SEED = 724
+**Chosen: B.** Metaphor is scale contrast plus synecdoche. Four tiny lit places against a
+vast cold sky, and the one small object everything depends on.
+
+## Step 3 — Blueprint
+
+### 1. Concept statement
+Four hub communities each hold a single thread to one satellite while the ground link
+between them lies broken. The picture argues that redundancy bought from one vendor is
+still a single point.
+
+### 2. Register
+Measured, cold, quietly precarious. Deep blue-black land and upper sky carry the weight;
+a narrow band of low-angle orange winter light at the horizon keeps it Alaskan and warm
+enough to avoid reading as doom. The satellite is the brightest thing in the frame,
+which is exactly the uncomfortable point.
+
+### 3. Style family
+**wpa_layered** base (flat stacked landscape bands, big type, restrained ink count)
+hybridised with **minimal_line** thread work (fine hand-drawn lines, generous negative
+sky). Fits because the story is a landscape-scale infrastructure decision, and the
+layered-band grammar gives a value spine that reads at thumbnail. Clears all dedup
+cooldowns as noted above.
+
+### 4. Palette (OKLCH-built, 5 inks + paper)
+
+| hex | role | approx L |
+|---|---|---|
+| `#f6e6d2` | paper / type light, horizon high-light | 0.93 |
+| `#e07a3c` | horizon glow, dominant hue (orange) | 0.68 |
+| `#a8492c` | mid sky warm shadow, thread ink | 0.48 |
+| `#3a2c3a` | far land band, upper sky mid | 0.30 |
+| `#171320` | near land, ink, silhouettes | 0.16 |
+| `#ffeede` | focal accent, satellite body + settlement lights | 0.96 |
+
+**Value spine.** Darkest dark is the near land at L 0.16, occupying the bottom third.
+Lightest light is the satellite accent at L 0.96, a small object in the upper right. The
+horizon band at L 0.68-0.93 is a thin bright seam, so the focal still wins because it
+sits against the DARKEST part of the sky (L 0.30 at that altitude) rather than against
+the bright seam. Value gap at the focal is roughly 0.66, the largest in the piece.
+Grayscale check: four bright pinpricks on a dark ridge, one bright node above, one bright
+seam across the middle. Still reads.
+
+### 5. Composition map — `horizon_band`
+
+- Canvas 1080x1080. Horizon seam at **y = 726**.
+- Upper sky gradient box `(0, 0, 1080, 726)`, `#241d2c` at top to `#e07a3c` at horizon,
+  ease 1.7 so the warm seam stays narrow.
+- Far land band: `ridge_fill` y_base **714**, amp 26, fill `#3a2c3a`.
+- Mid land band: `ridge_fill` y_base **762**, amp 34, fill `#241d28`.
+- Near land band: `ridge_fill` y_base **846**, amp 44, fill `#171320`, down to 1080.
+- **Four settlements** on the far ridge at x = **150, 372, 606, 918**, y ≈ **706**.
+  Each is a cluster of 5-9 lit windows, 3-7px, plus a `glow` r 34 at alpha 52.
+  Spacing is deliberately uneven so it reads as geography, not as a chart.
+- **Satellite node** centre **(806, 322)**. Body 46x28 rounded, two wings 48x13 either
+  side, total span ~152px. `glow` r 96 alpha 66 behind it. Highest contrast in frame.
+- **Four threads**: `hand_line` from each settlement top to the node, width 2.0,
+  amp 1.1, colour `#a8492c` lifting to `#e07a3c` near the node.
+- **Broken ground stitch** along y ≈ 742 through all four settlements in `#4a3a44`,
+  drawn as dashes with three deliberate GAPS at x∈[248,318], x∈[470,540], x∈[712,782].
+  Three tiny relay towers at x = 262, 508, 760 sitting just above it.
+- **Headline block** x∈[96, 660], line 1 baseline top **y = 118**, line 2 top **y = 200**.
+  Fraunces 900, opsz 144, size fitted to 564px max width, leading ~1.06.
+- **Kicker** mono, x = 96, y = 300, tracked 0.22em, colour `#e0b9a0`.
+- **Wordmark** ALASKA.AI, Fraunces 900, size 30, bottom-left **(96, 986)**.
+- **Polaris** small r 11 at **(984, 988)**, bottom-right, far from the satellite so the
+  colophon never competes with the focal.
+
+**Eye path.** Headline (top left) → satellite node (upper right, brightest) → down the
+thread fan → four settlement lights along the horizon → broken ground stitch → wordmark.
+
+**Negative space.** The sky between the headline block and the node, roughly
+x∈[660,1080] y∈[0,240] and x∈[96,660] y∈[330,600], stays open. Threads cross it thinly.
+
+### 6. Layer build order
+paper → sky gradient → sky field banding (subtle cloud strata) → sparse star stipple →
+satellite glow → far land band → mid land band → near land band → land hatch + chips
+texture → broken ground stitch + relay towers → settlement glows → settlement windows →
+thread fan → satellite body and wings → headline type → kicker → wordmark → polaris →
+mottle → grain → vignette.
+
+### 7. Technique stack
+`gradient_v` (sky, ease 1.7), `field` + `field_mask` (cloud strata bands in the mid sky),
+`stipple` (sparse stars, upper sky only, density 0.05), `ridge_pts`/`ridge_fill` (three
+land bands), `hatch` (near-land texture, spacing 14, angle 62, very low contrast),
+`chips` (snow/scree micro on the near band, n 260, size 2-6), `hand_line` (thread fan,
+amp 1.1), `glow` (satellite halo, settlement lamps), `circle`/`poly` (satellite body,
+wings, windows, towers), `polaris`, `mottle` (0.05), `grain` (6.0), `vignette` (0.16).
+ONE texture identity: mottle + grain. No halftone, no riso.
+
+### 8. Risk list
+
+1. **The satellite reads as a generic star or a UFO blob.** Mitigation: give it a
+   rectangular body with two flat wings and a visible stand-off gap, so the silhouette is
+   unmistakably built hardware, not celestial. Fill-black test the silhouette. Keep
+   Polaris tiny and far away in the opposite corner.
+2. **The thread fan reads as a converging funnel and collides with the 10 Jul ledger
+   entry.** Mitigation: four discrete lines with visible air between them, no envelope,
+   no narrowing channel walls, no mass of losers. The lines arrive at the node from four
+   clearly different angles including one from the right, which a funnel never does.
+3. **Mud in the mid-sky.** The orange seam meeting the violet-dark upper sky can turn
+   muddy brown across the middle third. Mitigation: ease 1.7 on the gradient keeps the
+   transition compressed near the horizon, and the cloud strata are drawn in a slightly
+   desaturated version of the sky colour rather than a third hue.
+4. **Headline collides with a thread.** The thread from the leftmost settlement (x 150)
+   rises steeply right toward (806, 322) and could cut the headline block. Mitigation:
+   headline bottom is y 268, and that thread passes below y 500 until x > 400. Verified in
+   the coordinate plan; re-check on render.

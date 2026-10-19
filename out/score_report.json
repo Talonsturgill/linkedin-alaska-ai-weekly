@@ -1,22 +1,37 @@
 {
-  "column": "The Stack",
-  "date": "2026-07-24",
-  "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+  "column": "Anchorage Desk",
+  "date": "2026-07-31",
+  "rubric": "config/desk_rubric.yaml",
+  "hard_fail_checks": [
+    {"name": "hashtag_count_in_range", "result": "pass", "notes": "4 hashtags on a single final line, all four on brand.yaml whitelist, none inline."},
+    {"name": "punctuation_bans_held", "result": "pass", "notes": "Zero em-dashes, en-dashes, double-hyphens, colons, semicolons in body."},
+    {"name": "total_char_count_under_linkedin_cap", "result": "pass", "notes": "2962 chars total after the readability paragraph split, under the 3000 cap."},
+    {"name": "word_count_in_range", "result": "pass", "notes": "444 body words, within 350 to 475."},
+    {"name": "subject_named_and_anchorage_tied", "result": "pass", "notes": "Names Billy Wailand, SVP of corporate development at GCI, Alaska's largest telecom/data-transport operator, headquartered in Anchorage; bowl tie via HQ ownership and hub-serving decision."},
+    {"name": "recent_decision_named_with_primary_source", "result": "pass", "notes": "Specific commit-to-Starlink-bonded-gateways decision dated 11 June 2026 (in the 60-day override window, 50 days out), attributed to GCI's newsroom (the dossier primary source)."},
+    {"name": "multi_source_corroboration", "result": "pass", "notes": "GCI primary plus Telecompetitor/Ian Doescher, explicitly attributed as independent same-day reporting; 2 sources, one independent of subject's org. Meets the rule."},
+    {"name": "grounded_not_press_release", "result": "pass", "notes": "Real analytical work: names the binary, calls the call defensible on the merits, then surfaces dependency-concentration, data-sovereignty, and FCC-benchmark risks. No hagiographic verbs. Explicitly labels the org source's resiliency framing a claim, not a finding."},
+    {"name": "no_invented_quotes", "result": "pass", "notes": "Single quote is verbatim dossier quote #2; period moved inside the curly quote for American style, words unaltered."}
   ],
-  "weighted_total": 8.93,
+  "criteria": [
+    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First line is a concrete, dated decision-as-hook naming subject and the four affected hubs, and line 2 states the binary he owned. Falls just short of 10 because role (SVP) does not land until line 3, outside the first two lines."},
+    {"name": "Subject + decision load-bearing for AK", "score": 8, "weight": 0.16, "notes": "Real decision-owner at Alaska's largest carrier; concrete consequence with named hubs, health/education/public-safety traffic, and 2026 timeframe. Held off 10 because the AI stake is genuinely peripheral (middle-mile transport, not AI capital/compute/power), so the AI-specific load is thinner than the data-infrastructure load."},
+    {"name": "Subject identification fidelity", "score": 9, "weight": 0.10, "notes": "Full name, role, org, and Anchorage HQ tie all match the dossier exactly; every subject fact traceable. Anchorage tie is established via HQ and bowl-affecting decision rather than an explicit Wailand-resides-in-Anchorage line."},
+    {"name": "Decision specificity + primary-source", "score": 9, "weight": 0.14, "notes": "What, when, and binary all named (buy Starlink LEO outage recovery vs build GCI-owned terrestrial/GEO redundancy), traces to GCI primary plus independent Telecompetitor, date in window. Short of 10 only because attribution is by outlet name rather than an embedded primary-source URL."},
+    {"name": "Structural read", "score": 8, "weight": 0.13, "notes": "Clear, non-mushy position: low-regret on the merits, with the honest tension being single-vendor dependency concentration. Grounded and proportionate, but the pro/con framing is a touch less inventive than post_001's sharper structural reframe."},
+    {"name": "Forward implication", "score": 8, "weight": 0.08, "notes": "Names the next decision Wailand/GCI own (extension beyond four hubs and on what SpaceX terms) and concrete triggers to watch (disclosed dollar figure, duration, middle-mile tariff or RDOF/BEAD filing). Held off 10 because no specific date or window is given."},
+    {"name": "Voice match", "score": 9, "weight": 0.10, "notes": "Analytical, structural, Alaska-first, plainspoken, business-literate; no press-release cadence, no hagiography, no influencer tics. Matches the post_001 register closely."},
+    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.05, "notes": "SCORED BEFORE FIX. Two paragraphs ran 6 to 7 sentences and read as walls of text on mobile. The scorer's one-sentence fix was applied post-scoring: both blocks were split into 2-to-3-sentence paragraphs (body now 11 paragraphs plus the hashtag line, 2962 chars). Effective post-fix score is higher; the 8.53 weighted total below is the conservative pre-fix figure."},
+    {"name": "Engagement question", "score": 9, "weight": 0.04, "notes": "Closes with a real, debatable question tied to the specific decision (should single-provider outage-recovery terms stay private, or warrant a public filing). No CTA, no rhetorical softener."},
+    {"name": "Credibility guard", "score": 9, "weight": 0.10, "notes": "Exemplary caveat handling: flags the GCI release as org-controlled and its resiliency framing as a claim not a finding, states the AI nexus is at the edge with no compute/power inflation, and notes no dollar figure was disclosed without inventing one. Decision treatment dominates bio; every claim traceable."}
+  ],
+  "weighted_math": "0.90 + 1.28 + 0.90 + 1.26 + 1.04 + 0.64 + 0.90 + 0.35 + 0.36 + 0.90 = 8.53",
+  "weighted_total": 8.53,
   "threshold": 8.0,
+  "hard_fail": null,
   "ship": true,
-  "hard_fails": [],
   "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "one_sentence_fix": "Split the two 6-to-7-sentence blocks (the 'Per GCI's newsroom' paragraph and the 'honest tension' paragraph) into 2-to-3-sentence paragraphs so the post scans cleanly on mobile.",
+  "fix_applied": true,
+  "fix_note": "The scorer's one-sentence readability fix was applied to out/final_post.md after scoring. No re-score was run because the change was mechanical paragraph splitting with no wording change; word count is unchanged at 444 and total length moved from 2959 to 2962 characters, still under the 3000 cap."
 }
