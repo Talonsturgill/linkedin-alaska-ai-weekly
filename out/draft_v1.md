@@ -1,20 +1,21 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+The FCC votes 6 August on whether Alaska's rural clinics can reuse last year's circuit prices for a third straight year. The vote is the visible part. The durable leverage sits one level down.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+In WC Docket 17-310, this machinery sets what a carrier may charge an Alaska clinic for a dedicated circuit and how much universal service money follows.
 
-Four layers carry the machinery.
+- Statutory comparability duty, requires carriers to serve rural health providers at rates comparable to urban rates in the same state. FCC, under 47 U.S.C. 254.
+- Methods 1 through 3, applied in sequence, with Method 3 requiring an itemized cost study. Interstate approvals sit with the Wireline Competition Bureau, intrastate with the Regulatory Commission of Alaska.
+- Program administration, turns an approved rate into a funding commitment. USAC's Rural Health Care division.
+- Alaska carrier concentration, where Method 3 is the norm and not the exception. GCI Communication Corp. was the selected provider on 255 approved requests in FY2024 and 265 in FY2025.
+- The waiver renewal gate, lets carriers reuse previously approved rates instead of filing cost studies. Wireline Competition Bureau, Telecommunications Access Policy Division.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+The leverage sits in layer five. Paragraph 47 of the draft Order directs the Bureau alone to decide whether waivers covering funding year 2028 and beyond are necessary, and that same Bureau issued the FY2026 waiver on its own authority. Extend it, or let it lapse and force fresh cost studies. One division, one binary, and from FY2028 it won't appear on any Commission agenda.
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+This is a rate-setting mechanism wearing a subsidy mechanism's clothes. The statute assumes a working comparable-rate market. Alaska doesn't have one, so the cost-study safety valve became the default here and nowhere else. In FY2024, 285 of 317 approved Alaska Telecom requests couldn't use Methods 1 or 2. In FY2025, 306 of 340. Three years of freezing rates by waiver rather than fixing the methodology turned a stopgap into Alaska's real rate regime.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn. A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+The AI relevance sits at the bandwidth layer, not the compute layer. The open question in the rulemaking is how to price a 1 Gbps circuit when the only observable comparable is 100 Mbps. The Commission's own document cites GCI's Anchorage MPLS table at $485 a month for 100 Mbps and $2,908 for 1 Gbps, so prices don't scale linearly. Rural clinics adding remote imaging, remote read and AI-assisted diagnostics are exactly the case these rules handle worst.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+Before the FY2027 Telecom filing cycle opens, inventory sites against the waiver's actual scope. Paragraph 48 limits reuse to a prior funding commitment for the same facility and service combination from FY2024 through FY2026. A clinic stepping from 100 Mbps to 1 Gbps has no such predicate and still needs a full cost study. USAC's FY2027 webinars are 5 and 26 August. Comments close 30 days after Federal Register publication.
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
+Should one Bureau division hold the annual call on Alaska's health-circuit prices, or does the FY2028 waiver decision belong back on the Commission's open meeting agenda?
 
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+#AlaskaAI #RuralHealth #BroadbandAlaska #AIPolicy

@@ -1,5 +1,11 @@
-draft_id: r1887640784633989180
-subject: Alaska.Ai — The Stack Draft — 2026-07-24
-to: talon.sturgill@gmail.com
-image_url: https://raw.githubusercontent.com/Talonsturgill/linkedin-alaska-ai-weekly/e3636288ede320de6e4deb2d45df3d3c90c3f5f5/out/post_image.png
-created_utc: 2026-07-24
+draft_id: r-1037235089355018623
+subject: Alaska.Ai — The Stack Draft — 2026-07-31
+to: docket@alaskaaihq.com
+date: 2026-07-31
+branch: claude/linkedin-stack-2026-07-31
+mechanism: FCC Rural Health Care Program rural-rate determination and the FY2027 previously-approved-rate waiver (WC Docket 17-310)
+category: REGULATORY
+image_url: https://raw.githubusercontent.com/talonsturgill/linkedin-alaska-ai-weekly/346697bd1c4f02eb63d1cfac468afa422ce9a4bc/out/post_image.png
+image_verified: HTTP 200, 1326659 bytes, content-type image/png (verified before draft creation)
+score: 9.01/10 weighted, threshold 8.0, all 7 hard-fail checks pass
+artwork: 8.66 weighted, 6 eval iterations, qa_check PASS, no template fallback

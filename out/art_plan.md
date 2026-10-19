@@ -1,69 +1,187 @@
-# The Stack — Art Plan — 2026-07-24
+# The Stack — Art Plan — 2026-07-31
 
-## Story (Step 0)
-- What happened: NSF seeded a UAF Geophysical Institute-led AI mineral-discovery Engine in Alaska, $15M over two years, up to $160M over a decade if it clears milestones.
-- Why it matters to Alaska: whether AI-driven critical-mineral exploration scales depends on TWO independent go/no-go decisions, NSF TIP's continuation call (money) and NANA's ANCSA subsurface-estate access (ground). Alaska holds 56 of 60 USGS critical minerals.
-- Register: cold, analytical, contingent. Not triumphant, not bleak. The deposit is found (AI did its job); the value is locked behind two gates that both must turn. Tension of optionality.
+Column: THE STACK · REGULATORY · 31 JUL 2026
+Headline: **ONE BUREAU SETS / ALASKA'S HEALTH / CIRCUIT PRICES**
+Byline: `""` (not drawn for this column)
 
-## Concept (Step 2 — three considered)
-- A. Two valves in series on a conduit rising from a glowing ore body: value reaches the surface only if BOTH valves open (series = AND gate). One valve is the federal money key (NSF TIP), one is the ground key (NANA). AI triangulation reticle has already pinned the ore. **CHOSEN.** Metaphor + synecdoche, of-Alaska (pipeline valves, tundra ground, ore), of-this-story (two independent gates, AI discovery, optionality).
-- B. Funding ladder with a solid $15M base and a ghosted $160M tranche behind a gate. Rejected: too close to 07-10 converging_funnel capital-gate and 07-08 offer-grid.
-- C. Geologic map with AI scan grid lighting deposits. Rejected: underplays the two-key chokepoint tension that is the actual story.
+---
 
-Concept statement: A single conduit rises from an AI-pinned critical-mineral ore body through two valve wheels set in series, each on its own control stem to a different named actor. The reader reads in half a second that the prize is found but that two independent hands, federal money and Native-corporation ground, must both open before any value flows.
+## Step 0 — Absorb the story
 
-## Register carry
-Cold spruce-teal green ground carries the analytical, contingent mood; the lone warm copper ore-glow is the found prize and the only hope-color, deliberately locked below the two valves. Value structure (dark deep ground vs bright ore) does the emotional work.
+- **What happened.** The FCC votes 6 August on a third consecutive waiver letting
+  Alaska's rural clinics reuse previously approved circuit prices instead of filing
+  cost studies, and the Order quietly hands the FY2028 version of that decision to a
+  single Wireline Competition Bureau division.
+- **Why it matters to Alaska.** 285 of 317 Alaska Telecom Program requests in FY2024
+  couldn't use the market-rate methods, so a temporary waiver has become the real rate
+  regime for the circuits rural clinics run telehealth and AI-assisted diagnostics on.
+- **Emotional register.** Quiet precariousness. Cold, procedural, watchful. Not alarm,
+  not triumph. Something load-bearing turns out to be temporary, and almost nobody is
+  looking at it. The palette and forms must feel still and a little exposed.
 
-## Style family
-`geologic_engraving` — a deliberate hybrid: wpa flat-layered geologic strata + engraving hatch/stipple craft + a spare schematic overlay for the conduit, valves and AI reticle. WHY it fits: the story is an engineered mechanism sitting inside Alaska ground, so a print-like engraved cross-section with schematic gate glyphs reads both as landscape and as machinery. Dedup: clears the last-8 forbidden set (iso_cutaway, swiss_grid, flow_field, cadastral_ledger, bathymetric_blueprint). Not a subsea/waterline section (07-17 was submerged bathymetric; this is a dry geologic strata section with a vertical conduit spine, different composition and palette).
+## Step 1 — Dedup scan (obeyed)
 
-## Palette (OKLCH value spine; dominant hue = green)
-- paper / pale sky: `oklch(0.93, 0.03, 155)` cold mint  → ~#e6efe4 (top light, headline quiet zone)
-- sky field: `oklch(0.80, 0.045, 175)` soft teal-green → mid-light above ground
-- strata mid: `oklch(0.60, 0.05, 158)` spruce-teal band
-- strata mid-2: `oklch(0.48, 0.05, 160)` deeper band
-- deep ground / shadow: `oklch(0.26, 0.04, 158)` near-black spruce (darkest dark, surrounds ore)
-- ink / type: `oklch(0.17, 0.03, 158)` near-black green
-- FOCAL accent (ore glow): `oklch(0.72, 0.15, 62)` warm copper/amber — highest chroma, only warm, sits against the deep-ground darkest dark for max value gap. Small area (< 6% canvas).
-Value spine: darkest dark = deep ground ring around ore (L .26); lightest light = mint sky/headline zone (L .93); focal wins via warm hue + a ~0.45 L jump from its dark collar. Grayscale squint: bright ore blob on dark ground reads instantly.
-hue_family bucket: green.
+Scanned all `origin/claude/linkedin-*` branches carrying a bespoke meta ledger.
 
-## Composition map (1080 grid) — pattern: bilateral_gate (central conduit spine, two flanking valve stems, focal ore low-center)
-- Ground/surface line: y=470, gently undulating (ridge_pts, low amp), separates pale sky (above) from strata (below).
-- Sky zone (y 0..470): headline block top-left x∈[84,720], line1 top y≈96, line2 y≈188 ("ALASKA'S MINERAL ENGINE" / "RUNS ON TWO KEYS"), Fraunces poster wght 900 opsz 144, ~2 words/line ragged. Kicker mono under it at y≈270. AI triangulation reticle occupies upper-right sky: three thin sightlines from ~(560,150),(760,175),(900,240) converging to a small target reticle at the ground-pierce point (620,455), dashed/hand-drawn, then a single dashed plumb continues down to the ore. Keeps clear of the headline quiet zone on the left.
-- Conduit spine: a narrow vertical channel centered x≈540 from the ore up to the surface manifold at y≈470.
-- Ore body (FOCAL): glowing copper lens/vein at center (540, 830), ~200px across, embedded in the darkest deep-ground collar, micro ore-sparkle stipple, hatched vein tendrils. This is the one focal point.
-- Valve A (lower, deeper) on the conduit at (540, 660): valve wheel r≈46 (circle + 6 spokes + hub), control stem running LEFT to a labeled node chip at (past 300) — mono label "NSF TIP" and tiny "$15M". This is the money key.
-- Valve B (upper) on the conduit at (540, 545): valve wheel r≈46, control stem running RIGHT to a labeled node chip near (770,545) — mono label "NANA" and tiny "GROUND". This is the ground key.
-- Optionality mark: a ghosted/dashed "$160M" mono tag near the surface top of the conduit (y≈500, faint), signalling the option-not-a-commitment tranche above the valves.
-- Polaris star: (980, 120) r=12, colophon.
-- Wordmark ALASKA.AI: bottom-left (84, 1004) small in a chip, knocked into the deep ground.
-Eye path: headline (top-left) → reticle sightlines (upper-right) down the dashed plumb → glowing ore focal (center-low) → up the conduit through valve A then valve B → the two labeled keys → wordmark.
+| date | column | style_family | hue_family | composition |
+|---|---|---|---|---|
+| 24 JUL | Stack | geologic_engraving | green | bilateral_gate |
+| 24 JUL | Desk | paper_collage | neutral-warm | scatter_field |
+| 17 JUL | Stack | bathymetric_blueprint | indigo | submerged_section |
+| 10 JUL | Stack | flow_field | gold | converging_funnel |
+| 8 JUL | Stack | swiss_grid | neutral-cool | modular_grid |
+| 7 JUL (02) | Stack | cadastral_ledger | red | central_icon |
+| 7 JUL | Stack | iso_cutaway | blue-teal | thirds_focal |
 
-## Layer build order (back to front)
-1. paper base (mint) 
-2. sky gradient_v (mint→teal-green down to ground line)
-3. subsurface fill (deep ground base) 
-4. strata bands: voronoi_polys clipped into horizontal-ish bands + per-band lighten ramp + dark seams (meso structure inside the big ground shape)
-5. hatch pass on strata bands (engraving craft), lighter near surface, denser deep
-6. deep-ground collar/darkening around the ore center (radial darken)
-7. conduit channel (hand_line walls, faint)
-8. ore body: glow + copper lens fill + vein tendrils (hatch) + micro sparkle stipple + chips rubble
-9. valve wheels A & B (circles, spokes, hubs) + control stems (hand_line) + node chips
-10. AI reticle sightlines (hand_line dashed) + target mark + plumb line
-11. ghosted $160M option tag
-12. grain finishing pass (mono, restrained) 
-13. type: headline (Fraunces), kicker + valve labels + option tag (mono), wordmark chip, polaris
+- **Forbidden style_family (last 8).** geologic_engraving, paper_collage,
+  bathymetric_blueprint, flow_field, swiss_grid, cadastral_ledger, iso_cutaway, plus
+  aurora_field permanently.
+- **Forbidden hue_family (last 4).** green, neutral-warm, indigo, gold.
+- **Forbidden composition (last 2).** bilateral_gate, scatter_field.
+- **Forbidden motifs (last 10).** ore body, series valves, reticle, geologic strata,
+  subsurface conduit, torn paper, red pen, subsea fiber, sluice gate, bathymetric
+  contours, capital current, converging funnel, modular grid, transmission tower,
+  exploded prism stack, gate iris, data-center block, cadastral plat, consent seal,
+  survey ticks, north arrow.
 
-## Technique stack
-gradient_v (sky), voronoi_polys (strata cells), ridge_pts (ground line + band boundaries), lighten/mix ramp (atmospheric strata depth), hatch (engraving on strata + ore tendrils), stipple/chips (ore sparkle + rubble micro), glow (ore focal), hand_line (conduit, valve stems, reticle sightlines — hand-drawn schematic), circle/poly (valve wheels), grain (finish, amount ~6), chip/soft_panel (labels, wordmark), polaris, fraunces + mono type. ONE finishing texture identity: grain + engraving hatch.
+**Chosen and cleared:** style `ukiyo_bokashi` (unused in the visible ledger), hue
+`magenta` (clean against the last four), composition `diagonal_thrust` (clean against
+the last two). Deliberately steering off the diagram-as-art register this column
+usually loves, because the last four Stack pieces were all diagrammatic and the story
+this week is about something physical being load-bearing, not about a flow chart.
 
-## Risk list + mitigation
-1. Mud in the many cold greens → enforce hard value gaps between strata bands via the lighten ramp; keep the ore the ONLY warm/bright element; grayscale-check the focal wins.
-2. Headline collides with busy reticle/strata → reserve a pale quiet zone top-left (sky is lightest there, reticle pushed to upper-right, no strata above ground line).
-3. Valves read as generic lock/gear icons or clutter → only TWO, rendered as clean composed valve wheels (industrial, pipeline-country, not padlocks), each clearly labeled to its named actor; conduit+ore stay the dominant thumbnail read so the icons are support, not subject.
-4. Two valves read as one → separate them in depth (y 660 vs 545), opposite lateral stems (left vs right), distinct labels.
-5. AI reticle over-busy → keep sightlines thin, dashed, few (3), converging to one small target; it's a whisper that AI pinned the ore, not a second focal.
+## Step 2 — Three concepts
 
-SEED = 724
+1. **The stamped stack.** Three waiver documents stacked, a fourth hovering, the fifth
+   slot void. *Rejected.* Paper-and-stamp language is the 24 JUL Desk piece
+   (`paper_collage`, torn paper, red pen), and a document pile is a generic policy
+   illustration that could front any regulatory blog.
+2. **The price cliff as a rate curve.** A literal escarpment shaped like the $485 to
+   $2,908 step. *Rejected as a standalone.* It renders one number rather than the
+   mechanism, and a chart-shaped landform reads as a hockey-stick chart, which the
+   skill kills on sight.
+3. **The temporary span. (CHOSEN)** A small lit clinic stands on a high ice terrace.
+   The only thing connecting it to the low ground is a slender timber catwalk. Three
+   props hold the catwalk up. The fourth socket is empty, and below it is open dark
+   water.
+
+**Why concept 3 is true to the story.** The catwalk *is* the waiver: a temporary
+structure everyone now walks on as if it were permanent. The three props are the three
+funding years already covered. The empty fourth socket is FY2028, the decision that
+moves to one Bureau division and off any public agenda. The escarpment does double
+duty as the non-linear price step, high ground reachable only by the temporary thing.
+**Half-second read:** a small lit building depends on a walkway that is one prop short.
+
+## Step 3 — Pre-production blueprint
+
+### Concept statement
+A rural clinic's light burns on the far side of an ice ravine, reachable only by a
+slender catwalk propped up three times with the fourth prop missing. The temporary
+span is the waiver, and the gap under it is the year nobody has decided yet.
+
+### Register
+Quiet precariousness. Cold blue snow against a burning magenta dusk, with one small
+warm lamp as the only human warmth in the frame. Forms are flat and still (ukiyo-e
+planes), so the single broken rhythm in the prop row does all the unease.
+
+### Style family
+`ukiyo_bokashi` with a fine engraved micro pass. Flat colour planes, fine outlines, a
+smooth banded `gradient_v` sky (the bokashi), asymmetric composition, and an elevated
+three-quarter viewpoint looking across the ravine rather than along it. Fits because
+ukiyo-e is the tradition that renders snow, cliff and a small human structure with
+maximum stillness and minimum clutter, and stillness is the register. Clears all
+cooldowns (see Step 1).
+
+### Palette (OKLCH-built, 6 inks + paper = 7 entries)
+
+| hex | role | approx L |
+|---|---|---|
+| `#f4e7e3` | paper / lit snow, headline knockout | 0.93 |
+| `#f2a98f` | sky low, warm horizon band | 0.79 |
+| `#b0587f` | sky mid, magenta dusk | 0.56 |
+| `#5a3a63` | sky top, plum | 0.36 |
+| `#6a6f96` | snow shadow, cold terrace plane | 0.50 |
+| `#22243a` | ice deep, silhouettes, type | 0.17 |
+| `#ffb347` | clinic lamp, polaris (focal accent) | 0.78 |
+
+**Value structure.** Darkest dark is `#22243a` (clinic silhouette, catwalk, props,
+ravine). Lightest light is `#f4e7e3` (lit snow on the terrace tops). The focal wins the
+contrast war three ways at once: it is the only warm hue in a cool/magenta field, it
+carries the highest chroma, and it sits as a small bright point directly against the
+darkest ink of the clinic silhouette. Grayscale check: the bright horizon band at
+`#f2a98f` sits behind dark ridge and clinic silhouettes, so the focal reads even with
+hue stripped, and the terrace tops step light/dark/light from front to back.
+
+### Composition map — `diagonal_thrust` on the 1080 grid
+
+- **Sky** `[0, 0, 1080, 640]`, bokashi `gradient_v` `#5a3a63` → `#b0587f` → `#f2a98f`,
+  ease 1.25, brightest at the horizon.
+- **Far ridge** silhouette, `ridge_pts` baseline y=612, amp 34, mixed 55% toward sky
+  for atmosphere.
+- **Low terrace (left)**, top surface `ridge_pts` from (0, 826) to (415, 838), amp 9.
+  Body fills down to frame bottom in `#6a6f96` over `#22243a`.
+- **High terrace (right)**, top surface `ridge_pts` from (648, 700) to (1080, 676),
+  amp 8. Body fills down to frame bottom.
+- **Ravine**, the gap x ∈ [415, 648], darkest mass `#22243a`, falling to the bottom
+  edge. This is the negative space the whole composition pivots on.
+- **Catwalk**, deck from (415, 822) to (648, 700). Length ≈ 264px, deck thickness 9px,
+  ~22 plank seams, handrail line 26px above the deck on the far side.
+- **Props**, verticals under the deck at x = 462, 516, 570, each ~11px wide, running
+  from the deck underside down into shadow at y ≈ 1010. Cross-bracing X between
+  adjacent props. **The fourth socket at x = 624 is EMPTY**: a broken stub ~26px tall,
+  a dark void beneath it, and a hairline crack in the deck directly above.
+- **Clinic**, footprint 118w × 74h with its base on the high terrace at (812, 700), so
+  body y ∈ [626, 700]. Pitched roof apex at (871, 598). Three lit windows at
+  y ≈ 652, each 17 × 22, in `#ffb347`. Stovepipe at (railing) x=916, y=612, with a thin
+  smoke wisp.
+- **Lamp glow**, `glow()` at (871, 655) r=104 `#ffb347` alpha 66. THE FOCAL.
+- **Spruce**, 6 small dark conifers on the high terrace right of the clinic, x from 960
+  to 1064, heights 46 down to 26, receding.
+- **Headline block**, x ∈ [84, 610], first baseline y = 132, three lines, Fraunces
+  wght 900 / opsz 144, leading 1.06, colour `#f4e7e3` knocked out of the plum sky.
+  Occupies the quiet upper-left, entirely above the terrace tops and left of the
+  clinic.
+- **Kicker** `THE STACK · REGULATORY · 31 JUL 2026`, JetBrains Mono 16px, tracking
+  0.24em, at (84, headline_bottom + 30), colour `#f2a98f`.
+- **Wordmark** `ALASKA.AI`, Fraunces Black 29px, at (84, 1012), colour `#f4e7e3` on the
+  dark low-terrace body.
+- **Polaris**, (952, 128) r=13, colour `#ffb347`, small, in the plum upper sky.
+
+**Eye path:** headline (upper-left) → down the catwalk's rising diagonal → the lit
+clinic (right third) → back down to the missing prop → wordmark (bottom-left).
+
+### Layer build order (back to front)
+paper → sky bokashi gradient → stars + sky mottle → polaris → far ridge → high terrace
+mass → high terrace voronoi snow-slab meso pass → low terrace mass → low terrace
+voronoi meso pass → ravine dark mass + vertical ice hatch → terrace edge chips (broken
+ice) → catwalk props + cross-bracing + broken stub → catwalk deck + plank seams +
+handrail → clinic silhouette + roof + windows + stovepipe → lamp glow → spruce →
+spindrift stipple → grain → headline → kicker → wordmark
+
+### Technique stack
+`gradient_v` (bokashi sky, ease 1.25) · `ridge_pts`/`ridge_fill` (terraces, far ridge)
+· `voronoi_polys` (snow-slab cells on both terrace tops, ~90 cells each, relax 2, per
+cell value jitter ±5%) · `hatch` (vertical ice texture on the ravine walls, spacing
+7-9, angle 88) · `stipple` (spindrift and ravine depth, density 0.05-0.10) · `chips`
+(broken ice at terrace edges, 40-60 pieces, size 3-8) · `wobble_pts`/`hand_line`
+(catwalk, props, spruce, to take the digital edge off) · `glow` (clinic lamp) ·
+`mottle` (sky, 0.035) · `grain` (single finishing identity, amount 6) · `polaris`.
+
+### Risk list
+1. **The catwalk reads as a generic bridge and the piece loses Alaska.** Mitigation:
+   snow-slab terraces, spruce stand, spindrift, a cabin-profile clinic with a stovepipe,
+   and a true sub-Arctic winter dusk palette. No generic infrastructure geometry.
+2. **Headline collides with busy art.** Mitigation: the headline occupies upper-left
+   sky only, x ≤ 610 and y ≤ ~330, while the high terrace top starts at y=676 and the
+   catwalk's high end at y=700. The sky there is a smooth gradient with only faint
+   mottle, so no chip is needed; `ensure_contrast` will verify `#f4e7e3` against the
+   local plum before drawing.
+3. **Mud where magenta sky meets blue snow.** Mitigation: hold a hard value gap at the
+   horizon by placing the brightest sky band (`#f2a98f`, L≈0.79) directly against the
+   dark far ridge and terrace silhouettes, and keep `#6a6f96` clearly cooler and
+   darker than any sky value it touches.
+4. **The missing fourth prop doesn't read, killing the concept.** Mitigation: three
+   props on an even 54px rhythm so the eye expects the fourth; a broken stub at the
+   expected position rather than nothing at all; cross-bracing that visibly stops; a
+   hairline deck crack directly above the gap; and the darkest value in the frame
+   directly beneath it.

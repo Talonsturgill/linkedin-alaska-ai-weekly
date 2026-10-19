@@ -1,68 +1,82 @@
 {
-  "as_of_date": "2026-07-24",
+  "as_of_date": "2026-07-31",
   "news_trigger_window_days": 14,
-  "no_target_this_cycle": false,
+  "window": "2026-07-17 to 2026-07-31",
   "selected_mechanism": {
-    "name": "NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)",
-    "category": "vehicles",
-    "category_label": "VEHICLES",
+    "name": "FCC Rural Health Care Program rural-rate determination and the FY2027 previously-approved-rate waiver (WC Docket 17-310)",
+    "category": "regulatory",
+    "category_label": "REGULATORY",
     "news_trigger": {
-      "what_happened": "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute.",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "pub_date": "2026-07-15"
+      "what_happened": "The FCC is scheduled to consider the draft at its August 6, 2026, open meeting.",
+      "url": "https://www.benton.org/blog/fcc-begin-review-rural-health-care-program",
+      "outlet": "Benton Institute for Broadband & Society",
+      "pub_date": "2026-07-21",
+      "confirmed_verbatim_in_primary_source": "This document has been circulated for tentative consideration by the Commission at its August 6, 2026 open meeting.",
+      "primary_source_url": "https://docs.fcc.gov/public/attachments/DOC-423141A1.pdf"
     },
-    "one_line_definition": "An NSF Regional Innovation Engine cooperative agreement that funds a UAF-led coalition to use artificial intelligence to locate and commercialize Alaska critical-mineral deposits, structured as a $15M two-year seed with an NSF-controlled option to scale to ~$160M over a decade.",
+    "one_line_definition": "The federal machinery that sets the price a carrier may charge an Alaska rural health provider for a dedicated circuit, and therefore how much universal-service money flows: a statutory urban/rural comparability duty, a three-method rate hierarchy whose third method requires a per-circuit cost study, and a serially renewed waiver that lets carriers reuse previously approved rates instead of filing those cost studies.",
     "layers": [
       {
-        "name": "NSF award authority / source-selection",
-        "what_it_does": "Selects and funds the Engine as one of a new cohort of Regional Innovation Engines; establishes the $15M/two-year seed award.",
-        "controlling_actor": "NSF Directorate for Technology, Innovation and Partnerships (TIP)",
+        "name": "Statutory comparability duty",
+        "what_it_does": "Obligates a carrier, on bona fide request, to serve rural health care providers 'at rates that are reasonably comparable to rates charged for similar services in urban areas in that State,' and makes Telecom Program support the arithmetic difference between the urban rate and the rural rate. Everything downstream is an attempt to operationalize the words 'similar services' and 'comparable rural areas.'",
+        "controlling_actor": "Federal Communications Commission, as the agency charged with implementing section 254; the duty itself runs against the telecommunications carrier",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
+          "url": "https://www.law.cornell.edu/uscode/text/47/254",
+          "outlet": "Cornell Legal Information Institute (47 U.S.C. 254)",
+          "doc_type": "statute"
+        }
+      },
+      {
+        "name": "Rural-rate methodology, Methods 1-3",
+        "what_it_does": "Forces the three rate-determination methods to be applied sequentially: Method 1 (carrier's own commercial rates in the rural area), Method 2 (other providers' tariffed/publicly available rates), and only then Method 3, a cost-based rate requiring 'a justification of the proposed rural rate, including an itemization of the costs of providing the requested service.' The rule splits approval authority: intrastate cost-based rates require the state commission's approval, interstate rates require the Commission's approval.",
+        "controlling_actor": "FCC Wireline Competition Bureau (interstate cost-based rate approvals); Regulatory Commission of Alaska (intrastate cost-based rate approvals)",
+        "primary_source": {
+          "url": "https://www.law.cornell.edu/cfr/text/47/54.605",
+          "outlet": "Cornell Legal Information Institute (47 CFR 54.605)",
+          "doc_type": "statute"
+        }
+      },
+      {
+        "name": "Program administration and funding commitments",
+        "what_it_does": "Runs the applicant workflow that turns an approved rate into money: eligibility, competitive bidding, funding request submission, evergreen-contract designation, funding commitment, and invoicing. The FY2027 cycle opens with the HCF Request for Services webinar on 08/05/2026 and the Telecom Request for Services webinar on 08/26/2026.",
+        "controlling_actor": "Universal Service Administrative Company, Rural Health Care division (Mark Sweeney, Vice President, Rural Health Care, is the USAC officer of record in the docket)",
+        "primary_source": {
+          "url": "https://www.usac.org/rural-health-care/",
+          "outlet": "Universal Service Administrative Company",
           "doc_type": "agency_page"
         }
       },
       {
-        "name": "Continuation / milestone tranche gate",
-        "what_it_does": "Converts the seed award into the ~$160M decade tranche only on demonstrated milestone progress; as a cooperative agreement NSF retains unilateral continue/decline authority tranche-by-tranche.",
-        "controlling_actor": "NSF TIP Directorate (Engines program)",
+        "name": "Alaska carrier concentration, the cost-study bottleneck",
+        "what_it_does": "Alaska is where Method 3 is the norm rather than the exception, and one carrier absorbs most of the filing burden. The Commission's own record: 'in Alaska, in funding year 2024, only 32 of 317 approved Telecom Program requests relied on Methods 1 or 2, while in funding year 2025, only 34 of 340 approved Telecom Program requests in Alaska relied on Methods 1 or 2.' And: 'GCI was the service provider selected for 255 approved funding requests in funding year 2024 and for 265 approved funding requests in funding year 2025.' GCI itself told the Commission that without the FY2024-25 waiver 'a full quarter of GCI's funding requests would likely require cost-based rates.' Alaska Communications is the other named Alaska filer.",
+        "controlling_actor": "GCI Communication Corp. as selected service provider and docket commenter; Alaska Communications as the secondary Alaska filer",
         "primary_source": {
-          "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-          "outlet": "National Science Foundation",
-          "doc_type": "agency_page"
+          "url": "https://docs.fcc.gov/public/attachments/DOC-423141A1.pdf",
+          "outlet": "FCC, Third Further Notice of Proposed Rulemaking and Order, FCC-CIRC2608-04, WC Docket No. 17-310, paras. 14 and 18 and n.52",
+          "doc_type": "docket"
         }
       },
       {
-        "name": "Lead institution / Engine CEO (AI method owner)",
-        "what_it_does": "Hosts and operates the Engine; directs the AI-driven mineral-discovery and biological-extraction research program.",
-        "controlling_actor": "UAF Geophysical Institute (host) with Lee Ann Munk as Engine CEO and UAF geosciences professor",
+        "name": "The waiver renewal gate",
+        "what_it_does": "Section 54.605(b) has been waived twice already, covering funding years 2024 through 2026. The Order circulated for the August 6, 2026 meeting waives it a third time: 'we waive section 54.605(b) of the Commission's rules to permit use of previously approved rural rates from funding years 2024 through 2026 for funding year 2027 that would otherwise require approval of a cost-based justification.' Critically, the waiver is not universal: 'If no such comparable rates are available, this waiver is not applicable and the rural rate must be established using a Method 3 cost study.' And the renewal decision is then delegated downward: 'Should the instant rulemaking continue beyond the waiver period, we direct the Wireline Competition Bureau to determine whether waivers covering funding year 2028 and beyond are necessary.' The FY2026 waiver was in fact issued by the Bureau alone (2025 Waiver Order, 40 FCC Rcd 8795 (WCB 2025)).",
+        "controlling_actor": "Chief, FCC Wireline Competition Bureau, Telecommunications Access Policy Division (Kate Dumouchel is the named Deputy Division Chief of record for the proceeding)",
         "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
-        }
-      },
-      {
-        "name": "Land / subsurface-estate partner",
-        "what_it_does": "Controls access to the ground the AI targets; ANCSA subsurface estate holder whose consent gates whether AI-identified deposits can be explored or developed.",
-        "controlling_actor": "NANA Regional Corporation, Lance Miller, VP Natural Resources; Alaska Silver as industry exploration partner",
-        "primary_source": {
-          "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-          "outlet": "UAF Geophysical Institute",
-          "doc_type": "agency_page"
+          "url": "https://docs.fcc.gov/public/attachments/DOC-423141A1.pdf",
+          "outlet": "FCC, Third Further Notice of Proposed Rulemaking and Order, FCC-CIRC2608-04, WC Docket No. 17-310, paras. 45-48 and n.100",
+          "doc_type": "docket"
         }
       }
     ],
     "chokepoint": {
-      "layer": "Layer 2 — Continuation / milestone tranche gate",
-      "actor": "NSF TIP Directorate (Engines program)",
-      "binary_decision": "At the year-two milestone review (~2028), NSF unilaterally decides continue-or-decline on the ~$160M scaling tranche. Because the Engine is a cooperative agreement (not a grant), it is a single funder's go/no-go, not a shared committee veto. Secondary asymmetric chokepoint: NANA Regional Corporation (Lance Miller, VP Natural Resources) independently controls subsurface-estate access to the deposits the AI targets."
+      "layer": "Layer 5, the waiver renewal gate",
+      "controlling_actor": "FCC Wireline Competition Bureau, Telecommunications Access Policy Division",
+      "binary_decision": "Extend the previously-approved-rate waiver to funding year 2028 and beyond, or let it lapse and force fresh Method 3 cost studies. The Bureau separately owns a second binary: approve or reject each individual interstate Method 3 cost study under 47 CFR 54.605.",
+      "why_asymmetric": "The 6 August 2026 Commission vote is the visible event, but the durable leverage is the delegated authority the Order hands to the Bureau: paragraph 47 directs the Wireline Competition Bureau alone to decide whether the waiver extends to funding year 2028 and beyond, and the FY2026 waiver was already issued by that Bureau on its own authority (40 FCC Rcd 8795 (WCB 2025)). One division, two binaries, exercisable without a Commission vote and without any Alaska party's consent."
     },
-    "ak_consequence": "Critical-minerals mining. Whether Alaska's AI-driven mineral-discovery engine scales past its $15M seed depends on NSF's TIP Directorate year-two milestone/continuation decision (~2028) and NANA Regional Corp's subsurface-estate access, which together gate whether AI exploration reaches Northwest Alaska deposits this decade. Alaska holds 56 of 60 USGS-designated critical minerals.",
-    "structural_read": "NSF Engines are cooperative agreements, not grants. The $160M over 10 years headline is optionality, not committed capital, and NSF's TIP Directorate can decline continuation at the milestone review within its own authority. The load-bearing machinery is a two-key structure, a federal funder (TIP) holding the money go/no-go and a private ANCSA landowner (NANA) holding the ground go/no-go, with AI as the intrinsic method that only produces value if both keys turn. AI here is not a bolt-on, it is the Engine's core commercialization thesis (using AI to locate deposits and biological methods to extract them), which is why the mechanism qualifies for The Stack even though the news brief itself omits the word AI.",
-    "forward_implication": "A program manager or allocator with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors) should this week map their acreage against the Engine's declared target regions and NANA's subsurface estate, and calendar the NSF TIP year-two milestone/continuation review as the single binary that gates the ~$160M decade tranche, treating the $160M as an option, not a commitment.",
+    "ak_consequence": "Alaska rural-health connectivity: if the previously-approved-rate waiver is not extended past funding year 2027, GCI Communication Corp. and Alaska Communications must file fresh Method 3 cost studies for the roughly 90 percent of Alaska Telecom Program requests that cannot be justified under Methods 1 or 2 (285 of 317 in FY2024, 306 of 340 in FY2025), repricing or delaying the dedicated circuits Alaska tribal and regional health providers buy. That decision is made by the FCC Wireline Competition Bureau for FY2028 sometime after the FY2027 filing cycle opens with USAC's 26 August 2026 Telecom webinar.",
+    "structural_read": "This is a rate-setting mechanism wearing a subsidy mechanism's clothes. Section 254(h)(1)(A) presumes a functioning comparable-rate market; Alaska does not have one, which is why the 'safety valve' cost study became the default here and nowhere else. The Commission's answer for three consecutive funding years has been to freeze rates in place by waiver rather than fix the methodology, which has quietly converted a 2023 stopgap into Alaska's de facto rate regime and made a single Bureau division the party that decides annually whether Alaska's health-circuit prices roll forward or get re-litigated line by line. The AI relevance sits at the bandwidth-economics layer rather than the compute layer: the FNPRM's central unanswered question is how to price a 1 Gbps circuit when the only observable comparable is 100 Mbps, and it cites GCI's own Anchorage MPLS table ($485/mo at 100 Mbps, $2,908/mo at 1 Gbps) to show prices do not scale linearly. Bandwidth escalation at rural Alaska clinics (remote imaging, remote read, AI-assisted diagnostics) is exactly the case the current rules handle worst. Note also the second-order state gate: intrastate cost-based rural rates are approved by the Regulatory Commission of Alaska, not the FCC, so a state commission sits inside the federal money path.",
+    "forward_implication": "This week, before the FY2027 Telecom filing cycle opens: inventory your sites against the waiver's actual scope. Paragraph 48 limits reuse to the most recent funding commitment for the same facility/service combination issued in FY2024, FY2025 or FY2026, or failing that a same-or-similar service at a facility with same-or-similar geographic characteristics from those years. Any site or bandwidth tier without such a predicate, most obviously a clinic stepping up from 100 Mbps to 1 Gbps, falls outside the waiver and still needs a full Method 3 cost study. Identify those sites now and either lock the bandwidth upgrade into an FY2026-approved rate combination or budget the cost-study lead time. Also decide whether to file in WC Docket 17-310 supporting a permanent rule, since comments close 30 days after Federal Register publication.",
+    "recurrence_note": "Watchable annually and asymmetrically: the waiver-or-cost-study binary recurs every funding year, and from FY2028 forward it is decided by the Wireline Competition Bureau on delegated authority rather than at an open meeting, meaning the next iteration of this decision will not appear on any Commission agenda. Track WC Docket 17-310 in ECFS and the USAC RHC funding-commitment data at opendata.usac.org.",
     "confidence": "high",
     "gate_results": {
       "news_tie_pass": true,
@@ -75,11 +89,43 @@
     }
   },
   "dropped_mechanisms": [
-    {"name": "S1 — SBA 8(a) audit-and-suspension gate over ANC sole-source authority", "drop_reason": "in-window (2026-07-15) but enforcement layers rest on trade reporting rather than a primary SBA docket, and AI tie is only indirect (general 8(a) contracting); lost selection to V1."},
-    {"name": "F1 — Alaska high-cost broadband subsidy (Alaska Plan / Alaska Connect Fund + AUSF) feeding Adak Eagle", "drop_reason": "in-window (ProPublica/ADN 2026-07-20) and structurally real, but no AI angle, so out of scope for the column's AI-machinery mandate."},
-    {"name": "F2 — Alaska FiberOptic Project last-mile fiber (Calista/Doyon/Gana-A'Yoo/TCC)", "drop_reason": "undated/soft trigger, fails 14-day news-tie window."},
-    {"name": "R1 — FAST-41 Coordinated Federal Permitting, Alaska FiberOptic Segment 1", "drop_reason": "trigger publication 2026-04-08, fails 14-day news-tie window."},
-    {"name": "R2 — Railbelt Reliability Council interconnection standards, RCA approval gate", "drop_reason": "board actions 2026-04-06 / 2026-05-04, over 90 days out, fails 14-day news-tie window."}
+    {
+      "name": "DNR public-and-charitable-use preference conveyance to AIDEA, ADL 234762, ~19,950 acres north of Houston (Mat-Su)",
+      "drop_reason": "recent_repeat"
+    },
+    {
+      "name": "DNR/AIDEA Mat-Su conveyance, news-tie sub-finding (no verifiable in-window primary outlet)",
+      "drop_reason": "no_news_tie"
+    },
+    {
+      "name": "ISDEAA contract support cost recovery stack, $400M ANTHC settlement, DOJ Judgment Fund 31 U.S.C. 1304",
+      "drop_reason": "ai_nexus_ambient_not_structural"
+    },
+    {
+      "name": "Clean Air Act path for islanded behind-the-meter AI data-center generation, EPA Acid Rain carve-out plus ADEC-delegated PSD under 18 AAC 50.306",
+      "drop_reason": "missing_primary_source_per_layer"
+    },
+    {
+      "name": "Bradley Lake Expansion Project financing-and-license stack, FERC No. 8221 plus AEA/Railbelt financing chain",
+      "drop_reason": "diffuse_chokepoint"
+    },
+    {
+      "name": "FPA Section 215 reliability perimeter and Alaska's ERO substitute, 16 U.S.C. 824o(k) plus RRC/RCA standard approval",
+      "drop_reason": "diffuse_chokepoint"
+    },
+    {
+      "name": "USSF Space Systems Command RSLP suborbital buy through Alaska Aerospace Corporation at PSCA Kodiak",
+      "drop_reason": "missing_primary_source_per_layer"
+    },
+    {
+      "name": "ANCSA 43 U.S.C. 1626(e) federal-services holding stack, Chugach Intelligence Solutions LLC NASA Ames award",
+      "drop_reason": "missing_primary_source_per_layer"
+    },
+    {
+      "name": "Railbelt Transmission Organization Open Access Transmission Tariff, RCA docket U-25-028",
+      "drop_reason": "confabulation_risk"
+    }
   ],
-  "_validation_note": "Selected V1. Verbatim correction: the scout's submitted trigger spliced an 'artificial intelligence to help locate mineral deposits' clause that does NOT resolve on the live news story (KTOO/Alaska Beacon, Yereth Rosen, 2026-07-15). The funding sentence and the leadership sentence DO resolve verbatim on the KTOO page and are used as the news trigger. The AI tie is intrinsic-to-the-mechanism and is sourced to the UAF Geophysical Institute primary source, which states the engine will employ 'artificial intelligence to help locate mineral deposits and study new biological methods for extracting minerals.' Chokepoint reframed to NSF TIP Directorate alone (asymmetric cooperative-agreement continuation binary), with NANA subsurface estate as a clean secondary single-actor chokepoint. Window was NOT broadened; a qualifying target cleared at 14 days. All four V1 layers re-verified against primary sources."
+  "no_target_this_cycle": false,
+  "_validation_note": "WINDOW: not broadened. Selection made inside the default 14-day window (2026-07-17 to 2026-07-31); no 21-day retry was needed. OVERLAP ADJUDICATION (candidate 1, surfaced by facilities + vehicles + capital_sovereignty; dropped by regulatory): the mapper ruled WITH the regulatory scout and dropped it, on two independent grounds. (i) News tie fails. Mat-Su Sentinel (pub 2026-07-15, Bushatz/Herz, Anchorage Press) and the Alaska Beacon version (2026-07-16) are both OUTSIDE the window. The capital scout's Big Cabbage Radio 2026-07-28 trigger does not resolve to any page. Northern Journal 503'd on two attempts. The one in-window hit, alaskanews.com 2026-07-28 ('Maggie AlaskaNews'), is an aggregator with a synthetic byline and is not an acceptable trigger. (ii) Recent repeat. It is the same anatomy as the 2026-07-07 issue (ADNR state-land disposal gate, Stak Energy North Slope AI data-center lease): a DNR Division of Mining, Land and Water disposal decision gating an AI data-center-capable site. Different subsection, same structure, three weeks apart. The two-scout convergence on the AS 38.05.810(g) chokepoint was a genuine signal, but convergence on a sharp chokepoint cannot cure a failed news tie or a repeat. VERIFICATION (a): DNR's Public and Charitable Use fact sheet (March 2025), fetched and read in full, settles the statute question: AS 38.05.810 is the DISPOSAL/preference-right authority and AS 38.05.945 is the NOTICE statute. The vehicles scout was right. Public notice (aws.state.ak.us id=224431) confirmed ADL 234762, ~19,950 acres, applicant AIDEA, comment deadline 5:00 PM Wednesday August 19 2026, contact Daniel Jenkins, Area Plan Amendment SC-08-001A04, Land Classification Order SC-08-001A04, Mineral Order 1330. ADL DISCREPANCY UNRESOLVED: no DNR preliminary decision numbered ADL 415712 was locatable, so that number is unverified and must not be published. AS 44.88.140(a) tax-exemption language NOT verified (akleg.gov and law.justia.com unreachable); moot given the drop. VERIFICATION (b): The $400M ANTHC settlement is REAL and IN WINDOW (justice.gov press release 2026-07-21, coverage 2026-07-21 to 2026-07-24). The 25-vs-26 funding-agreement count could NOT be reconciled and must not be published either way. The ANTHC board capital-plan deployment layer remains UNSOURCED at primary level. This candidate passes all seven gate points but was dropped on the desk's AI NEXUS TEST: its AI relevance requires assuming how a 15-seat board will spend non-appropriated capital, which is ambient rather than structural. It is the strongest runner-up and should be reconsidered the moment ANTHC publishes a capital plan. VERIFICATION (c): FULLY RESOLVED. www.fcc.gov still 403s on every path, but docs.fcc.gov is reachable: the mapper fetched and read the complete draft item, FCC-CIRC2608-04, 'Promoting Telehealth in Rural America, Third Further Notice of Proposed Rulemaking and Order, WC Docket No. 17-310,' fact sheet dated July 16 2026. WC Docket 17-310 CONFIRMED. The 6 August 2026 open meeting date CONFIRMED from the FCC document itself, not merely from Benton. The FY2024 Alaska figures CONFIRMED verbatim at para. 14 and the GCI figure at n.52, with FY2025 figures of 34 of 340 and 265 as a bonus. Every layer of the selected mechanism was fetched directly. CHOKEPOINT REFRAMED FOR ASYMMETRY: the scout placed the chokepoint at 'the FCC' voting on 6 August, a five-seat body that would have failed the chokepoint-asymmetry gate as a committee. The mapper moved it to the Wireline Competition Bureau's Telecommunications Access Policy Division, which the Order at para. 47 expressly delegates the FY2028-and-beyond waiver decision to, and which issued the FY2026 waiver alone. VERIFICATION (d): FERC COULD NOT BE CONFIRMED. ferc.gov 403s and elibrary.ferc.gov returns an empty JavaScript shell. There is no fetchable primary record for Project No. 8221, so no post may cite that docket number. Independently, that candidate's chokepoint ('five Railbelt purchaser utility boards') is a committee on its face. ADDITIONAL DROPS: Candidate 5 (ADEC PSD for islanded generation) has the strongest raw AI nexus of anything on the list, but epa.gov/data-centers 404s and dec.alaska.gov 403s, so neither the federal interpretive layer nor the state permitting layer can be primary-sourced, and no ADEC permit application for the Stak campus was shown to exist. Dropped rather than softened. Candidate 6 fails on RCA being a five-member commission and on RRC-FAC-001/-002 still being in drafting, i.e. no live binary. Candidates 7 and 8 fail the AI nexus test outright and have unsourced layers. Candidate 9 is unverifiable (rca.alaska.gov 403). ADJACENCY DISCLOSED: the 2026-07-17 issue was also an FCC matter involving GCI (cable-landing license transfer, Team Telecom review). Ruled not-a-repeat because the mechanism, statute, bureau and chokepoint are all different: universal-service rate determination under 47 U.S.C. 254(h) at the Wireline Competition Bureau versus a 47 U.S.C. 214/Cable Landing License Act transfer review. GCI recurs as a company, not as the mechanism. The editor should nonetheless be aware that GCI has now appeared in two of the last three issues."
 }

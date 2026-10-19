@@ -1,79 +1,104 @@
 {
-  "date": "24 JUL 2026",
+  "date": "31 JUL 2026",
   "column": "The Stack",
   "kicker": "THE STACK",
-  "middle_slot": "VEHICLES",
-  "headline": "Alaska\u2019s Mineral Engine Runs On Two Keys",
+  "middle_slot": "REGULATORY",
   "byline": "",
-  "style_family": "geologic_engraving",
+  "headline": "One Bureau Sets Alaska\u2019s Health Circuit Prices",
+  "style_family": "ukiyo_bokashi",
   "palette": [
-    "#d9eedf",
-    "#a0c8bc",
-    "#759983",
-    "#0a2416",
-    "#04130a",
-    "#9ab1a6",
-    "#e68c2c"
+    "#f4e7e3",
+    "#f2a98f",
+    "#b0587f",
+    "#5a3a63",
+    "#6a6f96",
+    "#22243a",
+    "#ffb347"
   ],
-  "hue_family": "green",
-  "composition": "bilateral_gate",
+  "hue_family": "magenta",
+  "composition": "diagonal_thrust",
   "motifs": [
-    "critical-mineral ore body",
-    "two series valves",
-    "AI triangulation reticle",
-    "geologic strata cross-section",
-    "subsurface conduit"
+    "temporary catwalk",
+    "three props and one empty socket",
+    "lit clinic on an ice terrace",
+    "winter dusk ravine",
+    "spruce stand"
   ],
   "technique_stack": [
     "gradient_v",
+    "ridge_pts",
     "ridge_fill",
     "voronoi_polys",
     "hatch",
-    "glow",
     "stipple",
     "chips",
+    "wobble_pts",
     "hand_line",
-    "grain"
+    "glow",
+    "mottle",
+    "grain",
+    "polaris"
   ],
-  "seed": 724,
+  "seed": 731,
+  "concept": "The catwalk is the FY2027 waiver, the three props are the funding years already covered, and the empty fourth socket is FY2028, the decision that moves to one Bureau division and off any public agenda.",
   "eval_history": [
     {
       "iter": 1,
-      "weighted": 8.13,
+      "weighted": 6.42,
       "weakest": "craft",
-      "note": "AI sightlines collided with kicker; ore tendrils read as an explosion burst; $160M tag dark-on-dark"
+      "note": "props hung from the deck like pendulums with floating black footings; ravine was a flat dark rectangle; terraces read as pack ice, not two sides of a chasm"
     },
     {
       "iter": 2,
-      "weighted": 8.6,
-      "weakest": "detail",
-      "note": "collisions fixed; sightlines confined to right sky; ore reads as ore body; option chip legible"
+      "weighted": 7.31,
+      "weakest": "craft",
+      "note": "landform rebuilt as two snow-capped cliffs over a deepening slot, props now standing on a floor; but the ruled vertical hatch on the faces read as corduroy"
     },
     {
       "iter": 3,
-      "weighted": 8.73,
-      "weakest": "typography",
-      "note": "$160M tag lifted into the above-the-valves zone; ore given internal crystalline facets"
+      "weighted": 7.51,
+      "weakest": "composition",
+      "note": "hatch replaced by ice blocks and irregular fracture, but uniform block texture now covered ~45% of canvas as undifferentiated noise"
+    },
+    {
+      "iter": 4,
+      "weighted": 8.16,
+      "weakest": "craft",
+      "note": "ravine widened to 510px so span and void dominate, face texture calmed toward the edges; missing prop still illegible"
+    },
+    {
+      "iter": 5,
+      "weighted": 8.35,
+      "weakest": "craft",
+      "note": "added sag across the unsupported reach, enlarged stump with lit splintered crown; residual horizontal seam artifact at y~800 and splinters read as flame"
+    },
+    {
+      "iter": 6,
+      "weighted": 8.66,
+      "weakest": "detail",
+      "note": "seam removed, splinters retinted to timber, sag deepened, bokashi cloud banding added to the mid-sky"
     }
   ],
   "eval_final": {
-    "weighted": 8.73,
+    "weighted": 8.66,
     "scores": {
       "concept": 9,
-      "focal": 9,
+      "focal": 8.5,
       "composition": 8.5,
-      "color": 8.5,
-      "detail": 8.5,
-      "craft": 9,
-      "typography": 8.5,
+      "color": 9,
+      "detail": 8,
+      "craft": 8.5,
+      "typography": 9,
       "originality": 8.5,
       "fidelity": 9
-    }
+    },
+    "ship_bar": 8.5,
+    "iterations_used": 6
   },
   "canvas": [
     1080,
     1080
   ],
-  "rendered_at_utc": "2026-07-24T09:38:35.099647Z",
+  "rendered_at_utc": "2026-07-31T09:06:18.372195Z",
   "out_path": "out/post_image.png"
 }
