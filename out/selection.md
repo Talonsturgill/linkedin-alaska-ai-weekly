@@ -1,21 +1,63 @@
-# The Stack — Selection — 2026-07-24
+# Anchorage Desk — Selection — 2026-08-28
 
-**Mechanism.** NSF Regional Innovation Engine — Alaska Critical Minerals Accelerator (AI mineral-discovery cooperative agreement)
+**Subject.** Sydney Scout, Anchorage Assembly Member, District 1 (North
+Anchorage), Seat B, Anchorage Assembly, Municipality of Anchorage.
 
-**Category.** VEHICLES (contracting / grant machinery — an NSF cooperative agreement)
+**ROLE (kicker middle slot).** `MUNICIPAL`
 
-**News trigger.** KTOO / Alaska Beacon (Yereth Rosen), 2026-07-15. "The new Critical Minerals Accelerator Engine in Alaska will receive $15 million in funding for two years and up to $160 million over 10 years. The organization will be located at and led by UAF's Geophysical Institute." (The AI method is sourced to the UAF Geophysical Institute release, not the news brief.)
+**Anchorage tie.** Sitting bowl-based elected official. Identity and role
+confirmed on the official muni.org Assembly member-profiles page (muni email,
+term to 2029). The ordinance she co-sponsors governs APD surveillance and AI
+operating inside the Anchorage bowl.
 
-**Layer count.** 4 layers, each primary-sourced.
-1. NSF award authority / source-selection — NSF TIP Directorate.
-2. Continuation / milestone tranche gate — NSF TIP Directorate (the chokepoint).
-3. Lead institution / Engine CEO (AI method owner) — UAF Geophysical Institute, Lee Ann Munk.
-4. Land / subsurface-estate partner — NANA Regional Corporation (Lance Miller, VP Natural Resources); Alaska Silver.
+**The decision.** Ordinance AO 2026-108, co-sponsored by Scout, would clarify
+existing restrictions on surveillance technology and establish new restrictions
+on license plate reader systems, real-time crime center operations, and live
+camera monitoring. As reported it would bar APD from adding artificial
+intelligence with human-feature recognition capabilities to the network without
+Assembly approval, require a case number for each surveillance-data search,
+require the city to erase individuals' data after two weeks unless it is
+evidence in an active investigation, and prohibit sharing footage with
+out-of-state or federal agencies without a warrant.
 
-**Chokepoint.** Layer 2. NSF TIP Directorate owns the unilateral continue-or-decline decision on the ~$160M scaling tranche at the year-two milestone review (~2028). Because the Engine is a cooperative agreement, not a grant, this is a single funder's go/no-go, not a committee veto. Secondary single-actor chokepoint: NANA controls subsurface-estate access to the deposits the AI targets.
+**Decision date.** 2026-08-04 (introduction and referral, NOT a final vote).
 
-**Structural read.** The $160M headline is optionality, not committed capital. The load-bearing structure is two keys, a federal funder (TIP) holding the money and a private ANCSA landowner (NANA) holding the ground, with AI as the intrinsic method that only pays off if both keys turn.
+**Primary source.** Anchorage Daily News, 2026-08-20
+https://www.adn.com/alaska-news/anchorage/2026/08/20/anchorage-police-may-expand-surveillance-capabilities-some-assembly-members-want-privacy-protections-first/
 
-**Forward implication.** Allocators and PMs with Alaska critical-minerals exposure should map acreage against the Engine's target regions and NANA's estate this week, and calendar the NSF TIP year-two milestone review as the single binary gating the decade tranche.
+**Corroboration (all independent of subject).**
+- Alaska Public Media, 2026-08-21
+- Alaska's News Source (KTUU), 2026-08-28
+- Alaska's News Source (KTUU), 2026-08-05
 
-**CATEGORY (Phase 8 middle slot).** VEHICLES
+**Structural read.** An Anchorage elected official writing AI-surveillance
+governance into municipal code before the capability lands rather than after.
+The RTCC already aggregates a large camera and ALPR network. APD says it does
+not currently run facial recognition, which the Assembly barred in 2023, and
+says it would seek approval before deploying more AI. AO 2026-108 converts that
+voluntary posture into binding code. The tension worth naming is that the
+ordinance rides alongside a live ~$600k RTCC expansion, so a reader can fairly
+ask whether this is forward AI policy or a guardrail bolted onto one
+procurement fight. Both readings are defensible, which is what makes it
+position-takeable.
+
+**Forward implication.** The Sept 1, 2026 Assembly public hearing on
+AO 2026-108, paired with the AM 524-2026 Thundercat RTCC expenditure. Watch
+whether the AI-approval and two-week-retention provisions survive intact, and
+whether the guardrails are sequenced ahead of or behind the hardware spend.
+
+## Caveats the writer must honor
+1. Aug 4 was an **introduction/referral**, not a vote. Do not call it a vote.
+2. Camera counts differ by outlet. Say capacity for up to ~750 feeds with ~238
+   currently registered. Do not assert 750 active cameras.
+3. The Legistar/meetings.muni.org record for AO 2026-108 was unreachable, so
+   the decision rests on four independent news outlets, not the ordinance PDF.
+   Attribute to the outlets inline.
+4. Both Scout quotes are verified verbatim. No other quote may be attributed.
+
+## Dropped
+- Daniel Volland (same ordinance, weaker documented owner)
+- Nathan Reed / Northrim-Narmi (single-sourced to one press release)
+- Randy Ruaro / AIDEA Mat-Su land (in-window artifact is agency-owned)
+- Brandon Briggs / NSF EPSCoR (PI identity inferred, not confirmed)
+- Founders slice (empty)

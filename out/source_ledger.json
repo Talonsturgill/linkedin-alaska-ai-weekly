@@ -1,22 +1,49 @@
 {
+  "run_date": "2026-08-28",
+  "column": "Anchorage Desk",
+  "subject": "Sydney Scout, Anchorage Assembly Member, District 1 (North Anchorage), Seat B",
+  "decision": "Ordinance AO 2026-108, introduced and referred 2026-08-04",
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "url": "https://www.adn.com/alaska-news/anchorage/2026/08/20/anchorage-police-may-expand-surveillance-capabilities-some-assembly-members-want-privacy-protections-first/",
+      "outlet": "Anchorage Daily News (PRIMARY SOURCE)",
+      "pub_date": "2026-08-20",
+      "story_title": "Anchorage police may expand surveillance capabilities; some Assembly members want privacy protections first. Independent of subject: YES.",
+      "independent_of_subject": true,
+      "role": "primary_source"
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "url": "https://alaskapublic.org/news/anchorage/2026-08-21/as-anchorage-assembly-weighs-police-surveillance-upgrade-some-members-want-privacy-protections-first",
+      "outlet": "Alaska Public Media (corroborator)",
+      "pub_date": "2026-08-21",
+      "story_title": "As Anchorage Assembly weighs police surveillance upgrade, some members want privacy protections first. Source of the first verified Scout quote. Independent of subject: YES.",
+      "independent_of_subject": true,
+      "role": "corroborator"
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "url": "https://www.alaskasnewssource.com/2026/08/28/looking-inside-anchorage-polices-real-time-crime-center/",
+      "outlet": "Alaska's News Source / KTUU (corroborator)",
+      "pub_date": "2026-08-28",
+      "story_title": "Looking inside Anchorage Police's Real-Time Crime Center. Source of the ~238 registered cameras figure. Independent of subject: YES.",
+      "independent_of_subject": true,
+      "role": "corroborator"
+    },
+    {
+      "url": "https://www.alaskasnewssource.com/2026/08/05/anchorage-police-seeking-upgrades-real-time-crime-monitoring/",
+      "outlet": "Alaska's News Source / KTUU (corroborator)",
+      "pub_date": "2026-08-05",
+      "story_title": "Anchorage Police seeking upgrades to real-time crime monitoring. Independent of subject: YES.",
+      "independent_of_subject": true,
+      "role": "corroborator"
+    },
+    {
+      "url": "https://www.muni.org/Departments/Assembly/Pages/AssemblyMemberProfiles.aspx",
+      "outlet": "Municipality of Anchorage, Assembly member profiles (identity verification)",
+      "pub_date": "accessed 2026-08-28",
+      "story_title": "Official MOA roster confirming Sydney Scout as a sitting District 1 Assembly member. Subject-affiliated institution, used for identity verification only. Independent of subject: NO.",
+      "independent_of_subject": false,
+      "role": "identity_verification"
     }
-  ]
+  ],
+  "sourcing_note": "The Legistar / meetings.muni.org record for AO 2026-108 was unreachable on every attempt this run, so the ordinance's provisions rest on four independent news outlets rather than the ordinance PDF itself. Subject identity was separately confirmed against the official MOA Assembly roster. The post attributes the provisions to the outlets inline."
 }

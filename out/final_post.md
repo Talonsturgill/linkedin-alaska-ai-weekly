@@ -1,22 +1,17 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+Sydney Scout co-sponsored an ordinance that would bar Anchorage police from adding AI human-feature recognition to the Real-Time Crime Center without Assembly approval. Public hearing is September 1.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+Scout represents District 1, North Anchorage, on the Anchorage Assembly, with a term running to 2029.
 
-Four layers carry the machinery.
+The ordinance is AO 2026-108, introduced and referred on August 4. According to the Anchorage Daily News, it would write existing surveillance limits into municipal code and add new ones covering license plate readers, crime center operations, and live camera monitoring. As Alaska Public Media reported, APD could not add artificial intelligence with human-feature recognition capabilities to the network without Assembly approval, subject to temporary authorization and annual reporting.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+It would also require a case number for every surveillance-data search, erase individual data after two weeks unless it’s evidence in an active investigation, and bar sharing footage with federal or out-of-state agencies, including DHS, without a warrant. The binary Scout owns is whether the Assembly decides when algorithmic recognition goes live, or APD does.
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+The Anchorage Daily News puts the network’s capacity at up to roughly 750 camera feeds. Alaska’s News Source reported on August 28 that about 238 are currently registered through Axon, alongside traffic cameras, drones, and plate readers.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn.
+APD says it doesn’t run facial recognition today, and the Assembly banned it in 2023. That last fact cuts both ways. Skeptics can fairly argue the 2023 ban already covers the core worry, and that AO 2026-108 mostly adds approval friction plus a two-week retention cap that could complicate live investigations. The read here is that the sequencing is still right. A vendor-neutral approval gate is durable in a way a single procurement fight isn’t, because it governs whatever tool APD buys next, not just the one on the table now. Scout told ADN, “We need to increase trust before we increase the power of this surveillance system.” The fair criticism is timing. The ordinance rides alongside a pending RTCC expansion of roughly $600,000, AM 524-2026, which makes it easy to read as a guardrail bolted onto one contract rather than standing AI policy.
 
-A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+September 1 settles part of that. Watch whether the AI-approval provision and the two-week retention default survive amendment, and whether the guardrails get voted before or after the hardware money, heading into the 2027 budget cycle.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+Should prior Assembly approval for human-feature recognition live in municipal code, or does that put a legislative body in the middle of an operational call it isn’t equipped to make?
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
-
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+#AlaskaAI #AIPolicy #ProcurementReform #ArcticInnovation
