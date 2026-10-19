@@ -1,22 +1,40 @@
 {
   "sources": [
     {
-      "outlet": "KTOO / Alaska Beacon (Yereth Rosen)",
-      "url": "https://www.ktoo.org/2026/07/15/alaska-university-gets-funding-for-critical-minerals-center/",
-      "pub_date": "2026-07-15",
-      "story_title": "News trigger — Alaska university gets funding for critical minerals center ($15M/2yr, up to $160M/10yr; UAF Geophysical Institute led)"
+      "outlet": "Alaska's News Source (KTUU/KTVF)",
+      "url": "https://www.alaskasnewssource.com/2026/08/28/alaska-municipal-league-confronts-alaskas-future-with-data-centers/",
+      "pub_date": "2026-08-27",
+      "story_title": "News trigger — Alaska Municipal League conference, Fairbanks. GVEA COO Nathan Minnema on large loads: “That would determine if we have the ability to serve it or not.” MOA Policy Director Nolan Klouda on the Anchorage framework."
     },
     {
-      "outlet": "National Science Foundation",
-      "url": "https://www.nsf.gov/news/nsf-awards-12-new-regional-innovation-engines-fuel-research",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 1-2 — NSF awards 12 new Regional Innovation Engines; milestone continuation to up to $160M each over a decade (NSF TIP Directorate)"
+      "outlet": "Municipality of Anchorage",
+      "url": "https://www.muni.org/Departments/Assembly/Documents/AO%202026-27.pdf",
+      "pub_date": "2026-03-27",
+      "story_title": "Layers 1-4 (PRIMARY) — AO 2026-27 text amending AMC Title 21. Data center defined at 20 MW peak demand; data centers made a conditional use in I-1/I-2/I-3; mandatory written system-capacity statement from the electrical utility; wastewater utility burden shift. NOTE: recovered document is the as-introduced version (reading 2026-02-17); enacted 2026-03-27, 10-2."
     },
     {
-      "outlet": "UAF Geophysical Institute",
-      "url": "https://www.gi.alaska.edu/news/national-science-foundation-funds-uaf-led-critical-minerals-coalition",
-      "pub_date": "2026-07-14",
-      "story_title": "Layers 3-4 + AI method — UAF-led critical minerals coalition; AI to locate deposits and biological methods to extract; Lee Ann Munk (Engine CEO), NANA Regional Corp (Lance Miller), Alaska Silver"
+      "outlet": "Municipality of Anchorage, Office of Community Planning and Development",
+      "url": "https://www.muni.org/Departments/OCPD/Planning/zoning/selfHelp/Pages/CondUsePermits.aspx",
+      "pub_date": "n/a",
+      "story_title": "Layers 5 and 7 (PRIMARY) — conditional use permit process. “No matter how many Commissioners are present it takes 5 yes votes to approve.” Appeal to the Board of Adjustment via the Municipal Clerk."
+    },
+    {
+      "outlet": "Chugach Electric Association",
+      "url": "https://www.chugachelectric.com/about-us",
+      "pub_date": "n/a",
+      "story_title": "Layer 3 actor identity (PRIMARY) — “Chugach is the largest member-owned electric cooperative in Alaska”; territory extends from Anchorage to the northern Kenai Peninsula."
+    },
+    {
+      "outlet": "Alaska Department of Natural Resources",
+      "url": "https://dnr.alaska.gov/mlw/water/rights/",
+      "pub_date": "n/a",
+      "story_title": "Layer 6 (PRIMARY) — Alaska water rights. “Public notice is required if the appropriation is greater than 5,000 gpd.” (AS 46.15 / 11 AAC 93)"
+    },
+    {
+      "outlet": "Davis Wright Tremaine (Kearns, Sparks, Hodes)",
+      "url": "https://www.dwt.com/blogs/energy--environmental-law-blog/2026/04/anchorage-adopts-data-center-framework",
+      "pub_date": "2026-04-09",
+      "story_title": "Post-enactment corroboration (SECONDARY) — independently confirms the 20 MW threshold, the 200-foot setback and the capacity-demonstration requirement in the enacted ordinance."
     }
   ]
 }

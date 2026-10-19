@@ -1,20 +1,19 @@
-NSF just seeded a UAF-led AI mineral-discovery Engine in Alaska with $15 million over two years, and up to $160 million over a decade if it clears its milestones. That decade figure is an option, not a check.
+Anchorage’s data center ordinance hands the binding siting call to an electric cooperative, not to City Hall. The gate surfaced last week in Fairbanks, where the Alaska Municipal League took up data centers.
 
-The mechanism is an NSF Regional Innovation Engine cooperative agreement, funding a coalition run out of UAF’s Geophysical Institute to use AI to locate and commercialize Alaska critical-mineral deposits, per the Institute’s own release (KTOO and Alaska Beacon reported the award on July 15).
+AO 2026-27 made data centers a conditional use in industrial districts only, then made a written system capacity statement from the serving electrical utility a mandatory part of the application.
 
-Four layers carry the machinery.
+- Use classification, makes data centers conditional in the I-1, I-2 and I-3 industrial districts and no residential district, Anchorage Assembly, adopted 27 March 2026, 10-2.
+- Threshold, captures facilities needing 20 megawatts or more at peak and splits small from large at 2,000 servers, Planning Director, who waives the 200-foot residential setback only for small ones.
+- Electrical statement, proves sufficient system capacity at peak before the application is complete, the serving utility, Chugach Electric Association in the Anchorage Bowl.
+- Adjudication, grants or denies the permit, Planning and Zoning Commission, nine mayoral appointees, five yes votes required no matter how many are seated.
+- Water appropriation, permits onsite cooling water with public notice above 5,000 gpd, ADNR.
 
-- NSF award authority, selects and funds the Engine and sets the $15M two-year seed, controlled by the NSF Directorate for Technology, Innovation and Partnerships (TIP).
-- Continuation gate, converts the seed into the roughly $160M decade tranche only on milestone progress, controlled by NSF TIP.
-- Lead institution, hosts the Engine and directs the AI-driven discovery program, controlled by UAF’s Geophysical Institute with Lee Ann Munk as Engine CEO.
-- Subsurface-estate partner, controls access to the ground the AI targets, controlled by NANA Regional Corporation (Lance Miller, VP Natural Resources) with Alaska Silver as exploration partner.
+Leverage sits on the third layer. The capacity statement is a mandatory application component, not a criterion weighed at the hearing. No statement, no complete application, no hearing. Chugach is the largest member-owned electric cooperative in Alaska, not a municipal department, and no municipal body can override it. GVEA COO Nathan Minnema, per Alaska’s News Source on 27 August, put it plainly. “The larger it gets, the more detailed the analysis gets. That would determine if we have the ability to serve it or not.”
 
-The chokepoint sits in layer two. Because this is a cooperative agreement and not a grant, NSF TIP holds a unilateral continue-or-decline decision on the roughly $160M scaling tranche at the year-two milestone review, expected around 2028. That’s one funder’s go/no-go, not a committee veto.
+The code gives that determination no rebuttal path, and that isn’t an oversight. The drafters knew how to write one. In the as-introduced text, an adverse wastewater statement creates a presumption beatable only by clear and convincing evidence. The electrical statement gets nothing. Anchorage turned a private interconnection study into a precondition for public land use approval. Municipal policy director Nolan Klouda says there are no real proposals in town right now. Building the gate early is defensible. It also set the terms with no counterparty in the room.
 
-The structural read is that the Engine runs on two keys, not one. TIP holds the money key at the milestone review, and NANA holds the ground key over its ANCSA subsurface estate. AI is the method that ties them together, but it only pays off if both keys turn. A deposit the model flags is worthless if the tranche lapses or the landowner declines access. Alaska holds 56 of the 60 USGS-designated critical minerals, so the geology is real. The capital and the access are the open questions.
+The ordinance writes its own escape. Every utility statement requirement is conditioned on connecting to the grid, public water, or public sewer. Behind the meter generation with closed loop cooling triggers none of them. Anchorage priced grid connected compute and left off grid compute comparatively unpriced. Mat-Su Borough has no data center rule, FNSB’s comprehensive plan is in draft, and the AML conference just positioned Anchorage as the statewide template. The copying window is open now.
 
-For allocators with Alaska critical-minerals exposure (Alaska Silver, NANA-linked JVs, exploration vendors), this week is the week to map acreage against the Engine’s target regions and NANA’s subsurface estate, and to calendar the NSF TIP year-two review as the single binary gating the decade tranche. Treat the $160M as an option you have to underwrite, not committed capital.
+Should a withheld electrical capacity statement carry a rebuttal path, given Anchorage wrote one for wastewater and none for power?
 
-So which key is the real constraint on Alaska’s mineral engine, NSF TIP’s 2028 continuation call or NANA’s consent on the ground?
-
-#AlaskaAI #ArcticInnovation #FederalContracting #CriticalMinerals
+#AlaskaAI #DataCenters #GridPolicy #EnergyPolicy #AIPolicy

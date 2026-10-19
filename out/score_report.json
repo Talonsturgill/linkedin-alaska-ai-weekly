@@ -1,22 +1,110 @@
 {
-  "column": "The Stack",
-  "date": "2026-07-24",
-  "criteria": [
-    {"name": "Hook strength", "score": 9, "weight": 0.10, "notes": "First two lines carry the mechanism (NSF AI Engine), the news trigger ($15M/$160M award), and signal the correction ('an option, not a check') within the ~210-char window, no snark."},
-    {"name": "Mechanism load-bearing + AK consequence", "score": 9, "weight": 0.18, "notes": "Cooperative-agreement optionality genuinely drives an AK capital decision; consequence is concrete (critical-minerals sector, named allocators, ~2028 review). Both sides real."},
-    {"name": "Layer fidelity", "score": 10, "weight": 0.14, "notes": "All four layers and every controlling actor match the dossier verbatim; no invented layers; chain is complete and readable."},
-    {"name": "Chokepoint clarity", "score": 8, "weight": 0.13, "notes": "Primary chokepoint is crisp (layer two, NSF TIP, binary go/no-go, 'not a committee veto'), but the two-key framing adds NANA as a second actor, slightly diffusing the single-leverage claim."},
-    {"name": "Structural read", "score": 9, "weight": 0.12, "notes": "Takes a real, grounded position (two keys, AI only pays if both turn, 'capital and access are the open questions'), proportionate and mechanism-based, not a neutral explainer."},
-    {"name": "Forward implication", "score": 9, "weight": 0.08, "notes": "Names the next decision (NSF TIP year-two review ~2028), who is positioned (Alaska Silver, NANA JVs, vendors), and a this-week action. Concrete and datable."},
-    {"name": "Primary-source quality", "score": 9, "weight": 0.10, "notes": "Every layer traces to a primary source in the dossier (NSF agency page, UAF GI release); chokepoint cites the NSF agency page. AI attribution correctly sourced to UAF GI per validation note."},
-    {"name": "Voice match", "score": 9, "weight": 0.08, "notes": "Analytical, structural, Alaska-first, plain-language, business-literate; no banned phrases; reads like the analyst voice, not explainer-bot or influencer cadence."},
-    {"name": "Readability (LinkedIn)", "score": 7, "weight": 0.04, "notes": "Word count and char count in range, bullet block well-formed (4 single-clause items). Structural-read paragraph split into two after scoring for tighter mobile scan."},
-    {"name": "Engagement question", "score": 9, "weight": 0.03, "notes": "Closes with a real, debatable question tied directly to the chokepoint (which key is the real constraint), no CTA or rhetorical softener."}
+  "rubric_file": "config/stack_rubric.yaml",
+  "artifact": "out/final_post.md",
+  "hard_fail_checks": [
+    {
+      "name": "hashtag_count_in_range",
+      "result": "pass",
+      "detail": "5 hashtags, single final line, all in brand.yaml whitelist, none inline."
+    },
+    {
+      "name": "punctuation_bans_held",
+      "result": "pass",
+      "detail": "0 em-dashes, 0 en-dashes, 0 double-hyphens, 0 colons, 0 semicolons. All hyphens are intra-token."
+    },
+    {
+      "name": "total_char_count_under_linkedin_cap",
+      "result": "pass",
+      "detail": "2985 chars body + hashtag line, verified by the orchestrator after the final quote-fidelity edit. Under the 3000 cap with 15 characters of headroom."
+    },
+    {
+      "name": "word_count_in_range",
+      "result": "pass",
+      "detail": "448 body words including bullet markers, 443 excluding. Both inside 350 to 475."
+    },
+    {
+      "name": "mechanism_named_and_news_tied",
+      "result": "pass",
+      "detail": "Names AO 2026-27 and the serving-utility written system capacity statement, tied to the 27 August AML conference in Fairbanks plus the verbatim Minnema quote in selected_mechanism.news_trigger."
+    },
+    {
+      "name": "every_layer_attributed",
+      "result": "pass",
+      "detail": "Five bullets map to L1, L2, L3, L5, L6 with matching controlling actors; the L4 wastewater reference is dossier-backed and hedged as as-introduced text with no utility identity asserted. No invented layer or actor. No appeal clock or standard of review asserted, matching the L7 drops."
+    },
+    {
+      "name": "chokepoint_named",
+      "result": "pass",
+      "detail": "Names L3 explicitly, the actor (serving utility, Chugach Electric Association, non-municipal cooperative), and the withhold side of the binary. Not a generic stand-in."
+    }
   ],
-  "weighted_total": 8.93,
+  "criteria": [
+    {
+      "name": "Hook strength",
+      "weight": 0.1,
+      "score": 9,
+      "notes": "First paragraph is 207 chars, inside the ~210 see-more cutoff, carrying mechanism, actor class, news trigger and the correction without snark. Held off 10 because 'data center ordinance' and 'an electric cooperative' sit one abstraction level above AO 2026-27 and Chugach."
+    },
+    {
+      "name": "Mechanism load-bearing + AK consequence",
+      "weight": 0.18,
+      "score": 9,
+      "notes": "The capacity statement genuinely gates any grid-connected 20 MW facility in Anchorage; sector, decision, named actor and window all present. Short of 10 because the consequence stays categorical, with no pending applicant or dollar figure."
+    },
+    {
+      "name": "Layer fidelity",
+      "weight": 0.14,
+      "score": 8,
+      "notes": "Every layer and actor traces to selected_mechanism.layers[], no confabulation. Two actors are compressed rather than matched ('Planning Director', bare 'ADNR')."
+    },
+    {
+      "name": "Chokepoint clarity",
+      "weight": 0.13,
+      "score": 9,
+      "notes": "One layer, one non-municipal actor, asymmetry earned through the mandatory-component-not-criterion distinction and the wastewater-has-a-rebuttal-path contrast. Off 10 because the issue-or-withhold binary is inferred rather than stated and the 'no published timeline' asymmetry is dropped."
+    },
+    {
+      "name": "Structural read",
+      "weight": 0.12,
+      "score": 8,
+      "notes": "Takes a real, fair position. Docked because the thesis is distributed across two paragraphs and never lands the dossier's sharpest formulation, that the binding constraint is interconnection rather than zoning."
+    },
+    {
+      "name": "Forward implication",
+      "weight": 0.08,
+      "score": 8,
+      "notes": "Names the copying window and the two jurisdictions drafting off the template. Falls short of 10 because there is no dated decision point and no explicit who-is-positioned line."
+    },
+    {
+      "name": "Primary-source quality",
+      "weight": 0.1,
+      "score": 9,
+      "notes": "All five used layers rest on primary sources and the chokepoint is primary code text double-sourced against post-enactment analysis. Off 10 because the ordinance read is the as-introduced version (Municode 403'd)."
+    },
+    {
+      "name": "Voice match",
+      "weight": 0.08,
+      "score": 7,
+      "notes": "Analytical, structural, Alaska-first, plainspoken. One drift: the bullet block is comma-chained docket shorthand rather than post_001's full-sentence bullets, and several compounds read clipped."
+    },
+    {
+      "name": "Readability (LinkedIn)",
+      "weight": 0.04,
+      "score": 7,
+      "notes": "Word and char windows met and the bullet block is 5 items, but two paragraphs run 6 sentences, past the 2 to 4 sentence guideline."
+    },
+    {
+      "name": "Engagement question",
+      "weight": 0.03,
+      "score": 10,
+      "notes": "Debatable, specific to the chokepoint, built on the post's own strongest structural finding. No CTA, no rhetorical softener."
+    }
+  ],
+  "weighted_math": "0.90 + 1.62 + 1.12 + 1.17 + 0.96 + 0.64 + 0.90 + 0.56 + 0.28 + 0.30",
+  "weighted_total": 8.45,
   "threshold": 8.0,
+  "hard_fail": null,
   "ship": true,
-  "hard_fails": [],
-  "weakest_criterion": "Readability (LinkedIn)",
-  "one_sentence_fix": "Split the six-sentence structural-read paragraph into two tighter paragraphs (applied)."
+  "weakest_criterion": "Voice match",
+  "orchestrator_note": "Scorer returned ship at 8.45 on the first scoring pass, no revision cycles needed. The scorer's one fidelity nit, that the Minnema quote spliced two separately-attributed utterances into one continuous quotation, was fixed after scoring by closing and reopening the quotation (a 2-character change), so the post now presents them as two utterances as the dossier records them. Final length 2985 characters."
 }
